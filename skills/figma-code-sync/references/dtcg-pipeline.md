@@ -130,16 +130,19 @@ the tokens you already have. It takes an hour and it tells you which of the four
 failure classes you are dealing with — they need different fixes, and only the
 first is what people expect.
 
-From a real comparison of a Figma library against the SCSS it ships as:
+From a real comparison of a Figma library against the SCSS it ships as. The
+colour values below are stand-ins — the shape of each difference is the point,
+and the real palette is nobody else's business:
 
 **1 · Same name, different value.** The boring case, and the rarest.
-`colors/primary/50` was `#426fe4` in Figma and `#4270e4` in code — one hex digit,
+`colors/primary/50` was `#3a6fe0` in Figma and `#3a70e0` in code — one hex digit,
 invisible to everyone, caught in a second by a machine. `colors/neutral/40`
-differed properly (`#646568` vs `#5d5e61`), and `colors/primary/60` was a
+differed properly (two greys a shade apart), and `colors/primary/60` was a
 different colour entirely.
 
 **2 · The ordinal means different things on each side.** Figma's
-`colors/primary/25` held `#00297a`, which in the code is `$color_primary_20`;
+`colors/primary/25` held one dark blue, and the code holds that exact value under
+`$color_primary_20`;
 the code's own `primary_25` was a third colour that Figma does not have. A
 name-matched diff reports this as a value mismatch and you "fix" it by
 overwriting one side. It is really the failure that

@@ -55,7 +55,8 @@ Three things about v4 that each cost a wrong report:
   references itself as a re-export, not an error.
 - **`@theme` is not an inventory.** Enumerating everything in it — `--color-*`
   in particular — counts re-exports of tokens that already exist elsewhere, and
-  inflates "present in code only" (measured: from 91 to 241). Enumerate the
+  inflates "present in code only" — measured once at nearly three times the real
+  figure. Enumerate the
   declarations, then subtract the ones whose value is a reference to a name you
   have already counted.
 

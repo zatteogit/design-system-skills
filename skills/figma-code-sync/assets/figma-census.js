@@ -465,10 +465,10 @@ async function censusPage() {
  * place. This function's own job is only the two things that need the page:
  * counting the bindings per class/field, and following the alias chains.
  *
- * Measured on a production library: 1.796 live bindings onto 16 deleted variables
- * across THREE alias layers, one of them carrying the letterSpacing of 539 text
- * nodes. Before the class existed they were reported as "remote/unknown" — the
- * bucket nobody acts on.
+ * Measured on a production library: over a thousand live bindings onto more than
+ * a dozen deleted variables, spread across three tiers, one of them carrying the
+ * letterSpacing of several hundred text nodes. Before the class existed they were
+ * reported as "remote/unknown" — the bucket nobody acts on.
  *
  * Read `aliasChains`: a deleted variable usually aliases another deleted one, so
  * recreating only the layer the nodes touch fixes nothing.

@@ -222,11 +222,11 @@ skills document the call as if it always works.
 | Trap | What actually happens |
 |---|---|
 | **`maxWidth`/`minWidth` on an instance** | Cannot be overridden. `setBoundVariable("maxWidth", v)` **returns success and leaves `maxWidth: null`.** Silent no-op — fix the main component. |
-| **`letterSpacing` on TEXT** | `boundVariables.letterSpacing` is an **ARRAY**, and `setBoundVariable` **appends to it instead of replacing**. The authoritative binding is the per-**range** one: the call succeeds, the segment keeps pointing at the old variable, and the node ends up with two entries. Use `setRangeBoundVariable(0, node.characters.length, "letterSpacing", v)`, which replaces the segment *and* collapses the array. Repointing 537 nodes the wrong way produced 537 duplicates that read as "success". |
+| **`letterSpacing` on TEXT** | `boundVariables.letterSpacing` is an **ARRAY**, and `setBoundVariable` **appends to it instead of replacing**. The authoritative binding is the per-**range** one: the call succeeds, the segment keeps pointing at the old variable, and the node ends up with two entries. Use `setRangeBoundVariable(0, node.characters.length, "letterSpacing", v)`, which replaces the segment *and* collapses the array. Repointing hundreds nodes the wrong way produced hundreds duplicates that read as "success". |
 | `fills`/`strokes` binding | `node.setBoundVariable("fills", v)` throws; bindings go on the *paint*: `figma.variables.setBoundVariableForPaint(paint, "color", v)` returns a **new** paint you must reassign. |
 | Bound paints and tint | A bound paint carries the variable's colour, so it cannot also carry an opacity tint. Move alpha to the node's `opacity` (only if it has no children) or use a gradient with alpha in the stops. |
 | Creating an instance | Resets paint overrides. Re-check colours after every swap. |
-| **Reading back anything you just mutated** | State read in the *same* call that wrote it is unreliable — this is not only `resize()`. Inner layout is not recomputed after a resize, and `boundVariables` after a repoint reports partially-stale entries: an in-call check said "537 left", a separate call over the same nodes found 0, and **both were wrong**. **Mutate in one call, verify in the next.** A verification sharing a call with its mutation is not evidence. |
+| **Reading back anything you just mutated** | State read in the *same* call that wrote it is unreliable — this is not only `resize()`. Inner layout is not recomputed after a resize, and `boundVariables` after a repoint reports partially-stale entries: an in-call check said "hundreds left", a separate call over the same nodes found 0, and **both were wrong**. **Mutate in one call, verify in the next.** A verification sharing a call with its mutation is not evidence. |
 | `FILL` in a horizontal multi-child parent | Distributes *remaining* space among FILL children — a row can collapse to a fraction of the parent. Worst inside a wrap container. |
 | `FILL` on text in a tight parent | Squeezes it to one character per line. Constrain the container; let the text reflow. |
 | `resize()` on a VECTOR after `vectorPaths` | Stretches the geometry. Size the node first, then set paths. |
@@ -303,9 +303,9 @@ asking only "is this id local?" files it under *remote*, the bucket you skim pas
 `CENSUS="page"` now reports `bindingTargets`, which separates **local / remote /
 deleted-still-bound / dangling** and follows the alias chains — because a deleted
 variable usually aliases another deleted one, and recreating only the layer the
-nodes touch fixes nothing. Measured on a production library: **1.796 live
-bindings onto 16 deleted variables across three layers**, one carrying the
-`letterSpacing` of 539 text nodes.
+nodes touch fixes nothing. Measured on a production library: **over a thousand live bindings onto more
+than a dozen deleted variables, spread across three layers** — one of them
+carrying the `letterSpacing` of several hundred text nodes.
 
 Recovering them is usually the right call rather than rebinding away, because they
 encode intent nothing else in the file expresses (control heights, state opacity).
