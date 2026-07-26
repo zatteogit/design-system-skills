@@ -30,8 +30,21 @@ the point: this table is checkable, and a file key is not needed to check it.
 | Variable descriptions | **0 / 304** | **0 / 283** | 41 / 347 (12%) | — |
 | `codeSyntax` set | **0 / 304** | **0 / 283** | **347 / 347 (100%)** | — |
 | `ALL_SCOPES` | 57 / 304 | 110 / 283 | 120 / 347 | — |
-| Fills on a content page | — | — | — | 0 bound · **1833 via style** · 68 literal |
-| Instance : frame on a content page | — | — | — | 203 : 1263 (**0.16**) |
+
+### On a content page
+
+The same page in each: the one the kit calls **Examples**, where it assembles
+screens out of its own components. This is the measurement that says whether the
+system is used, as opposed to merely present.
+
+| | **Material 3** | **iOS/iPadOS 27** | **Simple Design System** | **The M3 fork** |
+|---|---|---|---|---|
+| Nodes | 2 460 | 9 189 | 3 542 | — |
+| Fills: bound · via style · literal | 1090 · 9 · 71 | 2507 · 175 · **2562** | **1577 · 0 · 20** | 0 · **1833** · 68 |
+| Share of fills bound | 93% | **48%** | **99%** | **0%** |
+| Instances : frames | 519 : 1080 (**0.48**) | 3059 : 2301 (1.33) | 1372 : 545 (**2.52**) | 203 : 1263 (**0.16**) |
+| Text nodes on a token | 419/428 (98%) | 1837/2247 (82%) | 1091/1093 (**99.8%**) | — |
+| Slot nodes | 6 | 162 | **224** | — |
 
 ## What the numbers say
 
@@ -79,6 +92,29 @@ System has **one** paint style; M3 has 727. A census that reads only
 `boundVariables` under-reports on any file with a large style count, and a
 migration that moves colour to variables without deleting the styles leaves two
 carriers for the same decision.
+
+**The instance-to-frame ratio separates the three kits by a factor of five, and
+the surprise is which way.** Simple Design System assembles its examples almost
+entirely out of instances (2.52). Apple sits at 1.33. **Material 3 is at 0.48** —
+more raw frames than instances on its own Examples page, which puts the most
+adopted kit in the world closer to the abandoned fork (0.16) than to the
+well-built system. Read this before concluding that a low ratio means an amateur
+file: it means the *page* was drawn rather than composed, and vendors do it too,
+usually because the example is a picture of a screen rather than a screen.
+
+**A large variable count does not mean the canvas uses them.** Apple's kit has
+283 variables and **2562 literal fills on one page** — 48% of fills bound, and
+82% of text on a token. Simple Design System has fewer nodes and **20** literal
+fills in total. This is the gap between "the tokens exist" and "the tokens are
+what the file is made of", and only a page census shows it; the collection
+inventory looks healthy in both.
+
+**Slots are being adopted now, so their absence has stopped being neutral.**
+224 slot nodes on one page in Simple Design System, 162 in Apple's kit — against
+6 in Material 3. In a library built before slots went GA, zero is just history;
+in a kit shipped in 2025–26, zero means composition is still being expressed with
+`INSTANCE_SWAP` and booleans. Check the file's age before reading the number.
+→ [slots.md](slots.md)
 
 **A stale copy is recognisable by shape, not by date.** The four-year-old fork
 shows all three signatures at once: no variables (they did not exist when it was

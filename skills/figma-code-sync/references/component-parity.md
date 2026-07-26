@@ -166,6 +166,16 @@ Read the two numbers together:
   and fix the layout, not the API.
 - **A `*StyleId` override at high share is its own category**: the instance is
   swapping a *style*, not a property. That belongs in a variant or a mode.
+- **A field at exactly 1.00 across several *unrelated* components is a property
+  of the measurement, not a shared defect.** Run on three official kits, the top
+  of the ranking filled with `name`, `boundVariables` and `primaryAxisSizingMode`
+  sitting at 30/30 and 24/24 on components that have nothing to do with each
+  other. A real missing variant is specific to one component; a field that
+  saturates everywhere is how `overrides` records structure. **Open one instance
+  and look before reporting it** — and when a field turns out to be noise in your
+  file, add it to `expectedOverrides` rather than explaining it again every run.
+  The three that survived that check on those kits — `width`/`height`, `fills`
+  with `fillStyleId`, and `fontSize` — were real, and each names a different fix.
 - An override rate near zero on a component with many instances is a healthy
   component, and worth saying so in the report.
 - **Ignore components with few instances.** A floor of ~10 keeps single-use noise

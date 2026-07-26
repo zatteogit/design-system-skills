@@ -129,6 +129,12 @@ Slots went GA recently; anything built before that expresses composition with
 **`INSTANCE_SWAP` + boolean visibility**, and that pattern still works. So a zero
 means "built earlier", not "built wrong".
 
+**Check the file's age before extending that courtesy, because adoption has
+moved.** Measured on the Examples page of three current public kits: **224** slot
+nodes in one, **162** in the second, **6** in the third. In a kit shipped after
+GA, a near-zero is a choice rather than history — worth one question in the
+report, not a finding. The census cannot see the build date, so ask.
+
 So the finding is never "you have no slots". It is narrower: **a component whose
 `INSTANCE_SWAP` and hidden-placeholder machinery is straining** — three optional
 rows, a `Has extra content` boolean, a swap property whose preferred values keep
