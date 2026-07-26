@@ -60,6 +60,32 @@ only when the count is genuinely large, and know that you have changed category.
 Read §2 either way: even on a greenfield repo you will eventually need to place
 one pattern somewhere other than "hard", and the reasoning is the same.
 
+### The third case, and the most common: a guard already exists
+
+Neither column fits a repo that already has a mature guard. The question there is
+not which instrument to install but **whether the guard is doing what it
+claims** — and that is a different, shorter job with its own checklist. Do it
+before proposing any change, because a guard that has quietly stopped checking
+makes every number downstream of it wrong.
+
+```bash
+# 1 · Run EVERY script the project declares, not just the one CI names.
+node -e "const s=require('./package.json').scripts;console.log(Object.keys(s).filter(k=>/ds|guard|token|design/.test(k)))"
+# 2 · Compare that against the flags the code actually reads.
+grep -o "process\.argv[^)]*\|--[a-z-]\{3,\}" scripts/ds-guard.* | sort -u
+# 3 · Every declared script must exit non-zero when it should fail (§6).
+```
+
+A declared-but-unimplemented script is the failure this skill is about, wearing a
+green tick: in one repo `--self-test`, `--report` and `--report-json` were in
+`package.json` and implemented nowhere, and CI ran the first of them under a step
+called *"Guard regression probes"*. Nothing failed, because nothing ran. Then
+check, in this order: does each rule have a **negative** probe that has been seen
+to fail (§6); is the exception list **stale** (§8); and does the baseline's
+content sit inside or outside the perimeter
+([enforcement-model.md](references/enforcement-model.md) — a stable baseline
+outside the perimeter is a resting state, not a backlog).
+
 ## 2. The four instruments
 
 Almost every failure of design-system enforcement on an **existing** codebase is

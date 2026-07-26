@@ -41,6 +41,24 @@ Namespaces: `--color-*`, `--font-*`, `--text-*`, `--font-weight-*`, `--tracking-
 `--leading-*`, `--breakpoint-*`, `--spacing-*`, `--radius-*`, `--shadow-*`,
 `--animate-*`. `--namespace-*: initial` wipes a whole namespace.
 
+Three things about v4 that each cost a wrong report:
+
+- **The token source can be split between `:root` and `@theme`.** Reading only
+  one of them reports the other's scale as "absent from the code". A radius
+  scale declared in `:root` and consumed through `calc()` in `@theme` matched on
+  every step once both blocks were read — and looked like six missing tokens
+  when only one was.
+- **`@theme inline` re-exports names onto themselves** — `--text-display:
+  var(--text-display)` is normal and intended. A resolver that follows
+  references without noticing the self-reference reports these as **cycles**.
+  Resolve the adapter block against the base scope, and treat a name that
+  references itself as a re-export, not an error.
+- **`@theme` is not an inventory.** Enumerating everything in it — `--color-*`
+  in particular — counts re-exports of tokens that already exist elsewhere, and
+  inflates "present in code only" (measured: from 91 to 241). Enumerate the
+  declarations, then subtract the ones whose value is a reference to a name you
+  have already counted.
+
 **v3** — same ideas but in `tailwind.config.js` under `theme` / `theme.extend`.
 If you see a JS config, you are on v3; do not look for `@theme`.
 

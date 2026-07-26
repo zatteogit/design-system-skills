@@ -146,9 +146,44 @@ debt hit zero.
 | **3. Consolidating** | clean-list grows wave by wave, or per-file ratchet | most patterns are near zero |
 | **4. At rest** | no baseline; hard rules + file-exact exceptions | — delete the baseline file |
 
-**Step 4 is a deletion, and it is the goal.** A baseline file that has not
-changed in a year is either a system at rest that nobody has cleaned up, or a
-guard nobody runs. Check which.
+**Step 4 is a deletion, and it is the goal** — *for the product surface*. A
+baseline file that has not changed in a year is either a system at rest that
+nobody has cleaned up, or a guard nobody runs. Check which.
+
+### The rung the ladder was missing: at rest with a baseline
+
+Read literally, step 4 contradicts the perimeter. §3 scopes zero tolerance to
+what is reachable from product routes and deliberately leaves DevTools, admin
+and internal panels outside — and then the trajectory says the goal is no
+baseline at all, which can only be reached by cleaning exactly the code the
+perimeter said did not matter.
+
+> **A permanently non-zero baseline confined to non-product surfaces is a
+> legitimate resting state, not an unfinished migration.**
+
+The state to aim at is: **product surface at zero and held there by the
+perimeter, with a small stable baseline covering internal tooling.** Read with
+the ladder alone that looks like "stage 3, incomplete", and the signal above
+says to push — which is how a session ends up migrating hundreds of occurrences
+in DevTools that nobody wanted touched. So before treating a stable baseline as
+debt, **check where its entries live**: if they are all outside the perimeter,
+the system is at rest and the correct action is none.
+
+Two compositions that follow from the same reasoning, and that are easy to miss
+because each ingredient is documented separately:
+
+- **Check whether the residual debt is inside the perimeter before choosing an
+  instrument.** A ratchet planned over a pattern whose survivors all sit *inside*
+  the perimeter is a ratchet that never applies — the perimeter already forbids
+  them. And if the migration can reach zero, prefer the hard rule from the
+  start: a ratchet over debt that is already closed is an invitation to reopen it.
+- **Retiring a clean-list has a precondition.** The clean-list is checked in
+  `--update` as well as in check mode; a per-file ratchet protects in check mode
+  and `--update` can absorb. So retiring it moves every entry from "protected
+  during regeneration" to "absorbable during regeneration". Before retiring,
+  verify that **every entry falls in a zone that is also enforced in `--update`**
+  — the perimeter, or a strict zone. Entries outside those zones lose their
+  protection silently.
 
 ### A new project starts at stage 4
 

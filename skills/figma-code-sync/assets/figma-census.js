@@ -97,6 +97,37 @@ const variableOf = async id => {
   if (!(id in _vars)) _vars[id] = await figma.variables.getVariableByIdAsync(id).catch(() => null)
   return _vars[id]
 }
+
+/** The ids the file's collections actually CLAIM. Built from
+ *  `collection.variableIds` — the membership list — never from
+ *  getLocalVariablesAsync(), which answers a different question. */
+const membershipSet = cols => {
+  const s = new Set()
+  for (const c of cols) for (const id of (safe(() => c.variableIds, []) || [])) s.add(id)
+  return s
+}
+
+/** FOUR causes look identical if the only question asked is "is this id in my
+ *  local list?", and the third is a finding the other three would bury.
+ *
+ *  A DELETED variable still resolves by id and stays bound to every node that
+ *  used it. It is absent from `getLocalVariablesAsync()` AND from every
+ *  `collection.variableIds`, and it is reachable from no picker — so nobody can
+ *  find it, retheme it, or even notice it. It is the sibling of the detached
+ *  instance and it is worse, because nothing about it looks wrong.
+ *
+ *  Measured on a production library: two of them, still bound across three
+ *  tiers. An earlier version of this census filed them under "aliases a variable
+ *  outside this file" — the bucket nobody acts on. Getting the label right is
+ *  what turns a mislabelled bucket into a discovery. */
+function classifyVariableId(id, v, membership) {
+  if (!v) return { class: "dangling", why: "the id does not resolve at all — the binding points at nothing" }
+  if (v.remote) return { class: "remote", name: v.name,
+    why: "resolves to a remote library variable — a shared brand palette is the normal case, and DTCG cannot express a cross-file reference" }
+  if (!membership.has(id)) return { class: "deleted-still-bound", name: v.name,
+    why: "resolves and is NOT remote, yet no collection lists it: DELETED while still bound. Invisible to getLocalVariablesAsync() and to every picker" }
+  return { class: "local", name: v.name }
+}
 async function resolveColour(v, modeName, depth = 0) {
   if (!v || depth > 10) return null
   const col = await collectionOf(v.variableCollectionId)
@@ -363,10 +394,40 @@ async function censusPage() {
   const detachedByName = {}
   for (const n of detached) detachedByName[n] = (detachedByName[n] || 0) + 1
 
+  // 8 · Variable health. Every id bound ANYWHERE on the page, classified. The
+  // one that matters is `deletedStillBound`: it cannot be found from a picker,
+  // so it is invisible to the people who could fix it.
+  const membership = membershipSet(await figma.variables.getLocalVariableCollectionsAsync())
+  const boundIds = new Set()
+  for (const n of all) {
+    const bv = safe(() => n.boundVariables, null); if (!bv) continue
+    for (const k of Object.keys(bv)) {
+      const e = bv[k]
+      // Text fields carry an ARRAY at node level (one entry per styled segment);
+      // everything else carries a single alias. Read both shapes.
+      if (Array.isArray(e)) { for (const x of e) if (x && x.id) boundIds.add(x.id) }
+      else if (e && e.id) boundIds.add(e.id)
+    }
+  }
+  const health = { local: 0, remote: 0, deletedStillBound: [], dangling: 0 }
+  for (const id of boundIds) {
+    const c = classifyVariableId(id, await variableOf(id), membership)
+    if (c.class === "deleted-still-bound") health.deletedStillBound.push(c.name)
+    else if (c.class === "remote") health.remote++
+    else if (c.class === "dangling") health.dangling++
+    else health.local++
+  }
+
   const frames = page.findAllWithCriteria({ types: ["FRAME"] }).length
   return {
     census: "page", page: page.name, skipInvisibleInstanceChildren: true,
     carrier, spacing,
+    variableHealth: { distinctBoundIds: boundIds.size, ...health,
+      deletedStillBound: health.deletedStillBound.slice(0, CONFIG.limit),
+      deletedCount: health.deletedStillBound.length,
+      note: health.deletedStillBound.length
+        ? "DELETED but still bound: no picker can reach these, so nobody will fix them by accident. Re-create the variable or re-bind the nodes"
+        : null },
     text: { nodes: textNodes, boundFill: textBound, share: textNodes ? +(textBound / textNodes).toFixed(2) : null },
     observedContrast: { pairs: observed.length, failing: failing.slice(0, CONFIG.limit),
                         note: "sort by uses — 1–5 uses is usually the walk finding a non-background ancestor" },
@@ -394,6 +455,80 @@ async function censusPage() {
       }
     })(),
     detachedSuspects: { n: detached.length, byName: top(detachedByName) },
+    bindingTargets: await classifyBindingTargets(all, membershipSet(Object.values(_cols).filter(Boolean))),
+  }
+}
+
+/**
+ * EVERY binding on the page, classified by what it points at, through the shared
+ * `classifyVariableId` — so "what class is this id" is decided in exactly one
+ * place. This function's own job is only the two things that need the page:
+ * counting the bindings per class/field, and following the alias chains.
+ *
+ * Measured on a production library: 1.796 live bindings onto 16 deleted variables
+ * across THREE alias layers, one of them carrying the letterSpacing of 539 text
+ * nodes. Before the class existed they were reported as "remote/unknown" — the
+ * bucket nobody acts on.
+ *
+ * Read `aliasChains`: a deleted variable usually aliases another deleted one, so
+ * recreating only the layer the nodes touch fixes nothing.
+ */
+async function classifyBindingTargets(nodes, membership) {
+  const klass = {}, byClass = { local: 0, remote: 0, "deleted-still-bound": 0, dangling: 0 }
+  const fields = {}
+  const deletedIds = new Set()          // per ID: seguire le catene per NOME non funziona
+  for (const n of nodes) {
+    let bv; try { bv = n.boundVariables } catch { continue }
+    if (!bv) continue
+    for (const [field, val] of Object.entries(bv)) {
+      // On TEXT, `letterSpacing` (and friends) is an ARRAY of bindings — the
+      // node-level one plus the per-range ones. Flatten, or the range bindings,
+      // which are the AUTHORITATIVE ones, stay invisible. See §6.
+      for (const e of (Array.isArray(val) ? val : [val])) {
+        if (!e || !e.id) continue
+        const info = classifyVariableId(e.id, await variableOf(e.id), membership)
+        byClass[info.class] = (byClass[info.class] || 0) + 1
+        if (info.class === "local") continue
+        if (info.class === "deleted-still-bound") deletedIds.add(e.id)
+        const key = `${info.class} · ${info.name ?? e.id}`
+        klass[key] = (klass[key] || 0) + 1
+        fields[`${field} → ${info.class}`] = (fields[`${field} → ${info.class}`] || 0) + 1
+      }
+    }
+  }
+  // A deleted variable whose value is an alias points at a SECOND layer that is
+  // usually deleted too. Follow it, or a repoint fixes the surface and nothing else.
+  const chains = []
+  for (const id of deletedIds) {
+    let cur = await variableOf(id)
+    if (!cur) continue
+    const hops = [cur.name]
+    for (let depth = 0; depth < 6; depth++) {
+      const first = Object.values(cur.valuesByMode || {})[0]
+      if (!first || first.type !== "VARIABLE_ALIAS") break
+      const next = await variableOf(first.id)
+      const info = classifyVariableId(first.id, next, membership)
+      hops.push(`${info.name ?? first.id}${info.class === "local" ? "" : ` [${info.class}]`}`)
+      if (info.class !== "deleted-still-bound") break   // la catena e' finita: viva, remota o nulla
+      cur = next
+    }
+    if (hops.length > 1) chains.push(hops.join(" → "))
+  }
+  const deleted = byClass["deleted-still-bound"] || 0
+  return {
+    byClass,
+    nonLocalByVariable: top(klass),
+    nonLocalByField: top(fields),
+    aliasChains: chains.slice(0, 12),
+    // Say WHICH zero this is. "no findings" and "nothing was inspected" print the
+    // same unless the denominator is in the report (§1).
+    inspected: Object.values(byClass).reduce((a, b) => a + b, 0),
+    verdict: deleted > 0
+      ? `${deleted} bindings point at DELETED variables: alive only because something references them, and reachable from no picker`
+      : (byClass.dangling || 0) > 0 ? `${byClass.dangling} bindings do not resolve at all`
+      : Object.values(byClass).reduce((a, b) => a + b, 0) === 0
+        ? "no bindings inspected on this page — this zero says nothing about the file"
+        : "every binding points at a live variable",
   }
 }
 
@@ -508,6 +643,7 @@ async function censusDtcg() {
     return CONFIG.dtcg.prefixWithCollection ? `${col ? col.name : "?"}/${n}` : n
   }
   const byId = Object.fromEntries(vars.map(v => [v.id, path(v)]))
+  const dtcgMembership = membershipSet(cols)
 
   const TYPE = { COLOR: "color", FLOAT: "number", STRING: "string", BOOLEAN: "boolean" }
   const refusals = []
@@ -528,11 +664,14 @@ async function censusDtcg() {
       if (raw && raw.type === "VARIABLE_ALIAS") {
         const target = byId[raw.id]
         if (!target) {
-          // An alias into another FILE cannot be expressed in DTCG. Refuse it
-          // loudly: a resolver that quietly inlined the value would erase the
-          // fact that a shared brand library owns it.
+          // `byId` comes from getLocalVariablesAsync(), which OMITS deleted
+          // variables — so a missing target has more than one cause and they
+          // need different fixes. Refuse loudly, but refuse with the right
+          // reason: a resolver that quietly inlined the value would erase the
+          // fact that a shared library owns it, and a resolver that called a
+          // deleted variable "remote" would hide a dead binding.
           const t = await variableOf(raw.id)
-          refusals.push({ token: p, why: `aliases a variable outside this file${t ? ` (${t.name})` : ""} — DTCG cannot express a cross-file reference` })
+          refusals.push({ token: p, ...classifyVariableId(raw.id, t, dtcgMembership) })
           continue
         }
         $value = `{${target.replace(/\//g, ".")}}`

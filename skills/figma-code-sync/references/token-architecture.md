@@ -140,6 +140,26 @@ Semantic    --text-body → {size, line-height, weight, tracking}
 
 Three rules that make it work:
 
+### Slash folders or flat names
+
+Figma groups by slash, so `colors/accent/hover` folds neatly in the picker. It
+has one hard cost: **a CSS custom property name cannot contain a slash** — it is
+a `<dashed-ident>`, and `/` is not a valid identifier character. So a slashed
+Figma name can never be *the same string* as the code token, and every bridge
+between the two sides — the value diff, a name map, a DTCG round-trip — has to
+carry a transformation that can drift.
+
+The resolution follows from who reads the name:
+
+- **Tokens that appear in a picker** (semantic and component tiers) earn their
+  slashes: grouping is the whole reason a designer can find them.
+- **Private primitives appear in no picker by construction** — that is what the
+  `.`/`_` collection prefix is for — so slashes buy them nothing and cost the
+  name identity. Keep them flat.
+
+Name identity is not a tidiness preference: it is what makes a diff exact
+instead of heuristic. → [dtcg-pipeline.md](dtcg-pipeline.md)
+
 - **Name the role, not the size.** `text-body`, not `text-sm`. `sm` is an ordinal
   primitive; promoting it because it reads like a design word is the most common
   version of the mistake this document warns about.

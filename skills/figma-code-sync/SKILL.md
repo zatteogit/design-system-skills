@@ -55,6 +55,33 @@ Write the census script first; you will run it at least twice.
 > **If a fix "worked" but the census does not move, the fix did not land.**
 > Believe the census. This is how silent no-ops get caught (§6).
 
+And the rule that protects the census itself:
+
+> **A check that cannot run must report, not skip.** If a comparison is missing an
+> input — the token is absent from the snapshot, the value will not resolve, the
+> name is not in the map — emit a finding. A bare `continue` on missing data makes
+> the check *indistinguishable from a check that passes*.
+
+This is the single most common way a guard dies, and it does not look like
+failure. Three instances in one session on the same file: a `.dark` block
+extracted by a loose `indexOf` (so every dark-mode contract silently re-validated
+light, for 13 days); self-test scripts declared in `package.json` but never
+implemented, with a green CI step over them; and — in a drift guard written that
+same afternoon *by the author of the first two findings* — five comparisons that
+looked up `tracking/*` where the snapshot had `type/tracking/*`, got `undefined`,
+and `continue`d. It printed "no drift" with zero coverage on that axis.
+
+Only mutation testing finds these: **change the input so the check must fail, and
+watch it fail.** A probe you have never seen go red is not evidence. The asset
+already practises the discipline in `dtcg` mode (`refusals`) and in the scale
+checks (`skipped: "names carry no ordinal…"`) — copy that shape everywhere.
+
+**Validate the census against a second, independent method before trusting it to
+drive a large change.** Compute at least one number two ways: the real guard
+against your model of it, the browser's computed styles against your CSS parser,
+a mutation against an assertion. In the session above every wrong number was
+caught by a cross-check and none by re-reading the code.
+
 ## 2. Where to intervene — three rules, in order
 
 Getting the *level* right is worth more than any amount of scripting. All three
@@ -195,10 +222,11 @@ skills document the call as if it always works.
 | Trap | What actually happens |
 |---|---|
 | **`maxWidth`/`minWidth` on an instance** | Cannot be overridden. `setBoundVariable("maxWidth", v)` **returns success and leaves `maxWidth: null`.** Silent no-op — fix the main component. |
+| **`letterSpacing` on TEXT** | `boundVariables.letterSpacing` is an **ARRAY**, and `setBoundVariable` **appends to it instead of replacing**. The authoritative binding is the per-**range** one: the call succeeds, the segment keeps pointing at the old variable, and the node ends up with two entries. Use `setRangeBoundVariable(0, node.characters.length, "letterSpacing", v)`, which replaces the segment *and* collapses the array. Repointing 537 nodes the wrong way produced 537 duplicates that read as "success". |
 | `fills`/`strokes` binding | `node.setBoundVariable("fills", v)` throws; bindings go on the *paint*: `figma.variables.setBoundVariableForPaint(paint, "color", v)` returns a **new** paint you must reassign. |
 | Bound paints and tint | A bound paint carries the variable's colour, so it cannot also carry an opacity tint. Move alpha to the node's `opacity` (only if it has no children) or use a gradient with alpha in the stops. |
 | Creating an instance | Resets paint overrides. Re-check colours after every swap. |
-| Geometry after `resize()` | Inner layout is **not** recomputed within the same `use_figma` call. Resize in one call, measure or fix in the next. |
+| **Reading back anything you just mutated** | State read in the *same* call that wrote it is unreliable — this is not only `resize()`. Inner layout is not recomputed after a resize, and `boundVariables` after a repoint reports partially-stale entries: an in-call check said "537 left", a separate call over the same nodes found 0, and **both were wrong**. **Mutate in one call, verify in the next.** A verification sharing a call with its mutation is not evidence. |
 | `FILL` in a horizontal multi-child parent | Distributes *remaining* space among FILL children — a row can collapse to a fraction of the parent. Worst inside a wrap container. |
 | `FILL` on text in a tight parent | Squeezes it to one character per line. Constrain the container; let the text reflow. |
 | `resize()` on a VECTOR after `vectorPaths` | Stretches the geometry. Size the node first, then set paths. |
@@ -264,6 +292,25 @@ so every parity finding there is name-matched, and the report has to say so.
 The one to run first is the override census. It turns "the design system feels
 rigid" into a list. → [component-parity.md](references/component-parity.md)
 
+**And the sibling of the detached instance: the deleted-but-still-bound
+variable.** A deleted variable keeps resolving by id for as long as something
+references it, while being absent from `getLocalVariablesAsync()` *and* from every
+`collection.variableIds`. So it is reachable from **no picker** — nobody can find
+it, retarget it or notice it — and nothing on canvas looks wrong. It is strictly
+worse than a detached instance, and it is invisible to the obvious question:
+asking only "is this id local?" files it under *remote*, the bucket you skim past.
+
+`CENSUS="page"` now reports `bindingTargets`, which separates **local / remote /
+deleted-still-bound / dangling** and follows the alias chains — because a deleted
+variable usually aliases another deleted one, and recreating only the layer the
+nodes touch fixes nothing. Measured on a production library: **1.796 live
+bindings onto 16 deleted variables across three layers**, one carrying the
+`letterSpacing` of 539 text nodes.
+
+Recovering them is usually the right call rather than rebinding away, because they
+encode intent nothing else in the file expresses (control heights, state opacity).
+Do it **before** any large repointing pass, or you repoint the same nodes twice.
+
 ## 10. Accessibility, on both sides
 
 Contrast is typically verified in code and **never in the Figma file** — which is
@@ -322,6 +369,14 @@ enforce them. Three things worth knowing from here:
   *is* the invariant — often it is not.
 - **Count detached instances.** They are the main drift vector and the easiest to
   miss, because nothing about them looks wrong.
+- **Count deleted-but-still-bound variables**, which are the sibling and are
+  worse. A deleted variable still resolves by id and stays bound to every node
+  that used it, while being absent from `getLocalVariablesAsync()` *and* from
+  every `collection.variableIds` — so no picker can reach it and nobody can fix
+  it by accident. Ask `collection.variableIds` for membership, not the local
+  variable list: the two answer different questions, and conflating them files a
+  live finding under "remote library", where nobody reads it.
+  `figma-census.js` reports these as `variableHealth.deletedStillBound`.
 
 ## 13. Reference docs
 
