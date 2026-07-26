@@ -123,11 +123,12 @@ variables and can still be fully tokenised). The war stories live here in the
 README, where a human decides whether to adopt this — not in the skills, where
 they would only be longer.
 
-Figures from **public** artefacts are exact and reproducible: the Material 3
-Community kit and a four-year-old fork of it, and the
+Figures from **public** artefacts are exact and reproducible: four Figma
+Community design systems — the official Material 3 kit, Apple's iOS and iPadOS
+kit, Simple Design System, and a four-year-old fork of M3 — and the
 [Shoelace](https://github.com/shoelace-style/shoelace) repository, where the
-guard was installed as a third-party test. Figures that came from private files
-are given as shapes.
+guard was installed as a third-party test. Duplicate any of them and you get the
+same numbers. Figures that came from private files are given as shapes.
 
 ## Licence
 
