@@ -1,8 +1,8 @@
-# Design system skills for Claude Code
+# Design system skills
 
-Two skills for building a design system in code and keeping it aligned with
-Figma. Each ships **runnable artifacts**, not just prose: the documentation
-explains the reasoning, the scripts are what you actually launch.
+Two agent skills for building a design system in code and keeping it aligned with
+Figma. Plain `SKILL.md` in the open Agent Skills format — no vendor lock-in, no
+runtime, no dependencies.
 
 | Skill | What it covers |
 |---|---|
@@ -11,16 +11,44 @@ explains the reasoning, the scripts are what you actually launch.
 
 ## Install
 
+Every agent below reads the same `SKILL.md` format. Pick the directory yours
+scans:
+
+| Agent | Personal | Per project |
+|---|---|---|
+| **Codex CLI** | `~/.agents/skills/` | `<repo>/.agents/skills/` |
+| **Cursor** | `~/.agents/skills/` or `~/.cursor/skills/` | `.agents/skills/` or `.cursor/skills/` |
+| **Claude Code** | `~/.claude/skills/` | `<repo>/.claude/skills/` |
+| **Anything else** | check its docs for a skills root | — |
+
 ```bash
-git clone https://github.com/<you>/claude-design-system-skills.git
-cp -R claude-design-system-skills/skills/design-system-code ~/.claude/skills/
-cp -R claude-design-system-skills/skills/figma-code-sync    ~/.claude/skills/
+git clone https://github.com/zatteogit/design-system-skills.git
+mkdir -p ~/.agents/skills
+cp -R design-system-skills/skills/* ~/.agents/skills/
 ```
 
-`~/.claude/skills/` makes them available in every project. For one project only,
-use `<project>/.claude/skills/` instead — then everyone who clones that repo gets
-them. Claude loads a skill by itself when the work matches its description; you
-can also invoke one directly with `/design-system-code` or `/figma-code-sync`.
+`~/.agents/skills/` is the widest-reach location — Codex and Cursor both scan it,
+and Cursor also falls back to `~/.claude/skills/`. To cover an agent that only
+reads its own directory, symlink rather than copy twice:
+
+```bash
+ln -s ~/.agents/skills/design-system-code ~/.claude/skills/design-system-code
+ln -s ~/.agents/skills/figma-code-sync    ~/.claude/skills/figma-code-sync
+```
+
+Most agents load a skill on their own when the work matches its `description`;
+the descriptions here are written for that. An agent without skill discovery can
+still use them — point it at `SKILL.md` and it will follow the same instructions.
+
+## Requirements
+
+- **`design-system-code`** needs nothing but Node 18. It works on any stack; the
+  token parser handles CSS custom properties and Sass variables, and the rest is
+  language-agnostic.
+- **`figma-code-sync`** needs the **Figma MCP server** connected to your agent —
+  that is what provides `use_figma`, `get_metadata` and `get_code_connect_map`.
+  MCP is an open protocol, so this is not tied to any one agent. The Figma server
+  also serves its own guidance (`figma-use` and friends) as MCP resources.
 
 ## The runnable parts
 
@@ -31,7 +59,7 @@ skills/design-system-code/assets/
 
 skills/figma-code-sync/assets/
   figma-census.js             READ-ONLY Figma census, five modes (file / page / graph /
-                              board / dtcg). Paste into the Figma MCP; it only returns
+                              board / dtcg). Runs through the Figma MCP; it only returns
   merge-component-graph.mjs   unions per-page graphs, then reports orphans, ghost mains,
                               cycles and upward nesting — none of which mean anything
                               measured on a single page
@@ -40,8 +68,8 @@ skills/figma-code-sync/assets/
                               of divergence
 ```
 
-Everything is dependency-free. `figma-census.js` never mutates anything — every
-path ends in a `return`.
+All dependency-free. `figma-census.js` never mutates anything — every path ends
+in a `return`.
 
 ## Why they are shaped like this
 

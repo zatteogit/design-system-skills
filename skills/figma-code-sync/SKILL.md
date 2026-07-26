@@ -9,8 +9,12 @@ description: Keep an existing Figma design system aligned with the codebase as t
 codebase. This skill is about the part after that: the code keeps changing, and
 Figma has to follow without silently rotting.
 
-**Load `figma-use` too** — it has the Plugin API mechanics. This skill assumes
-them and adds only what those skills do not cover.
+**Requires the Figma MCP server**, which is what provides `use_figma`,
+`get_metadata`, `get_code_connect_map` and the rest. That server also ships its
+own guidance — `figma-use` for the Plugin API mechanics, `figma-generate-library`
+for building a system, `figma-code-connect` for the mapping — served as MCP
+resources, so any MCP-capable agent can load them. **Load `figma-use` too**: this
+skill assumes its mechanics and adds only what it does not cover.
 
 ## 0. The premise: code is the source of truth
 
