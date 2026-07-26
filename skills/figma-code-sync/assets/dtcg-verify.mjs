@@ -243,7 +243,7 @@ for (const [k, b] of B.tokens) {
 const ordinalTail = (s) => (s.match(/(\d+)$/) ?? [])[1] ?? null;
 const stem = (s) => s.replace(/\.?\d+$/, "");
 
-// A shared COLOUR is near-proof of the same token: #ba1b1b under two names is
+// A shared COLOUR is near-proof of the same token: one exact hex under two names is
 // one decision written twice. A shared NUMBER is not — `1.5rem` is a border
 // radius on one side and a line height on the other, and pairing them is a
 // coincidence dressed up as a finding. Both are reported; they are not reported
