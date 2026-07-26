@@ -50,6 +50,22 @@ after, so "it looks fine" is never the evidence.
 4. **Prove nothing broke** with a geometry signature
    ([verification.md](references/verification.md)), not a glance at a screenshot.
 
+**Census whether the target is unambiguous, before planning a mass change.** Not
+only how much there is — *whether the thing you are about to rewrite can be
+identified at all*. On one file, of the dimension bindings measured: about two
+fifths resolved to a single role, a quarter had **two** candidate roles, and a
+third matched none. That middle group is not a defect: they are distinct intents
+that happen to share a value, which is the situation a semantic tier exists for.
+It is also not automatable, and the answer is not to guess — it is to record the
+intent in the token's `$description`, which turns a decision nobody can make today
+into one anybody can make tomorrow.
+
+**Measuring before applying finds errors in the *target*, not just the size of the
+job.** Twice on one file the measurement's real product was "you are aiming at the
+wrong nodes" — a tracking rule pointed at a generic caption role would have
+touched over a thousand of them. Treat a surprising count as a hypothesis about
+your selector, not as a workload.
+
 Write the census script first; you will run it at least twice.
 
 > **If a fix "worked" but the census does not move, the fix did not land.**
@@ -84,8 +100,37 @@ caught by a cross-check and none by re-reading the code.
 
 ## 2. Where to intervene — three rules, in order
 
+**First, though: which carrier holds this property?** The three rules below pick
+the smallest *place*; this picks the right *kind of thing*, and getting it wrong
+means doing tidy work at the wrong level. A frame's colour belongs on a variable
+bound to the node. Typography belongs on a **text style**, which itself binds
+variables — so a per-node `fontSize` binding is not "more direct", it is a bypass
+of the carrier that should govern it. Thirteen styles can govern what thousands of
+per-node bindings govern, and reordering the bindings leaves the system exactly as
+brittle as it was.
+
+| Property | Carrier | The bypass to look for |
+|---|---|---|
+| fill, stroke, effect colour | variable bound to the node (or to the paint) | a literal, or a paint **style** used as a second carrier |
+| spacing, radius, size | variable bound to the node | a bare number |
+| typography | **text style**, which binds variables | `fontSize`/`lineHeight`/`letterSpacing` bound per node |
+| the grid of a page | variable bound to the **layout grid** | numbers typed into the board |
+
+Identify the carrier, then apply the three rules *inside* it. And **census the
+carrier before planning anything**: the fills census has always reported
+`bound / viaStyle / literal`, and until recently the same question was never asked
+of text — which is precisely why misplaced typography work stays invisible.
+`figma-census.js` reports `textCarrier` for this.
+
+⚠ **A per-node reading can be the carrier above showing through.** A TEXT node
+reports the *effective* binding, so a node wearing a style that binds `fontSize`
+reports a `fontSize` binding of its own. Counting those as per-node work gave
+**1038 findings and zero real ones** on a public design system. Compare the ids:
+same id as the style's → inherited; a different id, or a field the style does not
+bind → a real override. (§6)
+
 Getting the *level* right is worth more than any amount of scripting. All three
-say the same thing: act at the smallest place that governs the most.
+rules below say the same thing: act at the smallest place that governs the most.
 
 **Source before instances.** Fix the component, not its instances. Instances
 inherit whatever they have not overridden, so the template pages often correct
@@ -211,8 +256,14 @@ headlines:
 - **Typography and motion need the semantic tier too.** Both normally end up as
   primitives consumed directly (`text-sm`, `duration-200`), which leaves the
   system with semantics for colour and ordinals for everything else. Roles, not
-  sizes; interaction intent, not curves. And **a Figma text style has no modes** —
-  the distinction between styles and variables is a chapter of its own.
+  sizes; interaction intent, not curves. **A Figma text style has no mode axis of
+  its own — but it is not mode-blind**, and reading the first half alone leads to
+  exactly the wrong conclusion (that responsive type needs per-node bindings).
+  Modes reach a style through the **variables it binds**, resolved in the context
+  of the node that consumes it: in a public design system **16 of 16 text styles
+  bind `fontSize`, `fontFamily` and `fontWeight`**, so one style renders at two
+  sizes in two different mode contexts. A text style is a composite token, not a
+  frozen snapshot. The style/variable distinction is still a chapter of its own.
 
 ## 6. API traps that cost real time
 
@@ -222,6 +273,8 @@ skills document the call as if it always works.
 | Trap | What actually happens |
 |---|---|
 | **`maxWidth`/`minWidth` on an instance** | Cannot be overridden. `setBoundVariable("maxWidth", v)` **returns success and leaves `maxWidth: null`.** Silent no-op — fix the main component. |
+| **A text field bound on a node may be the style's binding** | A TEXT node reports the *effective* binding, so a node wearing a style that binds `fontSize` reports one too. A census that reads the node alone reported **1038 per-node bindings, none of them real**. Compare the node's binding id against the style's for the same field. |
+| **`PERCENT` and a binding on `letterSpacing` are mutually exclusive** | Binding forces `PIXELS`; setting `PERCENT` afterwards removes the binding. Exact sibling of the bound-paint-cannot-carry-a-tint row: the value carrier and the unit fight, and the loser is silent. Decide the unit first, then bind. |
 | **`letterSpacing` on TEXT** | `boundVariables.letterSpacing` is an **ARRAY**, and `setBoundVariable` **appends to it instead of replacing**. The authoritative binding is the per-**range** one: the call succeeds, the segment keeps pointing at the old variable, and the node ends up with two entries. Use `setRangeBoundVariable(0, node.characters.length, "letterSpacing", v)`, which replaces the segment *and* collapses the array. Repointing hundreds nodes the wrong way produced hundreds duplicates that read as "success". |
 | `fills`/`strokes` binding | `node.setBoundVariable("fills", v)` throws; bindings go on the *paint*: `figma.variables.setBoundVariableForPaint(paint, "color", v)` returns a **new** paint you must reassign. |
 | Bound paints and tint | A bound paint carries the variable's colour, so it cannot also carry an opacity tint. Move alpha to the node's `opacity` (only if it has no children) or use a gradient with alpha in the stops. |
@@ -369,6 +422,18 @@ enforce them. Three things worth knowing from here:
   *is* the invariant — often it is not.
 - **Count detached instances.** They are the main drift vector and the easiest to
   miss, because nothing about them looks wrong.
+- **After introducing an intermediate carrier, re-verify the tier contract.**
+  Moving typography from nodes onto styles removed the tier skip *on the nodes* and
+  reintroduced it *through the styles*, because the styles bound primitives: one
+  tier-skip count went from double digits to thousands. **A new carrier inherits
+  its own level, not the level of the things it replaced.** An upstream fix can
+  reopen a downstream defect you had closed, and only re-running the contract
+  shows it.
+- **A coverage claim is only true for the carrier you looked at.** "Zero
+  references to non-local variables" was true of the nodes and false of the
+  styles in the same file. Every census output should name the carriers it
+  covered — `figma-census.js` reports `carriersCovered` and
+  `carriersNotCovered`.
 - **Count deleted-but-still-bound variables**, which are the sibling and are
   worse. A deleted variable still resolves by id and stays bound to every node
   that used it, while being absent from `getLocalVariablesAsync()` *and* from

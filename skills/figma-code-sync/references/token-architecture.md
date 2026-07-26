@@ -181,7 +181,27 @@ not documented anywhere obvious:
 | Modes | yes — resolves per mode | **no** |
 | Applied to | a bindable property | the whole text node |
 
-**A text style has no modes.** So a role that must change between light/dark,
+### The test for a tier that is not there
+
+"Name for what it does" is the rule for semantics. The operational test is its
+inverse, and it is the one that catches a fake tier: **a primitive named after its
+use means the tier does not exist.** `--_ref-text-display` aliased by
+`--text-display` is role → role — two names, one meaning, and a primitive tier
+that is a copy of the semantic one wearing a prefix.
+
+The tell is countable, which makes it worth measuring rather than arguing about:
+**the same value appearing under several names.** On one file, nineteen duplicated
+colour values and five distinct line-height ratios serving six roles. Renaming the
+lower tier by *step* rather than by role collapsed the duplicates on its own — the
+duplication was the symptom of the missing distinction.
+
+And the condition for having two tiers at all: **introduce a second tier when
+something separates them — a mode, a theme, a scale.** Not for symmetry with an
+axis that does have a separator. Where nothing separates them, one tier fewer is
+better than one more, because an extra tier *looks* done and hides that the
+distinction was never made.
+
+**A text style has no mode axis of its own.** So a role that must change between light/dark,
 compact/comfortable, or mobile/desktop cannot express that change through the
 style. The workable arrangement:
 

@@ -120,12 +120,23 @@ const membershipSet = cols => {
  *  tiers. An earlier version of this census filed them under "aliases a variable
  *  outside this file" — the bucket nobody acts on. Getting the label right is
  *  what turns a mislabelled bucket into a discovery. */
-function classifyVariableId(id, v, membership) {
+function classifyVariableId(id, v, membership, boundCount = null) {
+  // "still bound" is a claim about REFERENCES, and resolvability is not evidence
+  // of one: Figma soft-deletes, so a deleted variable keeps resolving by id for
+  // as long as the file remembers it — with zero bindings. The two halves of the
+  // finding come from different sources, so the caller passes the count, and
+  // without a count this only says the variable is deleted.
   if (!v) return { class: "dangling", why: "the id does not resolve at all — the binding points at nothing" }
   if (v.remote) return { class: "remote", name: v.name,
     why: "resolves to a remote library variable — a shared brand palette is the normal case, and DTCG cannot express a cross-file reference" }
-  if (!membership.has(id)) return { class: "deleted-still-bound", name: v.name,
-    why: "resolves and is NOT remote, yet no collection lists it: DELETED while still bound. Invisible to getLocalVariablesAsync() and to every picker" }
+  if (!membership.has(id)) return {
+    class: boundCount === null ? "deleted" : boundCount > 0 ? "deleted-still-bound" : "deleted-unreferenced",
+    name: v.name, bindings: boundCount,
+    why: boundCount === 0
+      ? "deleted and referenced by nothing — soft-delete residue, not a finding"
+      : "resolves and is NOT remote, yet no collection lists it: DELETED"
+        + (boundCount === null ? " (bindings not counted here, so this is not yet a finding)" : " while still bound")
+        + ". Invisible to getLocalVariablesAsync() and to every picker" }
   return { class: "local", name: v.name }
 }
 async function resolveColour(v, modeName, depth = 0) {
@@ -398,29 +409,69 @@ async function censusPage() {
   // one that matters is `deletedStillBound`: it cannot be found from a picker,
   // so it is invisible to the people who could fix it.
   const membership = membershipSet(await figma.variables.getLocalVariableCollectionsAsync())
-  const boundIds = new Set()
+  // COUNT the bindings, do not just collect the ids: "still bound" is a claim
+  // about references, and a soft-deleted variable keeps resolving with zero of
+  // them. Without the count the label is not earned.
+  const boundIds = new Map()
   for (const n of all) {
     const bv = safe(() => n.boundVariables, null); if (!bv) continue
     for (const k of Object.keys(bv)) {
       const e = bv[k]
       // Text fields carry an ARRAY at node level (one entry per styled segment);
       // everything else carries a single alias. Read both shapes.
-      if (Array.isArray(e)) { for (const x of e) if (x && x.id) boundIds.add(x.id) }
-      else if (e && e.id) boundIds.add(e.id)
+      for (const x of (Array.isArray(e) ? e : [e])) if (x && x.id) boundIds.set(x.id, (boundIds.get(x.id) || 0) + 1)
     }
   }
   const health = { local: 0, remote: 0, deletedStillBound: [], dangling: 0 }
-  for (const id of boundIds) {
-    const c = classifyVariableId(id, await variableOf(id), membership)
-    if (c.class === "deleted-still-bound") health.deletedStillBound.push(c.name)
+  for (const [id, count] of boundIds) {
+    const c = classifyVariableId(id, await variableOf(id), membership, count)
+    if (c.class === "deleted-still-bound") health.deletedStillBound.push(`${c.name} (${count} bindings)`)
     else if (c.class === "remote") health.remote++
     else if (c.class === "dangling") health.dangling++
     else health.local++
   }
 
+  // 9 · WHICH CARRIER holds typography. The fills census has always asked this
+  // (bound / viaStyle / literal); for text it was missing, and its absence is
+  // what makes a whole class of misplaced work invisible: hundreds of per-node
+  // bindings that are really a bypass of the style that should govern them.
+  //
+  // THE TRAP, and it is severe: a TEXT node reports the *effective* binding, so a
+  // node wearing a style that binds `fontSize` reports a `fontSize` binding of
+  // its own. Counting those as per-node bindings produced **1038 findings and 0
+  // real ones** on a public design system. The only honest test is to compare
+  // the ids: same id as the style's → inherited; different id, or a field the
+  // style does not bind → a genuine override.
+  const textStyles = await figma.getLocalTextStylesAsync()
+  const styleById = Object.fromEntries(textStyles.map(s => [s.id, s]))
+  const TYPO = ["fontSize", "fontFamily", "fontWeight", "lineHeight", "letterSpacing", "paragraphSpacing"]
+  const bvId = (bv, f) => { const e = bv?.[f]; return Array.isArray(e) ? (e[0] && e[0].id) || null : (e && e.id) || null }
+  const textCarrier = { viaStyleInherited: 0, perNodeOverride: 0, styleUnbound: 0, perNodeOnly: 0, literal: 0 }
+  const overrideFields = {}
+  for (const t of page.findAllWithCriteria({ types: ["TEXT"] })) {
+    const sid = safe(() => t.textStyleId, "")
+    const nbv = safe(() => t.boundVariables, {}) || {}
+    const st = sid ? styleById[sid] : null
+    const sbv = st ? (safe(() => st.boundVariables, {}) || {}) : {}
+    let onNode = false, differs = false
+    for (const f of TYPO) {
+      const nid = bvId(nbv, f), sidv = bvId(sbv, f)
+      if (nid) onNode = true
+      if (nid && (!sidv || nid !== sidv)) { differs = true; overrideFields[f] = (overrideFields[f] || 0) + 1 }
+    }
+    if (!sid) { onNode ? textCarrier.perNodeOnly++ : textCarrier.literal++; continue }
+    if (!st) { textCarrier.viaStyleInherited++; continue }   // remote style: cannot compare, do not accuse
+    if (!onNode) textCarrier.styleUnbound++
+    else if (differs) textCarrier.perNodeOverride++
+    else textCarrier.viaStyleInherited++
+  }
+
   const frames = page.findAllWithCriteria({ types: ["FRAME"] }).length
   return {
     census: "page", page: page.name, skipInvisibleInstanceChildren: true,
+    // A coverage claim is only true for the carrier it looked at. Say which.
+    carriersCovered: ["node fills", "node strokes/effects (visibility only)", "text styles", "per-node text bindings"],
+    carriersNotCovered: ["paint styles as a second colour carrier (see CENSUS=\"file\")", "effect and grid styles", "remote styles, whose bindings cannot be read from here"],
     carrier, spacing,
     variableHealth: { distinctBoundIds: boundIds.size, ...health,
       deletedStillBound: health.deletedStillBound.slice(0, CONFIG.limit),
@@ -429,6 +480,10 @@ async function censusPage() {
         ? "DELETED but still bound: no picker can reach these, so nobody will fix them by accident. Re-create the variable or re-bind the nodes"
         : null },
     text: { nodes: textNodes, boundFill: textBound, share: textNodes ? +(textBound / textNodes).toFixed(2) : null },
+    textCarrier: { ...textCarrier, overrideFields,
+      note: textCarrier.perNodeOverride
+        ? "perNodeOverride is the finding: typography set on the node instead of on the style that governs it. Fix the STYLE — thirteen styles can govern what thousands of node bindings govern"
+        : "no per-node overrides: every bound field matches its style's own binding id, which is what a node reports even when it binds nothing itself" },
     observedContrast: { pairs: observed.length, failing: failing.slice(0, CONFIG.limit),
                         note: "sort by uses — 1–5 uses is usually the walk finding a non-background ancestor" },
     components: { onPage: compNames.size, instances: instances.length, frames,
@@ -486,7 +541,7 @@ async function classifyBindingTargets(nodes, membership) {
       // which are the AUTHORITATIVE ones, stay invisible. See §6.
       for (const e of (Array.isArray(val) ? val : [val])) {
         if (!e || !e.id) continue
-        const info = classifyVariableId(e.id, await variableOf(e.id), membership)
+        const info = classifyVariableId(e.id, await variableOf(e.id), membership, 1)
         byClass[info.class] = (byClass[info.class] || 0) + 1
         if (info.class === "local") continue
         if (info.class === "deleted-still-bound") deletedIds.add(e.id)

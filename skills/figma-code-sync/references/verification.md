@@ -70,6 +70,15 @@ git stash pop               # measure "after"
 Capture the "after" first (you are already there), then stash, reload, capture
 "before". Fewer reloads, and you cannot forget to restore.
 
+## Take the signature even when the delta looks imperceptible
+
+The temptation is to skip it for a change of a fraction of a pixel. **Auto-layout
+does not accumulate proportionally to the single delta**: a line-height change of
+0.4px per line came out as ~4px on the container holding ten of them, which is
+visible, and which a per-node check would have called negligible ten times in a
+row. The unit of judgement is the container, not the property — so measure the
+container.
+
 ## Proving a zero-shift refactor
 
 For refactors that must change *nothing* visually — renaming a scale, replacing
