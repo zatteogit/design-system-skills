@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <title>Poste.it</title>
+    <!--#include virtual="/includes-da/utilities/head-tag.html" -->
+    <link type="text/css" rel="stylesheet" href="/assets-da/app/myposte/css/myp.min.css" />
+  </head>
+
+  <body>
+    <nav id="skiplink" aria-label="Navigazione di pagina">
+      <ul>
+          <li><a tabindex="0" class="skip-link sr-only-focusable-abs" href="#accessibility-anchor">Passa al contenuto
+        principale</a></li>
+          <li><a class="skip-link sr-only-focusable-abs" href="#assistenza-side">Passa all'help</a></li>
+          <li><a class="skip-link sr-only-focusable-abs" href="#footer">Passa al footer di pagina</a></li>
+      </ul>
+  </nav>
+
+    <header class="sticky">
+      <div class="sticky-wrap">
+        <!-- Content Navbar-->
+        <div class="content" id="content-navbar">
+          <div class="content-wrap">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12">
+                  <!--#include virtual="/includes-da/header/navbar-content-default-logged.html" -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main id="accessibility-anchor" tabindex="-1">
+
+      <div class="content display-pop" id="content-abstract">
+        <div class="content-wrap">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-7">
+                <ol class="breadcrumb breadcrumb-xs-trim-a breadcrumb-sm-trim-a breadcrumb-md-trim-b">
+                  <li>
+                    <a href="/pages/posteit-area/private/myposte/" title="Torna a MyPoste">
+                      <span>My Poste</span>
+                    </a>
+                  </li>
+                  <li class="active" aria-current="page"><span>Bacheca</span></li>
+                </ol>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="abstract-wrap">
+                  <div class="abstract">
+                    <div class="abstract-heading">
+                      <h1>Bacheca</h1>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="content mb-2 mb-sm-4" id="content-filter">
+        <div class="content-wrap">
+          <div class="container">
+            <div class="row">
+
+              <div class="col-sm-6">
+                <div class="form-group form-searchbar pb-1 pb-sm-4">
+                  <search>
+                    <label class="control-label sr-only active" for="search" style="transition: none">Cerca nei messaggi</label>
+                      <input type="text" class="form-control" id="search" placeholder="Cerca nei messaggi" />
+                      <button title="Avvia la ricerca" class="btn btn-cta btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        <span class="icon">
+                          <svg focusable="false">
+                          <title>Lorem ipsum</title>
+                          <use xlink:href="/assets-da/core/img/iconset/sprite.svg#042a-panorama-m" href="/assets-da/core/img/iconset/sprite.svg#042a-panorama-m"></use>
+                        </svg>
+                        </span>
+                      </button>
+                  </search>
+                </div>
+              </div>
+
+              <div class="col-sm-6">
+                <div class="scroll-content-x">
+                  <ul class="list-inline-basic">
+                    <li class="active">
+                      <a class="link-lever active" href="#" title="Carte">Tutti</a>
+                    </li>
+                    <li class="">
+                      <a class="link-lever" href="#" title="Da fare">Da fare</a>
+                    </li>
+                    <li class="">
+                      <a class="link-lever " href="#" title="Novit&agrave;">Novit&agrave;</a>
+                    </li>
+                    <li class="">
+                      <a class="link-lever" href="#" title="Altro">Altro</a>
+                    </li>
+                    <li class="">
+                      <a class="link-lever" href="#" title="Avvisi">Avvisi</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-sm-12">
+                <div class="collapse" id="collapseExample">
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <div class="form-group form-group-abs">
+                        <label for="006" class="control-label">Dal</label>
+                        <div class="input-group">
+                          <input type="text" value="" placeholder="" id="006" class="form-control" aria-describedby="helpDescription-02" />
+                          <div class="input-group-addon">
+                            <a href="#" title="Apri il calendario" class="">
+                              <span class="icon">
+                                <svg focusable="false">
+                                  <title>Calendario</title>
+                                  <use xlink:href="/assets-da/core/img/iconset/sprite.svg#012a-calendar-month-m" href="/assets-da/core/img/iconset/sprite.svg#012a-calendar-month-m"></use>
+                                </svg>
+                              </span>
+                            </a>
+                          </div>
+                        </div>
+                        <small id="helpDescription-02" class="note">gg/mm/aaaa</small>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="form-group form-group-abs">
+                        <label for="007" class="control-label">Al</label>
+                        <div class="input-group">
+                          <input type="text" value="" placeholder="" id="007" class="form-control" aria-describedby="helpDescription-03" />
+                          <div class="input-group-addon">
+                            <a href="#" title="Apri il calendario" class="">
+                              <span class="icon">
+                                <svg focusable="false">
+                                  <title>Calendario</title>
+                                  <use xlink:href="/assets-da/core/img/iconset/sprite.svg#012a-calendar-month-m" href="/assets-da/core/img/iconset/sprite.svg#012a-calendar-month-m"></use>
+                                </svg>
+                              </span>
+                            </a>
+                          </div>
+                        </div>
+                        <small id="helpDescription-03" class="note">gg/mm/aaaa</small>
+                      </div></div>
+                      <div class="col-sm-3">
+                        <div class="form-group form-group-abs">
+                          <label class="control-label" for="002b">Codice Spedizione</label>
+                          <input type="text" class="form-control" id="002b" placeholder="" />
+                        </div>
+                      </div>
+                    
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12">
+                <div class="">
+                  <button type="button" class="btn btn-responsive btn-primary mb-3 mt-3 mb-sm-0 mt-sm-0">
+                <span class="icon">
+                  <svg focusable="false">
+                    <title>Lorem ipsum</title>
+                    <use xlink:href="/assets-da/core/img/iconset/sprite.svg#025a-search-m" href="/assets-da/core/img/iconset/sprite.svg#025a-search-m"></use>
+                  </svg>
+                </span>
+                Applica e cerca
+                  </button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content pt-3" id="content-main">
+        <div class="content-wrap">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 col-structure">
+                <div id="main">
+                    <div id="message-board">
+
+                      <div class="row">
+                        <div class="col-xs-6 col-sm-8">
+                          <div class="form-inline">
+                            <fieldset>
+                              <legend class="sr-only">Legend lorem ipsum</legend>
+                                <div class="form-group">
+                                    <legend id="mylegradinline" class="sr-only">Lorem ipsum</legend>
+                                    <div class="form-check hidden-xs hidden-sm me-2 mt-0">
+                                        <input name="gruppo-inline" type="checkbox" id="inline-radio1" aria-labelledby="mylabelrad01inline mylegradinline" checked="">
+                                        <label id="mylabelrad01inline" class="control-label me-3 fw-bold" for="inline-radio1">Seleziona tutti</label>
+
+                                    </div>
+                                    <button class="btn btn-xs btn-default hidden-xs hidden-sm btn-link mb-0 pb-0 me-3" href="/pages/posteit/gamma.shtml" title="lorem ipsum 1">
+                                      Segna come letto
+                                      <span class="icon ms-1">
+                                        <svg focusable="false">
+                                          <title>Segna come letto</title>
+                                          <use xlink:href="/assets-da/core/img/iconset/sprite.svg#083a-mail-m"></use>
+                                        </svg>
+                                      </span>
+                                    </button>  
+                                    <button class="btn btn-xs btn-default btn-link mb-0 pb-0" href="/pages/posteit/gamma.shtml" title="lorem ipsum">
+                                      Elimina
+                                      <span class="icon ms-1">
+                                        <svg focusable="false">
+                                          <title>Elimina</title>
+                                          <use xlink:href="/assets-da/core/img/iconset/sprite.svg#036a-delete-m"></use>
+                                        </svg>
+                                      </span>
+                                    </button>  
+                                </div>
+                            </fieldset>
+                          </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 text-xs-right"><a class="btn btn-xs btn-default btn-link mb-0 pb-0 " href="/pages/posteit/gamma.shtml" title="lorem ipsum">
+                          Dal più recente
+                          <span class="icon ms-1">
+                            <svg focusable="false">
+                              <title>Dal più recente</title>
+                              <use xlink:href="/assets-da/core/img/iconset/sprite.svg#051a-forum-m"></use>
+                            </svg>
+                          </span>
+                        </a>  </div>
+                      </div>
+                    
+                      <div class="row">
+                        
+                        <!-- riga tabella 01 -->
+                        <div class="col-xs-12">
+                          <div class="panel panel-tile border-xs-bottom-not bordeer-sm-bottom-not border-md-bottom-not border-lg-bottom-not">
+                            <div class="panel-heading">
+                              <div class="tile-row flex justify-content-between">
+                                <div class="tile-col tile-col-addon align-content-start align-content-md-center">
+                                  <div class="row">
+                                    <div class="col-xs-12">
+                                      <div class="form-group pb-0 mt-2">
+                                        <div class="form-check" role="presentation">
+                                          <input id="inline-checkbox-00" type="checkbox">
+                                          <label class="control-label" for="inline-checkbox-00">
+                                            <span class="sr-only">
+                                              seleziona il messaggio</span>
+                                          </label>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="tile-col flex-grow-2">
+                                  <div class="row gx-3">
+                                    <div class="col-xs-12 col-md-1">
+                                      <div class="flex align-items-center gap-3">
+                                      <div class="tile-wrap pt-0 pt-md-2 ">
+                                        <img class="icon icon-48" src="/assets-da/core/img/ico/ico-generic-document.png" srcset="/assets-da/core/img/ico/ico-generic-document@2x.png 2x" alt="lorem">
+                                      </div>
+                                      <div class="tile-wrap pt-0 pt-md-2 hidden-md hidden-lg">
+                                        <div class="form-group">
+                                          <p class="form-control-static">26 maggio 2024</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-10 col-md-5">
+                                      <div class="tile-wrap">
+                                        <div class="form-group">
+                                          <span class="stable fw-bold">Bonifico Sepa</span>
+                                          <p class="form-control-static">Operazione avvenuta con successo</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-8 col-md-3">
+                                      <div class="tile-wrap align-content-center">
+                                        <div class="box-rack bg-cyan inline-block m-0 mt-1 py-2 pe-5">
+                                          <div class="box-body">
+                                            <ul class="list-file list-black m-0">
+                                              <li class="list-file-excel">
+                                                <a href="#" title="lorem ipsum 2">Ricevuta 2</a>
+                                              </li>
+                                            </ul>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-4 col-md-3 hidden-xs hidden-sm">
+                                      <div class="tile-wrap">
+                                        <div class="form-group">
+                                          <p class="form-control-static pt-3 ">26 maggio 2024</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="tile-col tile-col-addon align-content-start align-content-md-center">
+                                  <div class="row">
+                                    <div class="col-xs-12">
+                                      <div class="tile-wrap">
+                                        <button class="btn btn-xs btn-default btn-link m-0" title="Visualizza altre voci lorem ipsum">
+                                          <span>
+                                            <span class="icon m-0">
+                                              <svg focusable="false">
+                                                <title>Visualizza l'intero messaggio</title>
+                                                <use xlink:href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m" href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m"></use>
+                                              </svg> </span><span class="sr-only">Visualizza l'intero messaggio</span>
+                                          </span>
+                                        </button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- riga tabella 02 -->
+                        <div class="col-xs-12">
+                          <div class="panel panel-tile">
+                            <div class="panel-heading">
+                              <div class="tile-row flex justify-content-between">
+                                <div class="tile-col tile-col-addon align-content-start align-content-md-center">
+                                  <div class="row">
+                                    <div class="col-xs-12">
+                                      <div class="form-group pb-0 mt-2">
+                                        <div class="form-check" role="presentation">
+                                          <input id="inline-checkbox-01" type="checkbox">
+                                          <label class="control-label" for="inline-checkbox-01">
+                                            <span class="sr-only">
+                                              seleziona il messaggio</span>
+                                          </label>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="tile-col flex-grow-2">
+                                  <div class="row gx-3">
+                                    <div class="col-xs-12 col-md-1">
+                                      <div class="flex align-items-center gap-3">
+                                      <div class="tile-wrap pt-0 pt-md-2 ">
+                                        <img class="icon icon-48" src="/assets-da/core/img/ico/ico-generic-document.png" srcset="/assets-da/core/img/ico/ico-generic-document@2x.png 2x" alt="lorem">
+                                      </div>
+                                      <div class="tile-wrap pt-0 pt-md-2 hidden-md hidden-lg">
+                                        <div class="form-group">
+                                          <p class="form-control-static">26 maggio 2024</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-10 col-md-5">
+                                      <div class="tile-wrap">
+                                        <div class="form-group">
+                                          <span class="stable fw-bold">Bonifico Sepa</span>
+                                          <p class="form-control-static">Operazione avvenuta con successo</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-8 col-md-3">
+                                      <div class="tile-wrap align-content-center">
+                                        <div class="box-rack bg-cyan inline-block m-0 mt-1 py-2 pe-5">
+                                          <div class="box-body">
+                                            <ul class="list-file list-black m-0">
+                                              <li class="list-file-excel">
+                                                <a href="#" title="lorem ipsum">Ricevuta 2</a>
+                                              </li>
+                                            </ul>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-4 col-md-3 hidden-xs hidden-sm">
+                                      <div class="tile-wrap">
+                                        <div class="form-group">
+                                          <p class="form-control-static pt-3 ">26 maggio 2024</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="tile-col tile-col-addon align-content-start align-content-md-center">
+                                  <div class="row">
+                                    <div class="col-xs-12">
+                                      <div class="tile-wrap">
+                                        <button class="btn btn-xs btn-default btn-link m-0" title="Visualizza altre voci lorem ipsum">
+                                          <span>
+                                            <span class="icon m-0">
+                                              <svg focusable="false">
+                                                <title>Visualizza l'intero messaggio</title>
+                                                <use xlink:href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m" href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m"></use>
+                                              </svg> </span><span class="sr-only">Visualizza l'intero messaggio</span>
+                                          </span>
+                                        </button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+
+                      <div class="row">
+                        <div class="col-sm-12">
+                          <div class="pagination-wrap mt-5 hide-xs">
+                            <nav aria-label="Lorem ipsum">
+                              <ul class="pagination mt-0">
+                                <li>
+                                  <a title="lorem ipsum 1" href="#" aria-label="Vai alla prima pagina" class="pagination-first">
+                                    <span aria-hidden="true" tabindex="-1">Prima</span>
+                                  </a>
+                                </li>
+                                <li>
+                                  <a title="lorem ipsum" href="#" aria-label="Pagina precedente" class="pagination-prev">
+                                    <span aria-hidden="true" tabindex="-1">«</span>
+                                  </a>
+                                </li>
+                                <li><a title="lorem ipsum 2" href="#">1</a></li>
+                                <li class="active"><a title="lorem ipsum" href="#">2</a></li>
+                                <li><a title="lorem ipsum 3" href="#">3</a></li>
+                                <li><a title="lorem ipsum 4" href="#">4</a></li>
+                                <li><a title="lorem ipsum 5" href="#">5</a></li>
+                                <li>
+                                  <a title="lorem ipsum 6" href="#" aria-label="Prossima pagina" class="pagination-next">
+                                    <span aria-hidden="true" tabindex="-1">»</span>
+                                  </a>
+                                </li>
+                                <li>
+                                  <a title="lorem ipsum 7" href="#" aria-label="Vai all'ultima pagina" class="pagination-last">
+                                    <span aria-hidden="true" tabindex="-1">Ultima</span>
+                                  </a>
+                                </li>
+                              </ul>
+                            </nav>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      
+    </main>
+
+    <aside aria-labelledby="assistenza-side">
+      <!--#include virtual="/includes-da/navigation/right-side-offcanvas.html" -->
+    </aside>
+
+    <aside aria-labelledby="menu-profilo">
+      <!--#include virtual="/includes-da/navigation/right-side-offcanvas-profilo.html" -->
+    </aside>
+
+    <aside aria-labelledby="bacheca-side">
+      <!--#include virtual="/includes-da/navigation/right-side-offcanvas-bacheca.html" -->
+    </aside>
+
+    <footer id="footer">
+      <div class="content content-footer content-footer-main">
+        <div class="content-wrap">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <!--#include virtual="/includes-da/footer/footer-content-main.html" -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content content-footer content-footer-extra">
+        <div class="content-wrap">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <!--#include virtual="/includes-da/footer/footer-content-extra.html" -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--#include virtual="/includes-da/utilities/footer-tag.html" -->
+    </footer>
+    
+  </body>
+</html>

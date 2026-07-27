@@ -1,0 +1,1346 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <title>Poste.it</title>
+    <!--#include virtual="/includes-da/utilities/head-tag.html" -->
+
+</head>
+
+
+<body>
+    <nav id="skiplink" aria-label="Navigazione di pagina"><ul>
+        <li><a tabindex="0" class="skip-link sr-only-focusable-abs" href="#accessibility-anchor">Passa al contenuto
+        principale</a></li>
+        <li><a class="skip-link sr-only-focusable-abs" href="#assistenza-side">Passa all'help</a></li>
+        <li><a class="skip-link sr-only-focusable-abs" href="#footer">Passa al footer di pagina</a></li>
+    </ul></nav>
+  <header>
+
+
+        <!-- Content Navbar-->
+        <div class="content" id="content-navbar">
+            <div class="content-wrap">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <div class="content-navbar-wrap">
+                      <div class="row">
+                        <div class="col-sm-12">
+                          <nav class="navbar navbar-default" id="nav-def-pi"
+                            aria-label="barra di navigazione: menu e ricerca del sito, assistenza">
+                            <div class="navbar-header">
+                              <div class="navbar-wrap">
+                                <a class="navbar-brand" href="/" title="Torna a Poste.it">
+                                  <img id="logo" alt="Logo PosteItaliane" src="/assets-da/core/img/loghi/logo-poste-italiane.png"
+                                    srcset="/assets-da/core/img/loghi/logo-poste-italiane@2x.png 2x">
+                                </a>
+                              </div>
+                            </div>
+                          </nav>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+    </header>
+
+    <main id="accessibility-anchor" tabindex="-1">
+        <div class="content concept-a" id="content-abstract">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-7 hidden-sm hidden-xs">
+                            <ol class="breadcrumb breadcrumb-xs-trim-a breadcrumb-sm-trim-a breadcrumb-md-trim-b">
+                                <li>
+                                    <a href="/" title="Index Html-kit">
+                                        <span>Html-kit</span>
+                                    </a>
+                                </li>
+                                <li class="active" aria-current="page"><span>Ui-Elements Cards</span></li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="abstract-wrap col-sm-5 col-sm-push-7">
+                            <div class="picture-wrap">
+                                <picture>
+                                    <source srcset="/data/img/content-abstract-cards.webp" type="image/webp">
+                                    <source srcset="/data/img/content-abstract-cards.png" type="image/png">
+                                    <img loading="lazy" src="/data/img/content-abstract-cards.png" class="" alt="Card preview area intro">
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="abstract-wrap col-sm-7 col-sm-pull-5">
+                            <div class="abstract">
+                                <div class="abstract-heading">
+                                    <h1>Ui-Elements Cards</h1>
+                                    <span class="abstract-subtitle">Elementi di design per la creazione di pagine
+                                        accessibili e responsive</span>
+                                </div>
+                            </div>
+                            <div class="abstract-advantage pt-3">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <p>Una "card" &egrave; un contenitore di contenuti flessibile ed estensibile.
+                                            Ognuna di queste &egrave; costruita con il minor markup ed elementi di stile possibile, ma riescono comunque a offrire ampio controllo e personalizzazione.<br>
+                                            Posssono includere opzioni per intestazioni e pi&eacute; di pagina, un'ampia variet&aacute; di contenuti, immagini contestuali e diverse opzioni di visualizzazione. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="main">
+            <!-- Cards Default-->
+            <div class="content content-multiwrap">
+                <div class="content-wrap content-bg bg-cyan">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h2 class="content-heading">Cards default</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-wrap content-bg bg-cyan">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="row row-space">
+                                    <div class="col-sm-6 col-md-6">
+                                        <!--#set var="id" value="_01" -->
+                                        <!--#include virtual="/includes-da/object/cards-default-00.html" -->
+                                    </div>
+                                    <div class="col-sm-6 col-md-6">
+                                        <div class="box-editable-area mb-4">
+                                            <ul class="list-check mb-3">
+                                                <li>Tag di supporto img: <strong>Nessuna</strong></li>
+                                                <li>Numero di img supportato: <strong>0</strong></li>
+                                                <li>Formato immagine di base: <strong>/</strong></li>
+                                                <li>Tipologia di responsive img: <strong>NO</strong></li>
+                                                <li>Allineamento testi: <strong>Sx</strong></li>
+                                                <li>Cta: <strong>Standard (small)</strong> (Facoltativa)</li>
+                                                <li>Varianti supportate:  <strong>".mode-center"</strong></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cards Default icon -->
+            <div class="content content-multiwrap">
+                <div class="content-wrap content-bg bg-white">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h2 class="content-heading">Cards default icon</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-wrap content-bg bg-white">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="row row-space">
+                                    <div class="col-sm-6 col-md-6">
+                                        <!--#include virtual="/includes-da/object/cards-default-icon-01.html" -->
+                                    </div>
+                                    <div class="col-sm-6 col-md-6">
+                                        <div class="box-editable-area mb-4">
+                                            <ul class="list-check mb-3">
+                                                <li>Tag di supporto: <strong>Icona in Background</strong></li>
+                                                <li>Numero di img supportato: <strong>1</strong></li>
+                                                <li>Formato immagine di base: <strong>80x80/160x160 (2x) vincolato</strong></li>
+                                                <li>Dimensione immagine visualizzata: <strong>64x64</strong></li>
+                                                <li>Tipologia di responsive img: <strong>NO</strong></li>
+                                                <li>Allineamento img: <strong>Top - Sx</strong></li>
+                                                <li>Allineamento testi: <strong>Sx</strong></li>
+                                                <li>Cta: <strong>su Titolo</strong> (Facoltativa)</li>
+                                                <li>Varianti supportate: <strong>".mode-center"</strong>, <strong>".mode-large"</strong> (con icona 80x80), <strong>".mode-right"</strong> (con icona a destra) </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cards Default icon (Center mode) -->
+            <div class="content content-multiwrap">
+                <div class="content-wrap content-bg bg-cyan">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h2 class="content-heading">Cards default icon (Center mode)</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-wrap content-bg bg-cyan">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="row row-space">
+                                    <div class="col-sm-6 col-md-6">
+                                        <!--#include virtual="/includes-da/object/cards-default-icon-04.html" -->
+                                    </div>
+                                    <div class="col-sm-6 col-md-6">
+                                        <div class="box-editable-area mb-4">
+                                            <p class="text-note">v. specifiche "Cards-default-icon"</p>
+                                            <ul class="list-check mb-3">
+                                                <li>Allineamento img: <strong>Centrato</strong></li>
+                                                <li>Allineamento testi: <strong>Centrato</strong></li>
+                                                <li>Classi a supporto: <strong>".mode-center"</strong> (sempre attivo),
+                                                    <strong>".mode-**-center"</strong> (per cutpoint)</li>
+                                                <li>Cta: <strong>su Titolo</strong> (Facoltativa)</li>
+                                                <li>Varianti supportate: <strong>".mode-large"</strong> (con dimensione immagine visualizzata 80x80) </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cards Default icon (Right mode - Large mode) -->
+            <div class="content content-multiwrap">
+                <div class="content-wrap content-bg bg-white">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h2 class="content-heading">Cards default icon (Right mode - Large mode)</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-wrap content-bg bg-white">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="row row-space">
+                                    <div class="col-sm-6 col-md-6">
+                                        <!--#include virtual="/includes-da/object/cards-default-icon-08.html" -->
+                                    </div>
+                                    <div class="col-sm-6 col-md-6">
+                                        <div class="box-editable-area mb-4">
+                                            <p class="text-note">v. specifiche "Cards-default-icon"</p>
+                                            <ul class="list-check mb-3">
+                                                <li>Dimensione immagine visualizzata: <strong>80x80</strong></li>
+                                                <li>Allineamento img: <strong>Dx</strong></li>
+                                                <li>Allineamento testi: <strong>Sx</strong></li>
+                                                <li>Classi a supporto: <strong>".mode-right"</strong>, <strong>".mode-large"</strong> (con dimensione immagine visualizzata 80x80)
+                                                    </li>
+                                                <li>Varianti supportate: <strong>".mode-**-center"</strong> (per cutpoint) </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Cards picture -->
+            <div class="content content-multiwrap">
+                <div class="content-wrap content-bg bg-cyan">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h2 class="content-heading">Cards Picture</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-wrap content-bg bg-cyan">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="row row-space">
+                                    <div class="col-sm-6 col-md-6">
+                                        <!--#include virtual="/includes-da/object/cards-picture-01.html" -->
+                                    </div>
+                                    <div class="col-sm-6 col-md-6">
+                                        <div class="box-editable-area mb-4">
+                                            <ul class="list-check mb-3">
+                                                <li>Tag di supporto: <strong>Picture</strong></li>
+                                                <li>Numero di img supportato: <strong>3</strong></li>
+                                                <li>Formato immagine di base: <strong>556 x 275
+                                                    (orizzontale mosaico)</strong>,<strong>743 x 195
+                                                    (orizzontale base)</strong>,<strong>160 x 280
+                                                    (verticale)</strong></li>
+                                                <li>Posizionamento immagine: <strong>TOP</strong></li>
+                                                <li>Tipologia di responsive img: <strong>Crop</strong></li>
+                                                <li>Allineamento img: <strong>Top - Centrato</strong></li>
+                                                <li>Allineamento testi: <strong>Sx</strong></li>
+                                                <li>Varianti supportate:  <strong>".mode-center"</strong>, <strong>".mode-stretch"</strong> (sempre attivo),
+                                                    <strong>".mode-**-stretch"</strong> (per cutpoint)</li>
+                                                <li>Cta: <strong>Standard (small)</strong> (Facoltativa)</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cards picture  (Stretch mode) -->
+            <div class="content content-multiwrap">
+                <div class="content-wrap content-bg bg-white">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h2 class="content-heading">Cards Picture (Stretch mode)</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-wrap content-bg bg-white">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="row row-space">
+                                    <div class="col-sm-6 col-md-6">
+                                        <!--#include virtual="/includes-da/object/cards-picture-stretch-01.html" -->
+                                    </div>
+                                    <div class="col-sm-6 col-md-6">
+                                        <div class="box-editable-area mb-4">
+                                            <ul class="list-check mb-3">
+                                                <li>Tag di supporto: <strong>Picture</strong></li>
+                                                <li>Numero di img supportato: <strong>3</strong></li>
+                                                <li>Formato immagine di base: <strong>556 x 275
+                                                        (orizzontale mosaico)</strong>,<strong>743 x 195
+                                                        (orizzontale base)</strong>,<strong>160 x 280
+                                                        (verticale)</strong></li>
+                                                <li>Posizionamento immagine: <strong>TOP</strong></li>
+                                                <li>Tipologia di responsive img: <strong>Crop</strong></li>
+                                                <li>Allineamento img: <strong>Top - Sx</strong></li>
+                                                <li>Allineamento testi: <strong>Sx</strong></li>
+                                                <li>Line-camp: <strong>2-3 righe</strong></li>
+                                                <li>Classi a supporto: <strong>".mode-stretch"</strong> (sempre attivo),
+                                                    <strong>".mode-**-stretch"</strong> (per cutpoint)</li>
+                                                <li>Cta: <strong>Standard (small)</strong> (Facoltativa)</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cards picture  (Center mode) -->
+            <div class="content content-multiwrap">
+                <div class="content-wrap content-bg bg-cyan">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h2 class="content-heading">Cards Picture (Center mode)</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-wrap content-bg bg-cyan">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="row row-space">
+                                    <div class="col-sm-6 col-md-6">
+                                        <!--#include virtual="/includes-da/object/cards-picture-center-01.html" -->
+                                    </div>
+                                    <div class="col-sm-6 col-md-6">
+                                        <div class="box-editable-area mb-4">
+                                            <p class="text-note">v. specifiche "Cards-picture"</p>
+                                            <ul class="list-check mb-3">
+                                                <li>Classi a supporto: 
+                                                    <strong>.mode-center"</strong> (sempre attivo)</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cards Reactive -->
+            <div class="content content-multiwrap">
+                <div class="content-wrap content-bg bg-white">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h2 class="content-heading">Cards Reactive (default state)</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-wrap content-bg bg-white">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="row row-space">
+                                    <div class="col-sm-6 col-md-6">
+                                        <!--#include virtual="/includes-da/object/cards-reactive-02.html" -->
+                                    </div>
+                                    <div class="col-sm-6 col-md-6">
+                                        <div class="box-editable-area mb-4">
+                                            <ul class="list-check mb-3">
+                                                <li>Tag di supporto: <strong>Picture</strong></li>
+                                                <li>Numero di img supportato: <strong>1</strong></li>
+                                                <li>Formato immagine di base: <strong>743 x 360</strong></li>
+                                                <li>Tipologia di responsive img: <strong>Standard</strong></li>
+                                                <li>Allineamento testi: <strong>Sx</strong></li>
+                                                <li>Classi a supporto: <strong>/</strong> </li>
+                                                <li>Varianti supportate:<strong>".mode-center"</strong></li>
+                                                <li>Cta: <strong>Standard (normal/small)</strong> (Facoltativa), <strong>su Titolo</strong> (Facoltativa)</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cards Reactive (Center mode) -->
+            <div class="content content-multiwrap">
+                <div class="content-wrap content-bg bg-cyan">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h2 class="content-heading">Cards Reactive (Center mode)</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-wrap content-bg bg-cyan">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="row row-space">
+                                    <div class="col-sm-6 col-md-6">
+                                        <!--#include virtual="/includes-da/object/cards-reactive-04.html" -->
+                                    </div>
+                                    <div class="col-sm-6 col-md-6">
+                                        <div class="box-editable-area mb-4">
+                                            <ul class="list-check mb-3">
+                                                <li>Tag di supporto: <strong>Picture</strong></li>
+                                                <li>Numero di img supportato: <strong>1</strong></li>
+                                                <li>Formato immagine di base: <strong>743 x 360</strong></li>
+                                                <li>Tipologia di responsive img: <strong>Standard</strong></li>
+                                                <li>Allineamento testi: <strong>Centrato</strong></li>
+                                                <li>Classi a supporto: <strong>".mode-center"</strong> (sempre attivo)</li>
+                                                <li>Varianti supportate: <strong>/</strong></li>
+                                                <li>Cta: <strong>Standard (normal/small)</strong> (Facoltativa)</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Cards Reactive (Center mode, Icon mode) -->
+            <div class="content content-multiwrap">
+                <div class="content-wrap content-bg bg-white">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h2 class="content-heading">Cards Reactive (Center mode, Icon mode)</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-wrap content-bg bg-white">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="row row-space">
+                                    <div class="col-sm-6 col-md-6">
+                                        <!--#set var="id" value="_01" -->
+                                        <!--#include virtual="/includes-da/object/cards-reactive-03.html" -->
+                                    </div>
+                                    <div class="col-sm-6 col-md-6">
+                                        <div class="box-editable-area mb-4">
+                                            <p class="text-note fw-bold">Esempio con Icona</p>
+                                            <ul class="list-check mb-3">
+                                                <li>Tag di supporto: <strong>Picture</strong></li>
+                                                <li>Numero di img supportato: <strong>1</strong></li>
+                                                <li>Formato immagine di base: <strong>64x64/128x128/160x160 (con relative 2x)</strong></li>
+                                                <li>Tipologia di responsive img: <strong>Standard</strong></li>
+                                                <li>Allineamento testi: <strong>Centrato</strong></li>
+                                                <li>Classi a supporto: <strong>".mode-center"</strong> (sempre attivo),
+                                                    <strong>".mode-icon"</strong></li>
+                                                <li>Varianti supportate: <strong>".panel-cards-basic"</strong>
+                                                        (inibisce bordi e spaziature interne)</li>
+                                                <li>Cta: <strong>Standard (normal/small)</strong> (Facoltativa)</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cards Reactive (Center mode, Icon mode)  -->
+            <div class="content content-multiwrap">
+                <div class="content-wrap content-bg bg-cyan">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h2 class="content-heading">Cards Reactive (Center mode, Icon mode)</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-wrap content-bg bg-cyan">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="row row-space">
+                                    <div class="col-sm-6 col-md-6">
+                                        <!--#include virtual="/includes-da/object/cards-reactive-07.html" -->
+                                    </div>
+                                    <div class="col-sm-6 col-md-6">
+                                        <div class="box-editable-area mb-4">
+                                            <p class="text-note fw-bold">Esempio con illustrazione</p>
+                                            <p class="text-note">v. specifiche "Cards-reactive (Center mode, Icon mode)"</p>
+                                            <ul class="list-check mb-3">
+                                                <li>Formato immagine di base: <strong>200x120 (con relativa 2x)</strong></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cards Reactive (Center mode, cards Basic) -->
+            <div class="content content-multiwrap">
+                <div class="content-wrap content-bg bg-white">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h2 class="content-heading">Cards Reactive (Center mode, Icon mode, Basic)</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-wrap content-bg bg-white">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="row row-space">
+                                    <div class="col-sm-6 col-md-6">
+                                        <!--#include virtual="/includes-da/object/cards-reactive-basic-01.html" -->
+                                    </div>
+                                    <div class="col-sm-6 col-md-6">
+                                        <div class="box-editable-area mb-4">
+                                            <ul class="list-check mb-3">
+                                                <li>Tag di supporto: <strong>Picture</strong></li>
+                                                <li>Numero di img supportato: <strong>1</strong></li>
+                                                <li>Formato immagine di base: <strong>64x64/128x128/160x160 (con relative 2x)</strong></li>
+                                                <li>Tipologia di responsive img: <strong>Standard</strong></li>
+                                                <li>Allineamento testi: <strong>Centrato</strong></li>
+                                                <li>Classi a supporto: <strong>".mode-center"</strong> (sempre attivo),
+                                                    <strong>".mode-icon"</strong>, <strong>".panel-cards-basic"</strong>
+                                                    (inibisce bordi e spaziature interne)</li>
+                                                <li>Cta: <strong>Standard (normal/small)</strong> (Facoltativa)</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cards Detailed -->
+            <div class="content content-multiwrap display-pop">
+                <div class="content-wrap content-bg bg-cyan">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h2 class="content-heading">Cards Detailed </h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-wrap content-bg bg-cyan">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="row row-space">
+                                    <div class="col-sm-12">
+                                        <!--#include virtual="/includes-da/object/cards-detailed-01.html" -->
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <div class="box-editable-area mb-4">
+                                            <p class="text-note">v. specifiche "Cards Detailed-BG" per utilizzo con immagine</p>
+                                            <ul class="list-check mb-3">
+                                                <li>Tag di supporto: <strong>Nessuna</strong></li>
+                                                <li>Numero di img supportato: <strong>0</strong></li>
+                                                <li>Formato immagine di base: <strong>/</strong></li>
+                                                <li>Tipologia di responsive img: <strong>/</strong></li>
+                                                <li>Allineamento testi: <strong>Sx</strong></li>
+                                                <li>Classi a supporto: <strong>/</strong> </li>
+                                                <li>Varianti supportate: <strong> ".panel-cards-recommended"</strong></li>
+                                                <li>Cta: <strong>Standard (small)</strong></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cards Detailed (Recommended) -->
+            <div class="content content-multiwrap display-pop">
+                <div class="content-wrap content-bg bg-white">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h2 class="content-heading">Cards Detailed Recommended</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-wrap content-bg bg-white">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="row row-space">
+                                    <div class="col-sm-12">
+                                        <!--#include virtual="/includes-da/object/cards-detailed-recommended-01.html" -->
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <div class="box-editable-area mb-4">
+                                            <p class="text-note">v. specifiche "Cards Detailed-BG" per utilizzo con immagine</p>
+                                            <ul class="list-check mb-3">
+                                                <li>Tag di supporto: <strong>Nessuna</strong></li>
+                                                <li>Numero di img supportato: <strong>0</strong></li>
+                                                <li>Formato immagine di base: <strong>/</strong></li>
+                                                <li>Tipologia di responsive img: <strong>/</strong></li>
+                                                <li>Allineamento testi: <strong>Sx</strong></li>
+                                                <li>Classi a supporto: <strong>".panel-cards-recommended"</strong> </li>
+                                                <li>Cta: <strong>Standard (small)</strong></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cards Detailed-BG -->
+            <div class="content content-multiwrap display-pop">
+                <div class="content-wrap content-bg bg-cyan">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h2 class="content-heading">Cards Detailed-BG</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-wrap content-bg bg-cyan">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="row row-space">
+                                    <div class="col-sm-12">
+                                        <!--#include virtual="/includes-da/object/cards-detailed-bg-02.html" -->
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <div class="box-editable-area mb-4">
+                                            <ul class="list-check mb-3">
+                                                <li>Tag di supporto: <strong>Picture</strong></li>
+                                                <li>Numero di img supportato: <strong>2</strong></li>
+                                                <li>Formato immagine di base: <strong>310x500</strong>,<strong>743x285</strong></li>
+                                                <li>Tipologia di responsive img: <strong>Crop</strong></li>
+                                                <li>Allineamento img: <strong>Top (default) - Centrato -  Bottom</strong></li>
+                                                <li>Allineamento testi: <strong>Sx</strong></li>
+                                                <li>Classi a supporto: <strong>/</strong> </li>
+                                                <li>Varianti supportate: <strong> ".panel-cards-recommended"</strong>, <strong>".mode-img-top"</strong> (>'sm'), <strong>".mode-img-bottom"</strong> (>'sm'), <strong>".mode-img-middle"</strong> (>'sm')</li>
+                                                <li>Cta: <strong>Standard (small)</strong></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cards Detailed-BG (mode-stretch) -->
+            <div class="content content-multiwrap display-pop">
+                <div class="content-wrap content-bg bg-white">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h2 class="content-heading">Cards Detailed-BG (Stretch mode)</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-wrap content-bg bg-white">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="row row-space">
+                                    <div class="col-sm-12">
+                                       <!--#include virtual="/includes-da/object/cards-detailed-bg-stretched-01.html" -->
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <div class="box-editable-area mb-4">
+                                            <ul class="list-check mb-3">
+                                                <li>Tag di supporto: <strong>Picture</strong></li>
+                                                <li>Numero di img supportato: <strong>2</strong></li>
+                                                <li>Formato immagine di base: <strong>310x500</strong>,<strong>743x285</strong></li>
+                                                <li>Tipologia di responsive img: <strong>Crop</strong></li>
+                                                <li>Allineamento img: <strong>Top (default) - Centrato -  Bottom</strong></li>
+                                                <li>Allineamento testi: <strong>Sx</strong></li>
+                                                <li>Classi a supporto: <strong>.mode-stretch</strong> </li>
+                                                <li>Varianti supportate: <strong>".mode-img-top"</strong> (>'sm'), <strong>".mode-img-bottom"</strong> (>'sm'), <strong>".mode-img-middle"</strong> (>'sm')</li>
+                                                <li>Cta: <strong>Standard (small)</strong></li>
+                                            </ul>
+                                            <p class="text-note">N.b.: Versione predisposta (solo elenco/testo) per l'utilizzo all'interno dell'area "Cerca". Il formato immagine supportato &egrave; il medesimo della "detailed-bg".</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cards Detailed (Levelrange) -->
+            <div class="content content-multiwrap display-pop">
+                <div class="content-wrap content-bg bg-cyan">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h2 class="content-heading">Cards Detailed Levelrange</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-wrap content-bg bg-cyan">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="row row-space">
+                                    <div class="col-sm-12">
+                                        <!--#include virtual="/includes-da/object/cards-detailed-levelrange-01.html" -->
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <div class="box-editable-area mb-4">
+                                            <p class="text-note">v. specifiche "Cards Detailed-BG" per utilizzo con immagine</p>
+                                            <ul class="list-check mb-3">
+                                                <li>Tag di supporto: <strong>Nessuna</strong></li>
+                                                <li>Numero di img supportato: <strong>0</strong></li>
+                                                <li>Formato immagine di base: <strong>/</strong></li>
+                                                <li>Tipologia di responsive img: <strong>/</strong></li>
+                                                <li>Allineamento testi: <strong>Sx</strong></li>
+                                                <li>Classi a supporto: <strong>/</strong> </li>
+                                                <li>Varianti supportate: <strong> ".panel-cards-recommended"</strong></li>
+                                                <li>Cta: <strong>Standard (small)</strong></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cards Appuntamento up-->
+            <div class="content content-multiwrap">
+                <div class="content-wrap content-bg bg-white">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h2 class="content-heading">Cards Appuntamento up</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-wrap content-bg bg-white">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="row row-space">
+                                    <div class="col-sm-6 col-md-6">
+                                        <!--#include virtual="/includes-da/object/cards-default-appuntamento-up.html" -->
+                                    </div>
+                                    <div class="col-sm-6 col-md-6">
+                                        <div class="box-editable-area mb-4">
+                                            <ul class="list-check mb-3">
+                                                <li>Tag di supporto: <strong>/</strong></li>
+                                                <li>Numero di img supportato: <strong>0</strong></li>
+                                                <li>Formato immagine di base: <strong>/</strong></li>
+                                                <li>Tipologia di responsive img: <strong>/</strong></li>
+                                                <li>Allineamento testi: <strong>Sx</strong></li>
+                                                <li>Cta: <strong>Standard (small)</strong></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cards Appuntamento consulente-->
+            <div class="content content-multiwrap">
+                <div class="content-wrap content-bg bg-cyan">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h2 class="content-heading">Cards Appuntamento consulente</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-wrap content-bg bg-cyan">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="row row-space">
+                                    <div class="col-sm-6 col-md-6">
+                                        <!--#include virtual="/includes-da/object/cards-default-appuntamento-consulente.html" -->
+                                    </div>
+                                    <div class="col-sm-6 col-md-6">
+                                        <div class="box-editable-area mb-4">
+                                            <ul class="list-check mb-3">
+                                                <li>Tag di supporto: <strong>Img</strong></li>
+                                                <li>Numero di img supportato: <strong>1</strong></li>
+                                                <li>Formato immagine di base: <strong>50x50</strong></li>
+                                                <li>Tipologia di responsive img: <strong>/</strong></li>
+                                                <li>Allineamento testi: <strong>Sx</strong></li>
+                                                <li>Cta: <strong>Standard (small)</strong></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cards News-->
+            <div class="content content-multiwrap">
+                <div class="content-wrap content-bg bg-white">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h2 class="content-heading">Cards News</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-wrap content-bg bg-white">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="row row-space">
+                                    <div class="col-sm-6 col-md-6">
+                                        <!--#include virtual="/includes-da/object/cards-default-news.html" -->
+                                    </div>
+                                    <div class="col-sm-6 col-md-6">
+                                        <div class="box-editable-area mb-4">
+                                            <ul class="list-check mb-3">
+                                                <li>Tag di supporto: <strong>/</strong></li>
+                                                <li>Numero di img supportato: <strong>0</strong></li>
+                                                <li>Formato immagine di base: <strong>/</strong></li>
+                                                <li>Tipologia di responsive img: <strong>/</strong></li>
+                                                <li>Allineamento testi: <strong>Sx</strong></li>
+                                                <li>Classi a supporto: <strong>".panel-cards-basic" (inibisce bordi e spaziature interne)</strong></li>
+                                                <li>Cta: <strong>Standard (small)</strong></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cards Trendy -->
+            <div class="content content-multiwrap display-pop">
+                <div class="content-wrap content-bg bg-cyan">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h2 class="content-heading">Cards Trendy (singola)</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-wrap content-bg bg-cyan">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="row row-space">
+                                    <div class="col-sm-12">
+                                        <!--#include virtual="/includes-da/object/cards-trendy-01.html" -->
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <div class="box-editable-area mb-4">
+                                            <ul class="list-check mb-3">
+                                                <li>Tag di supporto: <strong>Picture</strong></li>
+                                                <li>Numero di img supportato: <strong>1 (+ 1 pattern)</strong></li>
+                                                <li>Formato immagine di base: <strong>520 x 360</strong></li>
+                                                <li>Formato immagine pattern: <strong>1138 x 1138</strong></li>
+                                                <li>Tipologia di responsive img: <strong>Standard</strong></li>
+                                                <li>Allineamento testi: <strong>Sx</strong></li>
+                                                <li>Classi a supporto: <strong>".mode-dark"</strong></li>
+                                                <li>Varianti supportate: <strong>".mode-stretch</strong></li>
+                                                <li>Cta: <strong>Standard (small)</strong></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cards Trendy -->
+            <div class="content content-multiwrap display-pop">
+                <div class="content-wrap content-bg bg-white">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h2 class="content-heading">Cards Trendy (Stretch mode)</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-wrap content-bg bg-white">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="row row-space">
+                                    <div class="col-sm-6">
+                                        <!--#include virtual="/includes-da/object/cards-trendy-03.html" -->
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="box-editable-area mb-4">
+                                            <p class="text-note">v. specifiche "Cards trendy"</p>
+                                            <ul class="list-check mb-3">
+                                                <li>Classi a supporto: <strong>".mode-stretch"</strong></li>
+                                                <li>Varianti supportate: <strong>"mode-dark"</strong></li>
+                                            </ul>
+                                            <p class="text-note">N.b.: Versione predisposta per l'utilizzo simultaneo di due card "trendy" affiancate (equalizzazione necessaria con "equalize-wrap")</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cards Bg - config-default -->
+            <div class="content content-multiwrap">
+                <div class="content-wrap content-bg bg-cyan">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h2 class="content-heading">Cards Bg (config-default)</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-wrap content-bg bg-cyan">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="row row-space">
+                                    <div class="col-sm-12 col-md-8">
+                                        <!--#include virtual="/includes-da/object/cards-bg-00.html" -->
+                                    </div>
+                                    <div class="col-sm-12 col-md-12">
+                                        <div class="box-editable-area mb-4">
+                                            <ul class="list-check mb-3">
+                                                <li>Tag di supporto: <strong>Img in Background</strong></li>
+                                                <li>Numero di img supportato: <strong>1</strong></li>
+                                                <li>Formato immagine di base: <strong>200x120/400x240 (2x) (vincolato)</strong></li>
+                                                <li>Tipologia di responsive img: <strong>/</strong></li>
+                                                <li>Allineamento img: <strong>Bottom - Dx</strong></li>
+                                                <li>Allineamento testi: <strong>Sx</strong></li>
+                                                <li>Classi a supporto: <strong>".bg-config-default"</strong> (configurazione di default)</li>
+                                                <li>Varianti supportate: <strong> ".mode-stretch"</strong> (sviluppo card prettamente verticale), <strong> ".mode-flush"</strong> (con img di background a filo card)</li>
+                                                <li>Cta: <strong>Standard (small)</strong></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cards Bg - config-default -->
+            <div class="content content-multiwrap">
+                <div class="content-wrap content-bg bg-white">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h2 class="content-heading">Cards Bg (Flush mode)</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-wrap content-bg bg-white">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="row row-space">
+                                    <div class="col-sm-12 col-md-8">
+                                        <!--#include virtual="/includes-da/object/cards-bg-02.html" -->
+                                    </div>
+                                    <div class="col-sm-12 col-md-12">
+                                        <div class="box-editable-area mb-4">
+                                            <p class="text-note fw-bold">Esempio in modalit&agrave; Flush </p>
+                                            <p class="text-note">v. specifiche "Cards Bg (Config-default)"</p>
+                                            <ul class="list-check mb-3">
+                                                <li>Formato immagine di base: <strong>160x120/320x240 (2x) (vincolato)</strong></li>
+                                                <li>Classi a supporto: <strong>".bg-config-default"</strong> (configurazione di default), <strong>".mode-flush"</strong> (img di background a filo card)</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cards Bg - config-default -->
+            <div class="content content-multiwrap">
+                <div class="content-wrap content-bg bg-cyan">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h2 class="content-heading">Cards Bg (Config-default - Stretch mode)</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-wrap content-bg bg-cyan">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="row row-space">
+                                    <div class="col-sm-6 col-md-6">
+                                        <!--#include virtual="/includes-da/object/cards-bg-01.html" -->
+                                    </div>
+                                    <div class="col-sm-6 col-md-6">
+                                        <div class="box-editable-area mb-4">
+                                            <p class="text-note fw-bold">Esempio in modalit&agrave; Stretch </p>
+                                            <p class="text-note">v. specifiche "Cards Bg (Config-default)"</p>
+                                            <ul class="list-check mb-3">
+                                                <li>Formato immagine di base: <strong>200x120/400x240 (2x) (vincolato)</strong></li>
+                                                <li>Classi a supporto: <strong>".bg-config-default"</strong> (configurazione di default), <strong>".mode-stretch"</strong> (sviluppo card prettamente verticale)</li>
+                                            </ul>
+                                            <p class="text-note">N.b.: Versione predisposta per l'utilizzo simultaneo di due asset (cards/pills) affiancati (equalizzazione necessaria con "equalize-wrap")</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cards Bg - config-01 -->
+            <div class="content content-multiwrap">
+                <div class="content-wrap content-bg bg-white">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h2 class="content-heading">Cards Bg (Config-01)</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-wrap content-bg bg-white">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="row row-space">
+                                    <div class="col-sm-12 col-md-10">
+                                        <!--#include virtual="/includes-da/object/cards-bg-04.html" -->
+                                    </div>
+                                    <div class="col-sm-12 col-md-12">
+                                        <div class="box-editable-area mb-4">
+                                            <ul class="list-check mb-3">
+                                                <li>Tag di supporto: <strong>Img in Background</strong></li>
+                                                <li>Numero di img supportato: <strong>1</strong></li>
+                                                <li>Formato immagine di base: <strong>200x120/400x240 (2x) (vincolato)</strong></li>
+                                                <li>Tipologia di responsive img: <strong>/</strong></li>
+                                                <li>Allineamento img: <strong>Bottom - Dx (LG/MD/SM), Bottom - Center (XS)</strong></li>
+                                                <li>Allineamento testi: <strong>Sx</strong></li>
+                                                <li>Classi a supporto: <strong>".bg-config-01"</strong> (configurazione di default)</li>
+                                                <li>Varianti supportate: <strong> ".mode-stretch"</strong> (posizionamento e dimensionamento immagine identici solo su XS e SM)</li>
+                                                <li>Cta: <strong>Standard (small)</strong></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cards Bg - config-01 -->
+            <div class="content content-multiwrap">
+                <div class="content-wrap content-bg bg-cyan">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h2 class="content-heading">Cards Bg (Config-01 - Stretch mode)</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-wrap content-bg bg-cyan">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="row row-space">
+                                    <div class="col-sm-12 col-md-6">
+                                        <!--#include virtual="/includes-da/object/cards-bg-03.html" -->
+                                    </div>
+                                    <div class="col-sm-12 col-md-6">
+                                        <div class="box-editable-area mb-4">
+                                            <p class="text-note fw-bold">Esempio in modalit&agrave; Stretch </p>
+                                            <p class="text-note">v. specifiche "Cards Bg (Config-01)"</p>
+                                            <ul class="list-check mb-3">
+                                                <li>Classi a supporto: <strong>".bg-config-01"</strong> (configurazione di default), <strong>".mode-stretch"</strong> (ridimensionamento su cutpoint MD e LG)</li>
+                                                
+                                            </ul>
+                                            <p class="text-note">N.b.: Versione predisposta per l'utilizzo simultaneo di due asset (cards) affiancate (equalizzazione necessaria con "equalize-wrap")<br>
+                                                Posizionamento e dimensionamento immagine identici alla versione base solo su XS e SM.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cards Comparison (Center mode)-->
+            <div class="content content-multiwrap">
+                <div class="content-wrap content-bg bg-white">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h2 class="content-heading">Cards Comparison (Center mode)</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-wrap content-bg bg-white">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="row row-space">
+                                    <div class="col-sm-6 col-md-5 col-lg-4">
+                                        <!--#include virtual="/includes-da/object/cards-comparison-01.html" -->
+                                    </div>
+                                    <div class="col-sm-6 col-md-6 col-md-push-1 col-lg-6 col-lg-push-2">
+                                        <div class="box-editable-area mb-4">
+                                            <ul class="list-check mb-3">
+                                                <li>Tag di supporto: <strong>Picture</strong></li>
+                                                <li>Numero di img supportato: <strong>1</strong></li>
+                                                <li>Formato immagine di base: <strong>743 x 195</strong></li>
+                                                <li>Tipologia di responsive img: <strong>Crop</strong></li>
+                                                <li>Allineamento img: <strong>Top - Centrato</strong></li>
+                                                <li>Allineamento testi: <strong>Centrato (default)</strong></li>
+                                                <li>Classi a supporto: <strong>".mode-center"</strong> (sempre attivo)</li>
+                                                <li>Varianti supportate: <strong>/</strong></li>
+                                                <li>Cta: <strong>Standard (normal)</strong></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cards Call-->
+            <div class="content content-multiwrap display-pop">
+                <div class="content-wrap content-bg bg-cyan">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h2 class="content-heading">Cards Call</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-wrap content-bg bg-cyan">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="row row-space">
+                                    <div class="col-sm-12 equalize-wrap equalize-wrap-1">
+                                        <!--#include virtual="/includes-da/object/cards-default-call-01.html" -->
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <div class="box-editable-area mb-4">
+                                            <ul class="list-check mb-3">
+                                                <li>Tag di supporto: <strong>/</strong></li>
+                                                <li>Numero di img supportato: <strong>1</strong></li>
+                                                <li>Formato immagine di base: <strong>120x100/240x200 (2x)</strong></li>
+                                                <li>Tipologia di responsive img: <strong>Responsive</strong></li>
+                                                <li>Allineamento testi: <strong>Sx</strong></li>
+                                                <li>Cta: <strong>/</strong></li>
+                                            </ul>
+                                            <p class="text-note">N.b.: Equalizzazione necessaria con "equalize-wrap"</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                <!-- Cards Wizard -->
+                <div class="content content-multiwrap">
+                    <div class="content-wrap content-bg bg-white">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <h2 class="content-heading">Cards Wizard</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-wrap content-bg bg-white">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="row row-space">
+                                        <div class="col-sm-8 col-md-6">
+                                            <!--#include virtual="/includes-da/object/cards-wizard-01.html" -->
+                                        </div>
+                                        <div class="col-sm-12 col-md-6">
+                                            <div class="box-editable-area mb-4">
+                                                <ul class="list-check mb-3">
+                                                    <li>Tag di supporto: <strong>/</strong></li>
+                                                    <li>Numero di img supportato: <strong>1</strong></li>
+                                                    <li>Formato immagine di base: <strong>120x100/240x200 (2x)</strong></li>
+                                                    <li>Tipologia di responsive img: <strong>Responsive</strong></li>
+                                                    <li>Allineamento testi: <strong>Sx</strong></li>
+                                                    <li>Classi a supporto: <strong>".panel-cards-basic" (inibisce bordi e spaziature interne)</strong></li>
+                                                    <li>Cta: <strong>Standard (small)</strong></li>
+                                                </ul>
+                                                <p class="text-note">N.b.: Card con struttura ed immagine responsive </p>
+                                                <p class="text-note">N.b.: Attualmente in uso specifico su sidebar</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+    </main>
+    <aside aria-labelledby="side-help-title">
+        <div class="content content-sidebar-assistenza">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <!--#include virtual="/includes-da/navigation/right-side-offcanvas.html" -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
+    <footer id="footer">
+        
+        <div class="content content-footer content-footer-main">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--#include virtual="/includes-da/footer/footer-content-main.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content content-footer content-footer-extra">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--#include virtual="/includes-da/footer/footer-content-extra.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--#include virtual="/includes-da/utilities/footer-tag.html" -->
+        
+    </footer>
+    
+</body>
+
+</html>

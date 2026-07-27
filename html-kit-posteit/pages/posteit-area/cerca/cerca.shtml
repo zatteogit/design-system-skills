@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <title>Poste.it</title>
+    <!--#include virtual="/includes-da/utilities/head-tag.html" -->
+
+</head>
+
+
+<body class="no-js pattern-simple-01">
+    
+    <nav id="skiplink" aria-label="Navigazione di pagina"><ul>
+        <li><a tabindex="0" class="skip-link sr-only-focusable-abs" href="#accessibility-anchor">Passa al contenuto
+        principale</a></li>
+        <li><a class="skip-link sr-only-focusable-abs" href="#assistenza-side">Passa all'help</a></li>
+        <li><a class="skip-link sr-only-focusable-abs" href="#footer">Passa al footer di pagina</a></li>
+    </ul>
+</nav>
+
+        <header class="sticky">
+
+            <div class="sticky-wrap">
+                <!-- Content Fedbar-->
+                <div class="content" id="content-fedbar">
+                    <div class="content-wrap">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <!--#include virtual="/includes-da/header/header-content-fedbar.html" -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Content Navbar-->
+                <div class="content" id="content-navbar">
+                    <div class="content-wrap">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <!--#include virtual="/includes-da/header/navbar-content-default.html" -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        <!-- Sidebar Menu -->
+        <div class="content" id="content-sites-menu">
+            <div class="content-wrap">
+                <div class="container">
+                    <!--#include virtual="/includes-da/navigation/left-side-offcanvas-sites.html" -->
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <main id="accessibility-anchor" tabindex="-1">
+
+        <h1 class="sr-only">Cerca su Poste.it</h1>
+
+        <div class="content display-pop" id="content-main">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10 col-md-push-1 col-structure">
+                            <div id="main">
+                                <div class="row mt-4 mt-sm-6">
+                                    <div class="col-sm-12">
+                                        <h2 class="h1 content-heading text-center mb-lg-3">Cosa stai cercando?</h2>
+                                    </div>
+                                    <div class="col-sm-10 col-sm-push-1">
+                                        <form aria-labelledby="frm-lbl" action="/pages/posteit-area/cerca/cerca-risultati.shtml">
+                                            <div class="form-group form-searchbar">
+                                                <label id="frm-lbl" class="control-label sr-only" for="search">Cerca in Poste
+                                                    Italiane</label>
+                                                <input type="text" class="form-control" id="search"
+                                                    placeholder="Cerca in Poste Italiane">
+                                                <button type="submit" title="Avvia la ricerca" class="btn btn-cta btn-primary">
+                                                    <span class="icon">
+                                                        <svg focusable="false">
+                                                            <title>Lorem ipsum</title>
+                                                            <use xlink:href="/assets-da/core/img/iconset/sprite.svg#025a-search-m"
+                                                                href="/assets-da/core/img/iconset/sprite.svg#025a-search-m">
+                                                            </use>
+                                                        </svg>
+                                                    </span>
+                                                </button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content mb-3 sr-only">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-structure">
+                            <h2 class="content-heading text-center">Qualche suggerimento? Lorem impsum</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>       
+
+        <div class="content display-pop">
+            <div class="content-wrap">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-12 col-structure">
+                    <div class="row row-space row-fix">
+                      <div class="col-xs-12">
+                        <div class="main-pills main-pills-basic">
+                          <!--#set var="h-opn" value="<h2>" -->
+                          <!--#set var="h-cls" value="</h2>" -->
+                          <!--#include virtual="/includes-da/object/pills-campaign-alfa-04.html" -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        <div class="content">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row row-fix">
+                        <div class="col-xs-12 col-md-10 col-md-push-1">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <!-- Pills usefull-link-->
+                                    <div class="main-pills main-pills-collection-link">
+                                      <!--#include virtual="/includes-da/object/pills-light-usefull-link-01.html" -->
+                                    </div>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+    <aside aria-labelledby="side-help-title">
+        <div class="content content-sidebar-assistenza">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <!--#include virtual="/includes-da/navigation/right-side-offcanvas.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
+    <footer id="footer">
+        
+        <div class="content content-footer content-footer-info">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--#include virtual="/includes-da/footer/footer-content-info.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content content-footer content-footer-extra">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--#include virtual="/includes-da/footer/footer-content-extra.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--#include virtual="/includes-da/utilities/footer-tag.html" -->
+        
+    </footer>
+    
+</body>
+
+</html>

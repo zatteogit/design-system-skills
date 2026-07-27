@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <title>Poste.it</title>
+    <!--#include virtual="/includes-da/utilities/head-tag.html" -->
+
+    <!-- gestione immagine profilo -->
+    <style>
+        .side-offcanvas-content h2:first-child {
+            --menu-profilo-img: url(/assets-da/publisher/img/area/profilo/menu-profilo-d.png);
+        }
+        
+        @media (max-width: 767px) {
+            .side-offcanvas-content h2:first-child {
+                --menu-profilo-img: url(/assets-da/publisher/img/area/profilo/menu-profilo-m.png);
+            }
+        }
+    </style>
+</head>
+
+<body>
+<nav id="skiplink" aria-label="Navigazione di pagina"><ul>
+        <li><a tabindex="0" class="skip-link sr-only-focusable-abs" href="#accessibility-anchor">Passa al contenuto
+        principale</a></li>
+        <li><a class="skip-link sr-only-focusable-abs" href="#assistenza-side">Passa all'help</a></li>
+        <li><a class="skip-link sr-only-focusable-abs" href="#footer">Passa al footer di pagina</a></li>
+    </ul></nav>
+  <header>
+        <!-- Content Navbar-->
+        <div class="content" id="content-navbar">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--#include virtual="/includes-da/header/navbar-content-app.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main id="accessibility-anchor" tabindex="-1">
+
+        <h1 class="sr-only" id="form-label-1">Modulo di richiesta - Lorem ipsum</h1>
+
+        <div class="content concept-app content-pattern pattern-02 display-pop" id="content-abstract">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 hidden-sm hidden-xs">
+                          <ol class="breadcrumb breadcrumb-xs-trim-a breadcrumb-sm-trim-a breadcrumb-md-trim-b">
+                            <li>
+                              <a href="#" title="Home privati">
+                                <span>Home privati</span>
+                              </a>
+                            </li>
+                            <li><a href="#" title="Assistenza lorem ipsum help"><span data-trim="trim">Assistenza</span></a></li>
+                            <li class="active" aria-current="page"><span>Scrivici</span></li>
+                          </ol>
+                        </div>
+                      </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="abstract">
+                                <div class="abstract-heading">
+                                    <h1 class="clearfix">Scrivici</h1>
+                                    <span class="abstract-subtitle">Compila il modulo e invialo online, lorem. Perferendis perspiciatis sequi rem in debitis! Nulla, reprehenderit libero unde natus facilis suscipit recusandae corporis illo.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content" id="content-main">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-lg-10 col-lg-push-1 col-structure">
+                            <div id="main">
+
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="main-pills main-pills-xs-basic">
+                                            <div class="main-pills-wrap">
+                                                <div class="row">
+                                                    <div class="col-sm-12">
+                                                        <h2 class="area-heading mt-sm-0">Lorem ipsum</h2>
+                                                        <p>Abbiamo aggiornato i requisiti Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero accusamus eaque modi reprehenderit doloribus repellendus, libero beatae culpa aut, nobis assumenda.</p>
+                                                    </div>
+                                                </div>
+                                                <form id="form-020202" aria-labelledby="form-label-1">
+                                                    <!--#include virtual="/includes-da/object/forms-vol-example-00.html" -->
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- form con bottoni esterni esterni al tag form -->
+                                    <div class="col-sm-12">
+                                        <div class="btn-container btn-container-xs-center btn-container-flow clearfix">
+                                            <button type="submit" form="020202" formaction="#" class="btn btn-primary btn-xs-expand">Prosegui</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <aside aria-labelledby="side-help-title">
+        <!--#include virtual="/includes-da/navigation/right-side-offcanvas.html" -->
+        <!--#include virtual="/includes-da/navigation/right-side-offcanvas-profilo.html" -->
+    </aside>
+
+    <footer id="footer">
+        
+        <div class="content content-footer content-footer-main">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--#include virtual="/includes-da/footer/footer-content-main.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content content-footer content-footer-extra">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--#include virtual="/includes-da/footer/footer-content-extra.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--#include virtual="/includes-da/utilities/footer-tag.html" -->
+        
+    </footer>
+
+    
+</body>
+
+</html>

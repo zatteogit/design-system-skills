@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <title>Poste.it</title>
+    <!--#include virtual="/includes-da/utilities/head-tag.html" -->
+
+</head>
+
+
+<body class="no-js">
+    
+    <nav id="skiplink" aria-label="Navigazione di pagina"><ul>
+        <li><a tabindex="0" class="skip-link sr-only-focusable-abs" href="#accessibility-anchor">Passa al contenuto
+        principale</a></li>
+        <li><a class="skip-link sr-only-focusable-abs" href="#assistenza-side">Passa all'help</a></li>
+        <li><a class="skip-link sr-only-focusable-abs" href="#footer">Passa al footer di pagina</a></li>
+    </ul></nav>
+  <header class="sticky">
+
+        <!-- Content Fedbar-->
+        <div class="content" id="content-fedbar">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--#include virtual="/includes-da/header/header-content-fedbar.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Content Navbar-->
+        <div class="content" id="content-navbar">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--#include virtual="/includes-da/header/navbar-content-default.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Sidebar Menu -->
+        <div class="content" id="content-sites-menu">
+            <div class="content-wrap">
+                <div class="container">
+                </div>
+            </div>
+        </div>
+        <div class="sticky-wrap hide" aria-hidden="true">
+            <!-- Sidebar content-header-extra -->
+            <div class="content" id="content-header-extra">
+                <div class="content-wrap">
+                    <div class="container">
+                    <!--#include virtual="/includes-da/header/header-content-extra.html" -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main id="accessibility-anchor" tabindex="-1">
+        <div class="content display-pop concept-b content-bg mode-light bg-color-custom-02 mb-2 mb-sm-5" id="content-abstract">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-7 hidden-sm hidden-xs">
+                            <ol class="breadcrumb breadcrumb-xs-trim-a breadcrumb-sm-trim-a breadcrumb-md-trim-b">
+                                <li>
+                                    <a href="/pages/posteit/home.shtml" title="Home privati">
+                                        <span>Home privati</span>
+                                    </a>
+                                </li>
+                                <li><a href="#" title="Offerte voce e internet"><span data-trim="trim">Offerte voce e
+                                            internet</span></a></li>
+                                <li class="active" aria-current="page"><span>Creami Extra wow 50</span></li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="row flex flex-xs-column align-items-stretch">
+                        <div class="col-sm-7 abstract-wrap">
+                            <div class="abstract">
+                                <div class="abstract-heading">
+                                    <h1>Creami Extra wow 50</h1>
+                                    <span class="abstract-subtitle">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
+                                </div>
+                            </div>
+                            <div class="abstract-advantage pt-2 pt-sm-3">
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-10 advantage-specs">
+                                        <div class="advantage-detail-spec advantage-detail-spec-boxed mb-3 mb-sm-2">
+                                            <div class="clearfix">
+                                                <p class="fs-small fw-regular mb-0">Chiamate e SMS</p>
+                                                <p class="fs-medium fw-bold mb-0">18cent</p>
+                                            </div>
+                                        </div>
+                                        <div class="advantage-detail-spec advantage-detail-spec-boxed mb-3 mb-sm-2">
+                                            <div class="clearfix">
+                                                <p class="fs-small fw-regular mb-0">Internet</p>
+                                                <p class="fs-medium fw-bold mb-0">50Gb in 4G+</p>
+                                            </div>
+                                        </div>
+                                        <div class="advantage-detail-spec advantage-detail-spec-boxed mb-3 mb-sm-2">
+                                            <div class="clearfix">
+                                                <div class="clearfix">
+                                                    <p class="fs-small fw-regular mb-0">A partire da</p>
+                                                    <p class="fs-medium fw-bold mb-0">&euro;6,99</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <p class="fs-extrasmall text-xs-center text-sm-left mt-1 mt-sm-2">
+                                            Costo attivazione SIM 15&euro; da Ufficio Postale, 10&euro; online.<br>
+                                            Il servizio &egrave; soggetto a condizioni di uso personale.
+                                        </p>
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <div class="btn-container text-xs-center text-sm-left mt-3">
+                                            <a href="#" title="Acquista online" class="btn btn-responsive btn-primary">Acquista online</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-5 abstract-wrap">
+                            <div class="picture-wrap">
+                                <!-- animation area -->
+                                <div class="animation-area">
+                                    <div class="animation-objgroup animation-01-objgroup" aria-hidden="true">
+                                        <span>&nbsp;</span>
+                                        <span>&nbsp;</span>
+                                        <span>&nbsp;</span>
+                                        <span>&nbsp;</span>
+                                        <span>&nbsp;</span>
+                                        <span>&nbsp;</span>
+                                        <span>&nbsp;</span>
+                                        <span>&nbsp;</span>
+                                        <span>&nbsp;</span>
+                                        <span>&nbsp;</span>
+                                    </div>
+                                </div>
+                                <!-- pattern area (max-size 940x470)-->
+                                <div class="picture-pattern pattern-02"></div>
+                                <!-- picture -->
+                                <picture>
+                                    <!--Req source-->
+                                    <source media="(min-width: 1200px)" srcset="/assets-da/publisher/img/prodotto/generic/content-abstract-limitless-02.webp" type="image/webp">
+                                    <source media="(min-width: 1200px)" srcset="/assets-da/publisher/img/prodotto/generic/content-abstract-limitless-02.png" type="image/png">
+                                    <!--Req source-->
+                                    <source media="(min-width: 768px)" srcset="/assets-da/publisher/img/prodotto/generic/content-abstract-limitless-sm-02.webp" type="image/webp">
+                                    <source media="(min-width: 768px)" srcset="/assets-da/publisher/img/prodotto/generic/content-abstract-limitless-sm-02.png" type="image/png">
+                                    <!--Req source-->
+                                    <source media="(max-width: 767px)" srcset="/assets-da/publisher/img/prodotto/generic/content-abstract-limitless-xs-02.webp" type="image/webp">
+                                    <source media="(max-width: 767px)" srcset="/assets-da/publisher/img/prodotto/generic/content-abstract-limitless-xs-02.png" type="image/png">
+                                    <img loading="lazy" src="/assets-da/publisher/img/prodotto/generic/content-abstract-limitless-02.png"
+                                        class="" alt="Lorem ipsum">
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content display-pop content-multiwrap" id="content-main">
+            <div class="content-wrap content-bg bg-white">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h2 class="content-heading text-left text-sm-center">L'offerta</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="content-wrap content-bg bg-white">
+              <div class="container">
+                <div class="row row-space row-fix">
+                  <div class="col-xs-12">
+                    <div class="row">
+                      <div class="col-sm-10 col-sm-push-1">
+                        <div class="main-pills main-pills-basic">
+                            <!--#include virtual="/includes-da/object/pills-light-description-02.html" -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="content display-pop" >
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="row">
+                                <div class="col-md-10 col-md-push-1 col-structure">
+                                    <div id="main">
+                                        <!--
+                                        <div class="row">
+                                        <div class="col-sm-12">
+                                            <h2 class="content-heading">Lorem ipsum title</h2>
+                                        </div>
+                                        </div>
+                                        -->
+                                        <div class="row row-fix">
+                                            <div class="col-xs-12">
+                                              <!-- Pills wizard -->
+                                              <div class="main-pills">
+                                                <div class="main-pills-wrap">
+                                                  ...
+                                                </div>
+                                              </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <aside aria-labelledby="side-help-title">
+
+        <!--#include virtual="/includes-da/navigation/right-side-offcanvas.html" -->
+
+    </aside>
+
+    <footer id="footer">
+        
+        <div class="content content-footer content-footer-info">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--#include virtual="/includes-da/footer/footer-content-info.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content content-footer content-footer-extra">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--#include virtual="/includes-da/footer/footer-content-extra.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--#include virtual="/includes-da/utilities/footer-tag.html" -->
+        
+    </footer>
+
+    
+</body>
+
+</html>

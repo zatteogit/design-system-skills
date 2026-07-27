@@ -1,0 +1,307 @@
+/*****************************************************
+
+    File Description: Changelog.txt
+
+    Created: 09/06/2022
+    Last modified: 04/03/2025
+
+*****************************************************/
+
+[1.13.0] - 2025-**-**
+* Aggiornata favicon.ico + .png 
+* Commentata chiamata alla funzione focusLabelTransition() su start-script.js che si occupava di gestire le floating label (ora gestite in css)
+* Aggiornata la pagina "Cerca Mappa" con l'aggiunta dello slider
+* Aggiunta la pagina "Cerca Mappa con Risultati" al cui interno è possibile trovare una variante di card senza l'ausilio di nuovi stili
+* Aggiunto l'oggetto "element disabled" all'interno della sezione "Paginazione" dentro la pagina ui-elemens-form.shtml
+* Aggiunto l'oggetto "Checkbox switch right" dentro la pagina ui-elemens-form.shtml: l'icona presente all'interno dell'elemento è manipolabile, a seconda delle necessità, dal foglio di stile
+* Modificate spaziature e dimensioni aree attive accordion e dots carousel per soddisfare wcag2.2 SC 2.5.8
+* Aggiunta pagina menu.shtml per gestione statica 'drilldown-menu'
+
+
+[1.12.0] - 2025-01-24
+* Gestione menu javascript: menuReset() function -> aggiornato id di riferimento e integrato attributi necessari ("data-menu-pnl")
+* Aggiunta la variabile "$svg_arrow_down_disabled" per adeguare il colore della freccia nelle select disabilitate
+* Fixata interlinea nei form tra le label e i campi input
+* Modificato il colore del testo all'interno degli elementi "tag"
+* Modificato il colore dell'hover delle cta
+* Modificato il background dei .box-messages.box-info
+* Modificato hover link dentro i messaggi ".box-messages-large e .box-messages-medium" applicando lo stile associato alla variabile $color_primary_33
+* Modificato il colore active dei link all'interno dell'asset paginazione
+* Modificati tutti i template concept B (scheda-concept-b-0xxx): sono state applicate le classi "mb-2 mb-sm-5" nell'abstract
+* Eliminato, dalle classi ".form-group.form-group-abs label.active, .form-group.form-group-abs label.stable", il background-color e modificata la regola top 
+* Nelle form è stato invertito il simbolo dell'Euro, ora è alla fine e non all'inizio (solo nei campi senza centesimi)
+* Applicato font-weight: 600 alla classe .form-range-rangeBubble che riguarda i range slider
+* Eliminato il colore da dalla regola ".control-label, .label-like", ora eredita quello del <body>
+
+
+[1.11.0] - 2024-09-19
+* Fix CSS su .content-multiwrap-pattern.pattern-01 (onda)
+* Fix CSS su #content-abstract.concept-b::after (onda)
+* Fix CSS su paginazione (aggiunto supporto cifre multiple e testo semplice "...")
+* Fix CSS Onde (intro/conceptB/abstract app/content)
+* Sostituita classe pattern-01 con pattern-02 sul content del mosaico in homepage
+* Sostituita classe pattern-01 con pattern-02 su template applicativo form-02.shtml
+* Modificati attributi data-panel -> data-menu su menu e eliminato attributo aria-control da funzione js per apertura livelli menu, modificate funzioni menuPanelOpn(), menuBack(), menuReset()
+* inserito menu business per switch fra siti in linea con menu navigazione
+* Aggiunto attributo aria-label su elementi accordion per ovviare alla lettura + / - da parte screen reader
+* Cross: Aggiornamento Header/Barra fed. 
+* Aggiunta pagina "Carte" con relativo slider,visibile eclusivamente in modalità responsive;
+* Aggiunta pagina "Carte"
+* Aggiunta pagina "Cerca Risultati"
+* Aggiunta pagina "Cerca Risultati Spedizioni"
+* Aggiunta pagina "Cerca Risultati CAP"
+* Aggiunta CSS per la gestione delle nuove cards ".panel-cards-detailed-bg.mode-stretch" utilizzate nella pagina "Cerca Risultati"
+* Aggiunte, a titolo esemplificativo, le card SVG che rappresentano le carte di pagamento utili allo sviluppo della sezione "Carte"
+
+
+[1.10.0] - 2024-07-04
+* Aggiunto posizionamento figcaption / caption default = top // usare classe modificatore *-bottom per spostare in basso, fatto esempi come da invision e oltre
+* Ottimizzazione "tile" applicativi su cutpoint XS (solo css)
+* Aggiunto esempio box-rack personalizzato su pagina "Ui-Form" (Operazioni/HomeBpol)
+* Aggiunta variante "Intro - Concept A" con "modalità promo" e gestione img dedicata al cutpoint XS (classe "mode-promo" aggiunta anche su Concept B nella versione promo)
+* Aggiornati messaggi Alert
+* Aggiornati toggles form
+* Aggiornata pagina Profilo
+* Ottimizzazione "#content-abstract" di tipo 'concept-app' (abstract celeste): aggiunta classe modificatrice "mode-reverse", che in combinazione con content-pattern, ove necessario, gestisce l'onda bianca in sovrapposizione al contenuto presente nell'abstract. La classe modificatrice "mode-xs-basic" annulla i comportamenti di concept app su xs.
+* Aggiunta pagina Bacheca
+* Aggiornata sidebar Bacheca
+* Aggiornata sidebar Profilo creata personalizzazione per calcolo area fissa in top sidebar
+* MyPoste : Modificato carosello "in evidenza" per supporto cards di tipo diverso (picture e bg)
+* Ottimizzazione 'box-rack' di tipo 'box-bg':
+    -- disponibile configurazione base tramite classe "bg-config-default" (esempio box-rack cruscotto bpol)(senza area safe padding)
+    -- disponibile configurazione base tramite classe "bg-config-01" (esempio su box-rack riepiloghi con img)(con area safe padding) 
+* Aggiunta pagina Conti (Bpol)
+* Ottimizzazione accessibilità elementi di riepilogo: "box-summary" e "tile"
+
+
+[1.9.0] - 2024-06-10
+* Aggiornamento stile form (solo foglio di stile)
+* Aggiunta classe ".input-group-otp" al blocco otp per gestione focus-siblings
+* Modificata gestione "panel-cards-bg": ora è necessario specificare la configurazione da utilizzare 
+    -- disponibile configurazione base tramite classe "bg-config-default" (card in homepage, card in scheda prodotto)
+    -- disponibile configurazione personalizzata tramite classe "bg-config-01" (card myposte e mondi-poste)
+* Introdotta variante "Cards default icon" in modalità con icona più grande ("mode-large") e con posizionamento a destra ("mode-right")
+* Aggiunta pagina MyPoste
+    -- nuova card "card-services"
+    -- nuovo asset "box-frame" (versione gialla/celeste) 
+    -- aggiunto esempio "box-rack" personalizzato 
+* Aggiunta pagina Profilo
+* Abstract-Concept-A : Centratura immagine in XS
+
+
+[1.8.0] - 2024-05-20    
+* -- Ui/Typo: aggiunta classe "panel-cards-clear" per gestione bordi cards su asset specifici (es. trendy)
+* Form: Gli elementi "label" presenti all'interno del blocco "input-group" sono stati spostati al di fuori di esso
+* Form: Radio e Checkbox ora hanno label relative non posizionate
+* Form: Nuovo "campo file upload"
+* Form: Rimossa classe "form-relative" (ora le label non sono più absolute di default)
+* Form: Aggiunta classe "form-group-abs" per i campi in assetto 'material'
+* Campaign alfa / editable area: gestito tab-index=0 vs aria-hidden su start_script.js
+* Template area applicativa: aggiornati sezione abstract e blocchi interni
+* Pagina 'recupera credenziali' aggiornata
+* Aggiunto esempio 'Box-rack' per upload file su pagina "Ui-Form"
+* Aggiunto esempio 'Box-rack' per download file ("liste documentazione box (singoli) con vincolo") su pagina "Ui-Form"
+* Aggiunta pagina Ui - Componenti applicativi'
+* Nuovo pills con oggetti media (start applicazione - documenti richiesti)  
+* Nuovo asset "radio boxed" (es. scelta pagamento) su pagina "Ui-Form"
+* Nuovo lista "list-icon" (con icone personalizzabili) su pagina "Form - Funnel"
+* Aggiunto box-summary "simil ricevuta"
+* Rimosso 'row-space' da elementi in docuemntale
+* Aggiunti filtri radio/checkbox 'square-control'
+* Aggiunto titolo nascosto su footer
+* Aggiunti 'Tile' semplici/1-colonna-fissa/2-colonne-fisse su pagina "Ui - Componenti applicativi'"
+* Nuova gestione carrello all'interno dell'abstract (es. pagina VOL)
+
+
+[1.7.0] - 2023-03-15
+* Aggiunta pagina myPoste (/posteit-area/private/myposte/*)
+* Ottimizzazione spazi in card reactive (es. in pagina landing)
+* Aggiunto mode-center alle card default
+* Modificato visualizza password su login da link -> button
+* Modificata etichetta utente loggato appuntamenti-home
+* Ottimizzazione oggetti: modificato markup elementi animati di tipo "animation-objgroup" (intro concept B)
+* Aggiunto background-color come fallback su card-trendy
+* ** Aggiornamento Layout e update tipografia (css/js)(con dettaglio): 
+* -- Ui/Typo: margini verticali "main-pills", "panel-cards", "panel-group-pills" e "content" da 24 a 32 px (cutpoint md/lg)
+* -- Ui/Typo: margini verticali "main-pills", "panel-cards", se figli di "row-group",  padding forzato a 24px (eccetto xs)
+* -- Ui/Typo: margini verticali "panel-group-pills" ridotto a 16px (solo cutpoint xs)
+* -- Ui/Typo: margini verticali "box-messages" da 16 a 24 px (cutpoint sm) da 24 a 32 px (cutpoint md/lg)
+* -- Ui/Typo: "row-space" aumentato da 16 a 24px per md e lg 
+* -- Ui/Typo: "row-fix" aumentato da 24 a 32 px e convertito in 'flex' (per ovviare all'overflow-hidden) -> forzati incolonnamenti figli diretti x cutpoint non definiti
+* -- Ui/Typo: "row-fix" forzato a 24px quando in-combinazione/figlio  di "row-group" (eccetto xs)
+* -- Ui/Typo: Modificata ombra e bordo su elementi di struttura (main-pills, panel-cards, box-advice) (eccetto xs)
+* -- Ui/Typo: Modificati bordi "raccommended" e hover su "stretched-link" (+fix outline)
+* -- Ui/Typo: Pills applicativi disposti in col-lg-10
+* -- Ui/Typo: Aggiornamento classi in "campaign-alfa"
+* -- Ui/Typo: Aggiunta la classe "box-editable-area" ai main-pills che prevedono contenuti testuali semplice (escluse liste link e tabelle) 
+* -- Ui/Typo: Aggiunto id sul body in homepage
+* -- Ui/Typo: Aggiunta classe main-pills-collection-link sui pills contenenti le liste link
+* -- Ui/typo: Modificata pagina home del "Cerca"
+* -- Ui/typo: Aggiornati colori lista link/oggetti correlati "Cerca nel sito"
+* -- Ui/Typo: Tipografia gestita "su fascia" mediante la classe ".display-pop" : fanno eccezione le fasce con contenuti applicativi e quelle con card che non rientrano nella tipologia "detailed", "detailed bg", "trendy" e "default-call".
+* -- Ui/Typo: Tipografia gestita globalmente sui titoli di fascia
+* -- Ui/Typo: Modifica alle spaziature btn-container (mt-2 se includono almeno un btn-xs primary/secondary)
+* -- Ui/Typo: "cards-picture" e "cards-reactive": spostate cta all'interno di un div dedicato (panel-footer)
+* -- Ui/Typo: Modifica spaziature interne al "content-hero"
+* -- Ui/Typo: Modifiche a spaziature e oggetti homepage
+* -- Ui/Typo: Adeguamento classi "card-comparison" 
+* -- Ui/Typo: Adeguamento pagina "documentale" (in accordion) 
+* -- Ui/Typo: Aggiornamento "cards-trendy" 
+* -- Ui/Typo: Aggiunta class "main-pills-clear" per gestione bordi pills su oggetti particolari (Rilancio a sito business / Lead) e gestione in 10 colonne su desktop
+* -- Ui/Typo: Aggiunta casistica figcaption senza bordo per le tabelle
+* Corretti incolonnamenti landing/iniziative 
+* Corretti incolonnamenti cta form01 
+* Corretti incolonnamenti hub scheda 
+* Aggiunti equalize group alle card delle pagine servizi online e all'interno dell'area cerca-risultati e appuntamenti-home
+* Corretti incolonnamenti *cross: i col-sm-12 sono stati convertiti(o specificati esplicitamente) in col-xs-12 ove necessario per evitare sia il "side-effect" legato alla larghezza degli oggetti su cutpoint smartphone in caso di asset con contenuto ridotto sia una gestione errata delle spaziature (float)  
+* Ottimizzazioni varie
+* -- Ui/Typo: Ombre oggeti rimodulate in 2px 2px 8px 8px
+* -- Ui/Typo: Rimossa onda "content-hero"
+* -- Ui/Typo: La cards-bg precedentemente utilizzata nella scheda prodotto è stata migliorata. Sono presenti le varianti "mode-stretch" per uno sviluppo prettamente verticale (es. in scheda prodotto) e "mode-flush" con immagine a filo (es in homepage)
+* -- Ui/Typo: Rimosso loading:"lazy" dalle immagini in campaign-alfa per evitare errori di gestione altezze (adaptive-height) con slick
+
+
+[1.6.0] - 2023-11-15
+* Rimossi riferimenti a bootstrap-accessibility.js (paypal)
+* Eseguita pulizia commenti su css e js
+* Modificato script per progressive dots (posteit.js): risolti bug temporizzazione e ripetizione progressive / hover su toggle-play e recepite indicazioni UI colori
+* Inserite varibili scss come variabili js in posteit.js
+* Modificato menu navigazione (e relative porzioni _base-element.scss/utilita.js): elemento contenitore div -> nav / elementi di navigazione nav -> div.menu-section (per evitare etichettatura di ogni sezione di menu)
+* Modificato rimandi glossario lettere pannelli da a -> button, aggiunto attributo aria-label su panel
+* Modificato puntamento core.css accessible-slick-theme.css in favore dei .min ( /assets-da/core/css/core.min.css e /assets-da/vendor/accessible-slick/css/accessible-slick-theme.min.css )
+* Aggiornato pacchetto svg con X Twitter
+* Aggiornamento prezzi (su card, abstract e banner)
+* Eliminato ie10-viewport-bug-workaround.js da /assets-da/vendor/bootstrap-ext
+* Eliminata dichiarazione var timeoutObj da start_script.js rimane solo su utilita.js, eliminata dichiarazione duplicata focusableElements, mq_WindowWidth, var myFinalContentHeight
+* Rimossa variante "reversed" dagli asset: campaign-alfa , main-pills-showcase (vetrina), card bg (gamma), card picture, card reactive, card comparison.
+* Introdotto attributo "loading='lazy'" su un ampio set di immagini (card e componenti e intro).
+* Aggiornata versione jQuery da 3.6.3 a 3.7.1
+* Rimossa "card simple" (area assistenza - recupero pwd): gestita ora come "card reactive"
+
+
+[1.5.0] - 2023-07-12
+* Aggiornamento pagina di Brand
+* Aggiunto template "Supporto scheda - Approfondimento"
+* Ottimizzazioni su Pills-light-infotabs e Pills-light-genericform-table
+* Ottimizzazioni incolonnamenti 'scheda-concept-b02-elenco-np.shtml'
+* Ottimizzazione sorgenti picture (ordine inverso) su 'content-hero-00.html' e schede prodotto Concept B
+* Modificata "cards-default-call" e relativa pagina di 'assistenza-chiamaci.shtml'
+* Rimosso 'overflow-hidden' da <main> (solo foglio di stile); gestito posizionamento 'intro concept a' e forzato overflow-hidden su '#content-abstract-hero'
+* Gestione 'footer' -- accorpamento 'footer-main' in 'footer-info': rimossa fascia 'footer-main' dalle pagine informative
+
+
+[1.4.0] - 2023-06-09
+* Aggiunta gestione 'aria-hidden' su modale
+* Aggiunta variante "reversed" su 'campaign-alfa' (left/right/carosello)
+* Abstract concept-b: accorpata classe 'mode-light'/'mode-dark' per gestione fallback sfondo
+* Aggiunta variante "reversed" su 'main-pills-showcase' (vetrina left/right)
+* Introdotta variante "mode-img-top"/"mode-img-bottom/"mode-img-middle" su 'main-pills-showcase'  (vetrina left/right)
+* Introdotta variante "mode-img-top"/"mode-img-bottom/"mode-img-middle" su 'cards-detailed-bg'  (vetrina left/right)
+* Modifica cta Pills-light wizard
+* Aggiornamento card "cards-default-icon": introdotta "mode-large" e "mode-right" (declinato per cutpoint es. "mode-**-right")
+* Modifiche generalizzate homepage (struttura, mosaico, card-default-icon e campo di ricerca), duplicata sezione cerca (comportamento responsive desk/mob -> sopra/sotto vs sezione servizi)
+* Modifiche strutturali (ottimizzazione modularità (struttura '.content')) a "Scheda prodotto", "Gamma", "Brand", "Homepage", "Servizi online pagamenti",
+    "Servizi online spedizioni", "Landing", "Iniziative", "Hub-content Scheda","Assistenza home.", "Assistenza chiamaci", "Assistenza recupero cred."
+    "Cerca home", "Cerca risultati", "Cerca risultati Empty"
+* Aggiornamento tabelle (definizione del default), aggiunta gestione "caption" tramite tag figure
+
+
+[1.3.0] - 2023-05-04
+* Aggiornata versione jQuery da 3.6.0 a 3.6.3
+* Riorganizzazione pagine esemplificative Schede Prodotto:
+* -- Introduzione dei Concept A e B (rispettivamente con Abstract v1 e v2)
+* -- Gestione Concept A e B in modalità "Elenco", "Elenco con prezzo", "Promo", "Boxed" e "Base"
+* -- Ottimizzazione spaziature su abstract
+* -- Implementazione modalità con Animazione (pattern+img) e senza (img unica) su Concept B in tutte le modalità
+* -- Aggiornamento primo pills di pagina (sostituito con fascia celeste/bianca in base al Concept relativo)
+* Aggiornamento pagina di Login
+* Aggiornamento "pills-light-wizard" e "cards-wizard" (adeguato ad incolonnamento standard)
+* Implementazione nuove card "trendy" in modalità singola e doppia
+* Aggiornati Skip-link in tutte le pagine
+* Ottimizzazioni accessibilità content-header-extra
+* Aggiunta classe "cards-wrap" ai macro contenitori delle card (cross)
+* Aggiornato markup offcanvas-sidebar (cross)
+* Sostituiti "link-icon" ("mostra altri", filtri in mobile area di ricerca, cta in offcanvas-sidebar) con "btn-link"
+* Integrazione "stretched-link" su "cards-default-icon"
+* Modificata gestione immagini nelle cards "picture" (mosaic)
+* Modificata gestione immagini negli abstract: introdotto utilizzo webp per immagini in concept A&B
+* Aggiornato pills wizard e cards wizard
+* Scheda prodotto aggiornamento markup per equalize
+* Aggiornamento markup header ("navbar-content-*")
+* Ottimizzazioni generali
+
+
+[1.2.0] - 2023-02-08
+* Aggiornamento Cerca: Cerca spedizioni
+* Modifica massiva (rename): "dark-theme" in "mode-dark", "light-theme" in "mode-light"
+* Aggiunta pagina "premium.shtml"
+* Aggiunta pagina "documentale.shtml" (template a supporto schede prodotto)
+* Aggiunta pagina "glossario.shtml" (template a supporto schede prodotto)
+* Rename e duplicazione scheda-postemobile per gestione abstract con pattern indipendente e con pattern integrato
+
+
+[1.1.0] - 2022-12-14
+* Aggiunta pagina "ui-elements.shtml"
+* Modificate "cards-large" in "cards-reactive"
+* Modifiche generalizzate sulle cards
+* Homepage: Implementato Mosaico/carosello
+* Ottimizzazione oggetti form-inline
+* Completamento oggetti Upload
+* Aggiunto "mostra di più" su Gamma
+* Modifiche menu
+* Gestione delle chips: aggiunta casistica con icona per checkbox e radio e link
+* Aggiunto campo telefonico con prefisso selezionabile
+* Aggiunte chips per la gestione distanze nel Cerca-risultati
+* Aggiunta pagina "form-privacy.shtml"
+* Aggiunti campi con label "relative" (non vincolate in lunghezza e non posizionate)
+* Modifiche alla gestione fieldset
+* Modifiche gestione radio/checkbox (utilizzo di fieldset)
+* Modifiche gestione campi OTP (utilizzo di fieldset)
+* Aggiunti elementi con uso di Popover
+* Aggiunti elementi boxati di tipo box-rack (liste e oggetti)
+* Modifiche ai box di messaggistica
+* Modifiche ai riepiloghi
+* Ottimizzati campi "inline"
+* Aggiunti Empty-state in ambito applicativo: "cerca"
+* Introdotta area Pills su Gamma
+* Ottimizzazioni generali
+
+
+
+
+/*****************************************************/
+[1.0.0] - 2022-10-28
+* First Release
+
+Pagine esemplificative incluse nel pacchetto:
+
+- Ui Applicative
+- Homepage
+- Gamma prodotto
+- Pagina brand
+- *Scheda:
+--- Scheda base
+--- Scheda evoluta
+--- Scheda ambito BancoPosta
+--- Scheda ambito PosteMobile
+- *Servizi online
+--- Paga online
+--- Spedisci online
+- *Form
+--- Form Funnel
+--- Form Base
+--- Vol Accordion
+--- Vol Esito
+- *Assistenza
+--- Assistenza Home
+--- Assistenza Chiamaci
+--- Recupera credenziali
+- *Cerca
+--- Cerca
+--- Cerca Risultati
+- *Hub content
+--- Hub content Home
+--- Hub content Scheda
+- Gestione appuntamenti
+- Landing
+- Login

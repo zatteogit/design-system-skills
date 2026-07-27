@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <title>Poste.it</title>
+    <!--#include virtual="/includes-da/utilities/head-tag.html" -->
+  </head>
+
+  <body id="homepage" class="no-js pattern-bottom-02">
+    <nav id="skiplink" aria-label="Navigazione di pagina">
+      <ul>
+        <li><a tabindex="0" class="skip-link sr-only-focusable-abs" href="#accessibility-anchor">Passa al contenuto principale</a></li>
+        <li><a class="skip-link sr-only-focusable-abs" href="#assistenza-side">Passa all'help</a></li>
+        <li><a class="skip-link sr-only-focusable-abs" href="#footer">Passa al footer di pagina</a></li>
+      </ul>
+    </nav>
+    <header class="sticky">
+      <div class="sticky-wrap">
+        <!-- Content Fedbar-->
+        <div class="content" id="content-fedbar">
+          <div class="content-wrap">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12">
+                  <!--#include virtual="/includes-da/header/header-content-fedbar.html" -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Content Navbar-->
+        <div class="content" id="content-navbar">
+          <div class="content-wrap">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12">
+                  <!--#include virtual="/includes-da/header/navbar-content-default.html" -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sidebar Menu -->
+      <div class="content" id="content-sites-menu">
+        <div class="content-wrap">
+          <div class="container">
+            <!--#include virtual="/includes-da/navigation/left-side-offcanvas-sites.html" -->
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main id="accessibility-anchor" tabindex="-1">
+      <h1 class="sr-only">Poste.it Homepage</h1>
+
+      <div class="content display-pop content-multiwrap" id="content-abstract-hero">
+
+        <!--#include virtual="/includes-da/object/content-hero-00.html" -->
+      
+      </div>
+
+      <div class="content">
+        <div class="content-wrap">
+          <div class="container">
+            <div class="row mt-3 equalize-wrap equalize-wrap-1 visible-md visible-lg">
+              <div class="col-xs-12">
+                <div class="row row-space">
+                  <div class="col-md-5">
+                    <div class="main-pills obj-wrap height-sm-auto">
+                      <div class="main-pills-wrap">
+                        <div class="row">
+                          <div class="col-xs-12">
+                            <h2 class="h3" id="parcelfind-d">Cerca spedizioni</h2>
+                          </div>
+                          <div class="col-xs-12">
+                            
+                            <form aria-labelledby="parcelfind-d">
+                              <search>
+                                <div class="form-group form-searchbar mt-2 p-0">
+                                  <label class="control-label sr-only" for="search">Cerca in Poste Italiane</label>
+                                  <input type="text" class="form-control" id="search" placeholder="Cerca in Poste Italiane" />
+                                  <button type="submit" formaction="/pages/posteit-area/cerca/cerca-risultati.shtml#tab-sito" title="Avvia la ricerca" class="btn btn-cta btn-primary">
+                                    <span class="icon">
+                                      <svg focusable="false">
+                                        <title>Lorem ipsum</title>
+                                        <use xlink:href="/assets-da/core/img/iconset/sprite.svg#025a-search-m" href="/assets-da/core/img/iconset/sprite.svg#025a-search-m"></use>
+                                      </svg>
+                                    </span>
+                                  </button>
+                                </div>
+                              </search>
+                            </form>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-md-7">
+                    <!--#include virtual="/includes-da/object/cards-bg-02.html" -->
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-12">
+                <h2 class="content-heading text-left text-sm-center">Servizi in evidenza</h2>
+              </div>
+            </div>
+
+            <div class="row row-space equalize-group equalize-group-1">
+              <div class="col-xs-12 equalize-forced">
+                <div class="slick-scroll">
+                  <div class="row slick-scroll-items-evidence">
+                    <p>
+                      <a class="keybtn keybtn-large" href="#" title="Preventivo luce e gas">
+                        <span class="keybtn-wrap" style="background-image: url('/assets-da/core/img/ico/ico-generic-sim@2x.png')">Preventivo<br />luce e gas</span>
+                      </a>
+                    </p>
+                    <p>
+                      <a class="keybtn keybtn-large" href="#" title="Invio pacchi">
+                        <span class="keybtn-wrap" style="background-image: url('/assets-da/core/img/ico/ico-generic-risparmio@2x.png')">Invio pacchi</span>
+                      </a>
+                    </p>
+                    <p>
+                      <a class="keybtn keybtn-large" href="#" title="Bollo auto">
+                        <span class="keybtn-wrap" style="background-image: url('/assets-da/core/img/ico/ico-generic-document@2x.png')">Bollo auto</span>
+                      </a>
+                    </p>
+                    <p>
+                      <a class="keybtn keybtn-large" href="#" title="Bonifico SEPA">
+                        <span class="keybtn-wrap" style="background-image: url('/assets-da/core/img/ico/ico-generic-ppay@2x.png')">Bonifico SEPA</span>
+                      </a>
+                    </p>
+                    <p>
+                      <a class="keybtn keybtn-large" href="#" title="Bollette e pagamenti">
+                        <span class="keybtn-wrap" style="background-image: url('/assets-da/core/img/ico/ico-generic-risparmio@2x.png')">Bollette e pagamenti</span>
+                      </a>
+                    </p>
+                    <p>
+                      <a class="keybtn keybtn-large" href="#" title="Ricariche telefoniche">
+                        <span class="keybtn-wrap" style="background-image: url('/assets-da/core/img/ico/ico-generic-document@2x.png')">Ricariche telefoniche</span>
+                      </a>
+                    </p>
+                    <p>
+                      <a class="keybtn keybtn-large" href="#" title="Ricarica Postepay">
+                        <span class="keybtn-wrap" style="background-image: url('/assets-da/core/img/ico/ico-generic-ppay@2x.png')">Ricarica Postepay</span>
+                      </a>
+                    </p>
+                    <p>
+                      <a class="keybtn keybtn-large" href="#" title="F24">
+                        <span class="keybtn-wrap" style="background-image: url('/assets-da/core/img/ico/ico-generic-risparmio@2x.png')">F24</span>
+                      </a>
+                    </p>
+                    <p>
+                      <a class="keybtn keybtn-large" href="#" title="Lorem ipsum">
+                        <span class="keybtn-wrap" style="background-image: url('/assets-da/core/img/ico/ico-generic-document@2x.png')">Lorem ipsum</span>
+                      </a>
+                    </p>
+                    <p>
+                      <a class="keybtn keybtn-large" href="#" title="Dolor amet mea">
+                        <span class="keybtn-wrap" style="background-image: url('/assets-da/core/img/ico/ico-generic-sim@2x.png')">Dolor amet mea</span>
+                      </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="btn-container btn-container-center clearfix">
+                  <a href="#" title="Vedi tutti sed nunc adescevit nunque" class="btn btn-xs btn-secondary m-0"> Vedi tutti</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="row mt-3 equalize-wrap equalize-wrap-1 visible-xs visible-sm">
+              <div class="col-xs-12">
+                <div class="row row-space row-fix">
+                  <div class="col-xs-12">
+                    <div class="main-pills obj-wrap height-sm-auto">
+                      <div class="main-pills-wrap">
+                        <div class="row">
+                          <div class="col-xs-12">
+                            <h3 id="parcelfind-m">Cerca spedizioni</h3>
+                          </div>
+                          <div class="col-xs-12">
+                            <form aria-labelledby="parcelfind-m">
+                              <div class="form-group form-searchbar mt-2 p-0">
+                                <label class="control-label sr-only" for="search-2">Cerca lorem ipsum dixit</label>
+                                <input type="text" class="form-control" id="search-2" placeholder="Cerca in Poste Italiane" />
+                                <button formaction="/pages/posteit-area/cerca/cerca-risultati.shtml#tab-sito" title="Avvia la ricerca" class="btn btn-cta btn-primary">
+                                  <span class="icon">
+                                    <svg focusable="false">
+                                      <title>Lorem ipsum</title>
+                                      <use xlink:href="/assets-da/core/img/iconset/sprite.svg#025a-search-m" href="/assets-da/core/img/iconset/sprite.svg#025a-search-m"></use>
+                                    </svg>
+                                  </span>
+                                </button>
+                              </div>
+                            </form>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xs-12">
+                    <!--#include virtual="/includes-da/object/cards-bg-02.html" -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--
+      <div class="content display-pop mb-0">
+        <div class="content-wrap">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 col-structure">
+                <h2 class="content-heading text-left text-sm-center">In primo piano</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      -->
+
+      <div class="content display-pop content-multiwrap content-multiwrap-pattern pattern-02 mosaic-content" id="content-main">
+        <div class="content-wrap content-bg bg-cyan">
+          <div class="container">
+              <div class="row">
+                  <div class="col-xs-12 col-structure">
+                      <h2 class="content-heading text-left text-sm-center">In primo piano</h2>
+                  </div>
+              </div>
+          </div>
+        </div>
+        <div class="content-wrap content-bg bg-cyan hidden-md hidden-lg slick-h-scroll">
+          <div class="container">
+            <div class="row row-space">
+              <div class="col-xs-12">
+                <div class="row slick-h-scroll-items equalize-group equalize-group-4 equalize-forced">
+                  <div class="col-xs-12 col-sm-4">
+                    <!--#include virtual="/includes-da/object/cards-picture-mosaic-01.html" -->
+                  </div>
+                  <div class="col-xs-12 col-sm-4">
+                    <!--#include virtual="/includes-da/object/cards-picture-stretch-mosaic-01.html" -->
+                  </div>
+                  <div class="col-xs-12 col-sm-4">
+                    <!--#include virtual="/includes-da/object/cards-picture-stretch-mosaic-01.html" -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content-wrap content-bg bg-cyan hidden-xs hidden-sm">
+            <div class="container">
+              <div class="row row-space row-fix row-group">
+                <div class="col-xs-12">
+                  <div class="row equalize-mosaic-wrap equalize-mosaic-wrap-1">
+                    <div class="col-xs-12 col-sm-6">
+                      <!--#include virtual="/includes-da/object/cards-picture-mosaic-01.html" -->
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                      <div class="row">
+                        <div class="col-xs-12">
+                          <!--#include virtual="/includes-da/object/cards-picture-stretch-mosaic-01.html" -->
+                        </div>
+                        <div class="col-xs-12">
+                          <!--#include virtual="/includes-da/object/cards-picture-stretch-mosaic-01.html" -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="content display-pop">
+        <div class="content-wrap">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12 col-structure">
+                <div class="row row-fix">
+                  <div class="col-xs-12">
+                    <div class="main-pills main-pills-basic">
+                      <!--#set var="h-opn" value="<h3 class=\"h2\">" -->
+                      <!--#set var="h-cls" value="</h3>" -->
+                      <!--#include virtual="/includes-da/object/pills-campaign-alfa-04.html" -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content display-pop">
+        <div class="content-wrap">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12 col-structure">
+                <div class="row row-fix row-group">
+                  <div class="col-xs-12">
+                    <div class="row equalize-group equalize-group-2">
+                      <div class="col-xs-12 col-sm-6">
+                      <!--#set var="st-var" value="01" -->
+                        <!--#include virtual="/includes-da/object/cards-picture-stretch-02.html" -->
+                      </div>
+                      <div class="col-xs-12 col-sm-6">
+                        <!--#set var="st-var" value="02" -->
+                        <!--#include virtual="/includes-da/object/cards-picture-stretch-02.html" -->
+                      </div>
+                      <div class="col-xs-12 col-sm-6">
+                        <!--#set var="st-var" value="03" -->
+                        <!--#include virtual="/includes-da/object/cards-picture-stretch-02.html" -->
+                      </div>
+                      <div class="col-xs-12 col-sm-6">
+                        <!--#set var="st-var" value="04" -->
+                        <!--#include virtual="/includes-da/object/cards-picture-stretch-02.html" -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content display-pop">
+        <div class="content-wrap">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12 col-structure">
+                <div class="row row-fix">
+                  <div class="col-xs-12">
+                    <!--#include virtual="/includes-da/object/cards-trendy-01.html" -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content display-pop">
+        <div class="content-wrap">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12 col-structure">
+                <div class="row row-fix">
+                  <div class="col-xs-12">
+                    <div class="row equalize-wrap equalize-wrap-1">
+                      <div class="col-xs-12 col-sm-6">
+                        <!--#include virtual="/includes-da/object/cards-trendy-02.html" -->
+                      </div>
+                      <div class="col-xs-12 col-sm-6">
+                        <!--#include virtual="/includes-da/object/cards-trendy-03.html" -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="content-wrap">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12 col-md-10 col-md-push-1 col-structure">
+                <div class="row row-fix">
+                  <div class="col-xs-12">
+                    <div class="main-pills main-pills-clear mode-light bg-cyan">
+                      <!--#include virtual="/includes-da/object/pills-light-media-object-01.html" -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content slick-h-scroll">
+        <div class="content-wrap">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12">
+                <h2 class="content-heading text-left text-sm-center">Notizie</h2>
+              </div>
+            </div>
+
+            <div class="row row-space">
+              <div class="col-xs-12">
+                <!-- esempio di opzione dello slick slider passato come attributo, valutare una chiamata init ad-hoc -->
+                <div class="row slick-h-scroll-items equalize-group equalize-group-3" data-slick='{"regionLabel":"aria label da personalizzare per le news 0"}'>
+                  <div class="col-xs-12 col-sm-4">
+                    <!--#set var="id" value="_01" -->
+                    <!--#include virtual="/includes-da/object/cards-default-news.html" -->
+                  </div>
+                  <div class="col-xs-12 col-sm-4">
+                    <!--#set var="id" value="_02" -->
+                    <!--#include virtual="/includes-da/object/cards-default-news.html" -->
+                  </div>
+                  <div class="col-xs-12 col-sm-4">
+                    <!--#set var="id" value="_03" -->
+                    <!--#include virtual="/includes-da/object/cards-default-news.html" -->
+                  </div>
+                  <div class="col-xs-12 col-sm-4">
+                    <!--#set var="id" value="_04" -->
+                    <!--#include virtual="/includes-da/object/cards-default-news.html" -->
+                  </div>
+                  <div class="col-xs-12 col-sm-4">
+                    <!--#set var="id" value="_05" -->
+                    <!--#include virtual="/includes-da/object/cards-default-news.html" -->
+                  </div>
+                  <div class="col-xs-12 col-sm-4">
+                    <!--#set var="id" value="_06" -->
+                    <!--#include virtual="/includes-da/object/cards-default-news.html" -->
+                  </div>
+                  <div class="col-xs-12 col-sm-4">
+                    <!--#set var="id" value="_07" -->
+                    <!--#include virtual="/includes-da/object/cards-default-news.html" -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row row-space">
+              <div class="col-xs-12">
+                <div class="btn-container btn-container-center clearfix">
+                  <a href="#" title="Vai alla sezione notizie" class="btn btn-xs btn-secondary m-0"> Vai alla sezione notizie</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <aside aria-labelledby="side-help-title">
+      <div class="content content-sidebar-assistenza">
+        <div class="content-wrap">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <!--#include virtual="/includes-da/navigation/right-side-offcanvas.html" -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <footer id="footer">
+      <div class="content content-footer content-footer-info">
+        <div class="content-wrap">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <!--#include virtual="/includes-da/footer/footer-content-info.html" -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content content-footer content-footer-extra">
+        <div class="content-wrap">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <!--#include virtual="/includes-da/footer/footer-content-extra.html" -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--#include virtual="/includes-da/utilities/footer-tag.html" -->
+      
+    </footer>
+  </body>
+</html>

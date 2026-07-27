@@ -1,0 +1,139 @@
+/*****************************************************
+
+Theme Name: Posteit DLS
+Author: GDS//FS//DU 
+Created: 2022/2024
+Based on: kit Bootstrap v 3.1.4
+File Description: Foglio di stile Myp.css (MyPoste)
+
+*****************************************************/
+.dashboard-item .box-rack {
+    margin-bottom: 8px;
+}
+
+.dashboard-item .box-rack .box-body {
+    min-height: auto !important;
+}
+
+
+/* Cards service */
+.panel-cards-service,
+.panel-cards-service .stretched-link::after{
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+}
+
+.panel-cards-service .panel-wrap{
+    padding: 16px;
+}
+
+.panel-cards-service .panel-heading .icon.icon-round {
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.panel-cards-service .panel-heading .icon svg{
+    height: 1.8rem;
+    width: 1.8rem;
+}
+
+.panel-cards-service.mode-ctaset .panel-wrap {
+    min-height: 168px !important;
+    height: 100%;
+}
+
+.panel-cards-service .panel-footer {
+    padding: 0;
+    background-color: transparent;
+    border: none;
+}
+
+.panel-cards-service .box-rack.box-summary {
+    padding: 1rem;
+    border-radius: 16px;
+}
+
+
+/* Cards pattern */
+.panel-cards.cards-pattern {
+    background-repeat: no-repeat;
+}
+
+.panel-cards.cards-pattern.cards-pattern-01 {
+    background-image: url(/assets-da/core/img/bg/bg-pattern-cards-service-01.png);
+}
+
+.panel-cards.cards-pattern.cards-pattern-02 {
+    background-image: url(/assets-da/core/img/bg/bg-pattern-cards-service-02.png);
+    background-position: bottom right;
+}
+
+.concept-app.profile {
+	background-image: url(/assets-da/app/myposte/img/bg-profilo-web-d@2x.png);
+	background-repeat: no-repeat;
+    background-position: right calc((100vw - 1140px)/2) bottom 4px;
+	background-size: 318px;
+}
+
+/* BPOL Area */
+.payment-card svg {
+    max-width: 456px;
+    height: 100%;
+}
+
+.payment-card svg .expiration-date {
+    font-size: 1rem;
+}
+
+
+@media (max-width: 767px) {
+    #content-abstract .abstract-heading {
+        text-align: left;
+    }
+
+    /* Cards Service */
+    .panel-cards-service .cards-text-heading {
+        font-size: 1rem;
+    }
+
+    .panel-cards-service .panel-heading .icon.icon-round {
+        background-color: transparent;
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .panel-cards-service.mode-ctaset .panel-wrap {
+        min-height: auto !important;
+        height: auto;
+    }
+
+    /* Cards pattern */
+    .panel-cards.cards-pattern.cards-pattern-01,
+    .panel-cards.cards-pattern.cards-pattern-02 {
+        background-position: bottom center;
+        background-image: url(/assets-da/core/img/bg/bg-pattern-cards-service-xs-01.png);
+    }
+
+    #content-abstract.profile{
+        background-image: none;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .concept-app.profile {
+        background-position: right calc((100vw - 768px)/2) bottom 12px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .concept-app.profile {
+        background-position: right calc((100vw - 992px)/2) bottom 12px;
+    }
+        
+}

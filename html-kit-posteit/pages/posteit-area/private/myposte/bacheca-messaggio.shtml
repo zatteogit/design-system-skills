@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <title>Poste.it</title>
+  <!--#include virtual="/includes-da/utilities/head-tag.html" -->
+  <link type="text/css" rel="stylesheet" href="/assets-da/app/myposte/css/myp.min.css" />
+</head>
+
+<body>
+  <nav id="skiplink" aria-label="Navigazione di pagina">
+    <ul>
+      <li><a tabindex="0" class="skip-link sr-only-focusable-abs" href="#accessibility-anchor">Passa al contenuto
+          principale</a></li>
+      <li><a class="skip-link sr-only-focusable-abs" href="#assistenza-side">Passa all'help</a></li>
+      <li><a class="skip-link sr-only-focusable-abs" href="#footer">Passa al footer di pagina</a></li>
+    </ul>
+  </nav>
+
+  <header class="sticky">
+    <div class="sticky-wrap">
+      <!-- Content Navbar-->
+      <div class="content" id="content-navbar">
+        <div class="content-wrap">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <!--#include virtual="/includes-da/header/navbar-content-default-logged.html" -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="accessibility-anchor" tabindex="-1">
+
+    <div class="content" id="content-abstract">
+      <div class="content-wrap">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-7">
+              <ol class="breadcrumb breadcrumb-xs-trim-a breadcrumb-sm-trim-a breadcrumb-md-trim-b">
+                <li>
+                  <a href="/pages/posteit-area/private/myposte/" title="Torna a MyPoste">
+                    <span>My Poste</span>
+                  </a>
+                </li>
+                <li><a href="/pages/posteit-area/private/bacheca.shtml" title="Torna alla Bacheca">
+                    <span>Bacheca</span>
+                  </a></li>
+                <li class="active" aria-current="page"><span>Messaggio</span></li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content content-multiwrap content-multiwrap-pattern pattern-01" id="content-main">
+
+      <!-- [start] CONTAINER DEM -->
+      <div class="content-wrap content-bg bg-cyan">
+        <div class="container pt-5 mt-3">
+          <div class="main-pills">
+            <div class="main-pills-wrap">
+              <div class="row">
+                <div class="col-xs-12">
+
+                  <!-- [start] TITOLO + ORA + BOTTONI -->
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <h2 class="content-heading text-left mt-0">Accedi ai nuovi servizi online riservati a te!</h2>
+                      <p>30/04/16 16:37 | Servizi informativi </p>
+                    </div>
+                    <div class="col-sm-4">
+                      <p class="text-md-right">
+                        <a href="/" title="Lorem ipsum" class="btn btn-cta btn-md btn-primary">
+                          <span class="icon">
+                            <svg focusable="false">
+                              <title>Lorem ipsum</title>
+                              <use xlink:href="/assets-da/core/img/iconset/sprite.svg#036a-delete-m"
+                                href="/assets-da/core/img/iconset/sprite.svg#036a-delete-m"></use>
+                            </svg>
+                          </span></a>
+                        <a href="/" title="Lorem ipsum" class="btn btn-cta btn-md btn-primary">
+                          <span class="icon">
+                            <svg focusable="false">
+                              <title>Lorem ipsum</title>
+                              <use xlink:href="/assets-da/core/img/iconset/sprite.svg#076a-description-m"
+                                href="/assets-da/core/img/iconset/sprite.svg#076a-description-m"></use>
+                            </svg>
+                          </span></a>
+                        <a href="/" title="Lorem ipsum" class="btn btn-cta btn-md btn-primary">
+                          <span class="icon">
+                            <svg focusable="false">
+                              <title>Lorem ipsum</title>
+                              <use xlink:href="/assets-da/core/img/iconset/sprite.svg#017a-file-download-m"
+                                href="/assets-da/core/img/iconset/sprite.svg#017a-file-download-m"></use>
+                            </svg>
+                          </span></a>
+                      </p>
+                    </div>
+                  </div>
+                  <!-- [end] TITOLO + ORA + BOTTONI -->
+
+                  <div class="row">
+
+                    <div class="col-sm-12">
+                      <hr class="separator mb-4 mt-0">
+                      <div class="main-pills main-pills-basic mb-0">
+                        <div class="">
+                          <div class="box-editable-area">
+
+                            <!-- [start] CONTENUTO TESTUALE DEM -->
+                            <div class="DEM_contenuto spacer-xs-top-40 spacer-xs-bottom-40">
+                              <img src="//fakeimg.pl/1090x300?font=noto" class="img-responsive mb-5" >
+                              <p>
+                                Da oggi Conto BancoPosta ti consente di <strong>scegliere la soluzione più adatta per
+                                  te</strong> e la tua famiglia, grazie ad un <strong>canone che varia in base ai
+                                  servizi e
+                                  ai prodotti compresi, in linea con le tue esigenze.</strong>
+                              </p>
+                              <p>
+                                Grazie all'<strong>App BancoPosta</strong> e ai <strong>servizi digitali</strong>
+                                abbinati
+                                puoi utilizzare il tuo conto corrente comodamente, da PC, Smartphone e Tablet e gestire
+                                le
+                                tue spese con un click!
+                              </p>
+                              <p>
+                                Con la <strong>Carta di debito ''carta BancoPosta''</strong> puoi prelevare contante e
+                                pagare in tutto il mondo, <strong>abilitarla all'on line</strong>, personalizzare il PIN
+                                per
+                                memorizzarlo più facilmente ed impostare alcune funzionalit/à con il servizio
+                                <strong>''Le
+                                  mie Carte''</strong>.
+                              </p>
+                              <p>
+                                Attraverso il circuito Mastercard inoltre, puoi viaggiare sulle <strong>reti delle
+                                  metropolitane abilitate</strong> alla carta di debito Contactless BancoPosta senza la
+                                necessità di utilizzare il biglietto cartaceo ma semplicemente avvicinando la tua carta
+                                ai
+                                tornelli di ingresso.
+                              </p>
+                              <p>
+                                Con Conto BancoPosta aderisci gratuitamente al programma <strong>Sconti
+                                  BancoPosta</strong>
+                                che ti fa risparmiare sui tuoi acquisti semplicemente utilizzando la carta di debito
+                                ''Carta
+                                BancoPosta'' nei negozi convenzionati in tutta Italia, sia fisici che online. Gli sconti
+                                vengono accreditati automaticamente sul tuo conto BancoPosta!
+                              </p>
+                              <p>E <strong>se non hai ancora compiuto 30 anni</strong>, Conto BancoPosta ha riservato
+                                per te
+                                un'offerta ancora <strong>più conveniente</strong> e ricca di servizi! </p>
+                              <p class="btn-container btn-container-center my-3 clearfix">
+                                <a href="#" title="Lorem impsum" class="btn btn-responsive btn-primary">Scopri di
+                                  più</a>
+                              </p>
+                              <p class="small"><i>
+                                  Messaggio pubblicitario con finalità promozionale.<br>
+                                  Per le condizioni contrattuali del conto corrente Conto BancoPosta (a Opzione) e della
+                                  carta di debito Carta BancoPosta consultare i Fogli Informativi del Conto BancoPosta
+                                  (a
+                                  Opzione) e dei Servizi di Pagamento e Servizi Accessori collegati al conto
+                                  nell'Opzione
+                                  di riferimento, disponibili negli uffici postali e su poste.it, sezione
+                                  Trasparenza.<br>
+                                  L’utilizzo dell'App BancoPosta è soggetto ad una procedura di autenticazione e di
+                                  associazione del conto corrente e della relativa carta di debito. Per conoscere gli
+                                  orari di disponibilità dei servizi, le commissioni e le limitazioni delle operazioni
+                                  consentite consulta il Foglio Informativo dei Servizi di Pagamento e Servizi Accessori
+                                  del conto corrente nell'opzione di riferimento, disponibile nell'Area Trasparenza del
+                                  sito poste.it e negli Uffici Postali.<br>
+                                  Per conoscere tutte le caratteristiche, le limitazioni, le ipotesi di esclusione
+                                  dell'iniziativa Sconti BancoPosta, è necessario consultare la descrizione completa
+                                  dell'iniziativa disponibile su www. scontibancoposta.it o contattare l'Assistenza
+                                  Clienti al numero gratuito 800.00.33.22<br></i>
+                              </p>
+                            </div>
+                            <!-- [end] CONTENUTO TESTUALE DEM -->
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-12">
+
+                      <!-- [start] DOWNLOAD -->
+                      <h4 class="area-heading">Download</h4>
+                      <div class="box-rack box-cyan mt-2">
+                        <div class="box-body">
+                          <ul class="list-file list-black m-0">
+                            <li class="list-file-excel"><a href="#"
+                                title="Condizioni Generali del Servizio Bacheca e di accesso ai servizi online offerti dal Gruppo Poste Italiane.">Condizioni
+                                Generali del Servizio
+                                <span class="block note fs-extrasmall">Condizioni di contratto (.pdf)</span></a>
+                            </li>
+                            <li class="list-file-excel"><a href="#"
+                                title="Condizioni Generali del Servizio Bacheca e di accesso ai servizi online offerti dal Gruppo Poste Italiane 2.">Condizioni
+                                Generali del Servizio (area assicurativa)
+                                <span class="block note fs-extrasmall">Condizioni di contratto
+                                  2(.pdf)</span></a> </li>
+                            <li class="list-file-excel"><a href="#"
+                                title="Condizioni Generali del Servizio Bacheca e di accesso ai servizi online offerti dal Gruppo Poste Italiane 3.">Condizioni
+                                Generali del Servizio (area finanziaria)
+                                <span class="block note fs-extrasmall">Condizioni di contratto
+                                  3(.pdf)</span></a> </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <!-- [end] DOWNLOAD -->
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- [end] Content DEM -->
+    </div>
+  </main>
+
+  <aside aria-labelledby="assistenza-side">
+    <!--#include virtual="/includes-da/navigation/right-side-offcanvas.html" -->
+  </aside>
+
+  <aside aria-labelledby="menu-profilo">
+    <!--#include virtual="/includes-da/navigation/right-side-offcanvas-profilo.html" -->
+  </aside>
+
+  <aside aria-labelledby="bacheca-side">
+    <!--#include virtual="/includes-da/navigation/right-side-offcanvas-bacheca.html" -->
+  </aside>
+
+  <footer id="footer">
+    <div class="content content-footer content-footer-main">
+      <div class="content-wrap">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <!--#include virtual="/includes-da/footer/footer-content-main.html" -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="content content-footer content-footer-extra">
+      <div class="content-wrap">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <!--#include virtual="/includes-da/footer/footer-content-extra.html" -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--#include virtual="/includes-da/utilities/footer-tag.html" -->
+  </footer>
+
+</body>
+
+</html>

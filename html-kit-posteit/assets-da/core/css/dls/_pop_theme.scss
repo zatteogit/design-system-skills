@@ -1,0 +1,107 @@
+/*****************************************************
+    @IMPORT
+    Foglio stile Pop-Theme - (c) Poste Italiane 2023/2024
+*****************************************************/
+
+
+@media (max-width: 767px) {
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+@media (min-width: 1200px) {
+    /* Pop - cross */
+    .content-heading{
+        font-size: 1.75rem;
+        line-height: 2.625rem;
+        letter-spacing: 0.19px;
+    }
+    /* Pop generic */
+    .display-pop h1,
+    .display-pop .h1,
+    .display-pop .title-extralarge,
+    h1.display-pop,
+    .display-pop.h1,
+    .display-pop.title-extralarge  {
+        font-size: 3rem;
+        line-height: 3.5rem;
+        letter-spacing: 0.32px;
+    }
+    .display-pop *:is(.panel-cards-detailed, .panel-cards-detailed-bg, .panel-cards-default-call, .panel-cards-trendy, .main-pills) h2, 
+    .display-pop *:is(.panel-cards-detailed, .panel-cards-detailed-bg, .panel-cards-default-call, .panel-cards-trendy, .main-pills) .h2,
+    .display-pop .title-medium,
+    h2.display-pop,
+    .display-pop.h2,
+    .display-pop.title-medium  {
+        font-size: 1.75rem;
+        line-height: 2.625rem;
+        letter-spacing: 0.19px;
+    }
+
+    .display-pop .fs-large,
+    .display-pop .fs-large p,
+    .display-pop.fs-large {
+        font-size: 1.5rem!important;
+        line-height: 2.25rem!important;
+    }
+
+    /* Pop - abstract */
+    .display-pop .abstract-subtitle{
+        font-size: 1.5rem;
+        line-height: 2.25rem;
+    }
+    .display-pop .abstract-advantage .list-check{
+        font-size: 1.125rem;
+        line-height: 1.625rem;
+    }
+
+    /* Pop - mainpills/cards */
+    .display-pop .main-pills:not(.main-pills-collection-link, .main-pills-lead, :has(.panel-group-accordion)) .box-editable-area p,
+    .display-pop .panel-cards-trendy .cards-content p,
+    .display-pop .panel-cards-default-call .cards-content p{
+        font-size: 1.125rem;
+        line-height: 1.625rem;
+    }
+    .display-pop .main-pills:not(.main-pills-collection-link, .main-pills-lead, :has(.panel-group-accordion)) .list-check li,
+    .display-pop .panel-cards-detailed .list-check li,
+    .display-pop .panel-cards-detailed-bg .list-check li,
+    .display-pop .panel-cards-default-call .list-check li{
+        font-size: 1.125rem;
+        line-height: 1.625rem;
+    }
+    /* Pop - custom */
+    #homepage .display-pop .panel-cards-picture .cards-content p{
+        font-size: 1.125rem;
+        line-height: 1.625rem;
+    }
+    #homepage .display-pop .panel-cards-picture .line-clamp:after{
+        height: 1.125rem;
+    }
+    #homepage .display-pop .panel-cards-picture .line-clamp-1 {
+        max-height: calc(1.125rem*1.5*1);
+    }
+    #homepage .display-pop .panel-cards-picture .line-clamp-2 {
+        max-height: calc(1.125rem*1.5*2);
+    }
+    #homepage .display-pop .panel-cards-picture .line-clamp-3 {
+        max-height: calc(1.125rem*1.5*3);
+    }
+    #homepage .display-pop .panel-cards-picture .line-clamp-4 {
+        max-height: calc(1.125rem*1.5*4);
+    }
+    #homepage .display-pop .panel-cards-picture .line-clamp-5 {
+        max-height: calc(1.125rem*1.5*5);
+    }
+    #content-abstract-hero h2.h1{
+        font-size: 3rem;
+        line-height: 3.5rem;
+        letter-spacing: 0.32px;
+    }
+    .slick-prev, .slick-next{
+        top: -53px;
+    }
+}

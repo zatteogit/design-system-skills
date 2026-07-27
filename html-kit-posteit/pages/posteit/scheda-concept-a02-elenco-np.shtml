@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <title>Poste.it</title>
+  <!--#include virtual="/includes-da/utilities/head-tag.html" -->
+
+</head>
+
+
+<body class="no-js">
+  <nav id="skiplink" aria-label="Navigazione di pagina"><ul>
+        <li><a tabindex="0" class="skip-link sr-only-focusable-abs" href="#accessibility-anchor">Passa al contenuto
+        principale</a></li>
+        <li><a class="skip-link sr-only-focusable-abs" href="#assistenza-side">Passa all'help</a></li>
+        <li><a class="skip-link sr-only-focusable-abs" href="#footer">Passa al footer di pagina</a></li>
+    </ul>
+  </nav>
+  <header class="sticky">
+
+    <!-- Content Fedbar-->
+    <div class="content" id="content-fedbar">
+      <div class="content-wrap">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <!--#include virtual="/includes-da/header/header-content-fedbar.html" -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Content Navbar-->
+    <div class="content" id="content-navbar">
+      <div class="content-wrap">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <!--#include virtual="/includes-da/header/navbar-content-default.html" -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+    <div class="sticky-wrap hide" aria-hidden="true">
+      <!-- Sidebar content-header-extra -->
+      <div class="content" id="content-header-extra">
+          <div class="content-wrap">
+              <div class="container">
+              <!--#include virtual="/includes-da/header/header-content-extra.html" -->
+              </div>
+          </div>
+      </div>
+  </div>
+  </header>
+
+  <main id="accessibility-anchor" tabindex="-1">
+    <div class="content display-pop concept-a" id="content-abstract">
+      <div class="content-wrap">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-7 hidden-sm hidden-xs">
+              <ol class="breadcrumb breadcrumb-xs-trim-a breadcrumb-sm-trim-a breadcrumb-md-trim-b">
+                <li>
+                  <a href="#" title="Home privati">
+                    <span>Home privati</span>
+                  </a>
+                </li>
+                <li><a href="#" title="Conti correnti"><span data-trim="trim">Conti correnti</span></a></li>
+                <li class="active" aria-current="page"><span>Conto BancoPosta</span></li>
+              </ol>
+            </div>
+          </div>
+          <div class="row">
+            <div class="abstract-wrap col-sm-5 col-sm-push-7">
+              <div class="picture-wrap">
+                <picture>
+                  <source srcset="/assets-da/publisher/img/prodotto/generic/content-abstract-01.webp" type="image/webp">
+                  <source srcset="/assets-da/publisher/img/prodotto/generic/content-abstract-01.png" type="image/png">
+                  <img loading="lazy" src="/assets-da/publisher/img/prodotto/generic/content-abstract-01.png" class="" alt="Lorem ipsum">
+              </picture>
+              </div>
+            </div>
+            <div class="abstract-wrap col-sm-7 col-sm-pull-5">
+              <div class="abstract">
+                <div class="abstract-heading">
+                  <h1>Conto BancoPosta</h1>
+                  <span class="abstract-subtitle">Un conto corrente, tante opzioni che danno valore alle tue
+                    esigenze.</span>
+                </div>
+              </div>
+              <div class="abstract-advantage pt-3">
+                <div class="row">
+                  <div class="col-xs-12">
+                    <ul class="list-check px-0 mt-0 mb-3 mb-md-0">
+                      <li>Scelta tra diversi formati (5, 10, 20, 30, 40, 50
+                        30, 40, 50 e 100) Lettere di Vettura</li>
+                      <li>Risparmio se ne acquisti di pi&ugrave;</li>
+                      <li>Restituzione gratuita in caso di mancata consegna</li>
+                      <li>Giacenza di 15 giorni</li>
+                    </ul>
+                  </div>
+                  <div class="col-xs-12">
+                    <div class="btn-container btn-container-xs-center mt-md-3">
+                      <span class="block-xs">
+                        <a href="#" title="Spedisci online" class="btn btn-primary btn-responsive">Spedisci online</a>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="content display-pop content-multiwrap content-multiwrap-pattern pattern-01 slick-h-scroll" id="content-main">
+      <div class="content-wrap content-bg bg-cyan">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <h2 class="content-heading text-left text-sm-center">Scegli l'opzione</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content-wrap content-bg bg-cyan">
+        <div class="container">
+          <div class="row row-space row-fix">
+            <div class="col-xs-12">
+              <div class="row slick-h-scroll-items">
+                <div class="col-sm-4">
+                  <!--#include virtual="/includes-da/object/cards-comparison-01.html" -->
+                </div>
+                <div class="col-sm-4">
+                  <!--#include virtual="/includes-da/object/cards-comparison-01.html" -->
+                </div>
+                <div class="col-sm-4">
+                  <!--#include virtual="/includes-da/object/cards-comparison-01.html" -->
+                </div>
+                <div class="col-sm-4">
+                  <!--#include virtual="/includes-da/object/cards-comparison-01.html" -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="content display-pop">
+      <div class="content-wrap">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="row">
+                <div class="col-md-10 col-md-push-1 col-structure">
+                  <div id="main">
+                    <!--
+                    <div class="row">
+                      <div class="col-sm-12">
+                        <h2 class="content-heading">Lorem ipsum title</h2>
+                      </div>
+                    </div>
+                    -->
+                    <div class="row row-fix">
+                      <div class="col-xs-12">
+                        <!-- Pills wizard -->
+                        <div class="main-pills">
+                          <div class="main-pills-wrap">
+                            ...
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  </main>
+  <aside aria-labelledby="side-help-title">
+
+    <!--#include virtual="/includes-da/navigation/right-side-offcanvas.html" -->
+
+  </aside>
+
+  <footer id="footer">
+
+    <div class="content content-footer content-footer-info">
+      <div class="content-wrap">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <!--#include virtual="/includes-da/footer/footer-content-info.html" -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="content content-footer content-footer-extra">
+      <div class="content-wrap">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <!--#include virtual="/includes-da/footer/footer-content-extra.html" -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--#include virtual="/includes-da/utilities/footer-tag.html" -->
+        
+  </footer>
+
+  
+</body>
+
+</html>

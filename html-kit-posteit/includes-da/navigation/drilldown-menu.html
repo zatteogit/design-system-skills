@@ -1,0 +1,266 @@
+<style>
+    /* Overflow da gestire lato js (solo a menu aperto) */
+    html{
+        overflow: hidden!important;
+    }
+</style>
+
+<!-- wrapper drilldown menu -->
+<nav id="drilldown-menu" class="drilldown-menu" aria-label="Menu principale">
+
+    <!-- back button -->
+    <div class="drilldown-menu-content">
+        <div class="row">
+            <div class="col-sm-8 col-md-4 hidden-xs hidden-sm" id="layer-01">
+                <div class="drilldown-layer-wrap-sronly">
+                    <h2 class="sr-only">Menu di navigazione lorem</h2>
+                    <p class="sr-only">Primo livello del men&ugrave; di navigazione ipsum</p>
+                </div>
+                <div class="drilldown-layer-wrap drilldown-layer-wrap-visible">
+                    <div class="drilldown-section-wrap">
+                        <div class="drilldown-section drilldown-section-dashboard">
+                            <div class="flex flex-column justify-content-between">
+                                <div class="drilldown-section-obj">
+                                    <h3>Area personale</h3>
+                                    <div class="btn-container">
+                                        <a class="btn btn-xs btn-primary" href="#" title="Quisque ad MyPoste">Vai a MyPoste</a>
+                                    </div>
+                                </div>
+                                <!--
+                                <div class="drilldown-section-obj">
+                                    <div class="panel panel-cards panel-cards-basic">
+                                        <div class="panel-wrap">
+                                            <div class="panel-heading">
+                                                <h3 class="cards-text-heading">Area personale</h3>
+                                            </div>
+                                            <div class="panel-body">
+                                                <div class="row">
+                                                    <div class="col-xs-12">
+                                                        <div class="row">
+                                                            <div class="col-xs-7 col-sm-8">
+                                                                <div class="cards-content">
+                                                                    <p>La tua area personale in cui puoi gestire tutti i tuoi prodotti.</p>
+                                                                </div>
+                                                            </div>
+                                    
+                                                            <div class="col-xs-5 col-sm-4">
+                                                                <img loading="lazy" class="img-responsive m-auto" src="/assets-da/core/img/ico/ico-device.png" srcset="/assets-da/core/img/ico/ico-device@2x.png 2x" alt="Lorem ipsum">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="panel-footer">
+                                                <div class="btn-container">
+                                                    <a class="btn btn-xs btn-primary" href="#" title="Vai a MyPoste">
+                                                        Vai a MyPoste</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                -->
+                                <div class="drilldown-section-obj">
+                                    <div class="btn-container flex flex-wrap column-gap-3">
+                                            <a class="btn btn-xs btn-default btn-link" href="#" title="Lorem Cerca spedizioni">
+                                                <span class="icon">
+                                                    <svg focusable="false">
+                                                    <title>Lorem cum ipsum</title>
+                                                    <use xlink:href="/assets-da/core/img/iconset/sprite.svg#082a-notifications-m" href="/assets-da/core/img/iconset/sprite.svg#082a-notifications-m"></use>
+                                                </svg>
+                                                </span>Bacheca</a>
+                                            <a class="btn btn-xs btn-default btn-link" href="#" title="Ipsum Cerca spedizioni">
+                                                <span class="icon">
+                                                    <svg focusable="false">
+                                                    <title>Lorem sed ipsum</title>
+                                                    <use xlink:href="/assets-da/core/img/iconset/sprite.svg#014a-edit-calendar-m" href="/assets-da/core/img/iconset/sprite.svg#014a-edit-calendar-m"></use>
+                                                </svg>
+                                                </span>Le tue prenotazioni</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="drilldown-section-wrap">
+                        <div class="drilldown-section">
+                            <div class="drilldown-section-obj">
+                                <h3>Il mondo Poste</h3>
+                                <ul>
+                                    <li><button title="">Posta e pacchi</button></li>
+                                    <li class="menu-item-active"><button aria-controls="panel-conti" aria-expanded="true" id="btn-conti" title="">Conti e invio denaro</button></li>
+                                    <li><button aria-controls="" title="">Carte</button></li>
+                                    <li><button aria-controls="" title="">Finanziamenti</button></li>
+                                    <li><button aria-controls="" title="">Risparmio Postale</button></li>
+                                    <li><button aria-controls="" title="">Investimenti</button></li>
+                                    <li><button aria-controls="" title="">Assicurazioni e previdenza</button></li>
+                                    <li><button aria-controls="" title="">Energia</button></li>
+                                    <li><button aria-controls="" title="">Telefonia</button></li>
+                                    <li><button aria-controls="" title="">Filatelia</button></li>
+                                    <li><button aria-controls="" title="">SPID e servizi al cittadino</button></li>
+                                    <li><button aria-controls="" title="">Servizi digitali certificati</button></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="drilldown-section">
+                            <div class="drilldown-section-obj">
+                                <div class="panel panel-cards panel-cards-basic">
+                                    <div class="panel-wrap">
+                                        <div class="panel-heading">
+                                            <h3 class="cards-text-heading">Lorem ipsum</h3>
+                                        </div>
+                                        <div class="panel-body">
+                                                    <div class="cards-content">
+                                                        <p>Lorem ipsum cerca e consulta i dettagli 
+                                                            relativi agli Uffici Postali, 
+                                                            Punto Poste e PuntoLis, 
+                                                            ATM,Poste Locker, Cassette 
+                                                            Postali e Spazi Filatelia.</p>
+                                                        <div class="btn-container clearfix">
+                                                            <a class="btn btn-xs btn-primary" href="#" title="Lorem ipsum">
+                                                                <span class="icon">
+                                                                    <svg focusable="false">
+                                                                        <title>Lorem ipsum</title>
+                                                                        <use xlink:href="/assets-da/core/img/iconset/sprite.svg#025a-search-m" href="/assets-da/core/img/iconset/sprite.svg#025a-search-m"></use>
+                                                                    </svg>
+                                                                </span>
+                                                                Lorem ipsum</a>
+                                                        </div>
+                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-8 col-md-4 hidden-xs hidden-sm" id="layer-02">
+                <div class="drilldown-layer-wrap-sronly">
+                    <p class="sr-only">Secondo livello del men&ugrave; di navigazione ipsum</p>
+                </div>
+                <div aria-hidden="false" aria-labelledby="btn-conti" class="drilldown-layer-wrap drilldown-layer-wrap-visible" id="panel-conti">
+                    <div class="drilldown-section-wrap hidden-md hidden-lg">
+                        <div class="drilldown-section drilldown-section-pinned">
+                            <!-- back button -->
+                            <div class="drilldown-section-obj">
+                                <button class="btn btn-default btn-link mb-0">
+                                    <span class="icon">
+                                        <svg focusable="false">
+                                            <title>Torna a tutti i prodotti e servizi</title>
+                                            <use xlink:href="/assets-da/core/img/iconset/sprite.svg#001a-arrow-back-m" href="/assets-da/core/img/iconset/sprite.svg#001a-arrow-back-m"></use>
+                                        </svg>
+                                    </span>
+                                    Tutti i prodotti e servizi</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="drilldown-section-wrap">
+                        <div class="drilldown-section drilldown-section-dashboard">
+                            <div class="flex flex-column justify-content-between">
+                                <div class="drilldown-section-obj">
+                                    <h3>Conti e invio denaro</h3>
+                                    <div class="btn-container mb-0">
+                                        <a class="btn btn-xs btn-secondary" href="#" title="Vai ai tuoi conti">
+                                            <span class="icon">
+                                                <svg focusable="false">
+                                                    <title>Torna a tutti i prodotti e servizi</title>
+                                                    <use xlink:href="/assets-da/core/img/iconset/sprite.svg#015a-account-balance-wallet-m" href="/assets-da/core/img/iconset/sprite.svg#015a-account-balance-wallet-m"></use>
+                                                </svg>
+                                            </span>
+                                            I tuoi conti</a>
+                                    </div>
+                                </div>
+                                <div class="drilldown-section-obj">
+                                    <ul>
+                                        <li class="menu-item-active"><button aria-expanded="true" aria-controls="panel-conti-op" title="" id="btn-conti-op">Operazioni</button></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="drilldown-section-wrap">
+                        <div class="drilldown-section">
+                            <div class="drilldown-section-obj drilldown-section-separator">
+                                <span class="fs-small">Scopri l'offerta</span>
+                            </div>
+                            <div class="drilldown-section-obj hide">
+                                <h3>Conti e invio denaro</h3>
+                                <ul>
+                                    <li class=""><button aria-expanded="true" aria-controls="panel-conti-op" title="" id="btn-conti-op">Operazioni</button></li>
+                                </ul>
+                            </div>
+                            <div class="drilldown-section-obj">
+                                <h4>Conti</h4>
+                                <ul>
+                                    <li><a href="#" title="">Conti BancoPosta</a></li>
+                                    <li><a href="#" title="">Servizi accessori</a></li>
+                                </ul>
+                            </div>
+                            <div class="drilldown-section-obj">
+                                <h4>Invio denaro</h4>
+                                <ul>
+                                    <li><a href="#" title="">Vaglia</a></li>
+                                    <li><a href="#" title="">Moneygram</a></li>
+                                    <li class="menu-item-active" aria-current="true"><a href="#" title="">Western Union</a></li>
+                                    <li><a href="#" title="">Donazioni</a></li>
+
+                                </ul>
+                            </div>
+                            <div class="drilldown-section-obj">
+                                <h4>Servizi utili</h4>
+                                <ul>
+                                    <li><a href="#" title="">Carte di credito</a></li>
+                                    <li><a href="#" title="">ScontiPoste</a></li>
+                                    <li><a href="#" title="">Servizi di Open Banking</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-8 col-md-4" id="layer-03">
+                <div class="drilldown-layer-wrap-sronly">
+                    <p class="sr-only">Terzo livello del men&ugrave; di navigazione ipsum</p>
+                </div>
+                <div aria-hidden="false" aria-labelledby="btn-conti-op" class="drilldown-layer-wrap drilldown-layer-wrap-visible drilldown-layer-wrap-active" id="panel-conti-op">
+                    <div class="drilldown-section-wrap hidden-md hidden-lg">
+                        <div class="drilldown-section drilldown-section-pinned">
+                            <!-- back button -->
+                            <div class="drilldown-section-obj">
+                                <button class="btn btn-default btn-link mb-0" aria-hidden="">
+                                    <span class="icon">
+                                        <svg focusable="false">
+                                            <title>Torna a tutti i prodotti e servizi</title>
+                                            <use xlink:href="/assets-da/core/img/iconset/sprite.svg#001a-arrow-back-m" href="/assets-da/core/img/iconset/sprite.svg#001a-arrow-back-m"></use>
+                                        </svg>
+                                    </span>
+                                    Tutti i prodotti e servizi</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="drilldown-section-wrap">
+                        <div class="drilldown-section drilldown-section-dashboard">
+                            <div class="drilldown-section-obj">
+                                <h3>Operazioni</h3>
+                                <ul>
+                                    <li><a href="#" title="">Bonifico SEPA</a></li>
+                                    <li><a href="#" title="">Postagiro</a></li>
+                                    <li><a href="#" title="">Bollette e pagamenti</a></li>
+                                    <li><a href="#" title="">Ricarica Postepay</a></li>
+                                    <li><a href="#" title="">Ricariche telefoniche</a></li>
+                                    <li><a href="#" title="">Modelli F24</a></li>
+                                    <li><a href="#" title="">Richieste ISEE</a></li>
+                                    <li><a href="#" title="">Girofondo</a></li>
+                                    <li><a href="#" title="">Bollo auto e moto</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</nav>

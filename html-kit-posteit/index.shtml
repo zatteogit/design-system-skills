@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <title>Poste.it</title>
+  <!--#include virtual="/includes-da/utilities/head-tag.html" -->
+</head>
+
+
+<body>
+  <nav id="skiplink" aria-label="Navigazione di pagina">
+    <ul>
+      <li><a tabindex="0" class="skip-link sr-only-focusable-abs" href="#accessibility-anchor">Passa al contenuto
+          principale</a></li>
+      <li><a class="skip-link sr-only-focusable-abs" href="#assistenza-side">Passa all'help</a></li>
+      <li><a class="skip-link sr-only-focusable-abs" href="#footer">Passa al footer di pagina</a></li>
+    </ul>
+  </nav>
+  <header>
+
+
+    <!-- Content Navbar-->
+    <div class="content" id="content-navbar">
+      <div class="content-wrap">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="content-navbar-wrap">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <nav class="navbar navbar-default" id="nav-def-pi"
+                      aria-label="barra di navigazione: menu e ricerca del sito, assistenza">
+                      <div class="navbar-header">
+                        <div class="navbar-wrap">
+                          <a class="navbar-brand" href="/" title="Torna a Poste.it">
+                            <img id="logo" alt="Logo PosteItaliane"
+                              src="/assets-da/core/img/loghi/logo-poste-italiane.png"
+                              srcset="/assets-da/core/img/loghi/logo-poste-italiane@2x.png 2x">
+                          </a>
+                        </div>
+                      </div>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </header>
+
+  <main id="accessibility-anchor" tabindex="-1">
+
+    <div class="content" id="content-abstract">
+      <div class="content-wrap">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="abstract">
+                <div class="abstract-heading">
+                  <h1 class="clearfix">Html-kit
+                    <span class="pull-sm-right">
+                      <span class="fs-large text-note">release</span>
+                      <span class="h2">1.13
+                        <span class="fs-small ms-2 text-evidence">(Work in progress)</span>
+                        <span class="fs-small ms-2 text-success hide">(Stable)</span>
+                      </span>
+                    </span>
+                  </h1>
+                  <span class="abstract-subtitle">
+                    <span class="">Linea guida grafica per i touch point digitali di Poste Italiane sul
+                      web.</span><br>
+                    <span class="fs-small">Tutti i testi presenti nel pacchetto sono puramente indicativi</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="content-wrap">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div id="main">
+                <h2 class="content-heading">Link rapidi</h2>
+                <div class="row row-fix">
+                  <div class="col-xs-12 col-sm-6">
+                    <div class="main-pills mt-3 mt-sm-0">
+                      <div class="main-pills-wrap equalize">
+                        <h3>Html-kit</h3>
+                        <ul class="list-check list-tailback my-3 px-0">
+                          <li class="col-sm-12 col-lg-6"><a title="ChangeLog" href="/changelog.txt">ChangeLog</a></li>
+                          <li class="col-sm-12 col-lg-6"><a title="ToDo" href="/todo.txt">ToDo</a></li>
+                          <li class="col-sm-12 col-lg-6"><a title="Segnalazioni"
+                              href="/segnalazioni.txt">Segnalazioni</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-6">
+                    <div class="main-pills mt-3 mt-sm-0">
+                      <div class="main-pills-wrap equalize">
+                        <h3>Design language system</h3>
+                        <ul class="list-check list-tailback my-3 px-0">
+                          <li class="col-sm-12 col-lg-6"><a title="UI Cards Elements"
+                              href="/pages/ui-elements-cards.shtml">UI - Cards</a></li>
+                          <li class="col-sm-12 col-lg-6"><a title="UI Component Elements"
+                              href="/pages/ui-elements-components.shtml">UI - Components</a></li>
+                          <li class="col-sm-12 col-lg-6"><a title="Ui Form Elements"
+                              href="/pages/ui-elements-form.shtml">Ui - Form</a></li>
+                          <li class="col-sm-12 col-lg-6"><a title="UI Applicative Component Elements"
+                              href="/pages/ui-elements-applicative-components.shtml">UI - Applicative components</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="content content-multiwrap">
+      <div class="content-wrap">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <h2 class="content-heading">Pagine esemplificative - Poste.it</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content-wrap content-bg" style="background-color: #3f4149;">
+        <div class="container">
+          <div class="row row-group">
+            <div class="col-sm-12">
+              <div class="row row-space equalize-group equalize-group-1">
+
+                <div class="col-sm-6 col-md-4">
+                  <div class="panel panel-cards panel-cards-picture ">
+                    <div class="picture-wrap">
+                      <picture>
+                        <img loading="lazy" src="/data/img/preview-home.jpg" srcset="/data/img/preview-home@2x.jpg 2x"
+                          class="" alt="Lorem ipsum">
+                      </picture>
+                    </div>
+                    <div class="panel-wrap">
+                      <div class="panel-body">
+                        <div class="row">
+                          <div class="col-sm-12">
+                            <h3 class="cards-text-heading">Homepage</h3>
+                            <div class="cards-content">
+                              <ul class="list-check mt-3 px-0">
+                                <li class="text-muted"><a title="Homepage" href="/pages/posteit/home.shtml">Home</a>
+                                </li>
+                                <li class="text-muted"><a title="Banner" href="/pages/posteit/banner.shtml">Banner</a>
+                                </li>
+                                <li class="text-muted"><a title="Menu" href="/pages/posteit/menu.shtml">Menu</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                  <div class="panel panel-cards panel-cards-picture ">
+                    <div class="picture-wrap">
+                      <picture>
+                        <img loading="lazy" src="/data/img/preview-gamma.jpg" srcset="/data/img/preview-gamma@2x.jpg 2x"
+                          class="" alt="Lorem ipsum">
+                      </picture>
+                    </div>
+                    <div class="panel-wrap">
+                      <div class="panel-body">
+                        <div class="row">
+                          <div class="col-sm-12">
+                            <h3 class="cards-text-heading">Gamma prodotto</h3>
+                            <div class="cards-content">
+                              <ul class="list-check mt-3 px-0">
+                                <li><a title="Gamma prodotto" href="/pages/posteit/gamma.shtml">Gamma prodotto</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-12 col-md-4">
+                  <div class="panel panel-cards panel-cards-picture ">
+                    <div class="picture-wrap">
+                      <picture>
+                        <img loading="lazy" src="/data/img/preview-brand.jpg" srcset="/data/img/preview-brand@2x.jpg 2x"
+                          class="" alt="Lorem ipsum">
+                      </picture>
+                    </div>
+                    <div class="panel-wrap">
+                      <div class="panel-body">
+                        <div class="row">
+                          <div class="col-sm-12">
+                            <h3 class="cards-text-heading">Pagina Brand</h3>
+                            <div class="cards-content">
+                              <ul class="list-check mt-3 px-0">
+                                <li><a title="Pagina brand" href="/pages/posteit/brand.shtml">Pagina brand</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div class="row equalize-group equalize-group-2">
+                <div class="col-sm-12 col-md-8">
+                  <div class="panel panel-cards panel-cards-picture ">
+                    <div class="picture-wrap">
+                      <picture>
+                        <img loading="lazy" src="/data/img/preview-scheda.jpg"
+                          srcset="/data/img/preview-scheda@2x.jpg 2x" class="" alt="Lorem ipsum">
+                      </picture>
+                    </div>
+                    <div class="panel-wrap">
+                      <div class="panel-body">
+                        <div class="row">
+                          <div class="col-sm-12">
+                            <h3 class="cards-text-heading">Scheda prodotto e pagine di supporto</h3>
+                            <div class="cards-content">
+                              <ul class="list-check list-tailback mt-3 px-0">
+                                <li class="col-sm-6">
+                                  <a title="Scheda prodotto" href="/pages/posteit/scheda-default.shtml">Scheda
+                                    prodotto</a>
+                                </li>
+
+                                <li class="col-sm-6">
+                                  <a title="Supporto scheda - Approfondimento"
+                                    href="/pages/posteit/approfondimento.shtml">Supporto scheda - Approfondimento</a>
+                                </li>
+
+                                <li class="col-sm-6">
+                                  <a title="Supporto scheda - Documentale"
+                                    href="/pages/posteit/documentale.shtml">Supporto scheda - Documentale</a>
+                                </li>
+
+                                <li class="col-sm-6">
+                                  <a title="Supporto scheda - Glossario" href="/pages/posteit/glossario.shtml">Supporto
+                                    scheda - Glossario</a>
+                                </li>
+
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-sm-12">
+                            <h3 class="cards-text-heading mt-4">Scheda prodotto (focus "Intro")</h3>
+                            <div class="cards-content">
+
+                              <div class="row">
+                                <div class="col-sm-6">
+                                  <ul class="list-check mt-3 px-0">
+                                    <li>
+                                      <a title="Concept A (Elenco)"
+                                        href="/pages/posteit/scheda-concept-a01-elenco.shtml">Concept A (Elenco)</a>
+                                    </li>
+                                    <li>
+                                      <a title="Concept A (Elenco, no-price)"
+                                        href="/pages/posteit/scheda-concept-a02-elenco-np.shtml">Concept A (Elenco,
+                                        no-price)</a>
+                                    </li>
+                                    <li>
+                                      <a title="Concept A (Boxed)"
+                                        href="/pages/posteit/scheda-concept-a05-boxed.shtml">Concept A (Boxed)</a>
+                                    </li>
+                                    <li>
+                                      <a title="Concept A (Tabella)"
+                                        href="/pages/posteit/scheda-concept-a03-tabella.shtml">Concept A (Tabella)</a>
+                                    </li>
+                                    <li>
+                                      <a title="Concept A (Base)"
+                                        href="/pages/posteit/scheda-concept-a04-base.shtml">Concept A (Base)</a>
+                                    </li>
+
+                                    <li>
+                                      <a title="Concept A (Promo) "
+                                        href="/pages/posteit/scheda-concept-a06-promo.shtml">Concept A (*) (v. Promo)
+                                      </a>
+                                    </li>
+                                  </ul>
+                                </div>
+                                <div class="col-sm-6">
+                                  <ul class="list-check mt-3 px-0">
+                                    <li>
+                                      <a title="Concept B (Elenco) (animation-1)"
+                                        href="/pages/posteit/scheda-concept-b01-elenco.shtml">Concept B (Elenco)
+                                        (anim-1)</a>
+                                    </li>
+                                    <li>
+                                      <a title="Concept B (Elenco, no-price) (animation-2)"
+                                        href="/pages/posteit/scheda-concept-b02-elenco-np.shtml">Concept B (Elenco,
+                                        no-price) (anim-2)</a>
+                                    </li>
+                                    <li>
+                                      <a title="Concept B (Boxed) (animation-1)"
+                                        href="/pages/posteit/scheda-concept-b04-boxed.shtml">Concept B (Boxed)
+                                        (anim-1)</a>
+                                    </li>
+                                    <li>
+                                      <a title="Concept B (Tabella) (animation-1)"
+                                        href="/pages/posteit/scheda-concept-b03-tabella.shtml">Concept B (Tabella)
+                                        (anim-1)</a>
+                                    </li>
+                                    <li>
+                                      <a title="Concept B (Base) "
+                                        href="/pages/posteit/scheda-concept-b05-base.shtml">Concept B (Base) (v. Promo)
+                                      </a>
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                  <div class="panel panel-cards panel-cards-picture ">
+                    <div class="picture-wrap">
+                      <picture>
+                        <img loading="lazy" src="/data/img/preview-vol.jpg" srcset="/data/img/preview-vol@2x.jpg 2x"
+                          class="" alt="Lorem ipsum">
+                      </picture>
+                    </div>
+                    <div class="panel-wrap">
+                      <div class="panel-body">
+                        <div class="row">
+                          <div class="col-sm-12">
+                            <h3 class="cards-text-heading">Form</h3>
+                            <div class="cards-content">
+                              <ul class="list-check list-tailback mt-3 px-0">
+                                <li class="col-sm-12"><a class="" title="Form - Funnel"
+                                    href="/pages/posteit-area/form-generic/form-01.shtml">Form - Funnel</a></li>
+                                <li class="col-sm-12"><a class="" title="Form - Funnel (privacy)"
+                                    href="/pages/posteit-area/form-generic/form-privacy.shtml">Form - Funnel
+                                    (privacy)</a></li>
+                                <li class="col-sm-12"><a class="" title="Form - Base"
+                                    href="/pages/posteit-area/form-generic/form-02.shtml">Form - Base</a></li>
+                                <li class="col-sm-12"><a class="" title="Form - Esito"
+                                    href="/pages/posteit-area/form-generic/form-esito-01.shtml">Form - Esito</a></li>
+                                <li class="col-sm-12"><a class="" title="Vol - Accordion"
+                                    href="/pages/posteit-area/form-generic/vol-01.shtml">Vol -
+                                    Accordion</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div class="row equalize-group equalize-group-3">
+                <div class="col-sm-12 col-md-4">
+                  <div class="panel panel-cards panel-cards-picture ">
+                    <div class="picture-wrap">
+                      <picture>
+                        <img loading="lazy" src="/data/img/preview-myposte.jpg"
+                          srcset="/data/img/preview-myposte@2x.jpg 2x" class="" alt="Lorem ipsum">
+                      </picture>
+                    </div>
+                    <div class="panel-wrap">
+                      <div class="panel-body">
+                        <div class="row">
+                          <div class="col-sm-12">
+                            <h3 class="cards-text-heading">MyPoste</h3>
+                            <div class="cards-content">
+                              <ul class="list-check mt-3 px-0">
+                                <li><a title="MyPoste" href="/pages/posteit-area/private/myposte/">MyPoste</a>
+                                </li>
+                                <li><a title="Profilo"
+                                    href="/pages/posteit-area/private/myposte/profilo.shtml">Profilo</a>
+                                </li>
+                                <li><a title="Profilo"
+                                    href="/pages/posteit-area/private/myposte/bacheca.shtml">Bacheca</a>
+                                </li>
+                                <li><a title="Profilo"
+                                  href="/pages/posteit-area/private/myposte/bacheca-messaggio.shtml">Bacheca Messaggio</a>
+                              </li>
+                                <li><a title="Conti"
+                                    href="/pages/posteit-area/private/myposte/bpol/conti.shtml">BancoPosta Online -
+                                    Conti</a>
+                                </li>
+                                <li><a title="Conti"
+                                    href="/pages/posteit-area/private/myposte/bpol/carte.shtml">BancoPosta Online -
+                                    Carte</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                  <div class="panel panel-cards panel-cards-picture ">
+                    <div class="picture-wrap">
+                      <picture>
+                        <img loading="lazy" src="/data/img/preview-serv-online.jpg"
+                          srcset="/data/img/preview-serv-online@2x.jpg 2x" class="" alt="Lorem ipsum">
+                      </picture>
+                    </div>
+                    <div class="panel-wrap">
+                      <div class="panel-body">
+                        <div class="row">
+                          <div class="col-sm-12">
+                            <h3 class="cards-text-heading">Servizi online</h3>
+                            <div class="cards-content">
+                              <ul class="list-check mt-3 px-0">
+                                <li><a title="Servizi online - Pagamenti"
+                                    href="/pages/posteit-area/serv-online/serv-online-pagamenti.shtml">Paga online</a>
+                                </li>
+                                <li><a title="Servizi online - Spedizioni"
+                                    href="/pages/posteit-area/serv-online/serv-online-spedizioni.shtml">Spedisci
+                                    online</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                  <div class="panel panel-cards panel-cards-picture ">
+                    <div class="picture-wrap">
+                      <picture>
+                        <img loading="lazy" src="/data/img/preview-assistenza.jpg"
+                          srcset="/data/img/preview-assistenza@2x.jpg 2x" class="" alt="Lorem ipsum">
+                      </picture>
+                    </div>
+                    <div class="panel-wrap">
+                      <div class="panel-body">
+                        <div class="row">
+                          <div class="col-sm-12">
+                            <h3 class="cards-text-heading">Assistenza</h3>
+                            <div class="cards-content">
+                              <ul class="list-check mt-3 px-0">
+                                <li><a title="Assistenza - Home"
+                                    href="/pages/posteit-area/assistenza/assistenza-home.shtml">Assistenza - Home</a>
+                                </li>
+                                <li><a title="Assistenza - Chiamaci"
+                                    href="/pages/posteit-area/assistenza/assistenza-chiamaci.shtml">Assistenza -
+                                    Chiamaci</a></li>
+                                <li><a title="Assistenza - Recupera credenziali"
+                                    href="/pages/posteit-area/assistenza/assistenza-recupero-credenziali.shtml">Assistenza
+                                    - Recupera credenziali</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row equalize-group equalize-group-4">
+                <div class="col-sm-6 col-md-4">
+                  <div class="panel panel-cards panel-cards-picture ">
+                    <div class="picture-wrap">
+                      <picture>
+                        <img loading="lazy" src="/data/img/preview-cerca.jpg" srcset="/data/img/preview-cerca@2x.jpg 2x"
+                          class="" alt="Lorem ipsum">
+                      </picture>
+                    </div>
+                    <div class="panel-wrap">
+                      <div class="panel-body">
+                        <div class="row">
+                          <div class="col-sm-12">
+                            <h3 class="cards-text-heading">Cerca</h3>
+                            <div class="cards-content">
+                              <ul class="list-check list-tailback mt-3 px-0">
+                                <li><a title="Cerca" href="/pages/posteit-area/cerca/cerca.shtml">Cerca</a></li>
+                                <li><a title="Cerca - Mappa Slider" href="/pages/posteit-area/cerca/cerca-mappa.shtml">Cerca - Mappa</a></li>
+                                <li><a title="Cerca - Mappa Risultati" href="/pages/posteit-area/cerca/cerca-mappa-risultati.shtml">Cerca - Mappa con Risultati</a></li>
+                                <li><a title="Cerca - Risultati Contenuto" href="/pages/posteit-area/cerca/cerca-risultati.shtml">Cerca - Risultati Contenuto</a></li>
+                                <li><a title="Cerca - Risultati Mappa" href="/pages/posteit-area/cerca/cerca-risultati-luoghi.shtml">Cerca - Risultati
+                                    Luoghi </a></li>
+                                <li><a title="Cerca - Risultati Spedizioni" href="/pages/posteit-area/cerca/cerca-spedizioni.shtml">Cerca - Spedizioni</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                  <div class="panel panel-cards panel-cards-picture ">
+                    <div class="picture-wrap">
+                      <picture>
+                        <img loading="lazy" src="/data/img/preview-hub.jpg" srcset="/data/img/preview-hub@2x.jpg 2x"
+                          class="" alt="Lorem ipsum">
+                      </picture>
+                    </div>
+                    <div class="panel-wrap">
+                      <div class="panel-body">
+                        <div class="row">
+                          <div class="col-sm-12">
+                            <h3 class="cards-text-heading">Hub content</h3>
+                            <div class="cards-content">
+                              <ul class="list-check mt-3 px-0">
+                                <li><a title="Hub - indice" href="/pages/posteit-area/hub-content/hub-indice.shtml">Hub
+                                    -
+                                    indice</a></li>
+                                <li><a title="Hub - scheda" href="/pages/posteit-area/hub-content/hub-scheda.shtml">Hub
+                                    - scheda</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                  <div class="panel panel-cards panel-cards-picture ">
+                    <div class="picture-wrap">
+                      <picture>
+                        <img loading="lazy" src="/data/img/preview-appuntamento.jpg"
+                          srcset="/data/img/preview-appuntamento@2x.jpg 2x" class="" alt="Lorem ipsum">
+                      </picture>
+                    </div>
+                    <div class="panel-wrap">
+                      <div class="panel-body">
+                        <div class="row">
+                          <div class="col-sm-12">
+                            <h3 class="cards-text-heading">Gestione appuntamenti</h3>
+                            <div class="cards-content">
+                              <ul class="list-check mt-3 px-0">
+                                <li><a title="Prendi appuntamento"
+                                    href="/pages/posteit-area/appuntamenti/appuntamenti-home.shtml">Prendi
+                                    appuntamento (logged)</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                  <div class="panel panel-cards panel-cards-picture ">
+                    <div class="picture-wrap">
+                      <picture>
+                        <img loading="lazy" src="/data/img/preview-landing.jpg"
+                          srcset="/data/img/preview-landing@2x.jpg 2x" class="" alt="Lorem ipsum">
+                      </picture>
+                    </div>
+                    <div class="panel-wrap">
+                      <div class="panel-body">
+                        <div class="row">
+                          <div class="col-sm-12">
+                            <h3 class="cards-text-heading">Landing e Iniziative</h3>
+                            <div class="cards-content">
+                              <ul class="list-check mt-3 px-0">
+                                <li><a title="Landing" href="/pages/posteit-area/landing/landing.shtml">Landing</a></li>
+                                <li><a title="Iniziative"
+                                    href="/pages/posteit-area/iniziative/premium/premium.shtml">Iniziative</a></li>
+                                <li><a title="Poste ID"
+                                      href="/pages/posteit-area/iniziative/posteid/posteid.shtml">Poste ID (Dashboard)</a></li>
+                                
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                  <div class="panel panel-cards panel-cards-picture ">
+                    <div class="picture-wrap">
+                      <picture>
+                        <img loading="lazy" src="/data/img/preview-login.jpg" srcset="/data/img/preview-login@2x.jpg 2x"
+                          class="" alt="Lorem ipsum">
+                      </picture>
+                    </div>
+                    <div class="panel-wrap">
+                      <div class="panel-body">
+                        <div class="row">
+                          <div class="col-sm-12">
+                            <h3 class="cards-text-heading">Login</h3>
+                            <div class="cards-content">
+                              <ul class="list-check mt-3 px-0">
+                                <li><a title="login" href="/pages/posteit-area/login/login.shtml">Login</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!--
+                <div class="col-sm-4">
+                  <div class="panel panel-cards panel-cards-picture ">
+                    <div class="picture-wrap">
+                      <picture>
+                        <img loading="lazy" src="/data/img/preview-placeholder.jpg" srcset="/data/img/preview-placeholder@2x.jpg 2x" class="" alt="Lorem ipsum">
+                      </picture>
+                    </div>
+                    <div class="panel-wrap">
+                      <div class="panel-body">
+                        <div class="row">
+                          <div class="col-sm-12">
+                            <h3 class="cards-text-heading">######</h3>
+                            <div class="cards-content">
+                              <ul class="list-check mt-3 px-0">
+                                <li><a title="#####" href="#">######</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                -->
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <aside aria-labelledby="side-help-title">
+    <div class="content content-sidebar-assistenza">
+      <div class="content-wrap">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <!--#include virtual="/includes-da/navigation/right-side-offcanvas.html" -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <footer>
+    <div class="content content-footer content-footer-main">
+      <div class="content-wrap">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <!--#include virtual="/includes-da/footer/footer-content-main.html" -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="content content-footer content-footer-extra">
+      <div class="content-wrap">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <!--#include virtual="/includes-da/footer/footer-content-extra.html" -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--#include virtual="/includes-da/utilities/footer-tag.html" -->
+
+  </footer>
+
+</body>
+
+</html>

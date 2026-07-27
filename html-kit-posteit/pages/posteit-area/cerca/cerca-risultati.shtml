@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <title>Poste.it</title>
+    <!--#include virtual="/includes-da/utilities/head-tag.html" -->
+
+</head>
+
+<body>
+    <nav id="skiplink" aria-label="Navigazione di pagina">
+        <ul>
+            <li><a tabindex="0" class="skip-link sr-only-focusable-abs" href="#accessibility-anchor">Passa al contenuto
+                    principale</a></li>
+            <li><a class="skip-link sr-only-focusable-abs" href="#assistenza-side">Passa all'help</a></li>
+            <li><a class="skip-link sr-only-focusable-abs" href="#footer">Passa al footer di pagina</a></li>
+        </ul>
+    </nav>
+
+    <header class="sticky">
+
+        <div class="sticky-wrap">
+
+            <!-- Content Fedbar-->
+            <div class="content" id="content-fedbar">
+                <div class="content-wrap">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <!--#include virtual="/includes-da/header/header-content-fedbar.html" -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Content Navbar-->
+            <div class="content" id="content-navbar">
+                <div class="content-wrap">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <!--#include virtual="/includes-da/header/navbar-content-default.html" -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Sidebar Menu -->
+        <div class="content" id="content-sites-menu">
+            <div class="content-wrap">
+                <div class="container">
+                    <!--#include virtual="/includes-da/navigation/left-side-offcanvas-sites.html" -->
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <main id="accessibility-anchor" tabindex="-1">
+
+        <h1 class="sr-only">Cerca in Poste Italiane</h1>
+        <div class="content display-pop">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10 col-md-push-1 col-structure">
+                            <div class="row mt-4 mt-sm-6 mb-1 mb-sm-3">
+                                <div class="col-sm-12">
+                                    <h2 class="h1 content-heading text-center mb-lg-3">Cosa stai cercando?</h2>
+                                </div>
+                                <div class="col-sm-10 col-sm-push-1">
+                                    <form aria-labelledby="frm-lbl">
+                                        <div class="form-group form-searchbar">
+                                            <label id="frm-lbl" class="control-label sr-only" for="search">Cerca in
+                                                Poste
+                                                Italiane</label>
+                                            <input type="text" class="form-control" id="search"
+                                                placeholder="Cerca in Poste Italiane">
+                                            <button formaction="/pages/posteit-area/cerca/cerca-risultati.shtml"
+                                                title="Avvia la ricerca" class="btn btn-cta btn-primary">
+                                                <span class="icon">
+                                                    <svg focusable="false">
+                                                        <title>Lorem ipsum</title>
+                                                        <use xlink:href="/assets-da/core/img/iconset/sprite.svg#025a-search-m"
+                                                            href="/assets-da/core/img/iconset/sprite.svg#025a-search-m">
+                                                        </use>
+                                                    </svg>
+                                                </span>
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content content-multiwrap display-pop">
+            <div class="content-wrap content-bg bg-cyan mode-light">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h2 class="content-heading mb-0">Risultati</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-wrap content-bg bg-cyan mode-light">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="row row-space row-fix">
+                                <div class="col-sm-12">
+                                    <div class="panel panel-cards panel-cards-detailed-bg mode-img-top">
+                                        <div class="picture-wrap cards-wrap picture-wrap-left">
+                                            <picture>
+                                                <source media="(max-width: 767px)"
+                                                    srcset="/assets-da/publisher/img/prodotto/bancoposta/cards-detailed-bg-01b.jpg"
+                                                    type="image/jpeg">
+                                                <source media="(min-width: 768px)"
+                                                    srcset="/assets-da/publisher/img/prodotto/bancoposta/cards-detailed-bg-01a.jpg"
+                                                    type="image/jpeg">
+                                                <img loading="lazy"
+                                                    src="/assets-da/publisher/img/prodotto/bancoposta/cards-detailed-bg-01a.jpg"
+                                                    class="" alt="Lorem ipsum">
+                                            </picture>
+                                        </div>
+                                        <div class="panel-wrap cards-wrap panel-wrap-right">
+                                            <div class="panel-body">
+                                                <div class="row">
+                                                    <div
+                                                        class="col-xs-12 col-sm-7 col-sm-push-5 col-md-4 col-md-push-4 col-lg-5 col-lg-push-3">
+                                                        <h3 class="h2 cards-text-heading">Conto bancoposta Base</h3>
+                                                    </div>
+                                                </div>
+                                                <div class="cards-content">
+                                                    <div class="row">
+                                                        <div
+                                                            class="col-xs-12 col-sm-7 col-sm-push-5 col-md-4 col-md-push-4 col-lg-5 col-lg-push-3">
+                                                            <div class="advantage-detail">
+                                                                <div class="row">
+                                                                    <div class="col-sm-12">
+                                                                        <ul class="list-check list-spaced mb-1">
+                                                                            <li>Apertura in <strong>Ufficio
+                                                                                    Postale</strong></li>
+                                                                            <li>Opzioni disponibili:
+                                                                                <strong>Standard</strong> e
+                                                                                <strong>Pensionati</strong>
+                                                                            </li>
+                                                                            <li>Canone gratuito per pensionati o in base
+                                                                                all'<strong>ISEE</strong></li>
+                                                                            <li>Operazioni di base di incasso e
+                                                                                pagamento oltre a
+                                                                                <strong>prelievi</strong> in ATM
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="clearfix visible-sm"></div>
+                                                        <div
+                                                            class="col-xs-6 col-sm-3 col-sm-push-5 col-md-4 col-md-push-4 col-lg-4 col-lg-push-3">
+                                                            <div
+                                                                class="advantage-detail-spec pt-3 py-md-1 my-md-2 ps-md-5 border-md-left">
+                                                                <div class="clearfix">
+                                                                    <p class="price-info fs-small">A partire da</p>
+                                                                    <p class="price-detail">
+                                                                        <span class="price-value">9</span>
+                                                                        <span class="price-supvalue">,00</span>
+                                                                        <span class="price-currency">€</span>
+                                                                    </p>
+                                                                    <p class="price-subinfo">(iva inclusa)</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="clearfix visible-md"></div>
+                                                        <div
+                                                            class="col-xs-6 col-sm-4 col-sm-push-5 col-md-8 col-md-push-4 col-lg-9 col-lg-push-3">
+                                                            <div class="btn-container mt-2 clearfix">
+                                                                <a href="#" title="Spedisci online"
+                                                                    class="btn btn-xs btn-primary">Spedisci online</a>
+                                                                <a href="/pages/posteit/scheda-00.shtml"
+                                                                    title="Scopri di più"
+                                                                    class="btn btn-xs btn-default">
+                                                                    <span class="icon">
+                                                                        <svg focusable="false">
+                                                                            <title>Scopri di più</title>
+                                                                            <use
+                                                                                xlink:href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m">
+                                                                            </use>
+                                                                        </svg>
+                                                                    </span>
+                                                                    Scopri di più</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h2 class="content-heading">Risultati Correlati</h2>
+                        </div>
+                    </div>
+                    <div class="row row-space">
+                        <div class="col-sm-12">
+
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <!--#include virtual="/includes-da/object/cards-detailed-bg-stretched-00.html" -->
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <!--#include virtual="/includes-da/object/cards-detailed-bg-stretched-01.html" -->
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <!--#include virtual="/includes-da/object/cards-detailed-bg-stretched-02.html" -->
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="panel panel-cards panel-cards-default panel-cards-default-icon mode-right mode-large">
+                                        <div class="cards-wrap panel-wrap"
+                                            style="background-image: url('/assets-da/core/img/ico/ico-generic-document@2x.png');">
+                                            <div class="panel-heading">
+                                                <h3 class="cards-text-heading">
+                                                    Elementum
+                                                </h3>
+                                            </div>
+                                            <div class="panel-body">
+                                                <div class="cards-content">
+                                                    <p>Hai tutti i campi già precompilati e il suo numero distintivo è
+                                                        896 o 674. Aenean fermentum nisi diam, quis rhoncus lacus tempor
+                                                        laoreet. Vivamus feugiat volutpat enim nec vestibulum. </p>
+                                                    <a href="/pages/posteit/scheda-00.shtml" title="Scopri di più"
+                                                        class="btn btn-xs btn-default">
+                                                        <span class="icon">
+                                                            <svg focusable="false">
+                                                                <title>Scopri di più</title>
+                                                                <use
+                                                                    xlink:href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m">
+                                                                </use>
+                                                            </svg>
+                                                        </span>
+                                                        Scopri di più</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div id="collapse-prodotti-01" class="row collapse">
+                                        <div class="col-sm-12">
+                                            <!--#include virtual="/includes-da/object/cards-detailed-bg-stretched-00.html" -->
+                                        </div> 
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-12 text-center">
+
+                                    <button class="btn btn-responsive btn-primary collapsed show-more"
+                                        title="Visualizza altre voci lorem ipsum" data-toggle="collapse"
+                                        data-target="#collapse-prodotti-01" aria-expanded="false"
+                                        aria-controls="collapse-prodotti-01">
+                                        <span data-obj="collapsed">
+                                            <span class="icon">
+                                                <svg focusable="false">
+                                                    <title>Visualizza ulteriori dettagli</title>
+                                                    <use xlink:href="/assets-da/core/img/iconset/sprite.svg#019a-plus-m"
+                                                        href="/assets-da/core/img/iconset/sprite.svg#019a-plus-m"></use>
+                                                </svg>
+                                            </span>Mostra altri
+                                        </span>
+                                        <span data-obj="in">
+                                            <span class="icon">
+                                                <svg focusable="false">
+                                                    <title>Nascondi dettagli</title>
+                                                    <use xlink:href="/assets-da/core/img/iconset/sprite.svg#020a-minus-m"
+                                                        href="/assets-da/core/img/iconset/sprite.svg#020a-minus-m">
+                                                    </use>
+                                                </svg>
+                                            </span>Nascondi
+                                        </span>
+                                    </button>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10 col-md-push-1 col-structure">
+                            <div class="row row-fix">
+                                <div class="col-xs-12">
+                                    <!-- Pills wizard help -->
+                                    <div class="main-pills">
+                                        <div class="main-pills-wrap">
+                                            <div class="row">
+                                                <div class="col-xs-12">
+                                                    <h2>Aiutaci a migliorare</h2>
+                                                </div>
+                                            </div>
+                                            <div class="row mt-4">
+                                                <div class="col-xs-12 col-sm-3">
+                                                    <img loading="lazy" class="img-responsive m-auto"
+                                                        src="/assets-da/core/img/ico/ico-cloud-online.png"
+                                                        srcset="/assets-da/core/img/ico/ico-cloud-online@2x.png 2x"
+                                                        alt="Partecipa al sondaggio">
+                                                </div>
+                                                <div class="col-xs-12 col-sm-9">
+                                                    <div
+                                                        class="box-editable-area text-center text-sm-left pt-2 pt-sm-0 clearfix">
+                                                        <h3>Partecipa al sondaggio</h3>
+                                                        <p>Miglioriamo insieme i servizi di Poste Italiane.</p>
+                                                    </div>
+                                                    <div class="btn-container btn-container-xs-center mt-2 clearfix">
+                                                        <a class="btn btn-xs btn-primary" href="#"
+                                                            title="lorem ipsum">Partecipa</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <aside aria-labelledby="side-help-title">
+        <div class="content content-sidebar-assistenza">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <!--#include virtual="/includes-da/navigation/right-side-offcanvas.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <footer id="footer">
+
+        <div class="content content-footer content-footer-info">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--#include virtual="/includes-da/footer/footer-content-info.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content content-footer content-footer-extra">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--#include virtual="/includes-da/footer/footer-content-extra.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--#include virtual="/includes-da/utilities/footer-tag.html" -->
+
+    </footer>
+
+</body>
+
+</html>

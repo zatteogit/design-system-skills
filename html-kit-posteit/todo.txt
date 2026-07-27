@@ -1,0 +1,374 @@
+
+/*****************************************************
+
+    File Description: todo.txt
+
+    Last modified: 18/10/2024 (da Francesco)
+
+*****************************************************/
+
+/********/
+RILASCIO 1.12, cose da fare:
+* Aggiunta la variabile "$svg_arrow_down_disabled", va chiesta l'immagine aggiornata per la gestione delle select disabilitate
+* Da modificare sul CSS la classe .control-label, .label-like mettendo il line-height a 1.5rem al fine di allineare tutti i campi label sulle form
+/********/
+
+/********/
+PRE-RILASCIO
+* aggiornare changelog.txt e versione kit
+* rimuovere todo.txt e segnalazioni.txt (e relativi link nella home del kit)
+/********/
+
+
+*header 13/09*
+    -campanellina più dot
+**
+
+
+-verifcare navbar-object-login sulla barra di navigazione (nome utente) e limitarlo in max-width.
+stessa cosa sul nome utente della barra federata la classe fedbar-object-login è già su markup (va definita in css).
+-verificare larghezza logo definitiva e verificare le pagine tipo https://posteit-digital-accessibility.svm.poste.it/pages/posteit-area/private/myposte/bacheca.shtml
+-verificare zoom dell'header
+-verificare possibile razionalizzazione tra fedbar e navbar
+
+
+
+- verificare background-color su input field (da togliere)
+- verificare inversione gestione sfondi multiwrap cyan come abstract concept b con browser in darkmode
+
+- sfondo icona chiudi video
+
+* Aggiunto esempio 'Box-rack' per download file e cancellazione ***** da verificare
+* Aggiunto esempio 'Box-rack' per gestione radio boxate ***** da verificare 'focus' e 'posizione tag' (manca img 'paga con ppay')
+* Verificare spaziature tab su pagina documentale
+* Prevedere Gamma senza titolo e verificare min-height
+* Gestire icona con le lettere contatto?
+* Card comparativa (possono coesistere due boxettini celesti affiancati - gestire spaziatura tra i due con un margin ----> v. https://cms-nginx-aws-cms-bff.apps.gen3gpawseus1.cloud.poste.it/posteit-preview/postepay/carte-postepay/postepay-connect/ )
+
+
+-- tutti i btn-xs presenti nelle card avranno tutti 8px sotto  (solo xs)
+-- i btn-xs primary e secondary hanno una distanza top dal testo di 16 (che si sommano agli 8 del paragrafo, o della lista v.gamma)
+-- i btn-xs default hanno una distanza top di 8 (che si sommano agli 8 (come sopra))
+
+
+allineare vertical-nav-tab con il menu (visivamente e hover come l'attuale menu)
+
+verificare spaziature btn-container con col-sm-12
+
+
+*****
+DUBBI!!!
+OMBRA sulla card spid come business?????
+*****
+
+
+le cards reactive della fascia vantaggi in realtà sono default-icon
+
+
+* -- Ui/Typo: Forzature standard su content aggiornate da "mb-5 mb-md-6" a "mb-4 mb-sm-5" <--- verificare e rimuovere 
+
+------
+
+* -- "row-fix" aumentato da 24 a 32 px e convertito in 'flex' (per ovviare all'overflow-hidden) @@@@@@@@@@@@@@@@@@@@@@@ Verificare se ok @@@@@@@@@@@@@@@@@@@@@@@
+* -- verificare spaziature fra content nella landing
+* -- gestione box-messages con con nuove ombre?????
+
+- approfondire fattibilità sharing intent (condivisione in mobile tramite menu OS) ( https://web.dev/web-share/ )
+- verificare approssimazione in px equalize (num. interi)
+
+####### --- Anomalie --- #######
+
+- verificare Tab su homepage:  tab-key, ul/li
+- controllare progressive dots su main banner (sull'utilizzo delle frecce)
+- pulire css temporaneo
+- valutare la riscrittura degli infotabs/tabs come da https://www.w3.org/WAI/ARIA/apg/example-index/tabs/tabs-manual.html
+
+
+
+####### --- Verifiche --- #######
+- meta OG ****** manca requisito
+****
+
+- verificare e pulire tutti i JS
+- riposizionare le frecce slick su markup per mantenere coerenza tra posizione visiva e tabbatura
+- verificare "sharing intent" su dispositivi mobili (sharing con menu di sistema)
+- verificare css di stampa (utilities.css)
+- valutare se mettere popover su progress-bar
+
+
+####### ------ Implementazione Next step------ #######
+
+- rinominare pari_alteza in equalize e fare in modo che quando si chiama la classe equalize lo script verifichi la compresenza di classi derivate equalize-1,equalize-2 .etc
+e applichi altezze specifiche del contesto
+- METTERE I PATH A CONFIGURAZIONE come variabili
+
+- focus al click su messaggio errore su il campo errato
+- modificare eventi dal click a release
+
+
+    - poste-it.js
+        - riga 463 : $btnRippleObj.click
+    
+    - start-script.js
+        - riga 68 : $('.scroll-content-x.mode-center ul li').on('click')
+
+    - utilita.js
+        - riga 850 : $('.btn-toggle').click
+        - riga 840 : $('.radio-segmented-control-wrapper label.ctrl-btn').on('click')
+        - riga 984 : triggerHelpLink() 
+        - riga 766 : accordionOpenByUrl()
+        - riga 480 : menu navigazione
+        - riga 530 : Gestione offcanvas
+
+
+- Le note su banner e abstract vanno prima della cta --> ( ## verificare con UI)
+- Verificare colori checkbox, radio e switch nei vari stati --> ( ## attendiamo schermate)
+- Banner v2 con esempio palla -->  pulire css ( ## da verificare a 4 mani)
+- Aggiornare prezzi barrati e prezzi base (Card gamma / abstract Prodotto / Card comparative)
+- da verificare coerenza tra spaziature titolo pills/cards e contenuti successivi
+
+
+####### ------ TODO - UI Request PENDING ------ #######
+
+
+
+###############################################################################################################################
+#######################################################      DONE     #########################################################
+############################################################################################################################### 
+
+- eliminate righe 4667 e 4671 per ovviare comportamento anomalo all'apertura sidebar assistenza su _base-element.scss
+
+- estendere pannello siti (aggiunto pannello x la gestione siti solo su scheda-prod.) fatto su 33 file:
+
+    approfondimento.shtml                                 
+    banner.shtml                                 
+    brand.shtml                   
+    documentale.shtml                                     
+    gamma.shtml                                 
+    glossario.shtml                                     
+    home.shtml                   
+    scheda-concept-a01-elenco.shtml                             
+    scheda-concept-a02-elenco-np.shtml               
+    scheda-concept-a03-tabella.shtml                             
+    scheda-concept-a04-base.shtml                             
+    scheda-concept-a05-boxed.shtml                             
+    scheda-concept-a06-promo.shtml                             
+    scheda-concept-b01-elenco.shtml                             
+    scheda-concept-b02-elenco-np.shtml                             
+    scheda-concept-b03-tabella.shtml                             
+    scheda-concept-b05-base.shtml                             
+    scheda-default.shtml                             
+    assistenza-chiamaci.shtml                                 
+    assistenza-home.shtml                                 
+    assistenza-recupero-credenziali.shtml                                 
+    cerca-risultati-empty.shtml                                     
+    cerca-risultati-mappa.shtml                                     
+    cerca-risultati.shtml                                 
+    cerca-risultato-puntuale.shtml                                 
+    cerca.shtml                                     
+    hub-indice.shtml                             
+    hub-scheda.shtml                                 
+    premium.shtml                                 
+    landing.shtml                             
+    serv-online-pagamenti.shtml                                 
+    serv-online-spedizioni.shtml                                 
+    myposte-bkp.shtml                                     
+
+- verificare zoom paginazione
+
+- verificare on pageshow / on popstate per gestire l'animazione delle label sul back del browser -> vedi start_script riga 62
+
+
+- aggiunto posizionamento figcaption / caption default = top // modificatore bottom per spostare in basso
+
+
+- Verificare overflow tabelle (l'outline arancione è visibile solo onload)
+- Campi 'Date': verificare presenza doppia icona 
+- check / radio ( https://posteitaliane.invisionapp.com/console/Delivery--Applicazioni-Pre-login-cltx0vumu0023019l0eqp06yb/clutkrri81dtn018586lmercm/play )
+
+
+- alerts
+
+- Campo upload : capire se gestire il focus-visible da tastiera (è stata già aggiunta l'eventuale classe .focus-visible)
+- Campi upload drag: rimane tabbabile l'input-file nascosto
+- Campo upload : capire se gestire l'ellipsis sul nome file recuperato 
+
+
+- Aggiungere link sottolineati nelle note (es. scheda prod) --> fatto
+- Gestione label : di default sono in assoluto e occorre annullare il comportamento per ripristinare il normale funzionamento -> andrebbe inverito il paradigma ----> fatto
+- Sistemare tipografia lista check dentro gli accordion delle schede prodotto -- > fatto
+
+
+- titoli footer -> per ovviare a problemi semantici / struttura titoli è stato inserito un H2 nascosto ----> Fatto
+
+    SCHEDA PRODOTTO:
+    - Vetrina: la nota non deve essere in corsivo  -----> Fatto
+    - Comparativa: il testo dopo l'elenco puntato non deve essere in grassetto   -----> Fatto
+    - Banner in pagina: l'interlinea della prima nota sembra eccessiva -----> Fatto
+    - Il titolo della fascia "landing" reactive con le illustrazioni deve essere centrata -----> Fatto
+    - Il titolo della fascia "landing" con card picture deve essere centrata -----> Fatto
+    - Parla con un consulente: la CTA terziaria è troppo distante dal testo -----> Fatto
+    - Aiutaci a migliorare (non a tutta larghezza): l'immagine deve essere più grande -----> Fatto
+    - Intro boxed: Concept A ha troppo distanza tra le card e la nota è troppa distanza tra nota e CTA (è corretto il concept B) -----> Fatto
+    - Intro tabella: il testo "Traffico dati" è troppo grande -----> Fatto
+
+    DOCUMENTALE:
+    - l'icona deve essere quello di un documento (e va scelto un sfondo con le bolle più in basso) -----> Fatto
+    - non è stato applicato la nuova impostazione con gli accordeon ----> Fatto
+    
+    APPROFONDIMENTO:
+    - non sono aggiornate le note della tabella ---> Fatto
+
+    HOME:
+    - manca l'onda sotto  i banner -----> Fatto
+    - l'abstract dei banner deve essere "pop" quindi più grande (come già è sulle pagine prodotto) -----> Fatto
+    - la CTA "Vedi tutti" è troppo distante dai pallocchi -----> Fatto
+    - la CTA "Vai alla sezione notizie" è troppo distante dal contenuto -----> Fatto
+    - il testo delle trendy è troppo piccolo
+
+    BRAND: 
+    - la CTA "Vedi tutti" è troppo distante dai pallocchi -----> Fatto
+    - la CTA "Vai alla sezione notizie" è troppo distante dal contenuto -----> Fatto
+
+    ASSISTENZA:
+    - il titolio "Contatta l'assistenza" deve essere centrato -----> Fatto
+
+    LANDING:
+    - l'intro nella "pillola" (quella celeste) non deve avere l'ombra
+    - il titolo delle card picture deve essere centrato
+    - l'abstract dei banner deve essere "pop" quindi più grande (come già è sulle pagine prodotto)
+    - manca l'onda sotto  i banner
+    - nel form, il titolo "compila modulo" è di troppo
+
+    HUB CONTENT:
+    - sulla scheda, i moduli vanno portati a 10 colonne (ovviamente tranne il tutorial)  --> Fatto
+
+    LOGIN:
+    - manca lo sfondo con le bolle ---> Fatto
+
+    - eliminato ellipsis da menu navigazione, aumentata spaziatura verticale link/button (da verificare lato UI)
+
+    - rinominata objectOpenByUrl in accordionOpenByUrl
+
+    - implementazione funzione di listening "esc" x chiusura sidebar -> fatto
+    - note sui abstract e banner
+    - pop sulla hero-banner
+    - ellipsis delle voci
+    - cta-default su concept B e trendy con bordino 97 e color 97 ---> ok
+    - link sulle trendy gestite non in blu per mode-light e mode-dark ---> ok
+    - Riempimento dot completo in blu su fondo grigio ---> ok
+    - footer , barra fed. e controlli banner su cyan-95 ---> ok
+    - immagine logo tg-poste max-height 1.25 e centrato vert. ---> ok
+    - i più degli accordion sono blu (tranne footer) ---> ok
+    - Aggiungere card default mode-center ---> fatto
+
+    - verificare div id=overlay in fondo alla pagina (provare a sostituire con quello di bootstrap) --> certificato non è possibile
+
+    - verificare se è necessario aumentare il translate delle label al 116% per coerenza con il posizionamento delle label "relative" --> fatto
+    - verificare comportamento responsive del carosello su "Hub content - scheda"  --> inserito js on resize per annullamento height inline su carousel swipe soft
+    - fare il punto sui LANDMARKS wai-aria dei template html --> fatto
+    - gestire possibilità di avere card interamente cliccabili ****** gestito ma mancano dettagli
+    - verificare colori scrollbar (utilities css) --> verificato
+
+    - figure + elemento (table ...):
+    valutare se mettere la figcaption subito dopo l'apertura del figure. 
+        In tal caso:
+        al figure si da lo stile
+            display: flex;
+            flex-direction: column-reverse;
+        fatti esempi su pages/posteit/approfondimento.shtml e includes-da/object/pills-light-genericform-table.html con classi "flex flex-column-reverse"
+
+    - modificato ID logo iniziative logo --> logo-iniziative per duplicazione
+    - riportato per chiudi <svg viewBox="0 0 24 24" focusable="false"> preso da profilo anche su assistenza
+    - verificare frecce hero home al resize, sembra che in md largo spariscono FF --> comportamento voluto per evitare sovrapposizione testi frecce (ex. ipad14 al resize landscape)
+    - verificare :hover su chrome xche se si clikka col mouse fa outline --> fatto
+    - problema sulla brand titolo "Poste Guidare Sicuri" non ha il corretto livello, è un include ... --> fatto
+    - problema su titolo Ladispoli in /pages/posteit-area/appuntamenti/appuntamenti-home.shtml --> fatto
+    - tag <s> sui (prezzi) è deprecato in HTML5 --> sostituire con <del> (adeguare anche il div a <p> coerentemente con i blocchi prezzi già realizzati)  --> fatto replace anche di €
+    - verficare il focus che esce dal secondo livello del menu e va in pagina --> fatto
+    - FARE PULIZIA DELLA REVERSED!!!!!!!!!!!!! INSIEME ---> Fatto
+
+
+
+
+    ####### ------ TODO - UI Request ------ #######
+
+
+    * Pagina Profilo: 
+        - sostituita l'img su desktop/tablet e allineare alla griglia per cutpoint
+        - aggiungere Breadcrumb su xs e sm e posizionare tutto a sx
+        - su xs va tolta l'img
+        - su xs va tolta l'onda e va tolto il celeste * (va creata classe modificatrice su concept-wave)
+    * Rimuovere onda lunga su xs https://posteit-digital-accessibility.svm.poste.it/pages/posteit-area/form-generic/form-02.shtml
+
+
+
+
+    - Banner: Freccia nuova (tondo bianco con freccia nera) --> attendiamo ok --> Fatto --> Rework --> Fatto -->
+    - Tipografia #000 da modificare in color_neutral_10 ---> Fatto
+    - Fill svg #000 da modificare in color_neutral_10 ---> Fatto
+    - Menu navigazione: spaziature voci 40px + 0.25rem di margine --> Fatto
+    - Menu navigazione: in hover va aggiunto il sottolineato solo testo --> Fatto
+    - Menu navigazione: allineare il + del bottone con il pallino --> Fatto
+    - Scheda prodotto: Colore Breadcrumb da portare in color_neutral_10 --> confermato? si (le voci linkate sono sottolineate) --> Fatto
+    - Banner v2: aumentare dimensioni arrow su desktop per hero banner e cambiare colore in "quasi nero" --> Fatto
+    - Header giallo: ## colore nero da portare a color_neutral_10 --> Fatto
+    - Inserire hover (underline) su voci footer --> Fatto
+    - Header giallo: ## hover 1 px color_neutral_10 solo su testo (allineato ad icona) --> confermato? Si --> Fatto
+    - Header blu: ## hover 1 px #fff solo su testo (allineato ad icona) --> confermato? Si --> Fatto
+    - cards default icon : link su tutta la card, hover bordino blu 2px primary33  --> Fatto
+    - prevedere multiple immagini su abstract e banner (v.b01) --> Fatto
+    - Stretched link (bs5) su card default-icon --> Fatto
+    - Menu navigazione: margine sinistro voci 1.5rem anziche 2.25rem --> Gestito secondo nuovi btn Fatto
+    - Banner v2: aggiungere icona alla cta --> Fatto
+    - modificare testo "in Primo piano" al posto di "in evidenza" in home --> Fatto
+    - rimuovere bordo giallo da card appuntamento --> fatto
+    - cambiare testi card aiutaci a migliorare in basso a sx (v. https://posteitaliane.invisionapp.com/console/Delivery---Declinazione-pagine-cl9ik8zvi01jy0188dq4zg9pp/cl9in2t7g026m014cbaxcfrn1/play ) --> Fatto
+    - pallino da riposizionare su vertical-nav-tabs (seguire linea menu) --> Fatto
+    - verificare zoom pattern su desktop md --> Fatto
+    - gestire "sr-only" per cutpoint: inserire nelle label dei bottoni in header SM --> Fatto
+    - nascondere frecce su banner desktop e tablet  --> Fatto (gestito x mediaquery)
+    - Verificare asset "aiutaci a migliorare" in scheda prodotto --> Fatto
+    - inserire frecce su cta abstract Gamma --> Fatto
+    - eliminare casistca b6 --> Fatto (in bkp)
+    - Abstract concept (all): controllo generale spaziature --> Fatto
+    - card picture eliminare sfrido img (versione non reverse) --> Effort elevato : non procedere se non richiesto
+    - card reversed/notreversed ? solo reversed? --> si cancellare le base e riportare la reversed come default --> effort elevato standby
+    - gestione tipografia btn / link --> Fatto
+    - card interamente cliccabili --> quali? --> solo "panel-cards-default-icon" --> Fatto
+    - Allineare a sx il testo del banner di campagna su xs anche titolo e cta --> Fatto
+    - Abstract concept A: allungare a 7 colonne solo il blocco titolo su lg --> Fatto
+    - in previsione della sostituzione dei gradienti banner/abstract (concept B) con file svg, predisporre background-color come fallback per entrambi i temi --> Fatto
+    - Gestire "mode-reverse" su vetrina e banner di campagna --> Fatto
+    - Aumentare dimensioni icona celeste nelle "default-icon" --> Fatto
+    - rivedere default icon in modo da includere le icone esportate direttamente con il colore di sfondo dedicato --> Fatto
+    - Inserire il main pills "descrizione" senza bordi su scheda prodotto dopo la fascia con card comparative (bancoposta) --> Fatto
+    - Homepage? Versione xs? --> fatto
+    - Menu navigazione: prevedere pannello per Iniziative/landing con link di ritorno a Poste.it e Logo Iniziativa linkato --> Fatto
+    - Onda copre controlli mosaico in home --> Fatto
+    - Verificare struttura headings homepage --> Fatto
+    - Verificare celeste su barra federata e footer (## portare a color_primary_97) --> Rimane color_primary_95
+    - homepage: eliminazione bullets paginazione in evidenza btn xs su visualizza tutti i servizi e tutte le notizie, switch fra servizi e ricerca su cutpoint desk vs mobile -> Fatto
+    - cards: spalmata classe reversed su card campaign, picture, comparison --> Fatto
+    - menu profilo: verificare scrollabilità sidebar profilo --> fatto e modificato comportamento condiviso con Matteo 07/06/2023
+    - tabelle : verificare coerenza stili/struttura con nuova grafica e verificare gestione delle note (scroll insieme al contenuto tabellare?) --> Fatto con introduzione figure/figcaption
+    - tabelle : verificare colori, struttura, riferimenti headers (multi-level), presenza caption, tfoot(note?) -->fatto
+    - onda sotto controlli banner in home --> (## verificare anche il celeste da portare a color_primary_97) --> verificato che il background dell'onda è #F2F8FF = primary_97
+    - modificare select pills "Come attivarla" su scheda prodotto in xs : va customizzata in celeste con bordi arrotondati, testo e icona blu (verificare coerenza con i filtri smartphone del cerca) --> verificare che sia ok
+
+
+
+####### APPUNTI VARI ################
+
+
+- Header mobile in basso???? --> in attesa di freeze
+- countdown abstract? --> in attesa di freeze
+- esito? --> in attesa di freeze
+- cerca? --> in attesa di freeze
+- brand? --> in attesa di freeze
+
+
+- Verificare aggiornaemnti tipografici
+- Verificare aggiornamenti VOL
+- verificare contenuto dell'iconset (manca tutta la parte post-login)
+- Barra federata dal nuovissimo corporate?

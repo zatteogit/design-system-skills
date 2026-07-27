@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <title>Poste.it</title>
+    <!--#include virtual="/includes-da/utilities/head-tag.html" -->
+</head>
+
+<body class="pattern-simple-01">
+    <nav id="skiplink" aria-label="Navigazione di pagina">
+        <ul>
+            <li><a tabindex="0" class="skip-link sr-only-focusable-abs" href="#accessibility-anchor">Passa al contenuto
+                    principale</a></li>
+            <li><a class="skip-link sr-only-focusable-abs" href="#assistenza-side">Passa all'help</a></li>
+            <li><a class="skip-link sr-only-focusable-abs" href="#footer">Passa al footer di pagina</a></li>
+        </ul>
+    </nav>
+    <header>
+        <!-- Content Navbar-->
+        <div class="content" id="content-navbar">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--#include virtual="/includes-da/header/navbar-content-app-flusso.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main id="accessibility-anchor" tabindex="-1">
+        <form id="form-id090909" action="/pages/posteit-area/private/myposte/index.shtml">
+            <div class="content" id="content-abstract">
+                <div class="content-wrap">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="abstract">
+                                    <div class="abstract-heading text-center">
+                                        <h1>Accedi</h1>
+                                        <span class="abstract-subtitle">Sed adescevit ut MyPoste nunc aduviet ic ubisque
+                                            registrato.</span>
+                                        <a class="btn btn-xs btn-default btn-link" title="Cliente Business? Accedi qui"
+                                            href="/pages/posteit-area/private/myposte/">
+                                            <span class="icon me-1">
+                                                <!--svg focusable="false">
+                                                    <title>Ipsum Business? Lorem qui
+                                                    </title>
+                                                    <use xlink:href="/assets-da/core/img/iconset/sprite.svg#000a-placeholder-c"
+                                                        href="/assets-da/core/img/iconset/sprite.svg#000a-placeholder-c">
+                                                    </use>
+                                                </svg -->
+                                                <img src="/assets-da/app/login/img/business-account.svg" alt="business-account">
+                                            </span>
+                                            Ipsum Business? Lorem qui
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="content" id="content-main">
+                <div class="content-wrap">
+                    <div class="container">
+                        <div class="row row-space">
+                            <div class="col-sm-6">
+                                <div class="main-pills">
+                                    <div class="main-pills-wrap">
+                                        <div class="row">
+                                            <div class="col-sm-12 equalize">
+                                                <h2 class="text-center mt-4 mb-3">Inserisci ut asescit credescentiam
+                                                </h2>
+                                                <div class="row">
+                                                    <div
+                                                        class="col-sm-12 col-md-10 col-md-push-1 col-lg-8 col-lg-push-2 text-center">
+                                                        <p>Non hai un account?</p>
+                                                        <p class="text-center"><a
+                                                                class="btn btn-xs btn-default btn-link"
+                                                                title="Registrati" href="#">
+                                                                <span class="icon me-1">
+                                                                    <svg focusable="false">
+                                                                        <title>Registrati
+                                                                        </title>
+                                                                        <use xlink:href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m"
+                                                                            href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m">
+                                                                        </use>
+                                                                    </svg>
+                                                                </span>Registrati</a>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="row row-space">
+                                                    <div
+                                                        class="col-sm-12 col-md-10 col-md-push-1 col-lg-8 col-lg-push-2 mt-0 mt-sm-2 mb-3">
+                                                    <fieldset>
+                                                        <legend class="sr-only">Credenziali di accesso lorem ipsum</legend>
+                                                        <div class="form-group form-group-abs">
+                                                            <label class="control-label" for="u-name">Nome
+                                                                utente</label>
+                                                            <input type="text" class="form-control" id="u-name"
+                                                                placeholder="" title="sec nunc semper" value="gennaro.patuzzella">
+                                                        </div>
+                                                        <div class="form-group form-group-abs">
+                                                            <label for="password-01"
+                                                                class="control-label">Password</label>
+                                                            <div class="input-group">
+                                                                <input type="password" value="kjfdhjkdfhfdjkfjdkh" placeholder="" id="password-01" class="form-control">
+                                                                <div class="input-group-addon">
+                                                                    <butto class="btn btn-addon" type="button" title="Lorem ipsum nunc adescepit"
+                                                                        tabindex="-1">
+                                                                        <span class="icon">
+                                                                            <svg focusable="false">
+                                                                                <title>lorem ipsum Visualizza/nascondi Password</title>
+                                                                                <use xlink:href="/assets-da/core/img/iconset/sprite.svg#016b-visibility-on-m"
+                                                                                    href="/assets-da/core/img/iconset/sprite.svg#016b-visibility-on-m">
+                                                                                </use>
+                                                                            </svg>
+                                                                        </span>
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-check mt-1" role="presentation">
+                                                                <input id="inline-checkbox-01" type="checkbox"
+                                                                    checked="">
+                                                                <label class="control-label"
+                                                                    for="inline-checkbox-01">Ricorda il mio nome
+                                                                    utente</label>
+                                                            </div>
+                                                        </div>
+                                                    </fieldset>
+                                                    </div>
+                                                </div>
+                                                <p class="text-center"><a class="btn btn-xs btn-default btn-link"
+                                                        title="Hai dimenticato le tue credenziali?" href="#">
+                                                        <span class="icon me-1">
+                                                            <svg focusable="false">
+                                                                <title>Hai dimenticato le tue credenziali?
+                                                                </title>
+                                                                <use xlink:href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m"
+                                                                    href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m">
+                                                                </use>
+                                                            </svg>
+                                                        </span>Hai dimenticato le tue credenziali?</a>
+                                                </p>
+                                                <p class="btn-container btn-container-center mt-3 mt-md-4">
+                                                    <button form="form-id090909" type="submit" formaction="#"
+                                                        data-toggle="modal" data-target="#loginModal"
+                                                        title="Lorem ipsum sic nunque adescepit"
+                                                        class="btn btn-responsive btn-primary">Accedi</button>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 hidden-xs">
+                                <div class="main-pills">
+                                    <div class="main-pills-wrap login-content">
+                                        <div class="row">
+                                            <div class="col-sm-12 equalize hidden-xs">
+                                                <h2 class="text-center mt-4">Accedi pi&ugrave; velocemente</h2>
+                                                <div class="box-editable-area">
+                                                    <div class="box-body">
+                                                        <p class="text-center">Inquadra il codice QR con le
+                                                            app<br>Bancoposta e PostePay</p>
+                                                    </div>
+                                                    <p class="text-center">
+                                                        <a href="#" title="lorem sed ipsum"><img width="72" height="72"
+                                                                src="/assets-da/app/login/img/bp@1x.png" srcset="/assets-da/app/login/img/bp@2x.png 2x" class="mt-4 mb-4 me-2 center-inline" alt="Sed iusdem"></a>
+                                                        <a href="#" title="lorem sic ipsum"><img width="72" height="72" src="/assets-da/app/login/img/pp@1x.png" srcset="/assets-da/app/login/img/pp@2x.png 2x" class="mt-4 mb-4 center-inline" alt="Ipsum quisque"></a>
+                                                    </p>
+                                                </div>
+                                                <img class="img-responsive mt-4 mb-4 center-block" src="/assets-da/app/login/img/qr-login.png" srcset="/assets-da/app/login/img/qr-login@2x.png 2x" alt="Ipsum sed iusdem">
+                                                <div class="box-editable-area mt-4">
+                                                    <div class="box-body">
+                                                        <p class="text-center">Il codice &egrave; valido per
+                                                            <span>04:51</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="main-pills mode-light">
+                                    <!--#include virtual="/includes-da/object/pills-light-posteid.html" -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </form>
+    </main>
+
+    <aside aria-labelledby="side-help-title">
+        <!--#include virtual="/includes-da/navigation/right-side-offcanvas.html" -->
+        <!--#include virtual="/includes-da/navigation/right-side-offcanvas-profilo.html" -->
+    </aside>
+
+    <footer id="footer">
+
+        <div class="content content-footer content-footer-extra">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--#include virtual="/includes-da/footer/footer-content-extra.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--#include virtual="/includes-da/utilities/footer-tag.html" -->
+        
+    </footer>
+
+
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content text-center">
+                <div class="modal-body">
+                    <h2 id="myModalLabel">Controlla il tuo smartphone</h2>
+                    <p>Per proseguire devi autorizzare nell'App che hai utilizzato per inquadrare il codice QR.</p>
+                    <img loading="lazy" width="218" height="162" src="/assets-da/app/login/img/fattore2@1x.png"
+                        srcset="/assets-da/app/login/img/fattore2@2x.png" alt="Lorem ipsum sic nunc aspex">
+                </div>
+                <div class="modal-footer text-center">
+                    <button type="button" class="btn btn-xs btn-secondary" data-dismiss="modal">Annulla</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

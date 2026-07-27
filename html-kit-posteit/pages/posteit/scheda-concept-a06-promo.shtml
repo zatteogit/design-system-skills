@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <title>Poste.it</title>
+    <!--#include virtual="/includes-da/utilities/head-tag.html" -->
+
+</head>
+
+
+<body class="no-js">
+    <nav id="skiplink" aria-label="Navigazione di pagina"><ul>
+        <li><a tabindex="0" class="skip-link sr-only-focusable-abs" href="#accessibility-anchor">Passa al contenuto
+        principale</a></li>
+        <li><a class="skip-link sr-only-focusable-abs" href="#assistenza-side">Passa all'help</a></li>
+        <li><a class="skip-link sr-only-focusable-abs" href="#footer">Passa al footer di pagina</a></li>
+    </ul></nav>
+  <header class="sticky">
+
+        <!-- Content Fedbar-->
+        <div class="content" id="content-fedbar">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--#include virtual="/includes-da/header/header-content-fedbar.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Content Navbar-->
+        <div class="content" id="content-navbar">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--#include virtual="/includes-da/header/navbar-content-default.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="sticky-wrap hide" aria-hidden="true">
+            <!-- Sidebar content-header-extra -->
+            <div class="content" id="content-header-extra">
+                <div class="content-wrap">
+                    <div class="container">
+                    <!--#include virtual="/includes-da/header/header-content-extra.html" -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <main id="accessibility-anchor" tabindex="-1">
+
+        <div class="content display-pop concept-a mode-promo" id="content-abstract">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-7 hidden-sm hidden-xs">
+                            <ol class="breadcrumb breadcrumb-xs-trim-a breadcrumb-sm-trim-a breadcrumb-md-trim-b">
+                                <li>
+                                    <a href="/pages/posteit/home.shtml" title="Home privati">
+                                        <span>Home privati</span>
+                                    </a>
+                                </li>
+                                <li><a href="/pages/posteit/gamma.shtml" title="Pacchi"><span data-trim="trim">Pacchi</span></a></li>
+                                <li class="active" aria-current="page"><span>PosteDelivery Standard</span></li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="abstract-wrap col-sm-5 col-sm-push-7">
+                            <div class="picture-wrap">
+                                <picture>
+                                    <!--Req source-->   
+                                    <source media="(min-width: 768px)" srcset="/assets-da/publisher/img/prodotto/generic/content-abstract-08.webp" type="image/webp">
+                                    <source media="(min-width: 768px)" srcset="/assets-da/publisher/img/prodotto/generic/content-abstract-08.png" type="image/png">
+                                    <!--Req source-->
+                                    <source media="(max-width: 767px)" srcset="/assets-da/publisher/img/prodotto/generic/content-abstract-promo-xs-02.webp" type="image/webp">
+                                    <source media="(max-width: 767px)" srcset="/assets-da/publisher/img/prodotto/generic/content-abstract-promo-xs-02.jpg" type="image/jpeg">
+                                    <img src="/assets-da/publisher/img/prodotto/generic/content-abstract-08.png" alt="Lorem exit ipsum">
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="abstract-wrap col-sm-7 col-sm-pull-5">
+                            <div class="abstract">
+                                <div class="abstract-heading">
+                                    <h1>Poste Delivery Standard</h1>
+                                    <span class="abstract-subtitle">Spedire fino a 20 kg in tutta Italia, in 4 giorni? Ordinaria
+                    amministrazione.</span>
+                                </div>
+                            </div>
+                            <div class="abstract-advantage pt-3">
+                                <div class="row">
+                                    <div class="col-xs-12 col-md-8">
+                                        <ul class="list-check px-0 mt-0 mb-3 mb-md-0">
+                                            <li>Scelta tra diversi formati 5, 10, 20, 30, 40, 50 30, 40, 50 e 100 Lettere di Vettura</li>
+                                            <li>Risparmio se ne acquisti di pi&ugrave;</li>
+                                            <li>Restituzione gratuita in caso di mancata consegna</li>
+                                            <li>Giacenza di 15 giorni</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-xs-6 col-md-4">
+                                        <div class="advantage-detail-spec py-1 ps-md-4 border-md-left">
+                                            <div class="clearfix">
+                                                <p class="price-info">A partire da</p>
+                                                <p class="price-detail text-emphasis">
+                                                    <span class="price-value">250</span>
+                                                    <span class="price-supvalue">mila</span>
+                                                    <span class="price-currency">&euro;</span>
+                                                </p>
+                                                <div class="inline-block my-1 mt-sm-2 relative">
+                                                    <p class="fw-regular mb-0 previous-offer">
+                                                        <del>8,99&euro;</del>
+                                                    </p>
+                                                </div>
+                                                <p class="price-subinfo">fino al 31/12/2016</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-md-12">
+                                        <div class="btn-container mt-md-3">
+                                            <span class="block-xs">
+                                                <a href="#" title="Spedisci lorem online" class="btn btn-primary btn-responsive">Spedisci online</a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content display-pop content-multiwrap content-multiwrap-pattern pattern-01" id="content-main">
+            <div class="content-wrap content-bg bg-cyan">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h2 class="content-heading text-left text-sm-center">L'offerta</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="content-wrap content-bg bg-cyan">
+              <div class="container">
+                <div class="row row-space row-fix">
+                  <div class="col-xs-12">
+                    <div class="row">
+                      <div class="col-sm-10 col-sm-push-1">
+                        <div class="main-pills main-pills-basic">
+                            <!--#include virtual="/includes-da/object/pills-light-description-02.html" -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="content display-pop">
+            <div class="content-wrap">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <div class="row">
+                      <div class="col-md-10 col-md-push-1 col-structure">
+                        <div id="main">
+                          <!--
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <h2 class="content-heading">Lorem ipsum title</h2>
+                            </div>
+                          </div>
+                          -->
+                          <div class="row row-fix">
+                            <div class="col-xs-12">
+                              <!-- Pills wizard -->
+                              <div class="main-pills">
+                                <div class="main-pills-wrap">
+                                  ...
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+    </main>
+    <aside aria-labelledby="side-help-title">
+
+        <!--#include virtual="/includes-da/navigation/right-side-offcanvas.html" -->
+
+    </aside>
+
+    <footer id="footer">
+        
+        <div class="content content-footer content-footer-info">
+            <div class="content-wrap">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <!--#include virtual="/includes-da/footer/footer-content-info.html" -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <div class="content content-footer content-footer-extra">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--#include virtual="/includes-da/footer/footer-content-extra.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--#include virtual="/includes-da/utilities/footer-tag.html" -->
+        
+    </footer>
+
+</body>
+
+</html>

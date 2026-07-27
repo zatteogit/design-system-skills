@@ -1,0 +1,808 @@
+/*****************************************************
+    @IMPORT
+    Foglio stile Campaign - (c) Poste Italiane 2023/2024
+*****************************************************/
+
+/******************* Banner Campagna Alfa *******************/
+.campaign-alfa {
+    position: relative;
+    overflow: hidden;
+    background-color: $color_primary_97;
+    /* 
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    border: 1px solid $color_neutral_90;
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.05);
+    -o-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.05);
+    */
+    border: $border_default;
+    -webkit-box-shadow: $shadow_default;
+    -moz-box-shadow: $shadow_default;
+    -o-box-shadow: $shadow_default;
+    box-shadow: $shadow_default;
+    -webkit-border-radius: $radius_default;
+    -moz-border-radius: $radius_default;
+    border-radius: $radius_default;
+}
+.campaign-alfa.campaign-scroll{
+    max-height: 362px;
+    overflow: initial;
+}
+
+.campaign-alfa-left .campaign-text-wrap,
+.campaign-alfa-right .campaign-text-wrap {
+    // z-index: 1;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 360px;
+    overflow-y: auto;
+    padding: 24px;
+    background-color: $color_primary_97;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    width: calc(100% - 500px);
+}
+
+.campaign-alfa-left .campaign-text-wrap {
+    margin-left: -10px;
+    float: right;
+}
+
+.campaign-alfa-right .campaign-text-wrap {
+    margin-right: -10px;
+    float: left;
+}
+
+
+.campaign-alfa-left .campaign-text-wrap .box-editable-area,
+.campaign-alfa-right .campaign-text-wrap .box-editable-area {
+    align-self: stretch;
+    height: 100%;
+    overflow: auto;
+}
+
+.campaign-alfa-left .campaign-text-wrap .disclaimer,
+.campaign-alfa-right .campaign-text-wrap .disclaimer {
+    margin-right: 7.5rem;
+}
+
+.campaign-alfa-left .campaign-text-wrap .disclaimer p,
+.campaign-alfa-right .campaign-text-wrap .disclaimer p {
+    margin-bottom: 0;
+}
+
+.campaign-alfa .picture-wrap {
+    position: relative;
+    height: 360px;
+    overflow: hidden;
+    width: 500px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.campaign-alfa-left .picture-wrap.picture-wrap {
+    float: left;
+}
+
+.campaign-alfa-right .picture-wrap.picture-wrap {
+    float: right;
+}
+
+.campaign-alfa .picture-wrap picture {
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+}
+
+.campaign-alfa-left .picture-wrap picture {
+    left: -10px;
+}
+
+.campaign-alfa-right .picture-wrap picture {
+    left: -10px;
+}
+
+.campaign-alfa .picture-wrap picture img {
+    max-width: initial;
+    width: 520px; //46.5rem; //744px;
+    height: auto; //22.5rem; //360px
+}
+
+.campaign-alfa .slick-arrow {
+    top: auto;
+    bottom: 2px;
+    z-index: 2;
+}
+
+
+/* arrow mod oneapp */
+.campaign-alfa .slick-arrow {
+    border: none;
+}
+
+.campaign-alfa .slick-arrow:hover {
+    background-color: transparent;
+}
+
+.campaign-alfa .slick-arrow .slick-next-icon,
+.campaign-alfa .slick-arrow .slick-prev-icon {
+    background-size: 18px;
+}
+
+.campaign-alfa .slick-arrow.slick-prev {
+    right: 4.25rem;
+}
+
+.campaign-alfa .slick-arrow::before {
+    content: " ";
+    border: 1px solid $color_primary_33;
+    width: 70%;
+    height: 70%;
+    display: block;
+    background-color: transparent;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    border-radius: 1rem;
+    z-index: -1
+}
+
+.campaign-alfa .slick-arrow:hover::before {
+    background-color: $color_primary_50;
+}
+
+/* arrow mod oneapp end */
+
+.campaign-alfa.campaign-alfa-right .slick-prev {
+    left: calc(100% - 37.75rem);
+    right: initial;
+}
+
+.campaign-alfa.campaign-alfa-right .slick-next {
+    left: calc(100% - 35rem);
+    right: initial;
+}
+
+/******************* Banner Hero *******************/
+
+body.no-js #content-abstract-hero {
+    visibility: hidden !important;
+}
+
+#content-abstract-hero {
+    padding: 0;
+    margin-bottom: 16px;
+    /*background-color: $color_primary_97;*/
+    position: relative;
+    /*overflow: hidden;*/
+}
+
+/*
+#content-abstract-hero::after {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 3.75rem;
+    background-image: url(/assets-da/core/img/bg/bg-pattern-cyan-01.png);
+    background-position: bottom center;
+    bottom: -18px;
+    content: " ";
+    z-index: -1;
+}
+*/
+
+#content-abstract-hero h2 {
+    font-size: 2.25rem; //1.75rem;
+    line-height: 44px;
+    letter-spacing: 0.24px;
+    font-weight: $fw_semibold;
+    margin-top: 0;
+}
+
+#content-abstract-hero .hero-h-scroll {
+    margin-bottom: 1.875rem;
+}
+
+#content-abstract-hero .hero-h-scroll .content-wrap {
+    height: 29.375rem; //470px
+    overflow: hidden;
+    background-repeat: repeat-x;
+    background-size: cover;
+}
+
+#content-abstract-hero .hero-h-scroll .abstract-wrap {
+    height: 26.375rem;
+}
+
+#content-abstract-hero .hero-h-scroll .abstract-wrap:first-child {
+    height: auto;
+    z-index: 1;
+}
+
+#content-abstract-hero .hero-h-scroll .slick-list {
+    overflow: initial; //?
+}
+
+#content-abstract-hero .hero-h-scroll .slick-slide[aria-hidden="true"] a{
+    display: none;
+}
+
+#content-abstract-hero .hero-h-scroll .slick-slide .picture-wrap picture {
+    position: absolute;
+    top: auto;
+    bottom: -2rem;
+}
+
+#content-abstract-hero .hero-h-scroll .slick-slide .concept-b .picture-wrap picture img{
+    max-width: 940px;
+    max-height: 470px;
+}
+
+#content-abstract-hero .hero-h-scroll .slick-slide .picture-wrap .picture-pattern {
+    position: absolute;
+    content: " ";
+    z-index: -1;
+    background-image: url(/assets-da/core/img/bg/bg-pattern-abstract-00.png); //default
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: auto 470px;
+    width: 940px;
+    height: 470px;
+    top: auto;
+    left: 0;
+    bottom: -32px;
+    animation: 4s ease-out 0s 1 fadeIn;
+}
+
+#content-abstract-hero .hero-h-scroll .slick-slide .picture-wrap .picture-pattern.pattern-01 {
+    background-image: url(/assets-da/core/img/bg/bg-pattern-abstract-01.png);
+    animation: 4s ease-out 0s 1 fadeIn;
+}
+
+#content-abstract-hero .hero-h-scroll .slick-slide .picture-wrap .picture-pattern.pattern-02 {
+    background-image: url(/assets-da/core/img/bg/bg-pattern-abstract-02.png);
+    animation: 4s ease-out 0s 1 fadeIn;
+}
+
+#content-abstract-hero .hero-h-scroll .slick-slide .mode-dark .picture-wrap .picture-pattern.pattern-02 {
+    background-image: url(/assets-da/core/img/bg/bg-pattern-abstract-dark-02.png);
+    animation: 4s ease-out 0s 1 fadeIn;
+}
+
+#content-abstract-hero .hero-h-scroll .slick-slide .picture-wrap .picture-pattern.pattern-03 {
+    background-image: url(/assets-da/core/img/bg/bg-pattern-abstract-03.png);
+    animation: 4s ease-out 0s 1 fadeIn;
+}
+
+#content-abstract-hero .hero-h-scroll .slick-slide .picture-wrap .picture-pattern.pattern-04 {
+    background-image: url(/assets-da/core/img/bg/bg-pattern-abstract-04.png);
+    animation: 4s ease-out 0s 1 fadeIn;
+}
+
+#content-abstract-hero picture.picture-complete::before {
+    display: none;
+}
+
+/* content-abstract-hero controls */
+#content-abstract-hero .hero-h-scroll-controls {
+    position: relative;
+    z-index: 1;
+}
+
+#content-abstract-hero .hero-h-scroll-controls .col-sm-12 {
+    min-height: 0; //fix 1px row white
+}
+
+#content-abstract-hero .hero-h-scroll-controls .controls-wrap.controls-wrap-bottom {
+    position: absolute;
+    bottom: 11px;
+    width: 100%;
+    height: 1.5rem; //24px;
+    left: 0;
+}
+
+#content-abstract-hero .hero-arrows,
+#content-abstract-hero .slick-dots-hero-progressive {
+    position: relative;
+    width: 100%;
+}
+
+#content-abstract-hero .slick-dots-hero-progressive .slick-dots {
+    position: relative;
+    width: auto;
+    display: inline-block;
+}
+
+#content-abstract-hero .slick-dots-hero-progressive {
+    bottom: -.25rem; //100px
+    left: 3.125rem; //50px
+}
+
+#content-abstract-hero .slick-dots-hero-progressive .slick-dots {
+    text-align: left;
+    bottom: auto;
+}
+
+#content-abstract-hero .slick-dots li button {
+    background-color: $color_neutral_40;
+    border-color: $color_neutral_40;
+    border: 0;
+}
+
+#content-abstract-hero .slick-dots li.slick-active button {
+    background-color: $color_neutral_60;
+    border-color: $color_neutral_60;
+}
+
+#content-abstract-hero .slick-dots-hero-progressive .slick-dots .prog-dots {
+    position: absolute;
+    border-radius: 3px;
+    max-width: calc(100% - 2px);
+}
+
+#content-abstract-hero .slick-autoplay-toggle-button {
+    left: calc(50% - 576px); //568px
+    bottom: -1.850rem; //47px;
+    color: $color_primary_33;
+    opacity: 1;
+}
+
+#content-abstract-hero .hero-h-scroll-controls .controls-wrap.controls-wrap-top {
+    position: absolute;
+    top: 80px;
+    width: calc(100% - 24px);
+}
+
+#content-abstract-hero .hero-arrows {
+    width: 100%;
+}
+
+#content-abstract-hero .hero-arrows .slick-prev,
+#content-abstract-hero .hero-arrows .slick-next {
+    top: 40px;
+    background: transparent;
+    border-radius: 0.25rem
+}
+
+#content-abstract-hero .hero-arrows .slick-next .slick-next-icon,
+#content-abstract-hero .hero-arrows .slick-prev .slick-prev-icon {
+    background-image: url('/assets-da/core/img/ico/ico-campaign-arrow.png');
+    background-size: auto;
+    height: 2.25rem;
+    width: 2.25rem;
+    transition: all 0.5s;
+}
+
+#content-abstract-hero .hero-arrows .slick-prev .slick-prev-icon {
+    background-position: left;
+}
+
+#content-abstract-hero .hero-arrows .slick-next .slick-next-icon {
+    background-position: right;
+}
+
+#content-abstract-hero .hero-arrows .slick-prev {
+    left: 0.5rem;
+    right: auto;
+}
+
+#content-abstract-hero .hero-arrows .slick-next {
+    right: 0.5rem;
+    left: auto;
+}
+
+#content-abstract-hero .hero-arrows .slick-prev::before,
+#content-abstract-hero .hero-arrows .slick-next::before {
+    border: none;
+}
+
+#content-abstract-hero .hero-arrows .slick-prev:hover,
+#content-abstract-hero .hero-arrows .slick-next:hover {
+    cursor: pointer;
+}
+
+#content-abstract-hero .hero-arrows .slick-prev:hover::before,
+#content-abstract-hero .hero-arrows .slick-next:hover::before {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 767px) {
+
+    .campaign-alfa{
+        border: 1px solid $color_neutral_90;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        -o-box-shadow: none;
+        box-shadow: none;
+    }
+    /******************* Banner Campagna Alfa *******************/
+    .campaign-alfa.campaign-scroll{
+        max-height: none;
+    }
+
+    .main-pills .campaign-alfa h2,
+    .main-pills .campaign-alfa .h2 {
+        text-align: left;
+    }
+
+    .campaign-alfa-right .campaign-text-wrap,
+    .campaign-alfa-left .campaign-text-wrap {
+        float: none;
+        margin-left: 0;
+        margin-right: 0;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        border-radius: 8px;
+        width: 100%;
+        margin-top: 0px;
+        height: auto;
+        min-height: auto;
+        padding: 1rem;
+    }
+
+    .campaign-alfa .picture-wrap {
+        height: auto;
+        min-height: auto;
+        float: none !important;
+        width: 100% !important;
+    }
+
+    .campaign-alfa .picture-wrap picture {
+        position: relative;
+        top: auto;
+        left: auto;
+        z-index: 0;
+    }
+
+    .campaign-alfa-left .picture-wrap.picture-wrap picture {
+        right: auto;
+    }
+
+    .campaign-alfa-right .picture-wrap.picture-wrap picture {
+        right: auto;
+    }
+
+    .campaign-alfa .picture-wrap picture img {
+        max-width: 100%;
+        width: 743px;
+        height: auto;
+    }
+
+    .campaign-alfa .slick-prev {
+        left: initial !important;
+        right: 3.75rem !important;
+
+    }
+
+    .campaign-alfa .slick-next {
+        left: initial !important;
+        right: 1rem !important;
+    }
+
+
+    /******************* Banner Hero *******************/
+    #content-abstract-hero .abstract-heading {
+        text-align: center;
+    }
+
+    #content-abstract-hero h2 {
+        font-size: 1.75rem;
+        line-height: 36px;
+    }
+
+    #content-abstract-hero .abstract-subtitle {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    #content-abstract-hero .slick-list {
+        transition: all .3s linear;
+        overflow: hidden !important;
+    }
+
+    #content-abstract-hero .hero-h-scroll .content-wrap,
+    #content-abstract-hero .hero-h-scroll .abstract-wrap {
+        height: auto;
+    }
+
+    #content-abstract-hero .hero-h-scroll .abstract-wrap {
+        min-height: 200px;
+    }
+
+    #content-abstract-hero .hero-h-scroll .abstract-wrap:first-of-type {
+        display: flex;
+        align-items: center;
+        height: 310px;
+    }
+
+    #content-abstract-hero .hero-h-scroll .picture-wrap {
+        padding-top: 270px;
+    }
+
+    #content-abstract-hero .hero-h-scroll .slick-slide .picture-wrap picture {
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -2rem;
+    }
+
+    #content-abstract-hero .hero-h-scroll .slick-slide .picture-wrap .picture-pattern {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 880px;
+        height: 270px;
+        background-size: auto 270px;
+        background-position: bottom center;
+        animation: none;
+    }
+
+    #content-abstract-hero .hero-h-scroll .slick-slide .concept-b .picture-wrap picture img{
+        max-height: 270px;
+    }
+
+    #content-abstract-hero .hero-h-scroll-controls .controls-wrap.controls-wrap-top {
+        top: 440px;
+    }
+
+    #content-abstract-hero .hero-h-scroll-controls .controls-wrap.controls-wrap-bottom {
+        left: 0px;
+        width: 100%;
+    }
+
+    #content-abstract-hero .slick-dots-hero-progressive .slick-dots .prog-dots {
+        display: none;
+    }
+
+    #content-abstract-hero .slick-autoplay-toggle-button {
+        left: 12px;
+    }
+
+    #content-abstract-hero .slick-dots-hero-progressive {
+        bottom: -.375rem; //100px
+        left: 3.125rem; //50px
+    }
+    /*
+    #content-abstract-hero::after {
+        bottom: -22px;
+    }
+    */
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    #content-abstract-hero h2 {
+        font-size: 1.75rem;
+        line-height: 36px;
+    }
+
+    #content-abstract-hero .abstract-subtitle {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    #content-abstract-hero .hero-h-scroll .content-wrap {
+        height: 25.313rem; //405px; //355px;
+    }
+
+    #content-abstract-hero .hero-h-scroll .abstract-wrap {
+        height: 22.313rem; //357px; 20.188rem; //323px; //283px;
+    }
+
+    #content-abstract-hero .hero-h-scroll .abstract-wrap {
+        min-height: 200px;
+    }
+
+    #content-abstract-hero .hero-h-scroll .slick-slide .picture-wrap picture {
+        bottom: -2rem;
+    }
+
+    #content-abstract-hero .hero-h-scroll .slick-slide .picture-wrap .picture-pattern {
+        background-position: bottom left;
+        background-size: auto 405px;
+        height: 405px;
+    }
+
+    #content-abstract-hero .hero-h-scroll .slick-slide .concept-b .picture-wrap picture img {
+        max-height: 405px;
+    }
+
+    #content-abstract-hero .hero-h-scroll .slick-slide .picture-wrap picture.picture-complete img {
+        max-width: 680px;
+        max-height: none;
+    }
+
+    #content-abstract-hero .slick-autoplay-toggle-button {
+        left: calc(50% - 364px);
+    }
+
+    #content-abstract-hero .hero-h-scroll-controls .controls-wrap.controls-wrap-top {
+        top: 155px;
+    }
+
+    #content-abstract-hero .slick-list {
+        height: auto !important;
+    }
+
+    #content-abstract-hero .slick-dots li button {
+        width: 2.875rem;
+        height: 0.5rem;
+    }
+
+    .campaign-alfa-left .campaign-text-wrap,
+    .campaign-alfa-right .campaign-text-wrap {
+        width: calc(100% - 350px);
+    }
+
+    .campaign-alfa .picture-wrap {
+        width: 350px;
+    }
+
+    .campaign-alfa-left .picture-wrap picture {
+        left: -86px;
+    }
+
+    .campaign-alfa-right .picture-wrap picture{
+        left: -86px;
+    }
+
+    .campaign-alfa .picture-wrap picture img {
+        width: 520px; //22.5rem;
+        height: auto; //22.5rem;
+    }
+
+    .campaign-alfa.campaign-alfa-right .slick-prev {
+        left: initial;
+        right: calc(100% - 19rem);
+
+    }
+
+    .campaign-alfa.campaign-alfa-right .slick-next {
+        left: initial;
+        right: calc(100% - 21.75rem);
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    #content-abstract-hero .abstract-subtitle {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+    }
+
+    #content-abstract-hero .hero-h-scroll-controls .controls-wrap.controls-wrap-top {
+        top: 170px;
+    }
+
+    #content-abstract-hero .slick-dots li button {
+        width: 2.875rem;
+        height: 0.375rem;
+    }
+
+    #content-abstract-hero .slick-autoplay-toggle-button {
+        left: calc(50% - 470px);
+        //bottom: 1.625rem;
+    }
+
+    #content-abstract-hero .slick-list {
+        height: auto !important;
+    }
+
+    /*
+    #content-abstract-hero .hero-h-scroll .slick-slide .concept-b .picture-wrap picture img {
+        max-height: 400px;
+    }
+    
+    #content-abstract-hero .hero-h-scroll .slick-slide .picture-wrap .picture-pattern{
+        background-size: auto 400px;
+    }
+    */
+
+    #content-abstract-hero .slick-prev-icon,
+    #content-abstract-hero .slick-next-icon {
+        height: 2.25rem;
+        width: 2.25rem;
+    }
+
+    #content-abstract-hero .slick-prev::before,
+    #content-abstract-hero .slick-next::before {
+        width: 2.25rem;
+        height: 2.25rem;
+        border-radius: 3rem;
+        top: auto;
+        left: auto;
+    }
+
+    .campaign-alfa-left .campaign-text-wrap,
+    .campaign-alfa-right .campaign-text-wrap {
+        width: calc(100% - 456px);
+    }
+
+    .campaign-alfa .picture-wrap {
+        width: 456px;
+    }
+
+    .campaign-alfa-left .picture-wrap picture {
+        left: -30px;
+    }
+
+    .campaign-alfa-right .picture-wrap picture {
+        left: -30px;
+    }
+
+    .campaign-alfa.campaign-alfa-right .slick-prev {
+        left: initial;
+        right: calc(100% - 26rem);
+
+    }
+
+    .campaign-alfa.campaign-alfa-right .slick-next {
+        left: initial;
+        right: calc(100% - 28.75rem);
+    }
+}
+
+@media (min-width: 1200px) {
+
+    /* content-abstract */
+    .slick-list {
+        height: auto !important;
+    }
+
+    #content-abstract-hero .hero-h-scroll-controls .controls-wrap.controls-wrap-top {
+        top: 180px;
+    }
+
+    #content-abstract-hero .slick-dots li button {
+        width: 2.875rem;
+        height: 0.5rem;
+    }
+
+    #content-abstract-hero .slick-prev-icon,
+    #content-abstract-hero .slick-next-icon {
+        height: 2.25rem;
+        width: 2.25rem;
+    }
+
+    #content-abstract-hero .slick-prev::before,
+    #content-abstract-hero .slick-next::before {
+        width: 2.25rem;
+        height: 2.25rem;
+        border-radius: 3rem;
+        top: auto;
+        left: auto;
+    }
+}
+
+/* Custom cutopoint banner hero (50px limit for left arrow) */
+@media (min-width: 768px) and (max-width: 818px) {
+
+    #content-abstract-hero .hero-arrows .slick-prev,
+    #content-abstract-hero .hero-arrows .slick-next {
+        display: none !important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1042px) {
+
+    #content-abstract-hero .hero-arrows .slick-prev,
+    #content-abstract-hero .hero-arrows .slick-next {
+        display: none !important;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1250px) {
+
+    #content-abstract-hero .hero-arrows .slick-prev,
+    #content-abstract-hero .hero-arrows .slick-next {
+        display: none !important;
+    }
+}

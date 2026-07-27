@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <title>Poste.it</title>
+    <!--#include virtual="/includes-da/utilities/head-tag.html" -->
+</head>
+
+<body>
+    <nav id="skiplink" aria-label="Navigazione di pagina"><ul>
+        <li><a tabindex="0" class="skip-link sr-only-focusable-abs" href="#accessibility-anchor">Passa al contenuto
+        principale</a></li>
+        <li><a class="skip-link sr-only-focusable-abs" href="#assistenza-side">Passa all'help</a></li>
+        <li><a class="skip-link sr-only-focusable-abs" href="#footer">Passa al footer di pagina</a></li>
+    </ul></nav>
+  <header>
+        <!-- Content Navbar-->
+        <div class="content" id="content-navbar">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--#include virtual="/includes-da/header/navbar-content-app.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main id="accessibility-anchor" tabindex="-1">
+
+        <h1 class="sr-only">Modulo di richiesta lorem ipsum - Esito</h1>
+
+        <div class="content concept-app display-pop hidden-sm hidden-xs" id="content-abstract">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 hidden-sm hidden-xs">
+                          <ol class="breadcrumb breadcrumb-xs-trim-a breadcrumb-sm-trim-a breadcrumb-md-trim-b">
+                            <li>
+                              <a href="#" title="Home privati">
+                                <span>Home privati</span>
+                              </a>
+                            </li>
+                            <li class="active" aria-current="page"><span>Registrazione account Poste.it</span></li>
+                          </ol>
+                        </div>
+                      </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="abstract">
+                                <div class="abstract-heading">
+                                    <h1 class="clearfix">Registrazione account Poste.it</h1>
+                                    <!--
+                                    <span class="abstract-subtitle">Compila il modulo e invialo online, lorem. Perferendis perspiciatis sequi rem in debitis! Nulla, reprehenderit libero unde natus facilis suscipit recusandae corporis illo.</span>
+                                    -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="content" id="content-outcome">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row row-fix">
+                        <div class="col-xs-12 col-sm-10 col-sm-push-1">
+                            <!-- Pills wizard -->
+                            <div class="main-pills main-pills-xs-basic">
+                                <!--#include virtual="/includes-da/object/pills-light-genericform-esito.html" -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <aside aria-labelledby="side-help-title">
+        <!--#include virtual="/includes-da/navigation/right-side-offcanvas.html" -->
+        <!--#include virtual="/includes-da/navigation/right-side-offcanvas-profilo.html" -->
+    </aside>
+
+    <footer id="footer">
+        
+        <div class="content content-footer content-footer-main">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--#include virtual="/includes-da/footer/footer-content-main.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content content-footer content-footer-extra">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--#include virtual="/includes-da/footer/footer-content-extra.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--#include virtual="/includes-da/utilities/footer-tag.html" -->
+        
+    </footer>
+
+    
+</body>
+
+</html>

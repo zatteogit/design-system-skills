@@ -1,0 +1,103 @@
+<div class="main-pills-wrap">
+    <div class="row">
+        <div class="col-sm-12">
+            <h2 class="area-heading mt-0">GenericForm - Modals</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="box-editable-area mb-4">
+                <h3 class="area-heading">Modali</h3>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="btn-container my-2 clearfix">
+                <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal"
+                    title="Apri finestra modale base">
+                    <span class="icon">
+                        <svg focusable="false">
+                            <title>Modale base</title>
+                            <use xlink:href="/assets-da/core/img/iconset/sprite.svg#052a-chat-m"
+                                href="/assets-da/core/img/iconset/sprite.svg#052a-chat-m"></use>
+                        </svg>
+                    </span>Modale base
+                </a>
+
+                <a href="#" class="btn btn-secondary" data-toggle="modal" data-target="#myModalLarge"
+                    title="Apri finestra modale large">
+                    <span class="icon">
+                        <svg focusable="false">
+                            <title>Modale Large</title>
+                            <use xlink:href="/assets-da/core/img/iconset/sprite.svg#052a-chat-m"
+                                href="/assets-da/core/img/iconset/sprite.svg#052a-chat-m"></use>
+                        </svg>
+                    </span>Modale Large
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Modal base -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span class="icon">
+                        <svg focusable="false">
+                            <title>Chiudi</title>
+                            <use xlink:href="/assets-da/core/img/iconset/sprite.svg#009a-close-m"
+                                href="/assets-da/core/img/iconset/sprite.svg#009a-close-m">
+                            </use>
+                        </svg>
+                    </span>
+                </button>
+                <h2 class="modal-title" id="myModalLabel">Modale base</h2>
+            </div>
+            <div class="modal-body">
+                <h3>Sottotitolo modale</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate esse reprehenderit, vel libero magni ad ipsum eos totam vitae officia? Perferendis sint harum ea quod dolores omnis architecto sit ipsum.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal large-->
+<div class="modal fade" id="myModalLarge" tabindex="-1" role="dialog" aria-labelledby="myModalLabelLarge" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span class="icon">
+                        <svg focusable="false">
+                            <title>Non confermato</title>
+                            <use xlink:href="/assets-da/core/img/iconset/sprite.svg#009a-close-m"
+                                href="/assets-da/core/img/iconset/sprite.svg#009a-close-m">
+                            </use>
+                        </svg>
+                    </span>
+                </button>
+                <h2 class="modal-title" id="myModalLabelLarge">Modale Large</h2>
+            </div>
+            <form>
+                <div class="modal-body">
+                    <!--#include virtual="/includes-da/object/forms-vol-example-01.html" -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,144 @@
+/*****************************************************
+
+Theme Name: Posteit DLS
+Author: GDS//FS//DU 
+Created: 2022/2024
+Based on: kit Bootstrap v 3.1.4
+File Description: Foglio di stile Myp.css (MyPoste)
+
+*****************************************************/
+.dashboard-item .box-rack {
+    margin-bottom: 8px;
+}
+
+.dashboard-item .box-rack .box-body {
+    min-height: auto !important;
+}
+
+
+/* Cards service */
+.panel-cards-service .panel-wrap{
+    padding: 16px;
+}
+
+.panel-cards-service .panel-heading .icon.icon-round {
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.panel-cards-service .panel-heading .icon svg{
+    height: 1.8rem;
+    width: 1.8rem;
+}
+
+.panel-cards-service.mode-ctaset .panel-wrap {
+    min-height: 168px !important;
+    height: 100%;
+}
+
+.panel-cards-service .panel-footer {
+    padding: 0;
+    background-color: transparent;
+    border: none;
+}
+
+.panel-cards-service .box-rack.box-summary {
+    padding: 1rem;
+    border-radius: 16px;
+}
+
+/* Cards pattern */
+.panel-cards.cards-pattern {
+    background-repeat: no-repeat;
+}
+
+.panel-cards.cards-pattern.cards-pattern-01 {
+    background-image: url(/assets-da/core/img/bg/bg-pattern-cards-service-01.png);
+}
+
+.panel-cards.cards-pattern.cards-pattern-02 {
+    background-image: url(/assets-da/core/img/bg/bg-pattern-cards-service-02.png);
+    background-position: bottom right;
+}
+
+.concept-app.concept-app-reverse.profile {
+	background-image: url(/assets-da/app/myposte/img/profilo-@2x.png);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-size: contain;
+}
+
+@media (max-width: 767px) {
+    #content-abstract .abstract-heading {
+        text-align: left;
+    }
+
+    #content-abstract.concept-app.concept-app-reverse::before,
+    #content-abstract.concept-app.concept-app-reverse::after {
+        content: "";
+        display: block;
+        width: 110%;
+        height: 100px;
+        position: absolute;
+        border-radius: 0% 0% 50% 50%;
+        bottom: 0;
+        z-index: 2;
+        background-image: none;
+    }
+
+    #content-abstract.concept-app.concept-app-reverse::before {
+        left: -10px;
+        box-shadow: -90px 56px 0 0 #fff;
+    }
+ 
+    #content-abstract.concept-app.concept-app-reverse::after {
+        right: -10px;
+        box-shadow: 180px 56px 0px 0px #fff;
+    }
+
+
+    /* Cards Service */
+    .panel-cards-service .cards-text-heading {
+        font-size: 1rem;
+    }
+
+    .panel-cards-service .panel-heading .icon.icon-round {
+        background-color: transparent;
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .panel-cards-service.mode-ctaset .panel-wrap {
+        min-height: auto !important;
+        height: auto;
+    }
+
+    /* Cards pattern */
+    .panel-cards.cards-pattern.cards-pattern-01,
+    .panel-cards.cards-pattern.cards-pattern-02 {
+        background-position: bottom center;
+        background-image: url(/assets-da/core/img/bg/bg-pattern-cards-service-xs-01.png);
+    }
+
+    #content-abstract.concept-app.concept-app-reverse.profile{
+        padding-bottom: 115px;
+        height: 225px;
+        background-position: center 95px;
+        background-size: auto 60%;
+        background-image: url(/assets-da/app/myposte/img/profilo-@1x.png);
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+        
+}

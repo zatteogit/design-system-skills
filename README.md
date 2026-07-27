@@ -9,6 +9,7 @@ runtime, no dependencies.
 | **`design-system-code`** | Building and enforcing a design system inside a codebase — token tiers nothing can skip, and guards that stop the code drifting off them. New and existing projects need different guards; there is a path for each. |
 | **`figma-code-sync`** | Keeping an existing Figma design system aligned with the code as the code changes — token parity, component parity, contrast, templates, and the DTCG pipeline. |
 | **`html-kit`** | Corporate HTML UI kit containing reference pages, documentation, templates, and core/vendor assets. |
+| **`html-kit-posteit`** | Poste.it HTML UI kit containing reference pages, applicative components, templates, and assets. |
 
 ## Install
 

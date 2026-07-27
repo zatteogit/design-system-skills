@@ -1,0 +1,1188 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <title>Poste.it</title>
+    <!--#include virtual="/includes-da/utilities/head-tag.html" -->
+    <link type="text/css" rel="stylesheet" href="/assets-da/app/myposte/css/myp.min.css" />
+</head>
+
+<body>
+    <nav id="skiplink" aria-label="Navigazione di pagina">
+        <ul>
+            <li><a tabindex="0" class="skip-link sr-only-focusable-abs" href="#accessibility-anchor">Passa al contenuto
+                    principale</a></li>
+            <li><a class="skip-link sr-only-focusable-abs" href="#assistenza-side">Passa all'help</a></li>
+            <li><a class="skip-link sr-only-focusable-abs" href="#footer">Passa al footer di pagina</a></li>
+        </ul>
+    </nav>
+    <header class="sticky">
+        <div class="sticky-wrap">
+            <!-- Content Navbar-->
+            <div class="content" id="content-navbar">
+                <div class="content-wrap">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <!--#include virtual="/includes-da/header/navbar-content-default-logged.html" -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main id="accessibility-anchor" tabindex="-1">
+        <div class="content concept-app mode-reverse content-pattern pattern-01 display-pop" id="content-abstract">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-md-7">
+                            <div class="abstract-wrap">
+                                <div class="abstract">
+                                    <div class="abstract-heading text-xs-center text-sm-left">
+                                        <h1 class="sr-only">Benvenuto nella tua area clienti</h1>
+                                        <span class="title-small hidden-xs hidden-sm">Ciao</span>
+                                        <span class="h1 block my-1 my-md-2"><span
+                                                class="visible-xs-inline visible-sm-inline">Ciao
+                                            </span>Pierferdinando</span>
+                                        <span class="fs-small">Ultimo accesso il mercoledi 22 agosto 2023 alle
+                                            15:39.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-5">
+                            <div class="abstract-wrap mt-4 mt-sm-6 flex flex-column justify-content-between">
+                                <div class="box-frame box-yellow flex flex-row m-0" role="alert">
+                                    <div class="picture-wrap">
+                                        <span class="icon">
+                                            <svg focusable="false">
+                                                <title>Consulente</title>
+                                                <use xlink:href="/assets-da/core/img/iconset/sprite.svg#068a-face-m"
+                                                    href="/assets-da/core/img/iconset/sprite.svg#068a-face-m"></use>
+                                            </svg>
+                                        </span>
+                                    </div>
+                                    <div class="box-wrap flex align-items-center justify-content-start flex-grow-1">
+                                        <div class="box-body fs-small">
+                                            <span class="block my-2">Il tuo consulente finanziario</span>
+                                            <span class="block my-2 h3 title-extrasmall">Roberta Bianchi</span>
+                                        </div>
+                                    </div>
+                                    <div class="box-wrap flex align-items-center justify-content-sm-end">
+                                        <a href="#" title="Contatta il tuo consulente finanziario"
+                                            class="btn btn-xs btn-default m-0">
+                                            <span class="hidden-xs hidden-md">Contatta</span><span class="icon ms-1">
+                                                <svg focusable="false">
+                                                    <title></title>
+                                                    <use xlink:href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m"
+                                                        href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m">
+                                                    </use>
+                                                </svg>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!-- Operazioni veloci -->
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <h2 class="content-heading text-left mt-0">Operazioni veloci</h2>
+                                </div>
+                            </div>
+                            <div class="row row-space equalize-group equalize-group-2 equalize-forced">
+                                <div class="col-sm-12">
+                                    <div class="slick-scroll">
+                                        <div class="row slick-scroll-items-evidence">
+                                            <p>
+                                                <a class="keybtn keybtn-large" href="#" title="Preventivo luce e gas">
+                                                    <span class="keybtn-wrap"
+                                                        style="background-image: url('/assets-da/core/img/ico/ico-generic-sim@2x.png')">Preventivo<br>luce
+                                                        e gas</span>
+                                                </a>
+                                            </p>
+                                            <p>
+                                                <a class="keybtn keybtn-large" href="#" title="Invio pacchi">
+                                                    <span class="keybtn-wrap"
+                                                        style="background-image: url('/assets-da/core/img/ico/ico-generic-risparmio@2x.png')">Invio
+                                                        pacchi</span>
+                                                </a>
+                                            </p>
+                                            <p>
+                                                <a class="keybtn keybtn-large" href="#" title="Bollo auto">
+                                                    <span class="keybtn-wrap"
+                                                        style="background-image: url('/assets-da/core/img/ico/ico-generic-document@2x.png')">Bollo
+                                                        auto</span>
+                                                </a>
+                                            </p>
+                                            <p>
+                                                <a class="keybtn keybtn-large" href="#" title="Bonifico SEPA">
+                                                    <span class="keybtn-wrap"
+                                                        style="background-image: url('/assets-da/core/img/ico/ico-generic-ppay@2x.png')">Bonifico
+                                                        SEPA</span>
+                                                </a>
+                                            </p>
+                                            <p>
+                                                <a class="keybtn keybtn-large" href="#" title="Bollette e pagamenti">
+                                                    <span class="keybtn-wrap"
+                                                        style="background-image: url('/assets-da/core/img/ico/ico-generic-risparmio@2x.png')">Bollette
+                                                        e pagamenti</span>
+                                                </a>
+                                            </p>
+                                            <p>
+                                                <a class="keybtn keybtn-large" href="#" title="Ricariche telefoniche">
+                                                    <span class="keybtn-wrap"
+                                                        style="background-image: url('/assets-da/core/img/ico/ico-generic-document@2x.png')">Ricariche
+                                                        telefoniche</span>
+                                                </a>
+                                            </p>
+                                            <p>
+                                                <a class="keybtn keybtn-large" href="#" title="Ricarica Postepay">
+                                                    <span class="keybtn-wrap"
+                                                        style="background-image: url('/assets-da/core/img/ico/ico-generic-ppay@2x.png')">Ricarica
+                                                        Postepay</span>
+                                                </a>
+                                            </p>
+                                            <p>
+                                                <a class="keybtn keybtn-large" href="#" title="F24">
+                                                    <span class="keybtn-wrap"
+                                                        style="background-image: url('/assets-da/core/img/ico/ico-generic-risparmio@2x.png')">F24</span>
+                                                </a>
+                                            </p>
+                                            <p>
+                                                <a class="keybtn keybtn-large" href="#" title="Lorem ipsum">
+                                                    <span class="keybtn-wrap"
+                                                        style="background-image: url('/assets-da/core/img/ico/ico-generic-document@2x.png')">Lorem
+                                                        ipsum</span>
+                                                </a>
+                                            </p>
+                                            <p>
+                                                <a class="keybtn keybtn-large" href="#" title="Dolor amet mea">
+                                                    <span class="keybtn-wrap"
+                                                        style="background-image: url('/assets-da/core/img/ico/ico-generic-sim@2x.png')">Dolor
+                                                        amet mea</span>
+                                                </a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="btn-container btn-container-center clearfix">
+                                        <a href="#" title="Vedi tutti sed nunc adescevit nunque"
+                                            class="btn btn-xs btn-secondary m-0">Vedi tutti</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content slick-h-scroll">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-structure">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <h2 id="carousel-heading-01" class="content-heading mt-0">Le tue attivit&agrave;
+                                    </h2>
+                                </div>
+                            </div>
+                            <div class="row row-space slick-h-scroll-item-double equalize-wrap equalize-forced equalize-wrap-11"
+                                aria-labelledby="carousel-heading-01">
+                                <div class="col-xs-12 col-md-6">
+                                    <div class="box-frame box-cyan flex flex-column m-0" role="alert">
+                                        <div class="picture-wrap">
+                                            <span class="icon">
+                                                <svg focusable="false">
+                                                    <title>Lorem ipsum</title>
+                                                    <use xlink:href="/assets-da/core/img/iconset/sprite.svg#005a-info-m"
+                                                        href="/assets-da/core/img/iconset/sprite.svg#005a-info-m"></use>
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <div class="box-wrap flex">
+                                            <div
+                                                class="box-body flex flex-column align-items-left justify-content-start equalize-height">
+                                                <h3 class="title-extrasmall my-1">Conto BancoPosta</h3>
+                                                <span>Effettua il bonifico per completare il riconoscimento della tua
+                                                    identit&agrave;</span>
+                                            </div>
+                                        </div>
+                                        <div class="box-wrap flex">
+                                            <a href="#"
+                                                title="Scopri i dati del bonifico per completare il riconoscimento della tua identit&agrave;"
+                                                class="btn btn-xs btn-default btn-link m-0 mt-1 mt-sm-0">
+                                                Scopri i dati del bonifico<span class="icon ms-1">
+                                                    <svg focusable="false">
+                                                        <title></title>
+                                                        <use xlink:href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m"
+                                                            href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m">
+                                                        </use>
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-md-6">
+                                    <div class="box-frame box-cyan flex flex-column m-0" role="alert">
+                                        <div class="picture-wrap">
+                                            <span class="icon">
+                                                <svg focusable="false">
+                                                    <title>Lorem ipsum</title>
+                                                    <use xlink:href="/assets-da/core/img/iconset/sprite.svg#012a-calendar-month-m"
+                                                        href="/assets-da/core/img/iconset/sprite.svg#012a-calendar-month-m">
+                                                    </use>
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <div class="box-wrap flex">
+                                            <div
+                                                class="box-body flex flex-column align-items-left justify-content-start equalize-height">
+                                                <h3 class="title-extrasmall my-1">Prenotazione - M600</h3>
+                                                <span>11 Settembre 2023, 10:40. Viale Andrea Doria, 48,
+                                                    Ladispoli.</span>
+                                            </div>
+                                        </div>
+                                        <div class="box-wrap flex">
+                                            <a href="#"
+                                                title="Val al dettaglio della tua prenotazione in Ufficio Postale"
+                                                class="btn btn-xs btn-default btn-link m-0 mt-1 mt-sm-0">
+                                                Dettaglio<span class="icon ms-1">
+                                                    <svg focusable="false">
+                                                        <title></title>
+                                                        <use xlink:href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m"
+                                                            href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m">
+                                                        </use>
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-md-6">
+                                    <div class="box-frame box-cyan flex flex-column m-0" role="alert">
+                                        <div class="picture-wrap">
+                                            <span class="icon">
+                                                <svg focusable="false">
+                                                    <title>Lorem ipsum</title>
+                                                    <use xlink:href="/assets-da/core/img/iconset/sprite.svg#005a-info-m"
+                                                        href="/assets-da/core/img/iconset/sprite.svg#005a-info-m"></use>
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <div class="box-wrap flex">
+                                            <div
+                                                class="box-body flex flex-column align-items-left justify-content-start equalize-height">
+                                                <h3 class="title-extrasmall my-1">Postepay Digital</h3>
+                                                <span>Riprendi e compila i dati mancanti della tua richiesta</span>
+                                            </div>
+                                        </div>
+                                        <div class="box-wrap flex">
+                                            <a href="#"
+                                                title="Riprendi e compila i dati mancanti della tua richiesta per Postepay Digital"
+                                                class="btn btn-xs btn-default btn-link m-0 mt-1 mt-sm-0">
+                                                Riprendi<span class="icon ms-1">
+                                                    <svg focusable="false">
+                                                        <title></title>
+                                                        <use xlink:href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m"
+                                                            href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m">
+                                                        </use>
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+        <div class="content slick-h-scroll">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-structure">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <h2 id="carousel-heading-02" class="content-heading mt-0">In evidenza</h2>
+                                </div>
+                            </div>
+                            <div class="row row-space slick-h-scroll-item-double-optdevice-fullspace equalize-myp-mixedcard equalize-myp-mixedcard-1"
+                                aria-labelledby="carousel-heading-02">
+                                <div class="col-xs-12 col-md-6">
+                                    <!--#include virtual="/includes-da/object/cards-picture-stretch-00.html" -->
+                                </div>
+                                <div class="col-xs-12 col-md-6">
+                                    <!--#include virtual="/includes-da/object/cards-bg-03.html" -->
+                                </div>
+                                <div class="col-xs-12 col-md-6">
+                                    <!--#include virtual="/includes-da/object/cards-bg-03.html" -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-structure">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <h2 class="content-heading mt-0">Il tuo patrimonio</h2>
+                                </div>
+                            </div>
+                            <div class="row row-space">
+                                <div class="col-sm-12">
+                                    <div class="box-rack flex flex-row box-cyan my-3 gap-3">
+                                        <div
+                                            class="box-wrap flex justify-content-sm-start align-items-start align-items-sm-center">
+                                            <img alt="Il tuo patrimonio"
+                                                src="/assets-da/app/generic/img/ico-generic-patrimonio.png"
+                                                srcset="/assets-da/app/generic/img/ico-generic-patrimonio@2x.png 2x">
+                                        </div>
+                                        <div
+                                            class="box-wrap flex justify-content-start justify-content-sm-between align-items-sm-center flex-column flex-sm-row flex-sm-grow-1">
+                                            <div class="box-body">
+                                                <p class="m-sm-0">Lorem ipsum dolor, sit amet consectetur adipisicing
+                                                    elit.</p class="m-sm-0">
+                                            </div>
+                                            <div class="box-footer">
+                                                <a class="btn btn-xs btn-default btn-link m-0" href="#"
+                                                    title="Vai alla pagina di dettaglio del tuo patrimonio">Vedi
+                                                    dettaglio
+                                                    <span class="icon">
+                                                        <svg focusable="false">
+                                                            <title>Lorem ipsum</title>
+                                                            <use xlink:href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m"
+                                                                href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m">
+                                                            </use>
+                                                        </svg>
+                                                    </span>
+                                                </a>
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content" id="content-main">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-structure">
+                            <div id="main">
+                                <div class="row">
+                                    <div class="col-sm-8">
+                                        <h2 class="content-heading mt-0">Il mondo Poste</h2>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="btn-container btn-container-right clearfix">
+                                            <button class="btn btn-xs btn-default btn-link show-details mt-2"
+                                                title="Visualizza tutti i saldi">
+                                                <span data-obj="collapsed">
+                                                    <span class="icon">
+                                                        <svg focusable="false">
+                                                            <title>Visualizza il saldo nelle card</title>
+                                                            <use xlink:href="/assets-da/core/img/iconset/sprite.svg#016b-visibility-on-m"
+                                                                href="/assets-da/core/img/iconset/sprite.svg#016b-visibility-on-m">
+                                                            </use>
+                                                        </svg> </span>Mostra saldo
+                                                </span>
+                                                <span data-obj="in">
+                                                    <span class="icon">
+                                                        <svg focusable="false">
+                                                            <title>Nascondi il saldo nelle card</title>
+                                                            <use xlink:href="/assets-da/core/img/iconset/sprite.svg#016a-visibility-off-m"
+                                                                href="/assets-da/core/img/iconset/sprite.svg#016a-visibility-off-m">
+                                                            </use>
+                                                        </svg> </span>Nascondi saldo
+                                                </span>
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-12" id="myp-service">
+                                        <!-- Example multiple service -->
+                                        <div
+                                            class="row row-group row-fix row-space equalize-group equalize-group-3 pt-1">
+                                            <div class="col-xs-12 col-sm-6 col-md-4">
+                                                <div class="dashboard-item">
+                                                    <!-- dashboard-item -->
+                                                    <div
+                                                        class="panel panel-cards panel-cards-service mode-ctaset bg-yellow">
+                                                        <div class="cards-wrap panel-wrap equalize-height">
+                                                            <div class="panel-heading">
+                                                                <div
+                                                                    class="flex align-items-top flex align-items-sm-center justify-content-between equalize-2">
+                                                                    <h3 class="cards-text-heading m-0">Conti</h3>
+                                                                    <span class="icon icon-round icon-round-yellow">
+                                                                        <svg focusable="false">
+                                                                            <title>Lorem ipsum</title>
+                                                                            <use
+                                                                                xlink:href="/assets-da/core/img/iconset/sprite.svg#015a-account-balance-wallet-m">
+                                                                            </use>
+                                                                        </svg>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                            <div
+                                                                class="panel-body equalize-wrap equalize-forced equalize-wrap-1">
+                                                                <div class="cards-content my-2 my-sm-3">
+                                                                    <div class="box-rack box-summary box-yellow mt-1">
+                                                                        <div class="box-body">
+                                                                            <div class="row gx-2">
+                                                                                <div class="col-xs-12">
+                                                                                    <div class="form-group pb-0">
+                                                                                        <span
+                                                                                            class="label-like obj-wrap">Saldo
+                                                                                            totale</span>
+                                                                                        <p
+                                                                                            class="form-control-static fs-large fw-bold">
+                                                                                            15.430,20&euro;</p>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="panel-footer">
+                                                                <div class="btn-container m-0">
+                                                                    <a class="btn btn-xs btn-default btn-link stretched-link"
+                                                                        href="/pages/posteit-area/private/myposte/bpol/" title="I tuoi conti lorem ipsum">Vedi
+                                                                        dettaglio
+                                                                        <span class="icon">
+                                                                            <svg focusable="false">
+                                                                                <title>Lorem ipsum</title>
+                                                                                <use xlink:href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m"
+                                                                                    href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m">
+                                                                                </use>
+                                                                            </svg>
+                                                                        </span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-6 col-md-4">
+                                                <div class="dashboard-item">
+                                                    <!-- dashboard-item -->
+                                                    <div
+                                                        class="panel panel-cards panel-cards-service mode-ctaset bg-yellow">
+                                                        <div class="cards-wrap panel-wrap equalize-height">
+                                                            <div class="panel-heading">
+                                                                <div
+                                                                    class="flex align-items-top flex align-items-sm-center justify-content-between equalize-2">
+                                                                    <h3 class="cards-text-heading m-0">Carte Postepay
+                                                                    </h3>
+                                                                    <span class="icon icon-round icon-round-yellow">
+                                                                        <svg focusable="false">
+                                                                            <title>Lorem ipsum</title>
+                                                                            <use
+                                                                                xlink:href="/assets-da/core/img/iconset/sprite.svg#066a-credit-card-m">
+                                                                            </use>
+                                                                        </svg>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                            <div
+                                                                class="panel-body equalize-wrap equalize-forced equalize-wrap-2">
+                                                                <div class="cards-content my-2 my-sm-3">
+                                                                    <div class="box-rack box-summary box-yellow mt-1">
+                                                                        <div class="box-body">
+                                                                            <div class="row gx-2">
+                                                                                <div class="col-xs-12">
+                                                                                    <div class="form-group pb-0">
+                                                                                        <span
+                                                                                            class="label-like obj-wrap">Saldo
+                                                                                            totale</span>
+                                                                                        <p
+                                                                                            class="form-control-static fs-large fw-bold">
+                                                                                            180,90&euro;</p>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="panel-footer">
+                                                                <div class="btn-container m-0">
+                                                                    <a class="btn btn-xs btn-default btn-link stretched-link"
+                                                                        href="#"
+                                                                        title="Le tue carte Postepay lorem ipsum">Vedi
+                                                                        dettaglio
+                                                                        <span class="icon">
+                                                                            <svg focusable="false">
+                                                                                <title>Lorem ipsum</title>
+                                                                                <use xlink:href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m"
+                                                                                    href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m">
+                                                                                </use>
+                                                                            </svg>
+                                                                        </span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-6 col-md-4">
+                                                <div class="dashboard-item">
+                                                    <!-- dashboard-item -->
+                                                    <div
+                                                        class="panel panel-cards panel-cards-service mode-ctaset bg-yellow">
+                                                        <div class="cards-wrap panel-wrap equalize-height">
+                                                            <div class="panel-heading">
+                                                                <div
+                                                                    class="flex align-items-top flex align-items-sm-center justify-content-between equalize-2">
+                                                                    <h3 class="cards-text-heading m-0">Servizi al
+                                                                        cittadino</h3>
+                                                                    <span class="icon icon-round icon-round-yellow">
+                                                                        <svg focusable="false">
+                                                                            <title>Lorem ipsum</title>
+                                                                            <use
+                                                                                xlink:href="/assets-da/core/img/iconset/sprite.svg#080a-person-m">
+                                                                            </use>
+                                                                        </svg>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                            <div
+                                                                class="panel-body equalize-wrap equalize-forced equalize-wrap-3">
+                                                                <div class="cards-content my-2 my-sm-3">
+                                                                    <div class="box-rack box-summary box-yellow mt-1">
+                                                                        <div class="box-body">
+                                                                            <div class="row gx-2">
+                                                                                <div class="col-xs-6">
+                                                                                    <div class="form-group pb-0">
+                                                                                        <span
+                                                                                            class="label-like obj-wrap">Spid</span>
+                                                                                        <p
+                                                                                            class="form-control-static fs-large fw-bold">
+                                                                                            1</p>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-xs-6">
+                                                                                    <div class="form-group pb-0">
+                                                                                        <span
+                                                                                            class="label-like obj-wrap">PEC
+                                                                                            (Posta elettronica
+                                                                                            certificata)</span>
+                                                                                        <p
+                                                                                            class="form-control-static fs-large fw-bold">
+                                                                                            2</p>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="panel-footer">
+                                                                <div class="btn-container m-0">
+                                                                    <a class="btn btn-xs btn-default btn-link stretched-link"
+                                                                        href="#"
+                                                                        title="I tuoi servizi per il cittadino lorem ipsum">Vedi
+                                                                        dettaglio
+                                                                        <span class="icon">
+                                                                            <svg focusable="false">
+                                                                                <title>Lorem ipsum</title>
+                                                                                <use xlink:href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m"
+                                                                                    href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m">
+                                                                                </use>
+                                                                            </svg>
+                                                                        </span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-6 col-md-4">
+                                                <div class="dashboard-item">
+                                                    <!-- dashboard-item -->
+                                                    <div
+                                                        class="panel panel-cards panel-cards-service mode-ctaset bg-yellow">
+                                                        <div class="cards-wrap panel-wrap equalize-height">
+                                                            <div class="panel-heading">
+                                                                <div
+                                                                    class="flex align-items-top flex align-items-sm-center justify-content-between equalize-2">
+                                                                    <h3 class="cards-text-heading m-0">Telefonia</h3>
+                                                                    <span class="icon icon-round icon-round-yellow">
+                                                                        <svg focusable="false">
+                                                                            <title>Lorem ipsum</title>
+                                                                            <use
+                                                                                xlink:href="/assets-da/core/img/iconset/sprite.svg#064a-sim-card-m">
+                                                                            </use>
+                                                                        </svg>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                            <div
+                                                                class="panel-body equalize-wrap equalize-forced equalize-wrap-4">
+                                                                <div class="cards-content my-2 my-sm-3">
+                                                                    <div class="box-rack box-summary box-yellow mt-1">
+                                                                        <div class="box-body">
+                                                                            <div class="row gx-2">
+                                                                                <div class="col-xs-12">
+                                                                                    <div class="form-group pb-0">
+                                                                                        <span
+                                                                                            class="label-like obj-wrap">Linea
+                                                                                            fibra</span>
+                                                                                        <p
+                                                                                            class="form-control-static fs-large fw-bold">
+                                                                                            1</p>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="panel-footer">
+                                                                <div class="btn-container m-0">
+                                                                    <a class="btn btn-xs btn-default btn-link stretched-link"
+                                                                        href="#"
+                                                                        title="Gestisci la tua telefonia lorem ipsum">Vedi
+                                                                        dettaglio
+                                                                        <span class="icon">
+                                                                            <svg focusable="false">
+                                                                                <title>Lorem ipsum</title>
+                                                                                <use xlink:href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m"
+                                                                                    href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m">
+                                                                                </use>
+                                                                            </svg>
+                                                                        </span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-6 col-md-4">
+                                                <div class="dashboard-item">
+                                                    <!-- dashboard-item -->
+                                                    <div
+                                                        class="panel panel-cards panel-cards-service mode-ctaset bg-yellow">
+                                                        <div class="cards-wrap panel-wrap equalize-height">
+                                                            <div class="panel-heading">
+                                                                <div
+                                                                    class="flex align-items-top flex align-items-sm-center justify-content-between equalize-2">
+                                                                    <h3 class="cards-text-heading m-0">Risparmio postale
+                                                                    </h3>
+                                                                    <span class="icon icon-round icon-round-yellow">
+                                                                        <svg focusable="false">
+                                                                            <title>Lorem ipsum</title>
+                                                                            <use
+                                                                                xlink:href="/assets-da/core/img/iconset/sprite.svg#048a-savings-m">
+                                                                            </use>
+                                                                        </svg>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                            <div
+                                                                class="panel-body equalize-wrap equalize-forced equalize-wrap-5">
+                                                                <div class="cards-content my-2 my-sm-3">
+                                                                    <div class="box-rack box-summary box-yellow mt-1">
+                                                                        <div class="box-body">
+                                                                            <div class="row gx-2">
+                                                                                <div class="col-xs-6">
+                                                                                    <div class="form-group pb-0">
+                                                                                        <span
+                                                                                            class="label-like obj-wrap">Libretti</span>
+                                                                                        <p
+                                                                                            class="form-control-static fs-large fw-bold">
+                                                                                            1</p>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-xs-6">
+                                                                                    <div class="form-group pb-0">
+                                                                                        <span
+                                                                                            class="label-like obj-wrap">Buoni</span>
+                                                                                        <p
+                                                                                            class="form-control-static fs-large fw-bold">
+                                                                                            5</p>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="panel-footer">
+                                                                <div class="btn-container m-0">
+                                                                    <a class="btn btn-xs btn-default btn-link stretched-link"
+                                                                        href="#"
+                                                                        title="Gestisci il tuo risparmio lorem">Vedi
+                                                                        dettaglio
+                                                                        <span class="icon">
+                                                                            <svg focusable="false">
+                                                                                <title>Lorem ipsum</title>
+                                                                                <use xlink:href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m"
+                                                                                    href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m">
+                                                                                </use>
+                                                                            </svg>
+                                                                        </span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-6 col-md-4">
+                                                <div class="dashboard-item">
+                                                    <!-- dashboard-item -->
+                                                    <div
+                                                        class="panel panel-cards panel-cards-service mode-ctaset bg-yellow ">
+                                                        <div class="cards-wrap panel-wrap equalize-height">
+                                                            <div class="panel-heading">
+                                                                <div
+                                                                    class="flex align-items-top flex align-items-sm-center justify-content-between equalize-2">
+                                                                    <h3 class="cards-text-heading m-0">Posta e pacchi
+                                                                    </h3>
+                                                                    <span class="icon icon-round icon-round-yellow">
+                                                                        <svg focusable="false">
+                                                                            <title>Lorem ipsum</title>
+                                                                            <use
+                                                                                xlink:href="/assets-da/core/img/iconset/sprite.svg#070a-local-shipping-2-m">
+                                                                            </use>
+                                                                        </svg>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                            <div
+                                                                class="panel-body equalize-wrap equalize-forced equalize-wrap-6">
+                                                                <div class="cards-content my-2 my-sm-3">
+                                                                    <div class="row">
+                                                                        <!-- -->
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="panel-footer">
+                                                                <div class="btn-container m-0">
+                                                                    <a class="btn btn-xs btn-default btn-link stretched-link"
+                                                                        href="#"
+                                                                        title="Vai alle tue spedizioni lorem ipsum">Vedi
+                                                                        dettaglio
+                                                                        <span class="icon">
+                                                                            <svg focusable="false">
+                                                                                <title>Lorem ipsum</title>
+                                                                                <use xlink:href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m"
+                                                                                    href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m">
+                                                                                </use>
+                                                                            </svg>
+                                                                        </span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-6 col-md-4">
+                                                <div class="dashboard-item">
+                                                    <!-- dashboard-item -->
+                                                    <div class="panel panel-cards panel-cards-service mode-ctaset">
+                                                        <div class="cards-wrap panel-wrap equalize-height">
+                                                            <div class="panel-heading">
+                                                                <div
+                                                                    class="flex align-items-top flex align-items-sm-center justify-content-between equalize-2">
+                                                                    <h3 class="cards-text-heading m-0">Assicurazioni
+                                                                    </h3>
+                                                                    <span class="icon icon-round icon-round-cyan">
+                                                                        <svg focusable="false">
+                                                                            <title>Lorem ipsum</title>
+                                                                            <use
+                                                                                xlink:href="/assets-da/core/img/iconset/sprite.svg#042a-panorama-m">
+                                                                            </use>
+                                                                        </svg>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                            <div
+                                                                class="panel-body equalize-wrap equalize-forced equalize-wrap-7">
+                                                                <div class="cards-content my-2 my-sm-3">
+                                                                    <!-- -->
+                                                                </div>
+                                                            </div>
+                                                            <div class="panel-footer">
+                                                                <div class="btn-container m-0">
+                                                                    <a class="btn btn-xs btn-default btn-link stretched-link"
+                                                                        href="#"
+                                                                        title="Gestisci le tue polizze lorem ipsum">Scopri
+                                                                        di pi&ugrave;
+                                                                        <span class="icon">
+                                                                            <svg focusable="false">
+                                                                                <title>Lorem ipsum</title>
+                                                                                <use xlink:href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m"
+                                                                                    href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m">
+                                                                                </use>
+                                                                            </svg>
+                                                                        </span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-6 col-md-4">
+                                                <div class="dashboard-item">
+                                                    <!-- dashboard-item -->
+                                                    <div class="panel panel-cards panel-cards-service mode-ctaset">
+                                                        <div class="cards-wrap panel-wrap equalize-height">
+                                                            <div class="panel-heading">
+                                                                <div
+                                                                    class="flex align-items-top flex align-items-sm-center justify-content-between equalize-2">
+                                                                    <h3 class="cards-text-heading m-0">Finanziamenti
+                                                                    </h3>
+                                                                    <span class="icon icon-round icon-round-cyan">
+                                                                        <svg focusable="false">
+                                                                            <title>Lorem ipsum</title>
+                                                                            <use
+                                                                                xlink:href="/assets-da/core/img/iconset/sprite.svg#042a-panorama-m">
+                                                                            </use>
+                                                                        </svg>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                            <div
+                                                                class="panel-body equalize-wrap equalize-forced equalize-wrap-8">
+                                                                <div class="cards-content my-2 my-sm-3">
+                                                                    <!-- -->
+                                                                </div>
+                                                            </div>
+                                                            <div class="panel-footer">
+                                                                <div class="btn-container m-0">
+                                                                    <a class="btn btn-xs btn-default btn-link stretched-link"
+                                                                        href="#"
+                                                                        title="Vai a tuoi finanziamenti lorem ipsum">Scopri
+                                                                        di pi&ugrave;
+                                                                        <span class="icon">
+                                                                            <svg focusable="false">
+                                                                                <title>Lorem ipsum</title>
+                                                                                <use xlink:href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m"
+                                                                                    href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m">
+                                                                                </use>
+                                                                            </svg>
+                                                                        </span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-6 col-md-4">
+                                                <div class="dashboard-item">
+                                                    <!-- dashboard-item -->
+                                                    <div class="panel panel-cards panel-cards-service mode-ctaset">
+                                                        <div class="cards-wrap panel-wrap equalize-height">
+                                                            <div class="panel-heading">
+                                                                <div
+                                                                    class="flex align-items-top flex align-items-sm-center justify-content-between equalize-2">
+                                                                    <h3 class="cards-text-heading m-0">Energia</h3>
+                                                                    <span class="icon icon-round icon-round-cyan">
+                                                                        <svg focusable="false">
+                                                                            <title>Lorem ipsum</title>
+                                                                            <use
+                                                                                xlink:href="/assets-da/core/img/iconset/sprite.svg#042a-panorama-m">
+                                                                            </use>
+                                                                        </svg>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                            <div
+                                                                class="panel-body equalize-wrap equalize-forced equalize-wrap-9">
+                                                                <div class="cards-content my-2 my-sm-3">
+                                                                    <!-- -->
+                                                                </div>
+                                                            </div>
+                                                            <div class="panel-footer">
+                                                                <div class="btn-container m-0">
+                                                                    <a class="btn btn-xs btn-default btn-link stretched-link"
+                                                                        href="#"
+                                                                        title="Gestisci la tua energia lorem ipsum">Scopri
+                                                                        di pi&ugrave;
+                                                                        <span class="icon">
+                                                                            <svg focusable="false">
+                                                                                <title>Lorem ipsum</title>
+                                                                                <use xlink:href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m"
+                                                                                    href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m">
+                                                                                </use>
+                                                                            </svg>
+                                                                        </span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-6 col-md-4">
+                                                <div class="dashboard-item">
+                                                    <!-- dashboard-item -->
+                                                    <div class="panel panel-cards panel-cards-service mode-ctaset">
+                                                        <div class="cards-wrap panel-wrap equalize-height">
+                                                            <div class="panel-heading">
+                                                                <div
+                                                                    class="flex align-items-top flex align-items-sm-center justify-content-between equalize-2">
+                                                                    <h3 class="cards-text-heading m-0">Investimenti</h3>
+                                                                    <span class="icon icon-round icon-round-cyan">
+                                                                        <svg focusable="false">
+                                                                            <title>Lorem ipsum</title>
+                                                                            <use
+                                                                                xlink:href="/assets-da/core/img/iconset/sprite.svg#042a-panorama-m">
+                                                                            </use>
+                                                                        </svg>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                            <div
+                                                                class="panel-body equalize-wrap equalize-forced equalize-wrap-10">
+                                                                <div class="cards-content my-2 my-sm-3">
+                                                                    <!-- -->
+                                                                </div>
+                                                            </div>
+                                                            <div class="panel-footer">
+                                                                <div class="btn-container m-0">
+                                                                    <a class="btn btn-xs btn-default btn-link stretched-link"
+                                                                        href="#"
+                                                                        title="Gestisci i tuoi investimenti lorem ipsum">Scopri
+                                                                        di pi&ugrave;
+                                                                        <span class="icon">
+                                                                            <svg focusable="false">
+                                                                                <title>Lorem ipsum</title>
+                                                                                <use xlink:href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m"
+                                                                                    href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m">
+                                                                                </use>
+                                                                            </svg>
+                                                                        </span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-structure">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <h2 class="content-heading">Per i dipendenti</h2>
+                                </div>
+                            </div>
+                            <div class="row row-space">
+                                <div class="col-sm-12">
+                                    <div class="box-frame box-yellow flex flex--row m-0" role="alert">
+                                        <div class="picture-wrap">
+                                            <span class="icon">
+                                                <svg focusable="false">
+                                                    <title>Lorem ipsum</title>
+                                                    <use xlink:href="/assets-da/core/img/iconset/sprite.svg#005a-info-m"
+                                                        href="/assets-da/core/img/iconset/sprite.svg#005a-info-m"></use>
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <div class="box-wrap flex justify-content-sm-start flex-sm-grow-1">
+                                            <div
+                                                class="box-body flex flex-column align-items-left justify-content-sm-center flex-md-row align-items-md-center justify-content-md-start">
+                                                <h3 class="title-extrasmall my-1 me-3">Il tuo Cedolino</h3>
+                                                <span>Il tuo cedolino e le comunicazioni aziendali ora sono sulla
+                                                    intranet.</span>
+                                            </div>
+                                        </div>
+                                        <div class="box-wrap flex justify-content-sm-end align-items-center">
+                                            <a href="#" title="Vedi tutti sed nunc adescevit nunque"
+                                                class="btn btn-xs btn-default btn-link m-0 mt-1 mt-sm-0"
+                                                aria-label="Vai alle comunicazioni aziendali e consulta il tuo cedolino">
+                                                Vai alle comunicazioni<span class="icon ms-1">
+                                                    <svg focusable="false">
+                                                        <title></title>
+                                                        <use xlink:href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m"
+                                                            href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m">
+                                                        </use>
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content content-multiwrap content-multiwrap-pattern pattern-01 slick-h-scroll">
+            <div class="content-wrap content-bg bg-cyan mode-light">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h2 class="content-heading">Potrebbe interessarti</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-wrap content-bg bg-cyan mode-light">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="row row-space">
+                                <div class="col-sm-12">
+                                    <!-- esempio di opzione dello slick slider passato come attributo, valutare una chiamata init ad-hoc -->
+                                    <div class="row slick-h-scroll-items equalize-group equalize-group-1"
+                                        data-slick='{"regionLabel":"aria label da personalizzare per le news 0"}'>
+                                        <div class="col-sm-4">
+                                            <!--#set var="id" value="_01" -->
+                                            <!--#include virtual="/includes-da/object/cards-picture-03.html" -->
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <!--#set var="id" value="_02" -->
+                                            <!--#include virtual="/includes-da/object/cards-picture-04.html" -->
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <!--#set var="id" value="_03" -->
+                                            <!--#include virtual="/includes-da/object/cards-picture-02.html" -->
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <!--#set var="id" value="_04" -->
+                                            <!--#include virtual="/includes-da/object/cards-picture-01.html" -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10 col-md-push-1 col-structure">
+                            <div class="row row-fix">
+                                <div class="col-xs-12">
+                                    <!-- Pills wizard help -->
+                                    <div class="main-pills">
+                                        <!--#include virtual="/includes-da/object/pills-light-wizard-02.html" -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <!--#include virtual="/includes-da/object/cards-bg-04.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <aside aria-labelledby="assistenza-side">
+        <!--#include virtual="/includes-da/navigation/right-side-offcanvas.html" -->
+    </aside>
+    <aside aria-labelledby="menu-profilo">
+        <!--#include virtual="/includes-da/navigation/right-side-offcanvas-profilo.html" -->
+    </aside>
+    <aside aria-labelledby="bacheca-side">
+        <!--#include virtual="/includes-da/navigation/right-side-offcanvas-bacheca.html" -->
+    </aside>
+    <footer id="footer">
+        <div class="content content-footer content-footer-main">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--#include virtual="/includes-da/footer/footer-content-main.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content content-footer content-footer-extra">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--#include virtual="/includes-da/footer/footer-content-extra.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--#include virtual="/includes-da/utilities/footer-tag.html" -->
+
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,1217 @@
+
+<div class="main-pills-wrap">
+    <div class="row">
+        <div class="col-sm-12">
+            <h2 class="area-heading mt-0">GenericForm</h2>
+        </div>
+    </div>
+
+    <form>
+        <!-- Campi base -->
+        <fieldset class="separator">
+            <legend class="sr-only">Campi base</legend>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="box-editable-area mb-4">
+                        <h3 class="area-heading">Campi base</h3>
+                        <p>Utilizzo di etichetta con riposizionamento automatico su 'utilizzo' del campo di testo.
+                            L'etichetta rimarr&agrave; comunque in posizione nel caso di presenza del placeholder o
+                            di valorizzazione della stessa input.</p>
+                        <p>&Egrave; assolutamente necessario garantire la corrispondenza tra <strong>ID</strong> del
+                            campo e il rispettivo attributo <strong>for</strong> della 'label'.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Etichetta mobile -->
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group form-group-abs">
+                        <label class="control-label" for="001b">Nome</label>
+                        <input type="text" class="form-control" id="001b" placeholder="">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group form-group-abs">
+                        <label class="control-label" for="002b">Cognome</label>
+                        <input type="text" class="form-control" id="002b" placeholder="">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group form-group-abs has-error">
+                        <label class="control-label" for="s001b">
+                            <span class="icon">
+                                <img src="/assets-da/app/generic/img/input-state-error.svg" alt="Errore">
+                            </span>
+                            Errore - Codice fiscale</label>
+                        <input type="text" class="form-control" id="s001b" placeholder="">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group form-group-abs has-warning">
+                        <label class="control-label" for="s002b">
+                            <span class="icon">
+                                <img src="/assets-da/app/generic/img/input-state-warning.svg" alt="Attenzione">
+                            </span>
+                            Avviso - N. Patente</label>
+                        <input type="text" class="form-control" id="s002b" placeholder="">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group form-group-abs has-success">
+                        <label class="control-label stable" for="s003b">
+                            <span class="icon">
+                                <img src="/assets-da/app/generic/img/input-state-success.svg" alt="Campo valido">
+                            </span>
+                            Validato - N. Documento</label>
+                        <input type="text" class="form-control" id="s003b" placeholder="Inserisci">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group form-group-abs">
+                        <span class="label-like control-label stable" id="id-sex-01-desc">Sesso</span>
+                        <p id="id-sex-01-value" class="form-control-static" aria-describedby="id-sex-01-desc">Maschile</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group form-group-abs">
+                        <label class="control-label" for="009">Cittadinanza</label>
+                        <input type="text" class="form-control" id="009" placeholder="inserisci">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group form-group-abs disabled">
+                        <label class="control-label" for="007">Citt&agrave; di residenza</label>
+                        <input type="text" class="form-control" id="007" placeholder="inserisci" disabled value="Roma">
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+
+        <!-- Campi complessi -->
+        <fieldset class="separator">
+            <legend class="sr-only">Campi complessi</legend>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="box-editable-area mb-4">
+                        <h3 class="area-heading">Campi complessi</h3>
+                        <p>E' possibile utilizzare la classe <strong>.stable</strong> sulle 'label' per disattivare
+                            l'animazione dell'etichetta.
+                            Il riposizionamento dell'etichetta sar&egrave; comunque disattivato per 'gruppi di
+                            campi', select e oggetti selezionabili.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group form-group-abs">
+                        <label for="003a" class="control-label">Telefono fisso</label>
+                        <div class="input-group">
+                            <div class="input-group-addon">+39</div>
+                            <input type="tel" value="" placeholder="" id="003a" class="form-control"
+                                aria-describedby="helpDescription-01ab">
+                        </div>
+                        <small id="helpDescription-01ab" class="note">Numero da
+                            certificare</small>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group form-group-abs has-success">
+                        <label for="a003a" class="control-label"><span class="icon">
+                            <img src="/assets-da/app/generic/img/input-state-success.svg" alt="Campo valido">
+                        </span>
+                        Validato - Telefono fisso</label>
+                        <div class="input-group">
+                            <div class="input-group-addon">+39</div>
+                            <input type="tel" value="3289988574" placeholder="" id="a003a" class="form-control"
+                                aria-describedby="helpDescription-a01ab">
+                        </div>
+                        <small id="helpDescription-a01ab" class="note">Numero certificato</small>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group form-group-abs disabled">
+                        <label for="003bb" class="control-label">Telefono fisso certificato</label>
+                        <div class="input-group">
+                            <div class="input-group-addon input-group-addon-disabled">+39</div>
+                            <input type="tel" value="02 87654321" placeholder="" id="003bb" class="form-control"
+                                aria-describedby="helpDescription-01b" disabled>
+                        </div>
+                        <small id="helpDescription-01b" class="note">Numero
+                            certificato</small>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group form-group-abs" role="group" aria-labelledby="lab003">
+                        <label id="lab003" for="phone01a" class="control-label">Telefono fisso</label>
+                        <div class="input-group">
+                            <div class="input-group-addon input-group-addon-prefix">
+                                <select class="form-control" name="phone-prefix01" id="phone-prefix01"
+                                    aria-label='Prefisso internazionale'>
+                                    <option value="+39">+39</option>
+                                    <option value="+00">+00</option>
+                                    <option value="+399">+399</option>
+                                    <option value="+3940">+3940</option>
+                                    <option value="+3900">+3900</option>
+                                </select>
+                            </div>
+                            <input type="text" value="" placeholder="" id="phone01a" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group form-group-abs has-warning" role="group" aria-labelledby="labs003">
+                        <label id="labs003" for="phoneuff01a" class="control-label">
+                        <span class="icon">
+                            <img src="/assets-da/app/generic/img/input-state-warning.svg" alt="Attenzione">
+                        </span>
+                        Avviso - Telefono ufficio</label>
+                        <div class="input-group">
+                            <div class="input-group-addon input-group-addon-prefix">
+                                <select class="form-control" name="phone-prefixuff01" id="phone-prefixuff01"
+                                    aria-label='Prefisso internazionale'>
+                                    <option value="+39">+39</option>
+                                    <option value="+00">+00</option>
+                                    <option value="+399">+399</option>
+                                    <option value="+1441" selected>+1441</option>
+                                    <option value="+3900">+3900</option>
+                                </select>
+                            </div>
+                            <input type="text" value="328194436" placeholder="" id="phoneuff01a" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group form-group-abs">
+                        <label for="datex-01-02" class="control-label">Dati extra</label>
+                        <div class="input-group">
+                            <input type="text" value="" placeholder="Inserisci" id="datex-01-02" class="form-control">
+                            <div class="input-group-addon">
+                                <button class="btn btn-addon" type="button" data-toggle="popover" data-placement="top" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+                                    <span class="icon">
+                                        <svg focusable="false">
+                                            <title>Maggiori dettagli sui dati extra</title>
+                                            <use xlink:href="/assets-da/core/img/iconset/sprite.svg#005a-info-m"
+                                                href="/assets-da/core/img/iconset/sprite.svg#005a-info-m">
+                                            </use>
+                                        </svg>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group form-group-abs has-error">
+                        <label for="datex-d01" class="control-label">
+                            <span class="icon">
+                                <img src="/assets-da/app/generic/img/input-state-error.svg" alt="Errore">
+                            </span>
+                            Errore - Dati extra 2</label>
+                        <div class="input-group">
+                            <input type="text" value="AB483$83" placeholder="Inserisci" id="datex-d01" class="form-control">
+                            <div class="input-group-addon">
+                                <button class="btn btn-addon" type="button" data-toggle="popover" data-placement="top" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+                                    <span class="icon">
+                                        <svg focusable="false">
+                                            <title>Maggiori dettagli sui dati extra</title>
+                                            <use xlink:href="/assets-da/core/img/iconset/sprite.svg#005a-info-m"
+                                                href="/assets-da/core/img/iconset/sprite.svg#005a-info-m">
+                                            </use>
+                                        </svg>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group form-group-abs">
+                        <label for="004a" class="control-label stable">Importo parziale 1</label>
+                        <div class="input-group">
+                            
+                            <input type="number" value="" placeholder="Inserisci" id="004a" class="form-control">
+                            <div class="input-group-addon">&euro;</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group form-group-abs disabled">
+                        <label for="004b" class="control-label stable">Importo totale 1</label>
+                        <div class="input-group">
+                            <input type="number" value="540.00" placeholder="" id="004b" class="form-control"
+                                disabled>
+                                <div class="input-group-addon input-group-addon-disabled">&euro;</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group form-group-abs" role="group" aria-labelledby="lab001">
+                        <label id="lab001" for="005a" class="control-label stable">Importo parziale 2</label>
+                        <div class="input-group">
+                            <div class="input-group-addon">&euro;</div>
+                            <input type="number" value="21" placeholder="" id="005a" class="form-control">
+                            <div class="input-group-addon input-group-addon-decimals">
+                                <input type="text" maxlength="2" value="30" placeholder="" id="005asub"
+                                    class="form-control" aria-label='importo decimale'>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group form-group-abs disabled" role="group" aria-labelledby="lab002">
+                        <label id="lab002" for="005b" class="control-label stable">Importo totale 2</label>
+                        <div class="input-group">
+                            <div class="input-group-addon input-group-addon-disabled">&euro;</div>
+                            <input type="number" value="540" placeholder="" id="005b" class="form-control" disabled>
+                            <div class="input-group-addon input-group-addon-disabled input-group-addon-decimals">
+                                <input type="text" maxlength="2" value="00" placeholder="" id="005bsub"
+                                    class="form-control" aria-label='importo decimale' disabled></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group form-group-abs">
+                        <label for="006" class="control-label stable">Data di conferma</label>
+                        <div class="input-group">
+                            <input type="text" value="" placeholder="" id="006" class="form-control"
+                                aria-describedby="helpDescription-02">
+                            <div class="input-group-addon">
+                                <a href="#" title="Apri il calendario">
+                                    <span class="icon">
+                                        <svg focusable="false">
+                                            <title>Calendario</title>
+                                            <use xlink:href="/assets-da/core/img/iconset/sprite.svg#012a-calendar-month-m"
+                                                href="/assets-da/core/img/iconset/sprite.svg#012a-calendar-month-m">
+                                            </use>
+                                        </svg>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <small id="helpDescription-02" class="note">Ulteriore testo
+                            informativo</small>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group form-group-abs disabled">
+                        <label for="005" class="control-label stable">Data di nascita</label>
+                        <div class="input-group">
+                            <input type="text" value="1989-02-16" placeholder="" id="005" class="form-control"
+                                aria-describedby="helpDescription-01" disabled>
+                            <div class="input-group-addon input-group-addon-disabled">
+                                <a href="#" title="Apri il calendario" tabindex="-1">
+                                    <span class="icon">
+                                        <svg focusable="false">
+                                            <title>Calendario</title>
+                                            <use xlink:href="/assets-da/core/img/iconset/sprite.svg#012a-calendar-month-m"
+                                                href="/assets-da/core/img/iconset/sprite.svg#012a-calendar-month-m">
+                                            </use>
+                                        </svg>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <small id="helpDescription-01" class="note">Ulteriore testo
+                            informativo</small>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group form-group-abs">
+                        <label for="password-01" class="control-label stable">Password</label>
+                        <div class="input-group">
+                            <input type="password" value="" placeholder="Inserisci" id="password-01"
+                                class="form-control">
+                            <div class="input-group-addon">
+                                <a href="#" title="Visualizza il contenuto nascosto">
+                                    <span class="icon">
+                                        <svg focusable="false">
+                                            <title>Password</title>
+                                            <use xlink:href="/assets-da/core/img/iconset/sprite.svg#016b-visibility-on-m"
+                                                href="/assets-da/core/img/iconset/sprite.svg#016b-visibility-on-m">
+                                            </use>
+                                        </svg>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group form-group-abs">
+                        <label for="password-02" class="control-label stable">Password</label>
+                        <div class="input-group">
+                            <input type="password" value="" placeholder="Inserisci" id="password-02"
+                                class="form-control">
+                            <div class="input-group-addon">
+                                <a href="#" title="Visualizza il contenuto nascosto">
+                                    <span class="icon">
+                                        <svg focusable="false">
+                                            <title>Password</title>
+                                            <use xlink:href="/assets-da/core/img/iconset/sprite.svg#016a-visibility-off-m"
+                                                href="/assets-da/core/img/iconset/sprite.svg#016a-visibility-off-m">
+                                            </use>
+                                        </svg>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group form-group-abs">
+                        <label for="geoloc-01" class="control-label stable">Localizzami</label>
+                        <div class="input-group">
+                            <input type="text" value="" placeholder="Inserisci" id="geoloc-01" class="form-control">
+                            <div class="input-group-addon">
+                                <a href="#" title="Localizzami">
+                                    <span class="icon">
+                                        <svg focusable="false">
+                                            <title>Localizzami</title>
+                                            <use xlink:href="/assets-da/core/img/iconset/sprite.svg#062a-my-location-m"
+                                                href="/assets-da/core/img/iconset/sprite.svg#062a-my-location-m">
+                                            </use>
+                                        </svg>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group form-group-abs disabled">
+                        <label for="geoloc-02" class="control-label stable">Localizzami</label>
+                        <div class="input-group">
+                            <input type="text" value="" placeholder="Inserisci" id="geoloc-02" class="form-control"
+                                disabled>
+                            <div class="input-group-addon input-group-addon-disabled">
+                                <a href="#" title="Localizzami" tabindex="-1">
+                                    <span class="icon">
+                                        <svg focusable="false">
+                                            <title>Localizzami</title>
+                                            <use xlink:href="/assets-da/core/img/iconset/sprite.svg#062a-my-location-m"
+                                                href="/assets-da/core/img/iconset/sprite.svg#062a-my-location-m">
+                                            </use>
+                                        </svg>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-inline form-otp">
+                        <fieldset>
+                            <div class="form-group" rol>
+                                <legend class="label-like stable">OTP</legend>
+                                <div class="input-group input-group-otp" role="group">
+                                    <label class="sr-only" for="otp-01">Campo OTP numero 1</label>
+                                    <input type="text" class="form-control" id="otp-01" placeholder="-" maxlength="1"/>
+                                    <label class="sr-only" for="otp-02">Campo OTP numero 2</label>
+                                    <input type="text" class="form-control" id="otp-02" placeholder="-" maxlength="1">
+                                    <label class="sr-only" for="otp-03">Campo OTP numero 3</label>
+                                    <input type="text" class="form-control" id="otp-03" placeholder="-" maxlength="1">
+                                    <label class="sr-only" for="otp-04">Campo OTP numero 4</label>
+                                    <input type="text" class="form-control" id="otp-04" placeholder="-" maxlength="1">
+                                    <label class="sr-only" for="otp-05">Campo OTP numero 5</label>
+                                    <input type="text" class="form-control" id="otp-05" placeholder="-" maxlength="1">
+                                    <label class="sr-only" for="otp-06">Campo OTP numero 6</label>
+                                    <input type="text" class="form-control" id="otp-06" placeholder="-" maxlength="1">
+                                    <label class="sr-only" for="otp-07">Campo OTP numero 7</label>
+                                    <input type="text" class="form-control" id="otp-07" placeholder="-" maxlength="1">
+                                    <label class="sr-only" for="otp-08">Campo OTP numero 8</label>
+                                    <input type="text" class="form-control" id="otp-08" placeholder="-" maxlength="1">
+                                </div>
+                                <div class="mt-2"><small>tentativo 1 di 3</small></div>
+                            </div>
+                        </fieldset>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-inline form-otp">
+                        <fieldset>
+                            <div class="form-group has-success">
+                                <legend class="label-like control-label stable">
+                                    <span class="icon">
+                                        <img src="/assets-da/app/generic/img/input-state-success.svg"
+                                            alt="Campo valido">
+                                    </span> OTP validato
+                                </legend>
+                                <div class="input-group">
+                                    <label class="sr-only" for="otp-01-b">Campo OTP numero 1</label>
+                                    <input type="text" class="form-control" id="otp-01-b" placeholder="-" maxlength="1">
+                                    <label class="sr-only" for="otp-02-b">Campo OTP numero 2</label>
+                                    <input type="text" class="form-control" id="otp-02-b" placeholder="-" maxlength="1">
+                                    <label class="sr-only" for="otp-03-b">Campo OTP numero 3</label>
+                                    <input type="text" class="form-control" id="otp-03-b" placeholder="-" maxlength="1">
+                                    <label class="sr-only" for="otp-04-b">Campo OTP numero 4</label>
+                                    <input type="text" class="form-control" id="otp-04-b" placeholder="-" maxlength="1">
+                                    <label class="sr-only" for="otp-05-b">Campo OTP numero 5</label>
+                                    <input type="text" class="form-control" id="otp-05-b" placeholder="-" maxlength="1">
+                                    <label class="sr-only" for="otp-06-b">Campo OTP numero 6</label>
+                                    <input type="text" class="form-control" id="otp-06-b" placeholder="-" maxlength="1">
+                                    <label class="sr-only" for="otp-07-b">Campo OTP numero 7</label>
+                                    <input type="text" class="form-control" id="otp-07-b" placeholder="-" maxlength="1">
+                                    <label class="sr-only" for="otp-08-b">Campo OTP numero 8</label>
+                                    <input type="text" class="form-control" id="otp-08-b" placeholder="-" maxlength="1">
+                                </div>
+                                <div class="mt-2"><small>tentativo 1 di 3</small></div>
+                            </div>
+                        </fieldset>
+                    </div>
+                </div>
+            </div>
+
+
+        </fieldset>
+
+        <!-- Campi inline -->
+        <fieldset class="separator">
+            <legend class="sr-only">Campi inline</legend>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="box-editable-area mb-4">
+                        <h3 class="area-heading">Campi inline</h3>
+                        <p>Il <strong>&lt;div&gt;</strong> contenitore <strong>'.form-inline'</strong> permette di
+                            costruire porzioni di form con elementi affiancati.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="form-inline pb-4">
+                        <div class="form-group form-group-abs">
+                            <label class="control-label" for="inline-email-01">Indirizzo Email</label>
+                            <input type="email" class="form-control" id="inline-email-01" placeholder="Email">
+                        </div>
+                        <div class="form-group form-group-abs">
+                            <label for="inline-password-01" class="control-label">Password</label>
+                            <div class="input-group">
+                                <input type="password" value="" placeholder="password" id="inline-password-01"
+                                    class="form-control">
+                                <div class="input-group-addon">
+                                    <a href="#" title="Visualizza il contenuto nascosto">
+                                        <span class="icon">
+                                            <svg focusable="false">
+                                                <title>Password</title>
+                                                <use xlink:href="/assets-da/core/img/iconset/sprite.svg#016b-visibility-on-m"
+                                                    href="/assets-da/core/img/iconset/sprite.svg#016b-visibility-on-m">
+                                                </use>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                            <div class="form-group">
+                                <div class="form-check" role="presentation">
+                                    <input id="inline-checkbox-01" type="checkbox" checked="">
+                                    <label class="control-label" for="inline-checkbox-01">Ricorda i miei dati di accesso</label>
+                                </div>
+                            </div>
+                        <button type="submit" class="btn btn-xs btn-primary my-0">Accedi</button>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="form-inline mb-4 mb-sm-0">
+                        <div class="form-group form-group-abs disabled">
+                            <label class="control-label stable" for="inline-email-02">Indirizzo Email</label>
+                            <input type="email" class="form-control" id="inline-email-02" placeholder="Email" disabled>
+                        </div>
+                        <button type="submit" class="btn btn-xs btn-primary my-0" disabled>Accedi</button>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="form-inline">
+                        <fieldset>
+                            <div class="form-group">
+                                <legend id="mylegradinline" class="sr-only">Lorem ipsum</legend>
+                                <div class="form-check">
+                                    <input name="gruppo-inline" type="radio" id="inline-radio1" aria-labelledby="mylabelrad01inline mylegradinline" checked>
+                                    <label id="mylabelrad01inline" class="control-label" for="inline-radio1">Radio di esempio 1</label>
+                                </div>
+                                <div class="form-check">
+                                    <input name="gruppo-inline" type="radio" id="inline-radio2" aria-labelledby="mylabelrad02inline mylegradinline">
+                                    <label id="mylabelrad02inline" class="control-label" for="inline-radio2">Radio di esempio 2</label>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+        
+        <!-- Campi file -->
+        <fieldset class="separator">
+            <legend class="sr-only">Campi file 1</legend>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="box-editable-area mb-4">
+                        <h3 class="area-heading">Campi file upload</h3>
+                        <p><strong>Esempio di layout</strong> upload con trascinamento e con selezione file da fs.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="dragging-upload">
+                                <div class="dragging-upload-percentage p-3">
+                                    <div class="dragging-upload-bordered p-3">
+                                        <p class="text-center mt-4">
+                                            <img src="/assets-da/core/img/ico/ico-upload.png"
+                                                srcset="/assets-da/core/img/ico/ico-upload@2x.png 2x" alt="upload area">
+                                        </p>
+                                        <p class="text-center">
+                                            Trascina qui il documento <br>oppure
+                                        </p>
+                                        <p class="text-center">
+                                            <label for="file-00">
+                                                <span class="sr-only">seleziona il file</span>
+                                                <input type="file" id="file-00" name="file-00" tabindex="-1">
+                                                <button type="button"
+                                                    class="btn btn-xs btn-primary mt-4">Carica</button>
+                                            </label>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="dragging-upload">
+                                <div class="dragging-upload-percentage p-3">
+                                    <div class="dragging-upload-bordered p-3">
+                                        <p class="text-center mt-4">
+                                            <img src="/assets-da/core/img/ico/ico-upload.png"
+                                                srcset="/assets-da/core/img/ico/ico-upload@2x.png 2x" alt="upload area">
+                                        </p>
+                                        <p class="text-center">
+                                            Rilascia qui il documento <br>oppure
+                                        </p>
+                                        <p class="text-center">
+                                            <label for="file-01">
+                                                <span class="sr-only">seleziona il file</span>
+                                                <input type="file" id="file-01" name="file-01" tabindex="-1">
+                                                <button type="button"
+                                                    class="btn btn-xs btn-primary mt-4">Carica</button>
+                                            </label>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="dragging-upload">
+                                <div class="dragging-upload-percentage p-3"
+                                    style="background: linear-gradient(90deg, #eef0ff 54%, #f6f6f6  54%)">
+                                    <div class="dragging-upload-bordered p-3">
+                                        <p class="text-center h2">54%</p>
+                                        <p class="text-center">
+                                            Caricamento di Documento.pdf <br>in corso ...
+                                        </p>
+                                        <p class="text-center">
+                                            <button type="submit" class="btn btn-xs btn-default mt-4">Annulla</button>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </fieldset>
+
+        <!-- Campi file upload tramite input -->
+        <fieldset class="separator">
+            <legend class="sr-only">Campi file 2</legend>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="box-editable-area mb-4">
+                        <h3 class="area-heading">Campo file upload</h3>
+                        <p><strong>Esempio di layout</strong> upload con input visibile.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="form-group form-group-abs">
+                                <div class="input-upload">
+                                    <label class="control-label stable" for="001fil"><span>Carica il documento</span></label>
+                                    <div class="input-group">
+                                        <input type="text" value="" aria-label="Seleziona il file" placeholder="Seleziona il file" id="datex-01-001fil" class="form-control" tabindex="-1" aria-hidden="true">
+                                        <div class="input-group-addon" aria-hidden="true">
+                                            <span class="icon">
+                                                <svg focusable="false">
+                                                    <title>Upload file</title>
+                                                    <use xlink:href="/assets-da/core/img/iconset/sprite.svg#022a-folder-open-m"
+                                                        href="/assets-da/core/img/iconset/sprite.svg#022a-folder-open-m">
+                                                    </use>
+                                                </svg>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <input type="file" class="form-control" id="001fil">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-xs btn-primary mt-sm-3">Carica</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="form-group form-group-abs">
+                                <div class="input-upload">
+                                    <label class="control-label stable" for="002fil"><span>Carica il documento</span></label>
+                                    <div class="input-group">
+                                        <input type="text" aria-label="Seleziona il file" value="" placeholder="Seleziona il file" id="datex-01-002fil" class="form-control" tabindex="-1" aria-hidden="true">
+                                        <div class="input-group-addon" aria-hidden="true">
+                                            <span class="icon">
+                                                <svg focusable="false">
+                                                    <title>Upload file</title>
+                                                    <use xlink:href="/assets-da/core/img/iconset/sprite.svg#022a-folder-open-m"
+                                                        href="/assets-da/core/img/iconset/sprite.svg#022a-folder-open-m">
+                                                    </use>
+                                                </svg>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <input type="file" class="form-control" id="002fil">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-xs btn-primary mt-sm-3">Carica</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <ul class="list-file">
+                                <li class="list-file-excel">
+                                    <div class="box-rack flex flex-column flex-sm-row box-cyan my-3">
+                                        <div class="box-wrap flex justify-content-sm-start flex-sm-grow-1">
+                                            <div class="box-body">
+                                                <a href="#" title="Tessera sanitaria.pdf">Tessera sanitaria - fronte.pdf</a> 
+                                            </div>   
+                                        </div>
+                                        <div class="box-wrap flex justify-content-end">
+                                            <a href="#" title="Elimina il documento Tessera sanitaria - fronte.pdf">
+                                                <span class="icon hidden-xs">
+                                                    <svg focusable="false">
+                                                    <title>Elimina il documento</title>
+                                                    <use xlink:href="/assets-da/core/img/iconset/sprite.svg#036a-delete-m"></use>
+                                                    </svg>
+                                                </span>
+                                                <span class="visible-xs fs-small fw-semibold">elimina</span>
+                                            </a>
+                                          </div>
+                                    </div>
+                                </li>
+                                <li class="list-file-excel">
+                                    <div class="box-rack flex flex-column flex-sm-row box-cyan my-3">
+                                        <div class="box-wrap flex justify-content-sm-start flex-sm-grow-1">
+                                            <div class="box-body">
+                                                <a href="#" title="Tessera sanitaria.pdf">Tessera sanitaria - retro.pdf</a> 
+                                            </div>   
+                                        </div>
+                                        <div class="box-wrap flex justify-content-end">
+                                            <a href="#" title="Elimina il documento Tessera sanitaria - retro.pdf">
+                                                <span class="icon hidden-xs">
+                                                    <svg focusable="false">
+                                                    <title>Elimina il documento</title>
+                                                    <use xlink:href="/assets-da/core/img/iconset/sprite.svg#036a-delete-m"></use>
+                                                    </svg>
+                                                </span>
+                                                <span class="fs-small fw-semibold">elimina</span>
+                                            </a>
+                                          </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+
+        <!-- Campi selezionabili -->
+        <fieldset class="separator">
+            <legend class="sr-only">Campi selezionabili</legend>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="box-editable-area mb-4">
+                        <h3 class="area-heading">Campi selezionabili</h3>
+                        <p>Il <strong>&lt;div&gt;</strong> contenitore <strong>'.select-wrapper'</strong> permette di
+                            strutturare le select.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group form-group-abs">
+                        <div class="select-wrapper">
+                            <label for="select-010" class="control-label stable">Etichetta</label>
+                            <select class="form-control" id="select-010">
+                                <option selected="" value="">Scegli un'opzione</option>
+                                <option value="Value 1">Opzione 1</option>
+                                <option value="Value 2">Opzione 2</option>
+                                <option value="Value 3">Opzione 3</option>
+                                <option value="Value 4">Opzione 4</option>
+                                <option value="Value 5">Opzione 5</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group form-group-abs disabled">
+                        <div class="select-wrapper">
+                            <label for="select-008" class="control-label stable">Etichetta</label>
+                            <select class="form-control" id="select-008" disabled>
+                                <option selected="" value="">Scegli un'opzione</option>
+                                <option value="Value 1">Opzione 1</option>
+                                <option value="Value 2">Opzione 2</option>
+                                <option value="Value 3">Opzione 3</option>
+                                <option value="Value 4">Opzione 4</option>
+                                <option value="Value 5">Opzione 5</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="form-group form-group-abs has-error">
+                        <div class="select-wrapper">
+                            <label for="select-009" class="control-label stable">Etichetta</label>
+                            <select class="form-control" id="select-009">
+                                <option selected="" value="">Scegli un'opzione</option>
+                                <option value="Value 1">Opzione 1</option>
+                                <option value="Value 2">Opzione 2</option>
+                                <option value="Value 3">Opzione 3</option>
+                                <option value="Value 4">Opzione 4</option>
+                                <option value="Value 5">Opzione 5</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+
+        <!-- Campi con label relative -->
+        <fieldset class="separator">
+            <legend class="sr-only">Campi checkbox e radio con label relative</legend>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="box-editable-area mb-4">
+                        <h3 class="area-heading">Campi checkbox e radio con label relative</h3>
+                        <p>Il <strong>&lt;div&gt;</strong> contenitore 
+                            <strong>'.form-check'</strong> permette di
+                            strutturare radio button e checkbox.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-sm-6">
+                    <fieldset>
+                        <div class="form-group">
+                            <legend id="lab-f04" class="label-like">Label relative 1</legend>
+                            <div class="form-check">
+                                <input name="gruppo1" type="radio" id="radio1" checked aria-labelledby="lab-ak01 lab-f04"/>
+                                <label id="lab-ak01" class="control-label" for="radio1">Radio di esempio 1</label>
+                            </div>
+                            <div class="form-check">
+                                <input name="gruppo1" type="radio" id="radio2" aria-labelledby="lab-ak02 lab-f04"/>
+                                <label id="lab-ak02" class="control-label" for="radio2">Radio di esempio 2</label>
+                            </div>
+                            <div class="form-check">
+                                <input name="gruppo1" type="radio" id="radio3" disabled aria-labelledby="lab-ak03 lab-f04"/>
+                                <label id="lab-ak03" class="control-label" for="radio3" class="disabled">Radio di esempio 3 -
+                                    Disabled</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="col-sm-6">
+                    <fieldset>
+                        <div class="form-group">
+                            <legend id="lab-f03" class="label-like">Label relative 2</legend>
+                            <div class="form-check">
+                                <input name="gruppo2" type="radio" id="radio4" checked disabled  aria-labelledby="lab-at01 lab-f03"/>
+                                <label id="lab-at01" class="control-label" for="radio4" class="disabled">Radio di esempio 1 -
+                                    Disabled</label>
+                            </div>
+                            <div class="form-check">
+                                <input name="gruppo2" type="radio" id="radio5" disabled  aria-labelledby="lab-at02 lab-f03"/>
+                                <label id="lab-at02" class="control-label" for="radio5" class="disabled">Radio di esempio 2 -
+                                    Disabled</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+
+                <div class="col-sm-12">
+                    <fieldset>
+                        <div class="form-group">
+                            <legend id="lab-f021" class="label-like">Label relative 3</legend>
+                            <div class="form-check has-error">
+                                <input name="gruppo2chk" type="radio" id="radio6" checked  aria-labelledby="lab-as01 lab-f021"/>
+                                <label id="lab-as01" class="control-label" for="radio6">Non accetto il contratto</label>
+                            </div>
+                            <div class="form-check has-error">
+                                <input name="gruppo2chk" type="radio" id="radio7" aria-labelledby="lab-as02 lab-f021"/>
+                                <label id="lab-as02" class="control-label" for="radio7">Accetto e sottoscrivo il contratto in ogni sua
+                                    voce</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <!-- Checkbox-->
+                    <fieldset>
+                        <div class="form-group">
+                            <legend id="lab-f01" class="label-like">Label relative 4</legend>
+                            <div class="form-check">
+                                <input id="checkbox1" type="checkbox" checked aria-labelledby="lab-ac01 lab-f01">
+                                <label id="lab-ac01" class="control-label" for="checkbox1">Checkbox di esempio 1</label>
+                            </div>
+                            <div class="form-check">
+                                <input id="checkbox2" type="checkbox" aria-labelledby="lab-ac02 lab-f01">
+                                <label id="lab-ac02" class="control-label" for="checkbox2">Checkbox di esempio 2</label>
+                            </div>
+                            <div class="form-check has-error">
+                                <input id="checkbox3" type="checkbox" checked aria-labelledby="lab-ac03 lab-f01">
+                                <label id="lab-ac03" class="control-label" for="checkbox3">Checkbox di esempio 3</label>
+                            </div>
+                            <div class="form-check">
+                                <input id="checkbox4" type="checkbox" disabled aria-labelledby="lab-ac04 lab-f01">
+                                <label id="lab-ac04" class="control-label" for="checkbox4">Checkbox di esempio 4 - Disabled</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+
+                <div class="col-sm-6">
+                    <fieldset>
+                        <div class="form-group">
+                            <legend id="lab-f02" class="label-like">Label relative 5</legend>
+                            <div class="form-check">
+                                <input id="checkbox5" type="checkbox" checked disabled aria-labelledby="lab-abc01 lab-f02">
+                                <label id="lab-abc01" class="control-label" for="checkbox5">Checkbox di esempio 1 - Disabled</label>
+                            </div>
+                            <div class="form-check">
+                                <input id="checkbox6" type="checkbox" disabled aria-labelledby="lab-abc02 lab-f02">
+                                <label id="lab-abc02" class="control-label" for="checkbox6">Checkbox di esempio 2 - Disabled</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+
+
+
+
+                <div class="col-sm-12">
+                    <p>Attivit&agrave; di marketing, indagini di mercato e sondaggi di
+                        qualit&agrave; relativi ai servizi di Poste Italiane S.p.A. o delle societ&agrave; del
+                        Gruppo Poste Italiane</p>
+                    <div class="form-group">
+                        <legend id="labelradioa01" class="sr-only">Le condizioni relative alle attivit&agrave; di marketing</legend>
+                        <div class="form-check">
+                            <input name="gruppoaa2" type="radio" id="radioinline01" checked aria-labelledby="labelradioa01ok labelradioa01"/>
+                            <label id="labelradioa01ok" class="control-label" for="radioinline01">Accetto</label>
+                        </div>
+                        <div class="form-check">
+                            <input name="gruppoaa2" type="radio" id="radioinline02" aria-labelledby="labelradioa01ko labelradioa01"/>
+                            <label id="labelradioa01ko" class="control-label" for="radioinline02">Non accetto</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="form-inline">
+                        <p>Per comunicare i dati di profilazione finalizzate al marketing alle societ&agrave; del Gruppo Poste Italiane in modo da migliorare i loro servizi, 
+                            nonch&eacute; previo specifico consenso rilasciato alle stesse, per effettuare marketing, indagici di mercato e sondaggi di qualita&agrave; personalizzati</p>
+                        <fieldset>
+                            <div class="form-group">
+                                <legend id="labelradioc01" class="sr-only">Le condizioni relative al trattamento dati di profilazione</legend>
+                                <div class="form-check">
+                                    <input name="gruppobb2" type="radio" id="radioinlinea01" checked 
+                                    aria-labelledby="labelradioa0h1ok labelradioc01"/>
+                                    <label id="labelradioa0h1ok" class="control-label" for="radioinlinea01">Accetto</label>
+                                </div>
+                                <div class="form-check">
+                                    <input name="gruppobb2" type="radio" id="radioinlinea02" 
+                                    aria-labelledby="labelradioa0h1ko labelradioc01"/>
+                                    <label id="labelradioa0h1ko" class="control-label" for="radioinlinea02">Non accetto</label>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </div>
+                </div>
+
+            </div>
+            
+
+        </fieldset>
+        <fieldset class="separator">
+            <legend class="sr-only">Campi radio boxed</legend>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="box-editable-area mb-4">
+                        <h3 class="area-heading">Campi radio boxed</h3>
+                        <p>Il <strong>&lt;div&gt;</strong> contenitore <strong>'.box-rack'</strong> gestisce anche la presenza di radio
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <fieldset>
+                        <div class="form-group">
+                            <legend id="labelradiopay" class="sr-only">Seleziona la modalit&agrave; di pagamento lorem ipsum</legend>
+                            <div class="box-rack box-recommended">
+                                <div class="box-wrap">
+                                    <div class="box-body">
+                                        <div class="form-check form-boxed">
+                                            <input name="gruppopay" type="radio" id="radiopay01" checked 
+                                            aria-labelledby="labelradiopay01 labelradiopay"/>
+                                            <label id="labelradiopay01" class="control-label" for="radiopay01">Paga ora <span class="tag fs-extrasmall ms-2">Pi&ugrave; rapido</span></label>
+                                            <div class="ms-5 ps-1">
+                                                <ul class="list-unstyled list-inline">
+                                                    <li class="px-0 pb-1">
+                                                        <img alt="Paga con Postepay" src="/assets-da/app/generic/img/payments-PagaPp.png" srcset="/assets-da/app/generic/img/payments-PagaPp@2x.png 2x">
+                                                    </li>
+                                                    <li class="px-0 pb-1">
+                                                        <img alt="Paga con Visa" src="/assets-da/app/generic/img/payments-visa.png" srcset="/assets-da/app/generic/img/payments-visa@2x.png 2x">
+                                                    </li>
+                                                    <li class="px-0 pb-1">
+                                                        <img alt="Paga con Visa electron" src="/assets-da/app/generic/img/payments-visa-electron.png" srcset="/assets-da/app/generic/img/payments-visa-electron@2x.png 2x">
+                                                    </li>
+                                                    <li class="px-0 pb-1">
+                                                        <img alt="Paga con Maestro" src="/assets-da/app/generic/img/payments-maestro.png" srcset="/assets-da/app/generic/img/payments-maestro@2x.png 2x">
+                                                    </li>
+                                                    <li class="px-0 pb-1">
+                                                        <img alt="Paga con Mastercard" src="/assets-da/app/generic/img/payments-mastercard.png" srcset="/assets-da/app/generic/img/payments-mastercard@2x.png 2x">
+                                                    </li>
+                                                    <li class="px-0 pb-1">
+                                                        <img alt="Paga con Vpay" src="/assets-da/app/generic/img/payments-vpay.png" srcset="/assets-da/app/generic/img/payments-vpay@2x.png 2x">
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box-rack">
+                                <div class="box-wrap">
+                                    <div class="box-body">
+                                        <div class="form-check form-boxed">
+                                            <input name="gruppopay" type="radio" id="radiopay02" 
+                                            aria-labelledby="labelradiopay02 labelradiopay"/>
+                                            <label id="labelradiopay02" class="control-label" for="radiopay02">Paga con una ricarica SIM</label>
+                                            <div class="ms-5 ps-1">Completa la richiesta e ricarica la SIM dopo la consegna</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box-rack">
+                                <div class="box-wrap">
+                                    <div class="box-body">
+                                        <div class="form-check form-boxed">
+                                            <input name="gruppopay" type="radio" id="radiopay03" 
+                                            aria-labelledby="labelradiopay03 labelradiopay"/>
+                                            <label id="labelradiopay03" class="control-label" for="radiopay03">Magni dolor amet</label>
+                                            <div class="ms-5 ps-1">Vitae ducimus incidunt corrupti magni delectus</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </fieldset>
+                </div>
+            </div>
+        </fieldset>
+
+        <!-- Campi con label relative -->
+        <fieldset class="separator">
+            <legend class="sr-only">Campi con label relative</legend>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="box-editable-area mb-4">
+                        <h3 class="area-heading">Campi con label relative (solo casi particolari)</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label class="control-label" for="labrel001a">Campo con label molto lunga</label>
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="labrel001a" placeholder="inserisci">
+                            <div class="input-group-addon">
+                                <button class="btn btn-addon" type="button" data-toggle="popover" data-placement="top" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+                                    <span class="icon">
+                                        <svg focusable="false">
+                                            <title>Maggiori dettagli sui dati extra</title>
+                                            <use xlink:href="/assets-da/core/img/iconset/sprite.svg#005a-info-m"
+                                                href="/assets-da/core/img/iconset/sprite.svg#005a-info-m">
+                                            </use>
+                                        </svg>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group has-error">
+                        <label class="control-label" for="s001ba">
+                        <span class="icon">
+                            <img src="/assets-da/app/generic/img/input-state-error.svg" alt="Errore">
+                        </span>
+                        Errore - Codice fiscale</label>
+                        <input type="text" class="form-control" id="s001ba" placeholder="inserisci">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group" role="group" aria-labelledby="labrel002a">
+                        <label id="labrel002a" for="ca005a" class="control-label stable">Importo parziale 3</label>
+                        <div class="input-group">
+                            <div class="input-group-addon">&euro;</div>
+                            <input type="number" value="21" placeholder="" id="ca005a" class="form-control">
+                            <div class="input-group-addon input-group-addon-decimals">
+                                <input type="text" maxlength="2" value="30" placeholder="" id="ca005asub"
+                                    class="form-control" aria-label='importo decimale'>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+
+        <!-- Textarea -->
+        <fieldset>
+            <legend class="sr-only">Textarea</legend>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="box-editable-area mb-4">
+                        <h3 class="area-heading">Textarea</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6 col-sm-push-6">
+                    <div class="mt-0 mb-6 my-sm-4">
+                        <p><strong>Sed hic consectetur do </strong>incurreret quem illum
+                            nescius elit, velit excepteur occaecat, in ipsum arbitror
+                            cohaerescant.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-sm-pull-6">
+                    <div class="form-group form-group-abs">
+                        <label class="control-label" for="campo-textarea-01">Note aggiuntive</label>
+                        <textarea class="form-control" rows="6" id="campo-textarea-01"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-sm-push-6">
+                    <div class="mt-0 mb-6 my-sm-4">
+                        <p>
+                            <strong>Sed hic consectetur do </strong>incurreret quem illum
+                            nescius elit, velit excepteur occaecat, in ipsum arbitror
+                            cohaerescant.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-sm-pull-6">
+                    <div class="form-group form-group-abs has-error">
+                        <label class="control-label" for="campo-textarea-02">
+                            <span class="icon">
+                                <img src="/assets-da/app/generic/img/input-state-error.svg" alt="Errore">
+                            </span>
+                            Errore - Note aggiuntive</label>
+                        <textarea class="form-control" rows="6" id="campo-textarea-02"></textarea>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6 col-sm-push-6">
+                    <div class="mt-0 mb-6 my-sm-4">
+                        <p>
+                            <strong>Sed hic consectetur do </strong>incurreret quem illum
+                            nescius elit, velit excepteur occaecat, in ipsum arbitror
+                            cohaerescant.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-sm-pull-6">
+                    <div class="form-group form-group-abs has-success">
+                        <label class="control-label stable" for="campo-textarea-03">
+                            <span class="icon">
+                                <img src="/assets-da/app/generic/img/input-state-success.svg" alt="Campo valido">
+                            </span>
+                            Validato - Note aggiuntive</label>
+                        <textarea class="form-control" rows="6" id="campo-textarea-03"></textarea>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6 col-sm-push-6">
+                    <div class="mt-0 mb-6 my-sm-4">
+                        <p>
+                            <strong>Sed hic consectetur do </strong>incurreret quem illum
+                            nescius elit, velit excepteur occaecat, in ipsum arbitror
+                            cohaerescant.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-sm-pull-6">
+                    <div class="form-group form-group-abs disabled">
+                        <label class="control-label" for="campo-textarea-04">
+                        Note aggiuntive</label>
+                        <textarea class="form-control" rows="6" id="campo-textarea-04" disabled></textarea>
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+
+    </form>
+</div>

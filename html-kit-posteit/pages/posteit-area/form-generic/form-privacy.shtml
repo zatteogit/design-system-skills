@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <title>Poste.it</title>
+    <!--#include virtual="/includes-da/utilities/head-tag.html" -->
+</head>
+
+<body>
+    <nav id="skiplink" aria-label="Navigazione di pagina"><ul>
+        <li><a tabindex="0" class="skip-link sr-only-focusable-abs" href="#accessibility-anchor">Passa al contenuto
+        principale</a></li>
+        <li><a class="skip-link sr-only-focusable-abs" href="#assistenza-side">Passa all'help</a></li>
+        <li><a class="skip-link sr-only-focusable-abs" href="#footer">Passa al footer di pagina</a></li>
+    </ul></nav>
+  <header>
+        <!-- Content Navbar-->
+        <div class="content" id="content-navbar">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--#include virtual="/includes-da/header/navbar-content-app.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main id="accessibility-anchor" tabindex="-1">
+
+        <h1 class="sr-only">Modulo di richiesta lorem ipsum - Condizioni di servizio e privacy</h1>
+        
+        <div class="content concept-app display-pop" id="content-abstract">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 hidden-sm hidden-xs">
+                          <ol class="breadcrumb breadcrumb-xs-trim-a breadcrumb-sm-trim-a breadcrumb-md-trim-b">
+                            <li>
+                              <a href="#" title="Home privati">
+                                <span>Home privati</span>
+                              </a>
+                            </li>
+                            <li class="active" aria-current="page"><span>Registrazione account Poste.it</span></li>
+                          </ol>
+                        </div>
+                      </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="abstract">
+                                <div class="abstract-heading">
+                                    <h1 class="clearfix">Registrazione account Poste.it</h1>
+                                    <!--
+                                    <span class="abstract-subtitle">Compila il modulo e invialo online, lorem. Perferendis perspiciatis sequi rem in debitis! Nulla, reprehenderit libero unde natus facilis suscipit recusandae corporis illo.</span>
+                                    -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content" id="content-stepper">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row mt-sm-5">
+                        <div class="col-lg-10 col-lg-push-1">
+                            <!--#include virtual="/includes-da/object/funnel-stepper.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content" id="content-main">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-lg-10 col-lg-push-1 col-structure">
+                            <div id="main">
+                                <form id="form-id060606">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div class="main-pills main-pills-xs-basic mode-light separator">
+                                                <div class="main-pills-wrap">
+                                                    <div class="row">
+                                                        <div class="col-sm-12">
+
+                                                            <div class="row">
+                                                                <div class="col-sm-12">
+                                                                    <div class="box-editable-area mb-4">
+                                                                        <h2 class="area-heading mt-sm-0">Condizioni di servizio e privacy</h2>
+                                                                        <p>Leggi e accetta i consensi relativi alle condizioni generali di servizio e privacy</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <fieldset>
+                                                                <legend class="sr-only">Condizioni di servizio</legend>
+                                                                <div class="row">
+                                                                    <div class="col-sm-12">
+                                                                        <div class="box-rack box-cyan mt-2">
+                                                                            <div class="box-body">
+                                                                                <ul class="list-file list-black m-0">
+                                                                                    <li class="list-file-excel">
+                                                                                        <a href="#" title="Condizioni Generali del Servizio Bacheca e di accesso ai servizi online offerti dal Gruppo Poste Italiane lorem ipsum genral dashboard conditions">Condizioni Generali del Servizio Bacheca e di accesso ai servizi online offerti dal Gruppo Poste Italiane.</a>
+                                                                                    </li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-12">
+                                                                        <div class="form-group m-0">
+                                                                            <div class="form-check" role="presentation">
+                                                                                <input id="checkbox-01" type="checkbox" checked="">
+                                                                                <label class="control-label" for="checkbox-01">Ho
+                                                                                    letto ed accettato le Condizioni Generali del
+                                                                                    Servizio Bacheca e di accesso ai servizi online
+                                                                                    offerti dal Gruppo Poste Italiane.</label>
+                                                                            </div>
+                                                                            <div class="form-check" role="presentation">
+                                                                                <input id="checkbox-02" type="checkbox" checked="">
+                                                                                <label class="control-label"
+                                                                                    for="checkbox-02">Costituisco clausole
+                                                                                    vessatorie contenute nel presente Contratto che
+                                                                                    il Cliente, all'atto dell'accettazione, deve
+                                                                                    specificatamente
+                                                                                    approvare ai sensi e per gli effetti degli art.
+                                                                                    1341 e 1342 del Codice Civile, i seguenti
+                                                                                    articoli: 5.1 e 5.2 (Diritti e
+                                                                                    responsabilit&agrave; di
+                                                                                    Poste); Art. 6.1, 6.4, 6.6, 6.7, 6.10, 6.11
+                                                                                    (Responsabilit&agrave; dell'utente. Manleve.
+                                                                                    Risolutiva espressa.); 8.1 (Cessione del
+                                                                                    Contratto) e
+                                                                                    12.1 (Disposizioni finali).</label>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </fieldset>
+
+                                                            <fieldset>
+                                                                <legend class="sr-only">Condizioni Generali del Servizio Ritiro Digitale</legend>
+                                                                <div class="row">
+                                                                    <div class="col-sm-12">
+                                                                        <div class="box-rack box-cyan mt-2">
+                                                                            <div class="box-body">
+                                                                                <ul class="list-file list-black m-0">
+                                                                                    <li class="list-file-excel">
+                                                                                        <a href="#" title="Condizioni Generali del Servizio Ritiro Digitale lorem ipsum general conditions">Condizioni Generali del Servizio Ritiro Digitale</a>
+                                                                                    </li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-12">
+                                                                        <div class="form-group m-0">
+                                                                            <div class="form-check" role="presentation">
+                                                                                <input id="checkbox-03" type="checkbox" checked="">
+                                                                                <label class="control-label"
+                                                                                    for="checkbox-03">Attivo il servizio gratuito
+                                                                                    Ritiro Digitale per ritirare comodamente online
+                                                                                    i miei invii in giacenza. Ho letto ed accettato
+                                                                                    le relative Condizioni Generali del
+                                                                                    servizio.3</label>
+                                                                            </div>
+                                                                            <div class="form-check" role="presentation">
+                                                                                <input id="checkbox-04" type="checkbox">
+                                                                                <label class="control-label" for="checkbox-04">Il
+                                                                                    richiedente accetta specificatamente, anche ai
+                                                                                    sensi e per gli effetti degli artt. 1341 e 13.42
+                                                                                    del C.C., le seguenti clausole : artt. 3.2e 3.6
+                                                                                    (Attivazione e modalit&agrave; di erogazione del
+                                                                                    servizio); artt. 5.6, 5.7 e 5.8 (Obblighi,
+                                                                                    divieti e responsabilit&agrave; del Cliente); art. 6.2,
+                                                                                    6.3, 6.4 (Obblighi e responsabilit&agrave; di
+                                                                                    Poste Italiane); artt. 8.2 e 8.3 (Sospensione
+                                                                                    del servizio); artt. 9.1, 9.2 (Modifiche); art.
+                                                                                    10.2 (Risoluzione) art. 11.1 (Foro Competente);
+                                                                                    art. 14.2 e 14.3 (Applicazione del decreto
+                                                                                    legislativo 206/2005 codice consumo e diritto
+                                                                                    di recesso dei contratti conclusi a
+                                                                                    distanza).</label>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </fieldset>
+
+                                                            <fieldset>
+                                                                <legend class="sr-only">Informativa sulla privacy</legend>
+                                                                <div class="row">
+                                                                    <div class="col-sm-12">
+                                                                        <div class="box-rack box-cyan mt-2">
+                                                                            <div class="box-body">
+                                                                                <ul class="list-file list-black m-0">
+                                                                                    <li class="list-file-excel">
+                                                                                        <a href="#" title="Informativa sulla privacy lorem ipsum private information">Informativa sulla privacy</a>
+                                                                                    </li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-12">
+                                                                        <div class="form-group m-0">
+                                                                            <div class="form-check" role="presentation">
+                                                                                <input id="checkbox-05" type="checkbox" checked="">
+                                                                                <label class="control-label" for="checkbox-05">Ho
+                                                                                    preso visione dell'informativa sulla
+                                                                                    privacy</label>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </fieldset>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="main-pills main-pills-xs-basic mode-light">
+                                                <div class="main-pills-wrap">
+                                                    <div class="row">
+                                                        <div class="col-sm-12">
+                                                            <div class="row">
+                                                                <div class="col-sm-12">
+                                                                    <div class="box-editable-area mb-4">
+                                                                        <h2 class="area-heading mt-sm-0">Trattamento dei dati personali</h2>
+                                                                        <p>Autorizzazione al trattamento dei dati personali per le finalit&agrave; di seguito indicate:</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <fieldset>
+                                                                <legend class="sr-only">Condizioni legend dati peronali</legend>
+                                                                <div class="row">
+                                                                    <div class="col-sm-12">
+                                                                        <div class="form-relative form-inline">
+                                                                            <p>Attivit&agrave; di marketing, indagini di mercato e sondaggi di
+                                                                                qualit&agrave; relativi ai servizi di Poste Italiane S.p.A. o delle societ&agrave; del
+                                                                                Gruppo Poste Italiane</p>
+                                                                            <fieldset>
+                                                                                <legend id="labelradioa01" class="sr-only">Consenso comunicazioni marketing PI automatizzate/tradizionali su prodotti PI/Soc.Gruppo</legend>
+                                                                                <div class="form-group">
+                                                                                    <div class="form-check">
+                                                                                        <input name="gruppoaa1" type="radio" id="radioinline01" checked aria-labelledby="labelradioa01ok labelradioa01"/>
+                                                                                        <label id="labelradioa01ok" class="control-label" for="radioinline01">Accetto</label>
+                                                                                    </div>
+                                                                                    <div class="form-check">
+                                                                                        <input name="gruppoaa1" type="radio" id="radioinline02" aria-labelledby="labelradioa01ko labelradioa01"/>
+                                                                                        <label id="labelradioa01ko" class="control-label" for="radioinline02">Non accetto</label>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </fieldset>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-12">
+                                                                        <div class="form-relative form-inline">
+                                                                            <p>Attivit&agrave; di marketing, indagini di mercato e sondaggi di qualit&agrave; relativi ai servizi di soggetti terzi non appartenenti del Gruppo Poste
+                                                                                Italiane</p>
+                                                                            <fieldset>
+                                                                                <legend id="labelradioa02" class="sr-only">Consenso comunicazioni mkt PI automatizzate/tradizionali su prodotti di Terzi</legend>
+                                                                                <div class="form-group">
+                                                                                    <div class="form-check">
+                                                                                        <input name="gruppoaa2" type="radio" id="radioinline03" checked aria-labelledby="labelradioa02ok labelradioa02"/>
+                                                                                        <label id="labelradioa02ok" class="control-label" for="radioinline03">Accetto</label>
+                                                                                    </div>
+                                                                                    <div class="form-check">
+                                                                                        <input name="gruppoaa2" type="radio" id="radioinline04" aria-labelledby="labelradioa02ko labelradioa02">
+                                                                                        <label id="labelradioa02ko" class="control-label" for="radioinline04">Non accetto</label>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </fieldset>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-12">
+                                                                        <div class="form-relative form-inline">
+                                                                            <p>Attivit&agrave; di profilazione della clientela e previo lo specifico consenso di cui ai punti 1 e/o 2, marketing personalizzato, indagici di mercato
+                                                                                e sondaggi di qualit&agrave; personalizzati</p>
+                                                                            <fieldset>
+                                                                                <legend id="labelradioa03" class="sr-only">Consenso alla profilazione da parte di PI</legend>
+                                                                                <div class="form-group">
+                                                                                    <div class="form-check">
+                                                                                        <input name="gruppoaa3" type="radio" id="radioinline05" checked aria-labelledby="labelradioa03ok labelradioa03"/>
+                                                                                        <label id="labelradioa03ok" class="control-label" for="radioinline05">Accetto</label>
+                                                                                    </div>
+                                                                                    <div class="form-check">
+                                                                                        <input name="gruppoaa3" type="radio" id="radioinline06" aria-labelledby="labelradioa03ko labelradioa03"/>
+                                                                                        <label id="labelradioa03ko" class="control-label" for="radioinline06">Non accetto</label>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </fieldset>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-12">
+                                                                        <div class="form-relative form-inline">
+                                                                            <p>Per comunicare i dati di profilazione finalizzate al marketing alle societ&agrave; del Gruppo Poste Italiane in modo da migliorare i loro servizi,
+                                                                                nonch&eacute; previo specifico consenso rilasciato alle stesse, per effettuare marketing, indagici di mercato e sondaggi di qualit&agrave; personalizzati</p>
+                                                                            <fieldset>
+                                                                                <legend id="labelradioa04" class="sr-only">Consenso comunicazioni dati profilazione da PI a Soc.Gruppo</legend>
+                                                                                <div class="form-group">
+                                                                                    <div class="form-check">
+                                                                                        <input name="gruppoaa4" type="radio" id="radioinline07" checked aria-labelledby="labelradioa04ok labelradioa04"/>
+                                                                                        <label id="labelradioa04ok" class="control-label" for="radioinline07">Accetto</label>
+                                                                                    </div>
+                                                                                    <div class="form-check">
+                                                                                        <input name="gruppoaa4" type="radio" id="radioinline08" aria-labelledby="labelradioa04ko labelradioa04"/>
+                                                                                        <label id="labelradioa04ko" class="control-label" for="radioinline08">Non accetto</label>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </fieldset>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </fieldset>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <div class="btn-container btn-container-xs-center btn-container-flow clearfix">
+                                                <button type="submit" form="form-id060606" formaction="#" class="btn btn-primary btn-xs-expand">Conferma i tuoi dati</button>
+                                                <button type="button" class="btn btn-secondary btn-xs-expand">Indietro</button>
+                                                <button type="button" class="btn btn-default btn-xs-expand">
+                                                    <span class="icon">
+                                                        <svg focusable="false">
+                                                            <title>Lorem ipsum</title>
+                                                            <use xlink:href="/assets-da/core/img/iconset/sprite.svg#047a-inventory-m" href="/assets-da/core/img/iconset/sprite.svg#047a-inventory-m"></use>
+                                                        </svg>
+                                                    </span>
+                                                    Salva e continua dopo
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <aside aria-labelledby="side-help-title">
+        <!--#include virtual="/includes-da/navigation/right-side-offcanvas.html" -->
+        <!--#include virtual="/includes-da/navigation/right-side-offcanvas-profilo.html" -->
+    </aside>
+
+    <footer id="footer">
+
+        <div class="content content-footer content-footer-main">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--#include virtual="/includes-da/footer/footer-content-main.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content content-footer content-footer-extra">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--#include virtual="/includes-da/footer/footer-content-extra.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--#include virtual="/includes-da/utilities/footer-tag.html" -->
+        
+    </footer>
+
+
+</body>
+
+</html>

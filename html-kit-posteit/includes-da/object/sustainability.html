@@ -1,0 +1,67 @@
+<!--
+<div id="overlay-sustainability" style="display:none;" aria-hidden="true">
+    <div class="overlay-sustainability-content mode-dark">
+        <img class="img-responsive mb-5" src="/assets-da/core/img/loghi/logo-poste-italiane-watermark.png"
+            srcset="/assets-da/core/img/loghi/logo-poste-italiane-watermark@2x.png 2x" alt="PosteItaliane">
+        <div class="overlay-sustainability-content-wrap">
+            <h2 class="h4 pt-2 pb-4 mt-0 mb-4 border-sm-bottom">Un piccolo gesto<br>per il nostro pianeta</h2>
+
+            <p class="mb-3">Questa schermata ti permette di ridurre il consumo energetico del monitor quando il computer
+                &egrave; inattivo o
+                quando ti allontani.</p>
+            <p class="mb-3">Per tornare alla navigazione,
+                &egrave; sufficiente fare clic su qualsiasi punto dello schermo. </p>
+            <p id="overlay-sustainability-desc" class="sr-only">Il pulsante consente di chiudere la finestra di dialogo
+                per il risparmio energetico, attivata dopo un periodo di inattivit&agrave; prolungata sulla
+                pagina.<br>
+            </p>
+
+            <div class="overlay-sustainability-ico mt-3">
+                <img loading="lazy" class="center" src="/assets-da/core/img/ico/ico-leaf.svg" alt="Crescere sostenibili">
+            </div>
+
+            <div class="btn-container mt-2 clearfix">
+                <button class="btn btn-icon btn-xs btn-primary"
+                    title="Chiudi la schermata di risparmio energetico e torna al contenuto"
+                    aria-describedby="overlay-sustainability-desc">
+                    <span class="icon">
+                        <svg focusable="false">
+                            <title>Torna al contenuto</title>
+                            <use xlink:href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m"></use>
+                        </svg></span>
+                    Torna al contenuto</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="/assets-da/vendor/jquery/jquery.idle.min.js"></script>
+<script>
+    $(document).idle({
+        idle: 240000,
+        onIdle: overlaySustainability
+    });
+
+    function overlaySustainability() {
+
+        let lastFocusedElement;
+        overlaySustainabilityStart();
+
+        function overlaySustainabilityStart() {
+            $("#overlay-sustainability").on("click", overlaySustainabilityStop).fadeIn();
+            $("#overlay-sustainability").attr('aria-hidden', 'false');
+            lastFocusedElement = $(document.activeElement);
+            keepFocusIn('#overlay-sustainability', '.btn');
+        }
+
+        function overlaySustainabilityStop() {
+            $("#overlay-sustainability").off("click").fadeOut();
+            $("#overlay-sustainability").attr('aria-hidden', 'true');
+            if (lastFocusedElement) {
+                lastFocusedElement.focus();
+            }
+        }
+    }
+</script>
+-->

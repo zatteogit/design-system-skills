@@ -1,0 +1,1433 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <title>Poste.it</title>
+    <!--#include virtual="/includes-da/utilities/head-tag.html" -->
+    <link type="text/css" rel="stylesheet" href="/assets-da/app/myposte/css/myp.min.css" />
+</head>
+
+<body>
+
+    <nav id="skiplink" aria-label="Navigazione di pagina">
+        <ul>
+            <li><a tabindex="0" class="skip-link sr-only-focusable-abs" href="#accessibility-anchor">Passa al contenuto
+                    principale</a></li>
+            <li><a class="skip-link sr-only-focusable-abs" href="#assistenza-side">Passa all'help</a></li>
+            <li><a class="skip-link sr-only-focusable-abs" href="#footer">Passa al footer di pagina</a></li>
+        </ul>
+    </nav>
+
+    <header class="sticky">
+        <div class="sticky-wrap">
+            <!-- Content Navbar-->
+            <div class="content" id="content-navbar">
+                <div class="content-wrap">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <!--#include virtual="/includes-da/header/navbar-content-default-logged.html" -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main id="accessibility-anchor" tabindex="-1">
+
+        <div class="content display-pop" id="content-abstract">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <ol class="breadcrumb breadcrumb-xs-trim-a breadcrumb-sm-trim-a breadcrumb-md-trim-b">
+                                <li>
+                                    <a href="/pages/posteit-area/private/myposte/" title="Torna a MyPoste">
+                                        <span>My Poste</span>
+                                    </a>
+                                </li>
+                                <li class="active" aria-current="page"><span>Conti</span></li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-7">
+                            <div class="abstract-wrap">
+                                <div class="abstract">
+                                    <div class="abstract-heading">
+                                        <h1>Conti</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-5">
+                            <div class="abstract-wrap mt-0 mt-md-4">
+                                <div class="text-sm-right fs-small">
+                                    <p>
+                                        <span class="block">BancoPosta online - Internet Banking</span>
+                                        <span class="block">Ultimo accesso: 12 aprile 2024 ore 12:39</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="content" id="content-filter">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="scroll-content-x">
+                                <ul class="list-inline-basic mt-n1 pt-1 mx-n1 px-1">
+                                    <li class="active">
+                                        <a class="link-lever active" href="#" title="Conto BancoPosta 000398268">Conto
+                                            BancoPosta 000398268</a>
+                                    </li>
+                                    <li class="">
+                                        <a class="link-lever" href="#" title="Conto BancoPosta 000398268">Conto
+                                            BancoPosta 000968268</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div role="alert" class="box-advice box-messages box-danger box-messages-medium mb-0">
+                                <div class="box-body">
+                                    <div class="row">
+                                        <span class="icon icon-round icon-round-danger">
+                                            <svg focusable="false">
+                                                <title>Lorem ipsum</title>
+                                                <use xlink:href="/assets-da/core/img/iconset/sprite.svg#003a-error-m" href="/assets-da/core/img/iconset/sprite.svg#003a-error-m"></use>
+                                            </svg>
+                                        </span>
+                                        <div class="col-xs-12">
+                                            <p><strong>Messaggio lungo</strong>, senza bottone, utilizzando
+                                                <strong>col-xs-12</strong> in questa porzione: <br><i>"Test ed hic
+                                                    consectetur do incurreret quem illum nescius elittest ed hic
+                                                    consectetur do incurreret quem illum nescius elit"</i>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="button" class="close box-messages-dismiss" aria-label="chiudi">
+                                    <span class="icon pt-1" aria-hidden="true">
+                                        <svg focusable="false">
+                                            <title>chiudi</title>
+                                            <use xlink:href="/assets-da/core/img/iconset/sprite.svg#009a-close-m"
+                                                href="/assets-da/core/img/iconset/sprite.svg#009a-close-m">
+                                            </use>
+                                        </svg>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content" id="content-main">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-structure">
+                            <div id="main">
+                                <div class="row">
+                                    <div class="col-xs-12 col-md-8">
+                                        <div
+                                            class="box-summary box-rack box-cyan box-bg bg-config-default box-pattern box-pattern-01 shadow">
+                                            <div class="box-wrap p-3"
+                                                style="background-image: url('/assets-da/app/bpol/img/bg-conti@2x.png');">
+                                                <div class="box-body">
+                                                    <div class="row">
+                                                        <div class="col-xs-10 col-sm-8">
+                                                            <h2 class="h3 mt-1">Conto BancoPosta 000398268</h2>
+                                                        </div>
+                                                        <div class="col-xs-2 col-sm-4">
+                                                            <div class="btn-container btn-container-right clearfix">
+                                                                <button type="button"
+                                                                    class="btn btn-default btn-xs m-0">
+                                                                    <span
+                                                                        class="icon ms-1">
+                                                                        <svg focusable="false">
+                                                                            <title>Lorem ipsum</title>
+                                                                            <use xlink:href="/assets-da/core/img/iconset/sprite.svg#016a-visibility-off-m"
+                                                                                href="/assets-da/core/img/iconset/sprite.svg#016a-visibility-off-m">
+                                                                            </use>
+                                                                        </svg>
+                                                                    </span>
+                                                                    <span class="hidden-xs">Nascondi saldi</span>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row row-space row-fix">
+                                                        <div class="col-xs-12 col-sm-10">
+                                                            <div class="row">
+                                                                <div class="col-xs-12 col-sm-7 col-lg-7">
+                                                                    <div class="row">
+                                                                        <div class="col-xs-12">
+                                                                            <div class="form-group">
+                                                                                <span id="label-iban"
+                                                                                    class="label-like stable">IBAN</span>
+                                                                                <p class="form-control-static overflow-break-word"
+                                                                                    aria-describedby="label-iban">
+                                                                                    IT60X0542811101000000123456</p>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-xs-12">
+                                                                            <div
+                                                                                class="btn-container mt-n3 mt-sm-n4 mb-3">
+                                                                                <button type="button"
+                                                                                    class="btn btn-default btn-xs me-sm-3">
+                                                                                    <span class="icon me-1">
+                                                                                        <svg focusable="false">
+                                                                                            <title>Lorem ipsum</title>
+                                                                                            <use xlink:href="/assets-da/core/img/iconset/sprite.svg#077a-share-m"
+                                                                                                href="/assets-da/core/img/iconset/sprite.svg#077a-share-m">
+                                                                                            </use>
+                                                                                        </svg>
+                                                                                    </span><span
+                                                                                        class="hidden-xs">Condividi</span>
+                                                                                </button>
+                                                                                <button type="button"
+                                                                                    class="btn btn-default btn-xs">
+                                                                                    <span class="icon me-1">
+                                                                                        <svg focusable="false">
+                                                                                            <title>Lorem ipsum</title>
+                                                                                            <use xlink:href="/assets-da/core/img/iconset/sprite.svg#042a-panorama-m"
+                                                                                                href="/assets-da/core/img/iconset/sprite.svg#042a-panorama-m">
+                                                                                            </use>
+                                                                                        </svg>
+                                                                                    </span><span
+                                                                                        class="hidden-xs">Copia</span>
+                                                                                </button>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-xs-12 col-sm-5 col-lg-5">
+                                                                    <div class="form-group">
+                                                                        <span id="label-intestatario"
+                                                                            class="label-like stable">Intestato a</span>
+                                                                        <p class="form-control-static"
+                                                                            aria-describedby="label-intestatario">
+                                                                            Pierferdinando Rossi</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-xs-9 col-sm-7 col-lg-7">
+                                                                    <div class="form-group">
+                                                                        <span id="label-saldodisp"
+                                                                            class="label-like stable">Saldo
+                                                                            disponibile</span>
+                                                                        <p class="form-control-static fs-large fw-bold"
+                                                                            aria-describedby="label-saldodisp">
+                                                                            24.800,00&euro;</p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-xs-9 col-sm-5 col-lg-5">
+                                                                    <div class="form-group">
+                                                                        <span id="label-saldocont"
+                                                                            class="label-like stable">Saldo
+                                                                            contabile</span>
+                                                                        <p class="form-control-static fs-large fw-bold"
+                                                                            aria-describedby="label-saldocont">
+                                                                            24.735,00&euro;</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-4">
+                                        <div class="box-rack flex flex-row box-cyan mb-3 py-3 py-sm-4 gap-3">
+                                            <div class="box-wrap flex justify-content-start align-items-center">
+                                                <span class="icon icon-48 flex align-items-center">
+                                                    <img class="img-responsive" alt="Carta bancoposta"
+                                                        src="/assets-da/app/generic/img/payments-bp.png"
+                                                        srcset="/assets-da/app/generic/img/payments-bp@2x.png 2x">
+                                                </span>
+                                            </div>
+                                            <div
+                                                class="box-wrap flex justify-content-between align-items-center flex-row flex-grow-1">
+                                                <div class="box-body">
+                                                    <span class="fw-bold block">Carta di debito</span>
+                                                    <span class="fw-bold block">****0392</span>
+                                                </div>
+                                                <div class="box-footer">
+                                                    <a class="btn btn-xs btn-default btn-link m-0 stretched-link"
+                                                        href="#"
+                                                        title="Vai alla pagina di dettaglio del tuo patrimonio"><span
+                                                            class="icon">
+                                                            <svg focusable="false">
+                                                                <title>Lorem ipsum</title>
+                                                                <use xlink:href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m"
+                                                                    href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m">
+                                                                </use>
+                                                            </svg>
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-4">
+                                        <div class="box-rack flex flex-row box-cyan mb-3 py-3 py-sm-4 gap-3">
+                                            <div class="box-wrap flex justify-content-start align-items-center">
+                                                <span class="icon icon-48 flex align-items-center">
+                                                    <img class="img-responsive" alt="Carta di credito"
+                                                        src="/assets-da/app/generic/img/payments-mastercard.png"
+                                                        srcset="/assets-da/app/generic/img/payments-mastercard@2x.png 2x">
+                                                </span>
+                                            </div>
+                                            <div
+                                                class="box-wrap flex justify-content-between align-items-center flex-row flex-grow-1">
+                                                <div class="box-body">
+                                                    <span class="fw-bold block">Carta di credito</span>
+                                                </div>
+                                                <div class="box-footer">
+                                                    <a class="btn btn-xs btn-default btn-link m-0 stretched-link"
+                                                        href="#"
+                                                        title="Vai alla pagina di dettaglio del tuo patrimonio"><span
+                                                            class="icon">
+                                                            <svg focusable="false">
+                                                                <title>Lorem ipsum</title>
+                                                                <use xlink:href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m"
+                                                                    href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m">
+                                                                </use>
+                                                            </svg>
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!-- Operazioni veloci -->
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <h2 class="content-heading text-left mt-0">Operazioni veloci</h2>
+                                </div>
+                            </div>
+                            <div class="row row-space equalize-group equalize-group-2 equalize-forced">
+                                <div class="col-sm-12">
+                                    <div class="slick-scroll">
+                                        <div class="row slick-scroll-items-evidence">
+                                            <p>
+                                                <a class="keybtn keybtn-large" href="#" title="Preventivo luce e gas">
+                                                    <span class="keybtn-wrap"
+                                                        style="background-image: url('/assets-da/core/img/ico/ico-generic-sim@2x.png')">Preventivo<br>luce
+                                                        e gas</span>
+                                                </a>
+                                            </p>
+                                            <p>
+                                                <a class="keybtn keybtn-large" href="#" title="Invio pacchi">
+                                                    <span class="keybtn-wrap"
+                                                        style="background-image: url('/assets-da/core/img/ico/ico-generic-risparmio@2x.png')">Invio
+                                                        pacchi</span>
+                                                </a>
+                                            </p>
+                                            <p>
+                                                <a class="keybtn keybtn-large" href="#" title="Bollo auto">
+                                                    <span class="keybtn-wrap"
+                                                        style="background-image: url('/assets-da/core/img/ico/ico-generic-document@2x.png')">Bollo
+                                                        auto</span>
+                                                </a>
+                                            </p>
+                                            <p>
+                                                <a class="keybtn keybtn-large" href="#" title="Bonifico SEPA">
+                                                    <span class="keybtn-wrap"
+                                                        style="background-image: url('/assets-da/core/img/ico/ico-generic-ppay@2x.png')">Bonifico
+                                                        SEPA</span>
+                                                </a>
+                                            </p>
+                                            <p>
+                                                <a class="keybtn keybtn-large" href="#" title="Bollette e pagamenti">
+                                                    <span class="keybtn-wrap"
+                                                        style="background-image: url('/assets-da/core/img/ico/ico-generic-risparmio@2x.png')">Bollette
+                                                        e pagamenti</span>
+                                                </a>
+                                            </p>
+                                            <p>
+                                                <a class="keybtn keybtn-large" href="#" title="Ricariche telefoniche">
+                                                    <span class="keybtn-wrap"
+                                                        style="background-image: url('/assets-da/core/img/ico/ico-generic-document@2x.png')">Ricariche
+                                                        telefoniche</span>
+                                                </a>
+                                            </p>
+                                            <p>
+                                                <a class="keybtn keybtn-large" href="#" title="Ricarica Postepay">
+                                                    <span class="keybtn-wrap"
+                                                        style="background-image: url('/assets-da/core/img/ico/ico-generic-ppay@2x.png')">Ricarica
+                                                        Postepay</span>
+                                                </a>
+                                            </p>
+                                            <p>
+                                                <a class="keybtn keybtn-large" href="#" title="F24">
+                                                    <span class="keybtn-wrap"
+                                                        style="background-image: url('/assets-da/core/img/ico/ico-generic-risparmio@2x.png')">F24</span>
+                                                </a>
+                                            </p>
+                                            <p>
+                                                <a class="keybtn keybtn-large" href="#" title="Lorem ipsum">
+                                                    <span class="keybtn-wrap"
+                                                        style="background-image: url('/assets-da/core/img/ico/ico-generic-document@2x.png')">Lorem
+                                                        ipsum</span>
+                                                </a>
+                                            </p>
+                                            <p>
+                                                <a class="keybtn keybtn-large" href="#" title="Dolor amet mea">
+                                                    <span class="keybtn-wrap"
+                                                        style="background-image: url('/assets-da/core/img/ico/ico-generic-sim@2x.png')">Dolor
+                                                        amet mea</span>
+                                                </a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="btn-container btn-container-center clearfix">
+                                        <a href="#" title="Vedi tutti sed nunc adescevit nunque"
+                                            class="btn btn-xs btn-secondary m-0">Vedi tutti</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="default-nav-tabs-container scroll-content-x">
+                                <ul class="nav nav-tabs default-nav-tabs">
+                                    <li id="ctrl-movimenti" class="active"><a href="#tab-movimenti"
+                                            aria-controls="tab-movimenti" data-toggle="tab" title="Movimenti">
+                                            <span class="icon me-1">
+                                                <svg focusable="false">
+                                                    <title>Lorem ipsum</title>
+                                                    <use xlink:href="/assets-da/core/img/iconset/sprite.svg#042a-panorama-m"
+                                                        href="/assets-da/core/img/iconset/sprite.svg#042a-panorama-m">
+                                                    </use>
+                                                </svg>
+                                            </span>Movimenti</a></li>
+                                    <li id="ctrl-dettagli"><a href="#tab-dettagli" aria-controls="tab-dettagli"
+                                            data-toggle="tab" title="Dettagli">
+                                            <span class="icon me-1">
+                                                <svg focusable="false">
+                                                    <title>Lorem ipsum</title>
+                                                    <use xlink:href="/assets-da/core/img/iconset/sprite.svg#005a-info-m"
+                                                        href="/assets-da/core/img/iconset/sprite.svg#005a-info-m"></use>
+                                                </svg>
+                                            </span>Dettagli</a></li>
+                                    <li id="ctrl-impostazioni"><a href="#tab-impostazioni"
+                                            aria-controls="tab-impostazioni" data-toggle="tab" title="Impostazioni">
+                                            <span class="icon me-1">
+                                                <svg focusable="false">
+                                                    <title>Lorem ipsum</title>
+                                                    <use xlink:href="/assets-da/core/img/iconset/sprite.svg#042a-panorama-m"
+                                                        href="/assets-da/core/img/iconset/sprite.svg#042a-panorama-m">
+                                                    </use>
+                                                </svg>
+                                            </span>Impostazioni</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="tab-content">
+                                <!-- movimenti -->
+                                <div aria-labelledby="ctrl-movimenti" role="region" class="tab-pane active"
+                                    id="tab-movimenti">
+
+                                    <!-- Box Rack - informativo -->
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <!-- Cerca operazioni box-rack -->
+                                            <div class="row">
+                                                <div class="col-sm-12">
+                                                    <div class="box-rack flex flex-row box-cyan mb-3 gap-3">
+                                                        <div
+                                                            class="box-wrap flex justify-content-sm-start align-items-start align-items-sm-center">
+                                                            <span class="icon ms-1">
+                                                                <svg focusable="false">
+                                                                    <title>Cerca operazioni Lorem ipsum</title>
+                                                                    <use xlink:href="/assets-da/core/img/iconset/sprite.svg#042a-panorama-m"
+                                                                        href="/assets-da/core/img/iconset/sprite.svg#042a-panorama-m">
+                                                                    </use>
+                                                                </svg>
+                                                            </span>
+                                                        </div>
+                                                        <div
+                                                            class="box-wrap flex justify-content-start justify-content-sm-between align-items-sm-center flex-column flex-sm-row flex-sm-grow-1">
+                                                            <div class="box-body">
+                                                                <p class="m-sm-0">Visualizza le tue operazioni
+                                                                    contabilizzate, eseguite o ancora in lavorazione e,
+                                                                    infine,
+                                                                    il dettaglio dei tuoi bonifici e Postagiro. </p
+                                                                    class="m-sm-0">
+                                                            </div>
+                                                            <div class="box-footer">
+                                                                <a class="btn btn-xs btn-default btn-link m-0" href="#"
+                                                                    title="Cerca fra le tue operazioni">Cerca operazioni
+                                                                    <span class="icon">
+                                                                        <svg focusable="false">
+                                                                            <title>Lorem ipsum</title>
+                                                                            <use xlink:href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m"
+                                                                                href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m">
+                                                                            </use>
+                                                                        </svg>
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+
+
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Heading - Filtri -->
+                                    <div class="row my-1 mt-sm-3">
+                                        <div class="col-xs-12">
+                                            <div class="flex align-items-center justify-content-between">
+                                                <h2 class="mt-0">Elenco movimenti</h2>
+                                                <div class="flex align-items-center justify-content-end">
+                                                    <label class="btn btn-xs btn-default btn-link"
+                                                        for="filtriricercamov"><span
+                                                            class="visible-xs">Filtra</span><span
+                                                            class="hidden-xs">Filtri di ricerca</span></label>
+                                                    <button id="filtriricercamov"
+                                                        class="btn btn-cta btn-secondary btn-responsive collapsed ms-2"
+                                                        data-toggle="collapse" data-target="#collapseFilter"
+                                                        aria-expanded="false" aria-controls="collapseFilter">
+                                                        <span class="icon">
+                                                            <svg focusable="false">
+                                                                <title>Visualizza/Nascondi filtri di ricerca</title>
+                                                                <use xlink:href="/assets-da/core/img/iconset/sprite.svg#042a-panorama-m"
+                                                                    href="/assets-da/core/img/iconset/sprite.svg#042a-panorama-m">
+                                                                </use>
+                                                            </svg>
+                                                        </span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12">
+                                            <div class="collapse" id="collapseFilter">
+                                                <div class="row">
+                                                    <div class="col-xs-12">
+                                                        <div class="main-pills mt-2 mb-3 mb-md-1 mt-md-3">
+                                                            <div class="main-pills-wrap">
+                                                                <form id="form-id001-filter">
+                                                                    <fieldset>
+                                                                        <legend class="sr-only">Filtra tra le operazioni
+                                                                        </legend>
+                                                                        <search>
+                                                                            <div class="row">
+                                                                                <div class="col-xs-12 col-md-4">
+                                                                                    <div
+                                                                                        class="form-group form-searchbar mt-2 p-0">
+                                                                                        <label
+                                                                                            class="control-label sr-only"
+                                                                                            for="search">Cerca tra le
+                                                                                            operazioni</label>
+                                                                                        <input type="text"
+                                                                                            class="form-control"
+                                                                                            id="search"
+                                                                                            placeholder="Cerca tra le operazioni" />
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-xs-12 col-md-8">
+                                                                                    <div class="container-switch scroll-content-x"
+                                                                                        role="radiogroup"
+                                                                                        aria-labelledby="lbl-periodo-01">
+                                                                                        <span id="lbl-periodo-01"
+                                                                                            class="sr-only">Seleziona
+                                                                                            ipsum lorem periodo</span>
+                                                                                        <ul
+                                                                                            class="list-inline-basic text-center text-sm-left">
+                                                                                            <li class="">
+                                                                                                <label
+                                                                                                    class="relative switch my-1"
+                                                                                                    for="option11x">
+                                                                                                    <input type="radio"
+                                                                                                        name="options-choose11"
+                                                                                                        id="option11x">
+                                                                                                    <span
+                                                                                                        class="lever">Ultimi
+                                                                                                        7 giorni</span>
+                                                                                                </label>
+                                                                                            </li>
+                                                                                            <li class="">
+                                                                                                <label
+                                                                                                    class="relative switch my-1"
+                                                                                                    for="option12x">
+                                                                                                    <input type="radio"
+                                                                                                        name="options-choose11"
+                                                                                                        id="option12x">
+                                                                                                    <span
+                                                                                                        class="lever">Ultimo
+                                                                                                        mese</span>
+                                                                                                </label>
+                                                                                            </li>
+                                                                                            <li class="active">
+                                                                                                <label
+                                                                                                    class="relative switch my-1"
+                                                                                                    for="option13x">
+                                                                                                    <input type="radio"
+                                                                                                        name="options-choose11"
+                                                                                                        id="option13x"
+                                                                                                        checked>
+                                                                                                    <span
+                                                                                                        class="lever">Ultimi
+                                                                                                        3 mesi</span>
+                                                                                                </label>
+                                                                                            </li>
+                                                                                            <li class="">
+                                                                                                <label
+                                                                                                    class="relative switch my-1"
+                                                                                                    for="option14x">
+                                                                                                    <input type="radio"
+                                                                                                        name="options-choose11"
+                                                                                                        id="option14x">
+                                                                                                    <span
+                                                                                                        class="lever">Profilo
+                                                                                                        specifico</span>
+                                                                                                </label>
+                                                                                            </li>
+                                                                                        </ul>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="row row-space">
+                                                                                <div class="col-sm-4">
+                                                                                    <div
+                                                                                        class="form-group form-group-abs">
+                                                                                        <div class="select-wrapper">
+                                                                                            <label for="select-010"
+                                                                                                class="control-label stable">Movimenti</label>
+                                                                                            <select class="form-control"
+                                                                                                id="select-010">
+                                                                                                <option selected=""
+                                                                                                    value="">Tutti
+                                                                                                </option>
+                                                                                                <option value="Value 1">
+                                                                                                    Opzione 1</option>
+                                                                                                <option value="Value 2">
+                                                                                                    Opzione 2</option>
+                                                                                                <option value="Value 3">
+                                                                                                    Opzione 3</option>
+                                                                                                <option value="Value 4">
+                                                                                                    Opzione 4</option>
+                                                                                                <option value="Value 5">
+                                                                                                    Opzione 5</option>
+                                                                                            </select>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-sm-4">
+                                                                                    <div
+                                                                                        class="form-group form-group-abs">
+                                                                                        <label for="004b"
+                                                                                            class="control-label stable">Importo
+                                                                                            minimo</label>
+                                                                                        <div class="input-group">
+                                                                                            <div
+                                                                                                class="input-group-addon">
+                                                                                                &euro;</div>
+                                                                                            <input type="number"
+                                                                                                value="540.00"
+                                                                                                placeholder="" id="004b"
+                                                                                                class="form-control">
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-sm-4">
+                                                                                    <div
+                                                                                        class="form-group form-group-abs">
+                                                                                        <label for="004c"
+                                                                                            class="control-label stable">Importo
+                                                                                            massimo</label>
+                                                                                        <div class="input-group">
+                                                                                            <div
+                                                                                                class="input-group-addon">
+                                                                                                &euro;</div>
+                                                                                            <input type="number"
+                                                                                                value="540.00"
+                                                                                                placeholder="" id="004c"
+                                                                                                class="form-control">
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="row">
+                                                                                <div class="col-xs-12">
+                                                                                    <div
+                                                                                        class="btn-container btn-container-xs-center clearfix">
+                                                                                        <button type="submit"
+                                                                                            form="form-id001-filter"
+                                                                                            formaction="#"
+                                                                                            class="btn btn-primary btn-xs-expand">
+                                                                                            <span class="icon">
+                                                                                                <svg focusable="false">
+                                                                                                    <title>Lorem ipsum
+                                                                                                    </title>
+                                                                                                    <use xlink:href="/assets-da/core/img/iconset/sprite.svg#025a-search-m"
+                                                                                                        href="/assets-da/core/img/iconset/sprite.svg#025a-search-m">
+                                                                                                    </use>
+                                                                                                </svg>
+                                                                                            </span>
+                                                                                            Applica e cerca</button>
+                                                                                        <button type="button"
+                                                                                            class="btn btn-default btn-xs-expand">
+                                                                                            <span class="icon">
+                                                                                                <svg focusable="false">
+                                                                                                    <title>Lorem ipsum
+                                                                                                    </title>
+                                                                                                    <use xlink:href="/assets-da/core/img/iconset/sprite.svg#036a-delete-m"
+                                                                                                        href="/assets-da/core/img/iconset/sprite.svg#036a-delete-m">
+                                                                                                    </use>
+                                                                                                </svg>
+                                                                                            </span>
+                                                                                            Cancella filtri
+                                                                                        </button>
+
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </search>
+                                                                    </fieldset>
+                                                                </form>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Numero mov. - Risultati x pagina-->
+                                    <div class="row my-1 my-md-2">
+                                        <div class="col-xs-12">
+                                            <div
+                                                class="flex flex-column flex-md-row align-items-start align-items-md-center justify-content-start justify-content-md-between">
+                                                <div
+                                                    class="flex flex-column flex-sm-row align-items-start align-items-sm-center justify-content-start">
+                                                    <span class="block-xs me-3">Numero movimenti: <span
+                                                            class="fw-bold">243</span></span>
+                                                    <div class="flex align-items-center justify-content-sm-start">
+                                                        <button type="button"
+                                                            class="btn btn-xs btn-default mb-2 mt-1 my-sm-1 mx-sm-2">
+                                                            <span class="icon">
+                                                                <svg focusable="false">
+                                                                    <title>Lorem ipsum</title>
+                                                                    <use xlink:href="/assets-da/core/img/iconset/sprite.svg#017a-file-download-m"
+                                                                        href="/assets-da/core/img/iconset/sprite.svg#017a-file-download-m">
+                                                                    </use>
+                                                                </svg>
+                                                            </span>Scarica Excel
+                                                        </button>
+                                                        <button type="button"
+                                                            class="btn btn-xs btn-default mb-2 mt-1 my-sm-1 mx-sm-2">
+                                                            <span class="icon">
+                                                                <svg focusable="false">
+                                                                    <title>Lorem ipsum</title>
+                                                                    <use xlink:href="/assets-da/core/img/iconset/sprite.svg#017a-file-download-m"
+                                                                        href="/assets-da/core/img/iconset/sprite.svg#017a-file-download-m">
+                                                                    </use>
+                                                                </svg>
+                                                            </span>Scarica Pdf
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="flex flex-column flex-sm-row align-items-start align-items-sm-center justify-content-start">
+                                                    <span id="lbl-page-res-01" class="me-3">Risultati per pagina</span>
+                                                    <div class="container-switch" aria-labelledby="lbl-page-res-01"
+                                                        role="radiogroup">
+                                                        <ul class="list-inline-basic mt-0">
+                                                            <li class="">
+                                                                <label class="switch switch-round my-1" for="option21x">
+                                                                    <input type="radio" name="options-choose21"
+                                                                        id="option21x">
+                                                                    <span class="lever"><span class="sr-only">visualizza
+                                                                        </span>30<span class="sr-only">
+                                                                            risultati</span></span>
+                                                                </label>
+                                                            </li>
+                                                            <li class="">
+                                                                <label class="switch switch-round my-1" for="option22x">
+                                                                    <input type="radio" name="options-choose21"
+                                                                        id="option22x">
+                                                                    <span class="lever"><span class="sr-only">visualizza
+                                                                        </span>20<span class="sr-only">
+                                                                            risultati</span></span>
+                                                                </label>
+                                                            </li>
+                                                            <li class="active">
+                                                                <label class="switch switch-round my-1" for="option23x">
+                                                                    <input type="radio" name="options-choose21"
+                                                                        id="option23x" checked>
+                                                                    <span class="lever"><span class="sr-only">visualizza
+                                                                        </span>10<span class="sr-only">
+                                                                            risultati</span></span>
+                                                                </label>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Lista Tile -->
+                                    <div class="row my-3 my-md-2">
+                                        <div class="col-xs-12">
+                                            <span class="sr-only">Sei in lista movimenti</span>
+                                            <!-- Tile 01 -->
+                                            <div class="panel panel-tile">
+                                                <span class="sr-only">Dettaglio movimento 1</span>
+                                                <div class="panel-heading">
+                                                    <div class="tile-row">
+                                                        <div class="tile-col">
+                                                            <div class="row gx-3">
+                                                                <div class="col-xs-12 col-sm-12 col-md-6">
+                                                                    <div class="tile-wrap">
+                                                                        <div class="form-group">
+                                                                            <span id="label-mov1-desc"
+                                                                                class="label-like stable">Pagamento
+                                                                                Pos</span>
+                                                                            <p class="form-control-static fw-bold"
+                                                                                aria-describedby="label-mov1-desc">
+                                                                                Esercente Ortofrutticola Di Leo - Roma
+                                                                                N.83682</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-xs-6 col-sm-4 col-md-2">
+                                                                    <div class="tile-wrap">
+                                                                        <div class="form-group">
+                                                                            <span id="label-mov1-datacont"
+                                                                                class="label-like stable">Data
+                                                                                contabile</span>
+                                                                            <p class="form-control-static"
+                                                                                aria-describedby="label-mov1-datacont">
+                                                                                18/06/2024</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-xs-6 col-sm-4 col-md-2">
+                                                                    <div class="tile-wrap">
+                                                                        <div class="form-group">
+                                                                            <span id="label-mov1-dataval"
+                                                                                class="label-like stable">Data
+                                                                                valuta</span>
+                                                                            <p class="form-control-static"
+                                                                                aria-describedby="label-mov1-dataval">
+                                                                                18/06/2024</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-xs-6 col-sm-4 col-md-2">
+                                                                    <div class="tile-wrap text-md-right">
+                                                                        <div class="form-group">
+                                                                            <span id="label-mov1-importo"
+                                                                                class="label-like stable">Importo</span>
+                                                                            <p class="form-control-static fw-bold"
+                                                                                aria-describedby="label-mov1-importo">
+                                                                                -15,35&euro;</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Tile 02 -->
+                                            <div class="panel panel-tile">
+                                                <span class="sr-only">Dettaglio movimento 2</span>
+                                                <div class="panel-heading">
+                                                    <div class="tile-row">
+                                                        <div class="tile-col">
+                                                            <div class="row gx-3">
+                                                                <div class="col-xs-12 col-sm-12 col-md-6">
+                                                                    <div class="tile-wrap">
+                                                                        <div class="form-group">
+                                                                            <span id="label-mov2-desc"
+                                                                                class="label-like stable">Stipendio/pensione</span>
+                                                                            <p class="form-control-static fw-bold"
+                                                                                aria-describedby="label-mov2-desc">
+                                                                                Retribuzione mensile Poste Italiane Mag
+                                                                                2024</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-xs-6 col-sm-4 col-md-2">
+                                                                    <div class="tile-wrap">
+                                                                        <div class="form-group">
+                                                                            <span id="label-mov2-datacont"
+                                                                                class="label-like stable">Data
+                                                                                contabile</span>
+                                                                            <p class="form-control-static"
+                                                                                aria-describedby="label-mov2-datacont">
+                                                                                27/05/2024</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-xs-6 col-sm-4 col-md-2">
+                                                                    <div class="tile-wrap">
+                                                                        <div class="form-group">
+                                                                            <span id="label-mov2-dataval"
+                                                                                class="label-like stable">Data
+                                                                                valuta</span>
+                                                                            <p class="form-control-static"
+                                                                                aria-describedby="label-mov2-dataval">
+                                                                                27/05/2024</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-xs-6 col-sm-4 col-md-2">
+                                                                    <div class="tile-wrap text-md-right">
+                                                                        <div class="form-group">
+                                                                            <span id="label-mov2-importo"
+                                                                                class="label-like stable">Importo</span>
+                                                                            <p class="form-control-static fw-bold text-success"
+                                                                                aria-describedby="label-mov2-importo">
+                                                                                +1.680,35&euro;</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Tile 03 -->
+                                            <div class="panel panel-tile">
+                                                <span class="sr-only">Dettaglio movimento 3</span>
+                                                <div class="panel-heading">
+                                                    <div class="tile-row">
+                                                        <div class="tile-col">
+                                                            <div class="row gx-3">
+                                                                <div class="col-xs-12 col-sm-12 col-md-6">
+                                                                    <div class="tile-wrap">
+                                                                        <div class="form-group">
+                                                                            <span id="label-mov3-desc"
+                                                                                class="label-like stable">Pagamento
+                                                                                POS</span>
+                                                                            <p class="form-control-static fw-bold"
+                                                                                aria-describedby="label-mov3-desc">
+                                                                                Pagamento POS Sale e Pepe Srl -
+                                                                                Ladispoli(Rm)</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-xs-6 col-sm-4 col-md-2">
+                                                                    <div class="tile-wrap">
+                                                                        <div class="form-group">
+                                                                            <span id="label-mov3-datacont"
+                                                                                class="label-like stable">Data
+                                                                                contabile</span>
+                                                                            <p class="form-control-static"
+                                                                                aria-describedby="label-mov3-datacont">
+                                                                                18/05/2024</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-xs-6 col-sm-4 col-md-2">
+                                                                    <div class="tile-wrap">
+                                                                        <div class="form-group">
+                                                                            <span id="label-mov3-dataval"
+                                                                                class="label-like stable">Data
+                                                                                valuta</span>
+                                                                            <p class="form-control-static"
+                                                                                aria-describedby="label-mov3-dataval">
+                                                                                18/05/2024</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-xs-6 col-sm-4 col-md-2">
+                                                                    <div class="tile-wrap text-md-right">
+                                                                        <div class="form-group">
+                                                                            <span id="label-mov3-importo"
+                                                                                class="label-like stable">Importo</span>
+                                                                            <p class="form-control-static fw-bold"
+                                                                                aria-describedby="label-mov3-importo">
+                                                                                -8,95&euro;</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Tile 04 -->
+                                            <div class="panel panel-tile">
+                                                <span class="sr-only">Dettaglio movimento 4</span>
+                                                <div class="panel-heading">
+                                                    <div class="tile-row">
+                                                        <div class="tile-col">
+                                                            <div class="row gx-3">
+                                                                <div class="col-xs-12 col-sm-12 col-md-6">
+                                                                    <div class="tile-wrap">
+                                                                        <div class="form-group">
+                                                                            <span id="label-mov4-desc"
+                                                                                class="label-like stable">Prelievo
+                                                                                ATM</span>
+                                                                            <p class="form-control-static fw-bold"
+                                                                                aria-describedby="label-mov4-desc">ATM
+                                                                                Poste 28/04/2024 08.59 ATM N. 14 Ufficio
+                                                                                Postale - Roma</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-xs-6 col-sm-4 col-md-2">
+                                                                    <div class="tile-wrap">
+                                                                        <div class="form-group">
+                                                                            <span id="label-mov4-datacont"
+                                                                                class="label-like stable">Data
+                                                                                contabile</span>
+                                                                            <p class="form-control-static"
+                                                                                aria-describedby="label-mov4-datacont">
+                                                                                28/04/2024</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-xs-6 col-sm-4 col-md-2">
+                                                                    <div class="tile-wrap">
+                                                                        <div class="form-group">
+                                                                            <span id="label-mov4-dataval"
+                                                                                class="label-like stable">Data
+                                                                                valuta</span>
+                                                                            <p class="form-control-static"
+                                                                                aria-describedby="label-mov4-dataval">
+                                                                                28/04/2024</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-xs-6 col-sm-4 col-md-2">
+                                                                    <div class="tile-wrap text-md-right">
+                                                                        <div class="form-group">
+                                                                            <span id="label-mov4-importo"
+                                                                                class="label-like stable">Importo</span>
+                                                                            <p class="form-control-static fw-bold"
+                                                                                aria-describedby="label-mov4-importo">
+                                                                                -250,00&euro;</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Tile 05 -->
+                                            <div class="panel panel-tile">
+                                                <span class="sr-only">Dettaglio movimento 5</span>
+                                                <div class="panel-heading">
+                                                    <div class="tile-row">
+                                                        <div class="tile-col">
+                                                            <div class="row gx-3">
+                                                                <div class="col-xs-12 col-sm-12 col-md-6">
+                                                                    <div class="tile-wrap">
+                                                                        <div class="form-group">
+                                                                            <span id="label-mov5-desc"
+                                                                                class="label-like stable">Accredito
+                                                                                Cashback ScontiPoste</span>
+                                                                            <p class="form-control-static fw-bold"
+                                                                                aria-describedby="label-mov5-desc">
+                                                                                Flusso Sconti 0022032620 - 00829034</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-xs-6 col-sm-4 col-md-2">
+                                                                    <div class="tile-wrap">
+                                                                        <div class="form-group">
+                                                                            <span id="label-mov5-datacont"
+                                                                                class="label-like stable">Data
+                                                                                contabile</span>
+                                                                            <p class="form-control-static"
+                                                                                aria-describedby="label-mov5-datacont">
+                                                                                14/06/2024</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-xs-6 col-sm-4 col-md-2">
+                                                                    <div class="tile-wrap">
+                                                                        <div class="form-group">
+                                                                            <span id="label-mov5-dataval"
+                                                                                class="label-like stable">Data
+                                                                                valuta</span>
+                                                                            <p class="form-control-static"
+                                                                                aria-describedby="label-mov5-dataval">
+                                                                                14/06/2024</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-xs-6 col-sm-4 col-md-2">
+                                                                    <div class="tile-wrap text-md-right">
+                                                                        <div class="form-group">
+                                                                            <span id="label-mov5-importo"
+                                                                                class="label-like stable">Importo</span>
+                                                                            <p class="form-control-static fw-bold text-success"
+                                                                                aria-describedby="label-mov5-importo">
+                                                                                +24,03&euro;</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <!-- Paginazione -->
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <div class="pagination-wrap">
+                                                <nav aria-label="Lorem ipsum" class="text-center">
+                                                    <ul class="pagination">
+                                                        <li class="hide">
+                                                            <a title="lorem ipsum" href="#"
+                                                                aria-label="Vai alla prima pagina"
+                                                                class="pagination-first">
+                                                                <span aria-hidden="true" tabindex="-1">Prima</span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a title="lorem ipsum" href="#"
+                                                                aria-label="Pagina precedente" class="pagination-prev">
+                                                                <span aria-hidden="true" tabindex="-1">«</span>
+                                                            </a>
+                                                        </li>
+                                                        <li><a title="lorem ipsum" href="#">1</a></li>
+                                                        <li class="active"><a title="lorem ipsum" href="#">2</a></li>
+                                                        <li><a title="lorem ipsum" href="#">3</a></li>
+                                                        <li><a title="lorem ipsum" href="#">4</a></li>
+                                                        <li><a title="lorem ipsum" href="#">5</a></li>
+                                                        <li>
+                                                            <a title="lorem ipsum" href="#" aria-label="Prossima pagina"
+                                                                class="pagination-next">
+                                                                <span aria-hidden="true" tabindex="-1">»</span>
+                                                            </a>
+                                                        </li>
+                                                        <li class="hide">
+                                                            <a title="lorem ipsum" href="#"
+                                                                aria-label="Vai all'ultima pagina"
+                                                                class="pagination-last">
+                                                                <span aria-hidden="true" tabindex="-1">Ultima</span>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </nav>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!-- dettagli -->
+                                <div aria-labelledby="ctrl-dettagli" role="region" class="tab-pane" id="tab-dettagli">
+                                    <div class="row row-group">
+                                        <div class="col-sm-12">
+                                            <div class="row">
+                                                <div class="col-sm-12">
+                                                    <div class="main-pills main-pills-basic">
+                                                        <div class="main-pills-wrap">
+                                                            <div class="box-editable-area">
+                                                                <span class="fs-small">Ultimo aggiornamento: 29 aprile
+                                                                    2024</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-12">
+                                                    <div class="main-pills">
+                                                        <div class="main-pills-wrap">
+                                                            <div class="box-summary equalize-wrap equalize-wrap-1">
+                                                                <div class="box-body">
+                                                                    <div class="row">
+                                                                        <div class="col-sm-6 col-md-4">
+                                                                            <div class="form-group obj-wrap">
+                                                                                <span id="label-intestatario-conto"
+                                                                                    class="label-like stable">Intestato
+                                                                                    a</span>
+                                                                                <p class="form-control-static"
+                                                                                    aria-describedby="label-intestatario-conto">
+                                                                                    Pierferdinando Rossi</p>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-sm-6 col-md-4">
+                                                                            <div class="form-group obj-wrap">
+                                                                                <span id="label-iban-conto"
+                                                                                    class="label-like stable">IBAN</span>
+                                                                                <p class="form-control-static overflow-break-word"
+                                                                                    aria-describedby="label-iban-conto">
+                                                                                    IT60X0542811101000000123456</p>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-sm-6 col-md-4">
+                                                                            <div class="form-group obj-wrap">
+                                                                                <span id="label-bic-conto"
+                                                                                    class="label-like stable">BIC/SWIFT</span>
+                                                                                <p class="form-control-static"
+                                                                                    aria-describedby="label-bic-conto">
+                                                                                    BPPIITRRXXX</p>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-sm-6 col-md-4">
+                                                                            <div class="form-group obj-wrap">
+                                                                                <span id="label-ritenuta-conto"
+                                                                                    class="label-like stable">Ritenuta
+                                                                                    fiscale</span>
+                                                                                <p class="form-control-static"
+                                                                                    aria-describedby="label-ritenuta-conto">
+                                                                                    + 0,00 &euro;</p>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-sm-6 col-md-4">
+                                                                            <div class="form-group obj-wrap">
+                                                                                <span id="label-competenze-conto"
+                                                                                    class="label-like stable">Competenze
+                                                                                    nette</span>
+                                                                                <p class="form-control-static"
+                                                                                    aria-describedby="label-competenze-conto">
+                                                                                    + 0,00 &euro;</p>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-sm-6 col-md-4">
+                                                                            <div class="form-group obj-wrap">
+                                                                                <span id="label-spese-conto"
+                                                                                    class="label-like stable">Spese</span>
+                                                                                <p class="form-control-static"
+                                                                                    aria-describedby="label-spese-conto">
+                                                                                    + 0,00 &euro;</p>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-sm-6 col-md-4">
+                                                                            <div class="form-group obj-wrap">
+                                                                                <span id="label-int-credito"
+                                                                                    class="label-like stable">Interessi
+                                                                                    a credito</span>
+                                                                                <p class="form-control-static"
+                                                                                    aria-describedby="label-int-credito">
+                                                                                    + 0,00 &euro;</p>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-sm-6 col-md-4">
+                                                                            <div class="form-group obj-wrap">
+                                                                                <span id="label-int-debito"
+                                                                                    class="label-like stable">Interessi
+                                                                                    a debito</span>
+                                                                                <p class="form-control-static"
+                                                                                    aria-describedby="label-int-debito">
+                                                                                    + 0,00 &euro; ( netti 0,00 &euro;)
+                                                                                </p>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-sm-12">
+                                                                            <div class="btn-container">
+                                                                                <a class="btn btn-xs btn-default btn-link"
+                                                                                    href="#"
+                                                                                    title="Vai alla sezione Sconti sul canone del conto">
+                                                                                    Vai alla sezione Sconti sul canone
+                                                                                    <span class="icon">
+                                                                                        <svg focusable="false">
+                                                                                            <title>Lorem ipsum</title>
+                                                                                            <use xlink:href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m"
+                                                                                                href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m">
+                                                                                            </use>
+                                                                                        </svg>
+                                                                                    </span>
+                                                                                </a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row row-fix">
+                                                <div class="col-sm-6">
+                                                    <!--#include virtual="/includes-da/object/cards-default-icon-09.html" -->
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <!--#include virtual="/includes-da/object/cards-default-icon-09.html" -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- impostazioni -->
+                                <div aria-labelledby="ctrl-impostazioni" role="region" class="tab-pane"
+                                    id="tab-impostazioni">
+                                    <div class="row row-fix row-group">
+                                        <div class="col-sm-12">
+                                            <div class="row equalize-group equalize-group-1">
+                                                <div class="col-sm-4">
+                                                    <!--#set var="id" value="_01" -->
+                                                    <!--#include virtual="/includes-da/object/cards-default-02.html" -->
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <!--#set var="id" value="_02" -->
+                                                    <!--#include virtual="/includes-da/object/cards-default-02.html" -->
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <!--#set var="id" value="_03" -->
+                                                    
+                                                    <div class="panel panel-cards panel-cards-default mode-ctaset">
+                                                        
+                                                        <div class="cards-wrap panel-wrap equalize-height">
+                                                            <div class="panel-heading">
+                                                                <h3 id="cards-text-heading-default-01<!--#echo var="id" -->" class="cards-text-heading">Lorem ipsum sit</h3>
+                                                            </div>
+                                                            <div class="panel-body">
+                                                                <div class="cards-content">
+                                                                    <div class="tag-wrap mb-3">
+                                                                        <span class="tag tag-success fs-extrasmall">Numero securizzato ****123</span>
+                                                                    </div>
+                                                                    <p>Come associare/securizzare il numero di telefono cellulare al Conto BancoPosta e alla Carta Postepay per operare in sicurezza sui canali digitali.</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="panel-footer">
+                                                                <div class="btn-container clearfix mt-2">
+                                                                    <a id="cards-action-default-01<!--#echo var="id" -->" class="btn btn-xs btn-default btn-link" href="#" title="Lorem ipsum" aria-labelledby="cards-text-heading-default-01<!--#echo var="id" --> cards-action-default-01<!--#echo var="id" -->">Lorem ipsum
+                                                                        <span class="icon">
+                                                                            <svg focusable="false">
+                                                                                <title>Lorem ipsum</title>
+                                                                                <use xlink:href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m"
+                                                                                    href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m">
+                                                                                </use>
+                                                                            </svg>
+                                                                        </span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <!--#set var="id" value="_04" -->
+                                                    <!--#include virtual="/includes-da/object/cards-default-02.html" -->
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <!--#set var="id" value="_05" -->
+                                                    <!--#include virtual="/includes-da/object/cards-default-02.html" -->
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <!--#set var="id" value="_06" -->
+                                                    <!--#include virtual="/includes-da/object/cards-default-02.html" -->
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <!--#set var="id" value="_07" -->
+                                                    <!--#include virtual="/includes-da/object/cards-default-02.html" -->
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <!--#set var="id" value="_08" -->
+                                                    <!--#include virtual="/includes-da/object/cards-default-02.html" -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <aside aria-labelledby="assistenza-side">
+        <!--#include virtual="/includes-da/navigation/right-side-offcanvas.html" -->
+    </aside>
+
+    <aside aria-labelledby="menu-profilo">
+        <!--#include virtual="/includes-da/navigation/right-side-offcanvas-profilo.html" -->
+    </aside>
+
+    <aside aria-labelledby="bacheca-side">
+        <!--#include virtual="/includes-da/navigation/right-side-offcanvas-bacheca.html" -->
+    </aside>
+
+    <footer id="footer">
+        <div class="content content-footer content-footer-main">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--#include virtual="/includes-da/footer/footer-content-main.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content content-footer content-footer-extra">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--#include virtual="/includes-da/footer/footer-content-extra.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--#include virtual="/includes-da/utilities/footer-tag.html" -->
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <title>Poste.it</title>
+    <!--#include virtual="/includes-da/utilities/head-tag.html" -->
+
+</head>
+
+
+<body>
+    <nav id="skiplink" aria-label="Navigazione di pagina"><ul>
+        <li><a tabindex="0" class="skip-link sr-only-focusable-abs" href="#accessibility-anchor">Passa al contenuto
+        principale</a></li>
+        <li><a class="skip-link sr-only-focusable-abs" href="#assistenza-side">Passa all'help</a></li>
+        <li><a class="skip-link sr-only-focusable-abs" href="#footer">Passa al footer di pagina</a></li>
+    </ul></nav>
+  <header>
+
+
+        <!-- Content Navbar-->
+        <div class="content" id="content-navbar">
+            <div class="content-wrap">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <div class="content-navbar-wrap">
+                      <div class="row">
+                        <div class="col-sm-12">
+                          <nav class="navbar navbar-default" id="nav-def-pi"
+                            aria-label="barra di navigazione: menu e ricerca del sito, assistenza">
+                            <div class="navbar-header">
+                              <div class="navbar-wrap">
+                                <a class="navbar-brand" href="/" title="Torna a Poste.it">
+                                  <img id="logo" alt="Logo PosteItaliane" src="/assets-da/core/img/loghi/logo-poste-italiane.png"
+                                    srcset="/assets-da/core/img/loghi/logo-poste-italiane@2x.png 2x">
+                                </a>
+                              </div>
+                            </div>
+                          </nav>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+    </header>
+
+    <main id="accessibility-anchor" tabindex="-1">
+
+        <div class="content concept-a" id="content-abstract">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-7 hidden-sm hidden-xs">
+                            <ol class="breadcrumb breadcrumb-xs-trim-a breadcrumb-sm-trim-a breadcrumb-md-trim-b">
+                                <li>
+                                    <a href="/" title="Index Html-kit">
+                                        <span>Html-kit</span>
+                                    </a>
+                                </li>
+                                <li class="active" aria-current="page"><span>Ui-Elements Components</span></li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="abstract-wrap col-sm-5 col-sm-push-7">
+                            <div class="picture-wrap">
+                                <picture>
+                                    <source srcset="/data/img/content-abstract-cards.webp" type="image/webp">
+                                    <source srcset="/data/img/content-abstract-cards.png" type="image/png">
+                                    <img loading="lazy" src="/data/img/content-abstract-cards.png" class="" alt="Component preview area intro">
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="abstract-wrap col-sm-7 col-sm-pull-5">
+                            <div class="abstract">
+                                <div class="abstract-heading">
+                                    <h1>Ui-Elements Components</h1>
+                                    <span class="abstract-subtitle">Elementi di design per la creazione di pagine
+                                        accessibili e responsive</span>
+                                </div>
+                            </div>
+                            <!--
+                            <div class="abstract-advantage pt-3">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <p> </p>
+                                    </div>
+                                </div>
+                            </div>
+                            -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="main">
+
+            <!-- Banner di campagna - Left -->
+            <div class="content content-multiwrap display-pop">
+                <div class="content-wrap content-bg bg-cyan">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h2 class="content-heading">Banner di campagna (Left , Carousel)</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-wrap content-bg bg-cyan">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="row row-space">
+                                    <div class="col-sm-12">
+                                        <div class="main-pills main-pills-basic">
+                                            <!--#include virtual="/includes-da/object/pills-campaign-alfa-01.html" -->
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <div class="box-editable-area mb-4">
+                                            <ul class="list-check mb-3">
+                                                <li>Tag di supporto: <strong>Picture</strong></li>
+                                                <li>Numero di img supportato: <strong>2</strong></li>
+                                                <li>Formato immagine di base: <strong>520 x 360</strong></li>
+                                                <li>Formato immagine smartphone: <strong>743 x 360</strong></li>
+                                                <li>Tipologia di responsive img: <strong>Crop / Standard ('xs')</strong></li>
+                                                <li>Allineamento testi: <strong>Sx</strong></li>
+                                                <li>Allineamento img: <strong>Top - Centrato</strong></li>
+                                                <li>Classi a supporto: <strong>".campaign-alfa-left"</strong>, <strong>".campaign-scroll"</strong> (abilitazione carosello)</li>
+                                                <li>Varianti supportate: <strong>".campaign-alfa-right</strong></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Banner di campagna - Right -->
+            <div class="content content-multiwrap display-pop">
+                <div class="content-wrap content-bg bg-white">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h2 class="content-heading">Banner di campagna (Right)</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-wrap content-bg bg-white">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="row row-space">
+                                    <div class="col-sm-12">
+                                        <div class="main-pills main-pills-basic">
+                                            <!--#include virtual="/includes-da/object/pills-campaign-alfa-02.html" -->
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <div class="box-editable-area mb-4">
+                                            <p class="text-note">v. specifiche "Banner di campagna"</p>
+                                            <ul class="list-check mb-3">
+                                                <li>Classi a supporto: <strong>".campaign-alfa-right"</strong></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pills Showcase (Vetrina) -->
+            <div class="content content-multiwrap display-pop">
+                <div class="content-wrap content-bg bg-cyan">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h2 class="content-heading">Pills Showcase - Vetrina (Left)</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-wrap content-bg bg-cyan">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="row row-space">
+                                    <div class="col-sm-12">
+                                        <div class="main-pills main-pills-showcase mode-img-bottom equalize-wrap equalize-wrap-1">
+                                            <!--#include virtual="/includes-da/object/pills-light-showcase-left.html" -->
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <div class="box-editable-area mb-4">
+                                            <ul class="list-check mb-3">
+                                                <li>Tag di supporto: <strong>Picture</strong></li>
+                                                <li>Numero di img supportato: <strong>2</strong></li>
+                                                <li>Formato immagine di base: <strong>310 x 650</strong></li>
+                                                <li>Formato immagine smartphone: <strong>743 x 285</strong></li>
+                                                <li>Tipologia di responsive img: <strong>Crop</strong></li>
+                                                <li>Allineamento testi: <strong>Sx, Centrato (solo 'xs')</strong></li>
+                                                <li>Allineamento img: <strong>Bottom - Centrato</strong></li>
+                                                <li>Classi a supporto: <strong>".mode-img-bottom"</strong> (>'sm')</li>
+                                                <li>Varianti supportate: <strong>".mode-img-top"</strong> (>'sm'), <strong>".mode-img-middle"</strong> (>'sm')</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pills Showcase (Vetrina) -->
+            <div class="content content-multiwrap display-pop">
+                <div class="content-wrap content-bg bg-white">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h2 class="content-heading">Pills Showcase - Vetrina (Right)</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-wrap content-bg bg-white">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="row row-space">
+                                    <div class="col-sm-12">
+                                        <div class="main-pills main-pills-showcase mode-img-top equalize-wrap equalize-wrap-2">
+                                            <!--#include virtual="/includes-da/object/pills-light-showcase-right.html" -->
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <div class="box-editable-area mb-4">
+                                            <p class="text-note">v. specifiche "Pills Showcase - Vetrina (Left)"</p>
+                                            <ul class="list-check mb-3">
+                                                <li>Allineamento img: <strong>Top (default)- Centrato</strong></li>
+                                                <li>Classi a supporto: <strong>".mode-img-top"</strong> (>'sm')</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <aside aria-labelledby="side-help-title">
+        <div class="content content-sidebar-assistenza">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <!--#include virtual="/includes-da/navigation/right-side-offcanvas.html" -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
+    <footer id="footer">
+        
+        <div class="content content-footer content-footer-main">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--#include virtual="/includes-da/footer/footer-content-main.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content content-footer content-footer-extra">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--#include virtual="/includes-da/footer/footer-content-extra.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--#include virtual="/includes-da/utilities/footer-tag.html" -->
+        
+    </footer>
+    
+</body>
+
+</html>

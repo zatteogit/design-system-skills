@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="it">
+
+    <head>
+        <title>Poste.it</title>
+        <!--#include virtual="/includes-da/utilities/head-tag.html" -->
+       
+    </head>
+
+
+    <body>
+        
+        <nav id="skiplink" aria-label="Navigazione di pagina">
+            <ul>
+            <li><a tabindex="0" class="skip-link sr-only-focusable-abs" href="#accessibility-anchor">Passa al contenuto
+            principale</a></li>
+            <li><a class="skip-link sr-only-focusable-abs" href="#assistenza-side">Passa all'help</a></li>
+            <li><a class="skip-link sr-only-focusable-abs" href="#footer">Passa al footer di pagina</a></li>
+            </ul>
+        </nav>
+        
+        <header>
+            <!-- Content Navbar-->
+            <div class="content" id="content-navbar">
+                <div class="content-wrap">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-sm-12">
+                        <div class="content-navbar-wrap">
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <nav class="navbar navbar-default" id="nav-def-pi"
+                                aria-label="barra di navigazione: menu e ricerca del sito, assistenza">
+                                <div class="navbar-header">
+                                  <div class="navbar-wrap">
+                                    <a class="navbar-brand" href="/" title="Torna a Poste.it">
+                                      <img id="logo" alt="Logo PosteItaliane" src="/assets-da/core/img/loghi/logo-poste-italiane.png"
+                                        srcset="/assets-da/core/img/loghi/logo-poste-italiane@2x.png 2x">
+                                    </a>
+                                  </div>
+                                </div>
+                              </nav>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </header>
+
+        <main id="accessibility-anchor" tabindex="-1">
+            <div class="content concept-a" id="content-abstract">
+                <div class="content-wrap">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-7 hidden-sm hidden-xs">
+                                <ol class="breadcrumb breadcrumb-xs-trim-a breadcrumb-sm-trim-a breadcrumb-md-trim-b">
+                                    <li>
+                                        <a href="/" title="Index Html-kit">
+                                            <span>Html-kit</span>
+                                        </a>
+                                    </li>
+                                    <li class="active" aria-current="page"><span>Ui-Elements Forms</span></li>
+                                </ol>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="abstract-wrap col-sm-5 col-sm-push-7">
+                                <div class="picture-wrap">
+                                    <picture>
+                                        <source srcset="/data/img/content-abstract-cards.webp" type="image/webp">
+                                        <source srcset="/data/img/content-abstract-cards.png" type="image/png">
+                                        <img loading="lazy" src="/data/img/content-abstract-cards.png" class="" alt="Form preview area intro">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="abstract-wrap col-sm-7 col-sm-pull-5">
+                                <div class="abstract">
+                                    <div class="abstract-heading">
+                                        <h1>UI Forms Elements</h1>
+                                        <span class="abstract-subtitle">Elementi e stili per la creazione di form accessibili e responsivi</span>
+                                    </div>
+                                </div>
+                                <!--
+                                <div class="abstract-advantage pt-3">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <p> </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div id="main">
+
+                                <!-- Form light-->
+                                <div class="main-pills">
+                                    <!--#include virtual="/includes-da/object/pills-light-genericform.html" -->
+                                </div>
+
+                                <!-- Form controls - square -->
+                                <div class="main-pills">
+                                    <!--#include virtual="/includes-da/object/pills-light-genericform-square-controls.html" -->
+                                </div>
+
+                                <!-- Form autocomplete example -->
+                                <!-- div class="main-pills">
+                                    < !-- #include virtual="/includes-da/object/pills-light-autocomplete-example.html"-- > 
+                                </div>  -->
+
+                                <!-- Form light - table-->
+                                <div class="main-pills">
+                                    <!--#include virtual="/includes-da/object/pills-light-genericform-table.html" -->
+                                </div>
+
+
+                                <!-- Modal-->
+                                <div class="main-pills">
+                                    <!--#include virtual="/includes-da/object/pills-light-genericform-modal.html" -->
+                                </div>
+
+                                <!-- popover -->
+                                <div class="main-pills">
+                                    <!--#include virtual="/includes-da/object/pills-light-popover.html" -->
+                                </div>
+
+                                <!-- Progress bar e range bar-->
+                                <div class="main-pills">
+                                    <!--#include virtual="/includes-da/object/pills-light-genericform-bar.html" -->
+                                </div>
+
+                                <!-- Form light - summary-->
+                                <div class="main-pills">
+                                    <!--#include virtual="/includes-da/object/pills-light-genericform-summary.html" -->
+                                </div>
+
+                                <!-- Form light - list-->
+                                <div class="main-pills">
+                                    <!--#include virtual="/includes-da/object/pills-light-genericform-list.html" -->
+                                </div>
+
+                                <!-- Form light - message-->
+                                <div class="main-pills">
+                                    <!--#include virtual="/includes-da/object/pills-light-genericform-message.html" -->
+                                </div>
+
+                                <!-- Form light - other-->
+                                <div class="main-pills">
+                                    <!--#include virtual="/includes-da/object/pills-light-genericform-otherelements.html" -->
+                                </div>
+
+                                <!-- Btn Light Theme-->
+                                <div class="main-pills">
+                                    <!--#include virtual="/includes-da/object/pills-light-genericform-btn.html" -->
+                                </div>
+
+                                <!-- Btn Dark Theme-->
+                                <div class="main-pills mode-dark" style="background-color:#0047bb;">
+                                    <!--#include virtual="/includes-da/object/pills-dark-genericform-btn.html" -->
+                                </div>
+
+                                <!-- Icon sprite-->
+                                <div class="main-pills"> 
+                                    <!--#include virtual="/assets-da/core/img/iconset/sprite-viewer.html" -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <aside aria-labelledby="side-help-title">
+            <div class="content content-sidebar-assistenza">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <!--#include virtual="/includes-da/navigation/right-side-offcanvas.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <footer id="footer">
+
+            <div class="content content-footer content-footer-main">
+                <div class="content-wrap">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <!--#include virtual="/includes-da/footer/footer-content-main.html" -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content content-footer content-footer-extra">
+                <div class="content-wrap">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <!--#include virtual="/includes-da/footer/footer-content-extra.html" -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--#include virtual="/includes-da/utilities/footer-tag.html" -->
+        
+            
+            <script>
+                /* scripts only for ui.shtml popovers */
+                
+                $(function(){
+                    $('.with-i-info:after').popover();
+                
+                    $('[data-toggle="popover"]:not(.popover-custom-template)').popover();
+
+                    $('.popover-custom-template[data-toggle="popover"]').popover({
+                        template: '<div class="popover" role="tooltip"><div class="arrow"></div><h3 class="popover-title">Titolo popover</h3><div class="popover-content"><p><span class="italic">Contenuto popover</span>:</p><p>Lorem ipsum dolor sic nunc sed adminet dum loc suverentis <strong>aducevit</strong> sapient anuncervit</p></div></div>'
+                    });
+                })
+
+            </script>
+                
+        </footer>
+        
+    </body>
+
+</html>

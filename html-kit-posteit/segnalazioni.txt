@@ -1,0 +1,170 @@
+/*****************************************************
+
+    File Description: segnalazioni.txt
+    Last modified: 12/09/2022
+
+*****************************************************/
+
+
+Feedback POP check
+--------------------------
+--- refresh n elementi carosello servizi nel passaggio tra landscape e portrait --> da verificare
+
+
+--- sostituire loghi brand con svg Matteo
+--- card home?
+
+--- card picture in homepage : verificare altezza line-clamp --> OK 
+--- rimuovere bordo da business --> OK
+--- rimuovere l'onda dalla hero e la parte celeste --> OK
+--- box business su chiamaci a 10col --> Ok
+--- rimodulazione ombre --> Ok
+--- card gamma postemobile --> STANDBY
+--- verificare bug altezza campaign-alfa su smartphone--> Ok
+--- allineare icona pills vol--> Ok
+--- sostituire header landing con header giallo
+--- lo scopri di più primary all'interno del pills wizard non deve avere la freccia
+
+
+
+
+
+
+
+Colori
+--------------------------
+** Risolte:
+--- segnalare il colore #ececec non è definito nelle palette ma usato come bordatura (bordo main-pills) ########--> convertire in : Neutral90-#E2E2E6
+--- segnalare il colore #ececec non è definito nelle palette ma usato come elementi di form disabilitati ########--> convertire in : Neutral90-#E2E2E6
+--- segnalare il colore #F2F8FF non è definito nelle palette ma usato come sfondo content (cyan onda - offer box - active infotabs) ########--> aggiunto in libreria : Cyan97-F2F8FF
+--- segnalare il colore #D0D0D0 non è definito nelle palette ma usato come bordo elementi di form disabilitati ########--> convertire in : Neutral80-#C6C6C9
+--- segnalare il colore #e3e3e3 non è definito nelle palette ma usato come bordatura (bordo tabelle) ########--> convertire in : Neutral90-#E2E2E6
+--- segnalare il colore #f6f6f6 non è definito nelle palette ma usato come sfondo (row tabelle)  ########--> aggiunto in libreria : Neutral97->#F5F5F7
+
+** Stand-by:
+--- segnalare il colore #F2E865 non è definito nelle palette ma usato come sfondo svg circle bg  ########--> attendere input
+
+
+Homepage
+--------------------------
+** Risolte:
+--- la card default icon ha un comportamento non condiviso rispetto alla stessa card in altre pagine - ########--> ok
+--- il pills dedicato al business non ha un comportamento condiviso - ########--> lasciare invariato (riferimento area "chiamaci")
+--- mosaictab: i filter-tag nel tab-mosaic sono una variante con icona? - ########--> si anche se i colori sono opposti
+--- mosaictab(tabpane): img responsive o stesso comportamento card picture? ########--> responsive
+--- la card picture-stretch, come specializzazione della card picture, ha comportamenti superflui su cutpoint xs rispetto alla card picture da cui deriva  ########-->  estesa funzionalità carta picture x cutpoint
+--- il banner centrale è esterno al container principale su sm e xs? ########--> riportato in griglia
+--- la picture-stretch ha un'altezza limitata a *.px? 200? - ########-->  no ... valutare clamp con matteo (inserito supporto clamp x cutpoint) ########--> confermato,ok
+--- banner principale: è consigliabile posizionare i controlli nella parte più bassa del banner (non seguita da elementi contestuali tipo i "disclaimer") ########--> confermato,ok
+--- banner principale: il colore dei controlli non può esser vincolato al singolo pannello ########--> confermato,ok
+--- banner principale: la posizione dei controlli non può esser vincolata ad elementi contestuali (cta o testi) dei singoli pannelli. ########--> ok
+--- mosaictab: va definito il comportamento sul numero di elementi per esigenze di config. (su desktop l'allineamento al centro è vincolato dalla presenza del "variable-width" delle voci; su cutpoint inferiori sarebbe possibile ripristinare il variable-width non essendo più centrate) (RICICLO)
+--- mosaictab(tabpane): spaziatura casistica con colonne vuote (RICICLO)
+--- definire il comportamento/funzione dei link sotto il campo di ricerca   ########--> link ai tab del cerca
+
+** Stand-by:
+--- verificare incongruenza palle celesti rispetto box cerca spedizioni / vieni in poste
+
+Altro
+--------------------------
+** Risolte:
+--- segnalare btn di dimensioni diverse tra desktop e mobile  ########--> confermato
+--- vetrina: unica img?  ########--> (confermato)
+--- vetrina: max-height  ########--> (nessun limite)
+--- richiedere sprite svg con naming corretto  ########--> ok
+--- segnalare assenza icone social su sprite########--> ok
+--- wizard: le immagini le gestiamo incolonnate e quindi soggette a % o come background? ########--> img-responsive
+--- segnalare difformità card-detailed-bg (card gamma con img): su desktop l'immagine sembra essere con uno z-index superiore con radius, su smartphone è il contrario (analogamente alla vetrina) - ########--> gestito come la vetrina
+--- header generico: la voce "area personale"... come la gestiamo? ########--> link a pagina di login
+--- pagina di assistenza: cta Faq da personalizzare? ########--> no ok così
+--- pagina di ricerca ('cerca nel sito'): è richiesta conferma per la gestione degli elementi linkati (consistente presenza di colore blu)  ########--> corretto, ok
+--- banner "campaign alfa": da rivedere su sm/xs  ########--> ok
+--- header generico scroll sticky: confermata rimozione logo?  ########--> confermato,ok
+--- header generico logged: come gestiamo i nomi lunghi sull'header?  ########--> ellipsis,ok
+--- Pagine di ricerca: richiedere declinazione mobile del pills 'usefull-link', della fascia di assistenza (versione con 3 card), dei tab, dello stepper cercaspedizioni  ########--> ok
+--- card-detailed-bg: unica img? ########--> doppia,ok
+--- card-detailed-bg e vetrina: allineamenti correlati all'incolonnamento di bootstrap o fissi??  ########--> non necessariamente per creare movimento,ok
+--- card-detailed-bg: va definito un min-height per l'img   ########--> nessun input, in autonomia
+--- segnalare differenza (difformità) posizione abstract immagine tonda tra scheda e gamma   ########--> ok così
+--- richiedere quali asset necessitano di picture ########--> nessun input, in autonomia
+
+** Stand-by:
+--- segnalare assenza caption tabella (temporaneamente posizionato sotto) ########--> attendere input
+--- segnalare dimensioni minima (vetrina) ########--> attendere input
+--- va definito un min-height per le card ########--> attendere input
+--- segnalare assenza trascrizione nei video : prevediamo un pdf? ########--> attendere input
+--- le pagine provviste di fasce colorate (cyan onda) saranno prive di pallocchi celesti : non è possibile gestire le sovrapposizioni ########--> attendere input (pattern alternativi)
+--- segnalare spaziature anomale lista presente in abstract e posizionamento prezzo/btn (scheda prodotto mobile)
+--- mancano icone svg per i download (excel, word, pdf, ecc)
+--- segnalare dimensione massima img wizard 210x124 e relativo rapporto
+--- richiedere form complessa (con separatori, elementi inline, note, stati,  titoli e testi)
+--- header landing: logo assente? menu landing contestuale?
+-New- manca la declinazione degli elementi testuali in "mode-dark" (link)
+-New- definire h5 default
+-New- richiedere sprite svg aggiornato
+-New- Prenota appuntamento: Manca l'icona "cambia ufficio postale" nello sprite
+-New- form: popover template?
+-New- form: posizionamento box di messaggistica (errori/conferme/warning su form semplici e vol)?
+-New- cerca: input per gli orari su filtro ricerca uffici postali?
+
+-New- contrllare frecce modulo comparativo
+
+
+
+
+Extra
+--------------------------
+** Risolte:
+--- scroll orizzontale extra griglia: inspiration?  ########--> i contenuti scrolleranno cmq all'interno di un container in griglia (alcune situazioni come il popolamento delle card news vanno verificate con il gruppo editoriale per definire l'eventuale loop delle card o il recupero di notizie da db)
+--- banner homepage  ########--> prendere spunto dalla board dedicata "banner"
+--- su gamma finanziamenti c’è un doppio slider orizzontale? ########--> le chips sono su scroll
+
+** Stand-by:
+--- abstract scheda postemobile: incolonnamento da rivedere (wrap del testo non disponibile sui bottoni: implementiamo l'ellipsis?)  ########--> in attesa di input
+--- abstract scheda postemobile: nota non presente su mobile?  ########--> in attesa di input
+
+
+
+Consegne 2023
+--------------------------
+** Risolte:
+--- Glossario   manca modalità mobile ########--> ok
+--- Documentale manca modalità mobile ########--> ok
+--- Abstract v2: no Zoom img su quantità di contenuti diversi
+
+
+** Stand-by:
+--- cross:  export smartphone iphone 13 pro max
+--- Abstract v2: Richiesti taglio img da Sketch (pattern)
+
+
+
+
+--- Abstract v2: Incolonnamento generale modificato su lg e su base contenuti
+--- Abstract v2: Tipografia modificata --> differenze visive per gestione banner (v1 e v2)
+--- Card Comparativa:  qual'è l'ultima versione?
+--- Card Gamma:  manca modalità mobile
+--- Mancano maggiori dettagli su card nuove (Simone), movimento immagine e quantità di contenuto (incolonnamento)
+--- Sfondi pagina peso eccessivo per pattern body
+--- Landing: comportamenti sfondi fascia su mobile, e trasformazione asset su cutpoint mobile (ad esempio come vanno allineate le liste nelle card?)
+
+card gamma con incolonnamento prezzi differente
+tipografia abstract v2 ancora da rivedere
+incolonnamnto abstract dedicato al contenuto
+condividi su pills?
+login ok da fare
+brand agg.?
+card di simone.. si muoveranno sempre in coppia? spaziature corrette?.. dove andranno? solo questi colori?
+landing:comportamenti sfondi e liste su card
+in attesa di sfondi e pattern
+è ancora valida la versione scheda prodotto con main-pills/messaggistica standard bianco?
+allineamento sabrina
+
+
+header scrollato in landing? personalizzato nel colore?
+
+
+header landing scrollabile personalizzato
+header landing gestibile editorialmente
+header landing colore non su css
+arancione

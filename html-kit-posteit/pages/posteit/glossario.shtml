@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <title>Poste.it</title>
+    <!--#include virtual="/includes-da/utilities/head-tag.html" -->
+
+</head>
+
+
+<body class="no-js pattern-simple-01">
+
+    <nav id="skiplink" aria-label="Navigazione di pagina"><ul>
+        <li><a tabindex="0" class="skip-link sr-only-focusable-abs" href="#accessibility-anchor">Passa al contenuto
+        principale</a></li>
+        <li><a class="skip-link sr-only-focusable-abs" href="#assistenza-side">Passa all'help</a></li>
+        <li><a class="skip-link sr-only-focusable-abs" href="#footer">Passa al footer di pagina</a></li>
+    </ul>
+    </nav>
+        <header class="sticky">
+
+            <div class="sticky-wrap">
+                <!-- Content Fedbar-->
+                <div class="content" id="content-fedbar">
+                    <div class="content-wrap">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <!--#include virtual="/includes-da/header/header-content-fedbar.html" -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Content Navbar-->
+                <div class="content" id="content-navbar">
+                    <div class="content-wrap">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <!--#include virtual="/includes-da/header/navbar-content-default.html" -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- Sidebar Menu -->
+        <div class="content" id="content-sites-menu">
+            <div class="content-wrap">
+                <div class="container">
+                    <!--#include virtual="/includes-da/navigation/left-side-offcanvas-sites.html" -->
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <main id="accessibility-anchor" tabindex="-1">
+
+        <div class="content display-pop" id="content-abstract">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-7 hidden-sm hidden-xs">
+                            <ol class="breadcrumb breadcrumb-xs-trim-a breadcrumb-sm-trim-a breadcrumb-md-trim-b">
+                                <li>
+                                    <a href="/pages/posteit/home.shtml" title="Home privati">
+                                        <span>Home privati</span>
+                                    </a>
+                                </li>
+                                <li><a href="/pages/posteit/gamma.shtml" title="Mutui"><span data-trim="trim">Mutui</span></a></li>
+                                <li><a href="/pages/posteit/scheda-bancoposta-01.shtml" title="Mutuo BancoPosta"><span data-trim="trim">Mutuo BancoPosta</span></a></li>
+                                <li class="active" aria-current="page"><span>Glossario</span></li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="abstract">
+                                <div class="abstract-heading">
+                                    <h1>Mutuo BancoPosta - Glossario</h1>
+                                    <span class="abstract-subtitle">Il glossario contiene il significato dei principali termini comunemente utilizzati negli atti di concessione di un mutuo e di compravendita di un immobile.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content" id="content-main">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-structure">
+                            <div id="main">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <fieldset>
+                                                <legend class="sr-only">Ricerca nel glossario</legend>
+                                                <div class="row">
+                                                    <div class="col-xs-push-1 col-xs-10 col-sm-push-0 col-sm-12">
+                                                        <div class="row">
+                                                            <div class="col-sm-6">
+                                                                <form aria-labelledby="label_ricerca_glossario">
+                                                                    <div class="form-group form-searchbar m-0">
+                                                                        <label id="label_ricerca_glossario" class="control-label sr-only" for="search">Cerca nel glossario</label>
+                                                                        <input type="text" class="form-control" id="search" placeholder="Cerca nel glossario">
+                                                                        <button type="submit" title="Avvia la ricerca" class="btn btn-cta btn-primary">
+                                                                            <span class="icon">
+                                                                                <svg focusable="false">
+                                                                                    <title>Avvia la ricerca</title>
+                                                                                    <use xlink:href="/assets-da/core/img/iconset/sprite.svg#025a-search-m"
+                                                                                        href="/assets-da/core/img/iconset/sprite.svg#025a-search-m">
+                                                                                    </use>
+                                                                                </svg>
+                                                                            </span>
+                                                                        </button>
+                                                                    </div>
+                                                                </form>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                        </fieldset>
+                                    </div>
+                                </div>
+                                <div class="row row-space">
+                                    <div class="col-sm-12">
+                                        <div class="default-nav-tabs-container scroll-content-x mode-center">
+                                            <ul class="nav nav-tabs default-nav-tabs justify-content-between" role="tablist">
+                                                <li role="presentation"><a class="text-uppercase" href="#tab-a" aria-controls="tab-a" role="tab" data-toggle="tab" title="a">a</a></li>
+                                                <li role="presentation"><a class="text-uppercase" href="#tab-b" aria-controls="tab-b" role="tab" data-toggle="tab" title="b">b</a></li>
+                                                <li role="presentation"><a class="text-uppercase" href="#tab-c" aria-controls="tab-c" role="tab" data-toggle="tab" title="c">c</a></li>
+                                                <li role="presentation"><a class="text-uppercase" href="#tab-d" aria-controls="tab-d" role="tab" data-toggle="tab" title="d">d</a></li>
+                                                <li role="presentation"><a class="text-uppercase" href="#tab-e" aria-controls="tab-e" role="tab" data-toggle="tab" title="e">e</a></li>
+                                                <li role="presentation" class="active"><a class="text-uppercase" href="#tab-f" aria-controls="tab-f" role="tab" data-toggle="tab" title="f">f</a></li>
+                                                <li role="presentation"><a class="text-uppercase" href="#tab-g" aria-controls="tab-g" role="tab" data-toggle="tab" title="g">g</a></li>
+                                                <li role="presentation"><a class="text-uppercase" href="#tab-h" aria-controls="tab-h" role="tab" data-toggle="tab" title="h">h</a></li>
+                                                <li role="presentation"><a class="text-uppercase" href="#tab-i" aria-controls="tab-i" role="tab" data-toggle="tab" title="i">i</a></li>
+                                                <li role="presentation"><a class="text-uppercase" href="#tab-j" aria-controls="tab-j" role="tab" data-toggle="tab" title="j">j</a></li>
+                                                <li role="presentation"><a class="text-uppercase" href="#tab-k" aria-controls="tab-k" role="tab" data-toggle="tab" title="k">k</a></li>
+                                                <li role="presentation"><a class="text-uppercase" href="#tab-l" aria-controls="tab-l" role="tab" data-toggle="tab" title="l">l</a></li>
+                                                <li role="presentation"><a class="text-uppercase" href="#tab-m" aria-controls="tab-m" role="tab" data-toggle="tab" title="m">m</a></li>
+                                                <li role="presentation"><a class="text-uppercase" href="#tab-n" aria-controls="tab-n" role="tab" data-toggle="tab" title="n">n</a></li>
+                                                <li role="presentation"><a class="text-uppercase" href="#tab-o" aria-controls="tab-o" role="tab" data-toggle="tab" title="o">o</a></li>
+                                                <li role="presentation"><a class="text-uppercase" href="#tab-p" aria-controls="tab-p" role="tab" data-toggle="tab" title="p">p</a></li>
+                                                <li role="presentation"><a class="text-uppercase" href="#tab-q" aria-controls="tab-q" role="tab" data-toggle="tab" title="q">q</a></li>
+                                                <li role="presentation"><a class="text-uppercase" href="#tab-r" aria-controls="tab-r" role="tab" data-toggle="tab" title="r">r</a></li>
+                                                <li role="presentation"><a class="text-uppercase" href="#tab-s" aria-controls="tab-s" role="tab" data-toggle="tab" title="s">s</a></li>
+                                                <li role="presentation"><a class="text-uppercase" href="#tab-t" aria-controls="tab-t" role="tab" data-toggle="tab" title="t">t</a></li>
+                                                <li role="presentation"><a class="text-uppercase" href="#tab-u" aria-controls="tab-u" role="tab" data-toggle="tab" title="u">u</a></li>
+                                                <li role="presentation"><a class="text-uppercase" href="#tab-v" aria-controls="tab-v" role="tab" data-toggle="tab" title="v">v</a></li>
+                                                <li role="presentation"><a class="text-uppercase" href="#tab-w" aria-controls="tab-w" role="tab" data-toggle="tab" title="w">w</a></li>
+                                                <li role="presentation"><a class="text-uppercase" href="#tab-x" aria-controls="tab-x" role="tab" data-toggle="tab" title="x">x</a></li>
+                                                <li role="presentation"><a class="text-uppercase" href="#tab-y" aria-controls="tab-y" role="tab" data-toggle="tab" title="y">y</a></li>
+                                                <li role="presentation"><a class="text-uppercase" href="#tab-z" aria-controls="tab-z" role="tab" data-toggle="tab" title="z">z</a></li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-content mb-3">
+                                    <!-- Glossario A -->
+                                    <div role="tabpanel" class="tab-pane" id="tab-a" aria-label="Termini che lorem ipsum adepiscit">
+                                        <div class="row row-space equalize-group equalize-group-1">
+                                            <div class="col-sm-12">
+                                                <div class="row">
+                                                    <div class="col-sm-12">
+                                                        Glossario A
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Glossario B -->
+                                    <div role="tabpanel" class="tab-pane" id="tab-b" aria-label="Termini che lorem ipsum adepiscit">
+                                        <div class="row row-space equalize-group equalize-group-2">
+                                            <div class="col-sm-12">
+                                                <div class="row">
+                                                    <div class="col-sm-12">
+                                                        Glossario B
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Glossario C -->
+                                    <div role="tabpanel" class="tab-pane" id="tab-c" aria-label="Termini che lorem ipsum adepiscit">
+                                        <div class="row row-space equalize-group equalize-group-3">
+                                            <div class="col-sm-12">
+                                                <div class="row">
+                                                    <div class="col-sm-12">
+                                                        Glossario C
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Glossario D -->
+                                    <div role="tabpanel" class="tab-pane" id="tab-d" aria-label="Termini che lorem ipsum adepiscit">
+                                        <div class="row row-space equalize-group equalize-group-4">
+                                            <div class="col-sm-12">
+                                                <div class="row">
+                                                    <div class="col-sm-12">
+                                                        Glossario D
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Glossario E -->
+                                    <div role="tabpanel" class="tab-pane" id="tab-e" aria-label="Termini che lorem ipsum adepiscit">
+                                        <div class="row row-space equalize-group equalize-group-5">
+                                            <div class="col-sm-12">
+                                                <div class="row">
+                                                    <div class="col-sm-12">
+                                                        Glossario E
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Glossario F -->
+                                    <div role="tabpanel" class="tab-pane active" id="tab-f" aria-label="Termini che lorem ipsum adepiscit">
+                                        <div class="row row-space row-fix row-group equalize-group equalize-group-6">
+                                            <div class="col-xs-12">
+                                                <div class="row">
+                                                    <div class="col-sm-6">
+                                                        <div class="panel panel-cards panel-cards-default">
+                                                            <div class="panel-wrap">
+                                                                <div class="panel-heading">
+                                                                    <h3 class="cards-text-heading">Fallimento</h3>
+                                                                </div>
+                                                                <div class="panel-body">
+                                                                    <div class="cards-content">
+                                                                        <p>&Egrave; la dichiarazione dello stato di insolvenza di un imprenditore, ossia l'impossibilit&agrave; di soddisfare regolarmente gli impegni assunti. Effetto del fallimento &egrave; lo spossessamento cio&egrave; la perdita della disponibilit&agrave; e dell'amministrazione dei beni del fallito ed il passaggio dell'amministrazione al curatore.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        <div class="panel panel-cards panel-cards-default">
+                                                            <div class="panel-wrap">
+                                                                <div class="panel-heading">
+                                                                    <h3 class="cards-text-heading">Fattispecie</h3>
+                                                                </div>
+                                                                <div class="panel-body">
+                                                                    <div class="cards-content">
+                                                                        <p>Sta ad indicare il caso concreto che forma oggetto di una questione. Si ha quindi la fattispecie legale, che &egrave; la situazione-tipo prevista da una norma giuridica.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        <div class="panel panel-cards panel-cards-default">
+                                                            <div class="panel-wrap">
+                                                                <div class="panel-heading">
+                                                                    <h3 class="cards-text-heading">Fideiussione</h3>
+                                                                </div>
+                                                                <div class="panel-body">
+                                                                    <div class="cards-content">
+                                                                        <p>&Egrave; l'atto con cui un soggetto, obbligandosi personalmente verso il creditore, garantisce l'adempimento di una obbligazione altrui. La garanzia &egrave; personale perché il creditore pu&ograve; soddisfarsi sopra il patrimonio di una persona diversa dal debitore.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        <div class="panel panel-cards panel-cards-default">
+                                                            <div class="panel-wrap">
+                                                                <div class="panel-heading">
+                                                                    <h3 class="cards-text-heading">Forma ad substantiam</h3>
+                                                                </div>
+                                                                <div class="panel-body">
+                                                                    <div class="cards-content">
+                                                                        <p>Per gli atti di maggiore importanza la legge esige una particolare forma che &egrave; poi quella scritta. In questa ipotesi la forma &egrave; prescritta ad substantiam: l'atto cio&egrave; non &egrave; valido se non &egrave; fatto con la forma stabilita.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div id="result-f" class="row collapse">
+                                                    <div class="col-sm-6">
+                                                        <div class="panel panel-cards panel-cards-default">
+                                                            <div class="panel-wrap">
+                                                                <div class="panel-heading">
+                                                                    <h3 class="cards-text-heading">Forza maggiore</h3>
+                                                                </div>
+                                                                <div class="panel-body">
+                                                                    <div class="cards-content">
+                                                                        <p>&Egrave; l'impossibilit&agrave; sopravvenuta che impedisce di effettuare la prestazione, ossia la prestazione &egrave; divenuta impossibile senza colpa del debitore.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        <div class="panel panel-cards panel-cards-default">
+                                                            <div class="panel-wrap">
+                                                                <div class="panel-heading">
+                                                                    <h3 class="cards-text-heading">Lorem ipsum dolor sit</h3>
+                                                                </div>
+                                                                <div class="panel-body">
+                                                                    <div class="cards-content">
+                                                                        <p>Laborum consectetur non suscipit ullam nobis ducim sit amet consectetur adipisicing elit.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        <div class="panel panel-cards panel-cards-default">
+                                                            <div class="panel-wrap">
+                                                                <div class="panel-heading">
+                                                                    <h3 class="cards-text-heading">Lorem ipsum dolor sit</h3>
+                                                                </div>
+                                                                <div class="panel-body">
+                                                                    <div class="cards-content">
+                                                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea culpa quisquam dolorum laboriosam sit at quos est. Laborum consectetur non suscipit ullam nobis ducimus sed obcaecati sint eum? Temporibus, earum.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-12">
+
+                                                        <button class="btn btn-xs btn-default btn-link collapsed show-more" title="Visualizza altre voci lorem ipsum" data-toggle="collapse" data-target="#result-f" aria-expanded="false" aria-controls="result-f">
+                                                            <span data-obj="collapsed">
+                                                                <span class="icon">
+                                                                    <svg focusable="false">
+                                                                        <title>Visualizza ulteriori dettagli</title>
+                                                                        <use xlink:href="/assets-da/core/img/iconset/sprite.svg#019a-plus-m" href="/assets-da/core/img/iconset/sprite.svg#019a-plus-m"></use>
+                                                                    </svg>
+                                                                </span>Mostra altri
+                                                            </span>
+                                                            <span data-obj="in">
+                                                                <span class="icon">
+                                                                    <svg focusable="false">
+                                                                        <title>Nascondi dettagli</title>
+                                                                        <use xlink:href="/assets-da/core/img/iconset/sprite.svg#020a-minus-m" href="/assets-da/core/img/iconset/sprite.svg#020a-minus-m"></use>
+                                                                    </svg>
+                                                                </span>Nascondi
+                                                            </span>
+                                                        </button>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Glossario G -->
+                                    <div role="tabpanel" class="tab-pane" id="tab-g" aria-label="Termini che lorem ipsum adepiscit">
+                                        <div class="row row-space equalize-group equalize-group-7">
+                                            <div class="col-sm-12">
+                                                <div class="row">
+                                                    <div class="col-sm-12">
+                                                        Glossario G
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Glossario H -->
+                                    <div role="tabpanel" class="tab-pane" id="tab-h" aria-label="Termini che lorem ipsum adepiscit">
+                                        <div class="row row-space equalize-group equalize-group-8">
+                                            <div class="col-sm-12">
+                                                <div class="row">
+                                                    <div class="col-sm-12">
+                                                        Glossario H
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Glossario I -->
+                                    <div role="tabpanel" class="tab-pane" id="tab-i" aria-label="Termini che lorem ipsum adepiscit">
+                                        <div class="row row-space equalize-group equalize-group-9">
+                                            <div class="col-sm-12">
+                                                <div class="row">
+                                                    <div class="col-sm-12">
+                                                        Glossario I
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Glossario J -->
+                                    <div role="tabpanel" class="tab-pane" id="tab-j" aria-label="Termini che lorem ipsum adepiscit">
+                                        <div class="row row-space equalize-group equalize-group-10">
+                                            <div class="col-sm-12">
+                                                <div class="row">
+                                                    <div class="col-sm-12">
+                                                        Glossario J
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Glossario K -->
+                                    <div role="tabpanel" class="tab-pane" id="tab-k" aria-label="Termini che lorem ipsum adepiscit">
+                                        <div class="row row-space equalize-group equalize-group-11">
+                                            <div class="col-sm-12">
+                                                <div class="row">
+                                                    <div class="col-sm-12">
+                                                        Glossario K
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Glossario L -->
+                                    <div role="tabpanel" class="tab-pane" id="tab-l" aria-label="Termini che lorem ipsum adepiscit">
+                                        <div class="row row-space equalize-group equalize-group-12">
+                                            <div class="col-sm-12">
+                                                <div class="row">
+                                                    <div class="col-sm-12">
+                                                        Glossario L
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Glossario M -->
+                                    <div role="tabpanel" class="tab-pane" id="tab-m" aria-label="Termini che lorem ipsum adepiscit">
+                                        <div class="row row-space equalize-group equalize-group-13">
+                                            <div class="col-sm-12">
+                                                <div class="row">
+                                                    <div class="col-sm-12">
+                                                        Glossario M
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Glossario N -->
+                                    <div role="tabpanel" class="tab-pane" id="tab-n" aria-label="Termini che lorem ipsum adepiscit">
+                                        <div class="row row-space equalize-group equalize-group-14">
+                                            <div class="col-sm-12">
+                                                <div class="row">
+                                                    <div class="col-sm-12">
+                                                        Glossario N
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Glossario O -->
+                                    <div role="tabpanel" class="tab-pane" id="tab-o" aria-label="Termini che lorem ipsum adepiscit">
+                                        <div class="row row-space equalize-group equalize-group-15">
+                                            <div class="col-sm-12">
+                                                <div class="row">
+                                                    <div class="col-sm-12">
+                                                        Glossario O
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Glossario P -->
+                                    <div role="tabpanel" class="tab-pane" id="tab-p" aria-label="Termini che lorem ipsum adepiscit">
+                                        <div class="row row-space equalize-group equalize-group-16">
+                                            <div class="col-sm-12">
+                                                <div class="row">
+                                                    <div class="col-sm-12">
+                                                        Glossario P
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Glossario Q -->
+                                    <div role="tabpanel" class="tab-pane" id="tab-q" aria-label="Termini che lorem ipsum adepiscit">
+                                        <div class="row row-space equalize-group equalize-group-17">
+                                            <div class="col-sm-12">
+                                                <div class="row">
+                                                    <div class="col-sm-12">
+                                                        Glossario Q
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Glossario R -->
+                                    <div role="tabpanel" class="tab-pane" id="tab-r" aria-label="Termini che lorem ipsum adepiscit">
+                                        <div class="row row-space equalize-group equalize-group-18">
+                                            <div class="col-sm-12">
+                                                <div class="row">
+                                                    <div class="col-sm-12">
+                                                        Glossario R
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Glossario S -->
+                                    <div role="tabpanel" class="tab-pane" id="tab-s" aria-label="Termini che lorem ipsum adepiscit">
+                                        <div class="row row-space equalize-group equalize-group-19">
+                                            <div class="col-sm-12">
+                                                <div class="row">
+                                                    <div class="col-sm-12">
+                                                        Glossario S
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Glossario T -->
+                                    <div role="tabpanel" class="tab-pane" id="tab-t" aria-label="Termini che lorem ipsum adepiscit">
+                                        <div class="row row-space equalize-group equalize-group-20">
+                                            <div class="col-sm-12">
+                                                <div class="row">
+                                                    <div class="col-sm-12">
+                                                        Glossario T
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Glossario U -->
+                                    <div role="tabpanel" class="tab-pane" id="tab-u" aria-label="Termini che lorem ipsum adepiscit">
+                                        <div class="row row-space equalize-group equalize-group-21">
+                                            <div class="col-sm-12">
+                                                <div class="row">
+                                                    <div class="col-sm-12">
+                                                        Glossario U
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Glossario V -->
+                                    <div role="tabpanel" class="tab-pane" id="tab-v" aria-label="Termini che lorem ipsum adepiscit">
+                                        <div class="row row-space equalize-group equalize-group-22">
+                                            <div class="col-sm-12">
+                                                <div class="row">
+                                                    <div class="col-sm-12">
+                                                        Glossario V
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Glossario W -->
+                                    <div role="tabpanel" class="tab-pane" id="tab-w" aria-label="Termini che lorem ipsum adepiscit">
+                                        <div class="row row-space equalize-group equalize-group-23">
+                                            <div class="col-sm-12">
+                                                <div class="row">
+                                                    <div class="col-sm-12">
+                                                        Glossario W
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Glossario X -->
+                                    <div role="tabpanel" class="tab-pane" id="tab-x" aria-label="Termini che lorem ipsum adepiscit">
+                                        <div class="row row-space equalize-group equalize-group-24">
+                                            <div class="col-sm-12">
+                                                <div class="row">
+                                                    <div class="col-sm-12">
+                                                        Glossario X
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Glossario Y -->
+                                    <div role="tabpanel" class="tab-pane" id="tab-y" aria-label="Termini che lorem ipsum adepiscit">
+                                        <div class="row row-space equalize-group equalize-group-25">
+                                            <div class="col-sm-12">
+                                                <div class="row">
+                                                    <div class="col-sm-12">
+                                                        Glossario Y
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Glossario Z -->
+                                    <div role="tabpanel" class="tab-pane" id="tab-z" aria-label="Termini che lorem ipsum adepiscit">
+                                        <div class="row row-space equalize-group equalize-group-26">
+                                            <div class="col-sm-12">
+                                                <div class="row">
+                                                    <div class="col-sm-12">
+                                                        Glossario Z
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <aside aria-labelledby="side-help-title">
+
+        <!--#include virtual="/includes-da/navigation/right-side-offcanvas.html" -->
+
+    </aside>
+    <footer id="footer">
+
+        <div class="content content-footer content-footer-info">
+          <div class="content-wrap">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12">
+                  <!--#include virtual="/includes-da/footer/footer-content-info.html" -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="content content-footer content-footer-extra">
+          <div class="content-wrap">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12">
+                  <!--#include virtual="/includes-da/footer/footer-content-extra.html" -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--#include virtual="/includes-da/utilities/footer-tag.html" -->
+        
+      </footer>
+
+</body>
+
+</html>

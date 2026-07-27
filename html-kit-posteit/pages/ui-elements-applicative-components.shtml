@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="it">
+
+    <head>
+        <title>Poste.it</title>
+        <!--#include virtual="/includes-da/utilities/head-tag.html" -->
+       
+    </head>
+
+
+    <body>
+        
+        <nav id="skiplink" aria-label="Navigazione di pagina"><ul>
+            <li><a tabindex="0" class="skip-link sr-only-focusable-abs" href="#accessibility-anchor">Passa al contenuto
+            principale</a></li>
+            <li><a class="skip-link sr-only-focusable-abs" href="#assistenza-side">Passa all'help</a></li>
+            <li><a class="skip-link sr-only-focusable-abs" href="#footer">Passa al footer di pagina</a></li>
+        </ul>
+        </nav>
+        <header>
+
+
+            <!-- Content Navbar-->
+            <div class="content" id="content-navbar">
+                <div class="content-wrap">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-sm-12">
+                        <div class="content-navbar-wrap">
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <nav class="navbar navbar-default" id="nav-def-pi"
+                                aria-label="barra di navigazione: menu e ricerca del sito, assistenza">
+                                <div class="navbar-header">
+                                  <div class="navbar-wrap">
+                                    <a class="navbar-brand" href="/" title="Torna a Poste.it">
+                                      <img id="logo" alt="Logo PosteItaliane" src="/assets-da/core/img/loghi/logo-poste-italiane.png"
+                                        srcset="/assets-da/core/img/loghi/logo-poste-italiane@2x.png 2x">
+                                    </a>
+                                  </div>
+                                </div>
+                              </nav>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+        </header>
+
+        <main id="accessibility-anchor" tabindex="-1">
+
+            <div class="content concept-a" id="content-abstract">
+                <div class="content-wrap">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-7 hidden-sm hidden-xs">
+                                <ol class="breadcrumb breadcrumb-xs-trim-a breadcrumb-sm-trim-a breadcrumb-md-trim-b">
+                                    <li>
+                                        <a href="/" title="Index Html-kit">
+                                            <span>Html-kit</span>
+                                        </a>
+                                    </li>
+                                    <li class="active" aria-current="page"><span>Ui-Elements Applicative Components</span></li>
+                                </ol>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="abstract-wrap col-sm-5 col-sm-push-7">
+                                <div class="picture-wrap">
+                                    <picture>
+                                        <source srcset="/data/img/content-abstract-cards.webp" type="image/webp">
+                                        <source srcset="/data/img/content-abstract-cards.png" type="image/png">
+                                        <img loading="lazy" src="/data/img/content-abstract-cards.png" class="" alt="Form preview area intro">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="abstract-wrap col-sm-7 col-sm-pull-5">
+                                <div class="abstract">
+                                    <div class="abstract-heading">
+                                        <h1>UI Elements - Applicative components</h1>
+                                        <span class="abstract-subtitle">Elementi e oggetti per la creazione e gestione di aree applicative</span>
+                                    </div>
+                                </div>
+                                <!--
+                                <div class="abstract-advantage pt-3">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <p> </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div id="main">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="main-pills">
+                                            <div class="main-pills-wrap">
+                                                <div class="row">
+                                                    <div class="col-xs-12">
+                                                        <h2 class="area-heading mt-0">Cosa ti serve per richiedere Postepay Digital</h2>
+                                                    </div>
+                                                </div>
+                                                <div class="row row-space">
+                                                    <div class="col-xs-12">
+                                                        <h3>Identit&agrave; SPID <span class="tag fs-extrasmall">Pi&ugrave; rapido</span></h3>
+                                                        <div class="media">
+                                                            <div class="media-left">
+                                                                <div class="media-wrap">
+                                                                    <img loading="lazy" class="media-object" src="/assets-da/app/generic/img/ico-generic-spid-logo.png" srcset="/assets-da/app/generic/img/ico-generic-spid-logo@2x.png 2x" alt="Lorem ipsum">
+                                                                </div>
+                                                            </div>
+                                                            <div class="media-body vam">
+                                                                <div class="media-wrap">
+                                                                    <div class="row">
+                                                                        <div class="col-xs-12">
+                                                                            <div class="box-editable-area">
+                                                                                <p>Se hai un'identit&agrave; digitale SPID, hai gi&agrave; tutto quello che ti serve! Pochi click e potrai ottenere la tua Postepay Digital.</p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row row-space">
+                                                    <div class="col-xs-12">
+                                                        <h3>Oppure</h3>
+                                                        <div class="media">
+                                                            <div class="media-left">
+                                                                <div class="media-wrap">
+                                                                    <img loading="lazy" class="media-object" src="/assets-da/app/generic/img/ico-generic-documento.png" srcset="/assets-da/app/generic/img/ico-generic-documento@2x.png 2x" alt="Lorem ipsum">
+                                                                </div>
+                                                            </div>
+                                                            <div class="media-body vam">
+                                                                <div class="media-wrap">
+                                                                    <div class="row">
+                                                                        <div class="col-xs-12">
+                                                                            <div class="box-editable-area">
+                                                                                <p class="m-0">Documento di identit&agrave; in corso di validit&agrave;.</p>
+                                                                                <p class="fs-small"><a href="#" title="Cosa significa?">Cosa significa?</a></p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="media">
+                                                            <div class="media-left">
+                                                                <div class="media-wrap">
+                                                                    <img loading="lazy" class="media-object" src="/assets-da/app/generic/img/ico-generic-smartphone.png" srcset="/assets-da/app/generic/img/ico-generic-smartphone@2x.png 2x" alt="Lorem ipsum">
+                                                                </div>
+                                                            </div>
+                                                            <div class="media-body vam">
+                                                                <div class="media-wrap">
+                                                                    <div class="row">
+                                                                        <div class="col-xs-12">
+                                                                            <div class="box-editable-area">
+                                                                                <p class="m-0">Il tuo cellulare.</p>
+                                                                                <p class="fs-small"><a href="#" title="A cosa mi serve?">A cosa mi serve?</a></p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="media">
+                                                            <div class="media-left">
+                                                                <div class="media-wrap">
+                                                                    <img loading="lazy" class="media-object" src="/assets-da/app/generic/img/ico-generic-cam.png" srcset="/assets-da/app/generic/img/ico-generic-cam@2x.png 2x" alt="Lorem ipsum">
+                                                                </div>
+                                                            </div>
+                                                            <div class="media-body vam">
+                                                                <div class="media-wrap">
+                                                                    <div class="row">
+                                                                        <div class="col-xs-12">
+                                                                            <div class="box-editable-area">
+                                                                                <p class="m-0">La fotocamera del cellulare o la webcam del pc.</p>
+                                                                                <p class="fs-small"><a href="#" title="A cosa mi serve?">A cosa mi serve?</a></p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-12">
+                                                        <div class="btn-container btn-container-right mt-4 my-sm-2 clearfix">
+                                                            <a href="#" class="btn btn-primary btn-xs-expand" title="Richiedi online">
+                                                                Richiedi online
+                                                            </a>
+                                                            <a href="#" class="btn btn-secondary btn-xs-expand" title="Ti richiamiamo noi"><span class="icon">
+                                                                <svg focusable="false">
+                                                                    <title>Lorem ipsum</title>
+                                                                    <use xlink:href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m" href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m"></use>
+                                                                </svg>
+                                                            </span>Ti richiamiamo noi
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-12">
+                                        <div class="main-pills main-pills-clear bg-cyan">
+                                            <!--#include virtual="/includes-da/object/pills-light-wizard-05.html" -->
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <div class="main-pills main-pills-xs-basic">
+                                            <!--#include virtual="/includes-da/object/pills-light-wizard-05.html" -->
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <div class="main-pills main-pills-clear bg-cyan">
+                                            <!--#include virtual="/includes-da/object/pills-light-wizard-04.html" -->
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <div class="main-pills main-pills-xs-basic">
+                                            <!--#include virtual="/includes-da/object/pills-light-wizard-04.html" -->
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <div class="main-pills main-pills-xs-basic">
+                                            <!--#include virtual="/includes-da/object/pills-light-genericform-wizard-01.html" -->
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <div class="main-pill main-pills-xs-basics">
+                                            <!--#include virtual="/includes-da/object/pills-light-genericform-tile.html" -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <aside aria-labelledby="side-help-title">
+            <div class="content content-sidebar-assistenza">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <!--#include virtual="/includes-da/navigation/right-side-offcanvas.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <footer id="footer">
+
+            <div class="content content-footer content-footer-main">
+                <div class="content-wrap">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <!--#include virtual="/includes-da/footer/footer-content-main.html" -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content content-footer content-footer-extra">
+                <div class="content-wrap">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <!--#include virtual="/includes-da/footer/footer-content-extra.html" -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--#include virtual="/includes-da/utilities/footer-tag.html" -->
+        
+            
+            <script>
+                /* scripts only for ui.shtml popovers */
+                
+                $(function(){
+                    $('.with-i-info:after').popover();
+                
+                    $('[data-toggle="popover"]:not(.popover-custom-template)').popover();
+
+                    $('.popover-custom-template[data-toggle="popover"]').popover({
+                        template: '<div class="popover" role="tooltip"><div class="arrow"></div><h3 class="popover-title">Titolo popover</h3><div class="popover-content"><p><span class="italic">Contenuto popover</span>:</p><p>Lorem ipsum dolor sic nunc sed adminet dum loc suverentis <strong>aducevit</strong> sapient anuncervit</p></div></div>'
+                    });
+                })
+
+            </script>
+                
+        </footer>
+        
+    </body>
+
+</html>

@@ -1,0 +1,306 @@
+@charset "UTF-8";
+/*****************************************************
+
+    Theme Name: Slick theme
+    Author: GDS//FS//DU
+    Created: 2022/2023
+    File Description: Foglio di stile Tema per Slick slider
+
+*****************************************************/
+/*****************************************************
+    @IMPORT
+    Variabili - (c) Poste Italiane 2023/2024
+*****************************************************/
+/* Icons */
+@font-face {
+  font-family: "slick";
+  src: url("./fonts/slick.eot");
+  src: url("./fonts/slick.eot?#iefix") format("embedded-opentype"), url("./fonts/slick.woff") format("woff"), url("./fonts/slick.ttf") format("truetype"), url("./fonts/slick.svg#slick") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/**
+  Slider
+*/
+.slick-loading .slick-list {
+  background: #fff url("./ajax-loader.gif") center center no-repeat;
+}
+
+/*=================================
+  Previous and Next icon buttons
+==================================*/
+/* */
+/*==========================
+  Slide navigation dots
+===========================*/
+.slick-slider {
+  margin-bottom: 8px;
+}
+.slick-slider.slick-dotted {
+  margin-bottom: 32px;
+}
+
+.slick-dots {
+  z-index: 2;
+  position: absolute;
+  bottom: -40px;
+  display: block;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  list-style: none;
+  text-align: center;
+}
+.slick-dots li {
+  position: relative;
+  display: inline-block;
+  margin: 0 8px;
+  padding: 0;
+}
+
+/**
+ Improved .sr-only class by ffoodd: https://gist.github.com/ffoodd/000b59f431e3e64e4ce1a24d5bb36034
+ */
+.slick-sr-only {
+  border: 0 !important;
+  clip: rect(1px, 1px, 1px, 1px) !important;
+  -webkit-clip-path: inset(50%) !important;
+  clip-path: inset(50%) !important;
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+  white-space: nowrap !important;
+}
+
+/*===========================
+  Pause/play icon button
+============================*/
+.slick-autoplay-toggle-button {
+  position: absolute;
+  left: 5px;
+  bottom: -32px;
+  z-index: 10;
+  opacity: 0.75;
+  background: none;
+  border: 0;
+  cursor: pointer;
+  color: black;
+}
+.slick-autoplay-toggle-button:hover, .slick-autoplay-toggle-button:focus {
+  opacity: 1;
+}
+.slick-autoplay-toggle-button:focus {
+  color: orange;
+}
+.slick-autoplay-toggle-button .slick-pause-icon:before {
+  content: "⏸";
+  width: 20px;
+  height: 20px;
+  font-family: "slick";
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 20px;
+  text-align: center;
+}
+.slick-autoplay-toggle-button .slick-play-icon:before {
+  content: "▶";
+  width: 20px;
+  height: 20px;
+  font-family: "slick";
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 20px;
+  text-align: center;
+}
+
+/* personalization */
+.slick-slider {
+  overflow: initial;
+}
+
+.slick-slider .panel-cards,
+.mosaic-content .slick-slider .panel-cards {
+  margin-bottom: 0;
+}
+
+.slick-slider .slick-list {
+  margin-bottom: 4px;
+}
+
+/* Slick (Home) */
+.slick-scroll-items-evidence .slick-list {
+  padding: 0 0.5rem;
+}
+
+.slick-prev .slick-prev-icon, .slick-prev .slick-next-icon, .slick-next .slick-prev-icon, .slick-next .slick-next-icon, .slick-prev:focus, .slick-next:focus {
+  font-size: 32px;
+  color: #0047bb;
+  opacity: 1;
+}
+
+.slick-prev {
+  left: initial;
+  right: 4.25rem;
+}
+
+.slick-next {
+  left: initial;
+  right: 1.5rem;
+}
+
+.slick-h-scroll-items-fluid .panel-cards-comparison {
+  width: 442px;
+}
+
+.slick-dots li button {
+  display: block;
+  height: 0.825rem;
+  width: 1rem;
+  margin-top: -4px;
+  line-height: 0px;
+  font-size: 0px;
+  color: transparent;
+  content: " ";
+  border: 1px solid #909194;
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 0.825rem;
+}
+.slick-dots li button:hover {
+  background: #4270e4 !important;
+  border: 1px solid #4270e4 !important;
+}
+
+.slick-dots li.slick-active button {
+  width: 1.75rem;
+  background-color: #909194;
+}
+
+.slick-dots li.slick-active button:not(.hero-h-scroll) {
+  background-color: #0047bb;
+  border-color: #0047bb;
+}
+
+/* BTn controls */
+.slick-prev,
+.slick-next {
+  position: absolute;
+  top: -43px;
+  display: block;
+  padding: 0;
+  height: 2.25rem;
+  width: 2.25rem;
+  line-height: 0;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: transparent;
+  color: transparent;
+  border: none;
+  transform: translate(0, -50%);
+  border-radius: 2.25rem;
+}
+
+.hero-arrows .slick-prev,
+.hero-arrows .slick-next {
+  border: none;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  background-color: transparent;
+}
+
+.slick-prev.slick-disabled,
+.slick-next.slick-disabled {
+  background: transparent;
+  border-color: transparent;
+}
+
+.slick-prev.slick-disabled:hover,
+.slick-next.slick-disabled:hover {
+  cursor: not-allowed;
+}
+
+.slick-prev-icon,
+.slick-next-icon {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1.25rem;
+  height: 1.25rem;
+  width: 2.25rem;
+  display: block;
+}
+
+.slick-prev::before,
+.slick-next::before {
+  content: " ";
+  border: 1px solid #0047bb;
+  width: 70%;
+  height: 70%;
+  display: block;
+  background-color: transparent;
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  border-radius: 1rem;
+  z-index: -1;
+}
+
+.slick-prev.slick-disabled::before,
+.slick-next.slick-disabled::before {
+  background: #e2e2e6;
+  border-color: #e2e2e6;
+}
+
+.slick-prev-icon {
+  background-image: url("/assets-da/core/img/iconset/001a-arrow-back-m-primary33.svg");
+}
+
+.slick-next-icon {
+  background-image: url("/assets-da/core/img/iconset/001b-arrow-forward-m-primary33.svg");
+}
+
+.slick-prev:hover .slick-prev-icon {
+  background-image: url("/assets-da/core/img/iconset/001a-arrow-back-m-neutral100.svg");
+}
+
+.slick-next:hover .slick-next-icon {
+  background-image: url("/assets-da/core/img/iconset/001b-arrow-forward-m-neutral100.svg");
+}
+
+.slick-prev.slick-disabled .slick-prev-icon {
+  background-image: url("/assets-da/core/img/iconset/001a-arrow-back-m.svg");
+  opacity: 0.33;
+}
+
+.slick-next.slick-disabled .slick-next-icon {
+  background-image: url("/assets-da/core/img/iconset/001b-arrow-forward-m.svg");
+  opacity: 0.33;
+}
+
+.slick-prev:hover::before,
+.slick-next:hover::before {
+  background-color: #4270e4;
+  border-color: #4270e4;
+}
+
+.slick-prev.slick-disabled:hover::before,
+.slick-next.slick-disabled:hover::before {
+  background-color: #e2e2e6;
+  border-color: #e2e2e6;
+}
+
+.dots-left .slick-dots {
+  text-align: left;
+  padding: 0 12px;
+}
+
+@media (max-width: 767px) {
+  /* Slick (Home) */
+  .slick-scroll-items-evidence .slick-list {
+    padding: 0;
+  }
+}/*# sourceMappingURL=accessible-slick-theme.css.map */

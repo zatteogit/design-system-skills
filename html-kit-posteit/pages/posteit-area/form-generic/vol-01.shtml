@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <title>Poste.it</title>
+    <!--#include virtual="/includes-da/utilities/head-tag.html" -->
+</head>
+
+<body>
+<nav id="skiplink" aria-label="Navigazione di pagina"><ul>
+        <li><a tabindex="0" class="skip-link sr-only-focusable-abs" href="#accessibility-anchor">Passa al contenuto
+        principale</a></li>
+        <li><a class="skip-link sr-only-focusable-abs" href="#assistenza-side">Passa all'help</a></li>
+        <li><a class="skip-link sr-only-focusable-abs" href="#footer">Passa al footer di pagina</a></li>
+    </ul></nav>
+  <header>
+        <!-- Content Navbar-->
+        <div class="content" id="content-navbar">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--#include virtual="/includes-da/header/navbar-content-app-flusso.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content hide" id="content-cart">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--#include virtual="/includes-da/header/navbar-content-carrello.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main id="accessibility-anchor" tabindex="-1">
+
+        <h1 class="sr-only">Modulo di richiesta - Lorem ipsum</h1>
+
+        <div class="content content-cart concept-app display-pop" id="content-abstract">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 hidden-sm hidden-xs">
+                          <ol class="breadcrumb breadcrumb-xs-trim-a breadcrumb-sm-trim-a breadcrumb-md-trim-b">
+                            <li>
+                              <a href="#" title="Home privati">
+                                <span>Home privati</span>
+                              </a>
+                            </li>
+                            <li class="active" aria-current="page"><span>Registrazione account Poste.it</span></li>
+                          </ol>
+                        </div>
+                      </div>
+                    <div class="row">
+                        <div class="abstract-wrap col-sm-7">
+                            <div class="abstract">
+                                <div class="abstract-heading">
+                                    <h1 class="clearfix">Creami EXTRA WOW 48</h1>
+                                    <span class="fs-extrasmall">L'offerta &egrave; attivabile fino al 22/09/2028</span>
+                                </div>
+                                <div class="btn-container mt-md-3">
+                                    <button class="btn btn-xs btn-default btn-link visible-md visible-lg" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                        Mostra dettaglio
+                                        </button>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="abstract-wrap col-sm-5">
+                            <div class="abstract-cart">
+                                <div class="flex justify-content-between justify-content-sm-end align-items-top align-items-sm-center">
+                                    <div class="advantage-detail-spec py-1 me-3 me-md-5">
+                                        <div class="flex flex-column align-items-sm-end">
+                                            <p class="price-info">Prezzo al mese</p>
+                                            <p class="price-detail text-emphasis">
+                                                <span class="price-value">250</span>
+                                                <span class="price-supvalue">,99</span>
+                                                <span class="price-currency">€</span>
+                                            </p>
+                                            <div class="inline-block relative">
+                                                <p class="fs-small mb-0 previous-offer">
+                                                    invece di <del>8,99€</del> al mese
+                                                </p>
+                                            </div>
+                                            <!--
+                                            <p class="price-subinfo">fino al 31/12/2016</p>
+                                            -->
+                                        </div>
+                                    </div>
+                                    <img class="cart-promoimg" alt="Promo lorem ipsum" src="/assets-da/app/generic/img/cart-promo.png" srcset="/assets-da/app/generic/img/cart-promo@2x.png 2x"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="cart-detail">
+                                <div class="btn-container mb-0">
+                                    <button class="btn btn-xs btn-default btn-link hidden-md hidden-lg mt-1" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                        Mostra dettaglio
+                                        </button>
+                                </div>
+                                <div class="collapse" id="collapseExample">
+                                    <div class="box-editable-area">
+                                        <h2 class="h5">Cosa &egrave; incluso nella tua offerta</h2>
+                                        <ul class="list-check">
+                                            <li>Credit illimitati per minuti e sms</li>
+                                            <li>Costo attivazione online: 10&euro; SIM + 10&euro; prima ricarica comprensiva di canone</li>
+                                            <li>Traffico dati incluso 100GB</li> <li><a href="/pages/posteit/scheda-default.shtml#collapse04" title="Link a voce di accordion in altra pagina">Link a
+                                                voce
+                                                di
+                                                accordion in altra
+                                                pagina</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="content" id="content-stepper">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row mt-5">
+                        <div class="col-lg-10 col-lg-push-1">
+                            <!--#include virtual="/includes-da/object/funnel-stepper.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content" id="content-main">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-lg-10 col-lg-push-1 col-structure">
+                            <div id="main">
+                                <div class="row">
+
+                                    <div class="col-sm-12">
+                                        <div role="alert" class="box-advice box-messages box-danger box-messages-medium">
+                                            <div class="box-heading">
+
+                                                <div class="row">
+
+                                                    <span class="icon icon-round icon-round-danger">
+                                                    <svg focusable="false">
+                                                        <title>Lorem ipsum</title>
+                                                        <use xlink:href="/assets-da/core/img/iconset/sprite.svg#009a-close-m"
+                                                        href="/assets-da/core/img/iconset/sprite.svg#009a-close-m"></use>
+                                                    </svg>
+                                                    </span>
+
+                                                    <div class="col-xs-12 col-sm-8 col-md-9">
+                                                        <p class="mb-0"><strong>Messaggio breve</strong>, con bottone, utilizzando <strong>col-xs-12, col-sm-8, col-md-9</strong> in questa porzione.</p>
+                                                    </div>
+
+                                                    <div class="col-xs-12 col-sm-4 col-md-3 text-sm-right">
+                                                        <button class="btn btn-xs btn-primary mb-0 mb-0 mt-3 mt-sm-0" type="button">primary button</button>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <div class="panel-group panel-group-pills" id="accordion">
+                                            <!-- Panel 01 -->
+                                            <div class="panel panel-pills">
+                                                <div id="headingZero" class="panel-heading">
+                                                    <div class="row">
+                                                        <div class="col-sm-12">
+                                                            <div class="pills-wrap pills-wrap-accordion">
+                                                                <div class="row">
+                                                                    <div class="col-sm-12">
+                                                                        <h2 id="dati-personali-h" class="panel-title">
+                                                                            <a role="button" data-toggle="collapse" tabindex="0" class="accordion-toggle" data-parent="#accordion" href="#collapseZero" aria-expanded="false" aria-controls="collapseZero" title="Dati personali">
+                                                                                <span class="icon icon-success">
+                                                                                    <svg viewBox="0 0 24 24">
+                                                                                        <use
+                                                                                            xlink:href="/assets-da/core/img/iconset/sprite.svg#010a-check-m">
+                                                                                        </use>
+                                                                                    </svg>
+                                                                                </span> Dati personali
+                                                                            </a>
+                                                                        </h2>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div id="collapseZero" class="panel-collapse collapse in nojs-block" role="tabpanel" aria-labelledby="headingZero">
+                                                    <div class="panel-body">
+
+                                                        <div class="row">
+                                                            <div class="col-sm-12">
+                                                                <div class="context-abstract box-editable-area">
+                                                                    <p>
+                                                                        Esempio di contenuto testuale introduttivo lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi doloribus totam accusamus, nulla voluptas cum obcaecati placeat ipsa odio ea eum iusto temporibus hic deleniti inventore quam praesentium reiciendis
+                                                                        sunt.
+                                                                    </p>
+                                                                </div>
+
+                                                                <form id="form-id050505" aria-labelledby="dati-personali-h">
+                                                                    <!--#include virtual="/includes-da/object/forms-vol-example-01.html" -->
+                                                                    <div class="row">
+                                                                        <div class="col-sm-12">
+                                                                            <div class="btn-container btn-container-right my-2 clearfix">
+                                                                                <button form="form-id050505" class="btn btn-xs btn-primary" type="submit">
+                                                                                    Avanti
+                                                                                </button>
+                                                                                <!--
+                                                                                <button class="btn btn-xs btn-secondary" type="button">
+                                                                                    Annulla
+                                                                                </button>
+                                                                                -->
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </form>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Panel 02 -->
+                                            <div class="panel panel-pills">
+                                                <div id="headingUno" class="panel-heading">
+                                                    <div class="row">
+                                                        <div class="col-sm-12">
+                                                            <div class="pills-wrap pills-wrap-accordion">
+                                                                <div class="row">
+                                                                    <div class="col-sm-12">
+                                                                        <h2 class="panel-title">
+                                                                            <a role="button" data-toggle="collapse" tabindex="0" class="accordion-toggle collapsed" data-parent="#accordion" href="#collapseUno" aria-expanded="false" aria-controls="collapseUno" title="Il tuo preventivo">
+                                                                                <span class="icon icon-success">
+                                                                                    <svg viewBox="0 0 24 24">
+                                                                                        <use
+                                                                                            xlink:href="/assets-da/core/img/iconset/sprite.svg#010a-check-m">
+                                                                                        </use>
+                                                                                    </svg>
+                                                                                </span> Il tuo preventivo
+                                                                            </a>
+                                                                        </h2>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div id="collapseUno" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingUno">
+                                                    <div class="panel-body">
+                                                        <div class="row">
+                                                            <div class="col-sm-12">
+                                                                <div class="box-editable-area">
+                                                                    <p>
+                                                                        Poste Delivery Standard ti consente di inviare in tutta Italia fino a 20 Kg di peso. Per rendere ancora pi&ugrave; efficace la consegna delle tue spedizioni, ti mettiamo a disposizione una vasta gamma di opzioni.
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <div class="btn-container btn-container-xs-center btn-container-flow clearfix">
+                                            <button type="submit" form="form-id050505" formaction="#" class="btn btn-primary btn-xs-expand">Prosegui</button>
+                                            <button type="button" class="btn btn-default btn-xs-expand">
+                                                <span class="icon">
+                                                    <svg focusable="false">
+                                                        <title>Lorem ipsum</title>
+                                                        <use xlink:href="/assets-da/core/img/iconset/sprite.svg#047a-inventory-m" href="/assets-da/core/img/iconset/sprite.svg#047a-inventory-m"></use>
+                                                    </svg>
+                                                </span>
+                                                Salva e continua dopo
+                                            </button>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <aside aria-labelledby="side-help-title">
+        <!--#include virtual="/includes-da/navigation/right-side-offcanvas.html" -->
+        <!--#include virtual="/includes-da/navigation/right-side-offcanvas-profilo.html" -->
+    </aside>
+
+    <footer id="footer">
+
+        <div class="content content-footer content-footer-main">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--#include virtual="/includes-da/footer/footer-content-main.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content content-footer content-footer-extra">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--#include virtual="/includes-da/footer/footer-content-extra.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--#include virtual="/includes-da/utilities/footer-tag.html" -->
+        
+    </footer>
+
+
+</body>
+
+</html>

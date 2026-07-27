@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <title>Poste.it</title>
+    <!--#include virtual="/includes-da/utilities/head-tag.html" -->
+
+    <link type="text/css" rel="stylesheet" href="/assets-da/app/cerca/css/cerca.min.css">
+
+</head>
+
+<body>
+    <nav id="skiplink" aria-label="Navigazione di pagina">
+        <ul>
+            <li><a tabindex="0" class="skip-link sr-only-focusable-abs" href="#accessibility-anchor">Passa al contenuto
+                    principale</a></li>
+            <li><a class="skip-link sr-only-focusable-abs" href="#assistenza-side">Passa all'help</a></li>
+            <li><a class="skip-link sr-only-focusable-abs" href="#footer">Passa al footer di pagina</a></li>
+        </ul>
+    </nav>
+
+    <header class="sticky">
+
+        <div class="sticky-wrap">
+
+            <!-- Content Fedbar-->
+            <div class="content" id="content-fedbar">
+                <div class="content-wrap">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <!--#include virtual="/includes-da/header/header-content-fedbar.html" -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Content Navbar-->
+            <div class="content" id="content-navbar">
+                <div class="content-wrap">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <!--#include virtual="/includes-da/header/navbar-content-default.html" -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Sidebar Menu -->
+        <div class="content" id="content-sites-menu">
+            <div class="content-wrap">
+                <div class="container">
+                    <!--#include virtual="/includes-da/navigation/left-side-offcanvas-sites.html" -->
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <main id="accessibility-anchor" tabindex="-1">
+
+        <h1 class="sr-only">Cerca in Poste Italiane</h1>
+
+        <div class="content display-pop">
+            <div class="content-wrap">
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col-md-10 col-md-push-1 col-structure">
+                            <div class="row mt-4 mt-sm-6 mb-1 mb-sm-3">
+                                <div class="col-sm-12">
+                                    <h2 class="h1 content-heading text-center mb-lg-3">Cerca nella mappa</h2>
+                                </div>
+                                <div class="col-sm-10 col-sm-push-1">
+                                    <form aria-labelledby="frm-lbl">
+                                        <div class="form-group form-searchbar">
+                                            <label id="frm-lbl" class="control-label sr-only" for="search">Cerca in
+                                                Poste
+                                                Italiane</label>
+                                            <input type="text" class="form-control" id="search"
+                                                placeholder="Cerca in Poste Italiane">
+                                            <button formaction="/pages/posteit-area/cerca/cerca-risultati.shtml"
+                                                title="Avvia la ricerca" class="btn btn-cta btn-primary">
+                                                <span class="icon">
+                                                    <svg focusable="false">
+                                                        <title>Lorem ipsum</title>
+                                                        <use xlink:href="/assets-da/core/img/iconset/sprite.svg#025a-search-m"
+                                                            href="/assets-da/core/img/iconset/sprite.svg#025a-search-m">
+                                                        </use>
+                                                    </svg>
+                                                </span>
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row row-space">
+                        <div class="col-md-10 col-md-push-1 col-structure p-0">
+
+                            <div class="container-slider-search relative">
+                                <fieldset role="radiogroup" aria-label="filtro di ricerca">
+                                    
+                                    <!-- Content Filter -->
+                                    <div class="content-filter-button pull-left">
+                                        <button type="button"
+                                            class="btn btn-xs btn-secondary btn-filter-search  mt-0 mb-0 me-2">
+                                            <span class="icon">
+                                                <svg focusable="false">
+                                                    <title>Lorem ipsum</title>
+                                                    <use xlink:href="/assets-da/core/img/iconset/sprite.svg#063a-map-m"
+                                                        href="/assets-da/core/img/iconset/sprite.svg#063a-map-m">
+                                                    </use>
+                                                </svg>
+                                            </span>Filtri
+                                        </button>
+                                    </div>
+
+                                    <!-- Content Filter Slider -->
+                                    <div class="content-filter-slider content-slider-item-selected pull-left">
+                                        <div class="slick-scroll-filter">
+                                            <div class="m-0 p-0 container-switch scroll-content-x">
+
+                                                <label class="relative switch switch-right" for="option01">
+                                                    <input type="checkbox" name="options-choose01" id="option01">
+                                                    <span class="lever">Punto Poste Locker</span>
+                                                </label>
+
+                                                <label class="relative switch switch-right" for="option02">
+                                                    <input type="checkbox" name="options-choose02" id="option02"
+                                                        checked="checked">
+                                                    <span class="lever">Punto Poste e PuntoLis</span>
+                                                </label>
+
+                                                <label class="relative switch switch-right" for="option03">
+                                                    <input type="checkbox" name="options-choose03" id="option03">
+                                                    <span class="lever">Cassette Postali</span>
+                                                </label>
+
+                                              
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </fieldset>
+                            </div>
+
+                            <div class="col-sm-12">
+                                <div class="row row-space mt-6">
+
+                                    <div class="col-sm-6 col-md-6">
+                                        <div class="panel panel-cards">
+                                            <div class="cards-wrap panel-wrap">
+
+                                                <div class="panel-heading">
+                                                    <div class="panel-heading-subinfo mb-1">
+                                                        <h3 id="cards-text-heading-up-01b"
+                                                            class="h2 cards-text-heading mb-2">T-shirt Pro 1</h3>
+
+                                                    </div>
+                                                </div>
+
+                                                <div class="panel-body">
+                                                    <div class="cards-content equalize-3 mb-4">
+                                                        <p class="mb-3"><span
+                                                                class="tag tag-info fs-extrasmall distance">3% di
+                                                                cashback</span></p>
+                                                        <p class="mb-2"><strong>Abbigliamento</strong> / 250m</p>
+                                                        <p>Via Regina Margherita 00154 Roma
+                                                        </p>
+
+                                                    </div>
+                                                </div>
+
+                                                <div class="panel-footer">
+                                                    <div class="btn-container clearfix">
+                                                        <a href="#" title="Cambia ufficio postale"
+                                                            id="cards-action-up-013a" class="btn btn-xs btn-secondary">
+                                                            Dettaglio</a>
+                                                        <a href="/" title="Lorem ipsum"
+                                                            class="btn btn-cta btn-xs btn-primary pull-right">
+                                                            <span class="icon">
+                                                                <svg focusable="false">
+                                                                    <title>Lorem ipsum</title>
+                                                                    <use xlink:href="/assets-da/core/img/iconset/sprite.svg#019a-plus-m"
+                                                                        href="/assets-da/core/img/iconset/sprite.svg#019a-plus-m">
+                                                                    </use>
+                                                                </svg>
+                                                            </span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-6 col-md-6">
+                                        <div class="panel panel-cards">
+                                            <div class="cards-wrap panel-wrap">
+
+                                                <div class="panel-heading">
+                                                    <div class="panel-heading-subinfo mb-1">
+                                                        <h3 id="cards-text-heading-up-01b"
+                                                            class="h2 cards-text-heading mb-2">T-shirt Pro 2</h3>
+
+                                                    </div>
+                                                </div>
+
+                                                <div class="panel-body">
+                                                    <div class="cards-content equalize-3 mb-4">
+                                                        <p class="mb-2"><strong>Abbigliamento</strong> / 250m</p>
+                                                        <p>Via Regina Margherita 00154 Roma
+                                                        </p>
+
+                                                    </div>
+                                                </div>
+
+                                                <div class="panel-footer">
+                                                    <div class="btn-container clearfix">
+                                                        <a href="#" title="Cambia ufficio postale"
+                                                            id="cards-action-up-013a" class="btn btn-xs btn-secondary">
+                                                            Dettaglio</a>
+                                                        <a href="/" title="Lorem ipsum"
+                                                            class="btn btn-cta btn-xs btn-primary pull-right">
+                                                            <span class="icon">
+                                                                <svg focusable="false">
+                                                                    <title>Lorem ipsum</title>
+                                                                    <use xlink:href="/assets-da/core/img/iconset/sprite.svg#019a-plus-m"
+                                                                        href="/assets-da/core/img/iconset/sprite.svg#019a-plus-m">
+                                                                    </use>
+                                                                </svg>
+                                                            </span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-6 col-md-6">
+                                        <div class="panel panel-cards">
+                                            <div class="cards-wrap panel-wrap">
+
+                                                <div class="panel-heading">
+                                                    <div class="panel-heading-subinfo mb-1">
+                                                        <h3 id="cards-text-heading-up-01b"
+                                                            class="h2 cards-text-heading mb-2">T-shirt Pro 3</h3>
+
+                                                    </div>
+                                                </div>
+
+                                                <div class="panel-body">
+                                                    <div class="cards-content equalize-3 mb-4">
+                                                        <p class="mb-3"><span
+                                                                class="tag tag-info fs-extrasmall distance">3% di
+                                                                cashback</span></p>
+                                                        <p class="mb-2"><strong>Abbigliamento</strong> / 250m</p>
+                                                        <p>Via Regina Margherita 00154 Roma
+                                                        </p>
+
+                                                    </div>
+                                                </div>
+
+                                                <div class="panel-footer">
+                                                    <div class="btn-container clearfix">
+                                                        <a href="#" title="Cambia ufficio postale"
+                                                            id="cards-action-up-013a" class="btn btn-xs btn-secondary">
+                                                            Dettaglio</a>
+                                                        <a href="/" title="Lorem ipsum"
+                                                            class="btn btn-cta btn-xs btn-primary pull-right">
+                                                            <span class="icon">
+                                                                <svg focusable="false">
+                                                                    <title>Lorem ipsum</title>
+                                                                    <use xlink:href="/assets-da/core/img/iconset/sprite.svg#019a-plus-m"
+                                                                        href="/assets-da/core/img/iconset/sprite.svg#019a-plus-m">
+                                                                    </use>
+                                                                </svg>
+                                                            </span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-6 col-md-6">
+                                        <div class="panel panel-cards">
+                                            <div class="cards-wrap panel-wrap">
+
+                                                <div class="panel-heading">
+                                                    <div class="panel-heading-subinfo mb-1">
+                                                        <h3 id="cards-text-heading-up-01b"
+                                                            class="h2 cards-text-heading mb-2">T-shirt Pro 4</h3>
+
+                                                    </div>
+                                                </div>
+
+                                                <div class="panel-body">
+                                                    <div class="cards-content equalize-3 mb-4">
+                                                        <p class="mb-2"><strong>Abbigliamento</strong> / 250m</p>
+                                                        <p>Via Regina Margherita 00154 Roma
+                                                        </p>
+
+                                                    </div>
+                                                </div>
+
+                                                <div class="panel-footer">
+                                                    <div class="btn-container clearfix">
+                                                        <a href="#" title="Cambia ufficio postale"
+                                                            id="cards-action-up-013a" class="btn btn-xs btn-secondary">
+                                                            Dettaglio</a>
+                                                        <a href="/" title="Lorem ipsum"
+                                                            class="btn btn-cta btn-xs btn-primary pull-right">
+                                                            <span class="icon">
+                                                                <svg focusable="false">
+                                                                    <title>Lorem ipsum</title>
+                                                                    <use xlink:href="/assets-da/core/img/iconset/sprite.svg#019a-plus-m"
+                                                                        href="/assets-da/core/img/iconset/sprite.svg#019a-plus-m">
+                                                                    </use>
+                                                                </svg>
+                                                            </span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <aside aria-labelledby="side-help-title">
+        <div class="content content-sidebar-assistenza">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <!--#include virtual="/includes-da/navigation/right-side-offcanvas.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <footer id="footer">
+
+        <div class="content content-footer content-footer-info">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--#include virtual="/includes-da/footer/footer-content-info.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content content-footer content-footer-extra">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--#include virtual="/includes-da/footer/footer-content-extra.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--#include virtual="/includes-da/utilities/footer-tag.html" -->
+
+    </footer>
+
+</body>
+
+</html>

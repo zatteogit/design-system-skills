@@ -1,0 +1,91 @@
+/*****************************************************
+    @IMPORT
+    Variabili - (c) Poste Italiane 2023/2024
+*****************************************************/
+
+
+// color base
+$color_base: #FDFDFD;
+
+// color neutral
+$color_neutral_10: #1a1c1e;
+$color_neutral_30: #46474a;
+$color_neutral_40: #5d5e61;
+$color_neutral_60: #909194;
+$color_neutral_80: #c6c6c9;
+$color_neutral_90: #e2e2e6;
+$color_neutral_95: #f0f0f3;
+$color_neutral_97: #f5f5f7;
+$color_neutral_100: #fff;
+
+// color primary
+$color_primary_20: #00297a;
+$color_primary_33: #0047bb;     //primario default
+$color_primary_50: #4270e4;
+$color_primary_90: #dae2ff;
+$color_primary_95: #eef0ff;
+$color_primary_97: #f2f8ff;     //rinominato in dls ice_blue_97
+
+// color secondary
+$color_secondary_87: #eedc00;   //secondario default
+$color_secondary_90: #f2e865;   
+$color_secondary_95: #fff47e;   
+
+// section
+$color_section_premium: #002e5d;
+
+// color banner
+$color_banner_97: #fcf7e4;
+
+// color success
+$color_success_40: #006d36;
+$color_success_95: #EFF9EC;
+
+// color evidence
+$color_evidence_40: #df7400;
+$color_evidence_95: #FFF0E5;
+
+// color error
+$color_error_40: #ba1b1b; // alias di color_alert_40
+$color_error_95: #FFE9E5; // alias di color_error_95
+
+
+// color outline
+$color_outline_onlight: #E47701;
+
+// cards, pills and boxes
+$shadow_default: 2px 2px 8px 8px rgba(0,0,0,0.05);
+$border_default: 1px solid #F3F3F3;
+$border_marked: 1px solid #e2e2e6;
+$radius_default: 8px;
+
+// typografy
+$standard_font_size: 16px;
+$standard_line_height: 1.5rem;
+
+$fw_thin:       200;
+$fw_light:      300;
+$fw_regular:    400;
+$fw_medium:     500;
+$fw_semibold:   600;
+$fw_bold:       700;
+
+// forms
+$input-label-color: $color_neutral_40;
+
+// svg
+$svg_state_success: '/assets-da/app/generic/img/input-state-success.svg';
+$svg_state_error: '/assets-da/app/generic/img/input-state-error.svg';
+$svg_state_warning: '/assets-da/app/generic/img/input-state-warning.svg';
+$svg_check:         '/assets-da/core/img/iconset/010a-check-m.svg';
+$svg_check_neutral100:         '/assets-da/core/img/iconset/010a-check-m-neutral100.svg';
+$svg_folder_open:   '/assets-da/core/img/iconset/022a-folder-open-m.svg';
+$svg_arrow_up:      '/assets-da/core/img/iconset/007b-expand-less-m';
+$svg_arrow_down:    '/assets-da/core/img/iconset/007a-expand-more-m.svg';
+$svg_arrow_down_disabled:    '/assets-da/core/img/iconset/007a-expand-more-m-neutral60.svg';
+$svg_back:          '/assets-da/core/img/iconset/001a-arrow-back-m.svg';
+$svg_forward:       '/assets-da/core/img/iconset/001b-arrow-forward-m.svg';
+$svg_back_neutral100:          '/assets-da/core/img/iconset/001a-arrow-back-m-neutral100.svg';
+$svg_forward_neutral100:       '/assets-da/core/img/iconset/001b-arrow-forward-m-neutral100.svg';
+$svg_forward_primary33:       '/assets-da/core/img/iconset/001b-arrow-forward-m-primary33.svg';
+   

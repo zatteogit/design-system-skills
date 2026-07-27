@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2366px" height="6111px" viewBox="0 0 2366 6111" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>bkgr01 </title>
+    <g id="bkgr01-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="2366" height="6111"></rect>
+        <ellipse id="Oval" fill="#F2F8FF" cx="1953.80251" cy="1484.5" rx="359.802512" ry="345.5"></ellipse>
+        <ellipse id="Oval" fill="#F2F8FF" cx="400.864023" cy="400.5" rx="385.864023" ry="414.5"></ellipse>
+        <ellipse id="Oval" fill="#F2F8FF" cx="1778.83544" cy="3160.5" rx="335" ry="312.5"></ellipse>
+        <ellipse id="Oval" fill="#F2F8FF" cx="679" cy="2045.5" rx="390" ry="387.5"></ellipse>
+        <g id="Group" transform="translate(15.000000, 3577.000000)" fill="#F2F8FF">
+            <ellipse id="Oval" cx="1938.80251" cy="1498.5" rx="359.802512" ry="345.5"></ellipse>
+            <ellipse id="Oval" cx="385.864023" cy="414.5" rx="385.864023" ry="414.5"></ellipse>
+            <ellipse id="Oval" cx="664" cy="2059.5" rx="390" ry="387.5"></ellipse>
+        </g>
+    </g>
+</svg>

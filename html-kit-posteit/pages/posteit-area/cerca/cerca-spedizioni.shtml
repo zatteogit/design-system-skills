@@ -1,0 +1,1251 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <title>Poste.it</title>
+    <!--#include virtual="/includes-da/utilities/head-tag.html" -->
+
+</head>
+
+<body>
+    <nav id="skiplink" aria-label="Navigazione di pagina"><ul>
+        <li><a tabindex="0" class="skip-link sr-only-focusable-abs" href="#accessibility-anchor">Passa al contenuto
+        principale</a></li>
+        <li><a class="skip-link sr-only-focusable-abs" href="#assistenza-side">Passa all'help</a></li>
+        <li><a class="skip-link sr-only-focusable-abs" href="#footer">Passa al footer di pagina</a></li>
+    </ul>
+</nav>
+
+        <header class="sticky">
+
+            <div class="sticky-wrap">
+                <!-- Content Fedbar-->
+                <div class="content" id="content-fedbar">
+                    <div class="content-wrap">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <!--#include virtual="/includes-da/header/header-content-fedbar.html" -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Content Navbar-->
+                <div class="content" id="content-navbar">
+                    <div class="content-wrap">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <!--#include virtual="/includes-da/header/navbar-content-default.html" -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        <!-- Sidebar Menu -->
+        <div class="content" id="content-sites-menu">
+            <div class="content-wrap">
+                <div class="container">
+                    <!--#include virtual="/includes-da/navigation/left-side-offcanvas-sites.html" -->
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <main id="accessibility-anchor" tabindex="-1">
+
+        <h1 class="sr-only">Cerca in Poste Italiane</h1>
+        
+        <div class="content display-pop">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10 col-md-push-1 col-structure">
+                            <div class="row mt-4 mt-sm-6 mb-1 mb-sm-3">
+                                <div class="col-sm-12">
+                                    <h2 class="h1 content-heading text-center mb-lg-3">Cosa stai cercando?</h2>
+                                </div>
+                                <div class="col-sm-10 col-sm-push-1">
+                                    <form aria-labelledby="frm-lbl">
+                                        <div class="form-group form-searchbar">
+                                            <label id="frm-lbl" class="control-label sr-only" for="search">Cerca in Poste
+                                                Italiane</label>
+                                            <input type="text" class="form-control" id="search"
+                                                placeholder="Cerca in Poste Italiane">
+                                            <button formaction="/pages/posteit-area/cerca/cerca-risultati.shtml" title="Avvia la ricerca" class="btn btn-cta btn-primary">
+                                                <span class="icon">
+                                                    <svg focusable="false">
+                                                        <title>Lorem ipsum</title>
+                                                        <use xlink:href="/assets-da/core/img/iconset/sprite.svg#025a-search-m"
+                                                            href="/assets-da/core/img/iconset/sprite.svg#025a-search-m">
+                                                        </use>
+                                                    </svg>
+                                                </span>
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content" id="content-main">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-structure">
+                            <div id="main">
+                                <div class="row row-space">
+                                    <div class="col-sm-12">
+                                        <div class="row">
+                                            <div class="col-sm-12 fs-large mb-3 text-center text-md-left">
+                                                <p>Abbiamo trovato <span>5</span> risultati per
+                                                    <span><strong>"ZA123456789IT"</strong></span>
+                                                </p>
+                                            </div>
+                                            <!-- Tracking In consegna -->
+                                            <div class="col-sm-12">
+                                                <div class="main-pills">
+                                                    <div class="main-pills-wrap tracking-wrap">
+                                                        <div class="row">
+                                                            <div class="col-sm-12 mb-3">
+                                                                <div class="row">
+                                                                    <div class="col-sm-6">
+                                                                        <span class="kind">Spedizione ZA123456789IT</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-sm-12 mb-3 mb-sm-1">
+                                                                <div class="row">
+                                                                <div class="col-sm-9 mb-3">
+                                                                    <h2 class="text-left fw-bold">In Consegna</h2>
+                                                                    <div class="progress progress-rounded">
+                                                                        <div class="progress-bar" aria-label="stima lorem ipsum" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="max-width: 85%; background-color: #0047bb">
+                                                                            Stato finale della spedizione 
+                                                                        </div>
+                                                                    </div>
+                                                                    <p>
+                                                                        <span class="block">La spedizione &egrave; in fase di consegna.</span>
+                                                                        <span class="block">Ultimo aggiornamento: Venerd&igrave; 12/11/2023 - Ore 10.00</span>
+                                                                    </p>
+                                                                </div>
+                                                                <div class="col-sm-3">
+                                                                    <img loading="lazy" class="img-responsive m-auto" src="/assets-da/core/img/ico/ico-cloud-tracking-in-consegna.png" srcset="/assets-da/core/img/ico/ico-cloud-tracking-in-consegna@2x.png 2x" alt="Spedizione in consegna">
+                                                                </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-sm-12">
+                                                                <button class="btn btn-xs btn-default btn-link collapsed show-more" title="Visualizza i dettagli della spedizione" data-toggle="collapse" data-target="#collapse-dettaglio-01" aria-expanded="false" aria-controls="collapse-dettaglio-01" aria-label="Dettagli spedizione ZA123456789IT">
+                                                                    <span data-obj="collapsed">
+                                                                        <span class="icon">
+                                                                            <svg focusable="false">
+                                                                                <title>Dettagli spedizione</title>
+                                                                                <use xlink:href="/assets-da/core/img/iconset/sprite.svg#019a-plus-m" href="/assets-da/core/img/iconset/sprite.svg#019a-plus-m"></use>
+                                                                            </svg>
+                                                                        </span>Dettagli spedizione <span class="sr-only">ZA123456789IT</span>
+                                                                    </span>
+                                                                    <span data-obj="in">
+                                                                        <span class="icon">
+                                                                            <svg focusable="false">
+                                                                                <title>Nascondi dettagli spedizione</title>
+                                                                                <use xlink:href="/assets-da/core/img/iconset/sprite.svg#020a-minus-m" href="/assets-da/core/img/iconset/sprite.svg#020a-minus-m"></use>
+                                                                            </svg>
+                                                                        </span>Nascondi dettagli spedizione
+                                                                    </span>
+                                                                </button>
+                                                                <div class="collapse" id="collapse-dettaglio-01">
+                                                                    <div class="row">
+                                                                        <div class="col-sm-12">
+                                                                            <span class="sr-only">Stati della spedizione elencati in ordine temporale inverso</span>
+                                                                            <div class="my-3">
+                                                                                <ol class="steps steps-vertical clearfix m-0">
+                                                                                    <li class=""> 
+                                                                                        <div class="step-content">
+                                                                                            <span class="step-number" aria-hidden="true">6</span>
+                                                                                            <div class="step-content-wrap clearfix" aria-describedby="step-sr-06">
+                                                                                                <span class="step-sr sr-only" id="step-sr-06">Nessun dettaglio per lo stato</span>
+                                                                                                <span class="step-desc">Consegnato</span>
+                                                                                                <span class="step-detail">Chivasso (TO)</span>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                    <li class="active"> 
+                                                                                        <div class="step-content">
+                                                                                            <span class="step-number" aria-hidden="true">5</span>
+                                                                                            <div class="step-content-wrap clearfix" aria-describedby="step-sr-05">
+                                                                                                <span class="step-sr sr-only" id="step-sr-05">Dettaglio stato aggiornato al 12/11/2023 ore 10:00</span>
+                                                                                                <span class="step-desc">In consegna</span>
+                                                                                                <span class="step-detail">Torino (TO)<span aria-hidden="true"> - 12/11/2023 - Ore 10.00</span></span>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                    <li class="passed"> 
+                                                                                        <div class="step-content">
+                                                                                            <span class="step-number" aria-hidden="true">4</span>
+                                                                                            <div class="step-content-wrap clearfix" aria-describedby="step-sr-04">
+                                                                                                <span class="step-sr sr-only" id="step-sr-04">Dettaglio stato aggiornato al 11/11/2023 ore 7.21</span>
+                                                                                                <span class="step-desc">In transito</span>
+                                                                                                <span class="step-detail">Torino (TO)<span aria-hidden="true"> - 11/11/2023 - Ore 7.21</span></span>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                    <li class="passed"> 
+                                                                                        <div class="step-content">
+                                                                                            <span class="step-number" aria-hidden="true">3</span>
+                                                                                            <div class="step-content-wrap clearfix" aria-describedby="step-sr-03">
+                                                                                                <span class="step-sr sr-only" id="step-sr-03">Dettaglio stato aggiornato al 04/11/2023 ore 17.50</span>
+                                                                                                <span class="step-desc">In lavorazione</span>
+                                                                                                <span class="step-detail">Fiumicino (RM)<span aria-hidden="true"> - 04/11/2023 - Ore 17.50</span></span>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                    <li class="passed">
+                                                                                        <div class="step-content">
+                                                                                            <span class="step-number" aria-hidden="true">2</span>
+                                                                                            <div class="step-content-wrap clearfix" aria-describedby="step-sr-02">
+                                                                                                <span class="step-sr sr-only" id="step-sr-02">Dettaglio stato aggiornato al 03/11/2023 ore 15.05</span>
+                                                                                                <span class="step-desc">In lavorazione</span>
+                                                                                                <span class="step-detail">Ufficio Postale ROMA 106 Viale Citt&agrave; d'Europa, 815 - Roma (RM)<span aria-hidden="true"> - 03/11/2023 - 15.05</span></span>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                    <li class="passed">
+                                                                                        <div class="step-content">
+                                                                                            <span class="step-number" aria-hidden="true">1</span>
+                                                                                            <div class="step-content-wrap clearfix" aria-describedby="step-sr-01">
+                                                                                                <span class="step-sr sr-only" id="step-sr-01">Dettaglio stato aggiornato al 03/11/2023 ore 14.20</span>
+                                                                                                <span class="step-desc">Presa in carico</span>
+                                                                                                <span class="step-detail">Ufficio Postale ROMA 106 Viale Citt&agrave; d'Europa, 815 - Roma (RM)<span aria-hidden="true"> - 03/11/2023 - 14.20</span></span>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                </ol>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="col-sm-12 text-center text-sm-left">
+                                                                        <p class="mb-3 text-italic">Spedizione Poste Delivery Standard International</p>
+                                                                        <ul class="list-inline list-applfunction">
+                                                                            <!--
+                                                                            <li>
+                                                                                <span class="applfunction applfunction-print">
+                                                                                <a href="/" title="Stampa" class="btn btn-xs btn-default">
+                                                                                    <span class="icon">
+                                                                                        <svg focusable="false">
+                                                                                            <title>Stampa</title>
+                                                                                            <use xlink:href="/assets-da/core/img/iconset/sprite.svg#044a-print-m" href="/assets-da/core/img/iconset/sprite.svg#044a-print-m"></use>
+                                                                                        </svg></span> Stampa
+                                                                                </a>
+                                                                                </span>
+                                                                            </li>
+                                                                            -->
+                                                                            <li>
+                                                                                <span class="applfunction applfunction-download">
+                                                                                <a href="/" title="Scarica" class="btn btn-xs btn-default">
+                                                                                    <span class="icon">
+                                                                                        <svg focusable="false">
+                                                                                            <title>Scarica</title>
+                                                                                            <use xlink:href="/assets-da/core/img/iconset/sprite.svg#017a-file-download-m" href="/assets-da/core/img/iconset/sprite.svg#017a-file-download-m"></use>
+                                                                                        </svg></span> Scarica
+                                                                                </a>
+                                                                                </span>
+                                                                            </li>
+                                                                            <li>
+                                                                                <span class="applfunction applfunction-share">
+                                                                                <a href="/" title="Condividi" class="btn btn-xs btn-default">
+                                                                                    <span class="icon">
+                                                                                        <svg focusable="false">
+                                                                                            <title>Condividi</title>
+                                                                                            <use xlink:href="/assets-da/core/img/iconset/sprite.svg#077a-share-m" href="/assets-da/core/img/iconset/sprite.svg#077a-share-m"></use>
+                                                                                        </svg></span> Condividi
+                                                                                </a>
+                                                                                </span>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- Tracking In transito -->
+                                            <div class="col-sm-12">
+                                                <div class="main-pills">
+                                                    <div class="main-pills-wrap tracking-wrap">
+                                                        <div class="row">
+                                                            <div class="col-sm-12 mb-3">
+                                                                <div class="row">
+                                                                    <div class="col-sm-6">
+                                                                        <span class="kind">Spedizione ZA223456789IT</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-sm-12 mb-3 mb-sm-1">
+                                                                <div class="row">
+                                                                <div class="col-sm-9 mb-3">
+                                                                    <h2 class="text-left fw-bold">In Transito</h2>
+                                                                    <div class="progress progress-rounded">
+                                                                        <div class="progress-bar" aria-label="Stato intermedio della spedizione" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="max-width: 55%; background-color: #0047bb">
+                                                                            Stato intermedio della spedizione 
+                                                                        </div>
+                                                                    </div>
+                                                                    <p>
+                                                                        <span class="block">La spedizione &egrave; in transito.</span>
+                                                                        <span class="block">Ultimo aggiornamento: Gioved&igrave; 11/11/2023 - Ore 07.21</span>
+                                                                    </p>
+                                                                </div>
+                                                                <div class="col-sm-3">
+                                                                    <img loading="lazy" class="img-responsive m-auto" src="/assets-da/core/img/ico/ico-cloud-tracking-in-transito.png" srcset="/assets-da/core/img/ico/ico-cloud-tracking-in-transito@2x.png 2x" alt="Spedizione in transito">
+                                                                </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-sm-12">
+                                                                <button class="btn btn-xs btn-default btn-link collapsed show-more" title="Visualizza i dettagli della spedizione" data-toggle="collapse" data-target="#collapse-dettaglio-02" aria-expanded="false" aria-controls="collapse-dettaglio-02" aria-label="Dettagli spedizione ZA223456789IT">
+                                                                    <span data-obj="collapsed">
+                                                                        <span class="icon">
+                                                                            <svg focusable="false">
+                                                                                <title>Dettagli spedizione</title>
+                                                                                <use xlink:href="/assets-da/core/img/iconset/sprite.svg#019a-plus-m" href="/assets-da/core/img/iconset/sprite.svg#019a-plus-m"></use>
+                                                                            </svg>
+                                                                        </span>Dettagli spedizione <span class="sr-only">ZA223456789IT</span>
+                                                                    </span>
+                                                                    <span data-obj="in">
+                                                                        <span class="icon">
+                                                                            <svg focusable="false">
+                                                                                <title>Nascondi dettagli spedizione</title>
+                                                                                <use xlink:href="/assets-da/core/img/iconset/sprite.svg#020a-minus-m" href="/assets-da/core/img/iconset/sprite.svg#020a-minus-m"></use>
+                                                                            </svg>
+                                                                        </span>Nascondi dettagli spedizione
+                                                                    </span>
+                                                                </button>
+                                                                <div class="collapse" id="collapse-dettaglio-02">
+                                                                    <div class="row">
+                                                                        <div class="col-sm-12">
+                                                                            <span class="sr-only">Stati della spedizione elencati in ordine temporale inverso</span>
+                                                                            <div class="my-3">
+                                                                                <ol class="steps steps-vertical clearfix m-0">
+                                                                                    <li class=""> 
+                                                                                        <div class="step-content">
+                                                                                            <span class="step-number" aria-hidden="true">6</span>
+                                                                                            <div class="step-content-wrap clearfix" aria-describedby="step-sr-a06">
+                                                                                                <span class="step-sr sr-only" id="step-sr-a06">Nessun dettaglio per lo stato</span>
+                                                                                                <span class="step-desc">Consegnato</span>
+                                                                                                <span class="step-detail">Chivasso (TO)</span>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                    <li class=""> 
+                                                                                        <div class="step-content">
+                                                                                            <span class="step-number" aria-hidden="true">5</span>
+                                                                                            <div class="step-content-wrap clearfix" aria-describedby="step-sr-a05">
+                                                                                                <span class="step-sr sr-only" id="step-sr-a05">Nessun dettaglio per lo stato</span>
+                                                                                                <span class="step-desc">In consegna</span>
+                                                                                                <span class="step-detail">-</span>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                    <li class="active"> 
+                                                                                        <div class="step-content">
+                                                                                            <span class="step-number" aria-hidden="true">4</span>
+                                                                                            <div class="step-content-wrap clearfix" aria-describedby="step-sr-a04">
+                                                                                                <span class="step-sr sr-only" id="step-sr-a04">Dettaglio stato aggiornato al 11/11/2023 ore 7.21</span>
+                                                                                                <span class="step-desc">In transito</span>
+                                                                                                <span class="step-detail">Torino (TO)<span aria-hidden="true"> - 11/11/2023 - Ore 7.21</span></span>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                    <li class="passed"> 
+                                                                                        <div class="step-content">
+                                                                                            <span class="step-number" aria-hidden="true">3</span>
+                                                                                            <div class="step-content-wrap clearfix" aria-describedby="step-sr-a03">
+                                                                                                <span class="step-sr sr-only" id="step-sr-a03">Dettaglio stato aggiornato al 04/11/2023 ore 17.50</span>
+                                                                                                <span class="step-desc">In lavorazione</span>
+                                                                                                <span class="step-detail">Fiumicino (RM)<span aria-hidden="true"> - 04/11/2023 - Ore 17.50</span></span>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                    <li class="passed">
+                                                                                        <div class="step-content">
+                                                                                            <span class="step-number" aria-hidden="true">2</span>
+                                                                                            <div class="step-content-wrap clearfix" aria-describedby="step-sr-a02">
+                                                                                                <span class="step-sr sr-only" id="step-sr-a02">Dettaglio stato aggiornato al 03/11/2023 ore 15.05</span>
+                                                                                                <span class="step-desc">In lavorazione</span>
+                                                                                                <span class="step-detail">Ufficio Postale ROMA 106 Viale Citt&agrave; d'Europa, 815 - Roma (RM)<span aria-hidden="true"> - 03/11/2023 - 15.05</span></span>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                    <li class="passed">
+                                                                                        <div class="step-content">
+                                                                                            <span class="step-number" aria-hidden="true">1</span>
+                                                                                            <div class="step-content-wrap clearfix" aria-describedby="step-sr-a01">
+                                                                                                <span class="step-sr sr-only" id="step-sr-a01">Dettaglio stato aggiornato al 03/11/2023 ore 14.20</span>
+                                                                                                <span class="step-desc">Presa in carico</span>
+                                                                                                <span class="step-detail">Ufficio Postale ROMA 106 Viale Citt&agrave; d'Europa, 815 - Roma (RM)<span aria-hidden="true"> - 03/11/2023 - 14.20</span></span>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                </ol>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="col-sm-12 text-center text-sm-left">
+                                                                        <p class="mb-3 text-italic">Spedizione Poste Delivery Standard International</p>
+                                                                        <ul class="list-inline list-applfunction">
+                                                                            <!--
+                                                                            <li>
+                                                                                <span class="applfunction applfunction-print">
+                                                                                <a href="/" title="Stampa" class="btn btn-xs btn-default">
+                                                                                    <span class="icon">
+                                                                                        <svg focusable="false">
+                                                                                            <title>Stampa</title>
+                                                                                            <use xlink:href="/assets-da/core/img/iconset/sprite.svg#044a-print-m" href="/assets-da/core/img/iconset/sprite.svg#044a-print-m"></use>
+                                                                                        </svg></span> Stampa
+                                                                                </a>
+                                                                                </span>
+                                                                            </li>
+                                                                            -->
+                                                                            <li>
+                                                                                <span class="applfunction applfunction-download">
+                                                                                <a href="/" title="Scarica" class="btn btn-xs btn-default">
+                                                                                    <span class="icon">
+                                                                                        <svg focusable="false">
+                                                                                            <title>Scarica</title>
+                                                                                            <use xlink:href="/assets-da/core/img/iconset/sprite.svg#017a-file-download-m" href="/assets-da/core/img/iconset/sprite.svg#017a-file-download-m"></use>
+                                                                                        </svg></span> Scarica
+                                                                                </a>
+                                                                                </span>
+                                                                            </li>
+                                                                            <li>
+                                                                                <span class="applfunction applfunction-share">
+                                                                                <a href="/" title="Condividi" class="btn btn-xs btn-default">
+                                                                                    <span class="icon">
+                                                                                        <svg focusable="false">
+                                                                                            <title>Condividi</title>
+                                                                                            <use xlink:href="/assets-da/core/img/iconset/sprite.svg#077a-share-m" href="/assets-da/core/img/iconset/sprite.svg#077a-share-m"></use>
+                                                                                        </svg></span> Condividi
+                                                                                </a>
+                                                                                </span>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- Tracking Presa in carico -->
+                                            <div class="col-sm-12">
+                                                <div class="main-pills">
+                                                    <div class="main-pills-wrap tracking-wrap">
+                                                        <div class="row">
+                                                            <div class="col-sm-12 mb-3">
+                                                                <div class="row">
+                                                                    <div class="col-sm-6">
+                                                                        <span class="kind">Spedizione ZA323456789IT</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-sm-12 mb-3 mb-sm-1">
+                                                                <div class="row">
+                                                                <div class="col-sm-9 mb-3">
+                                                                    <h2 class="text-left fw-bold">Presa in carico</h2>
+                                                                    <div class="progress progress-rounded">
+                                                                        <div class="progress-bar" aria-label="Stato iniziale della spedizione" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="max-width: 20%; background-color: #0047bb">
+                                                                            Stato iniziale della spedizione 
+                                                                        </div>
+                                                                    </div>
+                                                                    <p>
+                                                                        <span class="block">La spedizione &egrave; stata presa in carico.</span>
+                                                                        <span class="block">Ultimo aggiornamento: Mercoled&igrave; 03/11/2023 - Ore 14.20</span></p>
+                                                                </div>
+                                                                <div class="col-sm-3">
+                                                                    <img loading="lazy" class="img-responsive m-auto" src="/assets-da/core/img/ico/ico-cloud-tracking-presa-in-carico.png" srcset="/assets-da/core/img/ico/ico-cloud-tracking-presa-in-carico@2x.png 2x" alt="Spedizione presa in carico">
+                                                                </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-sm-12">
+                                                                <button class="btn btn-xs btn-default btn-link collapsed show-more" title="Visualizza i dettagli della spedizione" data-toggle="collapse" data-target="#collapse-dettaglio-03" aria-expanded="false" aria-controls="collapse-dettaglio-03" aria-label="Dettagli spedizione ZA323456789IT">
+                                                                    <span data-obj="collapsed">
+                                                                        <span class="icon">
+                                                                            <svg focusable="false">
+                                                                                <title>Dettagli spedizione</title>
+                                                                                <use xlink:href="/assets-da/core/img/iconset/sprite.svg#019a-plus-m" href="/assets-da/core/img/iconset/sprite.svg#019a-plus-m"></use>
+                                                                            </svg>
+                                                                        </span>Dettagli spedizione <span class="sr-only">ZA323456789IT</span>
+                                                                    </span>
+                                                                    <span data-obj="in">
+                                                                        <span class="icon">
+                                                                            <svg focusable="false">
+                                                                                <title>Nascondi dettagli spedizione</title>
+                                                                                <use xlink:href="/assets-da/core/img/iconset/sprite.svg#020a-minus-m" href="/assets-da/core/img/iconset/sprite.svg#020a-minus-m"></use>
+                                                                            </svg>
+                                                                        </span>Nascondi dettagli spedizione
+                                                                    </span>
+                                                                </button>
+                                                                <div class="collapse" id="collapse-dettaglio-03">
+                                                                    <div class="row">
+                                                                        <div class="col-sm-12">
+                                                                            <span class="sr-only">Stati della spedizione elencati in ordine temporale inverso</span>
+                                                                            <div class="my-3">
+                                                                                <ol class="steps steps-vertical clearfix m-0">
+                                                                                    <li class=""> 
+                                                                                        <div class="step-content">
+                                                                                            <span class="step-number" aria-hidden="true">4</span>
+                                                                                            <div class="step-content-wrap clearfix" aria-describedby="step-sr-b04">
+                                                                                                <span class="step-sr sr-only" id="step-sr-b04">Nessun dettaglio per lo stato</span>
+                                                                                                <span class="step-desc">Consegnato</span>
+                                                                                                <span class="step-detail">Chivasso (TO)</span>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                    <li class=""> 
+                                                                                        <div class="step-content">
+                                                                                            <span class="step-number" aria-hidden="true">3</span>
+                                                                                            <div class="step-content-wrap clearfix" aria-describedby="step-sr-b03">
+                                                                                                <span class="step-sr sr-only" id="step-sr-b03">Nessun dettaglio per lo stato</span>
+                                                                                                <span class="step-desc">In consegna</span>
+                                                                                                <span class="step-detail">-</span>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                    <li class=""> 
+                                                                                        <div class="step-content">
+                                                                                            <span class="step-number" aria-hidden="true">2</span>
+                                                                                            <div class="step-content-wrap clearfix" aria-describedby="step-sr-b02">
+                                                                                                <span class="step-sr sr-only" id="step-sr-b02">Nessun dettaglio per lo stato</span>
+                                                                                                <span class="step-desc">In transito</span>
+                                                                                                <span class="step-detail">-</span>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                    <li class="active">
+                                                                                        <div class="step-content">
+                                                                                            <span class="step-number" aria-hidden="true">1</span>
+                                                                                            <div class="step-content-wrap clearfix" aria-describedby="step-sr-b01">
+                                                                                                <span class="step-sr sr-only" id="step-sr-b01">Dettaglio stato aggiornato al 03/11/2023 ore 14.20</span>
+                                                                                                <span class="step-desc">Presa in carico</span>
+                                                                                                <span class="step-detail">Ufficio Postale ROMA 106 Viale Citt&agrave; d'Europa, 815 - Roma (RM)<span aria-hidden="true"> - 03/11/2023 - 14.20</span></span>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                </ol>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="col-sm-12 text-center text-sm-left">
+                                                                        <p class="mb-3 text-italic">Spedizione Poste Delivery Standard International</p>
+                                                                        <ul class="list-inline list-applfunction">
+                                                                            <!--
+                                                                            <li>
+                                                                                <span class="applfunction applfunction-print">
+                                                                                <a href="/" title="Stampa" class="btn btn-xs btn-default">
+                                                                                    <span class="icon">
+                                                                                        <svg focusable="false">
+                                                                                            <title>Stampa</title>
+                                                                                            <use xlink:href="/assets-da/core/img/iconset/sprite.svg#044a-print-m" href="/assets-da/core/img/iconset/sprite.svg#044a-print-m"></use>
+                                                                                        </svg></span> Stampa
+                                                                                </a>
+                                                                                </span>
+                                                                            </li>
+                                                                            -->
+                                                                            <li>
+                                                                                <span class="applfunction applfunction-download">
+                                                                                <a href="/" title="Scarica" class="btn btn-xs btn-default">
+                                                                                    <span class="icon">
+                                                                                        <svg focusable="false">
+                                                                                            <title>Scarica</title>
+                                                                                            <use xlink:href="/assets-da/core/img/iconset/sprite.svg#017a-file-download-m" href="/assets-da/core/img/iconset/sprite.svg#017a-file-download-m"></use>
+                                                                                        </svg></span> Scarica
+                                                                                </a>
+                                                                                </span>
+                                                                            </li>
+                                                                            <li>
+                                                                                <span class="applfunction applfunction-share">
+                                                                                <a href="/" title="Condividi" class="btn btn-xs btn-default">
+                                                                                    <span class="icon">
+                                                                                        <svg focusable="false">
+                                                                                            <title>Condividi</title>
+                                                                                            <use xlink:href="/assets-da/core/img/iconset/sprite.svg#077a-share-m" href="/assets-da/core/img/iconset/sprite.svg#077a-share-m"></use>
+                                                                                        </svg></span> Condividi
+                                                                                </a>
+                                                                                </span>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- Tracking Consegnata -->
+                                            <div class="col-sm-12">
+                                                <div class="main-pills">
+                                                    <div class="main-pills-wrap tracking-wrap">
+                                                        <div class="row">
+                                                            <div class="col-sm-12 mb-3">
+                                                                <div class="row">
+                                                                    <div class="col-sm-6">
+                                                                        <span class="kind">Spedizione ZA423456789IT</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-sm-12 mb-3 mb-sm-1">
+                                                                <div class="row">
+                                                                <div class="col-sm-9 mb-3">
+                                                                    <h2 class="text-left fw-bold">Consegnata</h2>
+                                                                    <div class="progress progress-rounded">
+                                                                        <div class="progress-bar" aria-label="Stato finale della spedizione" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="max-width: 100%; background-color: #0047bb">
+                                                                            Stato finale della spedizione 
+                                                                        </div>
+                                                                    </div>
+                                                                    <p>
+                                                                        <span class="block">La spedizione &egrave; stata consegnata.</span>
+                                                                        <span class="block">Ultimo aggiornamento: Venerd&igrave; 12/11/2023 - Ore 15.10</span></p>
+                                                                </div>
+                                                                <div class="col-sm-3">
+                                                                    <img loading="lazy" class="img-responsive m-auto" src="/assets-da/core/img/ico/ico-cloud-tracking-consegnata.png" srcset="/assets-da/core/img/ico/ico-cloud-tracking-consegnata@2x.png 2x" alt="Spedizione consegnata al destinatario">
+                                                                </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-sm-12">
+                                                                <button class="btn btn-xs btn-default btn-link collapsed show-more" title="Visualizza i dettagli della spedizione" data-toggle="collapse" data-target="#collapse-dettaglio-04" aria-expanded="false" aria-controls="collapse-dettaglio-04" aria-label="Dettagli spedizione ZA423456789IT">
+                                                                    <span data-obj="collapsed">
+                                                                        <span class="icon">
+                                                                            <svg focusable="false">
+                                                                                <title>Dettagli spedizione</title>
+                                                                                <use xlink:href="/assets-da/core/img/iconset/sprite.svg#019a-plus-m" href="/assets-da/core/img/iconset/sprite.svg#019a-plus-m"></use>
+                                                                            </svg>
+                                                                        </span>Dettagli spedizione <span class="sr-only">ZA423456789IT</span>
+                                                                    </span>
+                                                                    <span data-obj="in">
+                                                                        <span class="icon">
+                                                                            <svg focusable="false">
+                                                                                <title>Nascondi dettagli spedizione</title>
+                                                                                <use xlink:href="/assets-da/core/img/iconset/sprite.svg#020a-minus-m" href="/assets-da/core/img/iconset/sprite.svg#020a-minus-m"></use>
+                                                                            </svg>
+                                                                        </span>Nascondi dettagli spedizione
+                                                                    </span>
+                                                                </button>
+                                                                <div class="collapse" id="collapse-dettaglio-04">
+                                                                    <div class="row">
+                                                                        <div class="col-sm-12">
+                                                                            <span class="sr-only">Stati della spedizione elencati in ordine temporale inverso</span>
+                                                                            <div class="my-3">
+                                                                                <ol class="steps steps-vertical clearfix m-0">
+                                                                                    <li class="active"> 
+                                                                                        <div class="step-content">
+                                                                                            <span class="step-number" aria-hidden="true">6</span>
+                                                                                            <div class="step-content-wrap clearfix" aria-describedby="step-sr-c06">
+                                                                                                <span class="step-sr sr-only" id="step-sr-c06">Dettaglio stato aggiornato al 12/11/2023 ore 15.10</span>
+                                                                                                <span class="step-desc">Consegnato</span>
+                                                                                                <span class="step-detail">Chivasso (TO)<span aria-hidden="true"> - 12/11/2023 - Ore 15.10</span></span>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                    <li class="passed"> 
+                                                                                        <div class="step-content">
+                                                                                            <span class="step-number" aria-hidden="true">5</span>
+                                                                                            <div class="step-content-wrap clearfix" aria-describedby="step-sr-c05">
+                                                                                                <span class="step-sr sr-only" id="step-sr-c05">Dettaglio stato aggiornato al 12/11/2023 ore 10:00</span>
+                                                                                                <span class="step-desc">In consegna</span>
+                                                                                                <span class="step-detail">Torino (TO)<span aria-hidden="true"> - 12/11/2023 - Ore 10.00</span></span>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                    <li class="passed"> 
+                                                                                        <div class="step-content">
+                                                                                            <span class="step-number" aria-hidden="true">4</span>
+                                                                                            <div class="step-content-wrap clearfix" aria-describedby="step-sr-c04">
+                                                                                                <span class="step-sr sr-only" id="step-sr-c04">Dettaglio stato aggiornato al 11/11/2023 ore 7.21</span>
+                                                                                                <span class="step-desc">In transito</span>
+                                                                                                <span class="step-detail">Torino (TO)<span aria-hidden="true"> - 11/11/2023 - Ore 7.21</span></span>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                    <li class="passed"> 
+                                                                                        <div class="step-content">
+                                                                                            <span class="step-number" aria-hidden="true">3</span>
+                                                                                            <div class="step-content-wrap clearfix" aria-describedby="step-sr-c03">
+                                                                                                <span class="step-sr sr-only" id="step-sr-c03">Dettaglio stato aggiornato al 04/11/2023 ore 17.50</span>
+                                                                                                <span class="step-desc">In lavorazione</span>
+                                                                                                <span class="step-detail">Fiumicino (RM)<span aria-hidden="true"> - 04/11/2023 - Ore 17.50</span></span>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                    <li class="passed">
+                                                                                        <div class="step-content">
+                                                                                            <span class="step-number" aria-hidden="true">2</span>
+                                                                                            <div class="step-content-wrap clearfix" aria-describedby="step-sr-c02">
+                                                                                                <span class="step-sr sr-only" id="step-sr-c02">Dettaglio stato aggiornato al 03/11/2023 ore 15.05</span>
+                                                                                                <span class="step-desc">In lavorazione</span>
+                                                                                                <span class="step-detail">Ufficio Postale ROMA 106 Viale Citt&agrave; d'Europa, 815 - Roma (RM)<span aria-hidden="true"> - 03/11/2023 - 15.05</span></span>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                    <li class="passed">
+                                                                                        <div class="step-content">
+                                                                                            <span class="step-number" aria-hidden="true">1</span>
+                                                                                            <div class="step-content-wrap clearfix" aria-describedby="step-sr-c01">
+                                                                                                <span class="step-sr sr-only" id="step-sr-c01">Dettaglio stato aggiornato al 03/11/2023 ore 14.20</span>
+                                                                                                <span class="step-desc">Presa in carico</span>
+                                                                                                <span class="step-detail">Ufficio Postale ROMA 106 Viale Citt&agrave; d'Europa, 815 - Roma (RM)<span aria-hidden="true"> - 03/11/2023 - 14.20</span></span>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                </ol>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="col-sm-12 text-center text-sm-left">
+                                                                        <p class="mb-3 text-italic">Spedizione Poste Delivery Standard International</p>
+                                                                        <ul class="list-inline list-applfunction">
+                                                                            <!--
+                                                                            <li>
+                                                                                <span class="applfunction applfunction-print">
+                                                                                <a href="/" title="Stampa" class="btn btn-xs btn-default">
+                                                                                    <span class="icon">
+                                                                                        <svg focusable="false">
+                                                                                            <title>Stampa</title>
+                                                                                            <use xlink:href="/assets-da/core/img/iconset/sprite.svg#044a-print-m" href="/assets-da/core/img/iconset/sprite.svg#044a-print-m"></use>
+                                                                                        </svg></span> Stampa
+                                                                                </a>
+                                                                                </span>
+                                                                            </li>
+                                                                            -->
+                                                                            <li>
+                                                                                <span class="applfunction applfunction-download">
+                                                                                <a href="/" title="Scarica" class="btn btn-xs btn-default">
+                                                                                    <span class="icon">
+                                                                                        <svg focusable="false">
+                                                                                            <title>Scarica</title>
+                                                                                            <use xlink:href="/assets-da/core/img/iconset/sprite.svg#017a-file-download-m" href="/assets-da/core/img/iconset/sprite.svg#017a-file-download-m"></use>
+                                                                                        </svg></span> Scarica
+                                                                                </a>
+                                                                                </span>
+                                                                            </li>
+                                                                            <li>
+                                                                                <span class="applfunction applfunction-share">
+                                                                                <a href="/" title="Condividi" class="btn btn-xs btn-default">
+                                                                                    <span class="icon">
+                                                                                        <svg focusable="false">
+                                                                                            <title>Condividi</title>
+                                                                                            <use xlink:href="/assets-da/core/img/iconset/sprite.svg#077a-share-m" href="/assets-da/core/img/iconset/sprite.svg#077a-share-m"></use>
+                                                                                        </svg></span> Condividi
+                                                                                </a>
+                                                                                </span>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- Tracking Restituita al mittente -->
+                                            <div class="col-sm-12">
+                                                <div class="main-pills">
+                                                    <div class="main-pills-wrap tracking-wrap">
+                                                        <div class="row">
+                                                            <div class="col-sm-12 mb-3">
+                                                                <div class="row">
+                                                                    <div class="col-sm-6">
+                                                                        <span class="kind">Spedizione ZA523456789IT</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-sm-12 mb-3 mb-sm-1">
+                                                                <div class="row">
+                                                                <div class="col-sm-9 mb-3">
+                                                                    <h2 class="text-left fw-bold">Restituita al mittente</h2>
+                                                                    <div class="progress progress-rounded">
+                                                                        <div class="progress-bar" aria-label="Stato finale della spedizione" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="max-width: 100%; background-color: #0047bb">
+                                                                            Stato finale della spedizione 
+                                                                        </div>
+                                                                    </div>
+                                                                    <p>
+                                                                        <span class="block">La spedizione &egrave; in restituita al mittente per: <strong>"destinatario assente"</strong></span>
+                                                                        <span class="block">Ultimo aggiornamento: Venerd&igrave; 12/11/2023 - Ore 15.10  <a href="#" title="Lorem">Segui la spedizione di ritorno</a></span></p>
+                                                                </div>
+                                                                <div class="col-sm-3">
+                                                                    <img loading="lazy" class="img-responsive m-auto" src="/assets-da/core/img/ico/ico-cloud-tracking-riconsegna.png" srcset="/assets-da/core/img/ico/ico-cloud-tracking-riconsegna@2x.png 2x" alt="Spedizione restituita al mittente">
+                                                                </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-sm-12">
+                                                                <button class="btn btn-xs btn-default btn-link collapsed show-more" title="Visualizza i dettagli della spedizione" data-toggle="collapse" data-target="#collapse-dettaglio-05" aria-expanded="false" aria-controls="collapse-dettaglio-05" aria-label="Dettagli spedizione ZA523456789IT">
+                                                                    <span data-obj="collapsed">
+                                                                        <span class="icon">
+                                                                            <svg focusable="false">
+                                                                                <title>Dettagli spedizione</title>
+                                                                                <use xlink:href="/assets-da/core/img/iconset/sprite.svg#019a-plus-m" href="/assets-da/core/img/iconset/sprite.svg#019a-plus-m"></use>
+                                                                            </svg>
+                                                                        </span>Dettagli spedizione <span class="sr-only">ZA523456789IT</span>
+                                                                    </span>
+                                                                    <span data-obj="in">
+                                                                        <span class="icon">
+                                                                            <svg focusable="false">
+                                                                                <title>Nascondi dettagli spedizione</title>
+                                                                                <use xlink:href="/assets-da/core/img/iconset/sprite.svg#020a-minus-m" href="/assets-da/core/img/iconset/sprite.svg#020a-minus-m"></use>
+                                                                            </svg>
+                                                                        </span>Nascondi dettagli spedizione
+                                                                    </span>
+                                                                </button>
+                                                                <div class="collapse" id="collapse-dettaglio-05">
+                                                                    <div class="row">
+                                                                        <div class="col-sm-12">
+                                                                            <span class="sr-only">Stati della spedizione elencati in ordine temporale inverso</span>
+                                                                            <div class="my-3">
+                                                                                <ol class="steps steps-vertical clearfix m-0">
+                                                                                    <li class="active"> 
+                                                                                        <div class="step-content">
+                                                                                            <span class="step-number" aria-hidden="true">6</span>
+                                                                                            <div class="step-content-wrap clearfix" aria-describedby="step-sr-d06">
+                                                                                                <span class="step-sr sr-only" id="step-sr-d06">Dettaglio stato aggiornato al 12/11/2023 ore 15.10</span>
+                                                                                                <span class="step-desc">Mancata consegna</span>
+                                                                                                <span class="step-detail">"destinatario assente"</span>
+                                                                                                <span class="step-detail">Chivasso (TO)<span aria-hidden="true"> - 12/11/2023 - Ore 15.10</span></span>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                    <li class="passed"> 
+                                                                                        <div class="step-content">
+                                                                                            <span class="step-number" aria-hidden="true">5</span>
+                                                                                            <div class="step-content-wrap clearfix" aria-describedby="step-sr-d05">
+                                                                                                <span class="step-sr sr-only" id="step-sr-d05">Dettaglio stato aggiornato al 12/11/2023 ore 10:00</span>
+                                                                                                <span class="step-desc">In consegna</span>
+                                                                                                <span class="step-detail">Torino (TO)<span aria-hidden="true"> - 12/11/2023 - Ore 10.00</span></span>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                    <li class="passed"> 
+                                                                                        <div class="step-content">
+                                                                                            <span class="step-number" aria-hidden="true">4</span>
+                                                                                            <div class="step-content-wrap clearfix" aria-describedby="step-sr-d04">
+                                                                                                <span class="step-sr sr-only" id="step-sr-d04">Dettaglio stato aggiornato al 11/11/2023 ore 7.21</span>
+                                                                                                <span class="step-desc">In transito</span>
+                                                                                                <span class="step-detail">Torino (TO)<span aria-hidden="true"> - 11/11/2023 - Ore 7.21</span></span>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                    <li class="passed"> 
+                                                                                        <div class="step-content">
+                                                                                            <span class="step-number" aria-hidden="true">3</span>
+                                                                                            <div class="step-content-wrap clearfix" aria-describedby="step-sr-d03">
+                                                                                                <span class="step-sr sr-only" id="step-sr-d03">Dettaglio stato aggiornato al 04/11/2023 ore 17.50</span>
+                                                                                                <span class="step-desc">In lavorazione</span>
+                                                                                                <span class="step-detail">Fiumicino (RM)<span aria-hidden="true"> - 04/11/2023 - Ore 17.50</span></span>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                    <li class="passed">
+                                                                                        <div class="step-content">
+                                                                                            <span class="step-number" aria-hidden="true">2</span>
+                                                                                            <div class="step-content-wrap clearfix" aria-describedby="step-sr-d02">
+                                                                                                <span class="step-sr sr-only" id="step-sr-d02">Dettaglio stato aggiornato al 03/11/2023 ore 15.05</span>
+                                                                                                <span class="step-desc">In lavorazione</span>
+                                                                                                <span class="step-detail">Ufficio Postale ROMA 106 Viale Citt&agrave; d'Europa, 815 - Roma (RM)<span aria-hidden="true"> - 03/11/2023 - 15.05</span></span>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                    <li class="passed">
+                                                                                        <div class="step-content">
+                                                                                            <span class="step-number" aria-hidden="true">1</span>
+                                                                                            <div class="step-content-wrap clearfix" aria-describedby="step-sr-d01">
+                                                                                                <span class="step-sr sr-only" id="step-sr-d01">Dettaglio stato aggiornato al 03/11/2023 ore 14.20</span>
+                                                                                                <span class="step-desc">Presa in carico</span>
+                                                                                                <span class="step-detail">Ufficio Postale ROMA 106 Viale Citt&agrave; d'Europa, 815 - Roma (RM)<span aria-hidden="true"> - 03/11/2023 - 14.20</span></span>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                </ol>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="col-sm-12 text-center text-sm-left">
+                                                                        <p class="mb-3 text-italic">Spedizione Poste Delivery Standard International</p>
+                                                                        <ul class="list-inline list-applfunction">
+                                                                            <!--
+                                                                            <li>
+                                                                                <span class="applfunction applfunction-print">
+                                                                                <a href="/" title="Stampa" class="btn btn-xs btn-default">
+                                                                                    <span class="icon">
+                                                                                        <svg focusable="false">
+                                                                                            <title>Stampa</title>
+                                                                                            <use xlink:href="/assets-da/core/img/iconset/sprite.svg#044a-print-m" href="/assets-da/core/img/iconset/sprite.svg#044a-print-m"></use>
+                                                                                        </svg></span> Stampa
+                                                                                </a>
+                                                                                </span>
+                                                                            </li>
+                                                                            -->
+                                                                            <li>
+                                                                                <span class="applfunction applfunction-download">
+                                                                                <a href="/" title="Scarica" class="btn btn-xs btn-default">
+                                                                                    <span class="icon">
+                                                                                        <svg focusable="false">
+                                                                                            <title>Scarica</title>
+                                                                                            <use xlink:href="/assets-da/core/img/iconset/sprite.svg#017a-file-download-m" href="/assets-da/core/img/iconset/sprite.svg#017a-file-download-m"></use>
+                                                                                        </svg></span> Scarica
+                                                                                </a>
+                                                                                </span>
+                                                                            </li>
+                                                                            <li>
+                                                                                <span class="applfunction applfunction-share">
+                                                                                <a href="/" title="Condividi" class="btn btn-xs btn-default">
+                                                                                    <span class="icon">
+                                                                                        <svg focusable="false">
+                                                                                            <title>Condividi</title>
+                                                                                            <use xlink:href="/assets-da/core/img/iconset/sprite.svg#077a-share-m" href="/assets-da/core/img/iconset/sprite.svg#077a-share-m"></use>
+                                                                                        </svg></span> Condividi
+                                                                                </a>
+                                                                                </span>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row row-space">
+                                    <div class="col-md-10 col-md-push-1 col-structure">
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <div class="main-pills">
+                                                    <div class="main-pills-wrap">
+                                                        <div class="row">
+                                                            <div class="col-sm-12">
+                                                                <div class="box-editable-area mb-4">
+                                                                    <h3 class="area-heading mt-0">Vuoi informazioni sullo stato di cosegna?</h3>
+                                                                    <p>Inserendo il tuo numero di cellulare e/o indirizzo di posta elettronica, Poste Italiane, titolare del trattamento dei dati, potr&agrave; informarti sulla consegna della tua spedizione.
+                                                                        Tali informazioni, trattate in modalit&agrave; informatiche dal personale di Poste e dalle societ&agrave; del Gruppo, saranno cancellate il giorno seguente al recapito.</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-sm-12">
+                                                                <form>
+                                                                    <div class="row">
+                                                                        <div class="col-sm-6">
+                                                                            <div class="form-group">
+                                                                                <label for="001" class="control-label stable">Telefono</label>
+                                                                                <div class="input-group">
+                                                                                    <div class="input-group-addon">+39</div>
+                                                                                    <input type="text" value="" placeholder="" id="001" class="form-control">
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-sm-6">
+                                                                            <div class="form-group">
+                                                                                <label class="control-label stable" for="002">E-mail</label>
+                                                                                <input type="text" placeholder="inserisci" id="002" class="form-control">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row">
+                                                                        <div class="col-sm-6">
+                                                                            <p class="btn-container my-2 clearfix">
+                                                                                <button type="button" class="btn btn-primary">Richiedi</button>
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </form>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12">
+                                                <div class="main-pills">
+                                                    <div class="main-pills-wrap">
+                                                        <h2>Informazioni sulle spedizioni</h2>
+                                                        <div class="panel-group panel-group-unique panel-group-accordion" id="accordionunique">
+                                                            <div class="panel">
+                                                                <div class="panel-heading" id="headingOne">
+                                                                    <h3 class="panel-title">
+                                                                        <a class="accordion-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordionunique" href="#collapse01" aria-expanded="false" aria-controls="collapse01" title="Informativa sul cerca spedizioni">Informativa sul cerca spedizioni</a>
+                                                                    </h3>
+                                                                </div>
+                                                                <div id="collapse01" class="panel-collapse collapse nojs-block" role="region" aria-labelledby="headingOne">
+                                                                    <div class="panel-body">
+                                                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+                                                                        on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
+                                                                        butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="panel">
+                                                                <div class="panel-heading"  id="headingTwo">
+                                                                    <h3 class="panel-title">
+                                                                        <a class="accordion-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordionunique" href="#collapse02" aria-expanded="false" aria-controls="collapse02" title="Legenda degli stati di spedizione">Legenda degli stati di spedizione</a>
+                                                                    </h3>
+                                                                </div>
+                                                                <div id="collapse02" class="panel-collapse collapse nojs-block" role="region" aria-labelledby="headingTwo">
+                                                                    <div class="panel-body">
+                                                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+                                                                        on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
+                                                                        butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12">
+                                                <!-- Pills wizard help -->
+                                                <div class="main-pills">
+                                                    <!--#include virtual="/includes-da/object/pills-light-wizard-02.html" -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="content display-pop content-multiwrap mb-6">
+            <div class="content-wrap content-bg bg-cyan mode-light">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h2 class="content-heading text-center">Hai bisogno di assistenza?</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-wrap content-bg bg-cyan mode-light">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="row row-space row-fix equalize-group equalize-group-4">
+                                <div class="col-xs-12 col-sm-4">
+                                    <!--#include virtual="/includes-da/object/cards-default-icon-04.html" -->
+                                </div>
+                                <div class="col-xs-12 col-sm-4">
+                                    <!--#include virtual="/includes-da/object/cards-default-icon-06.html" -->
+                                </div>
+                                <div class="col-xs-12 col-sm-4">
+                                    <!--#include virtual="/includes-da/object/cards-default-icon-07.html" -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="content">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row row-fix">
+                        <div class="col-xs-12">
+                            <div class="row equalize-wrap equalize-wrap-2">
+                                <div class="col-sm-4">
+                                    <!-- Pills usefull-link-->
+                                    <div class="main-pills main-pills-collection-link obj-wrap">
+                                        <!--#include virtual="/includes-da/object/pills-light-usefull-link-02.html" -->
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-4">
+                                    <!-- Pills usefull-link-->
+                                    <div class="main-pills main-pills-collection-link obj-wrap">
+                                        <!--#include virtual="/includes-da/object/pills-light-usefull-link-02.html" -->
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-4">
+                                    <!-- Pills usefull-link-->
+                                    <div class="main-pills main-pills-collection-link obj-wrap">
+                                        <!--#include virtual="/includes-da/object/pills-light-usefull-link-02.html" -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Modal up-->
+        <div class="modal modal-basic fade" id="modal-up-01" tabindex="-1" role="dialog" aria-labelledby="modal-up-heading-01" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span class="icon">
+                                <svg focusable="false">
+                                    <title>Non confermato</title>
+                                    <use xlink:href="/assets-da/core/img/iconset/sprite.svg#009a-close-m"
+                                        href="/assets-da/core/img/iconset/sprite.svg#009a-close-m">
+                                    </use>
+                                </svg>
+                            </span>
+                        </button>
+                        <span class="kind text-note mt-2 block">Ufficio Postale</span>
+                    </div>
+                    <form>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <div class="border-xs-bottom border-sm-bottom pb-2">
+                                        <h2 id="modal-up-heading-01" class="inline me-3">Ladispoli</h2>
+                                    </div>
+                                    <div class="my-4 clearfix">
+                                        <span class="tag tag-success">Ora aperto</span>
+                                    </div>
+                                    <div class="">
+                                        <ul class="list-unstyled mb-3">
+                                            <li>VIA REGINA MARGHERITA 10</li>
+                                                <li>00055 LADISPOLI (RM)</li>
+                                                <li>Telefono: 06 99144154</li>
+                                                <li>Fax: 06 99222107</li>
+                                        </ul>
+                                    </div>
+                                    <div class="btn-container clearfix mt-2">
+                                        <a href="/pages/posteit-area/appuntamenti/appuntamenti-home.shtml" title="Prendi appuntamento" class="btn btn-xs btn-primary">
+                                            Prendi appuntamento</a>
+                                        <a href="#" title="Prenota ticket" class="btn btn-xs btn-secondary">
+                                            Prenota ticket</a>
+                                    </div>
+                                    <div class="panel-group panel-group-unique panel-group-accordion"
+                                        id="result-accordionunique" >
+                                        <div class="panel">
+                                            <div class="panel-heading"  id="result-heading-01">
+                                                <h4 class="panel-title">
+                                                    <a class="accordion-toggle collapsed" role="button" data-toggle="collapse"
+                                                        data-parent="#result-accordionunique" href="#result-collapse-01"
+                                                        aria-expanded="true" aria-controls="result-collapse-01"
+                                                        title="Giorni e orari">Giorni e orari</a>
+                                                </h4>
+                                            </div>
+                                            <div id="result-collapse-01" class="panel-collapse collapse nojs-block"
+                                                role="region" aria-labelledby="result-heading-01">
+                                                <div class="panel-body">
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod vitae labore neque ipsum iusto, alias placeat, eaque voluptatum, nisi nihil quidem dolor vero ipsa nesciunt necessitatibus? Magni exercitationem eveniet corporis!</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel">
+                                            <div class="panel-heading"  id="result-heading-02">
+                                                <h4 class="panel-title">
+                                                    <a class="accordion-toggle collapsed" role="button"
+                                                        data-toggle="collapse" data-parent="#result-accordionunique"
+                                                        href="#result-collapse-02" aria-expanded="false"
+                                                        aria-controls="result-collapse-02" title="Distanza">Servizi</a>
+                                                </h4>
+                                            </div>
+                                            <div id="result-collapse-02" class="panel-collapse collapse nojs-block"
+                                                role="region" aria-labelledby="result-heading-02">
+                                                <div class="panel-body">
+                                                    <p>Assicurata, Assicurazioni RC Auto, Atti Giudiziari, Azioni, Buoni Fruttiferi Postali, Carta Acquisti, Spedizioni, Raccomandata, Conti e carte, Fibra, Successioni, Risparmio e Investimenti, Servizi al Cittadino, PosteID abilitato a SPID, Wi-Fi Free, Corrispondenza</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div class="map mb-4">
+                                                <img loading="lazy" class="img-responsive"
+                                                    src="/assets-da/publisher/img/area/cerca/mappa-offline.jpg"
+                                                    alt="Dov'&egrave; l'ufficio postale">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <aside aria-labelledby="side-help-title">
+        <div class="content content-sidebar-assistenza">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <!--#include virtual="/includes-da/navigation/right-side-offcanvas.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
+    <footer id="footer">
+        
+        <div class="content content-footer content-footer-info">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--#include virtual="/includes-da/footer/footer-content-info.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content content-footer content-footer-extra">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--#include virtual="/includes-da/footer/footer-content-extra.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--#include virtual="/includes-da/utilities/footer-tag.html" -->
+        
+    </footer>
+    
+</body>
+
+</html>

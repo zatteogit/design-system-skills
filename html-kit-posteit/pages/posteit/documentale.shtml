@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <title>Poste.it</title>
+    <!--#include virtual="/includes-da/utilities/head-tag.html" -->
+
+</head>
+
+
+<body class="no-js pattern-simple-01">
+
+    <nav id="skiplink" aria-label="Navigazione di pagina">
+        <ul>
+            <li><a tabindex="0" class="skip-link sr-only-focusable-abs" href="#accessibility-anchor">Passa al contenuto
+            principale</a></li>
+            <li><a class="skip-link sr-only-focusable-abs" href="#assistenza-side">Passa all'help</a></li>
+            <li><a class="skip-link sr-only-focusable-abs" href="#footer">Passa al footer di pagina</a></li>
+        </ul>
+    </nav>
+        <header class="sticky">
+
+            <div class="sticky-wrap">
+                <!-- Content Fedbar-->
+                <div class="content" id="content-fedbar">
+                    <div class="content-wrap">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <!--#include virtual="/includes-da/header/header-content-fedbar.html" -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Content Navbar-->
+                <div class="content" id="content-navbar">
+                    <div class="content-wrap">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <!--#include virtual="/includes-da/header/navbar-content-default.html" -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- Sidebar Menu -->
+        <div class="content" id="content-sites-menu">
+            <div class="content-wrap">
+                <div class="container">
+                    <!--#include virtual="/includes-da/navigation/left-side-offcanvas-sites.html" -->
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <main id="accessibility-anchor" tabindex="-1">
+
+        <div class="content display-pop" id="content-abstract">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-7 hidden-sm hidden-xs">
+                            <ol class="breadcrumb breadcrumb-xs-trim-a breadcrumb-sm-trim-a breadcrumb-md-trim-b">
+                                <li>
+                                    <a href="/pages/posteit/home.shtml" title="Home privati">
+                                        <span>Home privati</span>
+                                    </a>
+                                </li>
+                                <li class="active"  aria-current="page"><span>Trasparenza bancaria</span></li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="abstract">
+                                <div class="abstract-heading">
+                                    <h1>Trasparenza bancaria</h1>
+                                    <span class="abstract-subtitle">Normativa in materia di trasparenza delle operazioni e dei servizi bancari e finanziari (Istruzioni di vigilanza della Banca d'Italia) relativi alle categorie di utenti Privati</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="row row-space">
+                                            <div class="col-sm-12">
+                                                <div class="main-pills main-pills-basic">
+                                                    <div class="main-pills-wrap">
+                                                        <div class="row">
+                                                            <div class="col-sm-12">
+
+                                                                <fieldset>
+                                                                    <legend class="sr-only">Condizioni di servizio e fogli informativi</legend>
+                                                                    <div class="row">
+                                                                        <div class="col-xs-push-1 col-xs-10 col-sm-push-0 col-sm-12">
+                                                                            <div class="row">
+                                                                                <div class="col-sm-6">
+                                                                                    <form aria-labelledby="label_form_documentale">
+                                                                                        <div class="form-group form-searchbar m-0 p-0">
+                                                                                            <label id="label_form_documentale" class="control-label sr-only" for="search">Cerca tra i fogli informativi</label>
+                                                                                            <input type="text" class="form-control" id="search" placeholder="Cerca tra i fogli informativi">
+                                                                                            <button type="submit" formaction="#" title="Avvia la ricerca" class="btn btn-cta btn-primary">
+                                                                                                <span class="icon">
+                                                                                                    <svg focusable="false">
+                                                                                                        <title>Avvia la ricerca</title>
+                                                                                                        <use xlink:href="/assets-da/core/img/iconset/sprite.svg#025a-search-m"
+                                                                                                            href="/assets-da/core/img/iconset/sprite.svg#025a-search-m">
+                                                                                                        </use>
+                                                                                                    </svg>
+                                                                                                </span>
+                                                                                            </button>
+                                                                                        </div>
+                                                                                    </form>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </fieldset>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-structure">
+                            <div id="main">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="default-nav-tabs-container scroll-content-x mode-center">
+                                            <ul class="nav nav-tabs default-nav-tabs">
+                                                <li id="label_tab_pn01" class=""><a href="#tab-x01" aria-controls="tab-x01" data-toggle="tab" title="Lorem ipsum sed">Persona</a></li>
+                                                <li id="label_tab_pn02" class=""><a href="#tab-x02" aria-controls="tab-x02" data-toggle="tab" title="Ut enim ad minima veniam, quis nostrum">Previdenza</a></li>
+                                                <li id="label_tab_pn03" class="active"><a href="#tab-x03" aria-controls="tab-x03" data-toggle="tab" title="Quis autem vel eum iure reprehenderit qui">Beni e animali</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-content">
+                                    <!-- Guide, regolamenti e avvisi -->
+                                    <div role="tabpanel" class="tab-pane" id="tab-x01" aria-labelledby="label_tab_pn01">
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <div class="row">
+                                                    <div class="col-sm-12">
+                                                        <p>Persona</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Documenti informativi sulle spese -->
+                                    <div role="tabpanel" class="tab-pane" id="tab-x02" aria-labelledby="label_tab_pn02">
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <div class="row">
+                                                    <div class="col-sm-12">
+                                                        <p>Previdenza</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Fogli informativi -->
+                                    <div role="tabpanel" class="tab-pane active" id="tab-x03" aria-labelledby="label_tab_pn03">
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <div class="row">
+                                                    <div class="col-sm-12">
+                                                        <h2 class="mt-0">Beni e animali</h2>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12">
+                                                <div class="row">
+                                                    <div class="col-sm-12">
+
+                                                    <!-- start accordion -->
+
+                                                        <div class="panel-group panel-group-unique panel-group-accordion border-xs-top border-sm-top mt-3" id="accordion-doc">
+                                                            <div class="panel">
+                                                                <div class="panel-heading" id="headingOne">
+                                                                    <h2 class="panel-title">
+                                                                        <a class="accordion-toggle" role="button" data-toggle="collapse" data-parent="#accordion-doc"
+                                                                            href="#collapse01" aria-expanded="true" aria-controls="collapse01"
+                                                                            title="lorem ipsum">Lorem Ipsum Sic</a>
+                                                                    </h2>
+                                                                </div>
+                                                                <div id="collapse01" class="panel-collapse collapse in nojs-block" role="region"
+                                                                    aria-labelledby="headingOne">
+                                                                    <div class="panel-body">
+                                                                        <div class="main-pills main-pills-basic">
+                                                                            <div class="main-pills-wrap">
+                                                                                <div class="row">
+                                                                                    <div class="col-sm-12">
+                
+                                                                                        <!-- Beni e animali -->
+                                                                                        <div class="row">
+                                                                                            <div class="col-sm-12">
+                                                                                                <div class="box-editable-area mb-4">
+                                                                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit<p>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                
+                                                                                        <div class="row">
+                                                                                            <div class="col-sm-12">
+                                                                                                <div class="row equalize-wrap equalize-wrap-1 mb-3 mb-sm-0">
+                                                                                                    <ul class="list-file list-black list-tailback fs-small m-0">
+                                                                                                        <li class="list-file-pdf col-sm-6">
+                                                                                                            <div class="box-rack box-cyan">
+                                                                                                                <div class="box-body">
+                                                                                                                    <a href="#"
+                                                                                                                    title="Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus (pdf)">Maiores alias consequatur aut perferendis doloribus asperiores repellat (pdf)</a>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </li>
+                
+                                                                                                        <li class="list-file-pdf col-sm-6">
+                                                                                                            <div class="box-rack box-cyan">
+                                                                                                                <div class="box-body">
+                                                                                                                    <a href="#"
+                                                                                                                    title="Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet (pdf)">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur (pdf)</a>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </li>
+                
+                                                                                                        <li class="list-file-pdf col-sm-6">
+                                                                                                            <div class="box-rack box-cyan">
+                                                                                                                <div class="box-body">
+                                                                                                                    <a href="#"
+                                                                                                                    title="At vero eos et accusamus et iusto odio dignissimos ducimus (pdf)">At vero eos et accusamus et iusto odio dignissimos ducimus (pdf)</a>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </li>
+                
+                                                                                                        <li class="list-file-pdf col-sm-6">
+                                                                                                            <div class="box-rack box-cyan">
+                                                                                                                <div class="box-body">
+                                                                                                                    <a href="#"
+                                                                                                                        title="Excepteur sint occaecat cupidatat non proident, sunt in culpa (pdf)">Excepteur sint occaecat cupidatat non proident, sunt in culpa (pdf)</a>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </li>
+                                                                                                    </ul>
+                                                                                                    <div id="doc-01-result" class="collapse">
+                                                                                                        <ul class="list-file list-black list-tailback fs-small mb-0 mt-3 mt-sm-0">
+                                                                                                            <li class="list-file-pdf col-sm-6">
+                                                                                                                <div class="box-rack box-cyan">
+                                                                                                                    <div class="box-body">
+                                                                                                                        <a href="#"
+                                                                                                                        title="Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus (pdf)">Maiores alias consequatur aut perferendis doloribus asperiores repellat (pdf)</a>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </li>
+                
+                                                                                                            <li class="list-file-pdf col-sm-6">
+                                                                                                                <div class="box-rack box-cyan">
+                                                                                                                    <div class="box-body">
+                                                                                                                        <a href="#"
+                                                                                                                        title="Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet (pdf)">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur (pdf)</a>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </li>
+                
+                                                                                                            <li class="list-file-pdf col-sm-6">
+                                                                                                                <div class="box-rack box-cyan">
+                                                                                                                    <div class="box-body">
+                                                                                                                        <a href="#"
+                                                                                                                        title="At vero eos et accusamus et iusto odio dignissimos ducimus (pdf)">At vero eos et accusamus et iusto odio dignissimos ducimus (pdf)</a>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </li>
+                
+                                                                                                            <li class="list-file-pdf col-sm-6">
+                                                                                                                <div class="box-rack box-cyan">
+                                                                                                                    <div class="box-body">
+                                                                                                                        <a href="#"
+                                                                                                                            title="Excepteur sint occaecat cupidatat non proident, sunt in culpa (pdf)">Excepteur sint occaecat cupidatat non proident, sunt in culpa (pdf)</a>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </li>
+                                                                                                        </ul>
+                                                                                                    </div>
+                                                                                                </div>
+                
+                                                                                                <div class="row">
+                                                                                                    <div class="col-sm-12">
+                                                                                                        <button class="btn btn-xs btn-default btn-link collapsed show-more"
+                                                                                                            title="Mostra altri risultati su Conto corrente BancoPosta"
+                                                                                                            data-toggle="collapse"
+                                                                                                            data-target="#doc-01-result" aria-expanded="false"
+                                                                                                            aria-controls="doc-01-result">
+                                                                                                            <span data-obj="collapsed">
+                                                                                                                <span class="icon">
+                                                                                                                    <svg focusable="false">
+                                                                                                                        <title>Mostra altri risultati
+                                                                                                                        </title>
+                                                                                                                        <use xlink:href="/assets-da/core/img/iconset/sprite.svg#019a-plus-m"
+                                                                                                                            href="/assets-da/core/img/iconset/sprite.svg#019a-plus-m">
+                                                                                                                        </use>
+                                                                                                                    </svg>
+                                                                                                                </span>Mostra altri risultati
+                                                                                                            </span>
+                                                                                                            <span data-obj="in">
+                                                                                                                <span class="icon">
+                                                                                                                    <svg focusable="false">
+                                                                                                                        <title>Nascondi risultati</title>
+                                                                                                                        <use xlink:href="/assets-da/core/img/iconset/sprite.svg#020a-minus-m"
+                                                                                                                            href="/assets-da/core/img/iconset/sprite.svg#020a-minus-m">
+                                                                                                                        </use>
+                                                                                                                    </svg>
+                                                                                                                </span>Nascondi risultati
+                                                                                                            </span>
+                                                                                                        </button>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="panel">
+                                                                <div class="panel-heading" id="headingTwo">
+                                                                    <h2 class="panel-title">
+                                                                        <a class="accordion-toggle collapsed" role="button" data-toggle="collapse"
+                                                                            data-parent="#accordion-doc" href="#collapse02" aria-expanded="false"
+                                                                            aria-controls="collapse02" title="lorem ipsum">Excepteur sint sunt</a>
+                                                                    </h2>
+                                                                </div>
+                                                                <div id="collapse02" class="panel-collapse collapse nojs-block" role="region"
+                                                                    aria-labelledby="headingTwo">
+                                                                    <div class="panel-body">
+                                                                        <div class="main-pills main-pills-basic">
+                                                                            <div class="main-pills-wrap">
+                                                                                <div class="row">
+                                                                                    <div class="col-sm-12">
+                                                                                            <!-- Carte di credito BancoPosta -->
+                                                                                            <div class="row">
+                                                                                                <div class="col-sm-12">
+                                                                                                    <div class="box-editable-area mb-4">
+                                                                                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit<p>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                
+                                                                                            <div class="row">
+                                                                                                <div class="col-sm-12">
+                                                                                                    <div class="row equalize-wrap equalize-wrap-2 mb-3 mb-sm-0">
+                                                                                                        <ul class="list-file list-black list-tailback fs-small m-0">
+                                                                                                            <li class="list-file-pdf col-sm-6">
+                                                                                                                <div class="box-rack box-cyan">
+                                                                                                                    <div class="box-body">
+                                                                                                                        <a href="#"
+                                                                                                                        title="BancoPosta Classica (pdf)">BancoPosta Classica (pdf)</a>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </li>
+                
+                                                                                                            <li class="list-file-pdf col-sm-6">
+                                                                                                                <div class="box-rack box-cyan">
+                                                                                                                    <div class="box-body">
+                                                                                                                        <a href="#"
+                                                                                                                            title="saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae (pdf)">emporibus autem quibusdam et aut officiis saepe eveniet ut et voluptates (pdf)</a>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </li>
+                
+                                                                                                            <li class="list-file-pdf col-sm-6">
+                                                                                                                <div class="box-rack box-cyan">
+                                                                                                                    <div class="box-body">
+                                                                                                                        <a href="#"
+                                                                                                                        title="Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus (pdf)">Maiores alias consequatur aut perferendis doloribus asperiores repellat (pdf)</a>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </li>
+                
+                                                                                                            <li class="list-file-pdf col-sm-6">
+                                                                                                                <div class="box-rack box-cyan">
+                                                                                                                    <div class="box-body">
+                                                                                                                        <a href="#"
+                                                                                                                        title="Carta di credito Premium Blu (pdf)">Carta di credito Premium Blu (pdf)</a>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </li>
+                
+                                                                                                        </ul>
+                                                                                                        <div id="doc-02-result" class="collapse">
+                                                                                                            <ul class="list-file list-black list-tailback fs-small mb-0 mt-3 mt-sm-0">
+                                                                                                                <li class="list-file-pdf col-sm-6">
+                                                                                                                    <div class="box-rack box-cyan">
+                                                                                                                        <div class="box-body">
+                                                                                                                            <a href="#"
+                                                                                                                            title="Lorem ipsum dolor sit amet">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores id rerum harum minus.</a>
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                </li>
+                                                                                                                <li class="list-file-pdf col-sm-6">
+                                                                                                                    <div class="box-rack box-cyan">
+                                                                                                                        <div class="box-body">
+                                                                                                                            <a href="#"
+                                                                                                                            title="Lorem ipsum dolor sit amet">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores id rerum harum minus.</a>
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                </li>
+                                                                                                            </ul>
+                                                                                                        </div>
+                                                                                                    </div>
+                
+                                                                                                    <div class="row">
+                                                                                                        <div class="col-sm-12">
+                                                                                                            <button class="btn btn-xs btn-default btn-link collapsed show-more"
+                                                                                                                title="Mostra altri risultati su Conto corrente BancoPosta"
+                                                                                                                data-toggle="collapse"
+                                                                                                                data-target="#doc-02-result" aria-expanded="false"
+                                                                                                                aria-controls="doc-02-result">
+                                                                                                                <span data-obj="collapsed">
+                                                                                                                    <span class="icon">
+                                                                                                                        <svg focusable="false">
+                                                                                                                            <title>Mostra altri risultati
+                                                                                                                            </title>
+                                                                                                                            <use xlink:href="/assets-da/core/img/iconset/sprite.svg#019a-plus-m"
+                                                                                                                                href="/assets-da/core/img/iconset/sprite.svg#019a-plus-m">
+                                                                                                                            </use>
+                                                                                                                        </svg>
+                                                                                                                    </span>Mostra altri risultati
+                                                                                                                </span>
+                                                                                                                <span data-obj="in">
+                                                                                                                    <span class="icon">
+                                                                                                                        <svg focusable="false">
+                                                                                                                            <title>Nascondi risultati</title>
+                                                                                                                            <use xlink:href="/assets-da/core/img/iconset/sprite.svg#020a-minus-m"
+                                                                                                                                href="/assets-da/core/img/iconset/sprite.svg#020a-minus-m">
+                                                                                                                            </use>
+                                                                                                                        </svg>
+                                                                                                                    </span>Nascondi risultati
+                                                                                                                </span>
+                                                                                                            </button>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="panel">
+                                                                <div class="panel-heading" id="headingThree">
+                                                                    <h3 class="panel-title">
+                                                                        <a class="accordion-toggle collapsed" role="button" data-toggle="collapse"
+                                                                            data-parent="#accordion-doc" href="#collapse03" aria-expanded="false"
+                                                                            aria-controls="collapse03" title="lorem ipsum">At vero eos et accusamus</a>
+                                                                    </h3>
+                                                                </div>
+                                                                <div id="collapse03" class="panel-collapse collapse nojs-block" role="region"
+                                                                    aria-labelledby="headingThree">
+                                                                    <div class="panel-body">
+                                                                        
+                                                                <div class="main-pills main-pills-basic">
+                                                                    <div class="main-pills-wrap">
+                                                                        <div class="row">
+                                                                            <div class="col-sm-12">
+                                                                                    <!-- Prodotti di finanziamento -->
+                                                                                    <div class="row">
+                                                                                        <div class="col-sm-12">
+                                                                                            <div class="box-editable-area mb-4">
+                                                                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit<p>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+
+                                                                                    <div class="row">
+                                                                                        <div class="col-sm-12">
+                                                                                            <div class="row equalize-wrap equalize-wrap-3 mb-3 mb-sm-0">
+                                                                                                <ul class="list-file list-black list-tailback fs-small m-0">
+
+                                                                                                    <li class="list-file-pdf col-sm-6">
+                                                                                                        <div class="box-rack box-cyan">
+                                                                                                            <div class="box-body">
+                                                                                                                <a href="#"
+                                                                                                                title="Anticipazione sociale del trattamento di integrazione del reddito - emergenza Covid19 - Non pi&ugrave; sottoscrivibile (pdf)">Anticipazione sociale del trattamento di integrazione del reddito - emergenza Covid19 - Non pi&ugrave; sottoscrivibile (pdf)</a>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </li>
+
+                                                                                                    <li class="list-file-pdf col-sm-6">
+                                                                                                        <div class="box-rack box-cyan">
+                                                                                                            <div class="box-body">
+                                                                                                                <a href="#"
+                                                                                                                title="Prestito BancoPosta concesso da Deutsche Bank S.p.A. (pdf)">Prestito BancoPosta concesso da Deutsche Bank S.p.A. (pdf)</a>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </li>
+
+                                                                                                    <li class="list-file-pdf col-sm-6">
+                                                                                                        <div class="box-rack box-cyan">
+                                                                                                            <div class="box-body">
+                                                                                                                <a href="#"
+                                                                                                                    title="Informazioni Generali Mutuo BP - Acquisto e Surroga a tasso fisso concesso da Intesa Sanpaolo (pdf)">Informazioni Generali Mutuo BP - Acquisto e Surroga a tasso fisso concesso da Intesa Sanpaolo (pdf)</a>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </li>
+                                                                                                </ul>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                    <!-- end accordion -->
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <aside aria-labelledby="side-help-title">
+
+        <!--#include virtual="/includes-da/navigation/right-side-offcanvas.html" -->
+
+    </aside>
+    <footer id="footer">
+
+        <div class="content content-footer content-footer-info">
+          <div class="content-wrap">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12">
+                  <!--#include virtual="/includes-da/footer/footer-content-info.html" -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="content content-footer content-footer-extra">
+          <div class="content-wrap">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12">
+                  <!--#include virtual="/includes-da/footer/footer-content-extra.html" -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--#include virtual="/includes-da/utilities/footer-tag.html" -->
+        
+      </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,529 @@
+/*****************************************************
+    @IMPORT
+    Foglio stile Tipografia - (c) Poste Italiane 2023/2024
+*****************************************************/
+
+
+/*
+
+1px	0.06rem
+2px	0.13rem
+3px	0.19rem
+4px	0.3rem
+5px	0.3rem
+6px	0.4rem
+8px	0.5rem
+10px	0.6rem
+12px	0.8rem
+14px	0.9rem
+15px	0.9rem
+16px	1rem
+18px	1.1rem
+20px	1.3rem
+24px	1.5rem
+25px	1.6rem
+28px	1.8rem
+32px	2rem
+36px	2rem
+40px	3rem
+44px	3rem
+48px	3rem
+50px	3rem
+56px	4rem
+64px	4rem
+72px	5rem
+75px	5rem
+80px	5rem
+90px	6rem
+100px	6rem
+
+*/
+html, body{
+    font-size: $standard_font_size;
+    /* Definizione base */
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: $color_neutral_10;
+}
+
+a {
+    color: $color_primary_33
+}
+
+a svg {
+    fill: $color_primary_33;
+    color: $color_primary_33
+}
+
+a:hover,
+a:focus {
+    color: $color_primary_50;
+    text-decoration: underline;
+}
+
+.main-pills a,
+.box-advice a,
+.panel-cards .cards-content a:not(.btn){
+    text-decoration: underline;
+}
+
+
+/* Headings light theme (default) */
+
+.mode-light h1,
+h1,
+.mode-light h2,
+h2,
+.mode-light h3,
+h3,
+.mode-light h4,
+h4,
+.mode-light h5,
+h5,
+.mode-light h6,
+h6,
+.mode-light .h1,
+.h1,
+.mode-light .h2,
+.h2,
+.mode-light .h3,
+.h3,
+.mode-light .h4,
+.h4,
+.mode-light .h5,
+.h5,
+.mode-light .h6,
+.h6 {
+    color: $color_neutral_10;
+}
+
+
+/* Headings dark theme */
+
+.mode-dark .panel-cards-basic :is(h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6),
+.mode-dark .main-pills-basic :is(h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6){
+    color: #fff;
+}
+.mode-dark .abstract-heading :is(h1,h2,h3,h4,h5,h6,.abstract-subtitle){
+    color: #fff;
+}
+
+/* dark theme generic*/
+
+body .mode-dark .panel-cards,
+body .mode-dark .main-pills{
+    color: $color_neutral_10;
+}
+
+body .mode-dark,
+body .mode-dark .panel-cards-basic,
+body .mode-dark .main-pills-basic,
+body .mode-dark .content-heading,
+body .mode-dark .area-heading{
+    color: #fff;
+}
+
+.mode-dark h1,
+.mode-dark h2,
+.mode-dark h3,
+.mode-dark h4,
+.mode-dark h5,
+.mode-dark h6,
+.mode-dark .h1,
+.mode-dark .h2,
+.mode-dark .h3,
+.mode-dark .h4,
+.mode-dark .h5,
+.mode-dark .h6{
+    color: #fff;
+}
+
+.mode-dark a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.mode-dark a svg {
+    fill: #fff;
+    color: #fff;
+}
+
+.mode-dark a:hover,
+.mode-dark a:focus {
+    color: #fff;
+}
+
+/**/
+
+h1,
+h2,
+.h1,
+.h2,
+.title-extralarge,
+.title-large,
+.title-medium {
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+h1,
+.h1,
+.title-extralarge{
+    font-weight: 600;
+}
+
+h2,
+.h2,
+.title-large,
+.title-medium {
+    font-weight: 700;
+}
+
+h3,
+h4,
+.h3,
+.h4,
+.title-small,
+.title-extrasmall {
+    font-weight: 600;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+h5,
+h6,
+.h5,
+.h6 {
+    font-weight: 600;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+//overwritten in md/lg
+h1,
+.h1,
+.title-extralarge,
+.title-large {
+    font-size: 1.75rem;
+    line-height: 2.625rem;
+    letter-spacing: 0.19px;
+}
+
+h2,
+.h2,
+.title-medium {
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    letter-spacing: 0.16px;
+}
+
+h3,
+.h3,
+.title-small {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    letter-spacing: 0px;
+}
+
+h4,
+.h4 {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    letter-spacing: 0px;
+}
+
+h5,
+.h5,
+.title-extrasmall {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    letter-spacing: 0.17px;
+}
+
+h6,
+.h6 {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    letter-spacing: 0.17px;
+}
+
+.disclaimer,
+.note{
+    line-height: 1.125rem;
+    font-size: 0.75rem;
+}
+
+/* applicative form */
+
+.area-heading {
+    margin-top: 24px!important;
+}
+
+
+/* Text transformation/decoration */
+
+.text-uppercase {
+    text-transform: uppercase!important;
+}
+
+.text-lowercase {
+    text-transform: lowercase!important;
+}
+
+.text-capitalize {
+    text-transform: capitalize!important;
+}
+
+.text-underline {
+    text-decoration: underline !important;
+}
+
+.text-decoration-none {
+    text-decoration: none !important;
+}
+
+.text-italic {
+    font-style: italic !important;
+}
+
+
+/* font weight */
+
+.fw-thin {
+    font-weight: 200!important;
+}
+
+.fw-light {
+    font-weight: 300!important;
+}
+
+.fw-regular {
+    font-weight: 400!important;
+}
+
+.fw-medium {
+    font-weight: 500!important;
+}
+
+.fw-semibold {
+    font-weight: 600!important;
+}
+
+.fw-bold {
+    font-weight: 700!important;
+}
+
+
+/* font size */
+
+.fs-extrasmall {
+    font-size: 0.75rem!important;
+    letter-spacing: 0.6px!important;
+    line-height: 1.125rem!important;
+}
+
+.fs-small {
+    font-size: 0.875rem!important;
+    letter-spacing: 0.3px!important;
+    line-height: 1.25rem!important;
+}
+
+.fs-medium {
+    font-size: 1rem!important;
+    line-height: 1.5rem!important;
+}
+
+.fs-large {
+    font-size: 1.25rem!important;
+    line-height: 1.75rem!important;
+}
+
+.fs-extralarge {
+    font-size: 2rem!important;
+    line-height: 2.5rem!important;
+}
+
+.text-success{
+    color: $color_success_40!important;
+}
+
+.text-evidence{
+    color: $color_evidence_40!important;
+}
+
+.text-error {
+    color: $color_error_40!important;
+}
+
+.text-note {
+    color: $color_neutral_40!important;;
+}
+
+.text-emphasis{
+    color: $color_primary_33!important;;
+}
+
+
+
+/* Text Truncate  line-clamp */
+
+.line-clamp {
+    overflow: hidden;
+    position: relative;
+    text-align: justify;
+    line-height: 1.5rem;
+    /*default*/
+    max-height: 1.5rem;
+    /*default*/
+    padding-right: 15px;
+}
+
+.line-clamp:before {
+    content: '...';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: #fff;
+    /*
+    background : linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 45%);
+    padding-left: 15px;
+    */
+}
+
+.line-clamp:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 1rem;
+    height: 1rem;
+    margin-top: 0.2rem;
+    background: #fff;
+}
+
+.line-clamp-1 {
+    max-height: calc(1rem*1.5*1);
+}
+
+.line-clamp-2 {
+    max-height: calc(1rem*1.5*2);
+}
+
+.line-clamp-3 {
+    max-height: calc(1rem*1.5*3);
+}
+
+.line-clamp-4 {
+    max-height: calc(1rem*1.5*4);
+}
+
+.line-clamp-5 {
+    max-height: calc(1rem*1.5*5);
+}
+
+
+
+@media (max-width: 767px) {
+    .line-clamp-xs-1 {
+        max-height: calc(1rem*1.5*1);
+    }
+    
+    .line-clamp-xs-2 {
+        max-height: calc(1rem*1.5*2);
+    }
+    
+    .line-clamp-xs-3 {
+        max-height: calc(1rem*1.5*3);
+    }
+    
+    .line-clamp-xs-4 {
+        max-height: calc(1rem*1.5*4);
+    }
+    
+    .line-clamp-xs-5 {
+        max-height: calc(1rem*1.5*5);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .line-clamp-sm-1 {
+        max-height: calc(1rem*1.5*1);
+    }
+    
+    .line-clamp-sm-2 {
+        max-height: calc(1rem*1.5*2);
+    }
+    
+    .line-clamp-sm-3 {
+        max-height: calc(1rem*1.5*3);
+    }
+    
+    .line-clamp-sm-4 {
+        max-height: calc(1rem*1.5*4);
+    }
+    
+    .line-clamp-sm-5 {
+        max-height: calc(1rem*1.5*5);
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .line-clamp-md-1 {
+        max-height: calc(1rem*1.5*1);
+    }
+    
+    .line-clamp-md-2 {
+        max-height: calc(1rem*1.5*2);
+    }
+    
+    .line-clamp-md-3 {
+        max-height: calc(1rem*1.5*3);
+    }
+    
+    .line-clamp-md-4 {
+        max-height: calc(1rem*1.5*4);
+    }
+    
+    .line-clamp-md-5 {
+        max-height: calc(1rem*1.5*5);
+    }
+    h1,
+    .h1,
+    .title-extralarge {
+        font-size: 2.25rem;
+        line-height: 2.75rem;
+        letter-spacing: 0.24px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .line-clamp-lg-1 {
+        max-height: calc(1rem*1.5*1);
+    }
+    
+    .line-clamp-lg-2 {
+        max-height: calc(1rem*1.5*2);
+    }
+    
+    .line-clamp-lg-3 {
+        max-height: calc(1rem*1.5*3);
+    }
+    
+    .line-clamp-lg-4 {
+        max-height: calc(1rem*1.5*4);
+    }
+    
+    .line-clamp-lg-5 {
+        max-height: calc(1rem*1.5*5);
+    }
+    h1,
+    .h1,
+    .title-extralarge {
+        font-size: 2.25rem;
+        line-height: 2.75rem;
+        letter-spacing: 0.24px;
+    }
+
+}

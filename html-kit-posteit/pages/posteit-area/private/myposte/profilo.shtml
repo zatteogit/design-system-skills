@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <title>Poste.it</title>
+    <!--#include virtual="/includes-da/utilities/head-tag.html" -->
+    <link type="text/css" rel="stylesheet" href="/assets-da/app/myposte/css/myp.min.css">
+</head>
+
+<body>
+    <nav id="skiplink" aria-label="Navigazione di pagina">
+        <ul>
+            <li><a tabindex="0" class="skip-link sr-only-focusable-abs" href="#accessibility-anchor">Passa al contenuto
+          principale</a></li>
+            <li><a class="skip-link sr-only-focusable-abs" href="#assistenza-side">Passa all'help</a></li>
+            <li><a class="skip-link sr-only-focusable-abs" href="#footer">Passa al footer di pagina</a></li>
+        </ul>
+    </nav>
+    <header class="sticky">
+        <div class="sticky-wrap">
+            <!-- Content Navbar-->
+            <div class="content" id="content-navbar">
+                <div class="content-wrap">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <!--#include virtual="/includes-da/header/navbar-content-default-logged.html" -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main id="accessibility-anchor" tabindex="-1">
+        <div class="content concept-app mode-reverse mode-xs-basic content-pattern pattern-01 profile display-pop" id="content-abstract">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-7 col-md-8">
+                            <ol class="breadcrumb breadcrumb-xs-trim-a breadcrumb-sm-trim-a breadcrumb-md-trim-b">
+                                <li>
+                                    <a href="/pages/posteit-area/private/myposte/" title="Torna a MyPoste">
+                                        <span>MyPoste</span>
+                                    </a>
+                                </li>
+                                <li class="active" aria-current="page"><span>Il tuo profilo</span></li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-7 col-md-8">
+                            <div class="abstract-wrap">
+                                <div class="abstract">
+                                    <div class="abstract-heading">
+                                        <h1>Il tuo profilo</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!-- Name -->
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <h2 class="h4 content-heading mt-0 text-left">Pierferdinando Rossi <span class="sr-only">,</span><br class="visible-xs-only"><span class="tag tag-success fs-extrasmall">Verificato</span></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!-- Name -->
+                            <div class="row">
+                                <div class="col-sm-5">
+                                    <div class="flex flex-column justify-content-between">
+                                        <div class="flex flex-row m-0">
+                                            <div class="picture-wrap flex-sm flex-xs pe-3 justify-content-sm-end">
+                                                <svg width="50" height="50" viewBox="0 0 50 50" fill="none" color="#3f51b5" version="1.1" id="svg5" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+                          <defs id="defs4">
+                            <!-- highlight-start -->
+                            <linearGradient id="spinner-secondHalf"
+                              gradientTransform="matrix(0,0.33995527,-0.16997764,0,49.038473,0.96153654)"
+                              x1="-5.0242949e-15" y1="5.8937756e-05" x2="141.42133" y2="5.8937756e-05"
+                              gradientUnits="userSpaceOnUse">
+                              <stop offset="0%" stop-opacity="0" stop-color="currentColor" id="stop1" />
+                              <stop offset="100%" stop-opacity="0.5" stop-color="currentColor" id="stop2" />
+                            </linearGradient>
+                            <linearGradient id="spinner-firstHalf"
+                              gradientTransform="matrix(0,0.34004408,-0.17002203,0,49.044489,0.96179045)"
+                              x1="-2.5121475e-15" y1="141.42139" x2="141.42133" y2="141.42139"
+                              gradientUnits="userSpaceOnUse">
+                              <stop offset="0%" stop-opacity="1" stop-color="currentColor" id="stop3" />
+                              <stop offset="100%" stop-opacity="0.5" stop-color="currentColor" id="stop4" />
+                            </linearGradient>
+                            <!-- highlight-end -->
+                          </defs>
+                          <g stroke-width="8" id="g5">
+                            <!-- highlight-start -->
+                            <path stroke="url(#spinner-secondHalf)"
+                              d="m 25,1.923075 a 23.076935,23.076923 0 0 1 0,46.153846" id="path4"
+                              style="stroke:url(#spinner-secondHalf);stroke-width:3.84615;stroke-dasharray:none" />
+                            <path stroke="url(#spinner-firstHalf)"
+                              d="m 24.999736,48.08948 a 23.082961,23.082951 0 0 1 0,-46.1659" id="path5"
+                              style="stroke:url(#spinner-firstHalf);stroke-width:3.84716;stroke-dasharray:none" />
+                            <!-- highlight-end -->
+                          </g>
+                          <text x="26" y="30" fill="#000" text-anchor="middle" font-size="14" font-weight="bold">100%</text>
+                        </svg>
+                                            </div>
+                                            <div class="box-wrap flex align-items-center justify-content-start flex-grow-2">
+                                                <div class="box-body">
+                                                    <p class="m-0">Eius tue prolorum &egrave; ic <br class="visible-xs"><strong>levellum ROBUR (100%)</strong></p>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-sm-7">
+                                    <p class="my-3 my-sm-0">Quid fieri et tue lorem ipsum dixit eiusdem seic niquam: nomen omen, palidorum, cellulum numerum et registrarum res</p>
+                                    <div class="btn-container clearfix">
+                                        <a class="btn btn-xs btn-default btn-link" href="#" title="Lorem ipsum 1">Gestorum nominem
+                      <span class="icon">
+                        <svg focusable="false">
+                          <title>Lorem ipsum</title>
+                          <use xlink:href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m"
+                            href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m"></use>
+                        </svg>
+                      </span>
+                    </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content" id="content-main">
+            <div class="content-wrap">
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col-sm-12 col-structure">
+                            <div id="main">
+                                <div class="row">
+                                    <div class="col-sm-12" id="profile">
+                                        <div class="main-pills mb-4">
+                                            <div class="main-pills-wrap">
+                                                <div class="row">
+                                                    <div class="col-sm-12">
+                                                        <div class="box-editable-area mb-4">
+                                                            <h2 class="h3 text-left">Datus personalorum et contactum</h2>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-12">
+                                                        <div class="box-summary">
+                                                            <div class="box-body">
+                                                                <div class="row">
+                                                                    <div class="col-sm-12">
+                                                                        <div class="row">
+                                                                            <div class="col-sm-6">
+                                                                                <div class="form-group">
+                                                                                    <span class="label-like stable" id="id-profilo-01">E-mail</span>
+                                                                                    <p class="form-control-static" aria-describedby="id-profilo-01">alessandrium.rossus@gmailorum.com</p>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-sm-6">
+                                                                                <div class="form-group">
+                                                                                    <span class="label-like stable" id="id-profilo-02">Cellulare</span>
+                                                                                    <p class="form-control-static" aria-describedby="id-profilo-02">999-0000000</p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="row">
+                                                                            <div class="col-sm-6">
+                                                                                <div class="form-group">
+                                                                                    <span class="label-like stable" id="id-profilo-03">Locorum residentiae</span>
+                                                                                    <p class="form-control-static" aria-describedby="id-profilo-03">VIAM ALEXANDRIUS MONZONIUS 20 ORVIETUM, TR
+                                                                                        <br>05018</p>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-sm-6">
+                                                                                <div class="form-group">
+                                                                                    <span class="label-like stable " id="id-profilo-04">Locorum residentiae</span>
+                                                                                    <p class="form-control-static" aria-describedby="id-profilo-04">VIAM ALEXANDRIUS MONZONIUS 20 ORVIETUM, TR
+                                                                                        <br>05018</p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-12">
+                                                                        <div class="btn-container clearfix">
+                                                                            <a class="btn btn-xs btn-default btn-link" href="#" title="Lorem ipsum 2">Datus tuum gestorum
+                                        <span class="icon">
+                                          <svg focusable="false">
+                                            <title>Lorem ipsum</title>
+                                            <use
+                                              xlink:href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m"
+                                              href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m"></use>
+                                          </svg>
+                                        </span>
+                                      </a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Example multiple cards profile -->
+                                        <div class="row row-group myp row-fix equalize-group equalize-group-1">
+                                            <div class="col-xs-12 col-sm-6 col-md-4">
+                                                <div class="panel panel-cards panel-cards-default mode-ctaset">
+                                                    <div class="cards-wrap panel-wrap equalize-height">
+                                                        <div class="panel-heading">
+                                                            <h3 id="cards-text-heading-default-01_01" class="cards-text-heading">Lorem ipsum sit</h3>
+                                                            <span class="mb-2 tag tag-success fs-extrasmall">Completato</span>
+                                                        </div>
+                                                        <div class="panel-body mt-3">
+                                                            <div class="cards-content">
+                                                                <p>Cupidatat ad in sit reprehenderit ipsum Lorem amet aliqua adipisicing duis. Nostrud anim quis enim adipisicing.</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="panel-footer">
+                                                            <div class="btn-container clearfix mt-2">
+                                                                <a class="btn btn-xs btn-default btn-link" id="cards-action-default-01_01" href="#" title="Lorem ipsum 3" aria-labelledby="cards-text-heading-default-01_01 cards-action-default-01_01">Lorem
+                                  ipsum<span class="icon">
+                                    <svg focusable="false">
+                                      <title>Lorem ipsum</title>
+                                      <use xlink:href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m"
+                                        href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m"></use>
+                                    </svg>
+                                  </span>
+                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-6 col-md-4">
+                                                <div class="panel panel-cards panel-cards-default mode-ctaset">
+                                                    <div class="cards-wrap panel-wrap equalize-height">
+                                                        <div class="panel-heading">
+                                                            <h3 id="cards-text-heading-default-01_02" class="cards-text-heading">Lorem ipsum sit</h3>
+                                                            <span class="mb-2 tag tag-success fs-extrasmall">Completato</span>
+                                                        </div>
+                                                        <div class="panel-body mt-3">
+                                                            <div class="cards-content">
+                                                                <p>Cupidatat ad in sit reprehenderit ipsum Lorem amet aliqua adipisicing duis. Nostrud anim quis enim adipisicing.</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="panel-footer">
+                                                            <div class="btn-container clearfix mt-2">
+                                                                <a class="btn btn-xs btn-default btn-link" id="cards-action-default-01_02" href="#" title="Lorem ipsum 4" aria-labelledby="cards-text-heading-default-01_02 cards-action-default-01_02">Lorem
+                                  ipsum<span class="icon">
+                                    <svg focusable="false">
+                                      <title>Lorem ipsum</title>
+                                      <use xlink:href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m"
+                                        href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m"></use>
+                                    </svg>
+                                  </span>
+                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-6 col-md-4">
+                                                <div class="panel panel-cards panel-cards-default mode-ctaset">
+                                                    <div class="cards-wrap panel-wrap equalize-height">
+                                                        <div class="panel-heading">
+                                                            <h3 id="cards-text-heading-default-01_03" class="cards-text-heading">Lorem ipsum sit</h3>
+                                                            <span class="mb-2 tag tag-success fs-extrasmall">Completato</span>
+                                                        </div>
+                                                        <div class="panel-body mt-3">
+                                                            <div class="cards-content">
+                                                                <p>Cupidatat ad in sit reprehenderit ipsum Lorem amet aliqua adipisicing duis. Nostrud anim quis enim adipisicing.</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="panel-footer">
+                                                            <div class="btn-container clearfix mt-2">
+                                                                <a class="btn btn-xs btn-default btn-link" id="cards-action-default-01_03" href="#" title="Lorem ipsum 5" aria-labelledby="cards-text-heading-default-01_03 cards-action-default-01_03">Lorem
+                                  ipsum<span class="icon">
+                                    <svg focusable="false">
+                                      <title>Lorem ipsum</title>
+                                      <use xlink:href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m"
+                                        href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m"></use>
+                                    </svg>
+                                  </span>
+                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-6 col-md-4">
+                                                <div class="panel panel-cards panel-cards-default mode-ctaset">
+                                                    <div class="cards-wrap panel-wrap equalize-height">
+                                                        <div class="panel-heading">
+                                                            <h3 id="cards-text-heading-default-01_04" class="cards-text-heading">Lorem ipsum sit</h3>
+                                                            <span class="mb-2 tag tag-success fs-extrasmall">Attive</span>
+                                                        </div>
+                                                        <div class="panel-body mt-3">
+                                                            <div class="cards-content">
+                                                                <p>Cupidatat ad in sit reprehenderit ipsum Lorem amet aliqua adipisicing duis. Nostrud anim quis enim adipisicing.</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="panel-footer">
+                                                            <div class="btn-container clearfix mt-2">
+                                                                <a class="btn btn-xs btn-default btn-link" id="cards-action-default-01_04" href="#" title="Lorem ipsum 6" aria-labelledby="cards-text-heading-default-01_04 cards-action-default-01_04">Lorem
+                                  ipsum<span class="icon">
+                                    <svg focusable="false">
+                                      <title>Lorem ipsum</title>
+                                      <use xlink:href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m"
+                                        href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m"></use>
+                                    </svg>
+                                  </span>
+                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-6 col-md-4">
+                                                <div class="panel panel-cards panel-cards-default mode-ctaset">
+                                                    <div class="cards-wrap panel-wrap equalize-height">
+                                                        <div class="panel-heading">
+                                                            <h3 id="cards-text-heading-default-01_05" class="cards-text-heading">Il tuo Profilo e il tuo Contratto MiFID
+                                                            </h3>
+                                                            <span class="mb-2 tag tag-warning fs-extrasmall">Non presente</span>
+                                                        </div>
+                                                        <div class="panel-body mt-3">
+                                                            <div class="cards-content">
+                                                                <p>Cupidatat ad in sit reprehenderit ipsum Lorem amet aliqua adipisicing duis. Nostrud anim quis enim adipisicing.</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="panel-footer">
+                                                            <div class="btn-container clearfix mt-2">
+                                                                <a class="btn btn-xs btn-default btn-link" id="cards-action-default-01_05" href="#" title="Lorem ipsum 7" aria-labelledby="cards-text-heading-default-01_05 cards-action-default-01_05">Lorem
+                                  ipsum<span class="icon">
+                                    <svg focusable="false">
+                                      <title>Lorem ipsum</title>
+                                      <use xlink:href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m"
+                                        href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m"></use>
+                                    </svg>
+                                  </span>
+                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+    <aside aria-labelledby="assistenza-side">
+        <!--#include virtual="/includes-da/navigation/right-side-offcanvas.html" -->
+    </aside>
+    <aside aria-labelledby="menu-profilo">
+        <!--#include virtual="/includes-da/navigation/right-side-offcanvas-profilo.html" -->
+    </aside>
+    <aside aria-labelledby="bacheca-side">
+        <!--#include virtual="/includes-da/navigation/right-side-offcanvas-bacheca.html" -->
+    </aside>
+    <footer id="footer">
+        <div class="content content-footer content-footer-main">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--#include virtual="/includes-da/footer/footer-content-main.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content content-footer content-footer-extra">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--#include virtual="/includes-da/footer/footer-content-extra.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--#include virtual="/includes-da/utilities/footer-tag.html" -->
+
+    </footer>
+
+</body>
+
+</html>

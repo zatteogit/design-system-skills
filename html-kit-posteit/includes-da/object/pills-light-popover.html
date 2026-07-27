@@ -1,0 +1,49 @@
+
+
+<div class="main-pills-wrap">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="box-editable-area mb-4">
+                <h3 class="area-heading mt-0">Popover</h3>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+
+            <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="left" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+                Popover left
+            </button>
+            
+            <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+                Popover top
+            </button>
+            
+            <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus
+            sagittis lacus vel augue laoreet rutrum faucibus.">
+                Popover bottom
+            </button>
+            
+            <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="right" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+                Popover right
+            </button>
+        </div>
+    </div>
+</div>
+<div class="main-pills-wrap">
+    <div class="row">
+        <div class="col-sm-12">
+                        
+            <!-- 
+                avvertenza:
+                Markup specifico richiesto per l'eliminazione al clic successivo
+                Per un comportamento corretto tra browser e piattaforme diverse, va usato da indicazioni documentazione bootstrap3 il tag <a>, non il tag <button>, e vanno inclusi gli attributi role="button" e tabindex.
+            -->
+
+            <a role="button" data-trigger="focus" tabindex="0" class="btn btn-secondary" type="button" data-toggle="popover" data-trigger="focus" title="Dismissible popover" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">Popover eliminabile al click </a>
+
+            <a role="button" data-trigger="focus" tabindex="0" class="btn btn-secondary popover-custom-template" type="button" data-toggle="popover" data-trigger="focus" title="Dismissible popover" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">Popover eliminabile al click custom template</a>
+
+        </div>
+    </div>
+</div>

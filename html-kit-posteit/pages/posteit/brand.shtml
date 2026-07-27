@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <title>Poste.it</title>
+    <!--#include virtual="/includes-da/utilities/head-tag.html" -->
+  </head>
+
+  <body class="no-js pattern-full-01">
+    <nav id="skiplink" aria-label="Navigazione di pagina">
+      <ul>
+        <li><a tabindex="0" class="skip-link sr-only-focusable-abs" href="#accessibility-anchor">Passa al contenuto principale</a></li>
+        <li><a class="skip-link sr-only-focusable-abs" href="#assistenza-side">Passa all'help</a></li>
+        <li><a class="skip-link sr-only-focusable-abs" href="#footer">Passa al footer di pagina</a></li>
+      </ul>
+    </nav>
+    <header class="sticky">
+      <div class="sticky-wrap">
+        <!-- Content Fedbar-->
+        <div class="content" id="content-fedbar">
+          <div class="content-wrap">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12">
+                  <!--#include virtual="/includes-da/header/header-content-fedbar.html" -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Content Navbar-->
+        <div class="content" id="content-navbar">
+          <div class="content-wrap">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12">
+                  <!--#include virtual="/includes-da/header/navbar-content-default.html" -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Sidebar Menu -->
+      <div class="content" id="content-sites-menu">
+        <div class="content-wrap">
+          <div class="container">
+            <!--#include virtual="/includes-da/navigation/left-side-offcanvas-sites.html" -->
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main id="accessibility-anchor" tabindex="-1">
+      <div class="content display-pop" id="content-abstract">
+        <div class="content-wrap">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="abstract">
+                  <div class="abstract-heading">
+                    <h1>
+                      <img class="h-brand-standard img-responsive m-auto m-sm-0" alt="Postepay" src="/assets-da/core/img/loghi/logo-postepay-brand.png" srcset="/assets-da/core/img/loghi/logo-postepay-brand@2x.png 2x" />
+                      <span class="sr-only">Postepay Lorem Ipsum</span></h1>
+                    <span class="abstract-subtitle">Semplicemente il futuro. Lorem, ipsum dolor sit amet.</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content display-pop">
+        <div class="content-wrap">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 col-structure">
+                <div class="row row-space row-fix">
+                  <div class="col-xs-12">
+                    <div class="main-pills main-pills-basic">
+                      <!--#set var="h-opn" value="<h2>" -->
+                      <!--#set var="h-cls" value="</h2>" -->
+                      <!--#include virtual="/includes-da/object/pills-campaign-alfa-04.html" -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="content-wrap">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <h2 class="content-heading text-left text-sm-center">Servizi in evidenza</h2>
+              </div>
+            </div>
+
+            <div class="row row-space equalize-group equalize-group-1">
+              <div class="col-sm-12 equalize-forced">
+                <div class="slick-scroll">
+                  <div class="row slick-scroll-items-evidence">
+                    <p>
+                      <a class="keybtn keybtn-large" href="#" title="Preventivo luce e gas">
+                        <span class="keybtn-wrap" style="background-image: url('/assets-da/core/img/ico/ico-generic-sim@2x.png')">Preventivo<br />luce e gas</span>
+                      </a>
+                    </p>
+                    <p>
+                      <a class="keybtn keybtn-large" href="#" title="Invio pacchi">
+                        <span class="keybtn-wrap" style="background-image: url('/assets-da/core/img/ico/ico-generic-risparmio@2x.png')">Invio pacchi</span>
+                      </a>
+                    </p>
+                    <p>
+                      <a class="keybtn keybtn-large" href="#" title="Bollo auto">
+                        <span class="keybtn-wrap" style="background-image: url('/assets-da/core/img/ico/ico-generic-document@2x.png')">Bollo auto</span>
+                      </a>
+                    </p>
+                    <p>
+                      <a class="keybtn keybtn-large" href="#" title="Bonifico SEPA">
+                        <span class="keybtn-wrap" style="background-image: url('/assets-da/core/img/ico/ico-generic-ppay@2x.png')">Bonifico SEPA</span>
+                      </a>
+                    </p>
+                    <p>
+                      <a class="keybtn keybtn-large" href="#" title="Bollette e pagamenti">
+                        <span class="keybtn-wrap" style="background-image: url('/assets-da/core/img/ico/ico-generic-risparmio@2x.png')">Bollette e pagamenti</span>
+                      </a>
+                    </p>
+                    <p>
+                      <a class="keybtn keybtn-large" href="#" title="Ricariche telefoniche">
+                        <span class="keybtn-wrap" style="background-image: url('/assets-da/core/img/ico/ico-generic-document@2x.png')">Ricariche telefoniche</span>
+                      </a>
+                    </p>
+                    <p>
+                      <a class="keybtn keybtn-large" href="#" title="Ricarica Postepay">
+                        <span class="keybtn-wrap" style="background-image: url('/assets-da/core/img/ico/ico-generic-ppay@2x.png')">Ricarica Postepay</span>
+                      </a>
+                    </p>
+                    <p>
+                      <a class="keybtn keybtn-large" href="#" title="F24">
+                        <span class="keybtn-wrap" style="background-image: url('/assets-da/core/img/ico/ico-generic-risparmio@2x.png')">F24</span>
+                      </a>
+                    </p>
+                    <p>
+                      <a class="keybtn keybtn-large" href="#" title="Lorem ipsum">
+                        <span class="keybtn-wrap" style="background-image: url('/assets-da/core/img/ico/ico-generic-document@2x.png')">Lorem ipsum</span>
+                      </a>
+                    </p>
+                    <p>
+                      <a class="keybtn keybtn-large" href="#" title="Dolor amet mea">
+                        <span class="keybtn-wrap" style="background-image: url('/assets-da/core/img/ico/ico-generic-sim@2x.png')">Dolor amet mea</span>
+                      </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="btn-container btn-container-center clearfix">
+                  <a href="#" title="Vedi tutti sed nunc adescevit nunque" class="btn btn-xs btn-secondary m-0"> Vedi tutti</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="content-wrap">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <h2 class="content-heading text-left text-sm-center">Servizi online utili</h2>
+              </div>
+            </div>
+            <div class="row equalize-group equalize-group-1">
+              <div class="col-sm-12">
+                <div class="row row-space row-fix hidden-xs">
+                  <div class="col-xs-12 col-sm-4">
+                    <!--#include virtual="/includes-da/object/cards-default-icon-00a.html" -->
+                  </div>
+                  <div class="col-xs-12 col-sm-4">
+                    <!--#include virtual="/includes-da/object/cards-default-icon-00a.html" -->
+                  </div>
+                  <div class="col-xs-12 col-sm-4">
+                    <!--#include virtual="/includes-da/object/cards-default-icon-00a.html" -->
+                  </div>
+                </div>
+                <div class="row row-space row-fix visible-xs equalize-forced">
+                  <div class="col-xs-4">
+                    <a class="keybtn" href="#" title="Paga">
+                      <span class="keybtn-wrap" style="background-image: url('/assets-da/core/img/ico/ico-generic-risparmio@2x.png')">Paga</span>
+                    </a>
+                  </div>
+                  <div class="col-xs-4">
+                    <a class="keybtn" href="#" title="Spedisci">
+                      <span class="keybtn-wrap" style="background-image: url('/assets-da/core/img/ico/ico-generic-risparmio@2x.png')">Spedisci</span>
+                    </a>
+                  </div>
+                  <div class="col-xs-4">
+                    <a class="keybtn" href="#" title="Vieni in Post">
+                      <span class="keybtn-wrap" style="background-image: url('/assets-da/core/img/ico/ico-generic-risparmio@2x.png')">Vieni in Poste</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content display-pop" id="content-main">
+        <div class="content-wrap">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12 col-structure">
+                <div id="main">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <h2 class="content-heading">Catalogo prodotti</h2>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <div class="scroll-content-x mode-center">
+                        <ul class="list-inline-basic">
+                          <li class="">
+                            <a class="link-lever" href="#" title="Carte">Carte</a>
+                          </li>
+                          <li class="">
+                            <a class="link-lever" href="#" title="Paga con Postepay">Paga con Postepay</a>
+                          </li>
+                          <li class="active">
+                            <a class="link-lever active" href="#" title="POS e incassi">POS e incassi</a>
+                          </li>
+                          <li class="">
+                            <a class="link-lever" href="#" title="Postemobile">Postemobile</a>
+                          </li>
+                          <li class="">
+                            <a class="link-lever" href="#" title="App">App</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row row-space row-fix row-group">
+                    <div class="col-xs-12">
+                      <!--#include virtual="/includes-da/object/cards-detailed-bg-02.html" -->
+                    </div>
+                    <div class="col-xs-12">
+                      <!--#include virtual="/includes-da/object/cards-detailed-bg-02.html" -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="content-wrap">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <h2 class="content-heading">Scopri la nostra offerta</h2>
+              </div>
+            </div>
+            <div class="row equalize-group equalize-group-2">
+              <div class="col-sm-12">
+                <div class="row row-space row-fix row-group">
+                  <div class="col-xs-12 col-sm-6">
+                    <!--#include virtual="/includes-da/object/cards-picture-stretch-02.html" -->
+                  </div>
+                  <div class="col-xs-12 col-sm-6">
+                    <!--#include virtual="/includes-da/object/cards-picture-stretch-02.html" -->
+                  </div>
+                  <div class="col-xs-12 col-sm-6">
+                    <!--#include virtual="/includes-da/object/cards-picture-stretch-02.html" -->
+                  </div>
+                  <div class="col-xs-12 col-sm-6">
+                    <!--#include virtual="/includes-da/object/cards-picture-stretch-02.html" -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content display-pop">
+        <div class="content-wrap">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-push-1 col-structure">
+                <div class="row row-fix">
+                  <div class="col-xs-12">
+                    <!-- Pills more -->
+                    <div class="main-pills">
+                      <!--#include virtual="/includes-da/object/pills-light-infotabs.html" -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content display-pop">
+        <div class="content-wrap">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-push-1 col-structure">
+                <div class="row row-fix">
+                  <div class="col-xs-12">
+                    <!-- Pills showcase left-->
+                    <div class="main-pills main-pills-showcase mode-img-top equalize-wrap equalize-wrap-1">
+                      <!--#include virtual="/includes-da/object/pills-light-showcase-right.html" -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content display-pop">
+        <div class="content-wrap">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-push-1 col-structure">
+                <div class="row row-fix">
+                  <div class="col-xs-12">
+                    <!-- Pills wizard -->
+                    <div class="main-pills">
+                      <div class="main-pills-wrap">...</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content slick-h-scroll">
+        <div class="content-wrap">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12">
+                <h2 class="content-heading text-left text-sm-center">Notizie</h2>
+              </div>
+            </div>
+            <div class="row row-space">
+              <div class="col-xs-12">
+                <div class="row slick-h-scroll-items equalize-group equalize-group-3">
+                  <div class="col-xs-12 col-sm-4">
+                    <!--#set var="id" value="_01" -->
+                    <!--#include virtual="/includes-da/object/cards-default-news.html" -->
+                  </div>
+                  <div class="col-xs-12 col-sm-4">
+                    <!--#set var="id" value="_02" -->
+                    <!--#include virtual="/includes-da/object/cards-default-news.html" -->
+                  </div>
+                  <div class="col-xs-12 col-sm-4">
+                    <!--#set var="id" value="_03" -->
+                    <!--#include virtual="/includes-da/object/cards-default-news.html" -->
+                  </div>
+                  <div class="col-xs-12 col-sm-4">
+                    <!--#set var="id" value="_04" -->
+                    <!--#include virtual="/includes-da/object/cards-default-news.html" -->
+                  </div>
+                  <div class="col-xs-12 col-sm-4">
+                    <!--#set var="id" value="_05" -->
+                    <!--#include virtual="/includes-da/object/cards-default-news.html" -->
+                  </div>
+                  <div class="col-xs-12 col-sm-4">
+                    <!--#set var="id" value="_06" -->
+                    <!--#include virtual="/includes-da/object/cards-default-news.html" -->
+                  </div>
+                  <div class="col-xs-12 col-sm-4">
+                    <!--#set var="id" value="_07" -->
+                    <!--#include virtual="/includes-da/object/cards-default-news.html" -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row row-space">
+              <div class="col-xs-12">
+                <div class="btn-container btn-container-center clearfix">
+                  <a href="#" title="Vai alla sezione notizie" class="btn btn-secondary btn-xs m-0"> Vai alla sezione notizie</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <aside aria-labelledby="side-help-title">
+      <div class="content content-sidebar-assistenza">
+        <div class="content-wrap">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <!--#include virtual="/includes-da/navigation/right-side-offcanvas.html" -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <footer id="footer">
+      <div class="content content-footer content-footer-info">
+        <div class="content-wrap">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <!--#include virtual="/includes-da/footer/footer-content-info.html" -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content content-footer content-footer-extra">
+        <div class="content-wrap">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <!--#include virtual="/includes-da/footer/footer-content-extra.html" -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--#include virtual="/includes-da/utilities/footer-tag.html" -->
+      
+    </footer>
+  </body>
+</html>

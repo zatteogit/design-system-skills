@@ -1,0 +1,221 @@
+/*****************************************************
+
+Theme Name: Posteit DLS
+Author: GDS//FS//DU 
+Created: 2022/2024
+Based on: kit Bootstrap v 3.1.4
+File Description: Foglio di stile Cerca.css (Cerca)
+
+*****************************************************/
+
+.btn-filter-search {
+    margin-top: 0.375rem;
+    height: 2.1875rem;
+}
+
+.map {
+    height: 37.5rem;
+    background-image: url(/assets-da/app/cerca/img/map-example.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content-slider-item-selected .slick-scroll-filter .slick-initialized.slick-slider .slick-list .slick-slide {
+    display: inline-block !important;
+    float: none;
+}
+
+/*.content-slider-item-selected .slick-scroll-filter .slick-prev,
+.content-slider-item-selected .slick-scroll-filter .slick-next {
+    display: none !important
+}*/
+
+/* gestione slick-slider cerca */
+.slick-scroll-filter::before,
+.slick-scroll-filter::after {
+    display: block;
+    height: 2.1875rem;
+    width: 2.5rem;
+    z-index: 1;
+    position: absolute;
+    content: " ";
+}
+
+.slick-slider .slick-list,
+.content-filter-button {
+    padding: 0.1875rem 0;
+}
+
+.slick-slide {
+    margin-right: .5rem;
+}
+
+.slick-scroll-filter::before {
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+    left: 6.875rem;
+    top: 0.1875rem;
+}
+
+.slick-scroll-filter::after {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+    top: 0.1875rem;
+    right: 0;
+}
+
+.slick-scroll-filter:has(.slick-prev.slick-disabled)::before, 
+.slick-scroll-filter:not(:has(.slick-prev))::before, 
+.slick-scroll-filter:has(.slick-next.slick-disabled)::after,
+.slick-scroll-filter:not(:has(.slick-next))::after {
+    display: none;
+}
+
+.slick-slide label {
+    margin-bottom: 0;
+}
+
+.slick-slider .slick-list {
+    margin-bottom: 0;
+}
+
+.slick-scroll-filter .slick-prev {
+    top: 1.3125rem;
+    left: -13.1875rem;
+}
+
+.slick-scroll-filter .slick-next {
+    top: 1.3125rem;
+    right: -5.3125rem;
+}
+
+.content-slider-item-selected .slick-scroll-filter::before,
+.content-slider-item-selected .slick-scroll-filter::after {
+    display: none;
+}
+
+/* gestione mobile */
+@media (min-width: 360px) and (max-width: 767px) {
+    .map {
+        height: 21.875rem;
+    }
+
+    .content-filter-button {
+        width: 6.875rem !important;
+        margin-left: 0.625rem;
+        margin-right: 0.625rem;
+    }
+
+    .slick-scroll-filter::before {
+        display: none;
+    }
+
+    .slick-scroll-filter::after {
+        display: none !important;
+    }
+
+    .content-filter-slider {
+        width: calc(100% - 8.5625rem) !important;
+    }
+
+    .slick-scroll-filter .slick-next {
+        display: none !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .slick-scroll-filter .slick-prev {
+        top: 1.3125rem;
+        left: -9.375rem;
+    }
+
+    .slick-scroll-filter .slick-next {
+        top: 1.3125rem;
+        right: -3.5625rem;
+    }
+
+    .content-filter-button {
+        width: 6.25rem !important;
+        margin-left: 3.125rem;
+        margin-right: 0.625rem;
+    }
+
+    .content-filter-slider {
+        width: 32.1875rem !important;
+    }
+
+    .slick-scroll-filter::after {
+        right: 3.125rem;
+    }
+
+    .slick-scroll-filter::before {
+        left: 10rem;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .slick-scroll-filter .slick-prev {
+        top: 1.3125rem;
+        left: -11.25rem;
+    }
+
+    .slick-scroll-filter .slick-next {
+        top: 1.3125rem;
+        right: -5.125rem;
+    }
+
+    .content-filter-button {
+        width: 6.25rem !important;
+        margin-left: 0;
+        margin-right: 0.625rem;
+    }
+
+    .content-filter-slider {
+        width: 42.5rem;
+    }
+
+    .slick-scroll-filter::before {
+        background: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+        left: 6.875rem;
+        top: 0;
+    }
+
+    .slick-scroll-filter::after {
+        top: 0;
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+        right: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .slick-scroll-filter .slick-prev {
+        top: 1.3125rem;
+        left: -12.375rem;
+    }
+
+    .slick-scroll-filter .slick-next {
+        top: 1.3125rem;
+        right: -6.125rem;
+    }
+
+    .content-filter-button {
+        width: 6.25rem  !important;
+        margin-left: 0;
+        margin-right: 0.625rem;
+    }
+
+    .content-filter-slider {
+        width: 53.125rem;
+    }
+
+    .slick-scroll-filter::before {
+        background: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+        left: 6.875rem;
+        top: 0.1875rem;
+    }
+
+    .slick-scroll-filter::after {
+        top: 0.1875rem;
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+        right: 0;
+    }
+}

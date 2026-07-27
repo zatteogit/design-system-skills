@@ -1,0 +1,50 @@
+/* Footer customizzation */
+footer .content-footer-info .social-bar-container {
+  width: 210px;
+  margin: 0 auto;
+}
+
+footer .content-footer-info .partnership-area {
+  max-width: 260px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Footer customizzation */
+  footer .content-footer-info .partnership-area {
+    max-width: 210px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Footer customizzation */
+  footer .content-footer-info .social-bar-container {
+    width: 210px;
+    margin: 0;
+  }
+  footer .content-footer-info ul.social-bar li {
+    display: inline-block;
+    padding: 3px 0px;
+    margin: 0 3px;
+  }
+  footer .content-footer-info .partnership-area {
+    max-width: 210px;
+    margin: 0;
+  }
+}
+@media (min-width: 1200px) {
+  /* Footer customizzation */
+  footer .content-footer-info .social-bar-container {
+    width: 210px;
+    margin: 0;
+  }
+  footer .content-footer-info ul.social-bar li {
+    display: inline-block;
+    padding: 3px 0px;
+    margin: 0 3px;
+  }
+  footer .content-footer-info .partnership-area {
+    max-width: 210px;
+    margin: 0;
+  }
+}/*# sourceMappingURL=milano-cortina.css.map */

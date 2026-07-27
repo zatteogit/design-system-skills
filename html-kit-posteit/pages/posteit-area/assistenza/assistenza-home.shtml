@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <title>Poste.it</title>
+    <!--#include virtual="/includes-da/utilities/head-tag.html" -->
+
+</head>
+
+
+<body>
+    <nav id="skiplink" aria-label="Navigazione di pagina"><ul>
+        <li><a tabindex="0" class="skip-link sr-only-focusable-abs" href="#accessibility-anchor">Passa al contenuto
+        principale</a></li>
+        <li><a class="skip-link sr-only-focusable-abs" href="#assistenza-side">Passa all'help</a></li>
+        <li><a class="skip-link sr-only-focusable-abs" href="#footer">Passa al footer di pagina</a></li>
+    </ul></nav>
+  <header class="sticky">
+
+        <div class="sticky-wrap">
+            <!-- Content Fedbar-->
+            <div class="content" id="content-fedbar">
+                <div class="content-wrap">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <!--#include virtual="/includes-da/header/header-content-fedbar.html" -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Content Navbar-->
+            <div class="content" id="content-navbar">
+                <div class="content-wrap">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <!--#include virtual="/includes-da/header/navbar-content-default.html" -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Sidebar Menu -->
+        <div class="content" id="content-sites-menu">
+            <div class="content-wrap">
+                <div class="container">
+                    <!--#include virtual="/includes-da/navigation/left-side-offcanvas-sites.html" -->
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <main id="accessibility-anchor" tabindex="-1">
+
+        <div class="content display-pop concept-a" id="content-abstract">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-7 hidden-sm hidden-xs">
+                            <ol class="breadcrumb breadcrumb-xs-trim-a breadcrumb-sm-trim-a breadcrumb-md-trim-b">
+                                <li>
+                                    <a href="/pages/posteit/home.shtml" title="Home privati">
+                                        <span>Home privati</span>
+                                    </a>
+                                </li>
+                                <li class="active" aria-current="page"><span>Assistenza</span></li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="abstract-wrap col-sm-5 col-sm-push-7">
+                            <div class="picture-wrap">
+                                <picture>
+                                    <source srcset="/assets-da/publisher/img/prodotto/generic/content-abstract-01.webp" type="image/webp">
+                                    <source srcset="/assets-da/publisher/img/prodotto/generic/content-abstract-01.png" type="image/png">
+                                    <img loading="lazy" src="/assets-da/publisher/img/prodotto/generic/content-abstract-01.png" class="" alt="Lorem ipsum">
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="abstract-wrap col-sm-7 col-sm-pull-5">
+                            <div class="abstract">
+                                <div class="abstract-heading">
+                                    <h1>Assistenza</h1>
+                                    <span class="abstract-subtitle">Attraverso il centro assistenza clienti, telefonico,
+                                        modulo contatto o appuntamento, risponderemo ad ogni tua domanda.</span>
+                                </div>
+                            </div>
+                            <div class="abstract-advantage">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="btn-container mt-3 mt-md-4 text-xs-center text-sm-left">
+                                            <span class="block-xs">
+                                                <a href="#" title="Chatta con l'assistente digitale"
+                                                    class="btn btn-responsive btn-primary">Chatta con l'assistente
+                                                    digitale</a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content content-multiwrap hidden-xs">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h2 class="content-heading">Domande frequenti</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-wrap content-bg bg-cyan mode-light">
+                <div class="container">
+                    <div class="row row-space">
+                        <div class="col-sm-12">
+                            <ul class="list-unstyled text-center">
+                                <li class="inline">
+                                    <a href="#" class="btn btn-secondary btn-ellipsis" title="Ho dimenticato la password">Ho
+                                        dimenticato la password</a>
+                                </li>
+                                <li class="inline">
+                                    <a href="#" class="btn btn-secondary btn-ellipsis" title="Cosa succede alla mia carta di debito a partire dal 1&deg; ottobre 2021?">Cosa
+                                        succede alla mia carta di debito a partire dal 1&deg; ottobre 2021?</a>
+                                </li>
+                                <li class="inline">
+                                    <a href="#" class="btn btn-secondary btn-ellipsis" title="Voglio sapere come si attiva Postepay Evolution">Voglio sapere come si
+                                        attiva
+                                        Postepay Evolution</a>
+                                </li>
+                                <li class="inline">
+                                    <a href="#" class="btn btn-secondary btn-ellipsis" title="Chi pu&ograve; richiedere un prestito BancoPosta?">Chi pu&ograve;
+                                        richiedere
+                                        un prestito BancoPosta?</a>
+                                </li>
+                                <li class="inline hidden-sm">
+                                    <a href="#" class="btn btn-secondary btn-ellipsis" title="Se ricevo un invio dall'estero devo sostenere dei costi?">Se ricevo un
+                                        invio
+                                        dall'estero devo sostenere dei costi?</a>
+                                </li>
+                                <li class="inline hidden-sm">
+                                    <a href="#" class="btn btn-secondary btn-ellipsis" title="Come posso spedire il mio pacco con Poste Delivery Web">Come posso
+                                        spedire il
+                                        mio pacco con Poste Delivery Web</a>
+                                </li>
+                                <li class="inline hidden-sm">
+                                    <a href="#" class="btn btn-secondary btn-ellipsis" title="I miei risparmi possono crescere anche con versamenti di importo di piccola entit&agrave;?">I
+                                        miei risparmi possono crescere anche con versamenti di importo di piccola
+                                        entit&agrave;?</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h2 class="content-heading text-center">Contatta l'assistenza</h2>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="row row-space row-fix row-group equalize-group equalize-group-1">
+                                <div class="col-xs-12 col-sm-6 col-md-3">
+                                    <!--#include virtual="/includes-da/object/cards-default-icon-04.html" -->
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-3">
+                                    <!--#include virtual="/includes-da/object/cards-default-icon-05.html" -->
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-3">
+                                    <!--#include virtual="/includes-da/object/cards-default-icon-06.html" -->
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-3">
+                                    <!--#include virtual="/includes-da/object/cards-default-icon-07.html" -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content mb-4 mb-sm-5" id="content-main">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-structure">
+                            <div id="main">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <h2 class="content-heading text-center">Di cosa hai bisogno?</h2>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-8 col-sm-push-2">
+                                        <div class="form-group form-searchbar">
+                                            <label class="control-label sr-only" for="search">Cerca in tutto tra le
+                                                FAQ</label>
+                                            <input type="text" class="form-control" id="search" placeholder="Cerca in tutto tra le FAQ">
+                                            <a href="#" title="Avvia la ricerca" class="btn btn-cta btn-primary">
+                                                <span class="icon">
+                                                    <svg focusable="false">
+                                                        <title>Lorem ipsum</title>
+                                                        <use xlink:href="/assets-da/core/img/iconset/sprite.svg#025a-search-m"
+                                                            href="/assets-da/core/img/iconset/sprite.svg#025a-search-m">
+                                                        </use>
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="row row-space row-fix row-group equalize-group equalize-group-2">
+                                            <div class="col-xs-12 col-sm-6 col-md-4">
+                                                <!--#set var="id" value="_01" -->
+                                                <!--#include virtual="/includes-da/object/cards-default-01.html" -->
+                                            </div>
+                                            <div class="col-xs-12 col-sm-6 col-md-4">
+                                                <!--#set var="id" value="_02" -->
+                                                <!--#include virtual="/includes-da/object/cards-default-01.html" -->
+                                            </div>
+                                            <div class="col-xs-12 col-sm-6 col-md-4">
+                                                <!--#set var="id" value="_03" -->
+                                                <!--#include virtual="/includes-da/object/cards-default-01.html" -->
+                                            </div>
+                                            <div class="col-xs-12 col-sm-6 col-md-4">
+                                                <!--#set var="id" value="_04" -->
+                                                <!--#include virtual="/includes-da/object/cards-default-01.html" -->
+                                            </div>
+                                            <div class="col-xs-12 col-sm-6 col-md-4">
+                                                <!--#set var="id" value="_05" -->
+                                                <!--#include virtual="/includes-da/object/cards-default-01.html" -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content mb-4 mb-sm-5 content-multiwrap">
+            <div class="content-wrap content-bg bg-cyan mode-light sr-only">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h2 class="content-heading text-center">Altri servizi</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-wrap content-bg bg-cyan mode-light">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="row row-space row-fix row-group equalize-group equalize-group-3">
+                                <div class="col-xs-12 col-sm-6 col-md-push-2 col-md-4 col-lg-push-3 col-lg-3">
+                                    <!--#include virtual="/includes-da/object/cards-default-icon-03.html" -->
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-push-2 col-md-4 col-lg-push-3 col-lg-3">
+                                    <!--#include virtual="/includes-da/object/cards-default-icon-03.html" -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content display-pop">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10 col-md-push-1">
+                            <div class="row row-fix">
+                                <div class="col-xs-12">
+                                    <div class="main-pills main-pills-collection-link">
+                                        <!--#include virtual="/includes-da/object/pills-light-usefull-link-01.html" -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <aside aria-labelledby="side-help-title">
+        <div class="content content-sidebar-assistenza">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <!--#include virtual="/includes-da/navigation/right-side-offcanvas.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
+    <footer id="footer">
+        
+        <div class="content content-footer content-footer-info">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--#include virtual="/includes-da/footer/footer-content-info.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content content-footer content-footer-extra">
+            <div class="content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--#include virtual="/includes-da/footer/footer-content-extra.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--#include virtual="/includes-da/utilities/footer-tag.html" -->
+        
+    </footer>
+    
+</body>
+
+</html>

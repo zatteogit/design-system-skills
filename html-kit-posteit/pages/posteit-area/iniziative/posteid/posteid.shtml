@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <title>PosteID / Dashboard</title>
+  <!--#include virtual="/includes-da/utilities/head-tag.html" -->
+  <link type="text/css" rel="stylesheet" href="css/posteid.css">
+</head>
+
+<body>
+
+  <nav id="skiplink" aria-label="Navigazione di pagina">
+    <ul>
+      <li><a tabindex="0" class="skip-link sr-only-focusable-abs" href="#accessibility-anchor">Passa al contenuto
+          principale</a></li>
+      <li><a class="skip-link sr-only-focusable-abs" href="#assistenza-side">Passa all'help</a></li>
+      <li><a class="skip-link sr-only-focusable-abs" href="#footer">Passa al footer di pagina</a></li>
+    </ul>
+  </nav>
+
+  <header class="sticky">
+    <div class="sticky-wrap">
+
+      <!-- Content Navbar-->
+      <div class="content" id="content-navbar">
+        <div class="content-wrap">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+
+                <div class="content-navbar-wrap">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <nav class="navbar navbar-default" id="nav-def-pi"
+                        aria-label="barra di navigazione: menu e ricerca del sito, assistenza">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                          <div class="navbar-wrap w-100 justify-content-start">
+
+                          </div>
+                          <div class="navbar-wrap">
+                            <a class="navbar-brand" href="/" title="Torna a Poste.it">
+                              <img id="logo" alt="Logo PosteItaliane"
+                                src="/assets-da/core/img/loghi/logo-poste-italiane.png"
+                                srcset="/assets-da/core/img/loghi/logo-poste-italiane@2x.png 2x">
+                            </a>
+                          </div>
+                          <div class="navbar-wrap w-100 justify-content-end">
+
+                          </div>
+                        </div>
+                      </nav>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+  <main id="accessibility-anchor" tabindex="-1">
+
+    <div class="content bg-cyan mb-0">
+
+      <div class="content-wrap">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-6 py-2">
+              <img loading="lazy" class="img-responsive" width="172" height="48"
+                src="/assets-da/app/login/img/posteID@1x.png" srcset="/assets-da/app/login/img/posteID@2x.png 2x"
+                alt="">
+            </div>
+            <div class="col-xs-6 py-3 text-right"><a class="btn btn-xs btn-default btn-link m-0"
+                title="Cliente Business? Accedi qui" href="/pages/posteit-area/private/myposte/">
+                <span class="icon me-1">
+                  <svg focusable="false">
+                    <title>Alfredo Cutolo</title>
+                    <use xlink:href="/assets-da/core/img/iconset/sprite.svg#080a-person-m"
+                      href="/assets-da/core/img/iconset/sprite.svg#080a-person-m">
+                    </use>
+                  </svg>
+                </span>
+                Alfredo Cutolo
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="content display-pop" id="content-abstract">
+      <div class="content-wrap">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="abstract">
+                <div class="abstract-heading">
+                  <h1 class="mt-0">Ciao Alfredo Cutolo</h1>
+                  <span class="abstract-subtitle">Gestisci la tua identità digitale uso professionale
+                    dell’Organizzazione</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="content bg-cyan" id="content-main">
+      <div class="content-wrap content-bg bg-cyan mode-light">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-structure">
+              <div id="main">
+
+                <div class="row equalize-group equalize-group-1">
+                  <div class="col-sm-12 col-md-7">
+                    <div class="panel panel-cards panel-cards-default">
+                      <div class="cards-wrap panel-wrap">
+                        <div class="panel-heading">
+                          <h2 class="cards-text-heading h3">Dati
+                            dell'dell’Organizzazione</h3>
+                        </div>
+                        <div role="alert" class="box-messages box-messages-small box-success mb-2">
+                          <div class="box-body fs-small pt-2">
+                            <span class="icon icon-small-square icon-square-success me-1">
+                              <svg focusable="false" aria-label="lorem ipsum 0">
+                                <title>Lorem ipsum</title>
+                                <use xlink:href="/assets-da/core/img/iconset/sprite.svg#006a-success-m"
+                                  href="/assets-da/core/img/iconset/sprite.svg#006a-success-m"></use>
+                              </svg>
+                            </span>
+                            <p>Stato attivo</p>
+                          </div>
+                        </div>
+                        <div class="panel-body">
+                          <div class="row equalize-wrap equalize-wrap-1">
+                            <div class="col-sm-4">
+                              <div class="box-rack box-cyan mt-2">
+                                <div class="box-body">
+                                  <div class="form-group pb-0 text-center">
+                                    <span class="label-like stable" id="id-0001">Data Attivazione</span>
+                                    <p class="form-control-static overflow-break-word fw-semibold"
+                                      aria-describedby="id-0001">22/10/2024</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-sm-4">
+                              <div class="box-rack box-cyan mt-2">
+                                <div class="box-body">
+                                  <div class="form-group pb-0 text-center">
+                                    <span class="label-like stable" id="id-0002">Nome utente</span>
+                                    <p class="form-control-static overflow-break-word fw-semibold"
+                                      aria-describedby="id-0002">francesco.solfarolicamillocci@posteitaliane.it</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-sm-4">
+                              <div class="box-rack box-cyan mt-2">
+                                <div class="box-body">
+                                  <div class="form-group pb-0 text-center">
+                                    <span class="label-like stable" id="id-0003">Nome utente</span>
+                                    <p class="form-control-static overflow-break-word fw-semibold"
+                                      aria-describedby="id-0003">francesco.solfarolicamillocci@posteitaliane.it</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="panel-footer">
+                          <div class="btn-container clearfix mt-2">
+                            <a id="cards-action-default-01_013" class="btn btn-xs btn-default" href="#"
+                              title="Lorem ipsum"
+                              aria-labelledby="cards-text-heading-default-01_01 cards-action-default-01_013"><span
+                                class="icon">
+                                <svg focusable="false" aria-label="lorem ipsum 1">
+                                  <title></title>
+                                  <use xlink:href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m"
+                                    href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m">
+                                  </use>
+                                </svg>
+                              </span> Visualizza dati dell'dell’Organizzazione</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-12 col-md-5">
+                    <div class="panel panel-cards panel-cards-default">
+                      <div class="cards-wrap panel-wrap">
+                        <div class="panel-heading">
+                          <h2 id="cards-text-heading-default-01_01 h3" class="cards-text-heading">Dati
+                            dell'Operatore</h2>
+                        </div>
+                        <div role="alert" class="box-messages box-messages-small box-success mb-2">
+                          <div class="box-body fs-small pt-2">
+                            <span class="icon icon-small-square icon-square-success me-1">
+                              <svg focusable="false" aria-label="lorem ipsum 2">
+                                <title>Lorem ipsum</title>
+                                <use xlink:href="/assets-da/core/img/iconset/sprite.svg#006a-success-m"
+                                  href="/assets-da/core/img/iconset/sprite.svg#006a-success-m"></use>
+                              </svg>
+                            </span>
+                            <p>Stato attivo</p>
+                          </div>
+                        </div>
+                        <div class="panel-body">
+                          <div class="row equalize-wrap equalize-wrap-1">
+                            <div class="col-sm-6">
+                              <div class="box-rack box-cyan mt-2">
+                                <div class="box-body">
+                                  <div class="form-group pb-0 text-center">
+                                    <span class="label-like stable" id="id-0004">Data Attivazione</span>
+                                    <p class="form-control-static overflow-break-word fw-semibold"
+                                      aria-describedby="id-0004">22/10/2024</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-sm-6">
+                              <div class="box-rack box-cyan mt-2">
+                                <div class="box-body">
+                                  <div class="form-group pb-0 text-center">
+                                    <span class="label-like stable" id="id-0005">Data Attivazione</span>
+                                    <p class="form-control-static overflow-break-word fw-semibold"
+                                      aria-describedby="id-0005">marinaulrikavillani@posteitaliane.it</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="panel-footer">
+                          <div class="btn-container clearfix mt-2">
+                            <a class="btn btn-xs btn-default" href="#" title="Lorem ipsum"
+                              aria-labelledby="cards-text-heading-default-01_01"><span class="icon">
+                                <svg focusable="false" aria-label="Lorem Ipsum 3">
+                                  <title></title>
+                                  <use xlink:href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m"
+                                    href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m">
+                                  </use>
+                                </svg>
+                              </span> Gestisci Dati identità Operatore personali</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="row">
+                  <div class="col-sm-12">
+                    <div class="panel-group panel-group-pills" id="accordion">
+
+                      <!-- Panel 01 -->
+                      <div class="panel panel-pills panel-pills-posteid">
+
+                        <div id="headingUno" class="panel-heading panel-heading-posteid relative">
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <div class="pills-wrap pills-wrap-accordion">
+                                <div class="row">
+                                  <div class="col-sm-12">
+                                    <div class="spid-logo"><img alt="lorem ipsum" class="p-4"
+                                        src="/pages/posteit-area/iniziative/posteid/img/logo-spid.png"
+                                        srcset="/pages/posteit-area/iniziative/posteid/img/logo-spid@2x.png 2x"></div>
+                                    <h2 class="panel-title">
+                                      <a role="button" data-toggle="collapse" tabindex="0"
+                                        class="accordion-toggle collapsed" data-parent="#accordion" href="#collapseUno"
+                                        aria-expanded="false" aria-controls="collapseUno" title="Il tuo preventivo">
+                                        Le tue credenziali SPID
+                                      </a>
+                                    </h2>
+                                    <span class="credenziali-attive small"><span
+                                        class="tag tag-info fs-extrasmall">3</span> credenziali attive</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div id="collapseUno" class="panel-collapse collapse" role="tabpanel"
+                          aria-labelledby="headingUno" aria-expanded="false">
+                          <div class="panel-body">
+                            <div class="row">
+                              <div class="col-xs-12 my-3">
+
+                                <!-- Desktop -->
+                                <div class="hidden-xs hidden-sm">
+
+                                  <!-- panel-1 -->
+                                  <div class="panel panel-tile panel-tile-spid">
+                                    <div class="panel-heading">
+                                      <div class="tile-row flex justify-content-between">
+
+                                        <div class="tile-col flex-grow-2">
+                                          <div class="row gx-3">
+
+                                            <div class="container-spid clearfix">
+
+                                              <div class="content-spid content-spid-off text-center">
+                                                <div class="content-id-spid">
+                                                  <span class="spid block mt-2 fw-bold"> SPID</span>
+                                                  <span class="id-spid block fw-bold">1</span>
+                                                </div>
+                                              </div>
+
+                                              <div class="col-md-push-1 col-md-7">
+                                                <div class="tile-wrap p-0">
+                                                  <div class="form-group">
+                                                    <span class="label-like stable" id="id-tipologia-0183">Tipo
+                                                      Credenziali</span>
+                                                    <p class="form-control-static fw-bold"
+                                                      aria-describedby="id-tipologia-0183">Nome utente e password + SMS
+                                                      su cellulare certificato</p>
+                                                  </div>
+
+                                                </div>
+                                              </div>
+
+                                              <div class="col-md-4 text-right">
+                                                <a href="/" title="Lorem ipsum" class="btn btn-xs btn-secondary my-2">
+                                                  <span class="icon">
+                                                    <svg focusable="false" aria-label="lorem ipsum 11">
+                                                      <title>Lorem ipsum</title>
+                                                      <use
+                                                        xlink:href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m"
+                                                        href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m">
+                                                      </use>
+                                                    </svg></span>
+                                                  secondary href
+                                                </a>
+                                              </div>
+
+                                              <div class="col-md-1 text-right py-2">
+                                                <button title="Visualizza altre voci lorem ipsum"
+                                                  class="btn btn-xs btn-default btn-link mt-1 ">
+                                                  <span>
+                                                    <span class="icon my-3">
+                                                      <svg focusable="false" aria-label="Lorem Ipsum xyz">
+                                                        <title>Apri in modifica</title>
+                                                        <use
+                                                          xlink:href="/assets-da/core/img/iconset/sprite.svg#002a-edit-m"
+                                                          href="/assets-da/core/img/iconset/sprite.svg#002a-edit-m">
+                                                        </use>
+                                                      </svg>
+                                                    </span>
+                                                    <span class="sr-only">Apri in modifica</span>
+                                                  </span>
+                                                </button>
+                                              </div>
+
+                                            </div>
+                                          </div>
+                                        </div>
+
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                  <!-- panel-2 -->
+                                  <div class="panel panel-tile panel-tile-spid">
+                                    <div class="panel-heading">
+                                      <div class="tile-row flex justify-content-between">
+
+                                        <div class="tile-col flex-grow-2">
+                                          <div class="row gx-3">
+
+                                            <div class="container-spid clearfix">
+
+                                              <div class="content-spid content-spid-on text-center">
+                                                <div class="content-id-spid">
+                                                  <span class="spid block mt-2 fw-bold"> SPID</span>
+                                                  <span class="id-spid block fw-bold">2</span>
+                                                </div>
+                                              </div>
+
+                                              <div class="col-md-push-1 col-md-9">
+                                                <div class="tile-wrap p-0">
+                                                  <div class="form-group">
+                                                    <span class="label-like stable" id="id-tipologia-019">Tipo
+                                                      Credenziali</span>
+                                                    <p class="form-control-static fw-bold"
+                                                      aria-describedby="id-tipologia-019">Nome utente e password + SMS
+                                                      su cellulare certificato</p>
+                                                  </div>
+
+                                                </div>
+                                              </div>
+
+                                              <div class="col-md-2 text-right">
+                                                <div class="form-group altre-info p-0">
+                                                  <span class="label-like stable" id="id-riepilogo-data-nascita00">Data di
+                                                    nascita</span>
+                                                  <p class="form-control-static fw-bold"
+                                                    aria-describedby="id-riepilogo-data-nascita00">22/04/1982</p>
+                                                </div>
+                                              </div>
+
+                                              <div class="col-md-push-1 col-md-11">
+                                                <div class="row">
+                                                  <div class="col-xs-12">
+
+                                                    <div class="btn-container clearfix">
+                                                      <a class="btn btn-xs btn-default"
+                                                        href="#" title="Lorem ipsum"
+                                                        aria-labelledby="cards-text-heading-default-01_01 cards-action-default-01_014"><span
+                                                          class="icon">
+                                                          <svg focusable="false" aria-label="lorem ipsum">
+                                                            <title></title>
+                                                            <use
+                                                              xlink:href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m"
+                                                              href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m">
+                                                            </use>
+                                                          </svg>
+                                                        </span> Sospendi le credenziali</a> <a class="btn btn-xs btn-default"
+                                                        href="#" title="Lorem ipsum"
+                                                        aria-labelledby="cards-text-heading-default-01_01 cards-action-default-01_014"><span
+                                                          class="icon">
+                                                          <svg focusable="false" aria-label="lorem ipsum 000">
+                                                            <title></title>
+                                                            <use
+                                                              xlink:href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m"
+                                                              href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m">
+                                                            </use>
+                                                          </svg>
+                                                        </span> Richiedi codice di sospensione immediata</a>
+                                                    </div>
+
+                                                  </div>
+                                                </div>
+                                              </div>
+
+                                            </div>
+                                          </div>
+                                        </div>
+
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                  <!-- panel-3 -->
+                                  <div class="panel panel-tile panel-tile-spid">
+                                    <div class="panel-heading">
+                                      <div class="tile-row flex justify-content-between">
+
+                                        <div class="tile-col flex-grow-2">
+                                          <div class="row gx-3">
+
+                                            <div class="container-spid clearfix">
+
+                                              <div class="content-spid content-spid-on text-center">
+                                                <div class="content-id-spid">
+                                                  <span class="spid block mt-2 fw-bold"> SPID</span>
+                                                  <span class="id-spid block fw-bold">3</span>
+                                                </div>
+                                              </div>
+
+                                              <div class="col-md-push-1 col-md-9">
+                                                <div class="tile-wrap p-0">
+                                                  <div class="form-group">
+                                                    <span class="label-like stable" id="id-tipologia-0188">Tipo
+                                                      Credenziali</span>
+                                                    <p class="form-control-static fw-bold"
+                                                      aria-describedby="id-tipologia-0188">Nome utente e password + SMS
+                                                      su cellulare certificato</p>
+                                                  </div>
+
+                                                </div>
+                                              </div>
+
+                                              <div class="col-md-2 text-right">
+                                                <div class="form-group altre-info p-0">
+                                                  <span class="label-like stable" id="id-riepilogo-data-nascita01">Data di
+                                                    nascita</span>
+                                                  <p class="form-control-static fw-bold"
+                                                    aria-describedby="id-riepilogo-data-nascita01">22/04/1982</p>
+                                                </div>
+                                              </div>
+
+                                              <div class="col-md-push-1 col-md-11">
+                                                <div class="row">
+                                                  <div class="col-xs-12">
+                                                    <div class="btn-container clearfix">
+                                                      <a class="btn btn-xs btn-default"
+                                                        href="#" title="Lorem ipsum"
+                                                        aria-labelledby="cards-text-heading-default-01_015 cards-action-default-01_01"><span
+                                                          class="icon">
+                                                          <svg focusable="false" aria-label="lorem ipsum oooa">
+                                                            <title></title>
+                                                            <use
+                                                              xlink:href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m"
+                                                              href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m">
+                                                            </use>
+                                                          </svg>
+                                                        </span> Sospendi le credenziali</a> <a class="btn btn-xs btn-default" id="cards-text-heading-default-01_016"
+                                                        href="#" title="Lorem ipsum"
+                                                        aria-labelledby="cards-text-heading-default-01_016"><span
+                                                          class="icon">
+                                                          <svg focusable="false" aria-label="lorem ipsum sdidsfi">
+                                                            <title></title>
+                                                            <use
+                                                              xlink:href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m"
+                                                              href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m">
+                                                            </use>
+                                                          </svg>
+                                                        </span> Richiedi codice di sospensione immediata</a>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+
+                                            </div>
+                                          </div>
+                                        </div>
+
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                </div>
+
+                                <!-- Mobile -->
+                                <div class="hidden-md hidden-lg">
+
+                                  <!-- panel-1 -->
+                                  <div class="panel panel-tile panel-tile-spid">
+                                    <div class="panel-heading">
+                                      <div class="tile-row">
+
+                                        <div class="tile-col">
+
+                                          <div class="row">
+
+                                            <div class="col-xs-8">
+                                              <div class="content-spid">
+                                                <div class="content-id-spid">
+                                                  <span class="spid fw-bold"> SPID</span>
+                                                  <span class="id-spid fw-bold">1</span>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="col-xs-4 text-right">
+                                              <button class="btn btn-xs btn-default btn-link m-0"
+                                                title="Visualizza altre voci lorem ipsum">
+                                                <span>
+                                                  <span class="icon m-0">
+                                                    <svg focusable="false" aria-label="lorem ipsum 1">
+                                                      <title>Apri in modifica</title>
+                                                      <use
+                                                        xlink:href="/assets-da/core/img/iconset/sprite.svg#002a-edit-m"
+                                                        href="/assets-da/core/img/iconset/sprite.svg#002a-edit-m"></use>
+                                                    </svg>
+                                                  </span>
+                                                  <span class="sr-only">Apri in modifica</span>
+                                                </span>
+                                              </button>
+                                            </div>
+
+                                          </div>
+
+                                          <div class="row">
+                                            <div class="col-xs-12">
+                                              <div class="tile-wrap mt-3">
+                                                <div class="form-group">
+                                                  <span class="label-like stable"
+                                                    id="id-tipologia-020">Nominativo</span>
+                                                  <p class="form-control-static fw-bold"
+                                                    aria-describedby="id-tipologia-020">Nome utente e password + SMS su
+                                                    cellulare certificato</p>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="col-xs-12">
+                                              <p class="btn-container clearfix">
+
+                                                <a href="/" title="Lorem ipsum"
+                                                  class="btn btn-xs btn-secondary">riattiva
+                                                  credenziali</a>
+                                              </p>
+                                            </div>
+                                          </div>
+
+                                        </div>
+                                      </div>
+
+                                    </div>
+                                  </div>
+
+                                  <!-- panel-2 -->
+                                  <div class="panel panel-tile panel-tile-spid">
+                                    <div class="panel-heading">
+                                      <div class="tile-row">
+
+                                        <div class="tile-col">
+
+                                          <div class="row">
+
+                                            <div class="col-xs-8">
+                                              <div class="content-spid">
+                                                <div class="content-id-spid">
+                                                  <span class="spid fw-bold"> SPID</span>
+                                                  <span class="id-spid fw-bold">2</span>
+                                                </div>
+                                              </div>
+                                            </div>
+
+                                          </div>
+
+                                          <div class="row">
+                                            <div class="col-xs-12">
+                                              <div class="tile-wrap my-2">
+                                                <div class="form-group">
+                                                  <span class="label-like stable"
+                                                    id="id-tipologia-0181">Nominativo</span>
+                                                  <p class="form-control-static fw-bold"
+                                                    aria-describedby="id-tipologia-0181">Nome utente e password + SMS su
+                                                    cellulare certificato
+                                                  </p>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="col-xs-12">
+                                              <div class="container-spid-cta">
+                                                <div class="btn-container clearfix my-2">
+                                                  <span>
+                                                    <a id="cards-action-default-01_01"
+                                                      class="btn btn-xs btn-default block text-xs-left" href="#"
+                                                      title="Lorem ipsum"
+                                                      aria-labelledby="cards-text-heading-default-01_01 cards-action-default-01_01"><span
+                                                        class="icon">
+                                                        <svg focusable="false" aria-label="lorem ipsum 2">
+                                                          <title></title>
+                                                          <use
+                                                            xlink:href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m"
+                                                            href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m">
+                                                          </use>
+                                                        </svg>
+                                                      </span> Visualizza dati dell'dell’Organizzazione</a>
+                                                  </span>
+
+                                                  <span>
+                                                    <a id="cards-action-default-01_019"
+                                                      class="btn btn-xs btn-default block text-xs-left" href="#"
+                                                      title="Lorem ipsum"
+                                                      aria-labelledby="cards-text-heading-default-01_019 cards-action-default-01_01"><span
+                                                        class="icon">
+                                                        <svg focusable="false" aria-label="lorem ipsum 4">
+                                                          <title></title>
+                                                          <use
+                                                            xlink:href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m"
+                                                            href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m">
+                                                          </use>
+                                                        </svg>
+                                                      </span> Visualizza dati dell'dell’Organizzazione</a>
+                                                  </span>
+
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="col-xs-12">
+                                              <div class="form-group my-2 p-0">
+                                                <span class="label-like stable" id="id-riepilogo-data-nascita03">Data di
+                                                  nascita</span>
+                                                <p class="form-control-static fw-bold"
+                                                  aria-describedby="id-riepilogo-data-nascita03">22/04/1982</p>
+                                              </div>
+                                            </div>
+                                          </div>
+
+                                        </div>
+                                      </div>
+
+                                    </div>
+                                  </div>
+
+                                  <!-- panel-3 -->
+                                  <div class="panel panel-tile panel-tile-spid">
+                                    <div class="panel-heading">
+                                      <div class="tile-row">
+
+                                        <div class="tile-col">
+
+                                          <div class="row">
+
+                                            <div class="col-xs-8">
+                                              <div class="content-spid">
+                                                <div class="content-id-spid">
+                                                  <span class="spid fw-bold"> SPID</span>
+                                                  <span class="id-spid fw-bold">3</span>
+                                                </div>
+                                              </div>
+                                            </div>
+
+                                          </div>
+
+                                          <div class="row">
+                                            <div class="col-xs-12">
+                                              <div class="tile-wrap my-2">
+                                                <div class="form-group">
+                                                  <span class="label-like stable"
+                                                    id="id-tipologia-0182">Nominativo</span>
+                                                  <p class="form-control-static fw-bold"
+                                                    aria-describedby="id-tipologia-0182">Nome utente e password + SMS su
+                                                    cellulare certificato
+                                                  </p>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="col-xs-12">
+                                              <div class="container-spid-cta">
+                                                <div class="btn-container clearfix my-2">
+                                                  <span>
+                                                    <a id="cards-action-default-01_03"
+                                                      class="btn btn-xs btn-default block text-xs-left" href="#"
+                                                      title="Lorem ipsum"
+                                                      aria-labelledby="cards-text-heading-default-01_01 cards-action-default-01_03"><span
+                                                        class="icon">
+                                                        <svg focusable="false">
+                                                          <title></title>
+                                                          <use
+                                                            xlink:href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m"
+                                                            href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m">
+                                                          </use>
+                                                        </svg>
+                                                      </span> Visualizza dati dell'dell’Organizzazione</a>
+                                                  </span>
+
+                                                  <span>
+                                                    <a id="cards-action-default-01_02"
+                                                      class="btn btn-xs btn-default block text-xs-left" href="#"
+                                                      title="Lorem ipsum"
+                                                      aria-labelledby="cards-text-heading-default-01_01 cards-action-default-01_02"><span
+                                                        class="icon">
+                                                        <svg focusable="false">
+                                                          <title></title>
+                                                          <use
+                                                            xlink:href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m"
+                                                            href="/assets-da/core/img/iconset/sprite.svg#001b-arrow-forward-m">
+                                                          </use>
+                                                        </svg>
+                                                      </span> Visualizza dati dell'dell’Organizzazione</a>
+                                                  </span>
+
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="col-xs-12">
+                                              <div class="form-group my-2 p-0">
+                                                <span class="label-like stable" id="id-riepilogo-data-nascita">Data di
+                                                  nascita</span>
+                                                <p class="form-control-static fw-bold"
+                                                  aria-describedby="id-riepilogo-data-nascita">22/04/1982</p>
+                                              </div>
+                                            </div>
+                                          </div>
+
+                                        </div>
+                                      </div>
+
+                                    </div>
+                                  </div>
+
+                                </div>
+
+                              </div>
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+  </main>
+
+  <aside aria-labelledby="assistenza-side">
+    <!--#include virtual="/includes-da/navigation/right-side-offcanvas.html" -->
+  </aside>
+
+  <aside aria-labelledby="menu-profilo">
+    <!--#include virtual="/includes-da/navigation/right-side-offcanvas-profilo.html" -->
+  </aside>
+
+  <aside aria-labelledby="bacheca-side">
+    <!--#include virtual="/includes-da/navigation/right-side-offcanvas-bacheca.html" -->
+  </aside>
+
+  <footer id="footer">
+    <div class="content content-footer content-footer-main">
+      <div class="content-wrap">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <!--#include virtual="/includes-da/footer/footer-content-main.html" -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="content content-footer content-footer-extra">
+      <div class="content-wrap">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <!--#include virtual="/includes-da/footer/footer-content-extra.html" -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--#include virtual="/includes-da/utilities/footer-tag.html" -->
+  </footer>
+
+</body>
+
+</html>
