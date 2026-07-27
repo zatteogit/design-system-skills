@@ -1,0 +1,23 @@
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    const args = {
+        slidesPerView: 'auto',
+        spaceBetween: 16,
+        watchSlidesProgress: true,
+
+        a11y: swiper_lang_it,
+
+        keyboard: {
+            enabled: true,
+        },
+        
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-btn-next',
+            prevEl: '.swiper-btn-prev',
+        }
+    }
+
+    const swiper = new Swiper('#swiper-scroll-buttons001 .swiper', args);
+});

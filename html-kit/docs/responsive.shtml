@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <title>Html kit - Responsive</title>
+    <!--#include virtual="/docs/includes/utilities/head-tag.html" -->
+    <script>
+        var setDocsActivePage = "Responsive";
+    </script>
+</head>
+
+<body data-bs-spy="scroll" tabindex="0">
+
+    <header class="sticky-top">
+        <!--#include virtual="/docs/includes/nav/nav-main-documentazione.html" -->
+        <!--#include virtual="/docs/includes/header/abstract-default.html" -->
+    </header>
+
+    <main>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-3 col-lg-2 border-end">
+                    <nav id="nav-sidebar" class="sticky-top">
+
+                        <!--#include virtual="/docs/includes/nav/nav-sidebar-documentazione.html" -->
+
+                    </nav>
+                </div>
+                <div class="col-sm-9 col-lg-8 pt-4 pb-5">
+                    <section class="container">
+                        <div class="row">
+                            <!--Breadcrumb-->
+                            <div id="breadcrumb" class="col-12">
+                                <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);"
+                                    aria-label="breadcrumb">
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item"><a href="#">Getting Started</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">Responsive
+                                        </li>
+                                    </ol>
+                                </nav>
+                            </div>
+                            <!--Breadcrumb end-->
+                            <!--Main title-->
+                            <div id="main-title" class="col-12">
+                                <h2 class="heading h1 fw-normal">Responsive</h2>
+                            </div>
+                            <!--Main title end-->
+                            <!--Article-->
+                            <article class="mb-5">
+                                <div class="col-12">
+                                    <div class="main-pills main-pills-basic rounded" id="contenuto0">
+                                        <div class="main-pills-header rounded">
+                                            <div class="row">
+                                                <div class="col-12 mt-3">
+                                                    <h3
+                                                        class="heading h3 fw-normal border-start border-3 ps-2 border-info">
+                                                        Responsivit&agrave; in Bootstrap 5</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="main-pills-body">
+                                            <div class="content">
+                                                <p>
+                                                    Bootstrap 5 &egrave; progettato per creare interfacce responsive che
+                                                    si adattano a dispositivi di ogni dimensione. Grazie al suo sistema
+                                                    a griglia flessibile, alle utility class dedicate e al supporto
+                                                    completo per i media query, sviluppare layout responsive è semplice
+                                                    e intuitivo.
+                                                </p>
+                                                <div class="divider bg-grey01 my-4"></div>
+                                                <h3 class="heading h4 fw-normal border-start border-3 ps-2 border-info"
+                                                    id="contenuto1">Sistema a griglia (Grid System)</h3>
+                                                <p>
+                                                    Il cuore della responsività in Bootstrap è il suo sistema a griglia.
+                                                    Basato su <strong>un layout flessibile a 12 colonne</strong>, la griglia consente di
+                                                    organizzare i contenuti in righe e colonne che si adattano
+                                                    dinamicamente alle dimensioni dello schermo.
+                                                </p>
+                                                <ul>
+                                                    <li>
+                                                        <span class="tag-code">.col-</span>: Per colonne che occupano
+                                                        l'intera larghezza disponibile su tutti i dispositivi.
+                                                    </li>
+                                                    <li>
+                                                        <span class="tag-code">.col-sm-</span>, <span
+                                                            class="tag-code">.col-md-</span>, <span
+                                                            class="tag-code">.col-lg-</span>, <span
+                                                            class="tag-code">.col-xl-</span>, <span
+                                                            class="tag-code">.col-xxl-</span>:
+                                                        Specificano larghezze relative per breakpoint specifici.
+                                                    </li>
+                                                </ul>
+
+                                                <p>
+                                                    Bootstrap utilizza breakpoint standardizzati per gestire la
+                                                    responsività dei layout. La tabella seguente mostra i breakpoint
+                                                    principali:
+                                                </p>
+                                                <div class="table-responsive">
+                                                    <table class="table">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Breakpoint</th>
+                                                                <th>Alias</th>
+                                                                <th>Larghezza minima</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody class="table-group-divider">
+                                                            <tr>
+                                                                <td><strong>Extra small</strong></td>
+                                                                <td><span class="tag-code">xs</span></td>
+                                                                <td>Nessuna (default)</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><strong>Small</strong></td>
+                                                                <td><span class="tag-code">sm</span></td>
+                                                                <td>≥576px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><strong>Medium</strong></td>
+                                                                <td><span class="tag-code">md</span></td>
+                                                                <td>≥768px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><strong>Large</strong></td>
+                                                                <td><span class="tag-code">lg</span></td>
+                                                                <td>≥992px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><strong>Extra large</strong></td>
+                                                                <td><span class="tag-code">xl</span></td>
+                                                                <td>≥1200px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><strong>Extra extra large</strong></td>
+                                                                <td><span class="tag-code">xxl</span></td>
+                                                                <td>≥1400px</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="divider bg-grey01 my-4"></div>
+                                                <h3 class="heading h4 fw-normal border-start border-3 ps-2 border-info"
+                                                    id="contenuto2">Utility Class Responsive</h3>
+                                                <p>
+                                                    Bootstrap include una vasta gamma di utility class che permettono di
+                                                    <strong>gestire gli stili in modo specifico</strong> per ogni dimensione dello
+                                                    schermo. Queste classi consentono di <strong>applicare margini interni o esterni,
+                                                    colori e altri stili in modo condizionale</strong> in base ai breakpoint.
+                                                </p>
+                                                <ul>
+                                                    <li><span class="tag-code">.d-{breakpoint}-none</span>, <span
+                                                            class="tag-code">.d-{breakpoint}-block</span>: Per gestire
+                                                        la visibilità.</li>
+                                                    <li><span class="tag-code">.m-{breakpoint}-{value}</span>, <span
+                                                            class="tag-code">.p-{breakpoint}-{value}</span>: Per margini
+                                                        e padding.</li>
+                                                    <li><span class="tag-code">.text-{breakpoint}-start</span>, <span
+                                                            class="tag-code">.text-{breakpoint}-center</span>: Per
+                                                        allineare il testo.</li>
+                                                </ul>
+                                                <div class="divider bg-grey01 my-4"></div>
+                                                <h3 class="heading h4 fw-normal border-start border-3 ps-2 border-info"
+                                                    id="contenuto3">Contenitori Responsive</h3>
+                                                <p>
+                                                    I <strong>contenitori</strong> in Bootstrap <strong>si adattano automaticamente</strong> al layout
+                                                    utilizzando classi specifiche:
+                                                </p>
+                                                <ul>
+                                                    <li><span class="tag-code">.container</span>: Contenitore fisso con
+                                                        larghezze predefinite per ogni breakpoint.</li>
+                                                    <li><span class="tag-code">.container-fluid</span>: Contenitore che
+                                                        si estende su tutta la larghezza disponibile.</li>
+                                                    <li><span class="tag-code">.container-{breakpoint}</span>:
+                                                        Contenitore specifico per determinati breakpoint.</li>
+                                                </ul>
+                                                <div class="divider bg-grey01 my-4"></div>
+                                                <h3 class="heading h4 fw-normal border-start border-3 ps-2 border-info"
+                                                    id="contenuto4">Gestione delle immagini</h3>
+                                                <p>
+                                                    Bootstrap offre classi per gestire la <strong>responsività delle immagini</strong>:
+                                                </p>
+                                                <ul>
+                                                    <li><span class="tag-code">.img-fluid</span>: Rende le immagini
+                                                        scalabili in base alla larghezza del contenitore.</li>
+                                                </ul>
+
+
+                                                <div class="divider bg-grey01 my-4"></div>
+                                                <h3 class="heading h4 fw-normal border-start border-3 ps-2 border-info"
+                                                    id="contenuto5">Vantaggi della responsività in Bootstrap 5</h3>
+                                                <p>
+                                                    L'adozione del framework Bootstrap per creare layout responsive
+                                                    offre numerosi vantaggi:
+                                                </p>
+                                                <ul>
+                                                    <li><strong>Riduzione dei tempi</strong> di sviluppo grazie a componenti predefiniti.
+                                                    </li>
+                                                    <li><strong>Maggiore coerenza</strong> tra dispositivi diversi.</li>
+                                                    <li>Facilità di <strong>personalizzazione</strong> tramite classi e CSS
+                                                        personalizzati.</li>
+                                                </ul>
+                                                <p>
+                                                    Grazie alla sua flessibilità e alla vasta gamma di opzioni,
+                                                    Bootstrap 5 è uno strumento potente per costruire interfacce moderne
+                                                    e responsive.
+                                                </p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="divider bg-grey01 py-1 my-2 px-2 d-flex align-items-center justify-content-end">
+                                        <span>&nbsp;</span>
+                                    </div>
+                                    <div class="divider bg-grey02 py-1 my-2"></div>
+                                </div>
+                            </article>
+                            <!--Article end-->
+                        </div>
+                    </section>
+                </div>
+                <div class="col-lg-2 d-none d-lg-block">
+                    <nav id="nav-sidebar-context" class="navbar flex-column sticky-top" role="navigation">
+
+                        <!--#include virtual="/docs/includes/nav/nav-sidebar-context-documentazione-responsive.html" -->
+
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container-fluid py-4">
+            <!--#include virtual="/docs/includes/footer/footer-default.html" -->
+        </div>
+    </footer>
+
+
+    <!--#include virtual="/docs/includes/utilities/footer-tag.html" -->
+    <!--#include virtual="/docs/includes/code/code-base.html" -->
+    <!--#include virtual="/docs/includes/utilities/loader.html" -->
+
+</body>
+
+</html>

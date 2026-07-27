@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <title>Html kit - Ui - Icons</title>
+    <!--#include virtual="/docs/includes/utilities/head-tag.html" -->
+    <script>
+        var setDocsActivePage = "Icons";
+    </script>
+    <style>
+        /* Contenitore principale */
+        #icon-list-container {
+            margin: auto;
+        }
+
+        /* Griglia delle icone */
+        #icon-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 15px;
+            padding: 3rem 0 2rem 0;
+        }
+
+        /* Card icona */
+        .icon-card {
+            background: #f1f1f1;
+            border-radius: 0.25rem;
+            padding: 15px;
+            text-align: center;
+            transition: transform 0.2s, box-shadow 0.2s;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            height: 150px;
+            overflow: hidden;
+        }
+
+        .icon-card:hover {
+            transform: scale(1.05);
+            /*box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.15);*/
+            background-color: #ddd;
+        }
+
+        /* Stile icona */
+        .icon-card svg {
+            width: 60px;
+            height: 60px;
+            fill: #234e82;
+        }
+
+        /* Nome icona con scrolling */
+        .icon-name {
+            font-size: 13px;
+            color: #234e82;
+            font-weight: bold;
+            margin-bottom: 5px;
+            max-width: 216px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            display: inline-block;
+            position: relative;
+            transition: transform 0.5s ease-in-out;
+            /* Per una transizione morbida */
+        }
+
+        /* Durante hover la card fa scorrere il nome (espandendo la larghezza) */
+        .icon-card:hover .icon-name {
+            /*max-width: 300px; /* Aumenta la larghezza durante hover per vedere tutto il testo */
+            /*transform: translateX(-35%);  /* Sposta il testo fuori dalla vista */
+        }
+
+        /* Pulsante copia */
+        .copygeneric {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #fff;
+            border: 1px solid #d1d3d4;
+            color: #1a1c1e;
+            font-size: 12px;
+            padding: 6px 10px;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background 0.2s, box-shadow 0.2s;
+            margin-top: 16px;
+        }
+
+        .copygeneric:hover {
+            background: #f1f1f1;
+        }
+
+        /* Icona nel pulsante */
+        .copygeneric svg {
+            width: 14px;
+            height: 14px;
+            margin-right: 5px;
+            fill: #1a1c1e;
+        }
+    </style>
+
+
+</head>
+
+<body tabindex="0">
+
+    <header class="sticky-top">
+        <!--#include virtual="/docs/includes/nav/nav-main-documentazione.html" -->
+        <!--#include virtual="/docs/includes/header/abstract-default.html" -->
+    </header>
+
+    <main>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-3 col-lg-2 border-end border-grey01 border-5">
+                    <nav id="nav-sidebar" class="sticky-top">
+                        <!--#include virtual="/docs/includes/nav/nav-sidebar-documentazione.html" -->
+                    </nav>
+                </div>
+                <div class="col-sm-9 col-lg-8 pt-4 pb-5">
+                    <section class="container">
+                        <div class="row">
+                            <!--Breadcrumb-->
+                            <div id="breadcrumb" class="col-12">
+                                <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);"
+                                    aria-label="breadcrumb">
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item"><a href="#">Styles</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">Icons
+                                        </li>
+                                    </ol>
+                                </nav>
+                            </div>
+                            <!--Breadcrumb end-->
+                            <!--Main title-->
+                            <div id="main-title" class="col-12">
+                                <h2 class="heading h1 fw-normal">Icons</h2>
+                            </div>
+                            <!--Main title end-->
+                            <!--Article-->
+                            <article class="mb-5">
+                                <div class="col-12">
+                                    <div class="main-pills main-pills-basic rounded" id="contenuto1">
+                                        <div class="main-pills-header rounded">
+                                            <div class="row">
+                                                <div class="col-12 mt-3">
+                                                    <h3
+                                                        class="heading h3 fw-normal border-start border-3 ps-2 border-info">
+                                                        Icons - Sprite</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="main-pills-body">
+                                            <!--Blocco 1-->
+                                            <div class="content">
+                                                <p>Tutte le icone sono organizzate in una singola cartella. Al suo interno si trova uno sprite che raccoglie tutte le icone, insieme alle versioni individuali di ciascuna di esse, in tre colori base: bianco, blu e nero. La nomenclatura delle icone varia a seconda del colore, con l'aggiunta di un suffisso che indica il colore specifico (ad esempio, <span class="tag-code">*-neutral100</span> per il bianco, <span class="tag-code">*-primary33</span> per il blu).</p>
+                                            </div>
+                                            
+                                            <div class="content">
+                                                <div class="table-responsive">
+                                                    <table class="table">
+                                                        <caption>Macro struttura Directory - Icons</caption>
+                                                        <thead>
+                                                            <tr>
+                                                                <th scope="col">Directory</th>
+                                                                <th scope="col">Descrizione contenuto</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody class="table-group-divider">
+                                                            <tr>
+                                                                <td><code>/dist/assets/core/images/iconset/*</code></td>
+                                                                <td colspan="2">Contiene tutte le risorse grafiche (icone) in svg</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="content">
+                                                <p>In base alle esigenze del progetto, è possibile scegliere di utilizzare lo sprite per caricare tutte le icone in un'unica risorsa, ottimizzando le performance, oppure selezionare le singole icone in base al colore desiderato, per un controllo più preciso e mirato. L'uso dello sprite è particolarmente utile per gestire dinamicamente i colori delle icone SVG tramite il CSS, evitando di dover caricare più versioni della stessa icona. Questa flessibilità consente di adattarsi a diversi scenari di implementazione, garantendo sia efficienza che personalizzazione.</p>
+                                            </div>
+                                            
+
+                                            <div id="icon-list-container">
+                                                <div id="icon-list"></div>
+                                            </div>
+
+                                            <script>
+                                                document.addEventListener("DOMContentLoaded", async function () {
+                                                    // Percorso dello sprite
+                                                    const spritePath = "/dist/assets/core/images/iconset/sprite.svg";
+
+                                                    // Carica il file sprite.svg
+                                                    let response = await fetch(spritePath);
+                                                    let text = await response.text();
+                                                    let parser = new DOMParser();
+                                                    let svgDoc = parser.parseFromString(text, "image/svg+xml");
+
+                                                    // Trova tutti gli elementi <symbol>
+                                                    let symbols = svgDoc.querySelectorAll("symbol");
+                                                    let container = document.getElementById("icon-list");
+
+                                                    symbols.forEach(symbol => {
+                                                        let iconId = symbol.id;
+                                                        let iconURL = `${spritePath}#${iconId}`;
+
+                                                        let card = document.createElement("div");
+                                                        card.classList.add("icon-card");
+                                                        card.innerHTML = `
+                                                            <svg><use xlink:href="${iconURL}"></use></svg>
+                                                            <div class="icon-name" tabindex="0">${iconId}</div>
+                                                            <button class="copygeneric" title="Copia URL" onclick="copyToClipboard('${iconURL}', this)">
+                                                                <svg viewBox="0 0 24 24">
+                                                                    <path d="M16 1H4C2.89 1 2 1.89 2 3V17H4V3H16V1M19 5H8C6.89 5 6 5.89 6 7V21C6 22.11 6.89 23 8 23H19C20.11 23 21 22.11 21 21V7C21 5.89 20.11 5 19 5M19 21H8V7H19V21Z"/>
+                                                                </svg>
+                                                                <span>Copia</span>
+                                                            </button>
+                                                        `;
+                                                        container.appendChild(card);
+                                                    });
+                                                });
+
+                                                // Funzione per copiare SOLO l'URL negli appunti
+                                                function copyToClipboard(iconURL, btn) {
+                                                    navigator.clipboard.writeText(iconURL).then(() => {
+                                                        btn.innerHTML = "✔️ Copiato!";
+                                                        setTimeout(() => btn.innerHTML = `<svg viewBox="0 0 24 24"><path d="M16 1H4C2.89 1 2 1.89 2 3V17H4V3H16V1M19 5H8C6.89 5 6 5.89 6 7V21C6 22.11 6.89 23 8 23H19C20.11 23 21 22.11 21 21V7C21 5.89 20.11 5 19 5M19 21H8V7H19V21Z"/></svg> <span>Copia</span>`, 1200);
+                                                    });
+                                                }
+                                            </script>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="divider bg-grey01 py-1 my-2 px-2 d-flex align-items-center justify-content-end">
+                                        <span>Styles Cross</span>
+                                    </div>
+                                    <div class="divider bg-grey02 py-1 my-2"></div>
+                                </div>
+                            </article>
+                            <!--Article end-->
+
+                        </div>
+                    </section>
+                </div>
+                <div class="col-lg-2 d-none d-lg-block">
+                    <nav id="nav-sidebar-context" class="navbar flex-column sticky-top" role="navigation">
+
+                        <!--#include virtual="/docs/includes/nav/nav-sidebar-context-documentazione-ui-icons.html" -->
+
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container-fluid py-4">
+            <!--#include virtual="/docs/includes/footer/footer-default.html" -->
+        </div>
+    </footer>
+
+
+    <!--#include virtual="/docs/includes/utilities/footer-tag.html" -->
+    <!--#include virtual="/docs/includes/code/code-base.html" -->
+    <!--#include virtual="/docs/includes/utilities/loader.html" -->
+
+</body>
+
+</html>

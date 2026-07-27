@@ -1,0 +1,1929 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <title>Html kit - Ui - Cards</title>
+    <!--#include virtual="/docs/includes/utilities/head-tag.html" -->
+    <script>
+        var setDocsActivePage = "Cards";
+    </script>
+</head>
+
+<body tabindex="0">
+
+    <header class="sticky-top">
+        <!--#include virtual="/docs/includes/nav/nav-main-documentazione.html" -->
+        <!--#include virtual="/docs/includes/header/abstract-default.html" -->
+    </header>
+
+    <main>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-3 col-lg-2 border-end border-grey01 border-5">
+                    <nav id="nav-sidebar" class="sticky-top">
+
+                        <!--#include virtual="/docs/includes/nav/nav-sidebar-documentazione.html" -->
+
+                    </nav>
+                </div>
+                <div class="col-sm-9 col-lg-8 pt-4 pb-5">
+                    <section class="container">
+                        <div class="row">
+                            <!--Breadcrumb-->
+                            <div id="breadcrumb" class="col-12">
+                                <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);"
+                                    aria-label="breadcrumb">
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item"><a href="#">Assets</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">Cards
+                                        </li>
+                                    </ol>
+                                </nav>
+                            </div>
+                            <!--Breadcrumb end-->
+                            <!--Main title-->
+                            <div id="main-title" class="col-12">
+                                <h2 class="heading h1 fw-normal">Cards</h2>
+                            </div>
+                            <!--Main title end-->
+
+                            <!--Article-->
+                            <article class="mb-5">
+                                <div class="col-12">
+                                    <div class="main-pills main-pills-basic rounded" id="contenuto0">
+                                        <div class="main-pills-body mt-3">
+                                            <!--Blocco 1-->
+                                            <div class="content">
+                                                <p>Una card &egrave; un <strong>elemento flessibile e
+                                                        versatile</strong>, progettato per organizzare e presentare
+                                                    informazioni in modo chiaro ed intuitivo.<br />
+                                                    Le card fanno uso di flexbox e <span
+                                                        class="text-decoration-underline">non hanno margini di
+                                                        default</span>. Pertanto, in base
+                                                    alle singole esigenze, &egrave; possibile adottare due approcci
+                                                    consigliati:
+                                                    l'utilizzo della griglia Bootstrap con gestione del gutter (tramite
+                                                    <span class="tag-code">.g-*</span>), oppure le utilit&agrave; di
+                                                    spaziatura
+                                                    (ad esempio <span class="tag-code">.m-*</span>).
+                                                </p>
+                                                <p>La classe <span class="tag-code">.card-wrap</span> raggruppa gli
+                                                    elementi della card per righe, ottimizzando la gestione
+                                                    dell'equalizzazione delle altezze fra card adiacenti.</p>
+                                            </div>
+                                            <div class="divider bg-grey01 my-4"></div>
+                                            <div class="content">
+                                                <h4 class="heading h5">Varianti per tipologia</h4>
+                                                <p>Bootstrap gestisce le personalizzazioni delle card principalmente
+                                                    tramite
+                                                    classi modificatrici (limitate a bordi, colori, spaziature e
+                                                    allineamenti tipografici).
+                                                    Sono state quindi introdotte una serie di
+                                                    varianti che estendono le funzionalit&agrave;, gli stili di
+                                                    presentazione delle card e le loro configurazioni.
+                                                </p>
+                                            </div>
+
+                                            <div class="content">
+                                                <div class="table-responsive">
+                                                    <table class="table">
+                                                        <caption>Varianti card</caption>
+                                                        <thead>
+                                                            <tr>
+                                                                <th scope="col">Classe base</th>
+                                                                <th scope="col">Classe modificatrice</th>
+                                                                <th scope="col">Variante</th>
+                                                                <th scope="col">Descrizione variante</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody class="table-group-divider">
+                                                            <tr>
+                                                                <td rowspan="5"><code>.card</code></td>
+                                                                <td><code>-</code></td>
+                                                                <td><strong>simple</strong></td>
+                                                                <td>La tipologia più semplice (d'ora in avanti
+                                                                    identificata come <strong>"card simple"</strong>),
+                                                                    configurabile per una variet&agrave; di situazioni,
+                                                                    adattabile a diversi contenuti e layout.</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.card-picture</code></td>
+                                                                <td><strong>picture</strong></td>
+                                                                <td>Utilizza tecniche di mascheramento per mantenere
+                                                                    un'altezza prefissata delle immagini sui diversi
+                                                                    cutpoint.</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.card-portrait</code></td>
+                                                                <td><strong>portrait</strong></td>
+                                                                <td>Supporta diversi rapporti di aspetto (aspect-ratio),
+                                                                    ideale per la presentazione verticale di contenuti.
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.card-icon</code></td>
+                                                                <td><strong>icon</strong></td>
+                                                                <td>Gestisce card con icone o illustrazioni semplici,
+                                                                    perfette per evidenziare concetti visivi.</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="divider bg-grey01 py-1 my-2 px-2 d-flex align-items-center justify-content-end">
+                                        <span></span>
+                                    </div>
+                                    <div class="divider bg-grey02 py-1 my-2"></div>
+                                </div>
+                            </article>
+                            <!--Article end-->
+                            <!--Article-->
+                            <article class="mb-5">
+                                <div class="col-12">
+                                    <div class="main-pills main-pills-basic rounded" id="contenuto1">
+                                        <div class="main-pills-header rounded">
+                                            <div class="row">
+                                                <div class="col-12 mt-3">
+                                                    <h3
+                                                        class="heading h3 fw-normal border-start border-3 ps-2 border-info">
+                                                        Card simple</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="main-pills-body">
+                                            <!--Blocco 1-->
+                                            <div class="content">
+                                                <p>La variante <strong>Card Simple</strong> non necessita di alcuna
+                                                    classe modificatrice e offre <strong>configurazioni
+                                                        specifiche</strong> pensate per soddisfare diverse esigenze di
+                                                    comunicazione.
+                                                    Pur mantenendo la semplicit&agrave; strutturale e
+                                                    l'adattabilit&agrave;, ogni configurazione si distingue per un
+                                                    design e funzionalit&agrave; mirati a contesti particolari.</p>
+
+                                                <p>Ecco le principali tipologie:</p>
+                                                <div class="table-responsive">
+                                                    <table class="table">
+                                                        <caption>Configurazioni Card Simple</caption>
+                                                        <thead>
+                                                            <tr>
+                                                                <th scope="col">Configurazione</th>
+                                                                <th scope="col">Descrizione</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody class="table-group-divider">
+                                                            <tr>
+                                                                <td><strong>Card Simple</strong></td>
+                                                                <td>La configurazione base, versatile e adatta a
+                                                                    molteplici contenuti.</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><strong>Card Simple - Comunicati</strong></td>
+                                                                <td>Ideale per presentare comunicati stampa, con un
+                                                                    layout pensato per evidenziare titoli e testi di
+                                                                    rilievo.</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><strong>Card Simple - News</strong></td>
+                                                                <td>Progettata per visualizzare notizie e aggiornamenti.
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><strong>Card Simple - Eventi</strong></td>
+                                                                <td>Perfetta per promuovere eventi, includendo dettagli
+                                                                    come date e luoghi in modo chiaro.</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><strong>Card Simple - Download</strong></td>
+                                                                <td>Pensata per offrire contenuti scaricabili, con un
+                                                                    layout che evidenzia pulsanti e link per il
+                                                                    download.</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><strong>Card Simple - Reactive</strong></td>
+                                                                <td>Pensata per offrire massima flessibilit&agrave;
+                                                                    nella gestione
+                                                                    delle immagini, garantendo una
+                                                                    visualizzazione responsiva su qualsiasi dispositivo.
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <p>La classe <span class="tag-code">.card-wrap</span> <strong>raggruppa
+                                                        gli elementi della card per righe</strong>,
+                                                    caratterizzando le singole configurazioni e ponendo le basi per la
+                                                    successiva gestione dell'equalizzazione delle altezze fra card
+                                                    adiacenti.</p>
+
+                                                <p>Le diverse configurazioni possono essere ulteriormente personalizzate
+                                                    in base alle necessità progettuali.
+                                                    Ad esempio, il blocco immagine <span class="tag-code">.picture-wrap</span> previsto nella configurazione
+                                                    <strong>Reactive</strong> può essere integrato all'interno delle
+                                                    configurazioni <strong>News</strong> o <strong>Eventi</strong>,
+                                                    offrendo maggiore flessibilità nella presentazione dei contenuti.
+                                                    Questa modularità consente di adattare le card a contesti specifici,
+                                                    mantenendo coerenza stilistica e funzionale con il resto
+                                                    dell'interfaccia.</p>
+
+                                                <p>&Egrave; inoltre possibile <strong>rimuovere l'ombra esterna che
+                                                        delimita la card</strong> utilizzando la classe
+                                                    <span class="tag-code">.card-flat</span> prevista dal framework.
+                                                    Questo permette di ottenere un design pi&ugrave; pulito e minimale,
+                                                    adattandosi a layout senza effetti di profondit&agrave;.
+                                                </p>
+
+                                                <p>Segue l'esempio di un asset <span class="tag-code">.card</span>,
+                                                    personalizzabile che non necessita di classi modificatrici.</p>
+
+                                            </div>
+                                            <div class="preview">
+                                                <div class="preview-services">
+                                                    <div class="row">
+                                                        <div class="col-6 my-3 d-flex">
+                                                            <span
+                                                                class="badge rounded-pill align-self-end bg-primary fw-semibold">Preview</span>
+                                                            <select class="form-select"
+                                                                aria-label="Seleziona la vista responsive"
+                                                                aria-controls="iframe0001">
+                                                                <option value="default" selected>Cambia vista Responsive
+                                                                </option>
+                                                                <option value="xs">Smartphone (xs - Portrait)</option>
+                                                                <option value="sm">Smartphone (sm - Landscape) </option>
+                                                                <option value="md">Tablet (md - Landscape)</option>
+                                                                <option value="lg">Desktop - small (lg)</option>
+                                                                <option value="xl">Desktop - large (xl)</option>
+
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <div class="border border-5 border-grey01">
+                                                            <div class="ratio ratio-21x5 overflow-auto">
+                                                                <div id="iframepreview">
+                                                                    <iframe id="iframe0001"
+                                                                        class="border border-2 border-grey01"
+                                                                        aria-label="Preview dell'asset responsive"
+                                                                        role="region" aria-live="polite"
+                                                                        src="/docs/viewer/iframe-viewer.shtml?include-id=uicard0001"></iframe>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <span class="preview-caption my-2 d-block"></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="related-wrap">
+                                                <div class="row gap-4 gap-lg-0">
+                                                    <div class="col-lg-6">
+                                                        <div class="related-preview h-100">
+                                                            <div class="related-services">
+                                                                <div class="row my-2">
+                                                                    <div class="col-12">
+                                                                        <h4 class="heading h5">Preview</h4>
+                                                                        <ul class="">
+                                                                            <li><a href="/docs/viewer/iframe-viewer.shtml?include-id=uicard0001"
+                                                                                    title="Asset preview fullpage"
+                                                                                    target="_blank">Asset preview
+                                                                                    fullpage</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <div class="related h-100">
+                                                            <div class="related-services">
+                                                                <div class="row my-2">
+                                                                    <div class="col-12">
+                                                                        <h4 class="heading h5">Pagine esemplificative
+                                                                        </h4>
+                                                                        <ul class="">
+                                                                            <li><a href="/dist/pages/foglia-educazione-finanziaria.shtml"
+                                                                                    title="Foglia - Educazione finanziaria"
+                                                                                    target="_blank">Foglia - Educazione
+                                                                                    finanziaria</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="code">
+                                                <div class="code-services">
+                                                    <div class="row">
+                                                        <div class="col-6 my-3 d-flex">
+                                                            <span
+                                                                class="badge rounded-pill align-self-end bg-primary fw-semibold">Markup</span>
+                                                        </div>
+                                                        <div class="col-6 my-3 text-end">
+                                                            <a class="copycode" href="#" title="Copia codice">
+                                                                <span class="icon">
+                                                                    <svg focusable="false">
+                                                                        <title>Copia il codice</title>
+                                                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#076a-description-m" href="/dist/assets/core/images/iconset/sprite.svg#076a-description-m"></use>
+                                                                    </svg>
+                                                                </span>
+                                                            </a>
+                                                            <a class="viewcode" href="#" title="Mostra/Nascondi codice">
+                                                                <span class="icon codeshow">
+                                                                    <svg focusable="false">
+                                                                        <title>Mostra codice</title>
+                                                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#016b-visibility-on-m" href="/dist/assets/core/images/iconset/sprite.svg#016b-visibility-on-m"></use>
+                                                                    </svg>
+                                                                </span>
+                                                                <span class="icon codehide">
+                                                                    <svg focusable="false">
+                                                                        <title>Nascondi codice</title>
+                                                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#016a-visibility-off-m" href="/dist/assets/core/images/iconset/sprite.svg#016a-visibility-off-m"></use>
+                                                                    </svg>
+                                                                </span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <pre><code class="language-html">
+                                                        <!--#include virtual="/docs/includes/code/code-html-ui-card-simple.html" -->
+                                                    </code>
+                                                </pre>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="divider bg-grey01 py-1 my-2 px-2 d-flex align-items-center justify-content-end">
+                                        <span>Asset Cross</span>
+                                    </div>
+                                    <div class="divider bg-grey02 py-1 my-2"></div>
+                                </div>
+                            </article>
+                            <!--Article end-->
+                            <!--Article-->
+                            <article class="mb-5">
+                                <div class="col-12">
+                                    <div class="main-pills main-pills-basic rounded" id="contenuto3">
+                                        <div class="main-pills-header rounded">
+                                            <div class="row">
+                                                <div class="col-12 mt-3">
+                                                    <h3
+                                                        class="heading h3 fw-normal border-start border-3 ps-2 border-info">
+                                                        Card simple - Comunicati</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="main-pills-body">
+                                            <!--Blocco 1-->
+                                            <div class="content">
+                                                <p>Le <strong>Card Simple - Comunicati</strong> sono progettate per
+                                                    mettere in evidenza contenuti informativi come annunci ufficiali,
+                                                    comunicati stampa o messaggi istituzionali.
+                                                    Questa configurazione si distingue per la sua struttura lineare e
+                                                    intuitiva, ideale per organizzare informazioni chiave in un formato
+                                                    chiaro e leggibile.
+                                                </p>
+                                                <p>Segue l'esempio di un asset <span class="tag-code">.card</span>,
+                                                    personalizzabile che non necessita di classi modificatrici.</p>
+                                            </div>
+                                            <div class="preview">
+                                                <div class="preview-services">
+                                                    <div class="row">
+                                                        <div class="col-6 my-3 d-flex">
+                                                            <span
+                                                                class="badge rounded-pill align-self-end bg-primary fw-semibold">Preview</span>
+                                                            <select class="form-select"
+                                                                aria-label="Seleziona la vista responsive"
+                                                                aria-controls="iframe0003">
+                                                                <option value="default" selected>Cambia vista Responsive
+                                                                </option>
+                                                                <option value="xs">Smartphone (xs - Portrait)</option>
+                                                                <option value="sm">Smartphone (sm - Landscape) </option>
+                                                                <option value="md">Tablet (md - Landscape)</option>
+                                                                <option value="lg">Desktop - small (lg)</option>
+                                                                <option value="xl">Desktop - large (xl)</option>
+
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <div class="border border-5 border-grey01">
+                                                            <div class="ratio ratio-21x9 overflow-auto">
+                                                                <div id="iframepreview">
+                                                                    <iframe id="iframe0003"
+                                                                        class="border border-2 border-grey01"
+                                                                        aria-label="Preview dell'asset responsive"
+                                                                        role="region" aria-live="polite"
+                                                                        src="/docs/viewer/iframe-viewer.shtml?include-id=uicard0003"></iframe>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <span class="preview-caption my-2 d-block"></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="related-wrap">
+                                                <div class="row gap-4 gap-lg-0">
+                                                    <div class="col-lg-6">
+                                                        <div class="related-preview h-100">
+                                                            <div class="related-services">
+                                                                <div class="row my-2">
+                                                                    <div class="col-12">
+                                                                        <h4 class="heading h5">Preview</h4>
+                                                                        <ul class="">
+                                                                            <li><a href="/docs/viewer/iframe-viewer.shtml?include-id=uicard0003"
+                                                                                    title="Asset preview fullpage"
+                                                                                    target="_blank">Asset preview
+                                                                                    fullpage</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <div class="related h-100">
+                                                            <div class="related-services">
+                                                                <div class="row my-2">
+                                                                    <div class="col-12">
+                                                                        <h4 class="heading h5">Pagine esemplificative
+                                                                        </h4>
+                                                                        <ul class="">
+                                                                            <li><a href="/dist/pages/index.shtml"
+                                                                                    title="Homepage Corporate"
+                                                                                    target="_blank">Homepage Corporate</a></li>
+                                                                            <li><a href="/dist/pages/sub-investitori.shtml"
+                                                                                    title="Sub-home Investitori"
+                                                                                    target="_blank">Sub-home
+                                                                                    Investitori</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="code">
+                                                <div class="code-services">
+                                                    <div class="row">
+                                                        <div class="col-6 my-3 d-flex">
+                                                            <span
+                                                                class="badge rounded-pill align-self-end bg-primary fw-semibold">Markup</span>
+                                                        </div>
+                                                        <div class="col-6 my-3 text-end">
+                                                            <a class="copycode" href="#" title="Copia codice">
+                                                                <span class="icon">
+                                                                    <svg focusable="false">
+                                                                        <title>Copia il codice</title>
+                                                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#076a-description-m" href="/dist/assets/core/images/iconset/sprite.svg#076a-description-m"></use>
+                                                                    </svg>
+                                                                </span>
+                                                            </a>
+                                                            <a class="viewcode" href="#" title="Mostra/Nascondi codice">
+                                                                <span class="icon codeshow">
+                                                                    <svg focusable="false">
+                                                                        <title>Mostra codice</title>
+                                                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#016b-visibility-on-m" href="/dist/assets/core/images/iconset/sprite.svg#016b-visibility-on-m"></use>
+                                                                    </svg>
+                                                                </span>
+                                                                <span class="icon codehide">
+                                                                    <svg focusable="false">
+                                                                        <title>Nascondi codice</title>
+                                                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#016a-visibility-off-m" href="/dist/assets/core/images/iconset/sprite.svg#016a-visibility-off-m"></use>
+                                                                    </svg>
+                                                                </span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <pre><code class="language-html">
+                                                        <!--#include virtual="/docs/includes/code/code-html-ui-card-simple-comunicato.html" -->
+                                                    </code>
+                                                </pre>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="divider bg-grey01 py-1 my-2 px-2 d-flex align-items-center justify-content-end">
+                                        <span>Asset Cross</span>
+                                    </div>
+                                    <div class="divider bg-grey02 py-1 my-2"></div>
+                                </div>
+                            </article>
+                            <!--Article end-->
+                            <!--Article-->
+                            <article class="mb-5">
+                                <div class="col-12">
+                                    <div class="main-pills main-pills-basic rounded" id="contenuto4">
+                                        <div class="main-pills-header rounded">
+                                            <div class="row">
+                                                <div class="col-12 mt-3">
+                                                    <h3
+                                                        class="heading h3 fw-normal border-start border-3 ps-2 border-info">
+                                                        Card simple - News</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="main-pills-body">
+                                            <!--Blocco 1-->
+                                            <div class="content">
+                                                <p>Le <strong>Card Simple - News</strong> sono ideate per evidenziare
+                                                    articoli, notizie e aggiornamenti rilevanti in un formato
+                                                    accattivante e ben strutturato. Grazie alla loro configurazione
+                                                    flessibile, queste card combinano contenuti multimediali (come loghi
+                                                    o immagini), informazioni temporali e descrizioni dettagliate,
+                                                    offrendo una panoramica chiara e immediata delle novit&agrave;. </p>
+                                                <p>In questa configurazione la card include, oltre ad un logo opzionale,
+                                                    una data di pubblicazione, un titolo informativo, un testo
+                                                    descrittivo ed un'azione principale. Questa disposizione consente di
+                                                    enfatizzare le informazioni essenziali, risultando particolarmente
+                                                    efficace per le sezioni dedicate agli aggiornamenti. </p>
+                                                <p>Segue l'esempio di un asset <span class="tag-code">.card</span>,
+                                                    ottimizzato per la presentazione di contenuti editoriali e che non
+                                                    necessita di classi modificatrici.</p>
+                                            </div>
+                                            <div class="preview">
+                                                <div class="preview-services">
+                                                    <div class="row">
+                                                        <div class="col-6 my-3 d-flex">
+                                                            <span
+                                                                class="badge rounded-pill align-self-end bg-primary fw-semibold">Preview</span>
+                                                            <select class="form-select"
+                                                                aria-label="Seleziona la vista responsive"
+                                                                aria-controls="iframe0004">
+                                                                <option value="default" selected>Cambia vista Responsive
+                                                                </option>
+                                                                <option value="xs">Smartphone (xs - Portrait)</option>
+                                                                <option value="sm">Smartphone (sm - Landscape) </option>
+                                                                <option value="md">Tablet (md - Landscape)</option>
+                                                                <option value="lg">Desktop - small (lg)</option>
+                                                                <option value="xl">Desktop - large (xl)</option>
+
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <div class="border border-5 border-grey01">
+                                                            <div class="ratio ratio-21x9 overflow-auto">
+                                                                <div id="iframepreview">
+                                                                    <iframe id="iframe0004"
+                                                                        class="border border-2 border-grey01"
+                                                                        aria-label="Preview dell'asset responsive"
+                                                                        role="region" aria-live="polite"
+                                                                        src="/docs/viewer/iframe-viewer.shtml?include-id=uicard0004"></iframe>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <span class="preview-caption my-2 d-block"></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="related-wrap">
+                                                <div class="row gap-4 gap-lg-0">
+                                                    <div class="col-lg-12">
+                                                        <div class="related-preview h-100">
+                                                            <div class="related-services">
+                                                                <div class="row my-2">
+                                                                    <div class="col-12">
+                                                                        <h4 class="heading h5">Preview</h4>
+                                                                        <ul class="">
+                                                                            <li><a href="/docs/viewer/iframe-viewer.shtml?include-id=uicard0004"
+                                                                                    title="Asset preview fullpage"
+                                                                                    target="_blank">Asset preview
+                                                                                    fullpage</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!--
+                                                    <div class="col-lg-6">
+                                                        <div class="related h-100">
+                                                            <div class="related-services">
+                                                                <div class="row my-2">
+                                                                    <div class="col-12">
+                                                                        <h4 class="heading h5">Pagine esemplificative</h4>
+                                                                        <ul class="">
+                                                                            <li><a href="/dist/pages/foglia-educazione-finanziaria.shtml" title="Foglia - Educazione finanziaria" target="_blank">Foglia - Educazione finanziaria</a></li>
+                                                                            <li><a href="/dist/pages/foglia-customerexp.shtml" title="Foglia - Customer Experience" target="_blank">Foglia - Customer Experience</a></li>
+                                                                            
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    -->
+                                                </div>
+                                            </div>
+                                            <div class="code">
+                                                <div class="code-services">
+                                                    <div class="row">
+                                                        <div class="col-6 my-3 d-flex">
+                                                            <span
+                                                                class="badge rounded-pill align-self-end bg-primary fw-semibold">Markup</span>
+                                                        </div>
+                                                        <div class="col-6 my-3 text-end">
+                                                            <a class="copycode" href="#" title="Copia codice">
+                                                                <span class="icon">
+                                                                    <svg focusable="false">
+                                                                        <title>Copia il codice</title>
+                                                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#076a-description-m" href="/dist/assets/core/images/iconset/sprite.svg#076a-description-m"></use>
+                                                                    </svg>
+                                                                </span>
+                                                            </a>
+                                                            <a class="viewcode" href="#" title="Mostra/Nascondi codice">
+                                                                <span class="icon codeshow">
+                                                                    <svg focusable="false">
+                                                                        <title>Mostra codice</title>
+                                                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#016b-visibility-on-m" href="/dist/assets/core/images/iconset/sprite.svg#016b-visibility-on-m"></use>
+                                                                    </svg>
+                                                                </span>
+                                                                <span class="icon codehide">
+                                                                    <svg focusable="false">
+                                                                        <title>Nascondi codice</title>
+                                                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#016a-visibility-off-m" href="/dist/assets/core/images/iconset/sprite.svg#016a-visibility-off-m"></use>
+                                                                    </svg>
+                                                                </span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <pre><code class="language-html">
+                                                        <!--#include virtual="/docs/includes/code/code-html-ui-card-simple-news.html" -->
+                                                    </code>
+                                                </pre>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="divider bg-grey01 py-1 my-2 px-2 d-flex align-items-center justify-content-end">
+                                        <span>Asset Cross</span>
+                                    </div>
+                                    <div class="divider bg-grey02 py-1 my-2"></div>
+                                </div>
+                            </article>
+                            <!--Article end-->
+                            <!--Article-->
+                            <article class="mb-5">
+                                <div class="col-12">
+                                    <div class="main-pills main-pills-basic rounded" id="contenuto5">
+                                        <div class="main-pills-header rounded">
+                                            <div class="row">
+                                                <div class="col-12 mt-3">
+                                                    <h3
+                                                        class="heading h3 fw-normal border-start border-3 ps-2 border-info">
+                                                        Card simple - Eventi</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="main-pills-body">
+                                            <!--Blocco 1-->
+                                            <div class="content">
+                                                <p>Le <strong>Card Simple - Eventi</strong> sono pensate per evidenziare
+                                                    appuntamenti, conferenze o qualsiasi tipo di evento rilevante.
+                                                    Questa configurazione &egrave; progettata per offrire una
+                                                    visibilit&agrave; immediata alla data dell'evento, combinata con un
+                                                    titolo descrittivo e una call-to-action che invita l'utente ad
+                                                    interagire, ad esempio, salvando l'evento in agenda. </p>
+                                                <p>La struttura chiara e l'aspetto elegante rendono questa variante
+                                                    estremamente versatile, permettendo di integrarsi in diversi
+                                                    contesti visivi. Grazie alle classi dedicate, come <span
+                                                        class="tag-code">bg-primary</span> e <span
+                                                        class="tag-code">bg-primary-accent</span>, &egrave; possibile
+                                                    personalizzare facilmente lo sfondo. Queste opzioni di stile possono
+                                                    essere combinate con l'attributo <span
+                                                        class="tag-code">data-bs-theme</span>, che
+                                                    supporta i valori <span class="fw-semibold">dark</span> e <span
+                                                        class="fw-semibold">light</span>, per garantire una resa
+                                                    ottimale sia in modalit&agrave; chiara che scura. Ogni card &egrave;
+                                                    di conseguenza configurata per risaltare in modo armonioso nel
+                                                    layout complessivo e garantire un'esperienza utente intuitiva. </p>
+                                                <p>Segue un esempio di implementazione di un asset <span
+                                                        class="tag-code">.card</span> ottimizzato per promuovere eventi
+                                                    e che non necessita di classi modificatrici. </p>
+                                            </div>
+                                            <div class="preview">
+                                                <div class="preview-services">
+                                                    <div class="row">
+                                                        <div class="col-6 my-3 d-flex">
+                                                            <span
+                                                                class="badge rounded-pill align-self-end bg-primary fw-semibold">Preview</span>
+                                                            <select class="form-select"
+                                                                aria-label="Seleziona la vista responsive"
+                                                                aria-controls="iframe0005">
+                                                                <option value="default" selected>Cambia vista Responsive
+                                                                </option>
+                                                                <option value="xs">Smartphone (xs - Portrait)</option>
+                                                                <option value="sm">Smartphone (sm - Landscape) </option>
+                                                                <option value="md">Tablet (md - Landscape)</option>
+                                                                <option value="lg">Desktop - small (lg)</option>
+                                                                <option value="xl">Desktop - large (xl)</option>
+
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <div class="border border-5 border-grey01">
+                                                            <div class="ratio ratio-21x9 overflow-auto">
+                                                                <div id="iframepreview">
+                                                                    <iframe id="iframe0005"
+                                                                        class="border border-2 border-grey01"
+                                                                        aria-label="Preview dell'asset responsive"
+                                                                        role="region" aria-live="polite"
+                                                                        src="/docs/viewer/iframe-viewer.shtml?include-id=uicard0005"></iframe>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <span class="preview-caption my-2 d-block"></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="related-wrap">
+                                                <div class="row gap-4 gap-lg-0">
+                                                    <div class="col-lg-6">
+                                                        <div class="related-preview h-100">
+                                                            <div class="related-services">
+                                                                <div class="row my-2">
+                                                                    <div class="col-12">
+                                                                        <h4 class="heading h5">Preview</h4>
+                                                                        <ul class="">
+                                                                            <li><a href="/docs/viewer/iframe-viewer.shtml?include-id=uicard0005"
+                                                                                    title="Asset preview fullpage"
+                                                                                    target="_blank">Asset preview
+                                                                                    fullpage</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <div class="related h-100">
+                                                            <div class="related-services">
+                                                                <div class="row my-2">
+                                                                    <div class="col-12">
+                                                                        <h4 class="heading h5">Pagine esemplificative
+                                                                        </h4>
+                                                                        <ul class="">
+                                                                            <li><a href="/dist/pages/sub-investitori.shtml"
+                                                                                    title="Sub-home Investitori"
+                                                                                    target="_blank">Sub-home
+                                                                                    Investitori</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="code">
+                                                <div class="code-services">
+                                                    <div class="row">
+                                                        <div class="col-6 my-3 d-flex">
+                                                            <span
+                                                                class="badge rounded-pill align-self-end bg-primary fw-semibold">Markup</span>
+                                                        </div>
+                                                        <div class="col-6 my-3 text-end">
+                                                            <a class="copycode" href="#" title="Copia codice">
+                                                                <span class="icon">
+                                                                    <svg focusable="false">
+                                                                        <title>Copia il codice</title>
+                                                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#076a-description-m" href="/dist/assets/core/images/iconset/sprite.svg#076a-description-m"></use>
+                                                                    </svg>
+                                                                </span>
+                                                            </a>
+                                                            <a class="viewcode" href="#" title="Mostra/Nascondi codice">
+                                                                <span class="icon codeshow">
+                                                                    <svg focusable="false">
+                                                                        <title>Mostra codice</title>
+                                                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#016b-visibility-on-m" href="/dist/assets/core/images/iconset/sprite.svg#016b-visibility-on-m"></use>
+                                                                    </svg>
+                                                                </span>
+                                                                <span class="icon codehide">
+                                                                    <svg focusable="false">
+                                                                        <title>Nascondi codice</title>
+                                                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#016a-visibility-off-m" href="/dist/assets/core/images/iconset/sprite.svg#016a-visibility-off-m"></use>
+                                                                    </svg>
+                                                                </span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <pre><code class="language-html">
+                                                        <!--#include virtual="/docs/includes/code/code-html-ui-card-simple-eventi.html" -->
+                                                    </code>
+                                                </pre>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="divider bg-grey01 py-1 my-2 px-2 d-flex align-items-center justify-content-end">
+                                        <span>Asset Cross</span>
+                                    </div>
+                                    <div class="divider bg-grey02 py-1 my-2"></div>
+                                </div>
+                            </article>
+                            <!--Article end-->
+                            <!--Article-->
+                            <article class="mb-5">
+                                <div class="col-12">
+                                    <div class="main-pills main-pills-basic rounded" id="contenuto6">
+                                        <div class="main-pills-header rounded">
+                                            <div class="row">
+                                                <div class="col-12 mt-3">
+                                                    <h3
+                                                        class="heading h3 fw-normal border-start border-3 ps-2 border-info">
+                                                        Card simple - Download</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="main-pills-body">
+                                            <!--Blocco 1-->
+                                            <div class="content">
+                                                <p>Le <strong>Card Simple - Download</strong> sono pensate per
+                                                    facilitare l'accesso a risorse scaricabili, come documenti, brochure
+                                                    o materiali informativi.
+                                                </p>
+                                                <p>
+                                                    Questa configurazione si distingue per la sua struttura intuitiva,
+                                                    che include un'indicazione chiara del formato e della dimensione del
+                                                    file, garantendo un'esperienza utente immediata ed efficace.
+                                                    Inoltre, il layout lineare e l'utilizzo di elementi visivi, come
+                                                    icone e dettagli di supporto, assicurano che i contenuti siano
+                                                    presentati in modo ordinato e professionale, adattandosi
+                                                    perfettamente a una vasta gamma di contesti comunicativi. </p>
+                                            </div>
+                                            <div class="preview">
+                                                <div class="preview-services">
+                                                    <div class="row">
+                                                        <div class="col-6 my-3 d-flex">
+                                                            <span
+                                                                class="badge rounded-pill align-self-end bg-primary fw-semibold">Preview</span>
+                                                            <select class="form-select"
+                                                                aria-label="Seleziona la vista responsive"
+                                                                aria-controls="iframe0006">
+                                                                <option value="default" selected>Cambia vista Responsive
+                                                                </option>
+                                                                <option value="xs">Smartphone (xs - Portrait)</option>
+                                                                <option value="sm">Smartphone (sm - Landscape) </option>
+                                                                <option value="md">Tablet (md - Landscape)</option>
+                                                                <option value="lg">Desktop - small (lg)</option>
+                                                                <option value="xl">Desktop - large (xl)</option>
+
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <div class="border border-5 border-grey01">
+                                                            <div class="ratio ratio-21x5 overflow-auto">
+                                                                <div id="iframepreview">
+                                                                    <iframe id="iframe0006"
+                                                                        class="border border-2 border-grey01"
+                                                                        aria-label="Preview dell'asset responsive"
+                                                                        role="region" aria-live="polite"
+                                                                        src="/docs/viewer/iframe-viewer.shtml?include-id=uicard0006"></iframe>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <span class="preview-caption my-2 d-block"></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="related-wrap">
+                                                <div class="row gap-4 gap-lg-0">
+                                                    <div class="col-lg-6">
+                                                        <div class="related-preview h-100">
+                                                            <div class="related-services">
+                                                                <div class="row my-2">
+                                                                    <div class="col-12">
+                                                                        <h4 class="heading h5">Preview</h4>
+                                                                        <ul class="">
+                                                                            <li><a href="/docs/viewer/iframe-viewer.shtml?include-id=uicard0006"
+                                                                                    title="Asset preview fullpage"
+                                                                                    target="_blank">Asset preview
+                                                                                    fullpage</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <div class="related h-100">
+                                                            <div class="related-services">
+                                                                <div class="row my-2">
+                                                                    <div class="col-12">
+                                                                        <h4 class="heading h5">Pagine esemplificative
+                                                                        </h4>
+                                                                        <ul class="">
+                                                                            <li><a href="/dist/pages/sub-sostenibilita.shtml"
+                                                                                    title="Sub-home Sostenibilit&agrave;"
+                                                                                    target="_blank">Sub-home
+                                                                                    Sostenibilit&agrave;</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="code">
+                                                <div class="code-services">
+                                                    <div class="row">
+                                                        <div class="col-6 my-3 d-flex">
+                                                            <span
+                                                                class="badge rounded-pill align-self-end bg-primary fw-semibold">Markup</span>
+                                                        </div>
+                                                        <div class="col-6 my-3 text-end">
+                                                            <a class="copycode" href="#" title="Copia codice">
+                                                                <span class="icon">
+                                                                    <svg focusable="false">
+                                                                        <title>Copia il codice</title>
+                                                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#076a-description-m" href="/dist/assets/core/images/iconset/sprite.svg#076a-description-m"></use>
+                                                                    </svg>
+                                                                </span>
+                                                            </a>
+                                                            <a class="viewcode" href="#" title="Mostra/Nascondi codice">
+                                                                <span class="icon codeshow">
+                                                                    <svg focusable="false">
+                                                                        <title>Mostra codice</title>
+                                                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#016b-visibility-on-m" href="/dist/assets/core/images/iconset/sprite.svg#016b-visibility-on-m"></use>
+                                                                    </svg>
+                                                                </span>
+                                                                <span class="icon codehide">
+                                                                    <svg focusable="false">
+                                                                        <title>Nascondi codice</title>
+                                                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#016a-visibility-off-m" href="/dist/assets/core/images/iconset/sprite.svg#016a-visibility-off-m"></use>
+                                                                    </svg>
+                                                                </span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <pre><code class="language-html">
+                                                        <!--#include virtual="/docs/includes/code/code-html-ui-card-simple-download.html" -->
+                                                    </code>
+                                                </pre>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="divider bg-grey01 py-1 my-2 px-2 d-flex align-items-center justify-content-end">
+                                        <span>Asset Cross</span>
+                                    </div>
+                                    <div class="divider bg-grey02 py-1 my-2"></div>
+                                </div>
+                            </article>
+                            <!--Article end-->
+                            <!--Article-->
+                            <article class="mb-5">
+                                <div class="col-12">
+                                    <div class="main-pills main-pills-basic rounded" id="contenuto7">
+                                        <div class="main-pills-header rounded">
+                                            <div class="row">
+                                                <div class="col-12 mt-3">
+                                                    <h3
+                                                        class="heading h3 fw-normal border-start border-3 ps-2 border-info">
+                                                        Card simple - Reactive</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="main-pills-body">
+                                            <!--Blocco 1-->
+                                            <div class="content">
+                                                <p>La <strong>Card Simple - Reactive</strong> &egrave; la configurazione
+                                                    predisposta per
+                                                    offrire massima flessibilit&agrave; nella gestione delle immagini
+                                                    all'interno delle card, garantendo una visualizzazione armoniosa e
+                                                    responsiva su qualsiasi dispositivo.</p>
+                                                <p>Questa configurazione assicura
+                                                    un adattamento dinamico delle immagini,
+                                                    preservandone le proporzioni ottimali senza compromettere la
+                                                    qualit&agrave; visiva o il layout complessivo.
+                                                </p>
+                                                <p>Il wrapper <span class="tag-code">.picture-wrap</span> viene utilizzato per racchiudere l'elemento immagine, 
+                                                    garantendo una struttura chiara e coerente all'interno della card.  
+                                                <br/>L'utilizzo di questo wrapper può ovviamente essere esteso anche alle altre configurazioni della <strong>Card Simple</strong>, 
+                                                        creando così combinazioni flessibili che si adattano alle diverse esigenze progettuali, 
+                                                        come l'integrazione di immagini responsive nelle configurazioni <strong>News</strong> ed <strong>Eventi</strong>.<br/>
+                                                        Il ridimensionamento e l'adattabilità sono gestiti direttamente dalla classe 
+                                                        <span class="tag-code">.img-fluid</span>, applicata all'elemento <span class="tag-code">&lt;img&gt;</span>, 
+                                                        che assicura una visualizzazione responsiva senza distorsioni.</p>
+                                                    
+                                                
+                                                    <p>La card fa uso di due immagini: una standard e una in alta risoluzione (<code>@2x</code>), 
+                                                        ottimizzando la resa visiva su schermi ad alta densità di pixel senza comprometterne la qualit&agrave;.</p>
+                                                    
+                                            </div>
+                                            <div class="content">
+                                                <div class="table-responsive">
+                                                    <table class="table">
+                                                        <caption>
+                                                            Gestione immagini - card
+                                                        </caption>
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Viewport (media query)</th>
+                                                                <th>Suffisso</th>
+                                                                <th>Formato</th>
+                                                                <th>Dimensioni immagine (in px)</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>all</td>
+                                                                <td>-</td>
+                                                                <td>jpg/webp</td>
+                                                                <td>636x358</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>(-webkit-min-device-pixel-ratio: 2),<br />
+                                                                    (min-resolution: 192dpi)</td>
+                                                                <td>@2x</td>
+                                                                <td>jpg/webp</td>
+                                                                <td>1272x716</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                            <div class="preview">
+                                                <div class="preview-services">
+                                                    <div class="row">
+                                                        <div class="col-6 my-3 d-flex">
+                                                            <span
+                                                                class="badge rounded-pill align-self-end bg-primary fw-semibold">Preview</span>
+                                                            <select class="form-select"
+                                                                aria-label="Seleziona la vista responsive"
+                                                                aria-controls="iframe0007">
+                                                                <option value="default" selected>Cambia vista Responsive
+                                                                </option>
+                                                                <option value="xs">Smartphone (xs - Portrait)</option>
+                                                                <option value="sm">Smartphone (sm - Landscape) </option>
+                                                                <option value="md">Tablet (md - Landscape)</option>
+                                                                <option value="lg">Desktop - small (lg)</option>
+                                                                <option value="xl">Desktop - large (xl)</option>
+
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <div class="border border-5 border-grey01">
+                                                            <div class="ratio ratio-16x9 overflow-auto">
+                                                                <div id="iframepreview">
+                                                                    <iframe id="iframe0007"
+                                                                        class="border border-2 border-grey01"
+                                                                        aria-label="Preview dell'asset responsive"
+                                                                        role="region" aria-live="polite"
+                                                                        src="/docs/viewer/iframe-viewer.shtml?include-id=uicard0007"></iframe>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <span class="preview-caption my-2 d-block"></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="related-wrap">
+                                                <div class="row gap-4 gap-lg-0">
+                                                    <div class="col-lg-6">
+                                                        <div class="related-preview h-100">
+                                                            <div class="related-services">
+                                                                <div class="row my-2">
+                                                                    <div class="col-12">
+                                                                        <h4 class="heading h5">Preview</h4>
+                                                                        <ul class="">
+                                                                            <li><a href="/docs/viewer/iframe-viewer.shtml?include-id=uicard0007"
+                                                                                    title="Asset preview fullpage"
+                                                                                    target="_blank">Asset preview
+                                                                                    fullpage</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <div class="related h-100">
+                                                            <div class="related-services">
+                                                                <div class="row my-2">
+                                                                    <div class="col-12">
+                                                                        <h4 class="heading h5">Pagine esemplificative
+                                                                        </h4>
+                                                                        <ul class="">
+                                                                            <li><a href="/dist/pages/foglia-educazione-finanziaria.shtml"
+                                                                                    title="Foglia - Educazione finanziaria"
+                                                                                    target="_blank">Foglia - Educazione
+                                                                                    finanziaria</a></li>
+                                                                            <li><a href="/dist/pages/index.shtml"
+                                                                                    title="Homepage Corporate"
+                                                                                    target="_blank">Homepage
+                                                                                    Corporate</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="divider bg-grey01 my-4"></div>
+                                            <div class="content">
+                                                <p>Ideale per design <span class="fw-semibold">mobile-first</span> o
+                                                    layout articolati su più colonne, questa variante unisce
+                                                    funzionalit&agrave; ed estetica per un risultato sempre
+                                                    professionale e coerente.</p>
+                                            </div>
+                                            <div class="code">
+                                                <div class="code-services">
+                                                    <div class="row">
+                                                        <div class="col-6 my-3 d-flex">
+                                                            <span
+                                                                class="badge rounded-pill align-self-end bg-primary fw-semibold">Markup</span>
+                                                        </div>
+                                                        <div class="col-6 my-3 text-end">
+                                                            <a class="copycode" href="#" title="Copia codice">
+                                                                <span class="icon">
+                                                                    <svg focusable="false">
+                                                                        <title>Copia il codice</title>
+                                                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#076a-description-m" href="/dist/assets/core/images/iconset/sprite.svg#076a-description-m"></use>
+                                                                    </svg>
+                                                                </span>
+                                                            </a>
+                                                            <a class="viewcode" href="#" title="Mostra/Nascondi codice">
+                                                                <span class="icon codeshow">
+                                                                    <svg focusable="false">
+                                                                        <title>Mostra codice</title>
+                                                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#016b-visibility-on-m" href="/dist/assets/core/images/iconset/sprite.svg#016b-visibility-on-m"></use>
+                                                                    </svg>
+                                                                </span>
+                                                                <span class="icon codehide">
+                                                                    <svg focusable="false">
+                                                                        <title>Nascondi codice</title>
+                                                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#016a-visibility-off-m" href="/dist/assets/core/images/iconset/sprite.svg#016a-visibility-off-m"></use>
+                                                                    </svg>
+                                                                </span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <pre><code class="language-html">
+                                                        <!--#include virtual="/docs/includes/code/code-html-ui-card-simple-reactive.html" -->
+                                                    </code>
+                                                </pre>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="divider bg-grey01 py-1 my-2 px-2 d-flex align-items-center justify-content-end">
+                                        <span>Asset Cross</span>
+                                    </div>
+                                    <div class="divider bg-grey02 py-1 my-2"></div>
+                                </div>
+                            </article>
+                            <!--Article end-->
+                            <!--Article-->
+                            <article class="mb-5">
+                                <div class="col-12">
+                                    <div class="main-pills main-pills-basic rounded" id="contenuto8">
+                                        <div class="main-pills-header rounded">
+                                            <div class="row">
+                                                <div class="col-12 mt-3">
+                                                    <h3
+                                                        class="heading h3 fw-normal border-start border-3 ps-2 border-info">
+                                                        Card picture</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="main-pills-body">
+                                            <!--Blocco 1-->
+                                            <div class="content">
+                                                <p>La variante <strong>"picture"</strong> &egrave; progettata per
+                                                    garantire una visualizzazione delle immagini uniforme e
+                                                    accattivante,
+                                                    mantenendo un'<strong>altezza predefinita</strong> indipendentemente
+                                                    dai diversi
+                                                    cutpoint del layout.
+                                                    Questa soluzione si basa sull'uso di <strong>tecniche di
+                                                        mascheramento</strong> che
+                                                    assicurano una presentazione visivamente coerente su tutti i
+                                                    dispositivi.</p>
+                                                <p>Caratterizzata dalla classe modificatrice <span
+                                                        class="tag-code">.card-picture</span>,
+                                                    questa card &egrave; ideale per contesti in cui &egrave;
+                                                    fondamentale dare risalto all'immagine,
+                                                    mantenendo al tempo stesso un layout armonico e ben bilanciato.</p>
+                                                <p>I <strong>tagli visivi</strong> vengono applicati in modo
+                                                    <strong>proporzionale sui lati
+                                                        destro e sinistro dell'immagine</strong>, garantendo che il
+                                                    focus rimanga
+                                                    sempre centrato.
+                                                    Questa caratteristica assicura una presentazione equilibrata,
+                                                    indipendentemente dal dispositivo utilizzato.</p>
+                                            </div>
+                                            <div class="content">
+                                                <div class="table-responsive">
+                                                    <table class="table">
+                                                        <caption>
+                                                            Gestione immagini - card-picture
+                                                        </caption>
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Viewport (media query)</th>
+                                                                <th>Suffisso</th>
+                                                                <th>Formato</th>
+                                                                <th>Dimensioni immagine (in px)</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>all</td>
+                                                                <td>-</td>
+                                                                <td>jpg/webp</td>
+                                                                <td>636x315</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>(-webkit-min-device-pixel-ratio: 2),<br />
+                                                                    (min-resolution: 192dpi)</td>
+                                                                <td>@2x</td>
+                                                                <td>jpg/webp</td>
+                                                                <td>1272x630</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                            <div class="preview">
+                                                <div class="preview-services">
+                                                    <div class="row">
+                                                        <div class="col-6 my-3 d-flex">
+                                                            <span
+                                                                class="badge rounded-pill align-self-end bg-primary fw-semibold">Preview</span>
+                                                            <select class="form-select"
+                                                                aria-label="Seleziona la vista responsive"
+                                                                aria-controls="iframe0008">
+                                                                <option value="default" selected>Cambia vista Responsive
+                                                                </option>
+                                                                <option value="xs">Smartphone (xs - Portrait)</option>
+                                                                <option value="sm">Smartphone (sm - Landscape) </option>
+                                                                <option value="md">Tablet (md - Landscape)</option>
+                                                                <option value="lg">Desktop - small (lg)</option>
+                                                                <option value="xl">Desktop - large (xl)</option>
+
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <div class="border border-5 border-grey01">
+                                                            <div class="ratio ratio-16x9 overflow-auto">
+                                                                <div id="iframepreview">
+                                                                    <iframe id="iframe0008"
+                                                                        class="border border-2 border-grey01"
+                                                                        aria-label="Preview dell'asset responsive"
+                                                                        role="region" aria-live="polite"
+                                                                        src="/docs/viewer/iframe-viewer.shtml?include-id=uicard0008"></iframe>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <span class="preview-caption my-2 d-block"></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="related-wrap">
+                                                <div class="row gap-4 gap-lg-0">
+                                                    <div class="col-lg-12">
+                                                        <div class="related-preview h-100">
+                                                            <div class="related-services">
+                                                                <div class="row my-2">
+                                                                    <div class="col-12">
+                                                                        <h4 class="heading h5">Preview</h4>
+                                                                        <ul class="">
+                                                                            <li><a href="/docs/viewer/iframe-viewer.shtml?include-id=uicard0008"
+                                                                                    title="Asset preview fullpage"
+                                                                                    target="_blank">Asset preview
+                                                                                    fullpage</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!--
+                                                    <div class="col-lg-6">
+                                                        <div class="related h-100">
+                                                            <div class="related-services">
+                                                                <div class="row my-2">
+                                                                    <div class="col-12">
+                                                                        <h4 class="heading h5">Pagine esemplificative</h4>
+                                                                        <ul class="">
+                                                                            <li><a href="/dist/pages/sub-investitori.shtml" title="Sub-home Investitori" target="_blank">Sub-home Investitori</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    -->
+                                                </div>
+                                            </div>
+                                            <div class="code">
+                                                <div class="code-services">
+                                                    <div class="row">
+                                                        <div class="col-6 my-3 d-flex">
+                                                            <span
+                                                                class="badge rounded-pill align-self-end bg-primary fw-semibold">Markup</span>
+                                                        </div>
+                                                        <div class="col-6 my-3 text-end">
+                                                            <a class="copycode" href="#" title="Copia codice">
+                                                                <span class="icon">
+                                                                    <svg focusable="false">
+                                                                        <title>Copia il codice</title>
+                                                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#076a-description-m" href="/dist/assets/core/images/iconset/sprite.svg#076a-description-m"></use>
+                                                                    </svg>
+                                                                </span>
+                                                            </a>
+                                                            <a class="viewcode" href="#" title="Mostra/Nascondi codice">
+                                                                <span class="icon codeshow">
+                                                                    <svg focusable="false">
+                                                                        <title>Mostra codice</title>
+                                                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#016b-visibility-on-m" href="/dist/assets/core/images/iconset/sprite.svg#016b-visibility-on-m"></use>
+                                                                    </svg>
+                                                                </span>
+                                                                <span class="icon codehide">
+                                                                    <svg focusable="false">
+                                                                        <title>Nascondi codice</title>
+                                                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#016a-visibility-off-m" href="/dist/assets/core/images/iconset/sprite.svg#016a-visibility-off-m"></use>
+                                                                    </svg>
+                                                                </span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <pre><code class="language-html">
+                                                        <!--#include virtual="/docs/includes/code/code-html-ui-card-picture.html" -->
+                                                    </code>
+                                                </pre>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="divider bg-grey01 py-1 my-2 px-2 d-flex align-items-center justify-content-end">
+                                        <span>Asset Cross</span>
+                                    </div>
+                                    <div class="divider bg-grey02 py-1 my-2"></div>
+                                </div>
+                            </article>
+                            <!--Article end-->
+                            <!--Article-->
+                            <article class="mb-5">
+                                <div class="col-12">
+                                    <div class="main-pills main-pills-basic rounded" id="contenuto9">
+                                        <div class="main-pills-header rounded">
+                                            <div class="row">
+                                                <div class="col-12 mt-3">
+                                                    <h3
+                                                        class="heading h3 fw-normal border-start border-3 ps-2 border-info">
+                                                        Card portrait</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="main-pills-body">
+                                            <!--Blocco 1-->
+                                            <div class="content">
+                                                <p>Le <span class="tag-code">.card-portrait</span> sono progettate per
+                                                    mettere in risalto contenuti con un orientamento verticale, ideale
+                                                    per presentare informazioni come profili personali, descrizioni di
+                                                    prodotti, o contenuti visivi accompagnati da un testo descrittivo.
+                                                </p>
+                                                <p>Ogni Card Portrait include i seguenti elementi:</p>
+                                                <ul>
+                                                    <li><strong>Immagine di sfondo</strong>: specificata tramite la
+                                                        propriet&agrave; background-image e vincolata a un rapporto di
+                                                        aspetto predefinito grazie alla classe <span
+                                                            class="tag-code">.ratio-*</span>.</li>
+                                                    <li><strong>Overlay</strong>: utilizzato per applicare un'ombra o un
+                                                        filtro sopra l'immagine di sfondo, migliorando la
+                                                        leggibilit&agrave; dei contenuti.</li>
+                                                    <li><strong>Contenuto interno</strong>: posizionato nell'elemento
+                                                        <span class="tag-code">card-body</span>, contiene il titolo (che
+                                                        può coincidere con il link di destinazione) ed un testo
+                                                        descrittivo.
+                                                    </li>
+                                                    <li><strong>Contenuto extra</strong>: per garantire un'interazione
+                                                        immediata e un'integrazione visivamente armoniosa con il layout
+                                                        della card,
+                                                        è possibile inserire un <span class="tag-code">.btn-cta</span>.
+                                                        Questo elemento può essere posizionato in alto a sinistra
+                                                        all'interno del contenitore
+                                                        <span class="tag-code">.card-header</span> o in basso a destra
+                                                        utilizzando <span class="tag-code">.card-footer</span>.
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="content" id="table-img">
+                                                <div class="table-responsive">
+                                                    <table class="table">
+                                                        <caption>
+                                                            Gestione immagini - card-portrait - @1x
+                                                        </caption>
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Configurazione</th>
+                                                                <th>Aspect ratio</th>
+                                                                <th>Suffisso</th>
+                                                                <th>Formato</th>
+                                                                <th>Dimensioni immagine (in px)</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td><code>.ratio-2x3</code></td>
+                                                                <td>2x3</td>
+                                                                <td>-</td>
+                                                                <td>jpg/webp</td>
+                                                                <td>400x600</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.ratio-4x5</code></td>
+                                                                <td>4x5</td>
+                                                                <td>-</td>
+                                                                <td>jpg/webp</td>
+                                                                <td>400x500</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.ratio-9x10</code></td>
+                                                                <td>9x10</td>
+                                                                <td>-</td>
+                                                                <td>jpg/webp</td>
+                                                                <td>450x500</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+
+                                                <div class="table-responsive">
+                                                    <table class="table">
+                                                        <caption>
+                                                            Gestione immagini - card-portrait - @2x
+                                                        </caption>
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Configurazione</th>
+                                                                <th>Aspect ratio</th>
+                                                                <th>Suffisso</th>
+                                                                <th>Formato</th>
+                                                                <th>Dimensioni immagine (in px)</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td><code>.ratio-2x3</code></td>
+                                                                <td>2x3</td>
+                                                                <td>@2x</td>
+                                                                <td>jpg/webp</td>
+                                                                <td>800x1200</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.ratio-4x5</code></td>
+                                                                <td>4x5</td>
+                                                                <td>@2x</td>
+                                                                <td>jpg/webp</td>
+                                                                <td>800x1000</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.ratio-9x10</code></td>
+                                                                <td>9x10</td>
+                                                                <td>@2x</td>
+                                                                <td>jpg/webp</td>
+                                                                <td>900x1000</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <p>Per migliorare l'accessibilità e l'usabilità della card, è possibile
+                                                    utilizzare la classe <span class="tag-code">.stretched-link</span>
+                                                    (sul link), che estende l'area cliccabile dell'azione principale a
+                                                    tutta la card, permettendo agli utenti di interagire con il
+                                                    contenuto in modo più intuitivo.</p>
+
+                                            </div>
+                                            <div class="preview">
+                                                <div class="preview-services">
+                                                    <div class="row">
+                                                        <div class="col-6 my-3 d-flex">
+                                                            <span
+                                                                class="badge rounded-pill align-self-end bg-primary fw-semibold">Preview</span>
+                                                            <select class="form-select"
+                                                                aria-label="Seleziona la vista responsive"
+                                                                aria-controls="iframe0009">
+                                                                <option value="default" selected>Cambia vista Responsive
+                                                                </option>
+                                                                <option value="xs">Smartphone (xs - Portrait)</option>
+                                                                <option value="sm">Smartphone (sm - Landscape) </option>
+                                                                <option value="md">Tablet (md - Landscape)</option>
+                                                                <option value="lg">Desktop - small (lg)</option>
+                                                                <option value="xl">Desktop - large (xl)</option>
+
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <div class="border border-5 border-grey01">
+                                                            <div class="ratio ratio-16x9 overflow-auto">
+                                                                <div id="iframepreview">
+                                                                    <iframe id="iframe0009"
+                                                                        class="border border-2 border-grey01"
+                                                                        aria-label="Preview dell'asset responsive"
+                                                                        role="region" aria-live="polite"
+                                                                        src="/docs/viewer/iframe-viewer.shtml?include-id=uicard0009"></iframe>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <span class="preview-caption my-2 d-block"></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="related-wrap">
+                                                <div class="row gap-4 gap-lg-0">
+                                                    <div class="col-lg-6">
+                                                        <div class="related-preview h-100">
+                                                            <div class="related-services">
+                                                                <div class="row my-2">
+                                                                    <div class="col-12">
+                                                                        <h4 class="heading h5">Preview</h4>
+                                                                        <ul class="">
+                                                                            <li><a href="/docs/viewer/iframe-viewer.shtml?include-id=uicard0009"
+                                                                                    title="Asset preview fullpage"
+                                                                                    target="_blank">Asset preview
+                                                                                    fullpage</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <div class="related h-100">
+                                                            <div class="related-services">
+                                                                <div class="row my-2">
+                                                                    <div class="col-12">
+                                                                        <h4 class="heading h5">Pagine esemplificative
+                                                                        </h4>
+                                                                        <ul class="">
+                                                                            <li><a href="/dist/pages/index.shtml"
+                                                                                    title="Homepage Corporate"
+                                                                                    target="_blank">Homepage
+                                                                                    Corporate</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="code">
+                                                <div class="code-services">
+                                                    <div class="row">
+                                                        <div class="col-6 my-3 d-flex">
+                                                            <span
+                                                                class="badge rounded-pill align-self-end bg-primary fw-semibold">Markup</span>
+                                                        </div>
+                                                        <div class="col-6 my-3 text-end">
+                                                            <a class="copycode" href="#" title="Copia codice">
+                                                                <span class="icon">
+                                                                    <svg focusable="false">
+                                                                        <title>Copia il codice</title>
+                                                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#076a-description-m" href="/dist/assets/core/images/iconset/sprite.svg#076a-description-m"></use>
+                                                                    </svg>
+                                                                </span>
+                                                            </a>
+                                                            <a class="viewcode" href="#" title="Mostra/Nascondi codice">
+                                                                <span class="icon codeshow">
+                                                                    <svg focusable="false">
+                                                                        <title>Mostra codice</title>
+                                                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#016b-visibility-on-m" href="/dist/assets/core/images/iconset/sprite.svg#016b-visibility-on-m"></use>
+                                                                    </svg>
+                                                                </span>
+                                                                <span class="icon codehide">
+                                                                    <svg focusable="false">
+                                                                        <title>Nascondi codice</title>
+                                                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#016a-visibility-off-m" href="/dist/assets/core/images/iconset/sprite.svg#016a-visibility-off-m"></use>
+                                                                    </svg>
+                                                                </span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <pre><code class="language-html">
+                                                        <!--#include virtual="/docs/includes/code/code-html-ui-card-portrait.html" -->
+                                                    </code>
+                                                </pre>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="divider bg-grey01 py-1 my-2 px-2 d-flex align-items-center justify-content-end">
+                                        <span>Asset Cross</span>
+                                    </div>
+                                    <div class="divider bg-grey02 py-1 my-2"></div>
+                                </div>
+                            </article>
+                            <!--Article end-->
+                            <!--Article-->
+                            <article class="mb-5">
+                                <div class="col-12">
+                                    <div class="main-pills main-pills-basic rounded" id="contenuto10">
+                                        <div class="main-pills-header rounded">
+                                            <div class="row">
+                                                <div class="col-12 mt-3">
+                                                    <h3
+                                                        class="heading h3 fw-normal border-start border-3 ps-2 border-info">
+                                                        Card icon</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="main-pills-body">
+                                            <!--Blocco 1-->
+                                            <div class="content">
+                                                <p>La variante <strong>"icon"</strong> &egrave; progettata per mettere
+                                                    in evidenza informazioni sintetiche attraverso un uso prominente
+                                                    delle icone. Ideale per rappresentare metriche, dati o risultati in
+                                                    modo chiaro e visivamente accattivante.</p>
+                                                <p>Caratterizzata dalla classe modificatrice <span
+                                                        class="tag-code">.card-icon</span>, questa variante si distingue
+                                                    per la disposizione centrata degli elementi, con una gerarchia
+                                                    visiva ben definita: l'icona &egrave; al centro dell'attenzione,
+                                                    seguita da un titolo e una descrizione. Sono supportate diverse
+                                                    dimensioni delle icone (<span class="tag-code">icon-xl</span>, <span
+                                                        class="tag-code">icon-l</span>) per adattarsi a diversi contesti
+                                                    visivi.</p>
+                                                <p>Questa configurazione si presta perfettamente per sub-home,
+                                                    riepiloghi visivi o sezioni infografiche, dove l'immediatezza della
+                                                    comunicazione &egrave; essenziale.</p>
+                                            </div>
+                                            <div class="preview">
+                                                <div class="preview-services">
+                                                    <div class="row">
+                                                        <div class="col-6 my-3 d-flex">
+                                                            <span
+                                                                class="badge rounded-pill align-self-end bg-primary fw-semibold">Preview</span>
+                                                            <select class="form-select"
+                                                                aria-label="Seleziona la vista responsive"
+                                                                aria-controls="iframe0010">
+                                                                <option value="default" selected>Cambia vista Responsive
+                                                                </option>
+                                                                <option value="xs">Smartphone (xs - Portrait)</option>
+                                                                <option value="sm">Smartphone (sm - Landscape) </option>
+                                                                <option value="md">Tablet (md - Landscape)</option>
+                                                                <option value="lg">Desktop - small (lg)</option>
+                                                                <option value="xl">Desktop - large (xl)</option>
+
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <div class="border border-5 border-grey01">
+                                                            <div class="ratio ratio-21x5 overflow-auto">
+                                                                <div id="iframepreview">
+                                                                    <iframe id="iframe0010"
+                                                                        class="border border-2 border-grey01"
+                                                                        aria-label="Preview dell'asset responsive"
+                                                                        role="region" aria-live="polite"
+                                                                        src="/docs/viewer/iframe-viewer.shtml?include-id=uicard0010"></iframe>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <span class="preview-caption my-2 d-block"></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="related-wrap">
+                                                <div class="row gap-4 gap-lg-0">
+                                                    <div class="col-lg-6">
+                                                        <div class="related-preview h-100">
+                                                            <div class="related-services">
+                                                                <div class="row my-2">
+                                                                    <div class="col-12">
+                                                                        <h4 class="heading h5">Preview</h4>
+                                                                        <ul class="">
+                                                                            <li><a href="/docs/viewer/iframe-viewer.shtml?include-id=uicard0010"
+                                                                                    title="Asset preview fullpage"
+                                                                                    target="_blank">Asset preview
+                                                                                    fullpage</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <div class="related h-100">
+                                                            <div class="related-services">
+                                                                <div class="row my-2">
+                                                                    <div class="col-12">
+                                                                        <h4 class="heading h5">Pagine esemplificative
+                                                                        </h4>
+                                                                        <ul class="">
+                                                                            <li><a href="/dist/pages/index.shtml"
+                                                                                    title="Homepage Corporate"
+                                                                                    target="_blank">Homepage
+                                                                                    Corporate</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="code">
+                                                <div class="code-services">
+                                                    <div class="row">
+                                                        <div class="col-6 my-3 d-flex">
+                                                            <span
+                                                                class="badge rounded-pill align-self-end bg-primary fw-semibold">Markup</span>
+                                                        </div>
+                                                        <div class="col-6 my-3 text-end">
+                                                            <a class="copycode" href="#" title="Copia codice">
+                                                                <span class="icon">
+                                                                    <svg focusable="false">
+                                                                        <title>Copia il codice</title>
+                                                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#076a-description-m" href="/dist/assets/core/images/iconset/sprite.svg#076a-description-m"></use>
+                                                                    </svg>
+                                                                </span>
+                                                            </a>
+                                                            <a class="viewcode" href="#" title="Mostra/Nascondi codice">
+                                                                <span class="icon codeshow">
+                                                                    <svg focusable="false">
+                                                                        <title>Mostra codice</title>
+                                                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#016b-visibility-on-m" href="/dist/assets/core/images/iconset/sprite.svg#016b-visibility-on-m"></use>
+                                                                    </svg>
+                                                                </span>
+                                                                <span class="icon codehide">
+                                                                    <svg focusable="false">
+                                                                        <title>Nascondi codice</title>
+                                                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#016a-visibility-off-m" href="/dist/assets/core/images/iconset/sprite.svg#016a-visibility-off-m"></use>
+                                                                    </svg>
+                                                                </span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <pre><code class="language-html">
+                                                        <!--#include virtual="/docs/includes/code/code-html-ui-card-icon.html" -->
+                                                    </code>
+                                                </pre>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="divider bg-grey01 py-1 my-2 px-2 d-flex align-items-center justify-content-end">
+                                        <span>Asset Cross</span>
+                                    </div>
+                                    <div class="divider bg-grey02 py-1 my-2"></div>
+                                </div>
+                            </article>
+                            <!--Article end-->
+                            <!--Article-->
+                            <article class="mb-5">
+                                <div class="col-12">
+                                    <div class="main-pills main-pills-basic rounded" id="contenutostatus">
+                                        <div class="main-pills-header rounded">
+                                            <div class="row">
+                                                <div class="col-12 mt-3">
+                                                    <h3
+                                                        class="heading h3 fw-normal border-start border-3 ps-2 border-info">
+                                                        Latest Update</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="main-pills-body">
+                                            <!--Blocco 1-->
+                                            <div class="content">
+                                                <p>
+                                                    Di seguito sono riportati gli aggiornamenti principali apportati alle cards, inclusi miglioramenti, correzioni di bug e nuove funzionalit&agrave;.
+                                                </p>
+                                            </div>
+                                            <div class="Last-update-report">
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <div class="table-responsive">
+                                                            <table class="table table-striped">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th scope="col">Data</th>
+                                                                        <th scope="col">Release di riferimento</th>
+                                                                        <th scope="col">Descrizione</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>03/04/2026</td>
+                                                                        <td>1.2.1</td>
+                                                                        <td>Card Simple reactive: Rimossa classe "btn-sm" dalla config con titolo linkato.
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>26/02/2026</td>
+                                                                        <td>1.2</td>
+                                                                        <td>Aggiornati titoli Card (eccetto "card-icon"): aggiunta classe ".h4" per aggiornamento tipografico.
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>27/01/2026</td>
+                                                                        <td>1.2</td>
+                                                                        <td>Aggiornate Card Icon: modificata config
+                                                                            <ul>
+                                                                                <li>Rimossa classe ".card-text" per la descrizione e sostituita con classe ".fst-italic".</li>
+                                                                                <li>Rimossa classe ".caption" per la descrizione.</li>
+                                                                                <li>Aggiunta casistica con titolo ".h3"</li>
+                                                                            </ul>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>27/01/2026</td>
+                                                                        <td>1.2</td>
+                                                                        <td>Aggiornata documentazione Card Portrait (dimensioni export @1x e @2x)</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>24/11/2025</td>
+                                                                        <td>1.2</td>
+                                                                        <td>Aggiunta config "ratio-9x10" alle Card Portrait (solo variabile css <em>$aspect-ratios</em>).</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>16/06/2025</td>
+                                                                        <td>1.0</td>
+                                                                        <td>Rilascio iniziale.</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="divider bg-grey01 py-1 my-2 px-2 d-flex align-items-center justify-content-end">
+                                        <span>&nbsp;</span>
+                                    </div>
+                                    <div class="divider bg-grey02 py-1 my-2"></div>
+                                </div>
+                            </article>
+                            <!--Article end-->
+                        </div>
+                    </section>
+                </div>
+                <div class="col-lg-2 d-none d-lg-block">
+                    <nav id="nav-sidebar-context" class="navbar flex-column sticky-top" role="navigation">
+
+                        <!--#include virtual="/docs/includes/nav/nav-sidebar-context-documentazione-ui-cards.html" -->
+
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container-fluid py-4">
+            <!--#include virtual="/docs/includes/footer/footer-default.html" -->
+        </div>
+    </footer>
+
+
+    <!--#include virtual="/docs/includes/utilities/footer-tag.html" -->
+    <!--#include virtual="/docs/includes/code/code-base.html" -->
+    <!--#include virtual="/docs/includes/utilities/loader.html" -->
+
+</body>
+
+</html>

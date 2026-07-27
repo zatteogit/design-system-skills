@@ -1,0 +1,16 @@
+/*****************************************************
+    @ IMPORT
+    Foglio stile _fonts - (c) Poste Italiane 2024/2026
+*****************************************************/
+
+/* https://fonts.google.com/specimen/Inter */
+
+//@include font-face("Inter", 100, "/dist/assets/core/fonts/inter/Inter-Thin", normal );
+@include font-face("Inter", 200, "/dist/assets/core/fonts/inter/Inter-ExtraLight", normal );
+@include font-face("Inter", 300, "/dist/assets/core/fonts/inter/Inter-Light", normal );
+@include font-face("Inter", 400, "/dist/assets/core/fonts/inter/Inter-Regular", normal );
+@include font-face("Inter", 500, "/dist/assets/core/fonts/inter/Inter-Medium", normal );
+@include font-face("Inter", 600, "/dist/assets/core/fonts/inter/Inter-SemiBold", normal );
+@include font-face("Inter", 700, "/dist/assets/core/fonts/inter/Inter-Bold", normal );
+//@include font-face("Inter", 800, "/dist/assets/core/fonts/inter/Inter-ExtraBold", normal );
+//@include font-face("Inter", 900, "/dist/assets/core/fonts/inter/Inter-Black", normal );

@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <title>Html kit - Ui - Visual</title>
+    <!--#include virtual="/docs/includes/utilities/head-tag.html" -->
+    <script>
+        var setDocsActivePage = "Visual";
+    </script>
+</head>
+
+<body tabindex="0">
+
+    <header class="sticky-top">
+        <!--#include virtual="/docs/includes/nav/nav-main-documentazione.html" -->
+        <!--#include virtual="/docs/includes/header/abstract-default.html" -->
+    </header>
+
+    <main>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-3 col-lg-2 border-end border-grey01 border-5">
+                    <nav id="nav-sidebar" class="sticky-top">
+
+                        <!--#include virtual="/docs/includes/nav/nav-sidebar-documentazione.html" -->
+
+                    </nav>
+                </div>
+                <div class="col-sm-9 col-lg-8 pt-4 pb-5">
+                    <section class="container">
+                        <div class="row">
+                            <!--Breadcrumb-->
+                            <div id="breadcrumb" class="col-12">
+                                <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);"
+                                    aria-label="breadcrumb">
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item"><a href="#">Assets</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">Visual
+                                        </li>
+                                    </ol>
+                                </nav>
+                            </div>
+                            <!--Breadcrumb end-->
+                            <!--Main title-->
+                            <div id="main-title" class="col-12">
+                                <h2 class="heading h1 fw-normal">Visual</h2>
+                            </div>
+                            <!--Main title end-->
+                            <!--Article-->
+                            <article class="mb-5">
+                                <div class="col-12">
+                                <div class="main-pills main-pills-basic rounded" id="contenuto0">
+                                    <div class="main-pills-body mt-3">
+                                    <!--Blocco 1-->
+                                    <div class="content">
+                                        <p>Il <strong>Visual</strong> rappresenta una fascia visiva che pu&ograve; essere
+                                            inserita tra le sezioni di una pagina per dare risalto a
+                                            contenuti chiave. Si distingue per il suo approccio minimalista e
+                                            per l'utilizzo di immagini di sfondo e sovrapposizioni
+                                            scure o chiare, in base al tema visivo.
+                                        </p>
+                                        <p>Si declina in due configurazioni principali, pensate per soddisfare esigenze editoriali e visive differenti: 
+                                            <span class="tag-code">.mode-minimal</span>, <span class="tag-code">.mode-multi</span>.</p>
+                                        <p>Le due declinazioni hanno entrambe un'altezza predefinita di 400px.</p>
+                                        <p>&Egrave; stata predisposta la classe <span
+                                                class="tag-code">.visual-overlay</span> che
+                                            consente di abilitare diverse tipologie di overlay in modo da
+                                            garantire il giusto contrasto
+                                            del testo con lo sfondo sottostante nei cutpoint dove &egrave; prevista la
+                                            loro sovrapposizione.</p>
+                                        <p>Il suo funzionamento &egrave; strettamente correlato all'utilizzo di
+                                            attributi
+                                            <code>data</code> personalizzati elencati qui di seguito con i
+                                            possibili valori attribuibili:
+                                        </p>
+                                        
+                                        <div class="table-responsive">
+                                            <table class="table">
+                                                <caption>
+                                                    visual-overlay DATA attribute
+                                                </caption>
+                                                <thead>
+                                                    <tr>
+                                                        <th>DATA attribute</th>
+                                                        <th>Valori</th>
+                                                        <th>Descrizione</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+
+                                                    <tr>
+                                                        <td><code>data-pi-overlay</code></td>
+                                                        <td><span class="fw-medium">dark</span> / <span
+                                                                class="fw-medium">light</span></td>
+                                                        <td>gestisce la tipologia di sfondo dell'overlay</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><code>data-bs-theme</code></td>
+                                                        <td><span class="fw-medium">dark</span> / <span
+                                                                class="fw-medium">light</span></td>
+                                                        <td>gestisce il colore del testo presente all'interno
+                                                            dell'overlay</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div></div>
+                        
+                          
+                                    </div>
+                                </div>
+                                <div class="divider bg-grey01 py-1 my-2 px-2 d-flex align-items-center justify-content-end">
+                                    <span></span>
+                                </div>
+                                <div class="divider bg-grey02 py-1 my-2"></div>
+                                </div>
+                            </article>
+                            <!--Article end-->
+                            <!--Article-->
+                            <article class="mb-5">
+                                <div class="col-12">
+                                    <div class="main-pills main-pills-basic rounded" id="contenuto1">
+                                        <div class="main-pills-header rounded">
+                                            <div class="row">
+                                                <div class="col-12 mt-3">
+                                                    <h3
+                                                        class="heading h3 fw-normal border-start border-3 ps-2 border-info">
+                                                        Visual Object - minimal</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="main-pills-body">
+                                            <!--Blocco 1-->
+                                            <div class="content">
+                                                <p>La versione <strong>minimal</strong> si caratterizza per un approccio essenziale ed elegante, 
+                                                ideale per focalizzare l'attenzione su un singolo contenuto principale. </p>
+                                                <p>Questa struttura, identificata dalla classe <span class="tag-code">.mode-minimal</span>, valorizza il messaggio grazie a un design pulito e un’immagine di grande impatto.
+                                                Perfetta per comunicazioni mirate e contenuti che richiedono una presentazione sobria ma incisiva.</p>
+                                                <p>L'immagine completamente estesa funge da contesto visivo ed include un overlay, tramite la classe predisposta <span class="tag-code">.visual-overlay</span>, ovvero una sovrapposizione semi-trasparente che garantisce leggibilità, con opzioni di tema (chiaro o scuro).</p>
+                                                <p>In questa configurazione &egrave; necessaria <strong>una singola immagine</strong> per garantire il corretto funzionamento:</p>
+                                            <div class="table-responsive">
+                                                <table class="table">
+                                                <caption>
+                                                    Gestione immagini per cutpoint - mode-minimal
+                                                </caption>
+                                                <thead>
+                                                    <tr>
+                                                    <th>Configurazione</th>
+                                                    <th>Viewport (media query)</th>
+                                                    <th>Suffisso</th>
+                                                    <th>Formato</th>
+                                                    <th>Dimensioni(in px)</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                    <td rowspan="3"><code>.mode-minimal</code></td>
+                                                    <td>all</td>
+                                                    <td>-</td>
+                                                    <td>jpg/webp</td>
+                                                    <td>1728x400</td>
+                                                    </tr>
+                                                </tbody>
+                                                </table>
+                                            </div>
+                                            </div>
+                                            <div class="preview">
+                                                <div class="preview-services">
+                                                    <div class="row">
+                                                        <div class="col-6 my-3 d-flex">
+                                                            <span
+                                                                class="badge rounded-pill align-self-end bg-primary fw-semibold">Preview</span>
+                                                            <select class="form-select"
+                                                                aria-label="Seleziona la vista responsive"
+                                                                aria-controls="iframe0001">
+                                                                <option value="default" selected>Cambia vista Responsive
+                                                                </option>
+                                                                <option value="xs">Smartphone (xs - Portrait)</option>
+                                                                <option value="sm">Smartphone (sm - Landscape) </option>
+                                                                <option value="md">Tablet (md - Landscape)</option>
+                                                                <option value="lg">Desktop - small (lg)</option>
+                                                                <option value="xl">Desktop - large (xl)</option>
+
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <div class="border border-5 border-grey01">
+                                                            <div class="ratio ratio-21x9 overflow-auto">
+                                                                <div id="iframepreview">
+                                                                    <iframe id="iframe0001"
+                                                                        class="border border-2 border-grey01"
+                                                                        aria-label="Preview dell'asset responsive"
+                                                                        role="region" aria-live="polite"
+                                                                        src="/docs/viewer/iframe-viewer.shtml?include-id=uivisual0001"></iframe>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <span class="preview-caption my-2 d-block"></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="related-wrap">
+                                                <div class="row gap-4 gap-lg-0">
+                                                    <div class="col-lg-6">
+                                                        <div class="related-preview h-100">
+                                                            <div class="related-services">
+                                                                <div class="row my-2">
+                                                                    <div class="col-12">
+                                                                        <h4 class="heading h5">Preview</h4>
+                                                                        <ul class="">
+                                                                            <li><a href="/docs/viewer/iframe-viewer.shtml?include-id=uivisual0001"
+                                                                                    title="Asset preview fullpage"
+                                                                                    target="_blank">Asset preview fullpage</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <div class="related h-100">
+                                                            <div class="related-services">
+                                                                <div class="row my-2">
+                                                                    <div class="col-12">
+                                                                        <h4 class="heading h5">Pagine esemplificative</h4>
+                                                                        <ul class="">
+                                                                            <li><a href="/dist/pages/foglia-educazione-finanziaria.shtml" title="Foglia - Educazione finanziaria" target="_blank">Foglia - Educazione finanziaria</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="code">
+                                                <div class="code-services">
+                                                    <div class="row">
+                                                        <div class="col-6 my-3 d-flex">
+                                                            <span
+                                                                class="badge rounded-pill align-self-end bg-primary fw-semibold">Markup</span>
+                                                        </div>
+                                                        <div class="col-6 my-3 text-end">
+                                                            <a class="copycode" href="#" title="Copia codice">
+                                                                <span class="icon">
+                                                                    <svg focusable="false">
+                                                                        <title>Copia il codice</title>
+                                                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#076a-description-m" href="/dist/assets/core/images/iconset/sprite.svg#076a-description-m"></use>
+                                                                    </svg>
+                                                                </span>
+                                                            </a>
+                                                            <a class="viewcode" href="#" title="Mostra/Nascondi codice">
+                                                                <span class="icon codeshow">
+                                                                    <svg focusable="false">
+                                                                        <title>Mostra codice</title>
+                                                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#016b-visibility-on-m" href="/dist/assets/core/images/iconset/sprite.svg#016b-visibility-on-m"></use>
+                                                                    </svg>
+                                                                </span>
+                                                                <span class="icon codehide">
+                                                                    <svg focusable="false">
+                                                                        <title>Nascondi codice</title>
+                                                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#016a-visibility-off-m" href="/dist/assets/core/images/iconset/sprite.svg#016a-visibility-off-m"></use>
+                                                                    </svg>
+                                                                </span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <pre><code class="language-html">
+                                                        <!--#include virtual="/docs/includes/code/code-html-ui-visual-object.html" -->
+                                                    </code>
+                                                </pre>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="divider bg-grey01 py-1 my-2 px-2 d-flex align-items-center justify-content-end">
+                                        <span>Asset Cross</span>
+                                    </div>
+                                    <div class="divider bg-grey02 py-1 my-2"></div>
+                                </div>
+                            </article>
+                            <!--Article end-->
+
+                            <!--Article-->
+                            <article class="mb-5">
+                                <div class="col-12">
+                                    <div class="main-pills main-pills-basic rounded" id="contenuto2">
+                                        <div class="main-pills-header rounded">
+                                            <div class="row">
+                                                <div class="col-12 mt-3">
+                                                    <h3
+                                                        class="heading h3 fw-normal border-start border-3 ps-2 border-info">
+                                                        Visual Multi-Object </h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="main-pills-body">
+                                            <!--Blocco 1-->
+                                            <div class="content">
+                                                <p>Il visual <strong>multi-object</strong> &egrave; pensato per ospitare più contenuti in un'unica sezione, 
+                                                    organizzandoli in una griglia responsiva. 
+                                                    Questa versione consente di mostrare messaggi o temi diversi in parallelo, garantendo una visione d'insieme ordinata e accattivante. 
+                                                    &Egrave; ideale per pagine ricche di contenuti correlati che necessitano di una presentazione chiara e dinamica.</p>
+                                                <p>Questa struttura &egrave; identificata dalla classe <span class="tag-code">.mode-multi</span> ed &egrave; suddivisa in colonne di dimensioni variabili che includono un overlay, tramite la classe predisposta <span class="tag-code">.visual-overlay</span>, ovvero una sovrapposizione semi-trasparente che garantisce leggibilità, con opzioni di tema (chiaro o scuro). 
+                                                    La suddivisione &egrave; completamente responsiva per adattarsi a dispositivi di diverse dimensioni e, ovviamente, 
+                                                    ogni colonna contiene un oggetto visual identificata dalla classe <span class="tag-code">.visual-object</span>.</p>
+                                                   <p>In questa configurazione &egrave; necessaria <strong>una singola immagine</strong> per garantire il corretto funzionamento:</p>
+                                            <div class="table-responsive">
+                                                <table class="table">
+                                                <caption>
+                                                    Gestione immagini per cutpoint - multi-object
+                                                </caption>
+                                                <thead>
+                                                    <tr>
+                                                    <th>Configurazione</th>
+                                                    <th>Viewport (media query)</th>
+                                                    <th>Suffisso</th>
+                                                    <th>Formato</th>
+                                                    <th>Dimensioni(in px)</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                    <td rowspan="3"><code>.mode-multi</code></td>
+                                                    <td>all</td>
+                                                    <td>-</td>
+                                                    <td>jpg/webp</td>
+                                                    <td>864x400</td>
+                                                    </tr>
+                                                </tbody>
+                                                </table>
+                                            </div>
+                                            </div>
+                                            <div class="preview">
+                                                <div class="preview-services">
+                                                    <div class="row">
+                                                        <div class="col-6 my-3 d-flex">
+                                                            <span
+                                                                class="badge rounded-pill align-self-end bg-primary fw-semibold">Preview</span>
+                                                            <select class="form-select"
+                                                                aria-label="Seleziona la vista responsive"
+                                                                aria-controls="iframe0002">
+                                                                <option value="default" selected>Cambia vista Responsive
+                                                                </option>
+                                                                <option value="xs">Smartphone (xs - Portrait)</option>
+                                                                <option value="sm">Smartphone (sm - Landscape) </option>
+                                                                <option value="md">Tablet (md - Landscape)</option>
+                                                                <option value="lg">Desktop - small (lg)</option>
+                                                                <option value="xl">Desktop - large (xl)</option>
+
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <div class="border border-5 border-grey01">
+                                                            <div class="ratio ratio-16x9 overflow-auto">
+                                                                <div id="iframepreview">
+                                                                    <iframe id="iframe0002"
+                                                                        class="border border-2 border-grey01"
+                                                                        aria-label="Preview dell'asset responsive"
+                                                                        role="region" aria-live="polite"
+                                                                        src="/docs/viewer/iframe-viewer.shtml?include-id=uivisual0002"></iframe>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <span class="preview-caption my-2 d-block"></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="related-wrap">
+                                                <div class="row gap-4 gap-lg-0">
+                                                    <div class="col-lg-6">
+                                                        <div class="related-preview h-100">
+                                                            <div class="related-services">
+                                                                <div class="row my-2">
+                                                                    <div class="col-12">
+                                                                        <h4 class="heading h5">Preview</h4>
+                                                                        <ul class="">
+                                                                            <li><a href="/docs/viewer/iframe-viewer.shtml?include-id=uivisual0002"
+                                                                                    title="Asset preview fullpage"
+                                                                                    target="_blank">Asset preview fullpage</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <div class="related h-100">
+                                                            <div class="related-services">
+                                                                <div class="row my-2">
+                                                                    <div class="col-12">
+                                                                        <h4 class="heading h5">Pagine esemplificative</h4>
+                                                                        <ul class="">
+                                                                            <li><a href="/dist/pages/index.shtml" title="Homepage Corporate" target="_blank">Homepage Corporate</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="code">
+                                                <div class="code-services">
+                                                    <div class="row">
+                                                        <div class="col-6 my-3 d-flex">
+                                                            <span
+                                                                class="badge rounded-pill align-self-end bg-primary fw-semibold">Markup</span>
+                                                        </div>
+                                                        <div class="col-6 my-3 text-end">
+                                                            <a class="copycode" href="#" title="Copia codice">
+                                                                <span class="icon">
+                                                                    <svg focusable="false">
+                                                                        <title>Copia il codice</title>
+                                                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#076a-description-m" href="/dist/assets/core/images/iconset/sprite.svg#076a-description-m"></use>
+                                                                    </svg>
+                                                                </span>
+                                                            </a>
+                                                            <a class="viewcode" href="#" title="Mostra/Nascondi codice">
+                                                                <span class="icon codeshow">
+                                                                    <svg focusable="false">
+                                                                        <title>Mostra codice</title>
+                                                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#016b-visibility-on-m" href="/dist/assets/core/images/iconset/sprite.svg#016b-visibility-on-m"></use>
+                                                                    </svg>
+                                                                </span>
+                                                                <span class="icon codehide">
+                                                                    <svg focusable="false">
+                                                                        <title>Nascondi codice</title>
+                                                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#016a-visibility-off-m" href="/dist/assets/core/images/iconset/sprite.svg#016a-visibility-off-m"></use>
+                                                                    </svg>
+                                                                </span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <pre><code class="language-html">
+                                                        <!--#include virtual="/docs/includes/code/code-html-ui-visual-object-multi.html" -->
+                                                    </code>
+                                                </pre>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="divider bg-grey01 py-1 my-2 px-2 d-flex align-items-center justify-content-end">
+                                        <span>Asset Cross</span>
+                                    </div>
+                                    <div class="divider bg-grey02 py-1 my-2"></div>
+                                </div>
+                            </article>
+                            <!--Article end-->
+
+                            <!--Article-->
+                            <article class="mb-5">
+                                <div class="col-12">
+                                    <div class="main-pills main-pills-basic rounded" id="contenutostatus">
+                                        <div class="main-pills-header rounded">
+                                            <div class="row">
+                                                <div class="col-12 mt-3">
+                                                    <h3
+                                                        class="heading h3 fw-normal border-start border-3 ps-2 border-info">
+                                                        Latest Update</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="main-pills-body">
+                                            <!--Blocco 1-->
+                                            <div class="content">
+                                                <p>
+                                                    Di seguito sono riportati gli aggiornamenti principali apportati ai visual, inclusi miglioramenti, correzioni di bug e nuove funzionalit&agrave;.
+                                                </p>
+                                            </div>
+                                            <div class="Last-update-report">
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <div class="table-responsive">
+                                                            <table class="table table-striped">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th scope="col">Data</th>
+                                                                        <th scope="col">Release di riferimento</th>
+                                                                        <th scope="col">Descrizione</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>16/06/2025</td>
+                                                                        <td>1.0</td>
+                                                                        <td>Rilascio iniziale.</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="divider bg-grey01 py-1 my-2 px-2 d-flex align-items-center justify-content-end">
+                                        <span>&nbsp;</span>
+                                    </div>
+                                    <div class="divider bg-grey02 py-1 my-2"></div>
+                                </div>
+                            </article>
+                            <!--Article end-->
+                        </div>
+                    </section>
+                </div>
+                <div class="col-lg-2 d-none d-lg-block">
+                    <nav id="nav-sidebar-context" class="navbar flex-column sticky-top" role="navigation">
+
+                        <!--#include virtual="/docs/includes/nav/nav-sidebar-context-documentazione-ui-visual.html" -->
+
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container-fluid py-4">
+            <!--#include virtual="/docs/includes/footer/footer-default.html" -->
+        </div>
+    </footer>
+
+
+    <!--#include virtual="/docs/includes/utilities/footer-tag.html" -->
+    <!--#include virtual="/docs/includes/code/code-base.html" -->
+    <!--#include virtual="/docs/includes/utilities/loader.html" -->
+
+</body>
+
+</html>

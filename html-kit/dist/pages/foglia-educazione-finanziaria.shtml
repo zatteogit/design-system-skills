@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <title>PosteItaliane.it</title>
+    
+  <!--#set var="core_resources" value="on" -->
+  <!--#set var="swiper_resources" value="on" -->
+  <!--#set var="masonry_resources" value="off" -->
+  <!--#include virtual="/dist/includes/utilities/head-tag.shtml" -->
+    <meta name="description" content="pagina esempio foglia corporate Poste Italiane, parte della linea guida grafica COM / DM">
+</head>
+
+<body id="foglia" class="no-js">
+    <nav id="skiplink" aria-label="Navigazione di pagina">
+        <ul>
+            <li><a tabindex="0" class="skip-link visually-hidden-focusable-abs" href="#accessibility-anchor">Passa al
+                    contenuto principale</a></li>
+            <li><a class="skip-link visually-hidden-focusable-abs" href="#footer">Passa al footer di pagina</a></li>
+        </ul>
+    </nav>
+    <header class="sticky">
+        <div class="sticky-wrap">
+            <!-- section Fedbar-->
+            <section class="section section-fedbar">
+                <div class="section-wrap">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <!--#include virtual="/dist/includes/header/header-section-fedbar.html" -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- section Navbar-->
+            <section class="section section-navbar">
+                <div class="section-wrap">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <!--#include virtual="/dist/includes/header/navbar-section-default.html" -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </header>
+
+    <main id="accessibility-anchor">
+
+        <h1 class="visually-hidden">PosteItaliane.it - Customer Experience</h1>
+        <section class="section section-module module-intro concept-photo module-overlay" data-pi-overlay="dark"
+            data-pi-theme-switch="true" data-bs-theme="dark">
+            <!--#include virtual="/dist/includes/object/module-intro-photo-01.html" -->
+        </section>
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="row gx-lg-6">
+                            <div class="col col-12 col-lg-4">
+                                <div class="align-self-start mb-4">
+                                    <div class="contextual-wrap d-flex flex-column flex-lg-column-reverse gap-2 gap-lg-4">
+                                        <div class="contextual-object contextual-menu-items">
+                                            <div class="mb-4">
+                                                <span class="visually-hidden">Menu della sezione</span>
+                                                <div class="d-lg-none border-bottom border-lg-none">
+                                                    <button class="btn btn-icon btn-link collapsed" type="button" aria-controls="collapse-menu-01" data-bs-toggle="collapse" data-bs-target="#collapse-menu-01" aria-expanded="true">
+                                                        Educazione finanziaria
+                                                        <span class="icon">
+                                                            <svg focusable="false">
+                                                                <title>Lorem ipsum</title>
+                                                                <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#007a-expand-more-m" href="/dist/assets/core/images/iconset/sprite.svg#007a-expand-more-m"></use>
+                                                            </svg>
+                                                        </span>
+                                                    </button>
+                                                </div>
+                                                <h2 class="h4 fw-medium d-none d-lg-block">Educazione finanziaria</h2>
+                                                <span class="visually-hidden">:</span>
+                                            </div>
+                                            <nav aria-label="Lorem menu contestuale ipsum">
+                                                <ul id="collapse-menu-01"
+                                                    class="collapse d-lg-block list-unstyled w-100 m-0">
+                                                    <li class="mt-0 mb-4 border-white border-start border-3 ps-3 fs-11"><a class="link-underline link-underline-opacity-0"
+                                                            href="#">Convegni web svolti</a></li>
+                                                    <li class="mt-4 mb-4 border-white border-start border-3 ps-3 fs-11"><a class="link-underline link-underline-opacity-0"
+                                                            href="#">Eventi in presenza</a></li>
+                                                    <li class="mt-4 mb-4 border-white border-start border-3 ps-3 fs-11"><a class="link-underline link-underline-opacity-0"
+                                                            href="#">Prossimi webinar</a></li>
+                                                    <li class="mt-4 mb-4 border-white border-start border-3 ps-3 fs-11"><a class="link-underline link-underline-opacity-0"
+                                                            href="#">Video pillole</a></li>
+                                                    <li class="mt-4 mb-4 border-white border-start border-3 ps-3 fs-11"><a class="link-underline link-underline-opacity-0"
+                                                            href="#">Podcast</a></li>
+                                                    <li class="mt-4 mb-4 border-white border-start border-3 ps-3 fs-11 contextual-menu-item-active"><a class="link-underline link-underline-opacity-0"
+                                                            href="#">Guide ai momenti della vita</a></li>
+                                                    <li class="mt-4 mb-4 border-white border-start border-3 ps-3 fs-11"><a class="link-underline link-underline-opacity-0"
+                                                            href="#">Glossario</a></li>
+                                                    <li class="mt-4 mb-4 border-white border-start border-3 ps-3 fs-11"><a class="link-underline link-underline-opacity-0"
+                                                            href="#">I conti di casa</a></li>
+                                                    <li class="mt-4 mb-4 border-white border-start border-3 ps-3 fs-11"><a class="link-underline link-underline-opacity-0"
+                                                            href="#">Calcolatore interessi</a></li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                        <div class="contextual-object contextual-share">
+                                            <div class="py-2"><span class="caption">Tempo di lettura: 2'</span></div>
+                                            <p class="my-4 border-bottom">
+                                                <button class="btn btn-icon btn-sm btn-link me-3"><span class="icon">
+                                                        <svg focusable="false">
+                                                            <title>Lorem ipsum</title>
+                                                            <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#077a-share-m"
+                                                                href="/dist/assets/core/images/iconset/sprite.svg#077a-share-m">
+                                                            </use>
+                                                        </svg>
+                                                    </span>Condividi
+                                                </button>
+                                                <button class="btn btn-icon btn-sm btn-link"><span class="icon">
+                                                        <svg focusable="false">
+                                                            <title>Lorem ipsum</title>
+                                                            <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#056a-play-arrow-m"
+                                                                href="/dist/assets/core/images/iconset/sprite.svg#056a-play-arrow-m">
+                                                            </use>
+                                                        </svg>
+                                                    </span>Leggi
+                                                </button>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-lg-8">
+                                <section class="section">
+                                    <div class="section-wrap">
+                                        <div class="row">
+                                            <div class="col-12"><!-- off -->
+                                                <div class="row g-4">
+                                                    <div class="col-12">
+                                                        <div class="content-heading separator">
+                                                            <h2 class="heading fw-medium">L'importanza di fare
+                                                                scelte consapevoli</h2>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <div class="content">
+                                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                                                                elit. Ullam veniam, dolore blanditiis aut quidem
+                                                                autem doloribus placeat necessitatibus aperiam,
+                                                                consequatur debitis eius impedit soluta magni
+                                                                laboriosam suscipit vel ipsum ducimus.Ullam veniam,
+                                                                dolore blanditiis aut quidem autem doloribus.</p>
+                                                            <ul>
+                                                                <li>Vel ipsum ducimus ullam veniam</li>
+                                                                <li>Unique ullam veniam, dolore blanditiis aut
+                                                                    quidem autem
+                                                                    doloribus placeat;
+                                                                    necessitatibus;</li>
+                                                                <li>Placeat necessitatibus aperiam, consequatur
+                                                                    debitis
+                                                                    eius
+                                                                    impedit soluta.
+                                                                </li>
+                                                            </ul>
+                                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                                                                elit. Ullam veniam, dolore blanditiis aut quidem
+                                                                autem doloribus placeat necessitatibus aperiam,
+                                                                consequatur debitis eius impedit soluta magni
+                                                                laboriosam suscipit vel ipsum ducimus.Ullam veniam,
+                                                                dolore blanditiis aut quidem autem doloribus.</p>
+                                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                                                                elit. Ullam veniam, dolore blanditiis aut quidem
+                                                                autem doloribus placeat necessitatibus aperiam,
+                                                                consequatur debitis eius impedit soluta magni
+                                                                laboriosam suscipit vel ipsum ducimus.Ullam veniam,
+                                                                dolore blanditiis aut quidem autem doloribus.</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <div class="btn-container">
+                                                            <button type="button"
+                                                                class="btn btn-icon btn-sm btn-primary-accent">
+                                                                <span class="icon">
+                                                                    <svg focusable="false">
+                                                                        <title>Lorem ipsum</title>
+                                                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#001b-arrow-forward-m"
+                                                                            href="/dist/assets/core/images/iconset/sprite.svg#001b-arrow-forward-m">
+                                                                        </use>
+                                                                    </svg>
+                                                                </span>primary accent button
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+
+                                <section class="section">
+                                    <div class="section-wrap">
+                                        <div class="row">
+                                            <div class="col-12"><!-- off -->
+                                                <div class="row g-4">
+                                                    <div class="col-12 col-md-6">
+                                                        <!--#set var="card_simple_var" value="01" -->
+                                                        <!--#include virtual="/dist/includes/object/card-simple-comunicato-01.shtml" -->
+                                                    </div>
+                                                    <div class="col-12 col-md-6">
+                                                        <!--#set var="card_simple_var" value="02" -->
+                                                        <!--#include virtual="/dist/includes/object/card-simple-comunicato-01.shtml" -->
+                                                    </div>
+                                                    <div class="col-12 col-md-6">
+                                                        <!--#set var="card_simple_var" value="03" -->
+                                                        <!--#include virtual="/dist/includes/object/card-simple-comunicato-01.shtml" -->
+                                                    </div>
+                                                    <div class="col-12 col-md-6">
+                                                        <!--#set var="card_simple_var" value="04" -->
+                                                        <!--#include virtual="/dist/includes/object/card-simple-comunicato-01.shtml" -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+
+                                <section class="section">
+                                    <div class="section-wrap">
+                                        <div class="row g-4">
+                                            <div class="col-12">
+                                                <div class="content-heading separator text-center">
+                                                    <h2 class="heading fw-medium">I lorem ipsum TG</h2>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 card-set same-height"><!-- off -->
+                                                <div class="row g-4 row-cols-1 row-cols-md-2">
+                                                    <div class="col">
+                                                        <!--#set var="card_react_var" value="01" -->
+                                                        <!--#include virtual="/dist/includes/object/card-simple-reactive-01.shtml" -->
+                                                    </div>
+                                                    <div class="col">
+                                                        <!--#set var="card_react_var" value="0101" -->
+                                                        <!--#include virtual="/dist/includes/object/card-simple-reactive-02.shtml" -->
+                                                    </div>
+                                                    <div class="col">
+                                                        <!--#set var="card_react_var" value="02" -->
+                                                        <!--#include virtual="/dist/includes/object/card-simple-reactive-01.shtml" -->
+                                                    </div>
+                                                    <div class="col">
+                                                        <!--#set var="card_react_var" value="0202" -->
+                                                        <!--#include virtual="/dist/includes/object/card-simple-reactive-02.shtml" -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="btn-container">
+                                                    <button type="button" class="btn btn-icon btn-sm btn-secondary">
+                                                        Approfondisci<span class="icon">
+                                                            <svg focusable="false">
+                                                                <title>Lorem ipsum</title>
+                                                                <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#001b-arrow-forward-m"
+                                                                    href="/dist/assets/core/images/iconset/sprite.svg#001b-arrow-forward-m">
+                                                                </use>
+                                                            </svg>
+                                                        </span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+
+                                <section class="section">
+                                    <!--#include virtual="/dist/includes/object/content-evidence-02.html" -->
+                                </section>
+
+                                <section id="swiper-gallery001" class="section swiper-container swiper-media-gallery position-relative"
+                                    aria-roledescription="carousel" aria-label="Lorem ipsum dolor 3141">
+                                    <div class="section-wrap">
+                                        <div class="row g-4">
+                                            <div class="col-12">
+                                                <div class="content-heading separator text-center">
+                                                    <h2 class="heading fw-medium">Lorem ipsum dolet</h2>
+                                                </div>
+                                            </div>
+                                            <div class="col-12"><!-- off -->
+                                                <!--#include virtual="/dist/includes/object/swiper-gallery-01.html" -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section section-visual">
+            <div class="section-wrap">
+              <div class="visual mode-minimal">
+                <div class="row g-0">
+                  <div class="col-12">
+                    <div class="visual-object visual-overlay" data-pi-overlay="dark" style="background-image: url(https://picsum.photos/id/883/1728/400);" data-bs-theme="dark">
+                      <div class="visual-body">
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+                              <div class="visual-wrap">
+                                <h2 class="visual-title h2 fw-semibold">Gli appalti per lavori, forniture di beni e di servizi</h2>
+                              </div>
+                              <div class="visual-wrap">
+                                <div class="btn-container mb-3">
+                                  <a href="#" title="Lorem impsum" class="btn btn-icon btn-sm btn-primary">
+                                      <span class="icon">
+                                          <svg focusable="false">
+                                              <title>Lorem ipsum</title>
+                                              <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#001b-arrow-forward-m" href="/dist/assets/core/images/iconset/sprite.svg#001b-arrow-forward-m"></use>
+                                          </svg>
+                                      </span>Contratti trasparenti
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section swiper-container position-relative"  id="swiper001" aria-roledescription="carousel" aria-label="Lorem ipsum dolor 3142">
+            <div class="section-wrap">
+            <div class="container">
+                <div class="row g-4">
+                <div class="col-12">
+                    <div class="content-heading separator text-center">
+                    <h2 class="heading fw-medium">Dicono di noi lorem quisque</h2>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <!--#include virtual="/dist/includes/object/carousel-swiper-01.html" -->  
+                    <!--#include virtual="/dist/includes/object/carousel-swiper-01-opt.html" -->    
+                </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <section class="section section-footer section-footer-info">
+            <div class="section-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!-- #include virtual="/dist/includes/footer/footer-section-info.html" -->
+                            <!--#include virtual="/dist/includes/footer/footer-section-info-with-image.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-footer section-footer-extra">
+            <div class="section-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--#include virtual="/dist/includes/footer/footer-section-extra.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--#include virtual="/dist/includes/utilities/footer-tag.shtml" -->
+
+        <script>
+
+            document.addEventListener("DOMContentLoaded", function () {
+
+                const swiper_lang_it = {
+                    enabled: true,
+                    prevSlideMessage: 'Slide precedente',
+                    nextSlideMessage: 'Slide successiva',
+                    firstSlideMessage: 'Prima slide',
+                    lastSlideMessage: 'Ultima slide',
+                    slideLabelMessage: '{{index}} di {{slidesLength}}',
+                    itemRoleDescriptionMessage: 'slide',
+                    slideRole: 'group',
+                }
+
+                const argsThumbs = {
+                    slidesPerView: 6,
+                    spaceBetween: 20,
+                    watchSlidesProgress: true,
+
+                    // If we need pagination
+                    //pagination: {
+                    //    el: '#swiper-gallery001 .swiper-thumb .swiper-pagination',
+                    //    dynamicBullets: true,
+                    //    clickable: false,
+                    //},
+
+                    a11y: swiper_lang_it,
+
+                    keyboard: {
+                        enabled: true,
+                    },
+
+                    // Navigation arrows
+                    //navigation: {
+                    //    nextEl: '#swiper-gallery001 .swiper-thumb .swiper-btn-next',
+                    //    prevEl: '#swiper-gallery001 .swiper-thumb .swiper-btn-prev',
+                    //},
+
+                    breakpoints: {
+                        768: {
+                            slidesPerView: 6
+                        },
+                        992: {
+                            slidesPerView: 6,
+                        }
+                    }
+
+                }
+
+
+                const swiper2 = new Swiper('#swiper-gallery001 .swiper-thumbs', argsThumbs);
+
+                const argsPreview = {
+                    slidesPerView: 1,
+                    spaceBetween: 24,
+                    watchSlidesProgress: true,
+
+                    // If we need pagination
+                    pagination: {
+                        el: '#swiper-gallery001 .swiper-pagination',
+                        dynamicBullets: true,
+                        clickable: false,
+                    },
+
+                    a11y: swiper_lang_it,
+
+                    keyboard: {
+                        enabled: true,
+                    },
+
+                    // Navigation arrows
+                    navigation: {
+                        nextEl: '#swiper-gallery001 .swiper-btn-next',
+                        prevEl: '#swiper-gallery001 .swiper-btn-prev',
+                    },
+
+                    breakpoints: {
+                        768: {
+                            slidesPerView: 1
+                        },
+                        992: {
+                            slidesPerView: 1,
+                        }
+                    },
+                    thumbs: {
+                        swiper: swiper2
+                    }
+
+                }
+
+                const swiper = new Swiper('#swiper-gallery001 .swiper-preview', argsPreview);
+
+            });
+        </script>
+    </footer>
+</body>
+
+</html>

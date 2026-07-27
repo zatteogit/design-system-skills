@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="it">
+
+<head>
+    <title>Html kit - Start</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#294559">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <meta name="description" content="Docs Html kit">
+    <meta name="author" content="GDS//FS//DU">
+    <meta name="generator" content="">
+
+</head>
+
+<body>
+
+    <script>
+        setTimeout(function() {
+            window.location.href = "/docs/overview.shtml";
+        }, 0);
+    </script>
+
+</body>
+
+</html>

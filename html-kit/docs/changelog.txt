@@ -1,0 +1,19 @@
+/*****************************************************
+
+    File Description: File di Changelog documentazione 
+
+    Created: 07/02/2024
+    Last modified: 17/06/2025
+
+*****************************************************/
+
+[1.0] # First Release - 17/06/2025
+# Migrating Bootstrap 5.3.3 to 5.3.6
+# Migrating Bootstrap 5.1.3 to 5.3.3
+# -- Update css e js Bundle
+# -- Update Bootstrap-icons to v1.11.3
+# -- Update Bootstrap example template
+# -- Rimosse classi deprecate ".btn-close-white" e ".navbar-dark" in favore di 'data-bs-theme="dark"'
+# -- Rimossa classe deprecata ".text-muted" in favore di ".text-body-secondary"
+# -- Aggiornato metodo deprecato sulla funzione di "scrollspy" (core-init.js) da 'offset' a 'rootMargin'
+# -- Introdotta classe "table-group-divider" su tbody

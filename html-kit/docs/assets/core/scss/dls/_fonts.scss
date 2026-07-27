@@ -1,0 +1,124 @@
+/*****************************************************
+
+    Theme Name: Poste Italiane 2024 - Generic
+    Author: GDS//FS//DU 
+    Created: 10/2021
+    Based on: kit Bootstrap v5.3.2
+    File Description: Foglio di stile FONTS
+
+    Version: Pack 1.1.0
+    Last modified: 10/2025
+
+*****************************************************/
+
+
+/* BEGIN ExtraLight */
+@font-face {
+    font-family: 'Jost';
+    src: url('/docs/assets/core/fonts/Jost/Jost-ExtraLight.ttf') format('truetype'); 
+    font-style: normal;
+    font-weight: 200;
+    text-rendering: optimizeLegibility;
+}
+/* END ExtraLight */
+
+
+/* BEGIN Light */
+@font-face {
+    font-family: 'Jost';
+    src: url('/docs/assets/core/fonts/Jost/Jost-Light.ttf') format('truetype'); 
+    font-style: normal;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+/* END Light */
+
+
+/* BEGIN Regular */
+@font-face {
+    font-family: 'Jost';
+    src: url('/docs/assets/core/fonts/Jost/Jost-Regular.ttf') format('truetype'); 
+    font-style: normal;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+}
+/* END Regular */
+
+
+/* BEGIN Medium */
+@font-face {
+    font-family: 'Jost';
+    src: url('/docs/assets/core/fonts/Jost/Jost-Medium.ttf') format('truetype'); 
+    font-style: normal;
+    font-weight: 500;
+    text-rendering: optimizeLegibility;
+}
+/* END Medium */
+
+
+/* BEGIN Bold */
+@font-face {
+    font-family: 'Jost';
+    src: url('/docs/assets/core/fonts/Jost/Jost-Bold.ttf') format('truetype'); 
+    font-style: normal;
+    font-weight: 600;
+    text-rendering: optimizeLegibility;
+}
+/* END Bold */
+
+
+/* https://fonts.google.com/specimen/Inter */
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 200;
+    font-optical-sizing: auto;
+    text-rendering: optimizeLegibility;
+    font-display: swap;
+    src: url("/dist/assets/core/fonts/inter/Inter-ExtraLight.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-optical-sizing: auto;
+    text-rendering: optimizeLegibility;
+    font-display: swap;
+    src: url("/dist/assets/core/fonts/inter/Inter-Light.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-optical-sizing: auto;
+    text-rendering: optimizeLegibility;
+    font-display: swap;
+    src: url("/dist/assets/core/fonts/inter/Inter-Regular.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-optical-sizing: auto;
+    text-rendering: optimizeLegibility;
+    font-display: swap;
+    src: url("/dist/assets/core/fonts/inter/Inter-Medium.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-optical-sizing: auto;
+    text-rendering: optimizeLegibility;
+    font-display: swap;
+    src: url("/dist/assets/core/fonts/inter/Inter-SemiBold.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-optical-sizing: auto;
+    text-rendering: optimizeLegibility;
+    font-display: swap;
+    src: url("/dist/assets/core/fonts/inter/Inter-Bold.ttf") format("truetype");
+  }

@@ -4,10 +4,11 @@ Two agent skills for building a design system in code and keeping it aligned wit
 Figma. Plain `SKILL.md` in the open Agent Skills format — no vendor lock-in, no
 runtime, no dependencies.
 
-| Skill | What it covers |
+| Resource | What it covers |
 |---|---|
 | **`design-system-code`** | Building and enforcing a design system inside a codebase — token tiers nothing can skip, and guards that stop the code drifting off them. New and existing projects need different guards; there is a path for each. |
 | **`figma-code-sync`** | Keeping an existing Figma design system aligned with the code as the code changes — token parity, component parity, contrast, templates, and the DTCG pipeline. |
+| **`html-kit`** | Corporate HTML UI kit containing reference pages, documentation, templates, and core/vendor assets. |
 
 ## Install
 

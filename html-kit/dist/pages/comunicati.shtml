@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <title>PosteItaliane.it</title>
+
+    <!--#set var="core_resources" value="on" -->
+    <!--#set var="swiper_resources" value="on" -->
+    <!--#set var="masonry_resources" value="off" -->
+    <!--#include virtual="/dist/includes/utilities/head-tag.shtml" -->
+    <meta name="description"
+        content="pagina esempio comunicati stampa corporate Poste Italiane, parte della linea guida grafica COM / DM">
+</head>
+
+<body id="foglia" class="no-js">
+    <nav id="skiplink" aria-label="Navigazione di pagina">
+        <ul>
+            <li><a tabindex="0" class="skip-link visually-hidden-focusable-abs" href="#accessibility-anchor">Passa al
+                    contenuto principale</a></li>
+            <li><a class="skip-link visually-hidden-focusable-abs" href="#footer">Passa al footer di pagina</a></li>
+        </ul>
+    </nav>
+    <header class="sticky">
+        <div class="sticky-wrap">
+            <!-- section Fedbar-->
+            <section class="section section-fedbar">
+                <div class="section-wrap">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <!--#include virtual="/dist/includes/header/header-section-fedbar.html" -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- section Navbar-->
+            <section class="section section-navbar">
+                <div class="section-wrap">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <!--#include virtual="/dist/includes/header/navbar-section-default.html" -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </header>
+
+    <main id="accessibility-anchor">
+
+        <h1 class="visually-hidden">PosteItaliane.it - Comunicati stampa</h1>
+        <section class="section section-module module-intro concept-photo module-overlay" data-pi-overlay="dark"
+            data-pi-theme-switch="true" data-bs-theme="dark">
+            <!--#include virtual="/dist/includes/object/module-intro-photo-01.html" -->
+        </section>
+
+        <section class="section mb-3">
+            <div class="section-wrap">
+                <div class="container">
+                    <div class="row mb-5">
+                        <div class="col-lg-10 offset-lg-1">
+                            <div class="input-group align-items-center">
+                                <input name="input-search" type="text"
+                                    class="form-control form-control-lg input-search border border-1 border-secondary rounded-5 ps-3 pe-6"
+                                    placeholder="Cerca fra i comunicati stampa"
+                                    aria-label="Cerca fra i comunicati stampa">
+                                <button type="button" class="btn btn-cta btn-primary rounded-5 ms-n6">
+                                    <span class="icon">
+                                        <svg focusable="false">
+                                            <title>Lorem ipsum</title>
+                                            <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#001b-arrow-forward-m"
+                                                href="/dist/assets/core/images/iconset/sprite.svg#001b-arrow-forward-m">
+                                            </use>
+                                        </svg>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-2">
+                        <div class="col-12">
+                            <form>
+                                <fieldset>
+                                    <legend class="visually-hidden">Filtri di ricerca lorem ipsum</legend>
+                                    <div class="row gap-4">
+                                        <div class="col-12">
+                                            <div class="scroll-content-x mobile-hide-scroll">
+                                                <ul class="list-unstyled gap-2 justify-content-start justify-content-md-center mb-0 pb-3">
+                                                    <li>
+                                                        <input type="checkbox" class="btn-check" id="btn-check"
+                                                            checked="" autocomplete="off" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="true" aria-controls="collapseExample">
+                                                        <label class="btn btn-icon btn-secondary btn-sm" for="btn-check">
+                                                            <span class="icon">
+                                                                <svg focusable="false">
+                                                                    <title>Lorem ipsum</title>
+                                                                    <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#042a-panorama-m"
+                                                                        href="/dist/assets/core/images/iconset/sprite.svg#042a-panorama-m"></use>
+                                                                </svg>
+                                                            </span>Filtri</label>
+                                                    </li>
+                                                    <li>
+                                                        <input type="checkbox" class="btn-check" id="btn-check-1"
+                                                            autocomplete="off">
+                                                        <label class="btn btn-secondary btn-sm" for="btn-check-1">Ultimi 12 mesi</label>
+                                                    </li>
+                                                    <li>
+                                                        <input type="checkbox" class="btn-check" id="btn-check-2"
+                                                            autocomplete="off">
+                                                        <label class="btn btn-secondary btn-sm"
+                                                            for="btn-check-2">2025</label>
+                                                    </li>
+                                                    <li>
+                                                        <input type="checkbox" class="btn-check" id="btn-check-3"
+                                                            autocomplete="off">
+                                                        <label class="btn btn-secondary btn-sm"
+                                                            for="btn-check-3">2024</label>
+                                                    </li>
+                                                    <li>
+                                                        <input type="checkbox" class="btn-check" id="btn-check-4"
+                                                            autocomplete="off">
+                                                        <label class="btn btn-secondary btn-sm"
+                                                            for="btn-check-4">2023</label>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="collapse show" id="collapseExample">
+            <section class="section bg-neutral-97 py-4">
+                <div class="section-wrap">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <fieldset>
+                                    <legend class="h3 visually-hidden">Effettua una ricerca</legend>
+                                    <div class="row g-4">
+                                        <div class="col-md-4">
+                                            <label for="form-Tipologia" class="form-label">Tipologia</label>
+                                            <select class="form-select" aria-label="Tipologia Lorem ipsum"
+                                                id="form-Tipologia">
+                                                <option selected="">Seleziona</option>
+                                                <option value="1">Assemblea azionisti</option>
+                                                <option value="2">Annual results</option>
+                                                <option value="3">Interim results</option>
+                                                <option value="4">Piano strategico</option>
+                                                <option value="5">Acquisizioni</option>
+                                                <option value="6">Finanza</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <label for="basic-addon3" class="form-label">Dal</label>
+                                            <div class="input-group">
+                                                <input type="text" class="form-control" placeholder="gg/mm/aaaa"
+                                                    id="basic-addon3">
+                                                <span class="input-group-addon">
+                                                    <button type="button">
+                                                        <span class="icon">
+                                                            <svg focusable="false">
+                                                                <title>Lorem ipsum amet</title>
+                                                                <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#012a-calendar-month-m"
+                                                                    href="/dist/assets/core/images/iconset/sprite.svg#012a-calendar-month-m">
+                                                                </use>
+                                                            </svg>
+                                                        </span>
+                                                    </button>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <label for="basic-addon3" class="form-label">Al</label>
+                                            <div class="input-group">
+                                                <input type="text" class="form-control" placeholder="gg/mm/aaaa"
+                                                    id="basic-addon3">
+                                                <span class="input-group-addon">
+                                                    <button type="button">
+                                                        <span class="icon">
+                                                            <svg focusable="false">
+                                                                <title>Lorem ipsum amet</title>
+                                                                <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#012a-calendar-month-m"
+                                                                    href="/dist/assets/core/images/iconset/sprite.svg#012a-calendar-month-m">
+                                                                </use>
+                                                            </svg>
+                                                        </span>
+                                                    </button>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section class="section">
+            <div class="section-wrap">
+                <div class="container">
+                    <div class="row gap-6">
+                        <div class="col-12">
+                            <div class="row gap-4">
+                                <div class="col-12">
+                                    <div class="content-heading separator">
+                                        <h2 class="heading fw-medium">Giugno 2025</h2>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="card shadow-none">
+                                        <div class="card-body px-0">
+                                            <div class="card-wrap">
+                                                <div class="mb-3">
+                                                    <span class="card-date">Roma, 19 Giu 2025 - 09:30</span>
+                                                    <span class="tag tag-dot">Price sensitive</span>
+                                                </div>
+                                            </div>
+                                            <div class="card-wrap">
+                                                <h3 class="card-title h4 fw-medium" id="card-simple-title-01">Poste
+                                                    Italiane: pubblicata la Relazione Finanziaria Semestrale al 30
+                                                    giugno 2024</h3>
+                                            </div>
+                                            <div class="card-wrap">
+                                                <p class="card-text">Si informa che la Relazione Finanziaria Semestrale
+                                                    al 30 giugno 2024 &egrave; a disposizione del pubblico presso la
+                                                    sede sociale, sul sito internet della Societ&agrave;
+                                                    (www.posteitaliane.it), nonch&eacute; presso il meccanismo di
+                                                    stoccaggio autorizzato "eMarket Storage" (www.emarketstorage.com).
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer px-0">
+                                            <div class="card-wrap mb-3">
+                                                <div class="d-flex flex-row flex-wrap gap-2 gap-sm-4">
+                                                    <div class="d-flex me-2">
+                                                        <a class="btn btn-icon btn-sm btn-link" id="card-simple-link-01"
+                                                            href="#"
+                                                            aria-labelledby="card-simple-title-01 card-simple-link-01">
+                                                            <span class="icon">
+                                                                <svg focusable="false">
+                                                                    <title>Lorem ipsum</title>
+                                                                    <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#001b-arrow-forward-m"
+                                                                        href="/dist/assets/core/images/iconset/sprite.svg#001b-arrow-forward-m">
+                                                                    </use>
+                                                                </svg>
+                                                            </span>Maggiori dettagli
+                                                        </a>
+                                                    </div>
+                                                    <div
+                                                        class="d-flex flex-row flex-wrap gap-2 justify-content-between align-items-center">
+                                                        <a class="btn btn-icon btn-sm btn-link" id="card-simple-link-02"
+                                                            href="#"
+                                                            aria-labelledby="card-simple-title-01 card-simple-link-02">
+                                                            <span class="icon">
+                                                                <svg focusable="false">
+                                                                    <title>Lorem ipsum</title>
+                                                                    <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#017a-file-download-m"
+                                                                        href="/dist/assets/core/images/iconset/sprite.svg#017a-file-download-m">
+                                                                    </use>
+                                                                </svg>
+                                                            </span>Scarica
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="card shadow-none">
+                                        <div class="card-body px-0">
+                                            <div class="card-wrap">
+                                                <div class="mb-3">
+                                                    <span class="card-date">Roma, 12 Giu 2025 - 12:30</span>
+                                                </div>
+                                            </div>
+                                            <div class="card-wrap">
+                                                <h3 class="card-title h4 fw-medium" id="card-simple-title-02">Poste
+                                                    Italiane: inaugurato il nuovo ufficio postale mobile Vaticano in
+                                                    piazza San Pietro</h3>
+                                            </div>
+                                            <div class="card-wrap">
+                                                <p class="card-text">Alla presenza del Cardinale Fernando Vérgez Alzaga,
+                                                    e del Direttore Generale di Poste Italiane Giuseppe Lasco</p>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer px-0">
+                                            <div class="card-wrap mb-3">
+                                                <div class="d-flex flex-row flex-wrap gap-2 gap-sm-4">
+                                                    <div class="d-flex me-2">
+                                                        <a class="btn btn-icon btn-sm btn-link" id="card-simple-link-03"
+                                                            href="#"
+                                                            aria-labelledby="card-simple-title-02 card-simple-link-03">
+                                                            <span class="icon">
+                                                                <svg focusable="false">
+                                                                    <title>Lorem ipsum</title>
+                                                                    <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#001b-arrow-forward-m"
+                                                                        href="/dist/assets/core/images/iconset/sprite.svg#001b-arrow-forward-m">
+                                                                    </use>
+                                                                </svg>
+                                                            </span>Maggiori dettagli
+                                                        </a>
+                                                    </div>
+                                                    <div
+                                                        class="d-flex flex-row flex-wrap gap-2 justify-content-between align-items-center">
+                                                        <a class="btn btn-icon btn-sm btn-link" id="card-simple-link-04"
+                                                            href="#"
+                                                            aria-labelledby="card-simple-title-02 card-simple-link-04">
+                                                            <span class="icon">
+                                                                <svg focusable="false">
+                                                                    <title>Lorem ipsum</title>
+                                                                    <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#017a-file-download-m"
+                                                                        href="/dist/assets/core/images/iconset/sprite.svg#017a-file-download-m">
+                                                                    </use>
+                                                                </svg>
+                                                            </span>Scarica
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="row gap-4">
+                                <div class="col-12">
+                                    <div class="content-heading separator">
+                                        <h2 class="heading fw-medium">Aprile 2025</h2>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="card shadow-none">
+                                        <div class="card-body px-0">
+                                            <div class="card-wrap">
+                                                <div class="mb-3">
+                                                    <span class="card-date">Roma, 4 Apr 2025 - 15:30</span>
+                                                    <span class="tag tag-dot">Lorem ipsum</span>
+                                                </div>
+                                            </div>
+                                            <div class="card-wrap">
+                                                <h3 class="card-title h4 fw-medium" id="card-simple-title-01">Poste
+                                                    Italiane: avvia la seconda tranche del programma di acquisto di
+                                                    azioni proprie.</h3>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer px-0">
+                                            <div class="card-wrap mb-3">
+                                                <div class="d-flex flex-row flex-wrap gap-2 gap-sm-4">
+                                                    <div class="d-flex me-2">
+                                                        <a class="btn btn-icon btn-sm btn-link" id="card-simple-link-01"
+                                                            href="#"
+                                                            aria-labelledby="card-simple-title-01 card-simple-link-01">
+                                                            <span class="icon">
+                                                                <svg focusable="false">
+                                                                    <title>Lorem ipsum</title>
+                                                                    <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#001b-arrow-forward-m"
+                                                                        href="/dist/assets/core/images/iconset/sprite.svg#001b-arrow-forward-m">
+                                                                    </use>
+                                                                </svg>
+                                                            </span>Maggiori dettagli
+                                                        </a>
+                                                    </div>
+                                                    <div
+                                                        class="d-flex flex-row flex-wrap gap-2 justify-content-between align-items-center">
+                                                        <a class="btn btn-icon btn-sm btn-link" id="card-simple-link-02"
+                                                            href="#"
+                                                            aria-labelledby="card-simple-title-01 card-simple-link-02">
+                                                            <span class="icon">
+                                                                <svg focusable="false">
+                                                                    <title>Lorem ipsum</title>
+                                                                    <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#017a-file-download-m"
+                                                                        href="/dist/assets/core/images/iconset/sprite.svg#017a-file-download-m">
+                                                                    </use>
+                                                                </svg>
+                                                            </span>Scarica
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer id="footer">
+        <section class="section section-footer section-footer-info">
+            <div class="section-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--#include virtual="/dist/includes/footer/footer-section-info.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-footer section-footer-extra">
+            <div class="section-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--#include virtual="/dist/includes/footer/footer-section-extra.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--#include virtual="/dist/includes/utilities/footer-tag.shtml" -->
+
+    </footer>
+</body>
+
+</html>

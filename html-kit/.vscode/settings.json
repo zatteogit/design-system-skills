@@ -1,0 +1,21 @@
+{
+    "liveSassCompile.settings.forceBaseDirectory": "",
+
+    "liveSassCompile.settings.formats": [{
+        "format": "expanded",
+        "extensionName": ".css",
+        //"savePath": "./dist/assets/core/css"
+        "savePath": "~/../css"
+    },
+    {
+        "format": "compressed",
+        "extensionName": ".min.css",
+        //"savePath": "./dist/assets/core/css"
+        "savePath": "~/../css"
+    }
+],
+"liveSassCompile.settings.autoprefix": [
+    
+
+]
+}

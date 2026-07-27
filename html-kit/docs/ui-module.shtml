@@ -1,0 +1,1468 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <title>Html kit - Ui - Module</title>
+    <!--#include virtual="/docs/includes/utilities/head-tag.html" -->
+    <script>
+      var setDocsActivePage = "Module";
+    </script>
+  </head>
+
+  <body tabindex="0">
+    <header class="sticky-top">
+      <!--#include virtual="/docs/includes/nav/nav-main-documentazione.html" -->
+      <!--#include virtual="/docs/includes/header/abstract-default.html" -->
+    </header>
+
+    <main>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-3 col-lg-2 border-end border-grey01 border-5">
+            <nav id="nav-sidebar" class="sticky-top">
+              <!--#include virtual="/docs/includes/nav/nav-sidebar-documentazione.html" -->
+            </nav>
+          </div>
+          <div class="col-sm-9 col-lg-8 pt-4 pb-5">
+            <section class="container">
+              <div class="row">
+                <!--Breadcrumb-->
+                <div id="breadcrumb" class="col-12">
+                  <nav
+                    style="--bs-breadcrumb-divider: url(&#34;data:image/svg + xml, %3Csvgxmlns='http://www.w3.org/2000/svg'width='8'height='8'%3E%3Cpathd='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z'fill='currentColor'/%3E%3C/svg%3E&#34;)"
+                    aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item"><a href="#">Assets</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">Module</li>
+                    </ol>
+                  </nav>
+                </div>
+                <!--Breadcrumb end-->
+                <!--Main title-->
+                <div id="main-title" class="col-12">
+                  <h2 class="heading h1 fw-normal">Module</h2>
+                </div>
+                <!--Main title end-->
+                <!--Article-->
+                <article class="mb-5">
+                  <div class="col-12">
+                    <div class="main-pills main-pills-basic rounded" id="contenuto">
+                      <div class="main-pills-body mt-3">
+                        <!--Blocco 1-->
+                        <div class="content">
+                          <p>
+                            Le fasce <strong>Module</strong> rappresentano un elemento fondamentale per presentare contenuti rilevanti in modo visivamente accattivante e strutturato. Questi componenti sono pensati per attirare l'attenzione
+                            dell'utente su argomenti chiave, utilizzando una combinazione di testo, immagini e call-to-action.
+                          </p>
+                          <p>Sono state predisposte <strong>due tipologie</strong> di fasce Module.</p>
+                        </div>
+                        <div class="content">
+                          <div class="table-responsive">
+                            <table class="table">
+                              <caption>
+                                Varianti implementate
+                              </caption>
+                              <thead>
+                                <tr>
+                                  <th scope="col">Nome classe</th>
+                                  <th scope="col">Descrizione variante</th>
+                                </tr>
+                              </thead>
+                              <tbody class="table-group-divider">
+                                <tr>
+                                  <td><code>.module-intro</code></td>
+                                  <td colspan="2">Si tratta di un elemento introduttivo che fornisce un contesto chiaro e visivamente rilevante per il contenuto che segue.<br /></td>
+                                </tr>
+                                <tr>
+                                  <td><code>.module-display</code></td>
+                                  <td colspan="2">Utile per "dividere" i contenuti nel corpo della pagina. Ha un ruolo pi&ugrave; flessibile e pu&ograve essere anche utilizzata per mettere in evidenza sezioni o messaggi specifici.</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                        <div class="divider bg-grey01 my-4"></div>
+                        <div class="content">
+                          <h4 class="heading h5">Module Intro</h4>
+                        </div>
+                        <div class="content">
+                          <p>Il <span class="tag-code">.module-intro</span> si declina in <strong>tre configurazioni principali</strong>, pensate per soddisfare esigenze visive e funzionali differenti:</p>
+                          <ul>
+                            <li>
+                              Versione <strong>base</strong>, che elimina l'immagine di sfondo per concentrarsi esclusivamente sugli elementi testuali e di navigazione, offrendo un approccio più minimale e focalizzato. Questa configurazione non
+                              necessita di classe modificatrice.
+                            </li>
+                            <li>
+                              <span class="tag-code">.concept-boxed</span> e <span class="tag-code">.concept-photo</span>, entrambe prevedono l’utilizzo di tre immagini ottimizzate per specifici viewport (mobile, tablet e desktop). Tuttavia, si
+                              differenziano per il comportamento e l’impostazione grafica.
+                            </li>
+                          </ul>
+                          <p>Questa flessibilità consente di scegliere la soluzione più adatta in base al contesto e alla tipologia di contenuto da presentare.</p>
+                        </div>
+                        <div class="divider bg-grey01 my-4"></div>
+                        <div class="content">
+                          <h4 class="heading h5">Module Display</h4>
+                        </div>
+                        <div class="content">
+                          <p>
+                            Il <span class="tag-code">.module-display</span> di tipo <span class="tag-code">.concept-photo</span> è progettato per spezzare visivamente i contenuti di una pagina, aggiungendo una fascia con un forte impatto grafico.
+                            Questo componente è pensato per essere posizionato in punti strategici del layout, offrendo una chiara separazione tra sezioni o evidenziando informazioni particolarmente rilevanti.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="divider bg-grey01 py-1 my-2 px-2 d-flex align-items-center justify-content-end">
+                      <span></span>
+                    </div>
+                    <div class="divider bg-grey02 py-1 my-2"></div>
+                  </div>
+                </article>
+                <!--Article end-->
+
+                <!--Article-->
+                <article class="mb-5">
+                  <div class="col-12">
+                    <div class="main-pills main-pills-basic rounded" id="contenuto0">
+                      <div class="main-pills-header rounded">
+                        <div class="row">
+                          <div class="col-12 mt-3">
+                            <h3 class="heading h3 fw-normal border-start border-3 ps-2 border-info">Module Intro - Base</h3>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="main-pills-body">
+                        <!--Blocco 1-->
+                        <div class="content">
+                          <p>
+                            Il <span class="tag-code">.module-intro</span> è una sezione introduttiva che fornisce un contesto chiaro e immediato ai contenuti della pagina. A differenza di altre sezioni visive, questa versione non include un'immagine
+                            di sfondo, concentrandosi esclusivamente sugli elementi testuali.
+                          </p>
+                          <p>La struttura si compone di:</p>
+                          <ul>
+                            <li><strong>Breadcrumb di navigazione</strong>, che aiuta l'utente a comprendere il percorso seguito all'interno del sito.</li>
+                            <li><strong>Caption</strong>, utile per evidenziare categorie o contesti di appartenza.</li>
+                            <li><strong>Titolo della pagina</strong>, evidenziato in modo prominente per garantire immediata leggibilità.</li>
+                            <li><strong>Sottotitolo o descrizione breve</strong>, utile per fornire un'introduzione sintetica al contenuto.</li>
+                            <li><strong>Pulsante di azione</strong>, che può essere utilizzato per accedere a risorse aggiuntive, come un pagina di dettaglio o un documento correlato.</li>
+                          </ul>
+                          <p>Questa configurazione permette di creare una testata funzionale ed elegante, che mantiene il focus sulle informazioni essenziali senza elementi grafici invasivi.</p>
+                        </div>
+                        <div class="preview">
+                          <div class="preview-services">
+                            <div class="row">
+                              <div class="col-6 my-3 d-flex">
+                                <span class="badge rounded-pill align-self-end bg-primary fw-semibold">Preview</span>
+                                <select class="form-select" aria-label="Seleziona la vista responsive" aria-controls="iframe0001">
+                                  <option value="default" selected>Cambia vista Responsive</option>
+                                  <option value="xs">Smartphone (xs - Portrait)</option>
+                                  <option value="sm">Smartphone (sm - Landscape)</option>
+                                  <option value="md">Tablet (md - Landscape)</option>
+                                  <option value="lg">Desktop - small (lg)</option>
+                                  <option value="xl">Desktop - large (xl)</option>
+                                </select>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-12">
+                              <div class="border border-5 border-grey01">
+                                <div class="ratio ratio-21x9 overflow-auto">
+                                  <div id="iframepreview">
+                                    <iframe
+                                      id="iframe0001"
+                                      class="border border-2 border-grey01"
+                                      aria-label="Preview dell'asset responsive"
+                                      role="region"
+                                      aria-live="polite"
+                                      src="/docs/viewer/iframe-viewer.shtml?include-id=uimoduleintro0006"></iframe>
+                                  </div>
+                                </div>
+                              </div>
+                              <span class="preview-caption my-2 d-block"></span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="related-wrap">
+                          <div class="row gap-4 gap-lg-0">
+                            <div class="col-lg-6">
+                              <div class="related-preview h-100">
+                                <div class="related-services">
+                                  <div class="row my-2">
+                                    <div class="col-12">
+                                      <h4 class="heading h5">Preview</h4>
+                                      <ul class="">
+                                        <li><a href="/docs/viewer/iframe-viewer.shtml?include-id=uimoduleintro0006" title="Asset preview fullpage" target="_blank">Asset preview fullpage</a></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-lg-6">
+                              <div class="related h-100">
+                                <div class="related-services">
+                                  <div class="row my-2">
+                                    <div class="col-12">
+                                      <h4 class="heading h5">Pagine esemplificative</h4>
+                                      <ul class="">
+                                        <li><a href="/dist/pages/foglia-comunicati.shtml" title="Foglia - Comunicato stampa" target="_blank">Foglia - Comunicato stampa</a></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="code">
+                          <div class="code-services">
+                            <div class="row">
+                              <div class="col-6 my-3 d-flex">
+                                <span class="badge rounded-pill align-self-end bg-primary fw-semibold">Markup</span>
+                              </div>
+                              <div class="col-6 my-3 text-end">
+                                <a class="copycode" href="#" title="Copia codice">
+                                  <span class="icon">
+                                    <svg focusable="false">
+                                      <title>Copia il codice</title>
+                                      <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#076a-description-m" href="/dist/assets/core/images/iconset/sprite.svg#076a-description-m"></use>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <a class="viewcode" href="#" title="Mostra/Nascondi codice">
+                                  <span class="icon codeshow">
+                                    <svg focusable="false">
+                                      <title>Mostra codice</title>
+                                      <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#016b-visibility-on-m" href="/dist/assets/core/images/iconset/sprite.svg#016b-visibility-on-m"></use>
+                                    </svg>
+                                  </span>
+                                  <span class="icon codehide">
+                                    <svg focusable="false">
+                                      <title>Nascondi codice</title>
+                                      <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#016a-visibility-off-m" href="/dist/assets/core/images/iconset/sprite.svg#016a-visibility-off-m"></use>
+                                    </svg>
+                                  </span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                          <pre><code class="language-html">
+                                                        <!--#include virtual="/docs/includes/code/code-html-ui-module-intro-concept-boxed.html" -->
+                                                    </code>
+                                                </pre>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="divider bg-grey01 py-1 my-2 px-2 d-flex align-items-center justify-content-end">
+                      <span>Asset Cross</span>
+                    </div>
+                    <div class="divider bg-grey02 py-1 my-2"></div>
+                  </div>
+                </article>
+                <!--Article end-->
+
+                <!--Article-->
+                <article class="mb-5">
+                  <div class="col-12">
+                    <div class="main-pills main-pills-basic rounded" id="contenuto1">
+                      <div class="main-pills-header rounded">
+                        <div class="row">
+                          <div class="col-12 mt-3">
+                            <h3 class="heading h3 fw-normal border-start border-3 ps-2 border-info">Module Intro - Concept Boxed</h3>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="main-pills-body">
+                        <!--Blocco 1-->
+                        <div class="content">
+                          <p>Nella configurazione di tipo <span class="tag-code">.concept-boxed</span>, l'immagine e il contenuto testuale sono gestiti in modo distinto per favorire la leggibilità e l'equilibrio visivo:</p>
+                          <ul>
+                            <li>
+                              Su viewport inferiori al cutpoint <span class="tag-code">MD</span> (compreso): <br />L'immagine si comporta in modo fluido, ridimensionandosi proporzionalmente per adattarsi allo spazio disponibile senza perdere dettagli
+                              visibili, e si posiziona dopo il testo.
+                            </li>
+                            <li>
+                              Dal cutpoint <span class="tag-code">LG</span> (compreso) in su: <br />L'immagine si colloca accanto al testo, separata visivamente per creare una chiara distinzione e rafforzare la gerarchia visiva ma può essere, in base
+                              al viewport, parzialmente mascherata.
+                            </li>
+                          </ul>
+                          <p>
+                            Di default, la fascia <span class="tag-code">.module-intro</span> di tipo <span class="tag-code">.concept-boxed</span> ha uno sfondo grigio su desktop e bianco su dispositivi mobili, garantendo un contrasto efficace con il
+                            contenuto principale.
+                          </p>
+                          <p>Sono <strong>3 le immagini</strong> necessarie al corretto funzionamento:</p>
+                          <div class="table-responsive">
+                            <table class="table">
+                              <caption>
+                                Gestione immagini per cutpoint - concept-boxed
+                              </caption>
+                              <thead>
+                                <tr>
+                                  <th>Configurazione</th>
+                                  <th>Viewport (media query)</th>
+                                  <th>Dimensioni immagine (in px)</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td rowspan="3"><code>.concept-boxed</code></td>
+                                  <td>(min-width: 992px)</td>
+                                  <td>912x390</td>
+                                </tr>
+                                <tr>
+                                  <td>(min-width: 768px)</td>
+                                  <td>720x309</td>
+                                </tr>
+                                <tr>
+                                  <td>(max-width: 767px)</td>
+                                  <td>575x309</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <p>E' stata predisposta anche la versione <span class="tag-code">.mode-minimal</span> che nasconde l'immagine dal cutpoint LG (compreso) in su.</p>
+                        </div>
+                        <div class="preview">
+                          <div class="preview-services">
+                            <div class="row">
+                              <div class="col-6 my-3 d-flex">
+                                <span class="badge rounded-pill align-self-end bg-primary fw-semibold">Preview</span>
+                                <select class="form-select" aria-label="Seleziona la vista responsive" aria-controls="iframe0001">
+                                  <option value="default" selected>Cambia vista Responsive</option>
+                                  <option value="xs">Smartphone (xs - Portrait)</option>
+                                  <option value="sm">Smartphone (sm - Landscape)</option>
+                                  <option value="md">Tablet (md - Landscape)</option>
+                                  <option value="lg">Desktop - small (lg)</option>
+                                  <option value="xl">Desktop - large (xl)</option>
+                                </select>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-12">
+                              <div class="border border-5 border-grey01">
+                                <div class="ratio ratio-21x9 overflow-auto">
+                                  <div id="iframepreview">
+                                    <iframe
+                                      id="iframe0001"
+                                      class="border border-2 border-grey01"
+                                      aria-label="Preview dell'asset responsive"
+                                      role="region"
+                                      aria-live="polite"
+                                      src="/docs/viewer/iframe-viewer.shtml?include-id=uimoduleintro0001"></iframe>
+                                  </div>
+                                </div>
+                              </div>
+                              <span class="preview-caption my-2 d-block"></span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="related-wrap">
+                          <div class="row gap-4 gap-lg-0">
+                            <div class="col-lg-6">
+                              <div class="related-preview h-100">
+                                <div class="related-services">
+                                  <div class="row my-2">
+                                    <div class="col-12">
+                                      <h4 class="heading h5">Preview</h4>
+                                      <ul class="">
+                                        <li><a href="/docs/viewer/iframe-viewer.shtml?include-id=uimoduleintro0001" title="Asset preview fullpage" target="_blank">Asset preview fullpage</a></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-lg-6">
+                              <div class="related h-100">
+                                <div class="related-services">
+                                  <div class="row my-2">
+                                    <div class="col-12">
+                                      <h4 class="heading h5">Pagine esemplificative</h4>
+                                      <ul class="">
+                                        <li><a href="/dist/pages/sub-sostenibilita.shtml" title="Sub-home Sostenibilit&agrave;" target="_blank">Sub-home Sostenibilit&agrave;</a></li>
+                                        <li><a href="/dist/pages/sub-investitori.shtml" title="Sub-home Investitori" target="_blank">Sub-home Investitori</a></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="code">
+                          <div class="code-services">
+                            <div class="row">
+                              <div class="col-6 my-3 d-flex">
+                                <span class="badge rounded-pill align-self-end bg-primary fw-semibold">Markup</span>
+                              </div>
+                              <div class="col-6 my-3 text-end">
+                                <a class="copycode" href="#" title="Copia codice">
+                                  <span class="icon">
+                                    <svg focusable="false">
+                                      <title>Copia il codice</title>
+                                      <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#076a-description-m" href="/dist/assets/core/images/iconset/sprite.svg#076a-description-m"></use>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <a class="viewcode" href="#" title="Mostra/Nascondi codice">
+                                  <span class="icon codeshow">
+                                    <svg focusable="false">
+                                      <title>Mostra codice</title>
+                                      <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#016b-visibility-on-m" href="/dist/assets/core/images/iconset/sprite.svg#016b-visibility-on-m"></use>
+                                    </svg>
+                                  </span>
+                                  <span class="icon codehide">
+                                    <svg focusable="false">
+                                      <title>Nascondi codice</title>
+                                      <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#016a-visibility-off-m" href="/dist/assets/core/images/iconset/sprite.svg#016a-visibility-off-m"></use>
+                                    </svg>
+                                  </span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                          <pre><code class="language-html">
+                                                        <!--#include virtual="/docs/includes/code/code-html-ui-module-intro-concept-boxed.html" -->
+                                                    </code>
+                                                </pre>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="divider bg-grey01 py-1 my-2 px-2 d-flex align-items-center justify-content-end">
+                      <span>Asset Cross</span>
+                    </div>
+                    <div class="divider bg-grey02 py-1 my-2"></div>
+                  </div>
+                </article>
+                <!--Article end-->
+
+                <!--Article-->
+                <article class="mb-5">
+                  <div class="col-12">
+                    <div class="main-pills main-pills-basic rounded" id="contenuto2">
+                      <div class="main-pills-header rounded">
+                        <div class="row">
+                          <div class="col-12 mt-3">
+                            <h3 class="heading h3 fw-normal border-start border-3 ps-2 border-info">Module Intro - Concept Photo</h3>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="main-pills-body">
+                        <!--Blocco 1-->
+                        <div class="content">
+                          <p>
+                            Il <span class="tag-code">.module-intro</span> di tipo <span class="tag-code">.concept-photo</span> &egrave progettato per dare massimo risalto all'impatto visivo, integrando l'immagine come parte integrante della fascia.
+                            L'immagine viene mascherata ai lati (sia a destra che a sinistra), mantenendo la sua altezza invariata in relazione ad ogni cutpoint.
+                          </p>
+                          <ul>
+                            <li>
+                              <strong>Comportamento su dispositivi mobili</strong> (<span class="tag-code">XS, SM</span>): Il testo non viene pi&ugrave; sovrapposto all'immagine. L'immagine mantiene il focus visivo al centro, con un effetto di
+                              "ritaglio" omogeneo sui lati per adattarsi allo schermo.
+                            </li>
+                            <li>
+                              <strong>Comportamento su viewport maggiori (tablet e desktop)</strong> (<span class="tag-code">MD, LG, XL, XXL</span>): L'immagine diventa uno sfondo a tutta larghezza della fascia, mentre il contenuto testuale &egrave;
+                              sovrapposto in primo piano. Questo permette di mantenere un forte impatto visivo e cattura immediatamente l'attenzione dell'utente. L'area di focus dell'immagine &egrave; centrata, ma leggermente spostata a destra per
+                              rimanere visivamente all'interno del container di pagina, assicurando coerenza nel layout.
+                            </li>
+                          </ul>
+                          <p>Sono <strong>3 le immagini</strong> necessarie al corretto funzionamento:</p>
+                          <div class="table-responsive">
+                            <table class="table">
+                              <caption>
+                                Gestione immagini per cutpoint - concept-photo
+                              </caption>
+                              <thead>
+                                <tr>
+                                  <th>Configurazione</th>
+                                  <th>Viewport (media query)</th>
+                                  <th>Dimensioni immagine (in px)</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td rowspan="3"><code>.concept-photo</code></td>
+                                  <td>(min-width: 992px)</td>
+                                  <td>2000x470</td>
+                                </tr>
+                                <tr>
+                                  <td>(min-width: 768px)</td>
+                                  <td>991x470</td>
+                                </tr>
+                                <tr>
+                                  <td>(max-width: 767px)</td>
+                                  <td>768x220</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <p>
+                            &Egrave; stata predisposta la classe <span class="tag-code">.module-overlay</span> che consente di abilitare diverse tipologie di overlay in modo da garantire il giusto contrasto del testo con lo sfondo sottostante nei
+                            cutpoint dove &egrave; prevista la loro sovrapposizione.
+                          </p>
+                          <p>Il suo funzionamento &egrave; strettamente correlato all'utilizzo di attributi <code>data</code> personalizzati elencati qui di seguito con i possibili valori attribuibili:</p>
+                          <div class="table-responsive">
+                            <table class="table">
+                              <caption>
+                                module-overlay DATA attribute
+                              </caption>
+                              <thead>
+                                <tr>
+                                  <th>DATA attribute</th>
+                                  <th>Valori</th>
+                                  <th>Descrizione</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td><code>data-pi-overlay</code></td>
+                                  <td><span class="fw-medium">dark</span> / <span class="fw-medium">light</span> / <span class="fw-medium">gradient</span></td>
+                                  <td>gestisce la tipologia di sfondo dell'overlay</td>
+                                </tr>
+                                <tr>
+                                  <td><code>data-bs-theme</code></td>
+                                  <td><span class="fw-medium">dark</span> / <span class="fw-medium">light</span></td>
+                                  <td>gestisce il colore del testo presente all'interno dell'overlay</td>
+                                </tr>
+                                <tr>
+                                  <td><code>data-pi-theme-switch</code></td>
+                                  <td><span class="fw-medium">true</span> / <span class="fw-medium">false</span></td>
+                                  <td>gestisce il cambio di colore del testo sui cutpoint XS e SM (ovvero quando il testo non &egrave; pi&ugrave; sovrapposto ad alcuna immagine)</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <p>Consideriamo il <span class="tag-code">.module-overlay</span> di tipo <span class="tag-code">data-pi-overlay="gradient"</span> come default.</p>
+                          <p>
+                            All'interno di un elemento <span class="tag-code">module</span> di tipo <span class="tag-code">.concept-photo</span>, &egrave; consentito l'utilizzo di <span class="tag-code">.box-rack</span>, il cui posizionamento viene
+                            gestito automaticamente nei vari cutpoint. Tuttavia, &egrave; possibile forzare l'allineamento al centro (solo per cutpoint inferiori o uguali a SM) aggiungendo la classe <span class="tag-code">.mode-center</span> al
+                            contenitore <span class="tag-code">.rack-module</span>.
+                          </p>
+                          <p>Qui di seguito un esempio di implementazione.</p>
+                        </div>
+                        <div class="preview">
+                          <div class="preview-services">
+                            <div class="row">
+                              <div class="col-6 my-3 d-flex">
+                                <span class="badge rounded-pill align-self-end bg-primary fw-semibold">Preview</span>
+                                <select class="form-select" aria-label="Seleziona la vista responsive" aria-controls="iframe0002">
+                                  <option value="default" selected>Cambia vista Responsive</option>
+                                  <option value="xs">Smartphone (xs - Portrait)</option>
+                                  <option value="sm">Smartphone (sm - Landscape)</option>
+                                  <option value="md">Tablet (md - Landscape)</option>
+                                  <option value="lg">Desktop - small (lg)</option>
+                                  <option value="xl">Desktop - large (xl)</option>
+                                </select>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-12">
+                              <div class="border border-5 border-grey01">
+                                <div class="ratio ratio-21x9 overflow-auto">
+                                  <div id="iframepreview">
+                                    <iframe
+                                      id="iframe0002"
+                                      class="border border-2 border-grey01"
+                                      aria-label="Preview dell'asset responsive"
+                                      role="region"
+                                      aria-live="polite"
+                                      src="/docs/viewer/iframe-viewer.shtml?include-id=uimoduleintro0002"></iframe>
+                                  </div>
+                                </div>
+                              </div>
+                              <span class="preview-caption my-2 d-block"></span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="related-wrap">
+                          <div class="row gap-4 gap-lg-0">
+                            <div class="col-lg-12">
+                              <div class="related-preview h-100">
+                                <div class="related-services">
+                                  <div class="row my-2">
+                                    <div class="col-12">
+                                      <h4 class="heading h5">Preview</h4>
+                                      <ul class="">
+                                        <li><a href="/docs/viewer/iframe-viewer.shtml?include-id=uimoduleintro0002" title="Asset preview fullpage" target="_blank">Asset preview fullpage</a></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!--
+                            <div class="col-lg-6">
+                                <div class="related h-100">
+                                    <div class="related-services">
+                                        <div class="row my-2">
+                                            <div class="col-12">
+                                                <h4 class="heading h5">Pagine esemplificative</h4>
+                                                <ul class="">
+                                                  <li><a href="/dist/pages/sub-sostenibilita.shtml" title="Sub-home Sostenibilit&agrave;" target="_blank">Sub-home Sostenibilit&agrave;</a></li>
+                                                  <li><a href="/dist/pages/sub-investitori.shtml" title="Sub-home Investitori" target="_blank">Sub-home Investitori</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            -->
+                          </div>
+                        </div>
+                        <div class="code">
+                          <div class="code-services">
+                            <div class="row">
+                              <div class="col-6 my-3 d-flex">
+                                <span class="badge rounded-pill align-self-end bg-primary fw-semibold">Markup</span>
+                              </div>
+                              <div class="col-6 my-3 text-end">
+                                <a class="copycode" href="#" title="Copia codice">
+                                  <span class="icon">
+                                    <svg focusable="false">
+                                      <title>Copia il codice</title>
+                                      <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#076a-description-m" href="/dist/assets/core/images/iconset/sprite.svg#076a-description-m"></use>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <a class="viewcode" href="#" title="Mostra/Nascondi codice">
+                                  <span class="icon codeshow">
+                                    <svg focusable="false">
+                                      <title>Mostra codice</title>
+                                      <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#016b-visibility-on-m" href="/dist/assets/core/images/iconset/sprite.svg#016b-visibility-on-m"></use>
+                                    </svg>
+                                  </span>
+                                  <span class="icon codehide">
+                                    <svg focusable="false">
+                                      <title>Nascondi codice</title>
+                                      <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#016a-visibility-off-m" href="/dist/assets/core/images/iconset/sprite.svg#016a-visibility-off-m"></use>
+                                    </svg>
+                                  </span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                          <pre><code class="language-html">
+                                                        <!--#include virtual="/docs/includes/code/code-html-ui-module-intro-concept-photo.html" -->
+                                                    </code>
+                                                </pre>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="divider bg-grey01 py-1 my-2 px-2 d-flex align-items-center justify-content-end">
+                      <span>Asset Cross</span>
+                    </div>
+                    <div class="divider bg-grey02 py-1 my-2"></div>
+                  </div>
+                </article>
+                <!--Article end-->
+
+                <!--Article-->
+                <article class="mb-5">
+                  <div class="col-12">
+                    <div class="main-pills main-pills-basic rounded" id="contenuto3">
+                      <div class="main-pills-header rounded">
+                        <div class="row">
+                          <div class="col-12 mt-3">
+                            <h3 class="heading h3 fw-normal border-start border-3 ps-2 border-info">Module Intro - Concept Photo (dark)</h3>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="main-pills-body">
+                        <!--Blocco 1-->
+                        <div class="content">
+                          <p>
+                            La configurazione <code>dark</code> della tipologia <span class="tag-code">.concept-photo</span> utilizza la classe <span class="tag-code">.module-overlay</span> (i cui dettagli sono
+                            <a href="#contenuto2"> descritti qui</a>) e consente di applicare un overlay scuro semitrasparente, migliorando il contrasto del testo rispetto all'immagine di sfondo. Questa opzione risulta particolarmente utile quando
+                            l'immagine di background presenta colori chiari o variazioni luminose che potrebbero compromettere la leggibilità del contenuto.
+                          </p>
+                          <p>
+                            Per abilitare l'overlay scuro, &egrave; stato aggiunto l'attributo <span class="tag-code">data-pi-overlay="dark"</span> alla classe <span class="tag-code">.module-overlay</span>. Utilizziamo
+                            <span class="tag-code">data-bs-theme="dark"</span> per applicare il colore chiaro al testo sovrapposto.
+                          </p>
+                          <p>Il <span class="tag-code">data-pi-theme-switch="true"</span> permette lo switch del colore del testo sui cutpoint piccoli</p>
+                        </div>
+                        <div class="preview">
+                          <div class="preview-services">
+                            <div class="row">
+                              <div class="col-6 my-3 d-flex">
+                                <span class="badge rounded-pill align-self-end bg-primary fw-semibold">Preview</span>
+                                <select class="form-select" aria-label="Seleziona la vista responsive" aria-controls="iframe0003">
+                                  <option value="default" selected>Cambia vista Responsive</option>
+                                  <option value="xs">Smartphone (xs - Portrait)</option>
+                                  <option value="sm">Smartphone (sm - Landscape)</option>
+                                  <option value="md">Tablet (md - Landscape)</option>
+                                  <option value="lg">Desktop - small (lg)</option>
+                                  <option value="xl">Desktop - large (xl)</option>
+                                </select>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-12">
+                              <div class="border border-5 border-grey01">
+                                <div class="ratio ratio-21x9 overflow-auto">
+                                  <div id="iframepreview">
+                                    <iframe
+                                      id="iframe0003"
+                                      class="border border-2 border-grey01"
+                                      aria-label="Preview dell'asset responsive"
+                                      role="region"
+                                      aria-live="polite"
+                                      src="/docs/viewer/iframe-viewer.shtml?include-id=uimoduleintro0003"></iframe>
+                                  </div>
+                                </div>
+                              </div>
+                              <span class="preview-caption my-2 d-block"></span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="related-wrap">
+                          <div class="row gap-4 gap-lg-0">
+                            <div class="col-lg-6">
+                              <div class="related-preview h-100">
+                                <div class="related-services">
+                                  <div class="row my-2">
+                                    <div class="col-12">
+                                      <h4 class="heading h5">Preview</h4>
+                                      <ul class="">
+                                        <li><a href="/docs/viewer/iframe-viewer.shtml?include-id=uimoduleintro0003" title="Asset preview fullpage" target="_blank">Asset preview fullpage</a></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-lg-6">
+                              <div class="related h-100">
+                                <div class="related-services">
+                                  <div class="row my-2">
+                                    <div class="col-12">
+                                      <h4 class="heading h5">Pagine esemplificative</h4>
+                                      <ul class="">
+                                        <li><a href="/dist/pages/foglia-educazione-finanziaria.shtml" title="Foglia - Educazione finanziaria" target="_blank">Foglia - Educazione finanziaria</a></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="code">
+                          <div class="code-services">
+                            <div class="row">
+                              <div class="col-6 my-3 d-flex">
+                                <span class="badge rounded-pill align-self-end bg-primary fw-semibold">Markup</span>
+                              </div>
+                              <div class="col-6 my-3 text-end">
+                                <a class="copycode" href="#" title="Copia codice">
+                                  <span class="icon">
+                                    <svg focusable="false">
+                                      <title>Copia il codice</title>
+                                      <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#076a-description-m" href="/dist/assets/core/images/iconset/sprite.svg#076a-description-m"></use>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <a class="viewcode" href="#" title="Mostra/Nascondi codice">
+                                  <span class="icon codeshow">
+                                    <svg focusable="false">
+                                      <title>Mostra codice</title>
+                                      <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#016b-visibility-on-m" href="/dist/assets/core/images/iconset/sprite.svg#016b-visibility-on-m"></use>
+                                    </svg>
+                                  </span>
+                                  <span class="icon codehide">
+                                    <svg focusable="false">
+                                      <title>Nascondi codice</title>
+                                      <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#016a-visibility-off-m" href="/dist/assets/core/images/iconset/sprite.svg#016a-visibility-off-m"></use>
+                                    </svg>
+                                  </span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                          <pre><code class="language-html">
+                                                        <!--#include virtual="/docs/includes/code/code-html-ui-module-intro-concept-photo-dark.html" -->
+                                                    </code>
+                                                </pre>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="divider bg-grey01 py-1 my-2 px-2 d-flex align-items-center justify-content-end">
+                      <span>Asset Cross</span>
+                    </div>
+                    <div class="divider bg-grey02 py-1 my-2"></div>
+                  </div>
+                </article>
+                <!--Article end-->
+                <!--Article-->
+                <article class="mb-5">
+                  <div class="col-12">
+                    <div class="main-pills main-pills-basic rounded" id="contenuto4">
+                      <div class="main-pills-header rounded">
+                        <div class="row">
+                          <div class="col-12 mt-3">
+                            <h3 class="heading h3 fw-normal border-start border-3 ps-2 border-info">Module Intro - Concept Photo (Light)</h3>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="main-pills-body">
+                        <!--Blocco 1-->
+                        <div class="content">
+                          <p>
+                            La configurazione <code>light</code> della tipologia <span class="tag-code">.concept-photo</span> utilizza la classe <span class="tag-code">.module-overlay</span> (i cui dettagli sono al
+                            <a href="#contenuto2">descritti qui</a>) e consente di applicare un overlay chiaro semitrasparente, migliorando il contrasto del testo rispetto all'immagine di sfondo. Questa opzione risulta particolarmente utile quando
+                            l'immagine di background presenta colori scuri o tonalità uniformi che potrebbero rendere meno visibile il contenuto testuale.
+                          </p>
+                          <p>
+                            Per abilitare l'overlay chiaro, &egrave; stato aggiunto l'attributo <span class="tag-code">data-pi-overlay="light"</span> alla classe <span class="tag-code">.module-overlay</span>. Utilizziamo
+                            <span class="tag-code">data-bs-theme="light"</span> per applicare il colore scuro al testo sovrapposto.
+                          </p>
+                        </div>
+                        <div class="preview">
+                          <div class="preview-services">
+                            <div class="row">
+                              <div class="col-6 my-3 d-flex">
+                                <span class="badge rounded-pill align-self-end bg-primary fw-semibold">Preview</span>
+                                <select class="form-select" aria-label="Seleziona la vista responsive" aria-controls="iframe0004">
+                                  <option value="default" selected>Cambia vista Responsive</option>
+                                  <option value="xs">Smartphone (xs - Portrait)</option>
+                                  <option value="sm">Smartphone (sm - Landscape)</option>
+                                  <option value="md">Tablet (md - Landscape)</option>
+                                  <option value="lg">Desktop - small (lg)</option>
+                                  <option value="xl">Desktop - large (xl)</option>
+                                </select>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-12">
+                              <div class="border border-5 border-grey01">
+                                <div class="ratio ratio-21x9 overflow-auto">
+                                  <div id="iframepreview">
+                                    <iframe
+                                      id="iframe0004"
+                                      class="border border-2 border-grey01"
+                                      aria-label="Preview dell'asset responsive"
+                                      role="region"
+                                      aria-live="polite"
+                                      src="/docs/viewer/iframe-viewer.shtml?include-id=uimoduleintro0004"></iframe>
+                                  </div>
+                                </div>
+                              </div>
+                              <span class="preview-caption my-2 d-block"></span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="related-wrap">
+                          <div class="row gap-4 gap-lg-0">
+                            <div class="col-lg-12">
+                              <div class="related-preview h-100">
+                                <div class="related-services">
+                                  <div class="row my-2">
+                                    <div class="col-12">
+                                      <h4 class="heading h5">Preview</h4>
+                                      <ul class="">
+                                        <li><a href="/docs/viewer/iframe-viewer.shtml?include-id=uimoduleintro0004" title="Asset preview fullpage" target="_blank">Asset preview fullpage</a></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!--
+                            <div class="col-lg-6">
+                                <div class="related h-100">
+                                    <div class="related-services">
+                                        <div class="row my-2">
+                                            <div class="col-12">
+                                                <h4 class="heading h5">Pagine esemplificative</h4>
+                                                <ul class="">
+                                                  <li><a href="/dist/pages/foglia-educazione-finanziaria.shtml" title="Foglia - Educazione finanziaria" target="_blank">Foglia - Educazione finanziaria</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                          --></div>
+                        </div>
+                        <div class="code">
+                          <div class="code-services">
+                            <div class="row">
+                              <div class="col-6 my-3 d-flex">
+                                <span class="badge rounded-pill align-self-end bg-primary fw-semibold">Markup</span>
+                              </div>
+                              <div class="col-6 my-3 text-end">
+                                <a class="copycode" href="#" title="Copia codice">
+                                  <span class="icon">
+                                    <svg focusable="false">
+                                      <title>Copia il codice</title>
+                                      <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#076a-description-m" href="/dist/assets/core/images/iconset/sprite.svg#076a-description-m"></use>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <a class="viewcode" href="#" title="Mostra/Nascondi codice">
+                                  <span class="icon codeshow">
+                                    <svg focusable="false">
+                                      <title>Mostra codice</title>
+                                      <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#016b-visibility-on-m" href="/dist/assets/core/images/iconset/sprite.svg#016b-visibility-on-m"></use>
+                                    </svg>
+                                  </span>
+                                  <span class="icon codehide">
+                                    <svg focusable="false">
+                                      <title>Nascondi codice</title>
+                                      <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#016a-visibility-off-m" href="/dist/assets/core/images/iconset/sprite.svg#016a-visibility-off-m"></use>
+                                    </svg>
+                                  </span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                          <pre><code class="language-html">
+                                                        <!--#include virtual="/docs/includes/code/code-html-ui-module-intro-concept-photo-light.html" -->
+                                                    </code>
+                                                </pre>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="divider bg-grey01 py-1 my-2 px-2 d-flex align-items-center justify-content-end">
+                      <span>Asset Cross</span>
+                    </div>
+                    <div class="divider bg-grey02 py-1 my-2"></div>
+                  </div>
+                </article>
+                <!--Article end-->
+                <!--Article-->
+                <article class="mb-5">
+                  <div class="col-12">
+                    <div class="main-pills main-pills-basic rounded" id="contenuto5">
+                      <div class="main-pills-header rounded">
+                        <div class="row">
+                          <div class="col-12 mt-3">
+                            <h3 class="heading h3 fw-normal border-start border-3 ps-2 border-info">Module Intro - Concept Photo - Carousel</h3>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="main-pills-body">
+                        <!--Blocco 1-->
+                        <div class="content">
+                          <p>Il <span class="tag-code">.module-intro</span> di tipo <span class="tag-code">.concept-photo</span> pu&ograve; essere utilizzato all'interno di un carosello.</p>
+                          <p>Il kit-Html fa uso di Swiper.js, un potente framework per slider per la realizzazione di caroselli responsive ed accessibili.</p>
+                          <div class="divider bg-grey01 my-4"></div>
+                          <h4 class="heading h5">Dipendenze</h4>
+                          <ul>
+                            <li><a href="/dist/assets/vendor/swiper/js/swiper-bundle.min.js" target="_blank" title="">swiper-bundle.min.js</a></li>
+                            <li><a href="/dist/assets/vendor/swiper/css/swiper-bundle.min.css" target="_blank" title="">swiper-bundle.min.css</a></li>
+                            <li><a href="/dist/assets/vendor/swiper/css/swiper-corporate.css" target="_blank" title="">swiper-corporate.css</a></li>
+                          </ul>
+                        </div>
+                        <div class="preview">
+                          <div class="preview-services">
+                            <div class="row">
+                              <div class="col-6 my-3 d-flex">
+                                <span class="badge rounded-pill align-self-end bg-primary fw-semibold">Preview</span>
+                                <select class="form-select" aria-label="Seleziona la vista responsive" aria-controls="iframe0005">
+                                  <option value="default" selected>Cambia vista Responsive</option>
+                                  <option value="xs">Smartphone (xs - Portrait)</option>
+                                  <option value="sm">Smartphone (sm - Landscape)</option>
+                                  <option value="md">Tablet (md - Landscape)</option>
+                                  <option value="lg">Desktop - small (lg)</option>
+                                  <option value="xl">Desktop - large (xl)</option>
+                                </select>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-12">
+                              <div class="border border-5 border-grey01">
+                                <div class="ratio ratio-21x9 overflow-auto">
+                                  <div id="iframepreview">
+                                    <iframe
+                                      id="iframe0005"
+                                      class="border border-2 border-grey01"
+                                      aria-label="Preview dell'asset responsive"
+                                      role="region"
+                                      aria-live="polite"
+                                      src="/docs/viewer/iframe-viewer.shtml?include-id=uimoduleintro0005"></iframe>
+                                  </div>
+                                </div>
+                              </div>
+                              <span class="preview-caption my-2 d-block"></span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="related-wrap">
+                          <div class="row gap-4 gap-lg-0">
+                            <div class="col-lg-12">
+                              <div class="related-preview h-100">
+                                <div class="related-services">
+                                  <div class="row my-2">
+                                    <div class="col-12">
+                                      <h4 class="heading h5">Preview</h4>
+                                      <ul class="">
+                                        <li><a href="/docs/viewer/iframe-viewer.shtml?include-id=uimoduleintro0005" title="Asset preview fullpage" target="_blank">Asset preview fullpage</a></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!--
+                            <div class="col-lg-6">
+                                <div class="related h-100">
+                                    <div class="related-services">
+                                        <div class="row my-2">
+                                            <div class="col-12">
+                                                <h4 class="heading h5">Pagine esemplificative</h4>
+                                                <ul class="">
+                                                    <li><a href="/dist/pages/foglia-educazione-finanziaria.shtml" title="Foglia - Educazione finanziaria" target="_blank">Foglia - Educazione finanziaria</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                          --></div>
+                        </div>
+                        <div class="code">
+                          <div class="code-services">
+                            <div class="row">
+                              <div class="col-6 my-3 d-flex">
+                                <span class="badge rounded-pill align-self-end bg-primary fw-semibold">Markup</span>
+                              </div>
+                              <div class="col-6 my-3 text-end">
+                                <a class="copycode" href="#" title="Copia codice">
+                                  <span class="icon">
+                                    <svg focusable="false">
+                                      <title>Copia il codice</title>
+                                      <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#076a-description-m" href="/dist/assets/core/images/iconset/sprite.svg#076a-description-m"></use>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <a class="viewcode" href="#" title="Mostra/Nascondi codice">
+                                  <span class="icon codeshow">
+                                    <svg focusable="false">
+                                      <title>Mostra codice</title>
+                                      <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#016b-visibility-on-m" href="/dist/assets/core/images/iconset/sprite.svg#016b-visibility-on-m"></use>
+                                    </svg>
+                                  </span>
+                                  <span class="icon codehide">
+                                    <svg focusable="false">
+                                      <title>Nascondi codice</title>
+                                      <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#016a-visibility-off-m" href="/dist/assets/core/images/iconset/sprite.svg#016a-visibility-off-m"></use>
+                                    </svg>
+                                  </span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                          <pre><code class="language-html">
+                                                        <!--#include virtual="/docs/includes/code/code-html-ui-module-intro-concept-photo-carousel.html" -->
+                                                    </code>
+                                                </pre>
+                        </div>
+
+                        <div class="content">
+                          <p>
+                            Al pari di qualsiasi altro carosello in kit, la struttura include un container principale <span class="tag-code">swiper-container</span> con l'attributo <span class="tag-code">aria-roledescription="carousel"</span>,
+                            indicando agli screen reader che si tratta di un carosello.<br />
+                            Le slide sono gestite all'interno di un macro contenitore <span class="tag-code">swiper-wrapper</span>. Ciascun pannello &egrave; all'interno di uno <span class="tag-code">swiper-slide</span>
+                          </p>
+                          <p>
+                            Le configurazioni <code>dark</code> e <code>light</code> del <span class="tag-code">.concept-photo</span> sono pienamente compatibili con la modalità carosello, mantenendo tutte le caratteristiche già descritte in
+                            precedenza. L'overlay e il contrasto del testo continuano a essere gestiti tramite le classi <span class="tag-code">.module-overlay</span> e i relativi attributi <span class="tag-code">data-pi-overlay</span> e
+                            <span class="tag-code">data-bs-theme</span>.
+                          </p>
+                          <p>
+                            Come per qualsiasi altro carosello nel kit, la struttura include un container principale <span class="tag-code">swiper-container</span> con l'attributo <span class="tag-code">aria-roledescription="carousel"</span>,
+                            indicando agli screen reader che si tratta di un carosello. Le slide sono contenute all'interno del macro contenitore <span class="tag-code">swiper-wrapper</span>, con ciascun pannello rappresentato da un elemento
+                            <span class="tag-code">swiper-slide</span>.
+                          </p>
+                          <p>
+                            Tuttavia, è importante sottolineare che all'interno di un singolo carosello non è possibile mescolare pannelli con configurazioni diverse (<code>dark</code> e <code>light</code>). L'intero carosello deve mantenere una
+                            configurazione coerente per garantire un'esperienza visiva uniforme e una corretta gestione degli overlay e del contrasto del testo.
+                          </p>
+                        </div>
+                        <div class="code">
+                          <div class="code-services">
+                            <div class="row">
+                              <div class="col-6 my-3 d-flex">
+                                <span class="badge rounded-pill align-self-end bg-primary fw-semibold">Javascript</span>
+                              </div>
+                              <div class="col-6 my-3 text-end">
+                                <a class="copycode" href="#" title="Copia codice">
+                                  <span class="icon">
+                                    <svg focusable="false">
+                                      <title>Copia il codice</title>
+                                      <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#076a-description-m" href="/dist/assets/core/images/iconset/sprite.svg#076a-description-m"></use>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <a class="viewcode" href="#" title="Mostra/Nascondi codice">
+                                  <span class="icon codeshow">
+                                    <svg focusable="false">
+                                      <title>Mostra codice</title>
+                                      <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#016b-visibility-on-m" href="/dist/assets/core/images/iconset/sprite.svg#016b-visibility-on-m"></use>
+                                    </svg>
+                                  </span>
+                                  <span class="icon codehide">
+                                    <svg focusable="false">
+                                      <title>Nascondi codice</title>
+                                      <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#016a-visibility-off-m" href="/dist/assets/core/images/iconset/sprite.svg#016a-visibility-off-m"></use>
+                                    </svg>
+                                  </span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                          <pre><code class="language-javascript">
+                                                        <!--#include virtual="/docs/includes/code/code-js-ui-module-intro-concept-photo-carousel.html" -->
+                                                    </code>
+                                                </pre>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="divider bg-grey01 py-1 my-2 px-2 d-flex align-items-center justify-content-end">
+                      <span>Asset Cross</span>
+                    </div>
+                    <div class="divider bg-grey02 py-1 my-2"></div>
+                  </div>
+                </article>
+                <!--Article end-->
+
+                <!--Article-->
+                <article class="mb-5">
+                  <div class="col-12">
+                    <div class="main-pills main-pills-basic rounded" id="contenuto6">
+                      <div class="main-pills-header rounded">
+                        <div class="row">
+                          <div class="col-12 mt-3">
+                            <h3 class="heading h3 fw-normal border-start border-3 ps-2 border-info">Module Display - Concept Photo (Light)</h3>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="main-pills-body">
+                        <!--Blocco 1-->
+                        <div class="content">
+                          <p>
+                            Il <span class="tag-code">.module-display</span> di tipo <span class="tag-code">.concept-photo</span> &egrave progettato per spezzare visivamente i contenuti di una pagina, aggiungendo una fascia con un forte impatto
+                            grafico. Questo componente &egrave; pensato per essere posizionato in punti strategici del layout, offrendo una chiara separazione tra sezioni o evidenziando informazioni particolarmente rilevanti.
+                          </p>
+                          <p>L'immagine viene mascherata ai lati (sia a destra che a sinistra), mantenendo la sua altezza invariata in relazione ad ogni cutpoint.</p>
+                          <p>Condivide con il <span class="tag-code">.module-intro</span> di tipo <span class="tag-code">.concept-photo</span> i formati delle immagini nonchè il relativo comportamento.</p>
+                          <ul>
+                            <li>
+                              <strong>Comportamento su dispositivi mobili</strong> (<span class="tag-code">XS, SM</span>): Il testo non viene più sovrapposto all'immagine. L'immagine mantiene il focus visivo al centro, con un effetto di "ritaglio"
+                              omogeneo sui lati per adattarsi allo schermo.
+                            </li>
+                            <li>
+                              <strong>Comportamento su viewport maggiori (tablet e desktop)</strong> (<span class="tag-code">MD, LG, XL, XXL</span>): L'immagine diventa uno sfondo a tutta larghezza della fascia, mentre il contenuto testuale è
+                              sovrapposto in primo piano. Questo permette di mantenere un forte impatto visivo e cattura immediatamente l'attenzione dell'utente. L'area di focus dell'immagine è centrata, ma leggermente spostata a destra per rimanere
+                              visivamente all'interno del container di pagina, assicurando coerenza nel layout.
+                            </li>
+                          </ul>
+                          <p>Sono <strong>3 le immagini</strong> necessarie al corretto funzionamento:</p>
+                          <div class="table-responsive">
+                            <table class="table">
+                              <caption>
+                                Gestione immagini per cutpoint - concept-photo
+                              </caption>
+                              <thead>
+                                <tr>
+                                  <th>Configurazione</th>
+                                  <th>Viewport (media query)</th>
+                                  <th>Dimensioni immagine (in px)</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td rowspan="3"><code>.concept-photo</code></td>
+                                  <td>(min-width: 992px)</td>
+                                  <td>2000x400</td>
+                                </tr>
+                                <tr>
+                                  <td>(min-width: 768px)</td>
+                                  <td>991x400</td>
+                                </tr>
+                                <tr>
+                                  <td>(max-width: 767px)</td>
+                                  <td>768x220</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <p>
+                            A differenza del <span class="tag-code">.module-intro</span>, il <span class="tag-code">.module-display</span> non include un'intestazione di primo livello, poich&eacute; non &egrave; destinato a introdurre la pagina ma a
+                            suddividerla.
+                          </p>
+                          <p>
+                            &Egrave; stata predisposta la classe <span class="tag-code">.module-overlay</span> che consente di abilitare diverse tipologie di overlay in modo da garantire il giusto contrasto del testo con lo sfondo sottostante nei
+                            cutpoint dove &egrave; prevista la loro sovrapposizione.
+                          </p>
+                          <p>Il suo funzionamento &egrave; strettamente correlato all'utilizzo di attributi <code>data</code> personalizzati elencati qui di seguito con i possibili valori attribuibili:</p>
+                          <div class="table-responsive">
+                            <table class="table">
+                              <caption>
+                                module-overlay DATA attribute
+                              </caption>
+                              <thead>
+                                <tr>
+                                  <th>DATA attribute</th>
+                                  <th>Valori</th>
+                                  <th>Descrizione</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td><code>data-pi-overlay</code></td>
+                                  <td><span class="fw-medium">primary-accent</span> / <span class="fw-medium">dark</span> / <span class="fw-medium">light</span> / <span class="fw-medium">gradient</span></td>
+                                  <td>gestisce la tipologia di sfondo dell'overlay</td>
+                                </tr>
+                                <tr>
+                                  <td><code>data-bs-theme</code></td>
+                                  <td><span class="fw-medium">dark</span> / <span class="fw-medium">light</span></td>
+                                  <td>gestisce il colore del testo presente all'interno dell'overlay</td>
+                                </tr>
+                                <tr>
+                                  <td><code>data-pi-theme-switch</code></td>
+                                  <td><span class="fw-medium">true</span> / <span class="fw-medium">false</span></td>
+                                  <td>gestisce il cambio di colore del testo sui cutpoint XS e SM (ovvero quando il testo non &egrave; pi&ugrave; sovrapposto ad alcuna immagine)</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+
+                          <p>
+                            Nonostante supporti le stesse configurazioni di overlay descritte per il <span class="tag-code">.module-intro</span>, il <span class="tag-code">.module-display</span> viene utilizzato solo in modalit&agrave;
+                            <span class="tag-code">data-pi-overlay="primary-accent"</span>
+                          </p>
+                          <p>Consideriamo il <span class="tag-code">.module-overlay</span> di tipo <span class="tag-code">data-pi-overlay="primary-accent"</span> come default.</p>
+                          <p>
+                            All'interno di un elemento <span class="tag-code">module</span> di tipo <span class="tag-code">.concept-photo</span>, &egrave; consentito l'utilizzo di <span class="tag-code">.box-rack</span>, il cui posizionamento viene
+                            gestito automaticamente nei vari cutpoint. Tuttavia, &egrave; possibile forzare l'allineamento al centro (solo per cutpoint inferiori o uguali a SM) aggiungendo la classe <span class="tag-code">.mode-center</span> al
+                            contenitore <span class="tag-code">.rack-module</span>.
+                          </p>
+                          <p>Qui di seguito un esempio di implementazione.</p>
+                        </div>
+                        <div class="preview">
+                          <div class="preview-services">
+                            <div class="row">
+                              <div class="col-6 my-3 d-flex">
+                                <span class="badge rounded-pill align-self-end bg-primary fw-semibold">Preview</span>
+                                <select class="form-select" aria-label="Seleziona la vista responsive" aria-controls="iframe0006">
+                                  <option value="default" selected>Cambia vista Responsive</option>
+                                  <option value="xs">Smartphone (xs - Portrait)</option>
+                                  <option value="sm">Smartphone (sm - Landscape)</option>
+                                  <option value="md">Tablet (md - Landscape)</option>
+                                  <option value="lg">Desktop - small (lg)</option>
+                                  <option value="xl">Desktop - large (xl)</option>
+                                </select>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-12">
+                              <div class="border border-5 border-grey01">
+                                <div class="ratio ratio-21x9 overflow-auto">
+                                  <div id="iframepreview">
+                                    <iframe
+                                      id="iframe0006"
+                                      class="border border-2 border-grey01"
+                                      aria-label="Preview dell'asset responsive"
+                                      role="region"
+                                      aria-live="polite"
+                                      src="/docs/viewer/iframe-viewer.shtml?include-id=uimoduledisplay0001"></iframe>
+                                  </div>
+                                </div>
+                              </div>
+                              <span class="preview-caption my-2 d-block"></span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="related-wrap">
+                          <div class="row gap-4 gap-lg-0">
+                            <div class="col-lg-6">
+                              <div class="related-preview h-100">
+                                <div class="related-services">
+                                  <div class="row my-2">
+                                    <div class="col-12">
+                                      <h4 class="heading h5">Preview</h4>
+                                      <ul class="">
+                                        <li><a href="/docs/viewer/iframe-viewer.shtml?include-id=uimoduledisplay0001" title="Asset preview fullpage" target="_blank">Asset preview fullpage</a></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-lg-6">
+                              <div class="related h-100">
+                                <div class="related-services">
+                                  <div class="row my-2">
+                                    <div class="col-12">
+                                      <h4 class="heading h5">Pagine esemplificative</h4>
+                                      <ul class="">
+                                        <li><a href="/dist/pages/foglia-customerexp.shtml" title="Foglia - Customer Experience" target="_blank">Foglia - Customer Experience</a></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="code">
+                          <div class="code-services">
+                            <div class="row">
+                              <div class="col-6 my-3 d-flex">
+                                <span class="badge rounded-pill align-self-end bg-primary fw-semibold">Markup</span>
+                              </div>
+                              <div class="col-6 my-3 text-end">
+                                <a class="copycode" href="#" title="Copia codice">
+                                  <span class="icon">
+                                    <svg focusable="false">
+                                      <title>Copia il codice</title>
+                                      <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#076a-description-m" href="/dist/assets/core/images/iconset/sprite.svg#076a-description-m"></use>
+                                    </svg>
+                                  </span>
+                                </a>
+                                <a class="viewcode" href="#" title="Mostra/Nascondi codice">
+                                  <span class="icon codeshow">
+                                    <svg focusable="false">
+                                      <title>Mostra codice</title>
+                                      <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#016b-visibility-on-m" href="/dist/assets/core/images/iconset/sprite.svg#016b-visibility-on-m"></use>
+                                    </svg>
+                                  </span>
+                                  <span class="icon codehide">
+                                    <svg focusable="false">
+                                      <title>Nascondi codice</title>
+                                      <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#016a-visibility-off-m" href="/dist/assets/core/images/iconset/sprite.svg#016a-visibility-off-m"></use>
+                                    </svg>
+                                  </span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                          <pre><code class="language-html">
+                                                        <!--#include virtual="/docs/includes/code/code-html-ui-module-display-concept-photo-light.html" -->
+                                                    </code>
+                                                </pre>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="divider bg-grey01 py-1 my-2 px-2 d-flex align-items-center justify-content-end">
+                      <span>Asset Cross</span>
+                    </div>
+                    <div class="divider bg-grey02 py-1 my-2"></div>
+                  </div>
+                </article>
+                <!--Article end-->
+
+                            <!--Article-->
+                            <article class="mb-5">
+                                <div class="col-12">
+                                    <div class="main-pills main-pills-basic rounded" id="contenutostatus">
+                                        <div class="main-pills-header rounded">
+                                            <div class="row">
+                                                <div class="col-12 mt-3">
+                                                    <h3
+                                                        class="heading h3 fw-normal border-start border-3 ps-2 border-info">
+                                                        Latest Update</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="main-pills-body">
+                                            <!--Blocco 1-->
+                                            <div class="content">
+                                                <p>
+                                                    Di seguito sono riportati gli aggiornamenti principali apportati ai blocchi module, inclusi miglioramenti, correzioni di bug e nuove funzionalit&agrave;.
+                                                </p>
+                                            </div>
+                                            <div class="Last-update-report">
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <div class="table-responsive">
+                                                            <table class="table table-striped">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th scope="col">Data</th>
+                                                                        <th scope="col">Release di riferimento</th>
+                                                                        <th scope="col">Descrizione</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>03/04/2026</td>
+                                                                        <td>1.2.1</td>
+                                                                        <td>Fix "Module Intro - Concept Photo - Carousel":
+                                                                          <ul>
+          <li>Aggiunto data-pi-theme-switch="true" al codice di esempio del "Module Intro - Concept Photo - Carousel" per abilitare correttamente lo switch del tema.</li>
+        <li>Rimosso attributo data-pi-position="default" (predisposto per la gestione dei caroselli con binario) da "Module Intro - Concept Photo - Carousel" </li>
+        <li>Sostituire le spaziature negative sul blocco dei controlli da "mt-n4 mt-md-n10" a "my-2 mt-md-n7"</li>
+        <li>Predisposto un wrap esteso con classe .swiper-wrap-controls intorno al blocco controlli con background #f5f5f7 limitato ai cutpoint più piccoli (fino a SM incluso).</li>
+        <li>Aggiornato max-height su .module in presenza/assenza di breadcrumb e/o controlli Carousel (solo css)</li></ul></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>25/03/2026</td>
+                                                                        <td>1.2.1</td>
+                                                                        <td>Fix altezza wrap img su "module-display" (solo css). </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>25/02/2026</td>
+                                                                        <td>1.2</td>
+                                                                        <td>Aggiunto padding su module-heading del "Module Display - Photo".</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>09/02/2026</td>
+                                                                        <td>1.2</td>
+                                                                        <td>Predisposizione altezze aggiornate (css) in "Module Intro - Concept Photo".</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>21/11/2025</td>
+                                                                        <td>1.2</td>
+                                                                        <td>Aggiornata gestione overlay (css) in "Module Intro - Concept Photo - Carousel".</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>16/06/2025</td>
+                                                                        <td>1.0</td>
+                                                                        <td>Rilascio iniziale.</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="divider bg-grey01 py-1 my-2 px-2 d-flex align-items-center justify-content-end">
+                                        <span>&nbsp;</span>
+                                    </div>
+                                    <div class="divider bg-grey02 py-1 my-2"></div>
+                                </div>
+                            </article>
+                            <!--Article end-->
+              </div>
+            </section>
+          </div>
+          <div class="col-lg-2 d-none d-lg-block">
+            <nav id="nav-sidebar-context" class="navbar flex-column sticky-top" role="navigation">
+              <!--#include virtual="/docs/includes/nav/nav-sidebar-context-documentazione-ui-module.html" -->
+            </nav>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container-fluid py-4">
+        <!--#include virtual="/docs/includes/footer/footer-default.html" -->
+      </div>
+    </footer>
+
+    <!--#include virtual="/docs/includes/utilities/footer-tag.html" -->
+    <!--#include virtual="/docs/includes/code/code-base.html" -->
+    <!--#include virtual="/docs/includes/utilities/loader.html" -->
+  </body>
+</html>

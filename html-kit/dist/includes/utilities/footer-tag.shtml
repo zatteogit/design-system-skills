@@ -1,0 +1,19 @@
+<!-- Vendor -->
+<!--#if expr='v("core_resources") = "on"' -->
+<script src="/dist/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!--#endif --> 
+<!--#if expr='v("swiper_resources") = "on"' -->
+<script defer src="/dist/assets/vendor/swiper/js/swiper-bundle.min.js"></script>
+<!--#endif --> 
+<!--#if expr='v("masonry_resources") = "on"' -->
+<script src="/dist/assets/vendor/masonry/js/masonry.pkgd.min.js"></script>
+<script src="/dist/assets/vendor/masonry/js/imagesloaded.pkgd.min.js"></script>
+<!--#endif -->
+
+<!-- Altri -->
+
+<!--#if expr='v("core_resources") = "on"' -->
+<script src="/dist/assets/core/js/utilita.js"></script>
+<script src="/dist/assets/core/js/poste-it.js"></script>
+<script src="/dist/assets/core/js/start-script.js"></script>
+<!--#endif --> 

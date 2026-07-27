@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        
+  <!--#set var="core_resources" value="on" -->
+  <!--#set var="swiper_resources" value="on" -->
+  <!--#set var="masonry_resources" value="on" -->
+  <!--#include virtual="/dist/includes/utilities/head-tag.shtml" -->
+        <title>iFrame viewer</title>
+    </head>
+      
+    <body>
+
+            <div role="region" aria-label="preview">
+            <!-- Chiamare l'iframe con 'include-id'come argomento in query string valorizzato opportunamente per vedere i contenuti relativi -->
+            <!-- esempio: "/iframe-viewer.shtml?include-id=0001" -->
+
+            <!--#set var="data-iframe" value="" -->
+            <!--#if expr="v('QUERY_STRING') =~ /include-id=([a-zA-Z0-9]+)/" -->
+            <!--#set var="data-iframe" value="$0" -->
+            <!--#endif -->
+
+            
+            <!--#set var="script-opn" value="<script>" -->
+            <!--#set var="script-cls" value="</script>" -->
+        <main>
+            <div  class="p-3 p-md-4">
+                <div class="container">
+
+                    <!-- ASSET di esempio -->
+
+                    <!--#if expr="v('data-iframe') == 'include-id=uipaths0001'" -->
+                        <!--#include virtual="/docs/includes/code/code-html-ui-paths-breadcrumb.html" -->
+
+                    <!--#elif expr="v('data-iframe') == 'include-id=uipaths0002'" -->
+                        <!--#include virtual="/docs/includes/code/code-html-ui-paths-pagination.html" -->
+
+                    <!--#elif expr="v('data-iframe') == 'include-id=uimodal0001'" -->
+                        <!--#include virtual="/docs/includes/code/code-html-ui-modal-basic.html" -->
+
+                    <!--#elif expr="v('data-iframe') == 'include-id=uibutton0001'" -->
+                        <!--#include virtual="/docs/includes/code/code-html-ui-button.html" -->
+                    
+                    <!--#elif expr="v('data-iframe') == 'include-id=uibutton0002'" -->
+                        <!--#include virtual="/docs/includes/code/code-html-ui-button-cta.html" -->
+                    
+                    <!--#elif expr="v('data-iframe') == 'include-id=uibutton0003'" -->
+                        <!--#include virtual="/docs/includes/code/code-html-ui-button-sm.html" -->
+                    
+                    <!--#elif expr="v('data-iframe') == 'include-id=uibutton0004'" -->
+                        <!--#include virtual="/docs/includes/code/code-html-ui-button-icon.html" -->
+                    
+                    <!--#elif expr="v('data-iframe') == 'include-id=uibutton0005'" -->
+                        <!--#include virtual="/docs/includes/code/code-html-ui-button-theme-dark.html" -->
+                    
+                    <!--#elif expr="v('data-iframe') == 'include-id=uicard0001'" -->
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <!--#include virtual="/docs/includes/code/code-html-ui-card-simple.html" -->
+                        </div>
+                    </div>              
+                    <!--#elif expr="v('data-iframe') == 'include-id=uicard0003'" -->
+                    <div class="row">
+                        <div class="col-12">
+                            <!--#include virtual="/docs/includes/code/code-html-ui-card-simple-comunicato.html" -->
+                        </div>
+                    </div>
+                    
+                    <!--#elif expr="v('data-iframe') == 'include-id=uicard0004'" -->
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <!--#include virtual="/docs/includes/code/code-html-ui-card-simple-news.html" -->
+                        </div>
+                    </div>
+
+                    <!--#elif expr="v('data-iframe') == 'include-id=uicard0005'" -->
+                        <!--#include virtual="/docs/includes/code/code-html-ui-card-simple-eventi.html" -->
+
+                    <!--#elif expr="v('data-iframe') == 'include-id=uicard0006'" -->
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <!--#include virtual="/docs/includes/code/code-html-ui-card-simple-download.html" -->
+                        </div>
+                    </div>
+                    
+                    <!--#elif expr="v('data-iframe') == 'include-id=uicard0007'" -->
+                    <div class="row">
+                        <div class="col-12">
+                            <!--#include virtual="/docs/includes/code/code-html-ui-card-simple-reactive.html" -->
+                        </div>
+                    </div>
+                    
+                    <!--#elif expr="v('data-iframe') == 'include-id=uicard0008'" -->
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <!--#include virtual="/docs/includes/code/code-html-ui-card-picture.html" -->
+                        </div>
+                    </div>
+
+                    <!--#elif expr="v('data-iframe') == 'include-id=uicard0009'" -->
+                        <!--#include virtual="/docs/includes/code/code-html-ui-card-portrait.html" -->
+                    
+                    <!--#elif expr="v('data-iframe') == 'include-id=uicard0010'" -->
+                        <!--#include virtual="/docs/includes/code/code-html-ui-card-icon.html" -->
+                    
+                    <!--#elif expr="v('data-iframe') == 'include-id=uibox0001'" -->
+                    <div class="row">
+                        <div class="col-12">
+                            <!--#include virtual="/docs/includes/code/code-html-ui-box-rack.html" -->
+                        </div>
+                    </div>
+                    
+                        
+                    <!--#elif expr="v('data-iframe') == 'include-id=uicontextual0001'" -->
+                    <div class="row">
+                        <div class="col-12 col-lg-4">
+                            <!--#include virtual="/docs/includes/code/code-html-ui-contextual-object-menu.html" -->
+                        </div>
+                    </div>
+
+                    <!--#elif expr="v('data-iframe') == 'include-id=uicontextual0002'" -->
+                    <div class="row">
+                        <div class="col-12 col-lg-4">
+                            <!--#include virtual="/docs/includes/code/code-html-ui-contextual-object-share.html" -->
+                        </div>
+                    </div>
+
+                    <!--#elif expr="v('data-iframe') == 'include-id=uicontextual0003'" -->
+                    <div class="row">
+                        <div class="col-12 col-lg-4">
+                            <!--#include virtual="/docs/includes/code/code-html-ui-contextual-object-content.html" -->
+                        </div>
+                    </div>
+                    
+                    <!--#elif expr="v('data-iframe') == 'include-id=uicontent0004'" -->
+                        <!--#include virtual="/docs/includes/code/code-html-ui-content-blockquote.html" -->
+                        
+                    <!--#elif expr="v('data-iframe') == 'include-id=uicarousel0001'" -->
+                        <!--#include virtual="/docs/includes/code/code-html-ui-carousel-swiper.html" -->
+                        
+                        <!--#echo encoding="none" var="script-opn" -->
+                        <!--#include virtual="/docs/includes/code/code-js-ui-carousel-opt-swiper.html" -->
+                        <!--#echo encoding="none" var="script-cls" -->
+                        
+                    <!--#elif expr="v('data-iframe') == 'include-id=uicarousel0002'" -->
+                        <!--#include virtual="/docs/includes/code/code-html-ui-carousel-swiper-gallery.html" -->
+                        
+                        <!--#echo encoding="none" var="script-opn" -->
+                        <!--#include virtual="/docs/includes/code/code-js-ui-carousel-opt-swiper-gallery.html" -->
+                        <!--#echo encoding="none" var="script-cls" -->
+
+                       
+                    <!--#elif expr="v('data-iframe') == 'include-id=uiscrollablebutton0001'" -->
+                        <!--#include virtual="/docs/includes/code/code-html-ui-scrollablebutton-swiper.html" -->
+                        
+                        <!--#echo encoding="none" var="script-opn" -->
+                        <!--#include virtual="/docs/includes/code/code-js-ui-scrollablebutton-opt-swiper.html" -->
+                        <!--#echo encoding="none" var="script-cls" -->
+
+                    <!--#elif expr="v('data-iframe') == 'include-id=uiaccordion0001'" -->
+                        <!--#include virtual="/docs/includes/code/code-html-ui-accordion.html" -->
+                    
+                    <!--#elif expr="v('data-iframe') == 'include-id=uitimeline0001'" -->
+                        <!--#include virtual="/docs/includes/code/code-html-ui-timeline.html" -->      
+                           
+                    <!--#elif expr="v('data-iframe') == 'include-id=uiform0001'" -->
+                        <!--#include virtual="/docs/includes/code/code-html-ui-form-generica.html" -->      
+                           
+                    <!--#elif expr="v('data-iframe') == 'include-id=uiform0002'" -->
+                        <!--#include virtual="/docs/includes/code/code-html-ui-form-inline.html" -->      
+                           
+                    <!--#elif expr="v('data-iframe') == 'include-id=uiform0003'" -->
+                        <!--#include virtual="/docs/includes/code/code-html-ui-form-state.html" --> 
+
+                    <!--#elif expr="v('data-iframe') == 'include-id=uiform0004'" -->
+                        <!--#include virtual="/docs/includes/code/code-html-ui-form-switch.html" -->      
+                        
+                    <!--#elif expr="v('data-iframe') == 'include-id=uitabs0001'" -->
+                        <!--#include virtual="/docs/includes/code/code-html-ui-tabs.html" -->
+
+                    <!--#elif expr="v('data-iframe') == 'include-id=uitabs0002'" -->
+                        <!--#include virtual="/docs/includes/code/code-html-ui-tabs-button-toggle.html" -->
+
+                    <!--#elif expr="v('data-iframe') == 'include-id=uimasonry0001'" -->
+                        <!--#include virtual="/docs/includes/code/code-html-ui-masonry.html" -->
+                        
+                        <!--#echo encoding="none" var="script-opn" -->
+                        <!--#include virtual="/docs/includes/code/code-js-ui-masonry.html" -->
+                        <!--#echo encoding="none" var="script-cls" -->
+
+                    <!--#endif -->
+                </div>
+
+
+
+                <div class="container-fluid">
+
+                    <!--#if expr="v('data-iframe') == 'include-id=uivisual0001'" -->
+                        <!--#include virtual="/docs/includes/code/code-html-ui-visual-object.html" -->
+                    
+                    <!--#elif expr="v('data-iframe') == 'include-id=uivisual0002'" -->
+                        <!--#include virtual="/docs/includes/code/code-html-ui-visual-object-multi.html" -->
+                    
+                    <!--#elif expr="v('data-iframe') == 'include-id=uimoduleintro0001'" -->
+                        <!--#include virtual="/docs/includes/code/code-html-ui-module-intro-concept-boxed.html" -->
+                    
+                    <!--#elif expr="v('data-iframe') == 'include-id=uimoduleintro0002'" -->
+                        <!--#include virtual="/docs/includes/code/code-html-ui-module-intro-concept-photo.html" -->
+                    
+                    <!--#elif expr="v('data-iframe') == 'include-id=uimoduleintro0003'" -->
+                        <!--#include virtual="/docs/includes/code/code-html-ui-module-intro-concept-photo-dark.html" -->
+                    
+                    <!--#elif expr="v('data-iframe') == 'include-id=uimoduleintro0004'" -->
+                        <!--#include virtual="/docs/includes/code/code-html-ui-module-intro-concept-photo-light.html" -->
+                    
+                    <!--#elif expr="v('data-iframe') == 'include-id=uimoduleintro0005'" -->
+                        <!--#include virtual="/docs/includes/code/code-html-ui-module-intro-concept-photo-carousel.html" -->
+                                            
+                        <!--#echo encoding="none" var="script-opn" -->
+                        <!--#include virtual="/docs/includes/code/code-js-ui-module-intro-concept-photo-carousel.html" -->
+                        <!--#echo encoding="none" var="script-cls" -->
+                        
+                    <!--#elif expr="v('data-iframe') == 'include-id=uimoduleintro0006'" -->
+                        <!--#include virtual="/docs/includes/code/code-html-ui-module-intro.html" -->
+
+                    <!--#elif expr="v('data-iframe') == 'include-id=uimoduledisplay0001'" -->
+                        <!--#include virtual="/docs/includes/code/code-html-ui-module-display-concept-photo-light.html" -->
+                    
+                    <!--#elif expr="v('data-iframe') == 'include-id=uicontent0001'" -->
+                        <!--#include virtual="/docs/includes/code/code-html-ui-content.html" -->
+                    
+                    <!--#elif expr="v('data-iframe') == 'include-id=uicontent0002'" -->
+                        <!--#include virtual="/docs/includes/code/code-html-ui-content-evidence-dark.html" -->
+
+                    <!--#elif expr="v('data-iframe') == 'include-id=uicontent0003'" -->
+                        <!--#include virtual="/docs/includes/code/code-html-ui-content-evidence-light.html" -->
+
+                    <!--#elif expr="v('data-iframe') == 'include-id=uitabelle0001'" -->
+                        <!--#include virtual="/docs/includes/code/code-html-ui-tabelle.html" -->
+                        
+
+                    <!--#endif -->
+                </div>
+
+                
+
+                
+            </div>
+        </main>
+        </div>
+        <!--#include virtual="/dist/includes/utilities/footer-tag.shtml" -->
+    </body>
+</html>

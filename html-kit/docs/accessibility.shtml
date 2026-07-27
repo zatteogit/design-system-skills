@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <title>Html kit - Accessibilit&agrave;</title>
+    <!--#include virtual="/docs/includes/utilities/head-tag.html" -->
+    <script>
+      var setDocsActivePage = "Accessibility";
+    </script>
+  </head>
+
+  <body tabindex="0">
+    <header class="sticky-top">
+      <!--#include virtual="/docs/includes/nav/nav-main-documentazione.html" -->
+      <!--#include virtual="/docs/includes/header/abstract-default.html" -->
+    </header>
+
+    <main>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-3 col-lg-2 border-end border-grey01 border-5">
+            <nav id="nav-sidebar" class="sticky-top">
+              <!--#include virtual="/docs/includes/nav/nav-sidebar-documentazione.html" -->
+            </nav>
+          </div>
+          <div class="col-sm-9 col-lg-8 pt-4 pb-5">
+            <section class="container">
+              <div class="row">
+                <!--Breadcrumb-->
+                <div id="breadcrumb" class="col-12">
+                  <nav
+                    style="--bs-breadcrumb-divider: url(&#34;data:image/svg + xml, %3Csvgxmlns='http://www.w3.org/2000/svg'width='8'height='8'%3E%3Cpathd='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z'fill='currentColor'/%3E%3C/svg%3E&#34;)"
+                    aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item"><a href="#">Getting Started</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">Accessibilit&agrave;</li>
+                    </ol>
+                  </nav>
+                </div>
+                <!--Breadcrumb end-->
+                <!--Main title-->
+                <div id="main-title" class="col-12">
+                  <h2 class="heading h1 fw-normal">Criteri di Accessibilit&agrave;</h2>
+                </div>
+                <!--Main title end-->
+                <!--Article-->
+                <article class="mb-5">
+                  <div class="col-12">
+                    <div class="main-pills main-pills-basic rounded" id="contenuto0">
+                      <div class="main-pills-header rounded">
+                        <div class="row">
+                          <div class="col-12 mt-3">
+                            <h3 class="heading h3 fw-normal border-start border-3 ps-2 border-info">Intro</h3>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="main-pills-body">
+                        <div class="content">
+                          <div class="documentation">
+                            <p>
+                              Il kit HTML &egrave; stato progettato per <strong>garantire</strong> che le applicazioni web create con esso siano <strong>accessibili</strong> a una vasta gamma di utenti, inclusi quelli con disabilit&agrave;. La <strong>conformit&agrave; agli standard di accessibilit&agrave;</strong>
+                              web, in particolare le <a href="https://www.w3.org/WAI/standards-guidelines/wcag/" target="_blank">WCAG (Web Content Accessibility Guidelines)</a> del W3C, &egrave; un aspetto fondamentale nella realizzazione dei portali del Gruppo Poste Italiane. 
+                            </p>
+                            <p>Di seguito vengono elencati i criteri di accessibilit&agrave; implementati nel kit e le linee guida su come utilizzarlo per creare contenuti accessibili.
+                            </p>
+                            <div class="divider bg-grey01 my-4"></div>
+                            <h3 class="heading h4 fw-normal border-start border-3 ps-2 border-info" id="contenuto1">1. Struttura Semantica</h3>
+                            <ul>
+                              <li>
+                                <strong>Tag semantici</strong>: Il kit utilizza elementi HTML5 come <span class="tag-code">&lt;header&gt;</span>, <span class="tag-code">&lt;nav&gt;</span>, <span class="tag-code">&lt;main&gt;</span>,
+                                <span class="tag-code">&lt;section&gt;</span>, <span class="tag-code">&lt;footer&gt;</span>, e <span class="tag-code">&lt;article&gt;</span> per garantire che il contenuto sia organizzato in modo logico e
+                                comprensibile.
+                              </li>
+                              <li>
+                                <strong>Gerarchia dei titoli</strong>: Viene rispettata una gerarchia corretta dei titoli (<span class="tag-code">&lt;h1&gt;</span> - <span class="tag-code">&lt;h6&gt;</span>), facilitando la navigazione tramite screen
+                                reader e mantenendo una struttura logica del contenuto.
+                              </li>
+                            </ul>
+                            <div class="divider bg-grey01 my-4"></div>
+                            <h3 class="heading h4 fw-normal border-start border-3 ps-2 border-info" id="contenuto2">2. Testo Alternativo per le Immagini</h3>
+                            <ul>
+                              <li>
+                                <strong>Immagini con attributo</strong> <span class="tag-code">alt</span>: Tutte le immagini non decorative includono un attributo <span class="tag-code">alt</span>, descrivendo il contenuto dell'immagine per gli
+                                utenti che non possono vederle.
+                              </li>
+                              <li><strong>Testo per immagini decorative</strong>: Le immagini puramente decorative sono marcate con <span class="tag-code">alt=""</span> per evitare distrazioni durante la lettura tramite screen reader.</li>
+                            </ul>
+                            <div class="divider bg-grey01 my-4"></div>
+                            <h3 class="heading h4 fw-normal border-start border-3 ps-2 border-info" id="contenuto3">3. Contrasto dei Colori</h3>
+                            <ul>
+                              <li>
+                                <strong>Contrasto sufficiente</strong>: I colori utilizzati per il testo e gli elementi di sfondo rispettano un rapporto di contrasto minimo di 4.5:1, in linea con le linee guida WCAG per il testo normale. Per il testo
+                                grande, il rapporto &egrave; di almeno 3:1.
+                              </li>
+                              <li><strong>Modalit&agrave; scura e chiara</strong>: Il kit include supporto per una modalit&agrave; scura e una modalit&agrave; chiara per specifici contesti e situazioni, per facilitare la lettura da parte dell'utente finale.</li>
+                            </ul>
+                            <div class="divider bg-grey01 my-4"></div>
+                            <h3 class="heading h4 fw-normal border-start border-3 ps-2 border-info" id="contenuto4">4. Accessibilit&agrave; della Tastiera</h3>
+                            <ul>
+                              <li><strong>Navigazione tramite tastiera</strong>: Tutti gli elementi interattivi sono accessibili tramite tastiera e l'ordine di tabulazione &egrave; logico e sequenziale.</li>
+                              <li><strong>Indicatore di focus visibile</strong>: Gli elementi di input e i link mostrano un indicatore di focus visibile, permettendo agli utenti di tastiera di sapere su quale elemento si trovano.</li>
+                            </ul>
+                            <div class="divider bg-grey01 my-4"></div>
+                            <h3 class="heading h4 fw-normal border-start border-3 ps-2 border-info" id="contenuto5">5. Form e Etichette</h3>
+                            <ul>
+                              <li>
+                                <strong>Etichette associate ai campi dei moduli</strong>: Ogni campo di input nei form &egrave; associato a una <span class="tag-code">label</span> descrittiva, sia per migliorare l'accessibilit&agrave; che per favorire la
+                                comprensione del contenuto.
+                              </li>
+                              <li>
+                                <strong>Elementi di input descrittivi</strong>: Sono stati utilizzati i tag <span class="tag-code">aria-label</span> e <span class="tag-code">aria-describedby</span> dove necessario, per fornire ulteriori informazioni
+                                agli utenti di screen reader.
+                              </li>
+                            </ul>
+                            <div class="divider bg-grey01 my-4"></div>
+                            <h3 class="heading h4 fw-normal border-start border-3 ps-2 border-info" id="contenuto6">6. Ruoli e Attributi ARIA</h3>
+                            <ul>
+                              <li>
+                                <strong>Attributi ARIA appropriati</strong>: Gli attributi <span class="tag-code">aria</span> sono stati implementati per migliorare l'accessibilit&agrave; laddove i tag HTML standard non erano sufficienti. Ad esempio,
+                                vengono utilizzati attributi come <span class="tag-code">aria-expanded</span> per menu espandibili e <span class="tag-code">aria-hidden</span> per elementi visivamente nascosti.
+                              </li>
+                              <li>
+                                <strong>Ruoli semantici</strong>: Gli elementi interattivi sono stati dotati di ruoli ARIA come <span class="tag-code">button</span>, <span class="tag-code">alert</span>, <span class="tag-code">navigation</span>, e
+                                <span class="tag-code">banner</span>, per migliorare l'esperienza degli utenti di screen reader.
+                              </li>
+                            </ul>
+                            <div class="divider bg-grey01 my-4"></div>
+                            <h3 class="heading h4 fw-normal border-start border-3 ps-2 border-info" id="contenuto7">7. Supporto per Screen Reader</h3>
+                            <ul>
+                              <li>
+                                <strong>Navigazione semplificata</strong>: La struttura e gli elementi del kit sono progettati per facilitare la navigazione con screen reader, inclusa l'implementazione di salti rapidi verso il contenuto principale
+                                (<span class="tag-code">Skip to content</span>) per evitare il ripetersi della navigazione.
+                              </li>
+                              <li><strong>Feedback visivo e uditivo</strong>: Gli elementi interattivi, come pulsanti e menu a discesa, offrono un feedback visivo per migliorare l'esperienza utente.</li>
+                            </ul>
+                            <div class="divider bg-grey01 my-4"></div>
+                            <h3 class="heading h4 fw-normal border-start border-3 ps-2 border-info" id="contenuto8">8. Flessibilit&agrave; per l'Utente</h3>
+                            <ul>
+                              <li>
+                                <strong>Scalabilit&agrave; del testo</strong>: Gli elementi del kit sono stati progettati per adattarsi alle dimensioni del testo senza comprometterne l'usabilit&agrave; e la leggibilit&agrave;, permettendo all'utente di ridimensionare il
+                                testo in base alle proprie esigenze.
+                              </li>
+                              <li>
+                                <strong>Layout reattivo</strong>: Il design responsivo del kit assicura che il contenuto sia accessibile e ben organizzato su dispositivi mobili, tablet e desktop, adattandosi in base alla larghezza dello schermo.
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="divider bg-grey01 py-1 my-2 px-2 d-flex align-items-center justify-content-end">
+                      <span>&nbsp;</span>
+                    </div>
+                    <div class="divider bg-grey02 py-1 my-2"></div>
+                  </div>
+                </article>
+                <!--Article end-->
+              </div>
+            </section>
+          </div>
+          <div class="col-lg-2 d-none d-lg-block">
+            <nav id="nav-sidebar-context" class="navbar flex-column sticky-top" role="navigation">
+              <!--#include virtual="/docs/includes/nav/nav-sidebar-context-documentazione-accessibility.html" -->
+            </nav>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container-fluid py-4">
+        <!--#include virtual="/docs/includes/footer/footer-default.html" -->
+      </div>
+    </footer>
+
+    <!--#include virtual="/docs/includes/utilities/footer-tag.html" -->
+    <!--#include virtual="/docs/includes/code/code-base.html" -->
+    <!--#include virtual="/docs/includes/utilities/loader.html" -->
+  </body>
+</html>

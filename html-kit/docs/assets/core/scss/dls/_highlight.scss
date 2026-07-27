@@ -1,0 +1,204 @@
+/*!
+  Theme: Classic Light
+  Author: Jason Heeris (http://heeris.id.au)
+  License: ~ MIT (or more permissive) [via base16-schemes-source]
+  Maintainer: @highlightjs/core-team
+  Version: 2021.09.0
+*/
+pre{
+  display: grid;
+  width: 100%;
+  margin-bottom:2rem;
+}
+
+pre code.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 1.5rem;
+  max-height: 30rem;
+  transition: max-height 0.25s ease-out;
+}
+
+pre:has(code.hljs.collapsed){
+  background-color: var(--color-grey01);
+  padding-bottom: 1.5rem;
+}
+
+pre code.hljs.collapsed{
+  max-height: 7.25rem;
+  overflow: hidden;
+}
+
+pre code.hljs.collapsed,
+pre code.hljs.collapsed *{
+  color: #ddd!important;
+}
+
+pre code.hljs.collapsed::after{
+  display: block;
+  position: absolute;
+  width: calc(100% - 4px);
+  height: 3.5rem;
+  bottom: 1.25rem;
+  left: 2px;
+  content: " ";
+  background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), rgb(253, 253, 253));
+}
+
+/*
+pre code.hljs.collapsed  .hljs-tag >* {
+  background-color: #ddd;
+  border-radius: 4px;
+  color: transparent!important;
+}
+
+pre code.hljs.collapsed,
+pre code.hljs.collapsed .hljs-tag,
+pre code.hljs.collapsed .hljs-name, 
+pre code.hljs.collapsed .hljs-attr,
+pre code.hljs.collapsed .hljs-attribute,
+pre code.hljs.collapsed .hljs-string,
+pre code.hljs.collapsed .hljs-title,
+pre code.hljs.collapsed .hljs-built_in,
+pre code.hljs.collapsed .hljs-keyword,
+pre code.hljs.collapsed .hljs-literal,
+pre code.hljs.collapsed .hljs-number,
+pre code.hljs.collapsed .hljs-comment,
+pre code.hljs.collapsed .hljs-selector-class,
+pre code.hljs.collapsed .hljs-selector-pseudo,
+pre code.hljs.collapsed .hljs-variable,
+pre code.hljs.collapsed .hljs-params{
+  background-color: #fdfdfd;
+  border-radius: 4px;
+  color: transparent!important;
+} 
+
+pre code.hljs.collapsed .hljs-name,
+pre code.hljs.collapsed .hljs-title,
+pre code.hljs.collapsed .hljs-comment{
+  background-color: var(--color-primary);
+  opacity: 0.6;
+} 
+pre code.hljs.collapsed .hljs-attr,
+pre code.hljs.collapsed .hljs-attribute,
+pre code.hljs.collapsed .hljs-keyword,
+pre code.hljs.collapsed .hljs-variable,
+pre code.hljs.collapsed .hljs-params,
+pre code.hljs.collapsed .hljs-built_in,
+pre code.hljs.collapsed .hljs-selector-class,
+pre code.hljs.collapsed .hljs-selector-pseudo{
+  background-color: var(--color-primary);
+  opacity: 0.4;
+}
+pre code.hljs.collapsed .hljs-string,
+pre code.hljs.collapsed .hljs-literal,
+pre code.hljs.collapsed .hljs-number{
+  background-color: var(--color-primary);
+  opacity: 0.35;
+}
+*/
+
+.hljs {
+  color: #303030;
+  background: #fdfdfd;
+  border: 2px solid var(--color-grey01);
+}
+
+.hljs ::selection,
+.hljs::selection {
+  background-color: #d0d0d0;
+  color: #303030
+}
+
+.hljs-comment {
+  color: #b0b0b0
+}
+
+.hljs-tag {
+  color: #505050
+}
+
+.hljs-operator,
+.hljs-punctuation,
+.hljs-subst {
+  color: #303030
+}
+
+.hljs-operator {
+  opacity: .7
+}
+
+.hljs-bullet,
+.hljs-deletion,
+.hljs-name,
+.hljs-selector-tag,
+.hljs-template-variable,
+.hljs-variable {
+  color: #ac4142
+}
+
+.hljs-attr,
+.hljs-link,
+.hljs-literal,
+.hljs-number,
+.hljs-symbol,
+.hljs-variable.constant_ {
+  color: #d28445
+}
+
+.hljs-class .hljs-title,
+.hljs-title,
+.hljs-title.class_ {
+  color: #f4bf75
+}
+
+.hljs-strong {
+  font-weight: 700;
+  color: #f4bf75
+}
+
+.hljs-addition,
+.hljs-code,
+.hljs-string,
+.hljs-title.class_.inherited__ {
+  color: #90a959
+}
+
+.hljs-built_in,
+.hljs-doctag,
+.hljs-keyword.hljs-atrule,
+.hljs-quote,
+.hljs-regexp {
+  color: #75b5aa
+}
+
+.hljs-attribute,
+.hljs-function .hljs-title,
+.hljs-section,
+.hljs-title.function_,
+.ruby .hljs-property {
+  color: #6a9fb5
+}
+
+.diff .hljs-meta,
+.hljs-keyword,
+.hljs-template-tag,
+.hljs-type {
+  color: #aa759f
+}
+
+.hljs-emphasis {
+  color: #aa759f;
+  font-style: italic
+}
+
+.hljs-meta,
+.hljs-meta .hljs-keyword,
+.hljs-meta .hljs-string {
+  color: #8f5536
+}
+
+.hljs-meta .hljs-keyword,
+.hljs-meta-keyword {
+  font-weight: 700
+}

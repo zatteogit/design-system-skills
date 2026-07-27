@@ -1,0 +1,73 @@
+// @ import "../../../../dist/assets/core/scss/dls/utilities";
+
+/* legacy */
+
+@import "../../../../dist/assets/core/scss/dls/variables";
+@import "../../../../dist/assets/vendor/bootstrap/scss/mixins/banner";
+@include bsBanner("");
+  
+
+// scss-docs-start import-stack
+// Configuration
+@import "../../../../dist/assets/vendor/bootstrap/scss/functions";
+@import "../../../../dist/assets/vendor/bootstrap/scss/variables";
+@import "../../../../dist/assets/vendor/bootstrap/scss/variables-dark";
+@import "../../../../dist/assets/vendor/bootstrap/scss/maps";
+@import "../../../../dist/assets/vendor/bootstrap/scss/mixins";
+@import "../../../../dist/assets/vendor/bootstrap/scss/utilities";
+
+// Layout & components
+@import "../../../../dist/assets/vendor/bootstrap/scss/root";
+@import "../../../../dist/assets/vendor/bootstrap/scss/reboot";
+@import "../../../../dist/assets/vendor/bootstrap/scss/type";
+@import "../../../../dist/assets/vendor/bootstrap/scss/images";
+@import "../../../../dist/assets/vendor/bootstrap/scss/containers";
+@import "../../../../dist/assets/vendor/bootstrap/scss/grid";
+@import "../../../../dist/assets/vendor/bootstrap/scss/tables";
+@import "../../../../dist/assets/vendor/bootstrap/scss/forms";
+@import "../../../../dist/assets/vendor/bootstrap/scss/buttons";
+@import "../../../../dist/assets/vendor/bootstrap/scss/transitions";
+@import "../../../../dist/assets/vendor/bootstrap/scss/dropdown";
+@import "../../../../dist/assets/vendor/bootstrap/scss/button-group";
+@import "../../../../dist/assets/vendor/bootstrap/scss/nav";
+@import "../../../../dist/assets/vendor/bootstrap/scss/navbar";
+@import "../../../../dist/assets/vendor/bootstrap/scss/card"; 
+@import "../../../../dist/assets/vendor/bootstrap/scss/accordion";
+@import "../../../../dist/assets/vendor/bootstrap/scss/breadcrumb";
+@import "../../../../dist/assets/vendor/bootstrap/scss/pagination";
+@import "../../../../dist/assets/vendor/bootstrap/scss/badge";
+@import "../../../../dist/assets/vendor/bootstrap/scss/alert";
+@import "../../../../dist/assets/vendor/bootstrap/scss/progress";
+@import "../../../../dist/assets/vendor/bootstrap/scss/list-group";
+@import "../../../../dist/assets/vendor/bootstrap/scss/close";
+@import "../../../../dist/assets/vendor/bootstrap/scss/toasts";
+@import "../../../../dist/assets/vendor/bootstrap/scss/modal";
+@import "../../../../dist/assets/vendor/bootstrap/scss/tooltip";
+@import "../../../../dist/assets/vendor/bootstrap/scss/popover";
+@import "../../../../dist/assets/vendor/bootstrap/scss/carousel";
+@import "../../../../dist/assets/vendor/bootstrap/scss/spinners";
+@import "../../../../dist/assets/vendor/bootstrap/scss/offcanvas";
+@import "../../../../dist/assets/vendor/bootstrap/scss/placeholders";
+
+// Helpers
+@import "../../../../dist/assets/vendor/bootstrap/scss/helpers";
+
+// Utilities
+@import "../../../../dist/assets/vendor/bootstrap/scss/utilities/api";
+// scss-docs-end import-stack
+
+
+@import "../../../../dist/assets/core/scss/dls/mixins";
+@import "../../../../dist/assets/core/scss/dls/utilities";
+
+/* docs */
+
+@import "../../vendor/bootstrap-icons/font/bootstrap-icons.scss";
+
+
+@import "dls/fonts";
+@import "dls/loader";
+
+@import "dls/core";
+@import "dls/main";
+@import "dls/highlight";

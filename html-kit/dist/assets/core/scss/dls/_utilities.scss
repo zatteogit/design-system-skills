@@ -1,0 +1,398 @@
+/*****************************************************
+    @ IMPORT
+    ## Docs-shared ##
+    Foglio stile _utilities - (c) Poste Italiane 2024/2026
+*****************************************************/
+
+
+/* Mixins same-height - all breakpoint */
+@include same-height();
+ 
+ 
+/* Text Selection */
+::-moz-selection {
+    background: $color_secondary_87;
+    color: $color_neutral_10;
+} 
+
+::selection {
+    background: $color_secondary_87;
+    color: $color_neutral_10;
+}
+
+/* Text Color */
+.text_neutral_40{
+    color: $color_neutral_40;
+}
+
+/* For flexbox use */
+.min-w-0{
+    min-width: 0;
+}
+
+/* Seo - Accessibility ---- Gestione focus */
+
+/* ad-hoc stretched-link override bootstrap*/
+a.stretched-link:focus,
+a.stretched-link:focus-visible{
+    outline: none;
+}
+
+/* Gestione focus */
+.focus-visible{ //support class
+    outline-color: $color_outline_onlight;
+    outline-width: 3px;
+    outline-style: solid;
+}
+
+*:focus,
+a:focus:not(.stretched-link),
+a.stretched-link:focus::after,
+.accordion-button:focus:not(.focus-mouse),
+.navbar-toggle:focus,
+.nav-link:focus,
+.dropdown-toggle:focus,
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus:focus,
+.btn.active.focus:focus,
+.btn-check:focus+.btn,
+.form-control:focus:not(.focus-mouse),
+.form-select:focus:not(.focus-mouse),
+//.form-check [type=checkbox]:focus:not(.focus-mouse)+label,
+//.form-check [type=radio]:focus:not(.focus-mouse)+label,
+.form-check [type=checkbox]:focus:not(.focus-mouse),
+.form-check [type=radio]:focus:not(.focus-mouse){
+    outline-color: $color_outline_onlight;
+    outline-width: 3px;
+    outline-style: solid;
+}
+
+*:focus:not(:focus-visible),
+a:focus:not(:focus-visible, .stretched-link),
+a.stretched-link:focus:not(:focus-visible)::after,
+.accordion-button:focus:not(:focus-visible):not(.focus-mouse),
+.navbar-toggle:focus:not(:focus-visible),
+.nav-link:focus:not(:focus-visible),
+.dropdown-toggle:focus:not(:focus-visible),
+.btn:focus:not(:focus-visible),
+.btn:active:focus:not(:focus-visible),
+.btn.active:focus:not(:focus-visible),
+.btn.focus:not(:focus-visible),
+.btn:active.focus:not(:focus-visible),
+.btn.active.focus:not(:focus-visible),
+.btn-check:focus:not(:focus-visible)+.btn,
+.form-control:focus:not(:focus-visible):not(.focus-mouse),
+.form-select:focus:not(:focus-visible):not(.focus-mouse),
+//.form-check [type=checkbox]:focus:not(:focus-visible):not(.focus-mouse)+label,
+//.form-check [type=radio]:focus:not(:focus-visible):not(.focus-mouse)+label,
+.form-check [type=checkbox]:focus:not(:focus-visible):not(.focus-mouse),
+.form-check [type=radio]:focus:not(:focus-visible):not(.focus-mouse){
+    outline-color: transparent !important;
+}
+
+*:focus-visible,
+a:focus-visible:not(.stretched-link),
+a.stretched-link:focus-visible::after,
+.accordion-button:focus-visible:not(.focus-mouse),
+.navbar-toggle:focus-visible,
+.nav-link:focus-visible,
+.dropdown-toggle:focus-visible,
+.btn:focus-visible,
+.btn:active:focus-visible,
+.btn.active:focus-visible,
+.btn.focus-visible,
+.btn:active.focus:focus-visible,
+.btn.active.focus:focus-visible,
+.btn-check:focus-visible+.btn,
+.form-control:focus-visible:not(.focus-mouse),
+.form-select:focus-visible:not(.focus-mouse),
+//.form-check [type=checkbox]:focus-visible:not(.focus-mouse)+label,
+//.form-check [type=radio]:focus-visible:not(.focus-mouse)+label,
+.form-check [type=checkbox]:focus-visible:not(.focus-mouse),
+.form-check [type=radio]:focus-visible:not(.focus-mouse){
+    outline-color: $color_outline_onlight;
+    outline-width: 3px;
+    outline-style: solid;
+    outline-offset: 0;
+    box-shadow: none;
+}
+
+.accordion-button:focus,
+.form-control:focus,
+.form-select:focus{
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+ 
+
+.section-drilldown-menu .drilldown-section-obj ul li button:focus:not(.focus-mouse), 
+.section-drilldown-menu .drilldown-section-obj ul li a:focus:not(.focus-mouse, .btn),
+.section-drilldown-menu .drilldown-section-obj ul li button:focus:not(:focus-visible):not(.focus-mouse), 
+.section-drilldown-menu .drilldown-section-obj ul li a:focus:not(:focus-visible):not(.focus-mouse ,.btn),
+.section-drilldown-menu .drilldown-section-obj ul li button:focus-visible:not(.focus-mouse), 
+.section-drilldown-menu .drilldown-section-obj ul li a:focus-visible:not(.focus-mouse, .btn){
+    outline-color: $color_outline_onlight;
+    outline-width: 3px;
+    outline-style: solid;
+    outline-offset: -3px;
+}
+
+/** collapse **/
+.pi-collapse{
+    max-height: 0px;
+    transition: max-height .5s cubic-bezier(0, 1, 0, 1);
+    display: none;
+    overflow: hidden;
+    &.pi-show{
+      max-height: 100%;
+      transition: max-height .5s ease-in-out;
+      display: initial;
+    }
+    &.pi-show:is(tr){
+      display: table-row;
+    }
+  }
+  
+
+/* Seo - Accessibility ---- Gestione link rapidi */
+
+#skiplink{
+    position: absolute;
+    white-space: nowrap;
+}
+
+.visually-hidden-focusable-abs{
+    z-index: -1;
+    position: absolute;
+    top: 10px;
+    margin-left: 0.438rem;
+    padding: 0.438rem 0.5rem 0.438rem 0.5rem;
+    background-color: #fff;
+    border: 1px solid $color_neutral_30;
+    border-radius: 3px;
+    opacity: 0;
+
+    &:focus{
+        z-index: 1044; 
+        opacity: 1;
+    }
+} 
+
+.seo-element {
+    text-indent: -9999px !important;
+}
+
+.scroll-content-x{
+    position: relative;
+    overflow-x: hidden;
+
+    & > ul{
+        overflow-x: auto;
+        overflow-y: hidden;
+        flex-wrap: nowrap;
+        display: flex;
+
+        & li{
+            display: flex;
+            flex-grow: 0;
+        }
+    }
+    &.scroll-content-center{
+        & > ul{
+            text-align: center;
+            display: block;
+            width: 100%;
+            white-space: nowrap;
+            
+            & li{
+                display: inline-block;
+            }
+        }
+    }
+}
+
+.stretched-link {
+    &::after{
+        position: absolute;
+        top: -1px;
+        right: 0;
+        bottom: -1px;
+        left: 0;
+        z-index: 1;
+        content: "";
+        border-radius: 1rem;
+    }
+    &:hover::after{
+        border: 3px solid $color_primary_50;
+        display: block !important;
+        width: calc(100% + 2px);
+        height: calc(100% + 3px);
+    }
+}
+
+.stretched-link::after {
+
+}
+
+.ripple {
+    width: 140px;
+    height: 140px;
+    border-radius: 140px;
+    position: absolute;
+    opacity: 0;
+    margin-top: -70px;
+    margin-left: -70px;
+    animation-name: pulse;
+    -webkit-animation-name: pulse;
+    -moz-animation-name: pulse;
+    -o-animation-name: pulse;
+    animation-duration: 1100ms;
+    -webkit-animation-duration: 1100ms;
+    -moz-animation-duration: 1100ms;
+    -o-animation-duration: 1100ms;
+    animation-timing-function: cubic-bezier(0.165, 0.840, 0.440, 1.000);
+    -webkit-animation-timing-function: cubic-bezier(0.165, 0.840, 0.440, 1.000);
+    -moz-animation-timing-function: cubic-bezier(0.165, 0.840, 0.440, 1.000);
+    -o-animation-timing-function: cubic-bezier(0.165, 0.840, 0.440, 1.000);
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
+    will-change: opacity, transform, border;
+    border-style: solid;
+    border-width: 20px;
+    border-color: #fff;
+    z-index: -1;
+}
+
+@keyframes pulse {
+0% {transform: scale(0);  -moz-transform: scale(0); -o-transform: scale(0); opacity: 0; border-width: 20px;}
+3% {opacity: 0.6;}
+100% {transform: scale(1.5); -webkit-transform: scale(1.5); -moz-transform: scale(1.5); -o-transform: scale(1.5); opacity: 0; border-width: 0px;}
+}
+
+@-webkit-keyframes pulse {
+0% {transform: scale(0);  -moz-transform: scale(0); -o-transform: scale(0); opacity: 0; border-width: 20px;}
+3% {opacity: 0.6;}
+100% {transform: scale(1.5); -webkit-transform: scale(1.5); -moz-transform: scale(1.5); -o-transform: scale(1.5); opacity: 0; border-width: 0px;}
+}
+
+@-moz-keyframes pulse {
+0% {transform: scale(0);  -moz-transform: scale(0); -o-transform: scale(0); opacity: 0; border-width: 20px;}
+3% {opacity: 0.6;}
+100% {transform: scale(1.5); -webkit-transform: scale(1.5); -moz-transform: scale(1.5); -o-transform: scale(1.5); opacity: 0; border-width: 0px;}
+}
+
+@-o-keyframes pulse {
+0% {transform: scale(0);  -moz-transform: scale(0); -o-transform: scale(0); opacity: 0; border-width: 20px;}
+3% {opacity: 0.6;}
+100% {transform: scale(1.5); -webkit-transform: scale(1.5); -moz-transform: scale(1.5); -o-transform: scale(1.5); opacity: 0; border-width: 0px;}
+}
+
+
+@-webkit-keyframes module-animation {
+    100% {
+      -webkit-transform: translate(-50%, -50%) scale(1.05);
+    }
+  }
+
+@keyframes module-animation {
+    100% {
+    transform: translate(-50%, -50%) scale(1.05);
+    }
+}
+
+
+@media (pointer: coarse){
+    .pi-mobile .scroll-content-x.mobile-hide-scroll > ul {
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+    }
+    
+    .pi-mobile .scroll-content-x.mobile-hide-scroll > ul::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+
+/* sm - Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {
+    /* Mixins same-height - breakpoint sm */
+    @include same-height(sm);
+    /**/
+
+    .visually-sm-hidden{
+        @include visually-hidden();
+    }
+    .visually-sm-hidden-focusable{
+        @include visually-hidden-focusable();
+    }
+}
+
+
+/* md - Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+    /* Mixins same-height - breakpoint md */
+    @include same-height(md);
+    /**/
+
+    .visually-md-hidden{
+        @include visually-hidden();
+    }
+    .visually-md-hidden-focusable{
+        @include visually-hidden-focusable();
+    }
+}
+
+
+/* lg - // Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    /* Mixins same-height - breakpoint lg */
+    @include same-height(lg);
+    /**/
+
+    .visually-lg-hidden{
+        @include visually-hidden();
+    }
+    .visually-lg-hidden-focusable{
+        @include visually-hidden-focusable();
+    }
+}
+
+
+/* xl - X-Large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    /* Mixins same-height - breakpoint xl */
+    @include same-height(xl);
+    /**/
+
+    .visually-xl-hidden{
+        @include visually-hidden();
+    }
+    .visually-xl-hidden-focusable{
+        @include visually-hidden-focusable();
+    }
+}
+
+
+/* xxl - XX-Large devices (larger desktops, 1400px and up) */
+
+@media (min-width: 1400px) {
+    /* Mixins same-height - breakpoint xxl */
+    @include same-height(xxl);
+    /**/
+
+    .visually-xxl-hidden{
+        @include visually-hidden();
+    }
+    .visually-xxl-hidden-focusable{
+        @include visually-hidden-focusable();
+    }
+}

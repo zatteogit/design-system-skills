@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <title>Html kit - Ui - Carousel</title>
+    <!--#include virtual="/docs/includes/utilities/head-tag.html" -->
+    <script>
+        var setDocsActivePage = "Carousel";
+    </script>
+</head>
+
+<body tabindex="0">
+
+    <header class="sticky-top">
+        <!--#include virtual="/docs/includes/nav/nav-main-documentazione.html" -->
+        <!--#include virtual="/docs/includes/header/abstract-default.html" -->
+    </header>
+
+    <main>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-3 col-lg-2 border-end border-grey01 border-5">
+                    <nav id="nav-sidebar" class="sticky-top">
+
+                        <!--#include virtual="/docs/includes/nav/nav-sidebar-documentazione.html" -->
+
+                    </nav>
+                </div>
+                <div class="col-sm-9 col-lg-8 pt-4 pb-5">
+                    <section class="container">
+                        <div class="row">
+                            <!--Breadcrumb-->
+                            <div id="breadcrumb" class="col-12">
+                                <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);"
+                                    aria-label="breadcrumb">
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item"><a href="#">Assets</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">Carousel
+                                        </li>
+                                    </ol>
+                                </nav>
+                            </div>
+                            <!--Breadcrumb end-->
+                            <!--Main title-->
+                            <div id="main-title" class="col-12">
+                                <h2 class="heading h1 fw-normal">Carousel</h2>
+                            </div>
+                            <!--Main title end-->
+                            <!--Article-->
+                            <article class="mb-5">
+                                <div class="col-12">
+                                    <div class="main-pills main-pills-basic rounded" id="contenuto1">
+                                        <div class="main-pills-header rounded">
+                                            <div class="row">
+                                                <div class="col-12 mt-3">
+                                                    <h3
+                                                        class="heading h3 fw-normal border-start border-3 ps-2 border-info">
+                                                        Carousel - Swiper Base</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="main-pills-body">
+                                            <!--Blocco 1-->
+                                            <div class="content">
+                                                <p>Il Carosello è un componente interattivo che consente di mostrare una serie di contenuti, come immagini o card, in uno spazio limitato, permettendo agli utenti di navigare tra di essi tramite controlli intuitivi.</p>
+                                                <p>Il kit-Html fa uso di <strong>Swiper.js</strong>, un potente framework per slider per la realizzazione di caroselli responsive ed accessibili.</p>
+                                                <div class="divider bg-grey01 my-4"></div>
+                                                <h4 class="heading h5">Dipendenze</h4>
+                                                <ul>
+                                                    <li><a href="/dist/assets/vendor/swiper/js/swiper-bundle.min.js" target="_blank" title="">swiper-bundle.min.js</a></li>
+                                                    <li><a href="/dist/assets/vendor/swiper/css/swiper-bundle.min.css" target="_blank" title="">swiper-bundle.min.css</a></li>
+                                                    <li><a href="/dist/assets/vendor/swiper/css/swiper-corporate.css" target="_blank" title="">swiper-corporate.css</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="preview">
+                                                <div class="preview-services">
+                                                    <div class="row">
+                                                        <div class="col-6 my-3 d-flex">
+                                                            <span class="badge rounded-pill align-self-end bg-primary fw-semibold">Preview</span>
+                                                            <select class="form-select"
+                                                                aria-label="Seleziona la vista responsive"
+                                                                aria-controls="iframe0001">
+                                                                <option value="default" selected>Cambia vista Responsive
+                                                                </option>
+                                                                <option value="xs">Smartphone (xs - Portrait)</option>
+                                                                <option value="sm">Smartphone (sm - Landscape) </option>
+                                                                <option value="md">Tablet (md - Landscape)</option>
+                                                                <option value="lg">Desktop - small (lg)</option>
+                                                                <option value="xl">Desktop - large (xl)</option>
+                                                                
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <div class="border border-5 border-grey01">
+                                                            <div class="ratio ratio-21x9 overflow-auto">
+                                                                <div id="iframepreview">
+                                                                    <iframe id="iframe0001"
+                                                                    class="border border-2 border-grey01"
+                                                                    aria-label="Preview dell'asset responsive"
+                                                                    role="region" aria-live="polite"
+                                                                    src="/docs/viewer/iframe-viewer.shtml?include-id=uicarousel0001"></iframe>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <span class="preview-caption my-2 d-block"></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="related-wrap">
+                                                <div class="row gap-4 gap-lg-0">
+                                                    <div class="col-lg-6">
+                                                        <div class="related-preview h-100">
+                                                            <div class="related-services">
+                                                                <div class="row my-2">
+                                                                    <div class="col-12">
+                                                                        <h4 class="heading h5">Preview</h4>
+                                                                        <ul class="">
+                                                                            <li><a href="/docs/viewer/iframe-viewer.shtml?include-id=uicarousel0001"
+                                                                                    title="Asset preview fullpage"
+                                                                                    target="_blank">Asset preview fullpage</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <div class="related h-100">
+                                                            <div class="related-services">
+                                                                <div class="row my-2">
+                                                                    <div class="col-12">
+                                                                        <h4 class="heading h5">Pagine esemplificative</h4>
+                                                                        <ul class="">
+                                                                            <li><a href="/dist/pages/index.shtml" title="Homepage Corporate" target="_blank">Homepage Corporate</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="code">
+                                                <div class="code-services">
+                                                    <div class="row">
+                                                        <div class="col-6 my-3 d-flex">
+                                                            <span
+                                                                class="badge rounded-pill align-self-end bg-primary fw-semibold">Markup</span>
+                                                        </div>
+                                                        <div class="col-6 my-3 text-end">
+                                                            <a class="copycode" href="#" title="Copia codice">
+                                                                <span class="icon">
+                                                                    <svg focusable="false">
+                                                                        <title>Copia il codice</title>
+                                                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#076a-description-m" href="/dist/assets/core/images/iconset/sprite.svg#076a-description-m"></use>
+                                                                    </svg>
+                                                                </span>
+                                                            </a>
+                                                            <a class="viewcode" href="#" title="Mostra/Nascondi codice">
+                                                                <span class="icon codeshow">
+                                                                    <svg focusable="false">
+                                                                        <title>Mostra codice</title>
+                                                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#016b-visibility-on-m" href="/dist/assets/core/images/iconset/sprite.svg#016b-visibility-on-m"></use>
+                                                                    </svg>
+                                                                </span>
+                                                                <span class="icon codehide">
+                                                                    <svg focusable="false">
+                                                                        <title>Nascondi codice</title>
+                                                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#016a-visibility-off-m" href="/dist/assets/core/images/iconset/sprite.svg#016a-visibility-off-m"></use>
+                                                                    </svg>
+                                                                </span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <pre><code class="language-html">
+                                                        <!--#include virtual="/docs/includes/code/code-html-ui-carousel-swiper.html" -->
+                                                    </code>
+                                                </pre>
+                                            </div>
+                                            <div class="content">
+                                                <p>La struttura include un container principale <span class="tag-code">.swiper-container</span> con l'attributo <span class="tag-code">aria-roledescription="carousel"</span>, indicando agli screen reader che si tratta di un carosello.<br/> Le slide sono gestite all'interno di un macro contenitore <span class="tag-code">swiper-wrapper</span>. Ciascun pannello è all'interno di uno <span class="tag-code">swiper-slide</span></p>
+                                                <p>La classe <span class="tag-code">.bg-track</span> permette di visualizzare il "binario" (di default in grigio) posto sullo sfondo del carosello; la classe <span class="tag-code">.bg-track-over</span> permette di sovrascrivere il posizionamento di default del binario.</p>
+                                                 <p>La corretta visualizzazione del carosello è strettamente correlata all'utilizzo di
+                                                    attributi
+                                                    <code>data</code> personalizzati elencati qui di seguito con i
+                                                    possibili valori attribuibili:
+                                                </p>
+                                                <div class="table-responsive">
+                                                    <table class="table">
+                                                        <caption>
+                                                            Carousel - Swiper Base DATA attribute
+                                                        </caption>
+                                                        <thead>
+                                                            <tr>
+                                                                <th>DATA attribute</th>
+                                                                <th>Valori</th>
+                                                                <th>Descrizione</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+        
+                                                            <tr>
+                                                                <td><code>data-pi-position</code></td>
+                                                                <td><span class="fw-medium">default</span> / <span class="fw-medium">track</span> / <span class="fw-medium">track-over</span></td>
+                                                                <td>gestisce le spaziature e il posizionamento del carosello rispetto alla presenza del Binario.</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                            <div class="code">
+                                                <div class="code-services">
+                                                    <div class="row">
+                                                        <div class="col-6 my-3 d-flex">
+                                                            <span class="badge rounded-pill align-self-end bg-primary fw-semibold">Javascript</span>
+                                                        </div>
+                                                        <div class="col-6 my-3 text-end">
+                                                            <a class="copycode" href="#" title="Copia codice">
+                                                                <img alt="Copia codice" src="/docs/assets/core/images/icons/ico-copy.png" srcset="/docs/assets/core/images/icons/ico-copy@2x.png 2x" />
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <pre><code class="language-javascript">
+                                                        <!--#include virtual="/docs/includes/code/code-js-ui-carousel-opt-swiper.html" -->
+                                                    </code>
+                                                </pre>
+                                            </div>
+                                            <div class="content">
+                                                <p>La configurazione di Swiper &egrave; impostata tramite <span class="tag-code">args</span>, includendo opzioni come <span class="tag-code">slidesPerView</span>, <span class="tag-code">spaceBetween</span>, <span class="tag-code">pagination</span>, <span class="tag-code">autoplay</span>, <span class="tag-code">navigation</span> e <span class="tag-code">breakpoints</span> per la responsivit&agrave;.<br/>
+                                                    I parametri <span class="tag-code">a11y</span> aggiungono messaggi personalizzati per l'accessibilit&agrave; in italiano, come indicazioni per le slide successive e precedenti e l'indicazione di numero slide.</p>
+                                                    <p>&Egrave; possibile visualizzare la documentazione completa di Swiper direttamente sul <a href="https://swiperjs.com/" target="_blank">sito ufficiale</a></p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="divider bg-grey01 py-1 my-2 px-2 d-flex align-items-center justify-content-end">
+                                        <span>Asset Cross</span>
+                                    </div>
+                                    <div class="divider bg-grey02 py-1 my-2"></div>
+                                </div>
+                            </article>
+                            <!--Article end-->
+
+                            <!--Article-->
+                            <article class="mb-5">
+                                <div class="col-12">
+                                    <div class="main-pills main-pills-basic rounded" id="contenuto2">
+                                        <div class="main-pills-header rounded">
+                                            <div class="row">
+                                                <div class="col-12 mt-3">
+                                                    <h3
+                                                        class="heading h3 fw-normal border-start border-3 ps-2 border-info">
+                                                        Carousel - Swiper Gallery</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="main-pills-body">
+                                            <!--Blocco 1-->
+                                            <div class="content">
+                                                <p>Il componente Swiper Gallery è una galleria di immagini con supporto per miniature di navigazione. 
+                                                    Utilizza Swiper.js per fornire un'interfaccia scorrevole e interattiva, con controlli di navigazione e paginazione.</p>
+                                                <div class="divider bg-grey01 my-4"></div>
+                                                <h4 class="heading h5">Dipendenze</h4>
+                                                <ul>
+                                                    <li><a href="/dist/assets/vendor/swiper/js/swiper-bundle.min.js" target="_blank" title="">swiper-bundle.min.js</a></li>
+                                                    <li><a href="/dist/assets/vendor/swiper/css/swiper-bundle.min.css" target="_blank" title="">swiper-bundle.min.css</a></li>
+                                                    <li><a href="/dist/assets/vendor/swiper/css/swiper-corporate.css" target="_blank" title="">swiper-corporate.css</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="preview">
+                                                <div class="preview-services">
+                                                    <div class="row">
+                                                        <div class="col-6 my-3 d-flex">
+                                                            <span class="badge rounded-pill align-self-end bg-primary fw-semibold">Preview</span>
+                                                            <select class="form-select"
+                                                                aria-label="Seleziona la vista responsive"
+                                                                aria-controls="iframe0002">
+                                                                <option value="default" selected>Cambia vista Responsive
+                                                                </option>
+                                                                <option value="xs">Smartphone (xs - Portrait)</option>
+                                                                <option value="sm">Smartphone (sm - Landscape) </option>
+                                                                <option value="md">Tablet (md - Landscape)</option>
+                                                                <option value="lg">Desktop - small (lg)</option>
+                                                                <option value="xl">Desktop - large (xl)</option>
+                                                                
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <div class="border border-5 border-grey01">
+                                                            <div class="ratio ratio-21x9 overflow-auto">
+                                                                <div id="iframepreview">
+                                                                    <iframe id="iframe0002"
+                                                                    class="border border-2 border-grey01"
+                                                                    aria-label="Preview dell'asset responsive"
+                                                                    role="region" aria-live="polite"
+                                                                    src="/docs/viewer/iframe-viewer.shtml?include-id=uicarousel0002"></iframe>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <span class="preview-caption my-2 d-block"></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="related-wrap">
+                                                <div class="row gap-4 gap-lg-0">
+                                                    <div class="col-lg-6">
+                                                        <div class="related-preview h-100">
+                                                            <div class="related-services">
+                                                                <div class="row my-2">
+                                                                    <div class="col-12">
+                                                                        <h4 class="heading h5">Preview</h4>
+                                                                        <ul class="">
+                                                                            <li><a href="/docs/viewer/iframe-viewer.shtml?include-id=uicarousel0002"
+                                                                                    title="Asset preview fullpage"
+                                                                                    target="_blank">Asset preview fullpage</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <div class="related h-100">
+                                                            <div class="related-services">
+                                                                <div class="row my-2">
+                                                                    <div class="col-12">
+                                                                        <h4 class="heading h5">Pagine esemplificative</h4>
+                                                                        <ul class="">
+                                                                            <li><a href="/dist/pages/foglia-educazione-finanziaria.shtml" title="Foglia - Educazione finanziaria" target="_blank">Foglia - Educazione finanziaria</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="code">
+                                                <div class="code-services">
+                                                    <div class="row">
+                                                        <div class="col-6 my-3 d-flex">
+                                                            <span
+                                                                class="badge rounded-pill align-self-end bg-primary fw-semibold">Markup</span>
+                                                        </div>
+                                                        <div class="col-6 my-3 text-end">
+                                                            <a class="copycode" href="#" title="Copia codice">
+                                                                <span class="icon">
+                                                                    <svg focusable="false">
+                                                                        <title>Copia il codice</title>
+                                                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#076a-description-m" href="/dist/assets/core/images/iconset/sprite.svg#076a-description-m"></use>
+                                                                    </svg>
+                                                                </span>
+                                                            </a>
+                                                            <a class="viewcode" href="#" title="Mostra/Nascondi codice">
+                                                                <span class="icon codeshow">
+                                                                    <svg focusable="false">
+                                                                        <title>Mostra codice</title>
+                                                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#016b-visibility-on-m" href="/dist/assets/core/images/iconset/sprite.svg#016b-visibility-on-m"></use>
+                                                                    </svg>
+                                                                </span>
+                                                                <span class="icon codehide">
+                                                                    <svg focusable="false">
+                                                                        <title>Nascondi codice</title>
+                                                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#016a-visibility-off-m" href="/dist/assets/core/images/iconset/sprite.svg#016a-visibility-off-m"></use>
+                                                                    </svg>
+                                                                </span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <pre><code class="language-html">
+                                                        <!--#include virtual="/docs/includes/code/code-html-ui-carousel-swiper-gallery.html" -->
+                                                    </code>
+                                                </pre>
+                                            </div>
+                                            <div class="content">
+                                                <p>La gallery è composta da diversi elementi che lavorano insieme per offrire un'esperienza di navigazione fluida e intuitiva.</p>
+                                                <p>Il componente principale è lo swiper principale <span class="tag-code">.swiper-preview</span>, che contiene le immagini visualizzate a grandezza intera.</p>
+                                                <p>A supporto, per una selezione più rapida, è presente lo swiper delle miniature <span class="tag-code">.swiper-thumbs</span>, visibile solo su dispositivi con viewport superiori a <span class="code">MD</span>.
+                                                    </p>
+                                                <p>Per facilitare la navigazione tra le immagini, sono disponibili i pulsanti di navigazione <span class="tag-code">.swiper-btn-prev</span> e <span class="code">.swiper-btn-next</span>, che consentono di scorrere avanti e indietro nel carosello.</p>
+                                                <p>Infine, la paginazione <span class="tag-code">.swiper-pagination</span> fornisce un'indicazione visiva della posizione corrente all'interno della galleria.</p>
+                                                </div>
+                                            <div class="code">
+                                                <div class="code-services">
+                                                    <div class="row">
+                                                        <div class="col-6 my-3 d-flex">
+                                                            <span class="badge rounded-pill align-self-end bg-primary fw-semibold">Javascript</span>
+                                                        </div>
+                                                        <div class="col-6 my-3 text-end">
+                                                            <a class="copycode" href="#" title="Copia codice">
+                                                                <img alt="Copia codice" src="/docs/assets/core/images/icons/ico-copy.png" srcset="/docs/assets/core/images/icons/ico-copy@2x.png 2x" />
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <pre><code class="language-javascript">
+                                                        <!--#include virtual="/docs/includes/code/code-js-ui-carousel-opt-swiper-gallery.html" -->
+                                                    </code>
+                                                </pre>
+                                            </div>
+                                            <div class="content">
+                                                <p>La configurazione di Swiper &egrave; impostata tramite <span class="tag-code">args</span>, includendo opzioni come <span class="tag-code">slidesPerView</span>, <span class="tag-code">spaceBetween</span>, <span class="tag-code">pagination</span>, <span class="tag-code">autoplay</span>, <span class="tag-code">navigation</span> e <span class="tag-code">breakpoints</span> per la responsivit&agrave;.<br/>
+                                                    I parametri <span class="tag-code">a11y</span> aggiungono messaggi personalizzati per l'accessibilit&agrave; in italiano, come indicazioni per le slide successive e precedenti e l'indicazione di numero slide.</p>
+                                                    <p>&Egrave; possibile visualizzare la documentazione completa di Swiper direttamente sul <a href="https://swiperjs.com/" target="_blank">sito ufficiale</a></p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="divider bg-grey01 py-1 my-2 px-2 d-flex align-items-center justify-content-end">
+                                        <span>Asset Cross</span>
+                                    </div>
+                                    <div class="divider bg-grey02 py-1 my-2"></div>
+                                </div>
+                            </article>
+                            <!--Article end-->
+
+                            <!--Article-->
+                            <article class="mb-5">
+                                <div class="col-12">
+                                    <div class="main-pills main-pills-basic rounded" id="contenutostatus">
+                                        <div class="main-pills-header rounded">
+                                            <div class="row">
+                                                <div class="col-12 mt-3">
+                                                    <h3
+                                                        class="heading h3 fw-normal border-start border-3 ps-2 border-info">
+                                                        Latest Update</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="main-pills-body">
+                                            <!--Blocco 1-->
+                                            <div class="content">
+                                                <p>
+                                                    Di seguito sono riportati gli aggiornamenti principali apportati al carousel (Swiper), inclusi miglioramenti, correzioni di bug e nuove funzionalit&agrave;.
+                                                </p>
+                                            </div>
+                                            <div class="Last-update-report">
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <div class="table-responsive">
+                                                            <table class="table table-striped">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th scope="col">Data</th>
+                                                                        <th scope="col">Release di riferimento</th>
+                                                                        <th scope="col">Descrizione</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    
+                                                                    <tr>
+                                                                        <td>04/03/2026</td>
+                                                                        <td>1.2.1</td>
+                                                                        <td>Fix gestione spaziature caroselli (card) in presenza/assenza controlli e/o cta editoriale (solo css)
+                                                                        </td>
+                                                                    </tr><tr>
+                                                                        <td>25/02/2026</td>
+                                                                        <td>1.2</td>
+                                                                        <td>Carousel - Swiper Gallery: rimossa classe ".caption" dalle didascalie
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>16/02/2026</td>
+                                                                        <td>1.2</td>
+                                                                        <td>Carousel - Swiper Gallery: Vincolo ratio 16:9
+                                                                            <ul>
+                                                                                <li>Aggiunto vincolo proporzioni su img di preview</li>
+                                                                                <li>Aggiunto vincolo proporzioni su img thumb (con mascheramento)</li>
+                                                                            </ul>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>16/06/2025</td>
+                                                                        <td>1.0</td>
+                                                                        <td>Rilascio iniziale.</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="divider bg-grey01 py-1 my-2 px-2 d-flex align-items-center justify-content-end">
+                                        <span>&nbsp;</span>
+                                    </div>
+                                    <div class="divider bg-grey02 py-1 my-2"></div>
+                                </div>
+                            </article>
+                            <!--Article end-->
+                        </div>
+                    </section>
+                </div>
+                <div class="col-lg-2 d-none d-lg-block">
+                    <nav id="nav-sidebar-context" class="navbar flex-column sticky-top" role="navigation">
+
+                        <!--#include virtual="/docs/includes/nav/nav-sidebar-context-documentazione-ui-carousel.html" -->
+
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container-fluid py-4">
+            <!--#include virtual="/docs/includes/footer/footer-default.html" -->
+        </div>
+    </footer>
+
+
+    <!--#include virtual="/docs/includes/utilities/footer-tag.html" -->
+    <!--#include virtual="/docs/includes/code/code-base.html" -->
+    <!--#include virtual="/docs/includes/utilities/loader.html" -->
+
+</body>
+
+</html>

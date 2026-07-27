@@ -1,0 +1,20 @@
+<pre><code class="language-scss visible">
+.separator {
+    position: relative;
+    padding-top: 1.5rem;
+
+    &.text-center{
+        &:after{
+            @include pseudo-elements-obj(3rem, 0.5rem, 0, 0, $color_secondary_87, 0, true);
+        }
+    }
+
+    &:not(.text-center){
+        &:after{
+            @include pseudo-elements-obj(3rem, 0.5rem, 0, 0, $color_secondary_87, 0, false);
+        }
+    }
+    
+}
+</code>
+</pre>

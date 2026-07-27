@@ -1,0 +1,41 @@
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+    
+        mySwiperId = "#swiper002";
+        
+        swiper_args2 = {
+            // Default config
+            spaceBetween: 24,
+            watchSlidesProgress: true,
+            a11y: swiper_lang_it,
+            keyboard: {
+                enabled: true,
+            },
+            pagination: {
+                el: mySwiperId+' .swiper-pagination',
+                clickable: false,
+                dynamicBullets: true
+            },
+            navigation: {
+                nextEl: mySwiperId+' .swiper-btn-next',
+                prevEl: mySwiperId+' .swiper-btn-prev',
+            },
+            // Custom config
+            slidesPerView: 1,
+    
+            breakpoints: {
+                768: {
+                    slidesPerView: 2
+                },
+                992: {
+                    slidesPerView: 3,
+                },
+                1400: {
+                    slidesPerView: 4,
+                }
+            }
+        }
+
+        const swiper = new Swiper(mySwiperId+' .swiper', swiper_args2);
+    });
+    </script>

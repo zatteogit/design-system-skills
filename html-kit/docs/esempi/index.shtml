@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <title>Html kit - Start</title>
+    <!--#include virtual="/docs/includes/utilities/head-tag.html" -->
+</head>
+
+<body>
+
+    <header class="sticky-top">
+        <!--#include virtual="/docs/includes/nav/nav-main-documentazione.html" -->
+        <!--#include virtual="/docs/includes/header/abstract-default.html" -->
+    </header>
+
+    <main>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col pt-4 pb-5">
+                    <section class="container">
+                        <div class="row">
+                            <!--Main title-->
+                            <div id="main-title" class="col-12">
+                                <h2 class="heading h1 fw-lighter">Esempi Html</h2>
+                            </div>
+                            <!--Main title end-->
+
+                            <!--Article-->
+                            <article class="mb-5">
+                                <div class="col-12">
+                                    <div class="main-pills main-pills-basic rounded" id="contenuto0">
+                                        <div class="main-pills-header rounded">
+                                            <div class="row">
+                                                <div class="col-12 mt-3">
+                                                    <h3
+                                                        class="heading h4 fw-normal border-start border-3 ps-2 border-primary">
+                                                        Corporate</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="main-pills-body">
+                                            <div class="content">
+                                                <p>Le pagine qui di seguito elencate possono essere utilizzate come base
+                                                    per lo sviluppo di aree specifiche ed applicazioni legate
+                                                    al mondo Posteitaliane.it</p>
+                                            </div>
+                                            <div class="divider bg-grey01 mt-4 mb-2"></div>
+                                            <h4 class="heading h5 pt-4 pb-2">Pagine informative</h4>
+                                            <div class="content lh-base border border-1 py-4 px-5">
+                                                <div class="row">
+                                                    <div class="col-sm-6">
+                                                        <ul class="list mb-0">
+                                                            <li class=""><a href="/dist/pages/index.shtml" title="">Homepage Corporate</a></li>
+                                                            <li class=""><a href="/dist/pages/sub-investitori.shtml" title="">Sub-home Investitori</a></li>
+                                                            <li class=""><a href="/dist/pages/sub-sostenibilita.shtml" title="">Sub-home Sostenibilit&agrave;</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        <ul class="list mb-0"> 
+                                                            <li class=""><a href="/dist/pages/foglia-customerexp.shtml" title="">Foglia - Customer Experience</a></li>
+                                                            <li class=""><a href="/dist/pages/foglia-manager.shtml" title="">Foglia - I nostri manager</a></li>
+                                                            <li class=""><a href="/dist/pages/foglia-educazione-finanziaria.shtml" title="">Foglia - Educazione finanziaria</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="main-pills main-pills-basic rounded" id="contenuto1">
+                                        <div class="main-pills-body">
+                                            <h4 class="heading h5 pt-4 pb-2">Pagine applicative</h4>
+                                            <div class="content lh-base border border-1 py-4 px-5">
+                                                <div class="row">
+                                                    <div class="col-sm-6">
+                                                        <ul class="list mb-0">
+                                                            <li class=""><a href="/dist/pages/comunicati.shtml" title="">Comunicati stampa</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        <ul class="list mb-0"> 
+                                                            <li class=""><a href="/dist/pages/foglia-comunicati.shtml" title="">Foglia - Comunicato stampa</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="main-pills main-pills-basic rounded" id="contenuto1">
+                                        <div class="main-pills-body">
+                                            <h4 class="heading h5 pt-4 pb-2">Esempi di elementi strutturali</h4>
+                                            <div class="content lh-base border border-1 py-4 px-5">
+                                                <div class="row">
+                                                    <div class="col-sm-6">
+                                                        <ul class="list mb-0">
+                                                            <li class=""><a href="/dist/pages/menu.shtml" title="">Menu</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        
+                                                        <ul class="list mb-0"> 
+                                                            <li class=""><a href="/dist/pages/footer.shtml" title="">Footer</a></li>
+                                                        </ul>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="divider bg-grey01 py-1 my-2 px-2 d-flex align-items-center justify-content-end">
+                                        <span>&nbsp;</span>
+                                    </div>
+                                    <div class="divider bg-grey02 py-1 my-2"></div>
+                                </div>
+                            </article>
+                            <!--Article end-->
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container-fluid py-4">
+            <!--#include virtual="/docs/includes/footer/footer-default.html" -->
+        </div>
+    </footer>
+
+
+    <!--#include virtual="/docs/includes/utilities/footer-tag.html" -->
+    <!--#include virtual="/docs/includes/code/code-base.html" -->
+    <!--#include virtual="/docs/includes/utilities/loader.html" -->
+
+</body>
+
+</html>

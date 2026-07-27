@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <title>PosteItaliane.it</title>
+
+    <!--#set var="core_resources" value="on" -->
+    <!--#set var="swiper_resources" value="on" -->
+    <!--#set var="masonry_resources" value="off" -->
+    <!--#include virtual="/dist/includes/utilities/head-tag.shtml" -->
+    <meta name="description"
+        content="pagina esempio foglia corporate Poste Italiane, parte della linea guida grafica COM / DM">
+</head>
+
+<body id="foglia" class="no-js">
+    <nav id="skiplink" aria-label="Navigazione di pagina">
+        <ul>
+            <li><a tabindex="0" class="skip-link visually-hidden-focusable-abs" href="#accessibility-anchor">Passa al
+                    contenuto principale</a></li>
+            <li><a class="skip-link visually-hidden-focusable-abs" href="#footer">Passa al footer di pagina</a></li>
+        </ul>
+    </nav>
+    <header class="sticky">
+        <div class="sticky-wrap">
+            <!-- section Fedbar-->
+            <section class="section section-fedbar">
+                <div class="section-wrap">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <!--#include virtual="/dist/includes/header/header-section-fedbar.html" -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- section Navbar-->
+            <section class="section section-navbar">
+                <div class="section-wrap">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <!--#include virtual="/dist/includes/header/navbar-section-default.html" -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </header>
+
+    <main id="accessibility-anchor">
+
+        <!--<h1 class="visually-hidden">PosteItaliane.it - Comunicato stampa</h1>-->
+        <section class="section section-module module-intro">
+            <!--#include virtual="/dist/includes/object/module-intro-01.html" -->
+        </section>
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-12 offset-xl-1 col-xl-10">
+                                <section class="section">
+                                    <div class="section-wrap">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="row g-4">
+                                                    <div class="col-12">
+                                                        <div class="content-heading separator">
+                                                            <div class="d-flex flex-column">
+
+                                                                <div class="d-flex order-md-1">
+                                                                    <span class="caption">Roma, 21 Febbraio 2025 -
+                                                                        11:30</span>
+                                                                </div>
+
+                                                                <div class="d-flex order-md-3 mt-2 mt-md-3 mb-1">
+                                                                    <h1 class="heading h2 fw-medium">Poste Italiane:
+                                                                        Risultati preliminari dell'esercizio 2024 e
+                                                                        aggiornamento del Piano Strategico 2025</h1>
+                                                                </div>
+
+                                                                <div
+                                                                    class="d-flex order-md-2 flex-row justify-content-md-end mt-3 mt-md-n5">
+                                                                    <span class="visually-hidden"
+                                                                        id="extend-infoshare-01">Condividi il comunicato
+                                                                        stampa</span>
+                                                                    <button class="btn btn-icon btn-link btn-sm me-3"
+                                                                        aria-labelledby="extend-infoshare-01">
+                                                                        <span class="icon">
+                                                                            <svg focusable="false">
+                                                                                <title>Lorem ipsum</title>
+                                                                                <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#077a-share-m"
+                                                                                    href="/dist/assets/core/images/iconset/sprite.svg#077a-share-m">
+                                                                                </use>
+                                                                            </svg>
+                                                                        </span><span class="d-block">Condividi</span>
+                                                                    </button>
+                                                                    <span class="visually-hidden"
+                                                                        id="extend-infodownload-01">Scarica il
+                                                                        comunicato stampa integrale in versione
+                                                                        pdf</span>
+                                                                    <a class="btn btn-icon btn-link btn-sm" href="#"
+                                                                        aria-labelledby="extend-infodownload-01">
+                                                                        <span class="icon">
+                                                                            <svg focusable="false">
+                                                                                <title>Lorem ipsum</title>
+                                                                                <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#017a-file-download-m"
+                                                                                    href="/dist/assets/core/images/iconset/sprite.svg#017a-file-download-m">
+                                                                                </use>
+                                                                            </svg>
+                                                                        </span><span class="d-block">Scarica in
+                                                                            PDF</span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <!-- <span class="caption mb-4">Roma, 21 Febbraio 2025 - 11:30</span> -->
+                                                            <!--h2 class="heading fw-medium">Poste Italiane: Risultati preliminari dell'esercizio 2024 e aggiornamento del Piano Strategico 2025</h2-->
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <div class="content">
+                                                            <p>Nella giornata odierna, il Consiglio di Amministrazione
+                                                                di Poste Italiane S.p.A.,
+                                                                presieduto da Silvia Maria Rovere, si è riunito e ha
+                                                                approvato i risultati preconsuntivi relativi
+                                                                all'esercizio 2024,
+                                                                redatti in conformità ai principi contabili
+                                                                internazionali (IAS/IFRS) e l'aggiornamento del Piano
+                                                                Strategico del 2025.</p>
+                                                        </div>
+                                                        <div class="content d-flex flex-column gap-3">
+                                                            <p>Ricavi del 2024 a livelli record e pari a € 12,6
+                                                                miliardi, in crescita del 5,0% su base annua.</p>
+
+                                                            <p>Risultato operativo (EBIT) adjusted¹ pari a € 2,96
+                                                                miliardi nel 2024, in anticipo rispetto al piano²,
+                                                                ampiamente al di sopra dell'ultima guidance e pari a
+                                                                circa tre volte il livello del 2017.</p>
+
+                                                            <p>Utile netto più alto mai registrato e pari a € 2,01
+                                                                miliardi, raggiunto con due anni di anticipo rispetto al
+                                                                piano² e in linea con la guidance aggiornata.</p>
+
+                                                            <p>Solida performance nella corrispondenza, grazie a un
+                                                                business mix favorevole e alle azioni di repricing -
+                                                                confermata la leadership nel settore pacchi in tutti i
+                                                                segmenti di clientela.</p>
+
+                                                            <p>Ricavi dei servizi finanziari in crescita del 5,6% su
+                                                                base annua, a € 5,5 miliardi, trainati da solidi ricavi
+                                                                dal portafoglio investimenti e da commissioni record
+                                                                nella distribuzione di prodotti di finanziamento.</p>
+
+                                                            <p>Raggiunta la soglia di € 1 miliardo di premi lordi nel
+                                                                2024 nel business della protezione e raccolta netta
+                                                                positiva nel comparto Vita in un contesto di mercato
+                                                                sfidante, con ricavi in crescita del 4,7% su base annua
+                                                                a € 1,6 miliardi.</p>
+
+                                                            <p>Solida performance nei servizi PostePay, con ricavi in
+                                                                crescita nel 2024 del 9,5%, che si attestano a € 1,6
+                                                                miliardi, e risultato operativo (EBIT) che aumenta del
+                                                                20,3% su base annua a € 0,5 miliardi, sostenuto dalla
+                                                                crescita del transato e dai risultati del business
+                                                                energia in anticipo rispetto alle previsioni di piano.
+                                                            </p>
+
+                                                            <p>Proposta di dividendo per azione (DPS) per l'intero
+                                                                esercizio 2024 pari a € 1,08, in crescita del 35%
+                                                                rispetto all'esercizio 2023, per una distribuzione
+                                                                totale di € 1,4 miliardi sugli utili del 2024, in linea
+                                                                con la politica dei dividendi rivista al rialzo e basata
+                                                                su un pay-out ratio del 70%.</p>
+
+                                                            <p>Traiettoria di crescita confermata per il 2025, con una
+                                                                guidance del risultato operativo (EBIT) adjusted¹ pari a
+                                                                € 3,1 miliardi e dell'utile netto pari a € 2,1 miliardi.
+                                                            </p>
+
+                                                            <p>Politica dei dividendi rivista ulteriormente al rialzo,
+                                                                grazie alla solida visibilità sui flussi di cassa e
+                                                                all'ottimizzazione del capitale di gruppo: pay-out ratio
+                                                                strutturalmente incrementato da ≥ 65% al 70%, con
+                                                                dividendi cumulati nel periodo 2024-2028 pari a circa €
+                                                                7,5 miliardi.</p>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                            <div class="col-12">
+                                <section class="section">
+                                    <div class="section-wrap">
+                                        <div class="row">
+                                            <div class="col-12"><!-- off -->
+                                                <div class="row g-4">
+                                                    <div class="col-12">
+
+                                                        <figure class="figure-table figure-table-bordered">
+                                                            <figcaption id="fig-cap-01">Poste Italiane 2025 Strategy
+                                                                Update Target finanziari di gruppo per il 2025
+                                                            </figcaption>
+                                                            <p class="figure-description" id="fig-desc-01">Lorem ipsum
+                                                                dolor sit amet, consectetur adipiscing elit. Nullam
+                                                                auctor, nisl eget ultricies tincidunt.</p>
+
+                                                            <div class="table-wrap table-responsive">
+                                                                <table class="table table-hover table-bordered">
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th scope="col">Milioni di euro</th>
+                                                                            <th scope="col">Esercizio 2017</th>
+                                                                            <th scope="col">Esercizio 2024</th>
+                                                                            <th scope="col">Esercizio 2025 (&euro;mld)
+                                                                            </th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <th scope="row">Ricavi*</th>
+                                                                            <td>10.572</td>
+                                                                            <td><strong>12.589</strong></td>
+                                                                            <td>12,8</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th scope="row">Risultato Operativo (EBIT)
+                                                                                adjusted**</th>
+                                                                            <td>1.123</td>
+                                                                            <td><strong>2.961</strong></td>
+                                                                            <td>3,1</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th scope="row">Utile Netto</th>
+                                                                            <td>689</td>
+                                                                            <td><strong>2.013</strong></td>
+                                                                            <td>2,1</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th scope="row">Dividendo per Azione (€)***
+                                                                            </th>
+                                                                            <td>0,42</td>
+                                                                            <td><strong>1,08</strong></td>
+                                                                            <td>-</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th scope="row">Dividend Payout</th>
+                                                                            <td>80%</td>
+                                                                            <td><strong>70%</strong></td>
+                                                                            <td>70%</td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                    <tfoot id="tfoot">
+                                                                        <tr class="pi-collapse pi-multi-collapse">
+                                                                            <td>cella footer 1</td>
+                                                                            <td>cella footer 2</td>
+                                                                            <td>cella footer 3</td>
+                                                                            <td>cella footer 4</td>
+                                                                        </tr>
+                                                                    </tfoot>
+                                                                </table>
+                                                            </div>
+                                                            <div class="figure-extra">
+                                                                <ul class="list-unstyled fs-small">
+                                                                    <li>* Dati al netto del costo delle materie prime e
+                                                                        degli oneri di trasporto di energia elettrica e
+                                                                        gas del business dell'energia.</li>
+                                                                    <li>** Rettificato escludendo la stima del
+                                                                        contributo al fondo di garanzia assicurativo dei
+                                                                        rami Vita (€ 74 milioni per il 2024 e 2025),
+                                                                        costi e proventi di natura straordinaria (quota
+                                                                        di oneri di natura straordinaria derivanti dagli
+                                                                        esiti dell'analisi volontaria di rischio sui
+                                                                        crediti d'imposta, svolta nel corso
+                                                                        dell'esercizio 2024, pari a € 341 milioni nel
+                                                                        2024).6</li>
+                                                                    <li>*** Proposta di dividendo per l'esercizio 2024.
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </figure>
+
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                            <div class="col-12 offset-xl-1 col-xl-10">
+                                <section class="section">
+                                    <div class="section-wrap">
+                                        <div class="row">
+                                            <div class="col-12"><!-- off -->
+                                                <div class="row g-4">
+                                                    <div class="col-12">
+                                                        <div class="content-heading">
+                                                            <h2 class="h5">Matteo Del Fante, Amministratore Delegato di
+                                                                Poste Italiane, ha commentato:</h2>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <div class="content">
+                                                            <figure class="text-start">
+                                                                <blockquote class="blockquote">
+                                                                    <p>Lorem ipsum dolor sit amet consectetur.
+                                                                        Pellentesque lobortis augue massa enim fringilla
+                                                                        sed volutpat eu morbi. Bibendum magna velit
+                                                                        dignissim gravida. Neque leo platea ut volutpat
+                                                                        lacinia elit sagittis nunc. Cursus at blandit eu
+                                                                        nec risus lacus velit.</p>
+                                                                </blockquote>
+                                                                <figcaption class="blockquote-footer">
+                                                                    <cite title="Author name">Author name</cite>
+                                                                </figcaption>
+                                                            </figure>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                            <div class="col-12 offset-xl-1 col-xl-10">
+                                <section class="section">
+                                    <div class="section-wrap">
+                                        <div class="row">
+                                            <div class="col-12"><!-- off -->
+                                                <div class="row g-4">
+                                                    <div class="col-12">
+                                                        <div class="content fs-base">
+                                                            <h3 class="h5 text-uppercase">Poste Italiane - Risultati
+                                                                preliminari dell'esercizio 2024 e aggiornamento del
+                                                                Piano Strategico 2025</h3>
+                                                            <p>Venerdi 21 febbraio 2025 - 14:30 CET</p>
+                                                        </div>
+                                                        <div class="content fs-base">
+                                                            <h3 class="h5 text-uppercase">Webcast</h3>
+                                                            <p>Per partecipare clicca qui:
+                                                                <a>Poste Italiane FY-24 Preliminary Results & 2025
+                                                                    Strategy Update Webcast</a> DETTAGLI CONFERENCE
+                                                                CALLDall’Italia: +39 02 8020927 (solo audio)
+                                                            </p>
+                                                        </div>
+                                                        <div class="content fs-base">
+                                                            <h3 class="h5 text-uppercase">Dettagli Conference Call</h3>
+                                                            <p>Dall'Italia: +39 02 8020927 (solo audio)</p>
+                                                        </div>
+                                                        <div class="content fs-base">
+                                                            <h3 class="h5 text-uppercase">Lorem ipsum</h3>
+                                                            <span class="d-block">Poste Italiane S.p.A. Investor
+                                                                Relations</span>
+                                                            <span class="d-block">Tel. +39 06 5958 4716</span>
+                                                            <span class="d-block">Mail: <a
+                                                                    href="mailto:investor.relations@posteitaliane.it">investor.relations@posteitaliane.it</a></span>
+                                                        </div>
+                                                        <div class="content fs-base">
+                                                            <span class="d-block">Poste Italiane - Media Relations
+                                                            </span>
+                                                            <span class="d-block">Mail: <a
+                                                                    href="mailto:ufficiostampa@posteitaliane.it">ufficiostampa@posteitaliane.it</a></span>
+                                                        </div>
+                                                        <div class="content fs-base">
+                                                            <h3 class="h5 text-uppercase">Calendario Finanziario</h3>
+                                                            <p>Prossimi eventi</p>
+                                                            <ul>
+                                                                <li><strong>26 Marzo 2025</strong> Approvazione del
+                                                                    bilancio consolidato del Gruppo Poste ltaliane, del
+                                                                    progetto del bilancio di esercizio di Poste Italiane
+                                                                    S.p.A al 31 dicembre 2024 e della proposta di
+                                                                    destinazione degli utili. </li>
+                                                                <li><strong>8 maggio 2025</strong> Presentazione dei
+                                                                    risultati di Gruppo Q1-25.</li>
+                                                                <li><strong>30 maggio 2025</strong> Assemblea degli
+                                                                    azionisti.</li>
+                                                                <li><strong>25 giugno 2025</strong> Pagamento del saldo
+                                                                    del dividendo dell’esercizio 2024, con data di
+                                                                    stacco coincidente con il 23 giugno 2025 e record
+                                                                    date (ossia data di legittimazione al pagamento del
+                                                                    dividendo stesso) in data 24 giugno 2025.</li>
+                                                                <li><strong>24 luglio 2025</strong> Presentazione dei
+                                                                    risultati di Gruppo Q2 & H1-25.</li>
+                                                                <li><strong>13 novembre 2025</strong> Presentazione dei
+                                                                    risultati di Gruppo Q3 & 9M-25.</li>
+                                                                <li><strong>26 novembre 2025</strong> Pagamento
+                                                                    dell'acconto sul dividendo dell'esercizio 2025, con
+                                                                    data stacco coincidente con il 24 novembre 2025 and
+                                                                    record date in data 25 novembre 2025.</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="section section-bg bg-neutral mb-0 swiper-container position-relative" id="swiper003"
+            aria-roledescription="carousel" aria-label="Lorem ipsum dolor 3144">
+            <div class="section-wrap">
+                <div class="container">
+                    <div class="row g-4">
+                        <div class="col-12">
+                            <div class="content-heading separator text-center">
+                                <span class="caption">Comumnicati stampa</span>
+                                <h2 class="heading fw-medium">Le comunicazioni ufficiali di Poste Italiane</h2>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <!--#include virtual="/dist/includes/object/carousel-swiper-03b.html" -->
+                            <!--#include virtual="/dist/includes/object/carousel-swiper-03-opt.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <section class="section section-footer section-footer-info">
+            <div class="section-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--#include virtual="/dist/includes/footer/footer-section-info.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-footer section-footer-extra">
+            <div class="section-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--#include virtual="/dist/includes/footer/footer-section-extra.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--#include virtual="/dist/includes/utilities/footer-tag.shtml" -->
+
+    </footer>
+</body>
+
+</html>

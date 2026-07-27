@@ -1,0 +1,198 @@
+/*****************************************************
+    @ IMPORT
+    Foglio stile _variables - (c) Poste Italiane 2024/2026
+*****************************************************/
+
+/* #############  BS5 override  ############# */
+
+// Enable/disable function
+$enable-rfs:                    false;  //responsive typo
+$enable-negative-margins:       true;   
+
+ 
+// Customizing of spacers: padding/margin
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 2,
+  6: $spacer * 3,
+  7: $spacer * 4,
+  8: $spacer * 5,
+  9: $spacer * 6,
+  10: $spacer * 7
+);
+
+
+// Customizing of border
+$border-color: #e2e2e6;
+$border-width: 1px;
+$border-widths: (
+  0: 0,
+  1: 0.5px,
+  2: 1px,
+  3: 2px
+);
+
+
+// Customizing of border radius
+$border-radius:      .25rem;
+$border-radius-sm:   .5rem;
+$border-radius-lg:   1rem;
+$border-radius-xl:   1.5rem;
+$border-radius-xxl:  2rem;
+$border-radius-pill: 50rem;
+
+
+// Customizing of text base
+$font-size-base:              1rem; 
+$font-size-xs:                $font-size-base * .75;
+$font-size-sm:                $font-size-base * .875;
+$font-size-default:           $font-size-base * 1.125; /*default text*/
+$font-size-lg:                $font-size-base * 1.25;
+
+
+$font-weight-lighter:         lighter !default;
+$font-weight-light:           300 !default;
+$font-weight-normal:          400 !default;
+$font-weight-medium:          500 !default;
+$font-weight-semibold:        600 !default;
+$font-weight-bold:            700 !default;
+$font-weight-bolder:          bolder !default;
+
+$font-sizes: (
+  1: $font-size-base    * 3.75,
+  2: $font-size-base    * 3.25,
+  3: $font-size-base    * 2.75,
+  4: $font-size-base    * 2.5,
+  5: $font-size-base    * 2.25,
+  6: $font-size-base    * 2,
+  7: $font-size-base    * 1.75,
+  8: $font-size-base    * 1.5,
+  9: $font-size-base    * 1.25,
+  10: $font-size-base    * 1.125,
+  11: $font-size-base   * 1,
+  12: $font-size-base   * .875,
+  13: $font-size-base   * .75
+);
+
+// Customizing of headings 
+$headings-margin-bottom:      $spacer * .5;
+$headings-font-weight:        $font-weight-bold;
+$headings-line-height:        130%;
+
+$h1-font-size:   $font-size-base * 2.25;
+$h2-font-size:   $font-size-base * 1.75;  // override on intro --> 2
+$h3-font-size:   $font-size-base * 1.5;
+$h4-font-size:   $font-size-base * 1.25;
+$h5-font-size:   $font-size-base;
+$h6-font-size:   $font-size-base;  //not in use
+
+
+// Customizing of display (headings)
+$display-font-weight: $font-weight-semibold;
+$display-line-height: $headings-line-height;
+
+$display-font-sizes: (
+  1: 5rem,      //not in use
+  2: 4.5rem,    //not in use
+  3: 4rem,      //not in use
+  4: 3.75rem,
+  5: 3.25rem,
+  6: 2.75rem
+);
+
+// Customizing AspectRatio
+$aspect-ratios: (
+  "1x1": 100%,
+  "2x3": calc(3 / 2 * 100%),
+  "4x3": calc(3 / 4 * 100%),
+  "4x5": calc(5 / 4 * 100%),
+  "9x10": calc(10 / 9 * 100%),
+  "16x9": calc(9 / 16 * 100%),
+  "21x9": calc(9 / 21 * 100%),
+  "21x5": calc(5 / 21 * 100%)
+);
+
+// Customizing of text
+$lead-font-size: $font-size-base * 1.25;
+$lead-font-weight: $font-weight-normal;
+
+// Customizing cards
+$card-spacer-y: 1rem;
+$card-spacer-x: 1rem;
+$card-box-shadow: 0px 3px 24px 0px rgba(0, 0, 0, 0.12);
+$card-border-width: 0;
+$card-border-radius: $border-radius-lg;
+$card-title-spacer-y: 1rem;
+
+// Customizing box-shadow
+$box-shadow: 0px 3px 24px 0px rgba(0, 0, 0, 0.12);
+
+//
+$content-pills-box-shadow: 0px 3px 24px 0px rgba(0, 0, 0, 0.12);
+$content-pills-border-radius: $border-radius-lg;
+
+
+
+/* #############  DLS Definition  ############# */
+
+// color base
+$color_base: #FDFDFD;
+
+// color overlay
+$color_overlay_light_80: #ffffffcc;
+$color_overlay_light_90: #ffffffe6;
+
+// color neutral
+$color_neutral_0:  #000; 
+$color_neutral_10: #1a1c1e; 
+$color_neutral_20: #2f3337; 
+$color_neutral_30: #46474a;
+$color_neutral_40: #5d5e61;
+$color_neutral_60: #909194;
+$color_neutral_80: #c6c6c9;
+$color_neutral_90: #e2e2e6;
+$color_neutral_95: #f3f3f3;
+$color_neutral_97: #f5f5f7;
+$color_neutral_98: #fafafa;
+$color_neutral_99: #fdfdfd;
+$color_neutral_100: #fff;
+
+// color primary
+$color_primary_20: #00297a;
+$color_primary_25: #03338f;
+$color_primary_33: #0047bb;     //primario default
+$color_primary_50: #4270e4;
+$color_primary_60: #c5cee1;     //primario basic
+$color_primary_90: #dae2ff;
+$color_primary_95: #eef0ff;
+$color_primary_97: #f2f8ff;
+
+// color secondary
+$color_secondary_87: #eedc00;   //secondario default
+$color_secondary_90: #f2e865;   
+$color_secondary_95: #fff47e;   
+
+// color success
+$color_green_40: #006d36;
+$color_green_60: #00a751;
+$color_green_90: #ccebc3;
+$color_green_95: #eff9ec;
+
+// color evidence
+$color_orange_20: #703a00;
+$color_orange_40: #df7400;
+$color_orange_90: #ffdcc3;
+$color_orange_95: #fff0e5;
+
+// color error
+$color_red_40: #ba1b1b;
+$color_red_90: #ffdad4;
+$color_red_95: #ffe9e5;
+
+// color outline
+$color_outline_onlight: #E47701;

@@ -1,0 +1,155 @@
+/*****************************************************
+    @ IMPORT
+    Foglio stile _mixins - (c) Poste Italiane 2024/2026
+*****************************************************/
+
+@mixin font-face( $font-name, $font-weight, $font-path, $font-style) {
+  @font-face {
+    font-family: $font-name;
+    font-style : $font-style;
+    font-weight: $font-weight;
+    font-optical-sizing: auto;
+    text-rendering: optimizeLegibility;
+    font-display: swap;
+    src: url('#{$font-path}.ttf') format('truetype');
+  }
+}
+
+@mixin same-height($breakpoint:null){
+  $prefix: if($breakpoint == null, "", "-#{$breakpoint}");
+  .same-height#{$prefix}{
+    & *:has(>.card){
+      display: flex;
+    }
+    & .card, & .same-height-item{
+        flex: 1 auto;
+    }
+  }
+}
+ 
+@mixin pseudo-elements-obj($peo-width,$peo-height,$peo-top,$peo-right,$peo-bottom,$peo-left,$peo-color,$peo-border-radius,$peo-center:false) {
+  display: block;
+  position: absolute;
+  top: $peo-top;
+  left: $peo-left;
+  right: $peo-right;
+  bottom: $peo-bottom;
+  height: $peo-height;
+  width: $peo-width;
+  background-color: $peo-color;
+  border-radius: $peo-border-radius;
+  content:" ";
+  @if $peo-center{
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@mixin standardOverlay($overlay-color:#000, $overlay-opacity:0.4){
+  @include pseudo-elements-obj(100%, 100%, 0, auto, 0, auto, $overlay-color, 0, true);
+  opacity: $overlay-opacity;
+  transition: opacity 0.5s;
+}
+
+@mixin breadcrumb-trim($breakpoint: null) {
+  $prefix: if($breakpoint == null, "", "-#{$breakpoint}");
+
+  /* BreadCrumb type a - Trim totale */
+  .breadcrumb.breadcrumb#{$prefix}-trim-a li + li:not(:last-child){
+    & span[data-trim=trim] {
+      text-indent: -9999px; 
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 10px;
+      display: block;
+      z-index: 2;
+    }
+
+    & a{
+      &::after {
+        content: "...";
+      }
+      
+      &:hover::after,
+      &:focus-visible::after{
+          content: "";
+        }
+
+      &:hover span[data-trim=trim],
+      &:focus-visible span[data-trim=trim]{
+        text-indent: 0px;
+        position: relative;
+        left: auto;
+      }
+    }
+  } 
+}
+
+
+// Mappe per associare i suffissi ai colori, raggruppati per tipologia
+$all-colors: (
+  "neutral": (
+    0: $color_neutral_0,
+    10: $color_neutral_10,
+    20: $color_neutral_20,
+    30: $color_neutral_30,
+    40: $color_neutral_40,
+    60: $color_neutral_60,
+    80: $color_neutral_80,
+    90: $color_neutral_90,
+    95: $color_neutral_95,
+    97: $color_neutral_97,
+    98: $color_neutral_98,
+    99: $color_neutral_99,
+    100: $color_neutral_100
+  ),
+  "primary": (
+    20: $color_primary_20,
+    25: $color_primary_25,
+    33: $color_primary_33,
+    50: $color_primary_50,
+    60: $color_primary_60,
+    90: $color_primary_90,
+    95: $color_primary_95,
+    97: $color_primary_97
+  ),
+  "secondary": (
+    87: $color_secondary_87,
+    90: $color_secondary_90,
+    95: $color_secondary_95
+  ),
+  "success": (
+    40: $color_green_40,
+    60: $color_green_60,
+    90: $color_green_90,
+    95: $color_green_95
+  ),
+  "evidence": (
+    20: $color_orange_20,
+    40: $color_orange_40,
+    90: $color_orange_90,
+    95: $color_orange_95
+  ),
+  "error": (
+    40: $color_red_40,
+    90: $color_red_90,
+    95: $color_red_95
+  )
+);
+
+// Mixin per generare le classi bg-* per tutte le famiglie di colori
+@mixin generate-all-bg-colors {
+  @each $color-family-name, $color-map in $all-colors {
+    @each $suffix, $color in $color-map {
+      .bg-#{$color-family-name}-#{$suffix} {
+        background-color: $color;
+      }
+    }
+  }
+}
+
+
+

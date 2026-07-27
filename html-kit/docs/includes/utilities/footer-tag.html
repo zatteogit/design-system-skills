@@ -1,0 +1,25 @@
+    <!-- Base JS-->
+    <script src="/dist/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Start script and core function -->
+    <script src="/dist/assets/vendor/jquery/jquery.min.js"></script>
+    
+    <script src="/docs/assets/core/js/highlight.min.js"></script>
+    <script src="/docs/assets/core/js/core-init.js"></script>
+    <script src="/docs/assets/core/js/core-function.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('#nav-sidebar ul li a[data-page-active]').each(function() {
+                var menuItem = $(this);
+                var menuItemPage = menuItem.attr('data-page-active');
+                console.log (menuItemPage);
+                //alert(setDocsActivePage);
+                    if (menuItemPage === setDocsActivePage) {
+                    menuItem.parent('li').addClass('active');
+                    } else {
+                    menuItem.parent('li').removeClass('active');
+                    }
+            });
+        });
+    </script>

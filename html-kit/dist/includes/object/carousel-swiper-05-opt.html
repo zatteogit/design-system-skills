@@ -1,0 +1,57 @@
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+    
+        mySwiperId = "#swiper005";
+
+        swiper_args5 = {
+            // Default config
+            spaceBetween: 24,
+            watchSlidesProgress: true,
+            a11y: swiper_lang_it,
+            keyboard: {
+                enabled: true,
+            },
+            pagination: {
+                el: mySwiperId+' .swiper-pagination',
+                clickable: false,
+                dynamicBullets: true
+            },
+            navigation: {
+                nextEl: mySwiperId+' .swiper-btn-next',
+                prevEl: mySwiperId+' .swiper-btn-prev',
+            },
+            // Custom config
+            slidesPerView: 1,
+            grid: {
+                rows: 1,
+                fill: "row",
+            },
+                
+            breakpoints: {
+                768: {
+                    slidesPerView: 2,
+                    grid: {
+                        rows: 1,
+                        fill: "row",
+                    },
+                },
+                992: {
+                    slidesPerView: 3,
+                    grid: {
+                        rows: 1,
+                        fill: "row",
+                    },
+                },
+                1400: {
+                    slidesPerView: 3,
+                    grid: {
+                        rows: 1,
+                        fill: "row",
+                    },
+                }
+            }
+        }
+
+        const swiper = new Swiper(mySwiperId+' .swiper', swiper_args5);
+    });
+</script>

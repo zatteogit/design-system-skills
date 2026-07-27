@@ -1,0 +1,23 @@
+<pre><code class="language-javascript visible">
+$('head').ready(function() {
+    if (overlayPageLoad) {
+
+        var loaded = false;
+        var timeoutLoad = 8000;
+        var startLoadTime = new Date();
+        var delayLoadTime = 500;
+
+        $(window).on("load", function (e) {
+            loaded = true;
+            $(".pageLoader").delay(delayLoadTime).fadeOut("slow");
+        });
+        
+        setTimeout(function() {
+            if (!loaded) {
+                $(".pageLoader").fadeOut("fast");
+            }
+        }, timeoutLoad);
+    }
+});
+</code>
+</pre>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <title>PosteItaliane.it</title>
+    
+  <!--#set var="core_resources" value="on" -->
+  <!--#set var="swiper_resources" value="on" -->
+  <!--#set var="masonry_resources" value="off" -->
+  <!--#include virtual="/dist/includes/utilities/head-tag.shtml" -->
+    <meta name="description" content="pagina esempio foglia corporate Poste Italiane, parte della linea guida grafica COM / DM">
+</head>
+
+<body id="" class="no-js">
+
+    
+    <footer id="footer">
+
+        <!-- FOOTER TEMPLATE 01 -->
+        <section class="section my-6">
+            <div class="section-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="row g-4">
+                                <div class="col-12">
+                                    <div class="content-heading separator">
+                                        <h2 class="heading fw-medium">Footer default</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section section-footer section-footer-info">
+            <div class="section-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--#include virtual="/dist/includes/footer/footer-section-info.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section section-footer section-footer-extra">
+            <div class="section-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--#include virtual="/dist/includes/footer/footer-section-extra.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER TEMPLATE 02 -->
+        <section class="section my-6 pt-6">
+            <div class="section-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="row g-4">
+                                <div class="col-12">
+                                    <div class="content-heading separator">
+                                        <h2 class="heading fw-medium">Footer slim</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-footer section-footer-extra">
+            <div class="section-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--#include virtual="/dist/includes/footer/footer-section-extra-slim.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- FOOTER LIBRARY IMPORT -->
+        <!--#include virtual="/dist/includes/utilities/footer-tag.shtml" -->
+
+    </footer>
+</body>
+
+</html>

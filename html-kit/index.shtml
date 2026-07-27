@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <title>Html kit - Start</title>
+    <!--#include virtual="/docs/includes/utilities/head-tag.html" -->
+
+</head>
+
+<body>
+    <header>
+        <!--#include virtual="/docs/includes/nav/nav-main-documentazione.html" -->
+    </header>
+
+    <main class="py-5">
+
+        <section class="container py-4">
+            <div class="row">
+                <div class="col-12">
+                    <div class="main-pills rounded">
+                        <div class="main-pills-header rounded bg-grey01">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <span class="badge rounded-pill bg-primary fw-light">First Look</span>
+                                </div>
+                                <div class="col-md-6">
+                                    <span class="text-body-secondary text-md-end d-block fw-light small mt-2 mt-md-0">release del 27/04/2026</span>
+                                </div>
+                                <div class="col-12 mt-3">
+                                    <h1 class="heading fw-normal mb-0">Html Kit - 1.2.2</h1> 
+                                    <span class="heading fs-10 fw-semibold lh-base">Corporate</span> &bull; <span class="heading fs-10 fw-semibold lh-base">Linea guida grafica</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-pills-body">
+                            <ul class="list-group list-group-spaced list-group-flush">
+                                <li class="list-group-item">
+                                    <div class="d-flex">
+                                        <div class="flex-shrink-0 align-self-start">
+                                            <img src="/docs/assets/core/images/icons/ico-docs-contenuto.svg"  style="width: 128px;" alt="Contenuto">
+                                        </div>
+                                        <div class="flex-grow-1 ms-4">
+                                            <h2 class="heading h4">Contenuto</h2>
+                                            <p>Il Kit &egrave; una guida in HTML/CSS/Javascript che ha l'obiettivo di <strong>aiutare a mantenere la coerenza grafica</strong> sui vari touch point digital web di Poste Italiane, in linea con il design e la progettazione.
+                                                <br/>Basato su framework Bootstrap 5.x.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="d-flex">
+                                        <div class="flex-shrink-0 align-self-start">
+                                            <img src="/docs/assets/core/images/icons/ico-docs-installazione.svg" style="width: 128px;" alt="Installazione">
+                                        </div>
+                                        <div class="flex-grow-1 ms-4">
+                                            <h2 class="heading h4">Installazione</h2>
+                                            <p>Estrai il contenuto del pacchetto all'interno della document root del webserver HTTP con &quot;Server Side Include (SSI)&quot; abilitati per visualizzare correttamente il contenuto. <br/>Per un utilizzo &quot;in
+                                                locale&quot; &egrave; possibile usufruire di un qualsiasi software in grado di creare server web di tipo HTTP (suggeriti MaMP, WaMP, XaMPP).</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="my-2 text-end">
+                                <a href="/docs/overview.shtml" class="btn btn-primary px-4" tabindex="0">Vai al kit</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container py-4">
+            <!--#include virtual="/docs/includes/footer/footer-default.html" -->
+        </div>
+    </footer>
+
+    <!--#include virtual="/docs/includes/utilities/footer-tag.html" -->
+    <!--#include virtual="/docs/includes/utilities/loader.html" -->
+
+
+
+    
+</body>
+
+</html>

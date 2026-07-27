@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <title>Html kit - Struttura</title>
+    <!--#include virtual="/docs/includes/utilities/head-tag.html" -->
+    <script>
+      var setDocsActivePage = "Struttura";
+    </script>
+  </head>
+
+  <body tabindex="0">
+    <header class="sticky-top">
+      <!--#include virtual="/docs/includes/nav/nav-main-documentazione.html" -->
+      <!--#include virtual="/docs/includes/header/abstract-default.html" -->
+    </header>
+
+    <main>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-3 col-lg-2 border-end border-grey01 border-5">
+            <nav id="nav-sidebar" class="sticky-top">
+              <!--#include virtual="/docs/includes/nav/nav-sidebar-documentazione.html" -->
+            </nav>
+          </div>
+          <div class="col-sm-9 col-lg-8 pt-4 pb-5">
+            <section class="container">
+              <div class="row">
+                <!--Breadcrumb-->
+                <div id="breadcrumb" class="col-12">
+                  <nav
+                    style="--bs-breadcrumb-divider: url(&#34;data:image/svg + xml, %3Csvgxmlns='http://www.w3.org/2000/svg'width='8'height='8'%3E%3Cpathd='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z'fill='currentColor'/%3E%3C/svg%3E&#34;)"
+                    aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item"><a href="#">Getting Started</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">Struttura</li>
+                    </ol>
+                  </nav>
+                </div>
+                <!--Breadcrumb end-->
+                <div id="main-title" class="col-12">
+                    <h2 class="heading h1 fw-normal">Struttura: Layout e Template</h2>
+                </div>
+                <article class="mb-5">
+                    <div class="col-12">
+                        <div class="main-pills main-pills-basic rounded" id="contenuto0">
+                            <div class="main-pills-header rounded">
+                                <div class="row">
+                                    <div class="col-12 mt-3">
+                                        <h3 class="heading h3 fw-normal border-start border-3 ps-2 border-info">
+                                            Intro</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main-pills-body">
+                                <div class="content">
+                                    <div class="row">
+                                        <div class="col-lg-7">
+                                            <p>I <strong>contenuti</strong> all'interno delle pagine sono organizzati secondo una struttura modulare, seguendo una gerarchia adatta a gestire le informazioni in modo flessibile e scalabile.</p>
+                                            <p>Questa struttura si basa su quattro elementi fondamentali e interconnessi:</p>
+                                            <ul>
+                                              <li>i <strong>Layout</strong>, che definiscono le macro-strutture della pagina;</li>
+                                              <li>i <strong>Template</strong>, che predispongono modelli specifici per tipo di contenuto;</li>
+                                              <li>i <strong>Moduli</strong>, blocchi di contenuto autonomi e riutilizzabili;</li>
+                                              <li>i <strong>Componenti</strong>, gli elementi UI pi&ugrave; granulari e fondamentali.</li>
+                                            </ul>
+                                            <p>Comprendere la relazione e l'utilizzo di ciascuno di questi elementi &egrave; cruciale per uno sviluppo efficiente, per mantenere alta la qualit&agrave; del codice e per assicurare un'esperienza utente coerente e ottimale su tutte le piattaforme.</p>
+                                        </div>
+                                        <div class="col-lg-5 text-center">
+                                            <img class="img-fluid mt-lg-n6" style="max-width: 400px;" alt="Html kit" src="/docs/assets/core/images/kit-01.svg" >
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="divider bg-grey01 py-1 my-2 px-2 d-flex align-items-center justify-content-end">
+                            <span>&nbsp;</span>
+                        </div>
+                        <div class="divider bg-grey02 py-1 my-2"></div>
+                    </div>
+                </article>
+                <article class="mb-5">
+                    <div class="col-12">
+                        <div class="main-pills main-pills-basic rounded" id="contenuto1">
+                            <div class="main-pills-header rounded">
+                                <div class="row">
+                                    <div class="col-12 mt-3">
+                                        <h3 class="heading h3 fw-normal border-start border-3 ps-2 border-info">
+                                            Layout: Struttura base della Pagina</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main-pills-body">
+                                <div class="content">
+                                    <p>I <strong>Layout</strong> sono lo <strong>scheletro strutturale</strong> di una pagina web, definendo la disposizione delle aree principali come header, footer, spalla laterale, prefooter e area contenuti.</p>
+                                    <p>Costituiscono la struttura portante della pagina, che verr&agrave; successivamente popolata dai moduli e dai componenti. <br/>La loro implementazione nel Kit HTML sfrutta le potenzialit&agrave; di Flexbox e Grid, superando i limiti di flessibilit&agrave; e reattivit&agrave; legati alle precedenti strutture basate su Bootstrap 3.</p>
+                                    <div class="divider bg-grey01 my-4"></div>
+                                    <h4 class="heading fw-normal border-start border-3 ps-2 border-info" id="contenuto1-1">Aree principali dei layout</h4>
+                                    <ul>
+                                        <li><strong>Header:</strong> Presente in tutti i layout, include la barra federata per la navigazione tra i vari portali e il menu ad hamburger per la navigazione del sito.</li>
+                                        <li><strong>Intro:</strong> Sezione posizionata subito sotto l'header, pu&ograve; contenere elementi come breadcrumbs, titolo, sottotitolo, visual e call to action.</li>
+                                        <li><strong>Contenuti:</strong> La parte centrale e principale del layout, configurabile con una colonna o due colonne (con spalla sinistra o destra su desktop) per adattarsi a diverse esigenze di presentazione.</li>
+                                        <li><strong>Prefooter:</strong> Una sezione opzionale che pu&ograve; ospitare elementi dinamici come fasce di card, caroselli o call to action visuali.</li>
+                                        <li><strong>Footer:</strong> Presente in tutti i layout, contiene informazioni legali e link utili.</li>
+                                    </ul>
+                                    <div class="divider bg-grey01 my-4"></div>
+                                    <h4 class="heading fw-normal border-start border-3 ps-2 border-info" id="contenuto1-2">Tipologie di layout</h4>
+                                    <p>I layout differiscono tra loro principalmente per la configurazione a colonne dell'area contenuti e la presenza opzionale del prefooter:</p>
+                                    <ul>
+                                        <li>Una sezione (con o senza prefooter).</li>
+                                        <li>Due sezioni: navigazione e principale (con o senza prefooter).</li>
+                                        <li>Due sezioni: principale ed extra (con o senza prefooter).</li>
+                                    </ul>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="divider bg-grey01 py-1 my-2 px-2 d-flex align-items-center justify-content-end">
+                            <span>&nbsp;</span>
+                        </div>
+                        <div class="divider bg-grey02 py-1 my-2"></div>
+                    </div>
+                </article>
+                <article class="mb-5">
+                    <div class="col-12">
+                        <div class="main-pills main-pills-basic rounded" id="contenuto2">
+                            <div class="main-pills-header rounded">
+                                <div class="row">
+                                    <div class="col-12 mt-3">
+                                        <h3 class="heading h3 fw-normal border-start border-3 ps-2 border-info">
+                                            Template: Modelli di Pagina Specifici</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main-pills-body">
+                                <div class="content">
+                                    <p>Un <strong>Template</strong> funge da modello predefinito per una tipologia specifica di pagina. </p>
+                                    <p>I template sono progettati per assicurare <strong>coerenza visiva e funzionale</strong> tra pagine simili, riducendo significativamente il tempo di predisposizione della pagina.<br>
+                                    Ogni template pu&ograve; essere configurato secondo diversi layout per l'area contenuti, offrendo massima flessibilit&agrave; pur mantenendo perfetta aderenza al DLS (Design Language System).</p>
+                                </div>
+
+                                <div class="divider bg-grey01 my-4"></div>
+                                <div class="content">
+                                  <div class="row">
+                                    <div class="col-md-4 col-lg-3 text-center">
+                                      <figure class="figure">
+                                        <img src="/docs/assets/core/images/Template01.svg" class="img-fluid rounded w-100" alt="Template 01">
+                                        <figcaption class="figure-caption text-center fw-semibold">Template 01</figcaption>
+                                      </figure>
+                                    </div>
+                                    <div class="col-md-8 col-lg-9">
+                                      <div class="p-3">
+                                        <dl class="row">
+                                          <dt class="col-12 col-lg-4">Tipologia Layout:</dt>
+                                          <dd class="col-12 col-lg-8">1 colonna.</dd>
+
+                                          <dt class="col-12 col-lg-4">Utilizzo previsto:</dt>
+                                          <dd class="col-12 col-lg-8">
+                                            <ul class="ps-3">
+                                              <li>Pagine di primo livello</li>
+                                              <li>Glossario</li>
+                                            </ul>
+                                          </dd>
+                                        </dl>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="divider bg-grey01 my-3"></div>
+                                  <div class="row">
+                                    <div class="col-md-4 col-lg-3 text-center">
+                                      <figure class="figure">
+                                        <img src="/docs/assets/core/images/Template02.svg" class="img-fluid rounded w-100" alt="Template 02">
+                                        <figcaption class="figure-caption text-center fw-semibold">Template 02</figcaption>
+                                      </figure>
+                                    </div>
+                                    <div class="col-md-8 col-lg-9">
+                                      <div class="p-3">
+                                        <dl class="row">
+                                          <dt class="col-12 col-lg-4">Tipologia Layout:</dt>
+                                          <dd class="col-12 col-lg-8">1 colonna.</dd>
+
+                                          <dt class="col-12 col-lg-4">Utilizzo previsto:</dt>
+                                          <dd class="col-12 col-lg-8">
+                                            <ul class="ps-3">
+                                              <li>Foglia</li>
+                                              <li>Lorem ipsum</li>
+                                              <li>Dolor amet mea uli</li>
+                                              <li>Voluptate nesciunt eos</li>
+                                            </ul>
+                                          </dd>
+                                        </dl>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="divider bg-grey01 my-3"></div>
+                                  <div class="row">
+                                    <div class="col-md-4 col-lg-3 text-center">
+                                      <figure class="figure">
+                                        <img src="/docs/assets/core/images/Template03.svg" class="img-fluid rounded w-100" alt="Template 03">
+                                        <figcaption class="figure-caption text-center fw-semibold">Template 03</figcaption>
+                                      </figure>
+                                    </div>
+                                    <div class="col-md-8 col-lg-9">
+                                      <div class="p-3">
+                                        <dl class="row">
+                                          <dt class="col-12 col-lg-4">Tipologia Layout:</dt>
+                                          <dd class="col-12 col-lg-8">2 colonne</dd>
+
+                                          <dt class="col-12 col-lg-4">Utilizzo previsto:</dt>
+                                          <dd class="col-12 col-lg-8">
+                                            <ul class="ps-3">
+                                              <li>Foglia con menu di navigazione</li>
+                                            </ul>
+                                          </dd>
+                                        </dl>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                        </div>
+                        <div class="divider bg-grey01 py-1 my-2 px-2 d-flex align-items-center justify-content-end">
+                            <span>&nbsp;</span>
+                        </div>
+                        <div class="divider bg-grey02 py-1 my-2"></div>
+                    </div>
+                </article>
+              </div>
+            </section>
+          </div>
+          <div class="col-lg-2 d-none d-lg-block">
+            <nav id="nav-sidebar-context" class="navbar flex-column sticky-top" role="navigation">
+              <!--#include virtual="/docs/includes/nav/nav-sidebar-context-documentazione-struttura.html" -->
+            </nav>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container-fluid py-4">
+        <!--#include virtual="/docs/includes/footer/footer-default.html" -->
+      </div>
+    </footer>
+
+    <!--#include virtual="/docs/includes/utilities/footer-tag.html" -->
+    <!--#include virtual="/docs/includes/code/code-base.html" -->
+    <!--#include virtual="/docs/includes/utilities/loader.html" -->
+  </body>
+</html>

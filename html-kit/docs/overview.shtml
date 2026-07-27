@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <title>Html kit - Overview</title>
+    <!--#include virtual="/docs/includes/utilities/head-tag.html" -->
+    <script>
+        var setDocsActivePage= "Overview";
+    </script>
+</head>
+
+<body tabindex="0">
+
+    <header class="sticky-top">
+        <!--#include virtual="/docs/includes/nav/nav-main-documentazione.html" -->
+        <!--#include virtual="/docs/includes/header/abstract-default.html" -->
+    </header>
+
+    <main>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-3 col-lg-2 border-end border-grey01 border-5">
+                    <nav id="nav-sidebar" class="sticky-top">
+
+                        <!--#include virtual="/docs/includes/nav/nav-sidebar-documentazione.html" -->
+
+                    </nav>
+                </div>
+                <div class="col-sm-9 col-lg-8 pt-4 pb-5">
+                    <section class="container">
+                        <div class="row">
+                            <!--Breadcrumb-->
+                            <div id="breadcrumb" class="col-12">
+                                <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item"><a href="#">Getting Started</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">Overview del pacchetto
+                                        </li>
+                                    </ol>
+                                </nav>
+                            </div>
+                            <!--Breadcrumb end-->
+                            <!--Main title-->
+                            <div id="main-title" class="col-12">
+                                <h2 class="heading h1 fw-normal">Overview del pacchetto</h2>
+                            </div>
+                            <!--Main title end-->
+                            <!--Article-->
+                            <article class="mb-5">
+                                <div class="col-12">
+                                    <div class="main-pills main-pills-basic rounded" id="contenuto0">
+                                        <div class="main-pills-header rounded">
+                                            <div class="row">
+                                                <div class="col-12 mt-3">
+                                                    <h3 class="heading h3 fw-normal border-start border-3 ps-2 border-info">
+                                                        Intro</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="main-pills-body">
+                                            <div class="content">
+                                                
+                                                <div class="row">
+                                                    <div class="col-lg-7">
+                                                        <p>Il Kit, realizzato in HTML, CSS e JavaScript, fornisce <strong>esempi e linee guida utili per garantire la coerenza grafica</strong> nei vari touchpoint digitali web di Poste Italiane, in linea con le direttive di design e progettazione.</p>
+                                                        <p><strong>La guida</strong> &egrave; sia uno strumento, sia un investimento per mantenere un <strong>vantaggio competitivo</strong> nel panorama digital.</p>
+                                                    </div>
+                                                    <div class="col-lg-5 text-center">
+                                                        <img class="img-fluid mt-lg-n6" style="max-width: 400px;" alt="Html kit" src="/docs/assets/core/images/kit-01.svg" >
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="divider bg-grey01 py-1 my-2 px-2 d-flex align-items-center justify-content-end">
+                                        <span>&nbsp;</span>
+                                    </div>
+                                    <div class="divider bg-grey02 py-1 my-2"></div>
+                                </div>
+                            </article>
+                            <!--Article end-->
+
+                            <!--Article-->
+                            <article class="mb-5">
+                                <div class="col-12">
+                                    <div class="main-pills main-pills-basic rounded" id="contenuto1">
+                                        <div class="main-pills-header rounded">
+                                            <div class="row">
+                                                <div class="col-12 mt-3">
+                                                    <h3 class="heading h3 fw-normal border-start border-3 ps-2 border-info">
+                                                        Dettagli tecnici</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="main-pills-body">
+                                            <div class="content">
+                                               <p>La sua realizzazione, o pi&ugrave; nello specifico degli strumenti e del codice sorgente che ne fan parte, &egrave; basata sui <strong>princ&iacute;pi di composizione e riuso</strong> di componenti condivisi.</p>
+                                                <p>Realizzato su base <strong>Bootstrap 5</strong> garantisce compatibilit&agrave; con i browser moderni, ottimizzazione visiva, facilit&agrave; di utilizzo e riduzione dei tempi di sviluppo. 
+                                                    Fra le risorse del kit sono inoltre a disposizione pagine HTML di esempio da usare come punto di partenza per lo sviluppo del tuo progetto.</p>
+                                                <p>La griglia di oggetti fa uso delle propriet&agrave; native css <a title="Concetti base di flexbox (in lingua inglese)" href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox">Flexbox</a> e <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout" title="il layout Grid">Grid</a> che rendono i <strong>layout pi&ugrave; flessibili e reattivi</strong>.</p>
+                                                <p>L'introduzione di <strong>Sass</strong> ha permesso di creare un <strong>sistema di stili modulare e scalabile</strong> migliorando le
+                                                    performance generali.</p>
+                                                <p>Ogni esempio è stato predisposto avendo come riferimento le linee guida per l’accessibilità dei contenuti web <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> 2.1.</p>
+                                                <p>Ovviamente il <strong>Kit HTML &egrave; in continuo e costante aggiornamento</strong>. Tali aggiornamenti supportano l'adeguamento alla User Experience ed User Interface codificata e la risoluzione di eventuali anomalie.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="divider bg-grey01 py-1 my-2 px-2 d-flex align-items-center justify-content-end">
+                                        <span>&nbsp;</span>
+                                    </div>
+                                    <div class="divider bg-grey02 py-1 my-2"></div>
+                                </div>
+                            </article>
+                            <!--Article end-->
+                            <!--Article-->
+                            <article class="mb-5">
+                                <div class="col-12">
+                                    <div class="main-pills main-pills-basic rounded" id="contenuto2">
+                                        <div class="main-pills-header rounded">
+                                            <div class="row">
+                                                <div class="col-12 mt-3">
+                                                    <h3 class="heading h3 fw-normal border-start border-3 ps-2 border-info">
+                                                        Contenuti organizzati</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="main-pills-body">
+                                            <div class="content">
+                                                <p>Una volta estratto il contenuto del pacchetto "tar.gz" saranno visibili le cartelle principali e una "index" che permette di esplorare i contenuti del kit HTML a partire dall'area documentazione.
+                                                    <div class="table-responsive">
+                                                        <table class="table">
+                                                            <caption>Macro struttura Directory</caption>
+                                                            <thead>
+                                                                <tr>
+                                                                    <th scope="col">Directory</th>
+                                                                    <th scope="col">Descrizione contenuto</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody class="table-group-divider">
+                                                                <tr>
+                                                                    <td><code>dist/*</code></td>
+                                                                    <td colspan="2">Contiene il kit Html vero e proprio comprensivo di risorse javascript e fogli di stile
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><code>dist/assets/core/*</code></td>
+                                                                    <td colspan="2">Contiene le risorse proprietarie del kit
+                                                                    </td>
+                                                                </tr>
+                                                                <!--
+                                                                <tr>
+                                                                    <td><code>dist/assets/core/*</code></td>
+                                                                    <td colspan="2">Contiene le risorse proprietarie del kit ma dedicate all'area puramente applicativa
+                                                                    </td>
+                                                                </tr>
+                                                                -->
+                                                                <tr>
+                                                                    <td><code>dist/assets/vendor/*</code></td>
+                                                                    <td colspan="2">Contiene le risorse di terze parti, come ad esempio il framework di riferimento Bootstrap
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><code>docs/*</code></td>
+                                                                    <td colspan="2">Contiene la documentazione del pacchetto.
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="divider bg-grey01 py-1 my-2 px-2 d-flex align-items-center justify-content-end">
+                                        <span>&nbsp;</span>
+                                    </div>
+                                    <div class="divider bg-grey02 py-1 my-2"></div>
+                                </div>
+                            </article>
+                            <!--Article end-->
+                            <!--Article-->
+                            <article class="mb-5">
+                                <div class="col-12">
+                                    <div class="main-pills main-pills-basic rounded" id="contenuto3">
+                                        <div class="main-pills-header rounded">
+                                            <div class="row">
+                                                <div class="col-12 mt-3">
+                                                    <h3 class="heading h3 fw-normal border-start border-3 ps-2 border-info">
+                                                        Codice e preview</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="main-pills-body">
+                                            <div class="content">
+                                                <p>La <strong>documentazione del kit HTML</strong> permette di avere, per ogni singolo asset, una <strong>preview</strong> dell'oggetto realizzato e la <strong>trasposizione del codice</strong> stesso.</p>
+                                                <p>La <strong>scheda del singolo asset</strong> permette di individuare velocemente tutte le caratteristiche 
+                                                    dell'oggetto presente in kit con varianti (correlate all'utilizzo di <span class="tag-code">&lt;tag/&gt;</span> o <span class="tag-code">.classi</span> specifiche), relative dipendenze e/o riferimenti a pagine gi&agrave; realizzate dove trovare un esempio di applicazione.</p>
+                                                <p>La funzionalit&agrave; di preview genera un'anteprima dell'asset simulandone il comportamento su diversi cutpoint.</p>
+                                                <div class="divider bg-grey01 my-4"></div>
+                                                <p>Seguono, <strong>a titolo di esempio</strong>, un blocco dipendenze, tre blocchi di codice, una preview di pagina, una porzione descrittiva e un blocco lista link a pagine esemplificative. </p>
+                                                <div class="divider bg-grey01 my-4"></div>
+                                                <h4 class="heading h5">Dipendenze</h4>
+                                                <ul>
+                                                    <li>foglio-di-stile-01.css</li>
+                                                    <li>foglio-di-stile-02.css</li>
+                                                </ul>
+                                            </div>
+
+                                            <div class="code">
+                                                <div class="code-services">
+                                                    <div class="row">
+                                                        <div class="col-6 my-3 d-flex">
+                                                            <span class="badge rounded-pill align-self-end bg-primary fw-semibold">Markup</span>
+                                                        </div>
+                                                        <div class="col-6 my-3 text-end">
+                                                            <a class="copycode" href="#" title="Copia codice">
+                                                                <span class="icon">
+                                                                    <svg focusable="false">
+                                                                        <title>Copia il codice</title>
+                                                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#076a-description-m" href="/dist/assets/core/images/iconset/sprite.svg#076a-description-m"></use>
+                                                                    </svg>
+                                                                </span>
+                                                            </a>
+                                                            <a class="viewcode" href="#" title="Mostra/Nascondi codice">
+                                                                <span class="icon codeshow">
+                                                                    <svg focusable="false">
+                                                                        <title>Mostra codice</title>
+                                                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#016b-visibility-on-m" href="/dist/assets/core/images/iconset/sprite.svg#016b-visibility-on-m"></use>
+                                                                    </svg>
+                                                                </span>
+                                                                <span class="icon codehide">
+                                                                    <svg focusable="false">
+                                                                        <title>Nascondi codice</title>
+                                                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#016a-visibility-off-m" href="/dist/assets/core/images/iconset/sprite.svg#016a-visibility-off-m"></use>
+                                                                    </svg>
+                                                                </span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--#include virtual="/docs/includes/code/test-code-html.html" -->
+                                            </div>
+                                            <div class="code">
+                                                <div class="code-services">
+                                                    <div class="row">
+                                                        <div class="col-6 my-3 d-flex">
+                                                            <span class="badge rounded-pill align-self-end bg-primary fw-semibold">Javascript</span>
+                                                        </div>
+                                                        <div class="col-6 my-3 text-end">
+                                                            <a class="copycode" href="#" title="Copia codice">
+                                                                <span class="icon">
+                                                                    <svg focusable="false">
+                                                                        <title>Copia il codice</title>
+                                                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#076a-description-m" href="/dist/assets/core/images/iconset/sprite.svg#076a-description-m"></use>
+                                                                    </svg>
+                                                                </span>
+                                                            </a>
+                                                            <a class="viewcode" href="#" title="Mostra/Nascondi codice">
+                                                                <span class="icon codeshow">
+                                                                    <svg focusable="false">
+                                                                        <title>Mostra codice</title>
+                                                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#016b-visibility-on-m" href="/dist/assets/core/images/iconset/sprite.svg#016b-visibility-on-m"></use>
+                                                                    </svg>
+                                                                </span>
+                                                                <span class="icon codehide">
+                                                                    <svg focusable="false">
+                                                                        <title>Nascondi codice</title>
+                                                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#016a-visibility-off-m" href="/dist/assets/core/images/iconset/sprite.svg#016a-visibility-off-m"></use>
+                                                                    </svg>
+                                                                </span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--#include virtual="/docs/includes/code/test-code-js.html" -->
+                                            </div>
+                                            <div class="code">
+                                                <div class="code-services">
+                                                    <div class="row">
+                                                        <div class="col-6 my-3 d-flex">
+                                                            <span class="badge rounded-pill align-self-end bg-primary fw-semibold">Scss</span>
+                                                        </div>
+                                                        <div class="col-6 my-3 text-end">
+                                                            <a class="copycode" href="#" title="Copia codice">
+                                                                <span class="icon">
+                                                                    <svg focusable="false">
+                                                                        <title>Copia il codice</title>
+                                                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#076a-description-m" href="/dist/assets/core/images/iconset/sprite.svg#076a-description-m"></use>
+                                                                    </svg>
+                                                                </span>
+                                                            </a>
+                                                            <a class="viewcode" href="#" title="Mostra/Nascondi codice">
+                                                                <span class="icon codeshow">
+                                                                    <svg focusable="false">
+                                                                        <title>Mostra codice</title>
+                                                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#016b-visibility-on-m" href="/dist/assets/core/images/iconset/sprite.svg#016b-visibility-on-m"></use>
+                                                                    </svg>
+                                                                </span>
+                                                                <span class="icon codehide">
+                                                                    <svg focusable="false">
+                                                                        <title>Nascondi codice</title>
+                                                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#016a-visibility-off-m" href="/dist/assets/core/images/iconset/sprite.svg#016a-visibility-off-m"></use>
+                                                                    </svg>
+                                                                </span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--#include virtual="/docs/includes/code/test-code-css.html" -->
+                                            </div>
+                                            <div class="preview">
+                                                <div class="preview-services">
+                                                    <div class="row">
+                                                        <div class="col-6 my-3 d-flex">
+                                                            <span class="badge rounded-pill align-self-end bg-primary fw-semibold">Preview</span>
+                                                            <select class="form-select"
+                                                                aria-label="Seleziona la vista responsive"
+                                                                aria-controls="iframe0001">
+                                                                <option value="default" selected>Cambia vista Responsive
+                                                                </option>
+                                                                <option value="xs">Smartphone (xs - Portrait)</option>
+                                                                <option value="sm">Smartphone (sm - Landscape) </option>
+                                                                <option value="md">Tablet (md - Landscape)</option>
+                                                                <option value="lg">Desktop - small (lg)</option>
+                                                                <option value="xl">Desktop - large (xl)</option>
+                                                                <option value="flessibile">Flessibile</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <div class="border border-5 border-grey01">
+                                                            <div class="ratio ratio-16x9 overflow-auto">
+                                                                <div id="iframepreview">
+                                                                <iframe id="iframe0001"
+                                                                    class="border border-2 border-grey01"
+                                                                    aria-label="Preview dell'asset responsive"
+                                                                    role="region" aria-live="polite"
+                                                                    src="/dist/pages/index.shtml"></iframe>
+                                                            </div></div>
+                                                        </div>
+                                                        <span class="preview-caption my-2 d-block"></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="related-wrap">
+                                                <div class="row gap-4 gap-lg-0">
+                                                    <div class="col-lg-6">
+                                                        <div class="related-preview h-100">
+                                                            <div class="related-services">
+                                                                <div class="row my-2">
+                                                                    <div class="col-12">
+                                                                        <h4 class="heading h5">Preview</h4>
+                                                                        <ul class="">
+                                                                            <li><a href="#"
+                                                                                    title="Asset preview fullpage"
+                                                                                    target="_blank">Asset preview fullpage</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <div class="related h-100">
+                                                            <div class="related-services">
+                                                                <div class="row my-2">
+                                                                    <div class="col-12">
+                                                                        <h4 class="heading h5">Pagine esemplificative</h4>
+                                                                        <ul class="">
+                                                                            <li><a href="/dist/pages/index.shtml" title="Homepage Corporate" target="_blank">Homepage Corporate</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="content">
+                                                <div class="table-responsive">
+                                                    <table class="table">
+                                                        <caption>Varianti implementate</caption>
+                                                        <thead>
+                                                            <tr>
+                                                                <th scope="col">Nome classe</th>
+                                                                <th scope="col">Descrizione variante</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody class="table-group-divider">
+                                                            <tr>
+                                                                <td><code>.uk-modal</code></td>
+                                                                <td colspan="2">La variante uk-modal lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam est lacus.
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.uk-modal-yellow</code></td>
+                                                                <td colspan="2">La variante yellow vivamus placerat varius ante quis molestie.
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.uk-modal-bg</code></td>
+                                                                <td colspan="2">La variante bg nulla malesuada tellus dapibus nulla tempus malesuada.</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                            <div class="content">
+                                                <div class="divider bg-grey01 my-4"></div>
+                                                <h4 class="heading h5">Pagine esemplificative</h4>
+                                                <ul class="mb-4">
+                                                    <li><a href="/dist/pages/index.shtml" title="Homepage Corporate">Homepage Corporate</a></li>
+                                                    <li><a href="/dist/pages/sub-sostenibilita.shtml" title="Sub-home Sostenibilit&agrave;">Sub-home Sostenibilit&agrave;</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="divider bg-grey01 py-1 my-2 px-2 d-flex align-items-center justify-content-end">
+                                        <span>Asset Ad-Hoc</span>
+                                    </div>
+                                    <div class="divider bg-grey02 py-1 my-2"></div>
+                                </div>
+                            </article>
+                            <!--Article end-->
+                            <!--Article-->
+                            <article class="mb-5">
+                                <div class="col-12">
+                                    <div class="main-pills main-pills-basic rounded" id="contenuto4">
+                                        <div class="main-pills-header rounded">
+                                            <div class="row">
+                                                <div class="col-12 mt-3">
+                                                    <h3 class="heading h3 fw-normal border-start border-3 ps-2 border-info">
+                                                        Supporto browser</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="main-pills-body">
+                                            <div class="content">
+                                                <p>Il supporto dei browser &egrave; ovviamente correlato a quello del framework su cui il pacchetto &egrave; basato.
+                                                    Pi&ugrave; precisamente sono supportate tutte le ultime versioni stabili di tutti i principali browser e piattaforme (con alcune limitazioni legate alle versioni utilizzate su ambienti non strettamente mobile).
+                                                    Di seguito riportiamo la lista pubblicata dal <a target="_blank" href="https://getbootstrap.com/docs/5.3/getting-started/browsers-devices/" title="Documentazione Bootstrap - supporto browser">sito ufficiale </a>:
+                                                    
+                                                </p>
+                                                <div class="table-responsive">
+                                                    <table class="table">
+                                                        <caption>Tabella riassuntiva supporto browser</caption>
+                                                        <thead>
+                                                            <tr>
+                                                                <th scope="col">Browser</th>
+                                                                <th scope="col">Supporto</th>
+                                                                <th scope="col">Versione</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody class="table-group-divider">
+                                                            <tr>
+                                                                <td><strong>Chrome</strong></td>
+                                                                <td>Supportato</td>
+                                                                <td colspan="2">>= 60</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><strong>Firefox</strong></td>
+                                                                <td>Supportato</td>
+                                                                <td colspan="2">>= 60</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><strong>Firefox SR</strong></td>
+                                                                <td>Supportato</td>
+                                                                <td colspan="2">ESR</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><strong>IOS</strong></td>
+                                                                <td>Supportato</td>
+                                                                <td colspan="2">>= 12</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><strong>Safari</strong></td>
+                                                                <td>Supportato</td>
+                                                                <td colspan="2">>= 12</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><strong>Opera</strong></td>
+                                                                <td>Supportato</td>
+                                                                <td colspan="2"> ... </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><strong>Edge</strong></td>
+                                                                <td>Supportato</td>
+                                                                <td colspan="2"> ... </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><strong>Explorer</strong></td>
+                                                                <td>non Supportato</td>
+                                                                <td colspan="2"><= 11</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="divider bg-grey01 py-1 my-2 px-2 d-flex align-items-center justify-content-end">
+                                        <span>&nbsp;</span>
+                                    </div>
+                                    <div class="divider bg-grey02 py-1 my-2"></div>
+                                </div>
+                            </article>
+                            <!--Article end-->
+                        </div>
+                    </section>
+                </div>
+                <div class="col-lg-2 d-none d-lg-block">
+                    <nav id="nav-sidebar-context" class="navbar flex-column sticky-top" role="navigation">
+
+                        <!--#include virtual="/docs/includes/nav/nav-sidebar-context-documentazione-overview.html" -->
+
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container-fluid py-4">
+            <!--#include virtual="/docs/includes/footer/footer-default.html" -->
+        </div>
+    </footer>
+
+
+    <!--#include virtual="/docs/includes/utilities/footer-tag.html" -->
+    <!--#include virtual="/docs/includes/code/code-base.html" -->
+    <!--#include virtual="/docs/includes/utilities/loader.html" -->
+
+</body>
+
+</html>

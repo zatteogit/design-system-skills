@@ -1,0 +1,157 @@
+  
+<section id="swiper-scroll-buttons001" class="swiper-container position-relative swiper-scroll-buttons" aria-roledescription="carousel" aria-label="Lorem ipsum dolor 3141">
+    <!-- Slider main container -->
+    <div class="swiper button-set">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><a href="#" title="Lorem impsum" class="btn btn-sm btn-primary">dal 1862</a></div>
+        <div class="swiper-slide"><button type="button" class="btn btn-sm btn-primary">fine '800</button></div>
+        <div class="swiper-slide"><a href="#" title="Lorem impsum" class="btn btn-sm btn-primary">le guerre mondiali</a></div>
+        <div class="swiper-slide"><button type="button" class="btn btn-sm btn-primary">il dopo guerra</button></div>
+        <div class="swiper-slide"><a href="#" title="Lorem impsum" class="btn btn-sm btn-primary">anni '50</a></div>
+        <div class="swiper-slide"><a href="#" title="Lorem impsum" class="btn btn-sm btn-primary">anni '70</a></div>
+        <div class="swiper-slide"><button type="button" class="btn btn-sm btn-primary">anni '90</button></div>
+        <div class="swiper-slide"><a href="#" title="Lorem impsum" class="btn btn-sm btn-primary">la digitalizzazione</a></div>
+        <div class="swiper-slide"><button type="button" class="btn btn-sm btn-primary">progetto polis</button></div>
+      </div>
+    </div>
+
+    <!-- If we need navigation buttons -->
+    <!--div class="swiper-button-prev"></div-->
+    <!--div class="swiper-button-next"></div-->
+  
+    <div class="d-flex flex-column-reverse align-content-center flex-wrap flex-md-row justify-content-between row-gap-4">
+      <!-- If we need pagination
+      
+        <div class="swiper-pagination"></div> -->
+  
+      <!-- If we need scrollbar -->
+      <!--
+        <div class="swiper-scrollbar"></div>
+      -->
+        
+      <div class="swiper-action d-flex justify-content-between gap-2">
+
+        <div class="d-flex gap-2" role="region" aria-label="Controlli Carosello">
+          <button class="swiper-btn swiper-btn-prev btn btn-cta btn-primary-accent" aria-label="Slide precendente">
+            <span class="icon">
+              <svg focusable="false">
+                <title>Slide precendente</title>
+                <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#008b-navigate-before-m"
+                  href="/dist/assets/core/images/iconset/sprite.svg#008b-navigate-before-m"></use>
+              </svg>
+            </span>
+          </button>
+  
+          <button class="swiper-btn swiper-btn-next btn btn-cta btn-primary-accent" aria-label="Slide successiva">
+            <span class="icon">
+              <svg focusable="false">
+                <title>Slide successiva</title>
+                <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#008a-navigate-next-m"
+                  href="/dist/assets/core/images/iconset/sprite.svg#008a-navigate-next-m"></use>
+              </svg>
+            </span>
+          </button>
+        </div>
+        
+      </div>
+    </div>
+  
+  </section>
+
+
+  <style>
+
+    .swiper-slide{
+      width: fit-content;
+    }
+
+    .swiper-container:has(.swiper-slide-fully-visible + .swiper-slide-visible:not(.swiper-slide-fully-visible)):after, .swiper-container:has(.swiper-slide-visible:not(.swiper-slide-fully-visible,.swiper-slide-active) + .swiper-slide-fully-visible):before, .swiper-container:has(.swiper-slide-visible.swiper-slide-active:first-child):before{
+      background-color: #E2E2E6;
+      content:" ";
+      width: 3px;
+      height: 48px;
+      display: block;
+      position: absolute;
+      z-index: 2;
+      top: -4px;
+    }
+
+    /*.swiper-container:has(.swiper-slide-fully-visible + .swiper-slide-visible:not(.swiper-slide-fully-visible)):after{
+      right: 0;
+    }*/
+
+    .swiper-container:has(.swiper-slide-fully-visible.swiper-slide-active:first-child)::before{
+      content: none;
+    }
+    
+    .swiper-container:after{
+      right: 0;
+    }
+
+    /*.swiper-container:has(.swiper-slide-visible:not(.swiper-slide-fully-visible) + .swiper-slide-fully-visible):before, .swiper-container:has(.swiper-slide-visible.swiper-slide-active:first-child):before{
+      left: 0;
+    }*/
+
+    .swiper-container:before{
+      left: 0;
+    }
+
+/*
+    .swiper-scroll-buttons .swiper-wrapper{
+      width: calc(100% - 4.25rem);
+    }
+*/
+    .swiper-scroll-buttons .swiper-btn, .swiper-scroll-buttons .btn.active, .swiper-scroll-buttons .btn.btn-primary-accent{
+      background-color: #fff;
+      border: 0;
+    }
+
+    .swiper-scroll-buttons .swiper-btn, .swiper-scroll-buttons .btn .icon{
+      height: auto;
+    }
+
+    .swiper-scroll-buttons .swiper-btn.swiper-btn-prev, .swiper-scroll-buttons .swiper-btn.swiper-btn-next{
+      position: absolute;
+      top: 0;
+      width: 2.125rem;
+      height: 2.875rem;
+      z-index: 1;
+      border-radius: 0;
+      border: 0;
+    }
+
+    .swiper-scroll-buttons .swiper-btn.swiper-btn-prev{
+      left: -2.125rem;
+      /* padding: 0.5rem 1.5rem 0.5rem 0rem; */
+    }
+
+    .swiper-btn.swiper-btn-next{
+      right: -2.125rem;
+      /* padding: 0.5rem 0rem 0.5rem 1.5rem; */
+    }
+
+    /*
+    .swiper-scroll-buttons .swiper .swiper-slide{
+      display: flex;
+      justify-content: center;
+      width: fit-content !important;
+    }
+
+    .swiper-scroll-buttons .swiper-btn-prev, .swiper-scroll-buttons .swiper-btn-next{
+      position: absolute;
+      top: 0;
+    }
+
+    .swiper-scroll-buttons .swiper-btn-prev{
+      left: 0;
+      z-index: 1;
+    }
+
+    .swiper-scroll-buttons .swiper-btn-next{
+      right: 0;
+      z-index: 1;
+    }
+*/
+  </style>

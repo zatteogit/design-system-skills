@@ -1,0 +1,29 @@
+<div class="card">
+    <div class="picture-wrap">
+        <picture>
+            <img class="img-fluid" src="https://picsum.photos/id/109/636/358" alt="lorem ipsum <!--#echo var="card_react_var" --><!--#echo var="suffix_var" -->">
+        </picture>
+    </div>
+    <div class="card-body">
+        <div class="card-wrap">
+            <h3 class="card-title h4 fw-medium" id="card-reactive-title-<!--#echo var="card_react_var" --><!--#echo var="suffix_var" -->">Perch&egrave; lavorare in Poste Italiane
+            </h3>
+        </div>
+        <div class="card-wrap">
+            <p class="card-text">Siamo un'organizzazione in continuo movimento che cambia ed evolve.</p>
+        </div>
+    </div>
+    <div class="card-footer">
+        <div class="card-wrap">
+            <a class="btn btn-icon btn-sm btn-link" id="card-reactive-link-<!--#echo var="card_react_var" --><!--#echo var="suffix_var" -->" href="#"
+                aria-labelledby="card-reactive-title-<!--#echo var="card_react_var" --><!--#echo var="suffix_var" --> card-reactive-link-<!--#echo var="card_react_var" --><!--#echo var="suffix_var" -->">
+                <span class="icon">
+                    <svg focusable="false">
+                        <title>Lorem ipsum</title>
+                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#001b-arrow-forward-m"
+                            href="/dist/assets/core/images/iconset/sprite.svg#001b-arrow-forward-m"></use>
+                    </svg>
+                </span>Scopri di pi&ugrave;</a>
+        </div>
+    </div>
+</div>

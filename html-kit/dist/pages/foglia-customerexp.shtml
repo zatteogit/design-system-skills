@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <title>PosteItaliane.it</title>
+
+    <!--#set var="core_resources" value="on" -->
+    <!--#set var="swiper_resources" value="on" -->
+    <!--#set var="masonry_resources" value="off" -->
+    <!--#include virtual="/dist/includes/utilities/head-tag.shtml" -->
+    <meta name="description"
+        content="pagina esempio foglia corporate Poste Italiane, parte della linea guida grafica COM / DM">
+</head>
+
+<body id="foglia" class="no-js">
+    <nav id="skiplink" aria-label="Navigazione di pagina">
+        <ul>
+            <li><a tabindex="0" class="skip-link visually-hidden-focusable-abs" href="#accessibility-anchor">Passa al
+                    contenuto principale</a></li>
+            <li><a class="skip-link visually-hidden-focusable-abs" href="#footer">Passa al footer di pagina</a></li>
+        </ul>
+    </nav>
+    <header class="sticky">
+        <div class="sticky-wrap">
+            <!-- section Fedbar-->
+            <section class="section section-fedbar">
+                <div class="section-wrap">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <!--#include virtual="/dist/includes/header/header-section-fedbar.html" -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- section Navbar-->
+            <section class="section section-navbar">
+                <div class="section-wrap">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <!--#include virtual="/dist/includes/header/navbar-section-default.html" -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </header>
+
+    <main id="accessibility-anchor">
+        <h1 class="visually-hidden">PosteItaliane.it - Customer Experience</h1>
+
+
+
+        <section class="section section-module module-intro concept-boxed">
+            <!--#include virtual="/dist/includes/object/module-intro-boxed-02.html" -->
+        </section>
+
+        <section class="section section-bg section-spit bg-primary" data-bs-theme="dark">
+            <!--#include virtual="/dist/includes/object/content-evidence-dark-01.html" -->
+        </section>
+
+        <section class="section">
+            <div class="section-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-lg-8 offset-lg-2">
+                            <div class="row g-4">
+                                <div class="col-12">
+                                    <div class="content-heading separator">
+                                        <h2 class="heading fw-medium">L'impegno di Poste Italiane</h2>
+                                        <h3>Prova titolo interno</h3>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="content">
+
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam veniam, dolore
+                                            blanditiis aut
+                                            quidem
+                                            autem doloribus placeat necessitatibus aperiam, consequatur debitis eius
+                                            impedit soluta
+                                            magni.</p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel illum voluptatem
+                                            officiis ab laborum voluptate eum animi repellat labore non ex atque
+                                            reprehenderit dignissimos aliquam minus dolores fugit, itaque porro!</p>
+                                        <p>Laboriosam suscipit vel ipsum ducimus.Ullam veniam, dolore blanditiis aut
+                                            quidem autem
+                                            doloribus.</p>
+                                        <ul>
+                                            <li>Vel ipsum ducimus ullam veniam</li>
+                                            <li>Ullam veniam, dolore blanditiis aut quidem autem doloribus placeat;
+                                                necessitatibus;</li>
+                                            <li>Placeat necessitatibus aperiam, consequatur debitis eius impedit soluta.
+                                            </li>
+                                        </ul>
+                                        <p>Laboriosam suscipit vel ipsum ducimus.Ullam veniam, dolore blanditiis aut
+                                            quidem autemipsum ducimus.Ullam veniam, dolore blanditiis aut
+                                            quidem autem
+                                            doloribus.</p>
+                                        <h3>Lorem ipsum dolor</h3>
+                                        <p>Sosteniamo attivamente la crescita delle nuove generazioni attraverso
+                                            iniziative che rafforzano il legame tra scuola e mondo del lavoro, offrendo
+                                            opportunità concrete di orientamento scolastico e professionale e di
+                                            sviluppo delle competenze.</p>
+                                        <p>In quest'ottica si inserisce il progetto Next Generation, dedicato in
+                                            particolare agli studenti provenienti da contesti sociali vulnerabili. Il
+                                            programma propone percorsi per le competenze trasversali e per
+                                            l'orientamento (PCTO), con laboratori tematici sull'intelligenza artificiale
+                                            e attività di gruppo come il Creathon, dove i partecipanti lavorano in team
+                                            per ideare soluzioni innovative a sfide proposte dall'Azienda.</p>
+                                        <p>Nel 2024 abbiamo rinnovato l'impegno per la seconda edizione del progetto
+                                            biennale "School4Life 2.0", sviluppato in sinergia con altre grandi aziende,
+                                            con la finalità di contribuire a contrastare l'abbandono scolastico
+                                            sostenendo la qualità educativa attraverso piani di intervento a cura di
+                                            professionisti d'azienda in qualità di role model, mentor e maestri di
+                                            mestieri nelle scuole medie inferiori e superiori in tutta Italia.</p>
+
+                                        <h4>Lorem ipsum dolor</h4>
+                                        <p>Laboriosam suscipit vel ipsum ducimus.Ullam veniam, dolore blanditiis aut
+                                            quidem autem
+                                            doloribus.</p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel illum voluptatem
+                                            officiis ab laborum voluptate eum animi repellat labore non ex atque
+                                            reprehenderit dignissimos aliquam minus dolores fugit, itaque porro!</p>
+                                        <p>Laboriosam suscipit vel ipsum ducimus.Ullam veniam, dolore blanditiis aut
+                                            quidem autem
+                                            doloribus.</p>
+                                    </div>
+                                    <div class="content">
+                                        <h3>Lorem ipsum dolor</h3>
+                                        <p>Laboriosam suscipit vel ipsum ducimus.Ullam veniam, dolore blanditiis aut
+                                            quidem autem
+                                            doloribus.</p>
+                                        <ul>
+                                            <li>Vel ipsum ducimus ullam veniam</li>
+                                            <li>Ullam veniam, dolore blanditiis aut quidem autem doloribus placeat;
+                                                necessitatibus;</li>
+                                            <li>Placeat necessitatibus aperiam, consequatur debitis eius impedit soluta.
+                                            </li>
+                                        </ul>
+                                        <p>Laboriosam suscipit vel ipsum ducimus.Ullam veniam, dolore blanditiis aut
+                                            quidem autemipsum ducimus.Ullam veniam, dolore blanditiis aut
+                                            quidem autem
+                                            doloribus.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-context">
+            <div class="section-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="row g-4">
+                                <div class="col-12">
+                                    <figure class="figure-table figure-table-bordered">
+            <figcaption id="fig-cap-01">Composizione del Consiglio di Amministrazione</figcaption>
+            <p class="figure-description" id="fig-desc-01">Dati aggiornati all'ultima nomina assembleare (maggio 2024).</p>
+            <div class="table-wrap table-responsive table-hover">
+                <table aria-labelledby="fig-cap-01" aria-describedby="fig-desc-01" class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th scope="col" class="text-center w-25">Componente</th>
+                            <th scope="col" class="text-center w-25">Carica</th>
+                            <th scope="col" class="text-center">Indip.</th>
+                            <th scope="col" class="text-center">Esec.</th>
+                            <th scope="col" class="text-center w-25">Comitati.</th>
+                        </tr>
+                    </thead>
+                    <tbody class="tbody-light">
+                        <tr>
+                            <th scope="row">Silvia Maria Rovere</th>
+                            <td>Presidente</td>
+                            <td class="text-center">
+                                <span class="icon icon-success">
+                                    <svg focusable="false">
+                                        <title>lorem ipsum</title>
+                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#010a-check-m"
+                                            href="/dist/assets/core/images/iconset/sprite.svg#010a-check-m">
+                                        </use>
+                                    </svg>
+                                </span>
+                            </td>
+                            <td class="text-center">
+                                <span class="icon icon-error">
+                                    <svg focusable="false">
+                                        <title>lorem ipsum</title>
+                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#009a-close-m"
+                                            href="/dist/assets/core/images/iconset/sprite.svg#009a-close-m">
+                                        </use>
+                                    </svg>
+                                </span>
+                            </td>
+                            <td>Nomine e remunerazione</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Matteo Del Fante</th>
+                            <td>Amministratore Delegato</td>
+                            <td class="text-center">
+                                <span class="icon icon-error">
+                                    <svg focusable="false">
+                                        <title>lorem ipsum</title>
+                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#009a-close-m"
+                                            href="/dist/assets/core/images/iconset/sprite.svg#009a-close-m">
+                                        </use>
+                                    </svg>
+                                </span>
+                            </td>
+                            <td class="text-center">
+                                <span class="icon icon-success">
+                                    <svg focusable="false">
+                                        <title>lorem ipsum</title>
+                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#010a-check-m"
+                                            href="/dist/assets/core/images/iconset/sprite.svg#010a-check-m">
+                                        </use>
+                                    </svg>
+                                </span>
+                            </td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Giuseppe Lasco</th>
+                            <td>Condirettore Generale</td>
+                            <td class="text-center">
+                                <span class="icon icon-error">
+                                    <svg focusable="false">
+                                        <title>lorem ipsum</title>
+                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#009a-close-m"
+                                            href="/dist/assets/core/images/iconset/sprite.svg#009a-close-m">
+                                        </use>
+                                    </svg>
+                                </span>
+                            </td>
+                            <td class="text-center">
+                                <span class="icon icon-success">
+                                    <svg focusable="false">
+                                        <title>lorem ipsum</title>
+                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#010a-check-m"
+                                            href="/dist/assets/core/images/iconset/sprite.svg#010a-check-m">
+                                        </use>
+                                    </svg>
+                                </span>
+                            </td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Membro A</th>
+                            <td>Consigliere</td>
+                            <td class="text-center">
+                                <span class="icon icon-success">
+                                    <svg focusable="false">
+                                        <title>lorem ipsum</title>
+                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#010a-check-m"
+                                            href="/dist/assets/core/images/iconset/sprite.svg#010a-check-m">
+                                        </use>
+                                    </svg>
+                                </span>
+                            </td>
+                            <td class="text-center">
+                                <span class="icon icon-error">
+                                    <svg focusable="false">
+                                        <title>lorem ipsum</title>
+                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#009a-close-m"
+                                            href="/dist/assets/core/images/iconset/sprite.svg#009a-close-m">
+                                        </use>
+                                    </svg>
+                                </span>
+                            </td>
+                            <td>Controllo, rischi e sostenibilità</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Membro B</th>
+                            <td>Consigliere</td>
+                            <td class="text-center">
+                                <span class="icon icon-success">
+                                    <svg focusable="false">
+                                        <title>lorem ipsum</title>
+                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#010a-check-m"
+                                            href="/dist/assets/core/images/iconset/sprite.svg#010a-check-m">
+                                        </use>
+                                    </svg>
+                                </span>
+                            </td>
+                            <td class="text-center">
+                                <span class="icon icon-error">
+                                    <svg focusable="false">
+                                        <title>lorem ipsum</title>
+                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#009a-close-m"
+                                            href="/dist/assets/core/images/iconset/sprite.svg#009a-close-m">
+                                        </use>
+                                    </svg>
+                                </span>
+                            </td>
+                            <td>Nomine e remuneraziojne</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Membro C</th>
+                            <td>Consigliere</td>
+                            <td class="text-center">
+                                <span class="icon icon-success">
+                                    <svg focusable="false">
+                                        <title>lorem ipsum</title>
+                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#010a-check-m"
+                                            href="/dist/assets/core/images/iconset/sprite.svg#010a-check-m">
+                                        </use>
+                                    </svg>
+                                </span>
+                            </td>
+                            <td class="text-center">
+                                <span class="icon icon-error">
+                                    <svg focusable="false">
+                                        <title>lorem ipsum</title>
+                                        <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#009a-close-m"
+                                            href="/dist/assets/core/images/iconset/sprite.svg#009a-close-m">
+                                        </use>
+                                    </svg>
+                                </span>
+                            </td>
+                            <td>Parti correlate</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+            <div class="figure-extra figure-extra-bordered">
+                <p>L'indipendenza è valutata ai sensi degli artt. 147-ter e 148, comma 3 del TUF e dell'art. 3 del Codice</p>
+            </div>
+
+            <div class="figure-extra">
+                <ul class="fs-extrasmall list-unstyled">
+                    <li>¹ L'EBIT adjusted esclude oneri non ricorrenti, svalutazioni di avviamento e componenti non operative.</li>
+                    <li>² Solvency II ratio calcolato secondo la formula standard, al netto delle misure transitorie.</li>
+                    <li>³ CET1 ratio del patrimonio separato BancoPosta, calcolato ai sensi del Regolamento CRR/CRD IV.</li>
+                </ul>
+            </div>
+        </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="section section-context section-bg bg-pattern" data-bs-theme="dark"
+            style="background-image: url('/dist/assets/core/images/generic/bg-section-pattern-01.jpg');">
+            <div class="section-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-lg-8 offset-lg-2">
+                            <div class="row g-4">
+                                <div class="col-12">
+                                    <div class="content-heading separator">
+                                        <h3 class="fw-medium">L'impegno di Poste Italiane</h2>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="content">
+                                        <p>Siamo il primo datore di lavoro in Italia con circa 121.000 dipendenti e un'occupazione totale (comprensiva dell'indotto) di più di 199.000 posti di lavoro.</p>
+ 
+<p>Le nostre persone sono il motore della nostra trasformazione e del nostro successo, un fattore distintivo che ha guidato la nostra crescita. Per questo abbiamo a cuore il benessere di chi lavora con noi e per noi, sostenendo i valori di diversità e inclusione, non ammettendo alcuna forma di discriminazione in relazione a genere, età, stato di salute, condizione sociale e orientamento sessuale, e garantendo pari opportunità di lavoro e crescita professionale.
+ </p>
+<p>Investiamo nell'innovazione dei ruoli, nelle nuove professionalità e nella valorizzazione delle competenze promuovendo un modello organizzativo dinamico e inclusivo, che fa leva sulla motivazione e l'engagement di tutti.
+</p>
+<p>Per maggiori informazioni rispetto all'organizzazione delle Persone all'interno del Gruppo, si rimanda al documento di approfondimento .</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section">
+            <div class="section-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-lg-8 offset-lg-2">
+                            <div class="row g-4">
+                                <div class="col-12 col-md-6">
+                                    <!--#include virtual="/dist/includes/object/card-icon-01.html" -->
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <!--#include virtual="/dist/includes/object/card-icon-01.html" -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-lg-8 offset-lg-2">
+                            <div class="row g-4">
+                                <div class="col-12">
+                                    <div class="content">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam veniam, dolore
+                                            blanditiis aut
+                                            quidem
+                                            autem doloribus placeat necessitatibus aperiam, consequatur debitis eius
+                                            impedit soluta
+                                            magni
+                                            laboriosam suscipit vel ipsum ducimus.Ullam veniam, dolore blanditiis aut
+                                            quidem autem
+                                            doloribus
+                                            placeat necessitatibus aperiam, consequatur debitis eius impedit soluta
+                                            magni laboriosam
+                                            suscipit vel
+                                            ipsum ducimus. Ullam veniam, dolore blanditiis aut quidem autem doloribus
+                                            placeat
+                                            necessitatibus
+                                            aperiam, consequatur debitis eius impedit soluta magni laboriosam suscipit
+                                            vel ipsum
+                                            ducimus.</p>
+                                    </div>
+                                    <div class="content">
+                                        <ul class="list-file">
+                                            <li class="list-file-pdf">
+                                                <a href="#" title="lorem ipsum">Giacenza gratuita <span class="d-block fs-extrasmall">Condizioni generali di servizio (.pdf)</span>
+                                                </a>
+                                            </li>
+                                            <li class="list-file-pdf">
+                                                <a href="#" title="lorem ipsum">Efflorescere iis tempor aut varias voluptate in arbitror. <span class="d-block fs-extrasmall">Condizioni contrattuali (.pdf)</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="content">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam veniam, dolore
+                                            blanditiis aut
+                                            quidem
+                                            autem doloribus placeat necessitatibus aperiam, consequatur debitis eius
+                                            impedit soluta
+                                            magni
+                                            laboriosam suscipit vel ipsum ducimus.Ullam veniam, dolore blanditiis aut
+                                            quidem autem
+                                            doloribus
+                                            placeat necessitatibus aperiam, consequatur debitis eius impedit soluta
+                                            magni laboriosam
+                                            suscipit vel
+                                            ipsum ducimus. Ullam veniam, dolore blanditiis aut quidem autem doloribus
+                                            placeat
+                                            necessitatibus
+                                            aperiam, consequatur debitis eius impedit soluta magni laboriosam suscipit
+                                            vel ipsum
+                                            ducimus.</p>
+                                    </div>
+                                    <div class="content fs-base">
+                                        <p>Ullam veniam, dolore blanditiis aut quidem autem doloribus
+                                            placeat necessitatibus aperiam, consequatur debitis eius impedit soluta
+                                            magni laboriosam
+                                            suscipit vel
+                                            ipsum ducimus. Ullam veniam, dolore blanditiis aut quidem autem doloribus
+                                            placeat
+                                            necessitatibus
+                                            aperiam, consequatur debitis eius impedit soluta magni laboriosam</p>
+                                        <ul>
+                                            <li>Vel ipsum ducimus ullam veniam</li>
+                                            <li>Ullam veniam, dolore blanditiis aut quidem autem doloribus placeat;
+                                                necessitatibus;</li>
+                                            <li>Placeat necessitatibus aperiam, consequatur debitis eius impedit soluta.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="content fs-small">
+                                        <p>&sup1; Ullam veniam, dolore blanditiis aut quidem autem doloribus
+                                            placeat necessitatibus aperiam, consequatur debitis eius impedit soluta
+                                            magni laboriosam
+                                            suscipit vel
+                                            ipsum ducimus.</p>
+                                        <p>&sup2; Ullam veniam, dolore blanditiis aut quidem autem doloribus
+                                            placeat
+                                            necessitatibus
+                                            aperiam, consequatur debitis eius impednditiis aut quidem autem doloribus
+                                            placeat
+                                            necessitatibus
+                                            aperiam, consequatur debitis eius impedit soluta magni laboriosam</p>
+                                        <ul>
+                                            <li>Vel ipsum ducimus ullam veniam</li>
+                                            <li>Ullam veniam, dolore blanditiis aut quidem autem doloribus placeat;
+                                                necessitatibus;</li>
+                                            <li>Placeat necessitatibus aperiam, consequatur debitis eius impedit soluta.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-module module-display concept-photo module-overlay"
+            data-pi-overlay="primary-accent" data-bs-theme="light">
+            <!--#include virtual="/dist/includes/object/module-display-photo-01.html" -->
+        </section>
+
+        <section class="section">
+            <div class="section-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-lg-8 offset-lg-2">
+                            <div class="row g-4">
+                                <div class="col-12">
+                                    <div class="content fs-base">
+                                        <p>Ullam veniam, dolore blanditiis aut quidem autem doloribus
+                                            placeat necessitatibus aperiam, consequatur debitis eius impedit soluta
+                                            magni laboriosam
+                                            suscipit vel
+                                            ipsum ducimus. Ullam veniam, dolore blanditiis aut quidem autem doloribus
+                                            placeat
+                                            necessitatibus
+                                            aperiam, consequatur debitis eius impedit soluta magni laboriosam</p>
+                                    </div>
+                                    <div class="content fs-base">
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore repellendus,
+                                            doloremque ad provident incidunt totam unde alias nulla odio earum
+                                            aspernatur illo minus natus quod! Rerum ut itaque molestias earum? Ullam
+                                            veniam, dolore blanditiis aut quidem autem doloribus
+                                            placeat necessitatibus aperiam, consequatur debitis eius impedit soluta
+                                            magni laboriosam
+                                            suscipit vel
+                                            ipsum ducimus. Ullam veniam, dolore blanditiis aut quidem autem doloribus
+                                            placeat
+                                            necessitatibus
+                                            aperiam, consequatur debitis eius impedit soluta magni laboriosam</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section swiper-container position-relative" id="swiper005" aria-roledescription="carousel"
+            aria-label="Lorem ipsum dolor 3141">
+            <div class="section-wrap">
+                <div class="container">
+                    <div class="row g-4">
+                        <div class="col-12">
+                            <div class="content-heading separator text-center">
+                                <span class="caption" aria-hidden="true">Agomenti correlati</span>
+                                <h2 class="heading fw-medium visually-hidden">Agomenti correlati</h2>
+                            </div>
+                        </div>
+                        <div class="col-12 offset-xl-1 col-xl-10">
+                            <!--#include virtual="/dist/includes/object/carousel-swiper-05c.html" -->
+                            <!--#include virtual="/dist/includes/object/carousel-swiper-05-opt.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <section class="section section-footer section-footer-info">
+            <div class="section-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--#include virtual="/dist/includes/footer/footer-section-info.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-footer section-footer-extra">
+            <div class="section-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!--#include virtual="/dist/includes/footer/footer-section-extra.html" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--#include virtual="/dist/includes/utilities/footer-tag.shtml" -->
+    </footer>
+</body>
+
+</html>

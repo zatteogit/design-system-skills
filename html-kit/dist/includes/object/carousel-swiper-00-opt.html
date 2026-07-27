@@ -1,0 +1,53 @@
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+    
+    // 1. Definiamo una funzione "fabbrica" per i caroselli
+    const initMySwiper = (selector, customArgs = {}) => {
+        // Configurazioni base (uguali per tutti)
+        const baseConfig = {
+            spaceBetween: 24,
+            watchSlidesProgress: true,
+            a11y: typeof swiper_lang_it !== 'undefined' ? swiper_lang_it : {},
+            keyboard: { enabled: true },
+            pagination: {
+                el: `${selector} .swiper-pagination`,
+                clickable: false,
+                dynamicBullets: true
+            },
+            navigation: {
+                nextEl: `${selector} .swiper-btn-next`,
+                prevEl: `${selector} .swiper-btn-prev`,
+            },
+            slidesPerView: 1,
+            grid: { rows: 1, fill: "row" },
+            breakpoints: {
+                768: { slidesPerView: 2 },
+                992: { slidesPerView: 3 },
+                1400: { slidesPerView: 4 }
+            }
+        };
+
+        // 2. Uniamo la base con eventuali parametri personalizzati (es. per l'ultimo carosello)
+        // Utilizziamo lo spread operator per fare il merge profondo se necessario, 
+        // o un semplice Object.assign per le proprietà di primo livello.
+        const finalConfig = { ...baseConfig, ...customArgs };
+        
+        // Se customArgs contiene breakpoints, sovrascriviamo quelli base
+        if (customArgs.breakpoints) {
+            finalConfig.breakpoints = { ...baseConfig.breakpoints, ...customArgs.breakpoints };
+        }
+
+        return new Swiper(`${selector} .swiper`, finalConfig);
+    };
+
+    // 3. Inizializziamo i primi 3 che sono identici
+    ['#swiper0001', '#swiper0002', '#swiper0003'].forEach(id => initMySwiper(id));
+
+    // 4. Inizializziamo l'ultimo che ha una piccola variazione sui breakpoints
+    initMySwiper('#swiper0004', {
+        breakpoints: {
+            1400: { slidesPerView: 3 } // Qui volevi 3 invece di 4
+        }
+    });
+});
+</script>

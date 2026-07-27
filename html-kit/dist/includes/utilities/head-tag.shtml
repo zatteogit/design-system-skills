@@ -1,0 +1,16 @@
+<!--#set var="suffix_var" value="-foobar" -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+    <!--#if expr='v("core_resources") = "on"' -->
+        <!-- Stili base -->
+        <link type="text/css" rel="stylesheet" href="/dist/assets/core/css/core.min.css">
+    <!--#endif -->
+    <!--#if expr='v("swiper_resources") = "on"' -->
+        <!-- swiper carousel core css (no arrows, no pagination, ... css) -->
+        <link rel="stylesheet" href="/dist/assets/vendor/swiper/css/swiper-bundle.min.css">
+
+        <!-- swiper carousel posteitaliane.it theme css (arrows, pagination, play/stop ... css) -->
+        <link rel="stylesheet" href="/dist/assets/vendor/swiper/css/swiper-corporate.css">
+    <!--#endif -->
+

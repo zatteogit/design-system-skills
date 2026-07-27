@@ -1,0 +1,170 @@
+/*****************************************************
+
+    Theme Name: Docs Generic
+    Author: GDS//FS//DU 
+    Created: 10/2021
+    Based on: kit Bootstrap v5.3.2
+    File Description: Foglio di stile CORE
+
+    Version: Pack 1.1.0
+    Last modified: 10/2025
+
+*****************************************************/
+
+
+/****************************
+
+- Variable
+- Tipography
+- Generic
+
+-- @Media (min-width: 576px) sm
+-- @Media (min-width: 768px) md
+-- @Media (min-width: 992px) lg
+-- @Media (min-width: 1200px) xl
+-- @Media (min-width: 1400px) xxl
+
+*****************************/
+
+
+/***** Variable *****/
+
+:root {
+    --font-jost: 'Jost', sans-serif;
+    --font-inter: 'Inter', sans-serif;
+    --color-primary: #383838; //#294559;
+    --color-yellow01: #eedc00;
+    --color-yellow02: #ffec00;
+    --color-yellow03: #f9dd94;
+    --color-yellow04: #fff2d1;
+    --color-red01:#C80000;
+    --color-link: #3D6F93;
+    --color-text01: #222222;
+    --color-text02: #5B5B5B;
+    --color-grey01: #f4f4f4; //#F1F1F1;
+    --color-grey02: #535353; //#DDDDDD;
+}
+
+
+/***** Tipography *****/
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: var(--font-inter);
+    font-size: 1rem;
+    line-height: 150%;
+    //letter-spacing: 0.3px;
+    color: var(--color-text01);
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-link);
+}
+
+a:focus,
+a:active:focus {
+    text-decoration: underline;
+    box-shadow: 0 0 0 .25rem var(--color-yellow01);
+    outline: .25rem solid var(--color-yellow01);
+}
+
+.navbar a{
+    color: #fff;
+}
+
+.navbar-brand:focus,
+.navbar-brand:active:focus {
+    box-shadow: 0 0 0 .25rem var(--color-primary);
+    outline: .25rem solid var(--color-primary);
+}
+
+p{
+    color: var(--color-text01);
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.bg-primary {
+    background-color: var(--color-primary)!important;
+}
+
+.bg-grey01 {
+    background-color: var(--color-grey01)!important;
+}
+
+.bg-grey02 {
+    background-color: var(--color-grey02)!important;
+}
+
+.border-grey01{
+    border-color: var(--color-grey01)!important;
+}
+
+.border-grey02{
+    border-color: var(--color-grey02)!important;
+}
+
+.border-primary{
+    border-color: var(--color-primary)!important;
+}
+
+.text-primary {
+    color: var(--color-primary)!important;
+}
+
+.text-secondary {
+    color: var(--color-text02)!important;
+}
+
+h5,.h5{
+    font-weight: 600;
+}
+
+.heading,
+.heading a,
+.heading a:visited{
+    color: var(--color-primary);
+}
+
+iframe{
+    width: 100%;
+}
+
+#iframepreview iframe{
+    height: 100%;
+}
+
+.resizable{
+    resize: both;
+	overflow: auto;
+    border: 1px solid #000;
+}
+
+/* sm - Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {}
+
+
+/* md - Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {}
+
+
+/* lg - // Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {}
+
+
+/* xl - X-Large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}
+
+
+/* xxl - XX-Large devices (larger desktops, 1400px and up) */
+
+@media (min-width: 1400px) {}

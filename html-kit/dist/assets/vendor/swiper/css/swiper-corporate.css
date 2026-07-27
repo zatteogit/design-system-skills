@@ -1,0 +1,185 @@
+.swiper{
+    position: relative;
+}
+
+.swiper[data-pi-position=default]{
+    padding: 1.5rem .75rem;
+    margin: 0 -.75rem 1.5rem -.75rem;
+}
+
+.swiper[data-pi-position=track]{
+    padding: 1.5rem 0.75rem;
+    margin: -1.5rem -0.75rem .5rem -0.75rem
+}
+
+.swiper[data-pi-position=track-over]{
+    padding: 1.5rem 0.75rem;
+    margin: 0 -0.75rem .5rem -0.75rem
+}
+
+.swiper:is(.swiper-container:has(:where(.swiper-pagination-lock, .swiper-button-lock)):not(:has(.swiper-action > .btn)) .swiper){
+    margin-bottom: 0;
+}
+
+.tab-content .swiper{
+    z-index: auto; /*fix for focus-visible outline*/
+}
+
+/*
+.bg-track.swiper {
+    padding: 1.5rem 0.75rem;
+    margin: -1.5rem -0.75rem .5rem -0.75rem;
+}
+*/
+.bg-track.swiper::after {
+    content: "";
+    background-color: #f5f5f7;
+    height: calc(100% - 5rem);
+    width: calc(100% + 3.5rem);
+    border-radius: 0;
+    display: block;
+    position: absolute;
+    z-index: -1;
+    top: 2.5rem;
+    left: -1.75rem;
+}
+
+.bg-track.bg-track-over.swiper::after{
+    top: -0rem;
+    height: calc(100% - 2.5rem);
+}
+
+.bg-track.swiper.swiper-cover01::after{
+    background-image: url(/dist/assets/core/images/generic/bg-swipercover-01-calendariofinanziario.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.swiper .swiper-slide {
+    display: flex;
+    justify-content: center;
+}
+
+.swiper-media-gallery .swiper-preview .swiper-slide .ratio{
+    background-color: #f3f3f3;
+}
+
+.section-module .swiper .swiper-slide{
+    overflow: hidden;
+}
+
+.section-module .swiper .swiper-slide .section-wrap{
+    display: flex;
+    width: 100%;
+}
+
+.swiper-slide .card {
+    transition: all 0.3s ease-out;
+}
+
+.swiper-slide:not(.swiper-slide-visible) .card {
+    box-shadow: none;
+}
+
+.swiper-pagination {
+    top: 1rem !important;
+    height: 1rem;
+}
+
+.swiper-pagination-bullets.swiper-pagination-horizontal{
+    width: auto;
+    left: 50%;
+    transform:translateX(-50%);
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #03338f;
+}
+
+.swiper-action{
+    width: 100%;
+}
+
+.swiper-action:has(.swiper-button-lock+.swiper-button-lock) .swiper-btn{
+    display: none;
+}
+
+.swiper-btn.swiper-button-lock{
+    display: none;
+}
+
+.swiper-thumbs .swiper-slide{
+    padding: 4px;
+}
+
+.swiper-thumbs .swiper-slide:hover{
+    cursor: pointer;
+}
+
+.swiper-thumbs .swiper-slide.swiper-slide-thumb-active{
+    padding: 2px ;
+    border: 2px solid #0047bb;
+    border-radius: 1.25rem;
+}
+
+
+.section-module .swiper-wrap-controls{
+    background-color: #f5f5f7;
+}
+/*
+.swiper-autoplay-controls .swiper-btn-autoplay{
+    display: none;
+}*/
+
+@media (min-width: 576px) { 
+    .swiper[data-pi-position=default]{
+        padding: 1.5rem 1.5rem;
+        margin: 0 -1.5rem 1.5rem -1.5rem;
+    }
+    .swiper[data-pi-position=track]{
+        padding: 1.5rem 1.5rem;
+        margin: -1.5rem -1.5rem 0.25rem -1.5rem;
+    }
+    .swiper[data-pi-position=track-over]{
+        padding: 1.5rem 1.5rem;
+        margin: 0 -1.5rem 0.25rem -1.5rem;
+    }
+
+    .bg-track.swiper::after {
+        width: 100%;
+        border-radius: 20px;
+        left: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    
+    .swiper.swiper-preview{
+        padding-top: .5rem;
+    }
+    .swiper-action{
+        width: auto;
+    }
+    .swiper-autoplay-controls .swiper-btn-autoplay{
+        display: flex;
+    }
+    .section-module .swiper-wrap-controls{
+        background-color: transparent;
+    }
+}
+
+@media (min-width: 992px){
+
+}
+
+@media (min-width: 1200px) {
+    .swiper[data-pi-position=track],
+    .swiper[data-pi-position=track-over] {
+        padding: 1.5rem 1.5rem;
+        margin: 0rem -1.5rem 1.5rem -1.5rem;
+    }   
+    .swiper.swiper-preview{
+        padding-top: 1.5rem;
+    }
+}

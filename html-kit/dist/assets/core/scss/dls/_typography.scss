@@ -1,0 +1,214 @@
+/*****************************************************
+    @ IMPORT
+    Foglio stile _typography - (c) Poste Italiane 2024/2026
+*****************************************************/
+
+html, body{
+    font-size: $font-size-base;
+    line-height: 1.5;
+    /* Definizione base */
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: $font-weight-normal;
+    color: $color_neutral_10;
+}
+
+.content,
+.card-text,
+.accordion-body{
+    font-size: $font-size-default;
+    line-height: 1.4;
+    color: $color_neutral_30;
+}
+
+.contextual-object{
+    color: $color_neutral_30;
+    
+    & h1,& .h1,
+    & h2,& .h2,
+    & h3,& .h3,
+    & h4,& .h4,
+    & h5,& .h5,
+    & h6,& .h6{
+        color: $color_neutral_30;
+    }
+}
+
+
+.fs-base{
+    font-size: $font-size-base;
+    line-height: 1.5;
+    letter-spacing: .048px;
+}
+
+.fs-default{
+    font-size: $font-size-default;
+    line-height: 1.4;
+    letter-spacing: .054px;
+}
+
+.fs-large{
+    font-size: $font-size-lg;
+    line-height: 1.5;
+}
+
+.fs-small{
+    font-size: $font-size-sm;
+    line-height: 1.55;
+    letter-spacing: .042px;
+}
+
+.fs-extrasmall{
+    font-size: $font-size-xs;
+    font-weight: $font-weight-medium;
+    line-height: 1.4;
+    letter-spacing: .036px;
+}
+
+
+
+
+
+a {
+    color: $color_primary_33;
+    
+    &:hover,
+    &:focus{
+        color: $color_primary_50;
+        text-decoration: underline;
+    }
+}
+
+strong{ 
+    font-weight: $font-weight-semibold; 
+}
+
+/* Definition of: typography */
+/* Resume
+
+
+.display-1: 5rem,      //not in use
+.display-2: 4.5rem,    //not in use
+.display-3: 4rem,      //not in use
+.display-4: 3.75rem,
+.display-5: 3.25rem,
+.display-6: 2.75rem
+
+$h1,.h1:                $font-size-base * 2.25;
+$h2,.h2:                $font-size-base * 1.75;
+$h3,.h3:                $font-size-base * 1.5;
+$h4,.h4:                $font-size-base * 1.25;
+$h5,.h5:                $font-size-base;
+$h6,.h6:                $font-size-base;  //not in use
+
+*/
+
+
+h1,.h1,
+h2,.h2,
+h3,.h3,
+h4,.h4,
+h5,.h5,
+h6,.h6{
+    color: $color_neutral_10;
+}
+
+h3,
+.h3,
+h4,
+.h4{
+    font-weight: $font-weight-medium;
+}
+
+h5,
+.h5{
+    font-weight: $font-weight-semibold;
+}
+
+.heading{
+  color: #{$color_primary_25};
+}
+
+.display-5{
+    line-height: 1.25;
+}
+
+.lead{
+    font-size: $font-size-lg;
+    font-weight: $font-weight-normal;
+    line-height: 1.4;
+}
+
+.caption{
+    color: $color_neutral_30;
+    font-weight: $font-weight-semibold;
+    font-size: $font-size-base;
+    line-height: 1.25;
+    letter-spacing: 0.16px;
+    text-transform: uppercase;
+}
+
+.contextual-object .caption{
+    color: $color_neutral_40;
+}
+
+.fs-1,
+.fs-2,
+.fs-3,
+.fs-4,
+.fs-5,
+.fs-6,
+.fs-7,
+.fs-8,
+.fs-9,
+.fs-10 {
+    line-height: 1.3;
+}
+
+
+@include color-mode(dark) {
+    h1, .h1,
+    h2, .h2,
+    h3, .h3,
+    h4, .h4,
+    h5, .h5,
+    h6, .h6{
+        color: $color_neutral_100;
+    }
+
+    .heading{
+        color: $color_neutral_100;
+    } 
+}
+
+/* sm - Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {}
+
+
+/* md - Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+
+    .module-intro .module-heading h2,
+    .module-intro .module-heading .h2{
+        font-size: 2rem;
+    }
+}
+
+
+/* lg - // Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {}
+
+
+/* xl - X-Large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}
+
+
+/* xxl - XX-Large devices (larger desktops, 1400px and up) */
+
+@media (min-width: 1400px) {}

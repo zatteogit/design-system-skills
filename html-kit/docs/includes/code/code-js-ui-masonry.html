@@ -1,0 +1,14 @@
+
+document.addEventListener("DOMContentLoaded", function() {
+    // init Masonry 
+    var masonry = document.querySelector('.masonry');
+
+    var gallery = new Masonry(masonry,{
+      percentPosition : true
+    });
+
+    // layout Masonry after each image loads
+    imagesLoaded( masonry ).on( 'progress', function() {
+      gallery.layout();
+    });
+});

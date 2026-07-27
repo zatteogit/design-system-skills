@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <title>PosteItaliane.it</title>
+
+  <!--#set var="core_resources" value="on" -->
+  <!--#set var="swiper_resources" value="on" -->
+  <!--#set var="masonry_resources" value="off" -->
+  <!--#include virtual="/dist/includes/utilities/head-tag.shtml" -->
+  <meta name="description"
+    content="pagina esempio di homepage corporate Poste Italiane, parte della linea guida grafica COM / DM">
+</head>
+
+<body id="homepage" class="no-js">
+  <nav id="skiplink" aria-label="Navigazione di pagina">
+    <ul>
+      <li><a tabindex="0" class="skip-link visually-hidden-focusable-abs" href="#accessibility-anchor">Passa al
+          contenuto principale</a></li>
+      <li><a class="skip-link visually-hidden-focusable-abs" href="#footer">Passa al footer di pagina</a></li>
+    </ul>
+  </nav>
+  <header class="sticky">
+    <div class="sticky-wrap">
+      <!-- section Fedbar-->
+      <section class="section section-fedbar">
+        <div class="section-wrap">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <!--#include virtual="/dist/includes/header/header-section-fedbar.html" -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- section Navbar-->
+      <section class="section section-navbar">
+        <div class="section-wrap">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <!--#include virtual="/dist/includes/header/navbar-section-default.html" -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </header>
+
+  <main id="accessibility-anchor">
+    <h1 class="visually-hidden">PosteItaliane.it Homepage</h1>
+
+
+
+    <section class="section section-module module-intro concept-photo module-overlay" data-pi-overlay="dark"
+      data-pi-theme-switch="true" data-bs-theme="dark">
+      <!--#include virtual="/dist/includes/object/module-intro-photo-01.html" -->
+    </section>
+
+    <section class="section section-bg bg-neutral swiper-container position-relative">
+      <div class="section-wrap">
+        <div class="container">
+          <div class="row g-4">
+            <div class="col-12">
+              <div class="content-heading separator text-center">
+                <h2 class="heading fw-medium">Il <strong>valore</strong> che generiamo</h2>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="scroll-content-x scroll-content-center mode-center mobile-hide-scroll">
+                <ul class="nav nav-tabs list-toggle list-toggle-evidence gap-2 p-1 pb-3 mb-0" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <button id="performance-tab" class="btn btn-icon btn-secondary btn-sm active" data-bs-toggle="tab" data-bs-target="#performance-tab-pane" role="tab">
+                      <span class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                          <mask id="mask0_12135_35220" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
+                            width="24" height="24">
+                            <rect width="24" height="24" fill="#D9D9D9" />
+                          </mask>
+                          <g mask="url(#mask0_12135_35220)">
+                            <path
+                              d="M16.8125 19.75C16.5542 19.75 16.3333 19.6583 16.15 19.475C15.9667 19.2917 15.875 19.0708 15.875 18.8125V14.1875C15.875 13.9292 15.9667 13.7083 16.15 13.525C16.3333 13.3417 16.5542 13.25 16.8125 13.25H18.8125C19.0708 13.25 19.2917 13.3417 19.475 13.525C19.6583 13.7083 19.75 13.9292 19.75 14.1875V18.8125C19.75 19.0708 19.6583 19.2917 19.475 19.475C19.2917 19.6583 19.0708 19.75 18.8125 19.75H16.8125ZM11 19.75C10.7417 19.75 10.5208 19.6583 10.3375 19.475C10.1542 19.2917 10.0625 19.0708 10.0625 18.8125V5.1875C10.0625 4.92917 10.1542 4.70833 10.3375 4.525C10.5208 4.34167 10.7417 4.25 11 4.25H13C13.2583 4.25 13.4792 4.34167 13.6625 4.525C13.8458 4.70833 13.9375 4.92917 13.9375 5.1875V18.8125C13.9375 19.0708 13.8458 19.2917 13.6625 19.475C13.4792 19.6583 13.2583 19.75 13 19.75H11ZM5.1875 19.75C4.92917 19.75 4.70833 19.6583 4.525 19.475C4.34167 19.2917 4.25 19.0708 4.25 18.8125V10.1875C4.25 9.92917 4.34167 9.70833 4.525 9.525C4.70833 9.34167 4.92917 9.25 5.1875 9.25H7.1875C7.44583 9.25 7.66667 9.34167 7.85 9.525C8.03333 9.70833 8.125 9.92917 8.125 10.1875V18.8125C8.125 19.0708 8.03333 19.2917 7.85 19.475C7.66667 19.6583 7.44583 19.75 7.1875 19.75H5.1875Z"
+                              fill="white" />
+                          </g>
+                        </svg>
+                      </span>Performance finanziarie
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button id="environment-tab" class="btn btn-icon btn-secondary btn-sm" data-bs-toggle="tab"
+                      data-bs-target="#environment-tab-pane" role="tab">
+                      <span class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                          <mask id="mask0_12162_35831" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
+                            width="24" height="24">
+                            <rect width="24" height="24" fill="#D9D9D9" />
+                          </mask>
+                          <g mask="url(#mask0_12162_35831)">
+                            <path
+                              d="M4.35 19.5992C4.16667 19.4159 4.075 19.1951 4.075 18.9367C4.075 18.6784 4.16667 18.4617 4.35 18.2867L5.7625 16.8742C5.22917 16.1909 4.8125 15.4346 4.5125 14.6055C4.2125 13.7763 4.0625 12.8909 4.0625 11.9492C4.0625 9.74089 4.83333 7.86589 6.375 6.32422C7.91667 4.78255 9.79167 4.01172 12 4.01172H18.0625C18.5792 4.01172 19.0208 4.19505 19.3875 4.56172C19.7542 4.92839 19.9375 5.37005 19.9375 5.88672V11.9492C19.9375 14.1576 19.1667 16.0326 17.625 17.5742C16.0833 19.1159 14.2083 19.8867 12 19.8867C11.0667 19.8867 10.1854 19.7367 9.35625 19.4367C8.52708 19.1367 7.77083 18.7201 7.0875 18.1867L5.6625 19.5992C5.4875 19.7742 5.27083 19.8617 5.0125 19.8617C4.75417 19.8617 4.53333 19.7742 4.35 19.5992ZM8.3875 15.5617C8.5625 15.7534 8.775 15.8534 9.025 15.8617C9.275 15.8701 9.4875 15.7867 9.6625 15.6117L13.6625 11.6242C13.8542 11.4326 13.95 11.2096 13.95 10.9555C13.95 10.7013 13.8542 10.4784 13.6625 10.2867C13.4875 10.1034 13.2708 10.0117 13.0125 10.0117C12.7542 10.0117 12.5333 10.1034 12.35 10.2867L8.3875 14.2492C8.20417 14.4326 8.1125 14.6513 8.1125 14.9055C8.1125 15.1596 8.20417 15.3784 8.3875 15.5617Z"
+                              fill="white" />
+                          </g>
+                        </svg>
+                      </span>Environment
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button id="social-tab" class="btn btn-icon btn-secondary btn-sm" data-bs-toggle="tab"
+                      data-bs-target="#social-tab-pane" role="tab">
+                      <span class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                          <mask id="mask0_12162_35842" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
+                            width="24" height="24">
+                            <rect width="24" height="24" fill="#D9D9D9" />
+                          </mask>
+                          <g mask="url(#mask0_12162_35842)">
+                            <path
+                              d="M1.35938 17.0242C1.35938 16.4742 1.49896 15.9721 1.77813 15.518C2.05729 15.0638 2.43438 14.7159 2.90938 14.4742C3.92604 13.9742 4.95521 13.5971 5.99688 13.343C7.03854 13.0888 8.08854 12.9617 9.14687 12.9617C10.2052 12.9617 11.2531 13.0888 12.2906 13.343C13.3281 13.5971 14.3552 13.9742 15.3719 14.4742C15.8469 14.7159 16.224 15.0638 16.5031 15.518C16.7823 15.9721 16.9219 16.4742 16.9219 17.0242V17.7992C16.9219 18.3159 16.7385 18.7576 16.3719 19.1242C16.0052 19.4909 15.5635 19.6742 15.0469 19.6742H3.23438C2.71771 19.6742 2.27604 19.4909 1.90938 19.1242C1.54271 18.7576 1.35938 18.3159 1.35938 17.7992V17.0242ZM18.2844 19.6742C18.451 19.3909 18.5781 19.0909 18.6656 18.7742C18.7531 18.4576 18.7969 18.1326 18.7969 17.7992V16.9242C18.7969 16.1992 18.6094 15.5013 18.2344 14.8305C17.8594 14.1596 17.3052 13.5951 16.5719 13.1367C17.3802 13.2367 18.1406 13.4013 18.8531 13.6305C19.5656 13.8596 20.2344 14.1451 20.8594 14.4867C21.4344 14.7951 21.874 15.1492 22.1781 15.5492C22.4823 15.9492 22.6344 16.3826 22.6344 16.8492V17.7992C22.6344 18.3159 22.451 18.7576 22.0844 19.1242C21.7177 19.4909 21.276 19.6742 20.7594 19.6742H18.2844ZM9.14687 12.0242C8.08021 12.0242 7.17188 11.6492 6.42188 10.8992C5.67188 10.1492 5.29688 9.24089 5.29688 8.17422C5.29688 7.10755 5.67188 6.19922 6.42188 5.44922C7.17188 4.69922 8.08021 4.32422 9.14687 4.32422C10.2135 4.32422 11.1219 4.69922 11.8719 5.44922C12.6219 6.19922 12.9969 7.10755 12.9969 8.17422C12.9969 9.24089 12.6219 10.1492 11.8719 10.8992C11.1219 11.6492 10.2135 12.0242 9.14687 12.0242ZM18.6969 8.16172C18.6969 9.22005 18.3219 10.1263 17.5719 10.8805C16.8219 11.6346 15.9135 12.0117 14.8469 12.0117C14.6885 12.0117 14.4781 11.993 14.2156 11.9555C13.9531 11.918 13.7385 11.8742 13.5719 11.8242C14.0135 11.3159 14.3531 10.7492 14.5906 10.1242C14.8281 9.49922 14.9469 8.84505 14.9469 8.16172C14.9469 7.48672 14.8281 6.83464 14.5906 6.20547C14.3531 5.5763 14.0135 5.00755 13.5719 4.49922C13.7802 4.42422 13.9927 4.3763 14.2094 4.35547C14.426 4.33464 14.6385 4.32422 14.8469 4.32422C15.9135 4.32422 16.8219 4.69922 17.5719 5.44922C18.3219 6.19922 18.6969 7.10339 18.6969 8.16172Z"
+                              fill="white" />
+                          </g>
+                        </svg>
+                      </span>Social
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button id="governance-tab" class="btn btn-icon btn-secondary btn-sm" data-bs-toggle="tab"
+                      data-bs-target="#governance-tab-pane" role="tab">
+                      <span class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                          <mask id="mask0_12162_35852" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
+                            width="24" height="24">
+                            <rect width="24" height="24" fill="#D9D9D9" />
+                          </mask>
+                          <g mask="url(#mask0_12162_35852)">
+                            <path
+                              d="M5.24688 16.0633V10.7633C5.24688 10.5049 5.33854 10.2841 5.52188 10.1008C5.70521 9.91745 5.92604 9.82578 6.18438 9.82578C6.44271 9.82578 6.66354 9.91745 6.84688 10.1008C7.03021 10.2841 7.12188 10.5049 7.12188 10.7633V16.0633C7.12188 16.3216 7.03021 16.5424 6.84688 16.7258C6.66354 16.9091 6.44271 17.0008 6.18438 17.0008C5.92604 17.0008 5.70521 16.9091 5.52188 16.7258C5.33854 16.5424 5.24688 16.3216 5.24688 16.0633ZM11.0719 16.0633V10.7633C11.0719 10.5049 11.1635 10.2841 11.3469 10.1008C11.5302 9.91745 11.751 9.82578 12.0094 9.82578C12.2677 9.82578 12.4885 9.91745 12.6719 10.1008C12.8552 10.2841 12.9469 10.5049 12.9469 10.7633V16.0633C12.9469 16.3216 12.8552 16.5424 12.6719 16.7258C12.4885 16.9091 12.2677 17.0008 12.0094 17.0008C11.751 17.0008 11.5302 16.9091 11.3469 16.7258C11.1635 16.5424 11.0719 16.3216 11.0719 16.0633ZM3.23438 20.7508C2.97604 20.7508 2.75521 20.6591 2.57188 20.4758C2.38854 20.2924 2.29688 20.0716 2.29688 19.8133C2.29688 19.5549 2.38854 19.3341 2.57188 19.1508C2.75521 18.9674 2.97604 18.8758 3.23438 18.8758H20.7594C21.0177 18.8758 21.2385 18.9674 21.4219 19.1508C21.6052 19.3341 21.6969 19.5549 21.6969 19.8133C21.6969 20.0716 21.6052 20.2924 21.4219 20.4758C21.2385 20.6591 21.0177 20.7508 20.7594 20.7508H3.23438ZM16.8719 16.0633V10.7633C16.8719 10.5049 16.9635 10.2841 17.1469 10.1008C17.3302 9.91745 17.551 9.82578 17.8094 9.82578C18.0677 9.82578 18.2885 9.91745 18.4719 10.1008C18.6552 10.2841 18.7469 10.5049 18.7469 10.7633V16.0633C18.7469 16.3216 18.6552 16.5424 18.4719 16.7258C18.2885 16.9091 18.0677 17.0008 17.8094 17.0008C17.551 17.0008 17.3302 16.9091 17.1469 16.7258C16.9635 16.5424 16.8719 16.3216 16.8719 16.0633ZM20.7719 7.95078H3.12187C2.88854 7.95078 2.69271 7.87161 2.53437 7.71328C2.37604 7.55495 2.29688 7.35911 2.29688 7.12578V6.61328C2.29688 6.44661 2.33854 6.30078 2.42188 6.17578C2.50521 6.05078 2.61771 5.95078 2.75938 5.87578L11.1594 1.68828C11.426 1.55495 11.7052 1.48828 11.9969 1.48828C12.2885 1.48828 12.5677 1.55495 12.8344 1.68828L21.1844 5.85078C21.351 5.93411 21.4781 6.0487 21.5656 6.19453C21.6531 6.34036 21.6969 6.50078 21.6969 6.67578V7.02578C21.6969 7.28411 21.6073 7.50286 21.4281 7.68203C21.249 7.8612 21.0302 7.95078 20.7719 7.95078Z"
+                              fill="white" />
+                          </g>
+                        </svg>
+                      </span>Governance
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 offset-xl-1 col-xl-10">
+              <!--#include virtual="/dist/includes/object/carousel-swiper-00.html" -->
+              <!--#include virtual="/dist/includes/object/carousel-swiper-00-opt.html" -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section swiper-container position-relative" id="swiper001" aria-roledescription="carousel"
+      aria-label="Lorem ipsum dolor 3142">
+      <div class="section-wrap">
+        <div class="container">
+          <div class="row g-4">
+            <div class="col-12">
+              <div class="content-heading separator text-center">
+                <span class="caption">Aree di Business</span>
+                <h2 class="heading fw-medium">La nostra <strong>innovativa piattaforma</strong> integrata e omnicanale
+                </h2>
+              </div>
+            </div>
+            <div class="col-12">
+              <!--#include virtual="/dist/includes/object/carousel-swiper-01.html" -->
+              <!--#include virtual="/dist/includes/object/carousel-swiper-01-opt.html" -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="section section-bg section-spit bg-primary" data-bs-theme="dark">
+      <!--#include virtual="/dist/includes/object/content-evidence-dark-01.html" -->
+    </section>
+
+
+
+    <section class="section swiper-container position-relative" id="swiper002" aria-roledescription="carousel"
+      aria-label="Lorem ipsum dolor 3143">
+      <div class="section-wrap">
+        <div class="container">
+          <div class="row g-4">
+            <div class="col-12">
+              <div class="content-heading separator text-center">
+                <span class="caption">Persone di Poste</span>
+                <h2 class="heading fw-medium">Le storie di chi ogni giorno contribuisce a realizzare la nostra</h2>
+              </div>
+            </div>
+            <div class="col-12">
+              <!--#include virtual="/dist/includes/object/carousel-swiper-02.html" -->
+              <!--#include virtual="/dist/includes/object/carousel-swiper-02-opt.html" -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-visual">
+      <div class="section-wrap">
+        <div class="visual">
+          <div class="row g-0">
+            <div class="col-12 col-md-6">
+              <div class="visual-object visual-overlay" data-pi-overlay="dark"
+                style="background-image: url(https://picsum.photos/id/883/864/400);" data-bs-theme="dark">
+                <div class="visual-body">
+                  <div class="visual-wrap">
+                    <h2 class="visual-title h2 fw-semibold">Gli appalti per lavori, forniture di beni e di servizi</h2>
+                  </div>
+                  <div class="visual-wrap">
+                    <div class="btn-container mb-3">
+                      <a href="#" title="Lorem impsum" class="btn btn-sm btn-icon btn-primary">
+                        <span class="icon">
+                          <svg focusable="false">
+                            <title>Lorem ipsum</title>
+                            <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#001b-arrow-forward-m"
+                              href="/dist/assets/core/images/iconset/sprite.svg#001b-arrow-forward-m"></use>
+                          </svg>
+                        </span>Contratti trasparenti
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="visual-object visual-overlay" data-pi-overlay="dark"
+                style="background-image: url(https://picsum.photos/id/919/864/400);" data-bs-theme="dark">
+                <div class="visual-body">
+                  <div class="visual-wrap">
+                    <h2 class="visual-title h2 fw-semibold">Gestione dei rischi e degli impatti climatici</h2>
+                  </div>
+                  <div class="visual-wrap">
+                    <div class="btn-container mb-3">
+                      <a href="#" title="Lorem impsum" class="btn btn-sm btn-icon btn-primary">
+                        <span class="icon">
+                          <svg focusable="false">
+                            <title>Lorem ipsum</title>
+                            <use xlink:href="/dist/assets/core/images/iconset/sprite.svg#001b-arrow-forward-m"
+                              href="/dist/assets/core/images/iconset/sprite.svg#001b-arrow-forward-m"></use>
+                          </svg>
+                        </span>Contratti trasparenti
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section class="section swiper-container position-relative" id="swiper003" aria-roledescription="carousel"
+      aria-label="Lorem ipsum dolor 3144">
+      <div class="section-wrap">
+        <div class="container">
+          <div class="row g-4">
+            <div class="col-12">
+              <div class="content-heading separator text-center">
+                <span class="caption">Comumnicati stampa</span>
+                <h2 class="heading fw-medium">Le comunicazioni ufficiali di Poste Italiane</h2>
+              </div>
+            </div>
+            <div class="col-12">
+              <!--#include virtual="/dist/includes/object/carousel-swiper-03a.html" -->
+              <!--#include virtual="/dist/includes/object/carousel-swiper-03-opt.html" -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="section">
+      <div class="section-wrap">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="scroll-content-x mobile-hide-scroll mode-center">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="calendario-tab" data-bs-toggle="tab"
+                      data-bs-target="#calendario-tab-pane" type="button" role="tab" aria-controls="calendario-tab-pane"
+                      aria-selected="true">Calendario finanziario</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="bilancio-tab" data-bs-toggle="tab" data-bs-target="#bilancio-tab-pane"
+                      type="button" role="tab" aria-controls="bilancio-tab-pane" aria-selected="false">Bilancio e
+                      relazioni</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="bilancio-tab" data-bs-toggle="tab" data-bs-target="#bilancio-tab-pane"
+                      type="button" role="tab" aria-controls="bilancio-tab-pane" aria-selected="false">Bilancio e
+                      relazioni</button>
+                  </li>
+                </ul>
+              </div>
+              <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="calendario-tab-pane" role="tabpanel"
+                  aria-labelledby="calendario-tab" tabindex="0">
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="swiper-container position-relative" id="swiper004" aria-roledescription="carousel"
+                        aria-label="Lorem ipsum dolor 3145" role="region">
+                        <!--#include virtual="/dist/includes/object/carousel-swiper-04a.html" -->
+                        <!--#include virtual="/dist/includes/object/carousel-swiper-04-opt.html" -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="bilancio-tab-pane" role="tabpanel" aria-labelledby="bilancio-tab"
+                  tabindex="0">
+                  <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam veniam, dolore blanditiis aut
+                      quidem autem
+                      doloribus placeat necessitatibus aperiam, consequatur debitis eius impedit soluta magni laboriosam
+                      suscipit vel
+                      ipsum ducimus.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+  </main>
+
+  <footer id="footer">
+    <section class="section section-footer section-footer-info">
+      <div class="section-wrap">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <!--#include virtual="/dist/includes/footer/footer-section-info.html" -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-footer section-footer-extra">
+      <div class="section-wrap">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <!--#include virtual="/dist/includes/footer/footer-section-extra.html" -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--#include virtual="/dist/includes/utilities/footer-tag.shtml" -->
+  </footer>
+</body>
+
+</html>

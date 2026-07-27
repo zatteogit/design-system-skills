@@ -1,0 +1,418 @@
+/*****************************************************
+
+    Theme Name: Docs Generic
+    Author: GDS//FS//DU 
+    Created: 10/2021
+    Based on: kit Bootstrap v5.3.2
+    File Description: Foglio di stile Main
+
+    Version: Pack 1.1.0
+    Last modified: 10/2025
+
+*****************************************************/
+
+
+/****************************
+
+- Generic
+- Btn
+- List
+- Container
+- Header / Nav
+- Breadcrumb
+
+-- @Media (min-width: 576px) sm
+-- @Media (min-width: 768px) md
+-- @Media (min-width: 992px) lg
+-- @Media (min-width: 1200px) xl
+-- @Media (min-width: 1400px) xxl
+
+*****************************/
+
+
+/***** Generic *****/
+.content{
+    margin-bottom: 1rem;
+}
+
+article .heading{
+    margin-bottom: 1rem;
+}
+
+.divider{
+    min-height: 1px;
+}
+
+.badge {
+    padding: .35em 1.2em;
+}
+
+.preview{
+    margin-bottom: 2.5rem;
+}
+
+.tag-code{
+    background-color: var(--color-grey01);
+    color: var(--color-red01);
+    white-space: nowrap;
+    padding: 3px 5px;
+    border-radius: 4px;
+    font-weight: 400;
+}
+
+.content code{
+    color: var(--color-red01);
+    white-space: nowrap;
+}
+
+.code,
+.preview{
+    position: relative;
+}
+
+.code .code-services .badge,
+.preview .preview-services .badge{
+    position: absolute;
+    right: 24px;
+    background-color: var(--color-primary) !important;
+    color: var(--color-grey01) !important;
+    z-index: 1;
+}
+
+.code .code-services .badge{
+    right: 120px;
+}
+
+.code .code-services .badge{
+    top: 22px;
+}
+
+.preview .preview-services .badge{
+    top: 60px; 
+}
+
+.copycode,
+.viewcode{
+    position: absolute;
+    background-color:  var(--color-yellow01) !important;
+    padding: 0;
+    border-radius: 30px;
+    top: 10px;
+    right: 70px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+.copycode:focus,
+.viewcode:focus,
+.copycode:active,
+.viewcode:active{
+    box-shadow: none!important;
+}
+
+.copycode .icon,
+.viewcode .icon{
+    width: 22px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+}
+
+.copycode .icon svg,
+.viewcode .icon svg{
+    width: 22px;
+    height: 22px;
+    fill: var(--color-primary);
+}
+
+.viewcode{
+    right: 20px;
+}
+
+
+.copycode img{
+    width: 20px;
+    height: 20px;
+}
+
+.border-info{
+    border-color: var(--color-yellow01)!important ;
+}
+
+.related-wrap{
+    margin-bottom: 1.5rem;
+}
+
+.related{
+    border-left: 3px solid var(--color-primary);
+    background-color: #2a44592b;
+    padding: .5rem 1.5rem;
+    margin-bottom: 0;
+} 
+  
+.related-preview{
+    border-left: 3px solid var(--color-yellow01);
+    background-color: var(--color-yellow04);
+    padding: .5rem 1.5rem;
+    margin-bottom: 0;
+}
+
+
+/***** Btn *****/
+
+.btn-primary {
+    background-color: var(--color-yellow01);
+    border-color: var(--color-yellow01);
+    color: var(--color-text01);
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+    background-color: var(--color-yellow02);
+    border-color: var(--color-yellow01);
+    color: var(--color-text01);
+}
+
+.btn-primary:focus,
+.btn-primary:active:focus {
+    box-shadow: 0 0 0 .25rem var(--color-yellow01);
+}
+
+
+/***** List *****/
+
+.list-group.list-group-spaced .list-group-item {
+    padding-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.list-group.list-group-spaced .list-group-item:last-child {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+ul.list {
+    list-style-type: none;
+    margin-left: 0;
+    padding-right: 0;
+}
+ul.list li{
+    position: relative;
+}
+ul.list li::before {
+    content: "";
+    position: absolute;
+    left: -1.25rem;
+    top: .45rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    background-color: var(--color-yellow03);
+}  
+ul.list li.wip::before{
+    background-color: var(--color-red01);
+
+}
+
+/***** Container *****/
+
+.main-pills:not(.main-pills-basic) {
+    border: 1px solid var(--color-grey02);
+}
+
+.main-pills:not(.main-pills-basic) .main-pills-header,
+.main-pills:not(.main-pills-basic) .main-pills-body {
+    padding: 1.5rem;
+}
+
+.hljs{
+    background-image: url("/docs/assets/core/images/icons/ico-code.png");
+    background-position: bottom 30px right 30px;
+    background-repeat: no-repeat;
+    background-color: var(--color-grey01);
+}
+
+caption,
+.preview-caption{
+    color: var(--color-text02);
+    font-style: italic;
+    font-size: 0.85rem;
+}
+
+.table{
+    color: var(--color-text02);
+}
+
+.table > tbody{
+    border-color: var(--color-grey01);
+}
+
+.table > thead{
+    border-top: none!important;
+}
+
+.table > thead th {
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+/***** Header / Nav *****/
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-brand {
+    background-color: var(--color-yellow01);
+    height: 3.125rem;
+    /*50px*/
+}
+
+#nav-sidebar,
+#nav-sidebar-context{
+    top: 9.5rem;
+    z-index: 1019;
+}
+
+#nav-sidebar ul li a,
+#nav-sidebar-context ul li a {
+    color: var(--color-text02);
+}
+
+#nav-sidebar ul li ul li>a:hover,
+#nav-sidebar-context ul li>a:hover{
+    background-color: var(--color-grey01);
+}
+
+#nav-sidebar ul li .active {
+    background-color: var(--color-yellow01);
+    color: var(--color-text01);
+}
+
+#nav-sidebar ul li .disabled {
+    color: var(--color-grey02);
+}
+
+#nav-sidebar ul li:hover .active {
+    background-color: var(--color-yellow02);
+}
+
+#nav-sidebar ul li:hover .disabled {
+    background-color: transparent;
+    cursor: not-allowed;
+}
+
+#nav-sidebar-context ul li .active {
+    background-color: var(--color-grey01);
+    color: var(--color-text01);
+}
+
+#nav-sidebar-context ul li:hover .active {
+    background-color: var(--color-grey02);
+    color: var(--color-grey01);
+}
+
+#nav-sidebar ul li :focus,
+#nav-sidebar-context ul li :focus {
+    position: relative;
+}
+
+.nav-sidebar-level-title{
+    position: relative;
+    padding-right: 1.6rem;
+    color: var(--color-primary)!important;
+    font-weight: 600;
+}
+
+.nav-sidebar-level-title[data-bs-toggle]::after{
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: auto;
+    content: "";
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.5 4.5a.75.75 0 0 1 1.06 0L8 9.94l5.44-5.44a.75.75 0 1 1 1.06 1.06l-6 6a.75.75 0 0 1-1.06 0l-6-6a.75.75 0 0 1 0-1.06z'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    transition: transform .2s ease-in-out;
+    position: absolute;
+    right: 0;
+    top: 0.5rem;
+}
+
+.nav-sidebar-level-title[data-bs-toggle]:not(.collapsed)::after{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.5 4.5a.75.75 0 0 1 1.06 0L8 9.94l5.44-5.44a.75.75 0 1 1 1.06 1.06l-6 6a.75.75 0 0 1-1.06 0l-6-6a.75.75 0 0 1 0-1.06z'/%3e%3c/svg%3e");
+    transform: rotate(-180deg);
+}
+
+.version-pack{
+    position: relative;
+    z-index: 2;
+}
+
+.version-pack::before{
+    position: absolute;
+    display: block;
+    border-radius: 3rem 0rem 0rem 3rem;
+    width: 10rem;
+    height: 3rem;
+    top: -0.7rem;
+    left: -1.5rem;
+    background-color: var(--color-grey01);
+    content: " ";
+    z-index: -1;
+}
+
+/***** Breadcrumb *****/
+.breadcrumb-item{
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.breadcrumb-item.active{
+    text-transform: none;
+    font-weight: 400;
+}
+
+/* sm - Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {}
+
+
+/* md - Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {}
+
+
+/* lg - // Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    #nav-sidebar,
+    #nav-sidebar-context{
+        overflow: auto;
+        height: calc(100vh - 9.5rem);
+    }
+}
+
+
+/* xl - X-Large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}
+
+
+/* xxl - XX-Large devices (larger desktops, 1400px and up) */
+
+@media (min-width: 1400px) {}
+
+
+/* Retina */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+    
+    .hljs{
+        background-image: url("/docs/assets/core/images/icons/ico-code@2x.png");
+    }
+
+}

@@ -1,0 +1,78 @@
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    
+
+    const args = {
+        slidesPerView: 1,
+        spaceBetween: 0,
+        watchSlidesProgress: true,
+
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+            dynamicBullets: true,
+            clickable: false,
+        },
+
+        
+        autoplay: {
+            delay: 100000,
+            disableOnInteraction: true,
+        },
+
+        a11y: swiper_lang_it,
+
+        keyboard: {
+            enabled: true,
+        },
+        
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-btn-next',
+            prevEl: '.swiper-btn-prev',
+        },
+
+        breakpoints: {
+            768: {
+                //slidesPerView: 2
+            },
+            992: {
+                //slidesPerView: 3,
+            }
+        },
+        on: {
+                afterInit: function (swiper) {
+                // Play/Pause control button
+                var id_swiper_wrapper = this.slidesEl.getAttribute('id');
+
+                var swiper_container_id = document.querySelector('#'+this.slidesEl.getAttribute('id')).closest('.swiper-container').getAttribute('id');
+                
+                const controlBtn = document.querySelector('#'+swiper_container_id+' .swiper-btn-autoplay');
+                controlBtn.setAttribute('aria-controls', id_swiper_wrapper);
+
+                controlBtn.addEventListener('click', function () {
+                    if (this.getAttribute('aria-pressed') === 'true' || this.getAttribute('aria-pressed') == null) {
+                        swiper.autoplay.stop();
+                        console.log('vai in stop');
+                        this.querySelector('.swiper-btn-play').classList.remove('d-none');
+                        this.querySelector('.swiper-btn-play').classList.add('d-flex');
+                        this.querySelector('.swiper-btn-pause').classList.add('d-none');
+                        this.querySelector('.swiper-btn-pause').classList.remove('d-flex');
+                        this.setAttribute('aria-pressed', 'false');
+                    } else {
+                        swiper.autoplay.start();
+                        console.log('vai in play');
+                        this.querySelector('.swiper-btn-play').classList.remove('d-flex');
+                        this.querySelector('.swiper-btn-play').classList.add('d-none');
+                        this.querySelector('.swiper-btn-pause').classList.add('d-flex');
+                        this.querySelector('.swiper-btn-pause').classList.remove('d-none');
+                        this.setAttribute('aria-pressed', 'true');
+                    }
+                });
+            },
+        }
+    }
+
+    const swiper = new Swiper('#intro-carousel .swiper', args);
+});

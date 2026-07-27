@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <title>Html kit - Installazione</title>
+    <!--#include virtual="/docs/includes/utilities/head-tag.html" -->
+    <script>
+        var setDocsActivePage= "Installazione";
+    </script>
+</head>
+
+<body data-bs-spy="scroll" tabindex="0">
+
+    <header class="sticky-top">
+        <!--#include virtual="/docs/includes/nav/nav-main-documentazione.html" -->
+        <!--#include virtual="/docs/includes/header/abstract-default.html" -->
+    </header>
+
+    <main>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-3 col-lg-2 border-end">
+                    <nav id="nav-sidebar" class="sticky-top">
+
+                        <!--#include virtual="/docs/includes/nav/nav-sidebar-documentazione.html" -->
+
+                    </nav>
+                </div>
+                <div class="col-sm-9 col-lg-8 pt-4 pb-5">
+                    <section class="container">
+                        <div class="row">
+                            <!--Breadcrumb-->
+                            <div id="breadcrumb" class="col-12">
+                                <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item"><a href="#">Getting Started</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">Installazione
+                                        </li>
+                                    </ol>
+                                </nav>
+                            </div>
+                            <!--Breadcrumb end-->
+                            <!--Main title-->
+                            <div id="main-title" class="col-12">
+                                <h2 class="heading h1 fw-normal">Installazione</h2>
+                            </div>
+                            <!--Main title end-->
+                            <!--Article-->
+                            <article class="mb-5">
+                                <div class="col-12">
+                                    <div class="main-pills main-pills-basic rounded" id="contenuto0">
+                                        <div class="main-pills-header rounded">
+                                            <div class="row">
+                                                <div class="col-12 mt-3">
+                                                    <h3 class="heading h3 fw-normal border-start border-3 ps-2 border-info">
+                                                        Distribuzione Kit HTML</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="main-pills-body">
+                                            <div class="content">
+                                                <p>Per la <strong>condivisione del pacchetto</strong> kit HTML sono stati definiti <strong>specifici passi operativi</strong> definiti all'interno di 
+                                                    <span class="text-body-secondary">COO/SI/Governance</span> (ora <span class="text-body-secondary">DTO</span>) al fine di rendere fruibile alle 
+                                                    strutture di sviluppo interessate la componente User Interface KIT (oggi kit HTML).</p>
+                                                    <p>Il gruppo <span class="text-body-secondary">CA/DM/Progettazione Grafica</span> si occupa del caricamento del pacchetto compresso all'interno della cartella dedicata, denominata "UI-kit HTML", su ambiente SharePoint.</p>
+                                                    <p>Il sistema <strong>SharePoint</strong> invia automaticamente una notifica via mail ad un elenco predefinito di utenti 
+                                                    (da aggiornare a cura dei PQM delle strutture di Sviluppo) ogni qualvolta viene rilasciata una nuova versione del kit HTML.
+                                                    I PM/PQM hanno accesso in lettura alla cartella per acquisire il kit ed utilizzarlo, ove applicabile.</p>
+                                                    <p>Della richiesta di <strong>accesso</strong> alla sopra citata <strong>cartella</strong> si fa carico la struttura di <span class="text-body-secondary">DTO</span> stessa.</p>
+                                                    
+                                                    <p><strong>NB:</strong> Per la visualizzazione della linea guida &egrave; necessario decomprimere l'archivio su una doc_root di un web server / virtual host con <abbr title="server side includes">SSI</abbr> abilitati.</p>
+                                                    <ul class="list-group">
+                                                        <li class="list-group-item">
+                                                            <a class="d-flex align-items-center" title="SharePoint folder - Kit HTML" target="_blank" href="https://posteitaliane.sharepoint.com/sites/DigitalApplicationSolutions/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalApplicationSolutions%2FShared%20Documents%2FUI%2Dkit%20HTML">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-folder" viewBox="0 0 16 16">
+                                                                <path d="M.54 3.87.5 3a2 2 0 0 1 2-2h3.672a2 2 0 0 1 1.414.586l.828.828A2 2 0 0 0 9.828 3h3.982a2 2 0 0 1 1.992 2.181l-.637 7A2 2 0 0 1 13.174 14H2.826a2 2 0 0 1-1.991-1.819l-.637-7a1.99 1.99 0 0 1 .342-1.31zM2.19 4a1 1 0 0 0-.996 1.09l.637 7a1 1 0 0 0 .995.91h10.348a1 1 0 0 0 .995-.91l.637-7A1 1 0 0 0 13.81 4H2.19zm4.69-1.707A1 1 0 0 0 6.172 2H2.5a1 1 0 0 0-1 .981l.006.139C1.72 3.042 1.95 3 2.19 3h5.396l-.707-.707z"/>
+                                                              </svg> <span class="ms-2">SharePoint folder - Kit HTML</span>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="divider bg-grey01 py-1 my-2 px-2 d-flex align-items-center justify-content-end">
+                                        <span>&nbsp;</span>
+                                    </div>
+                                    <div class="divider bg-grey02 py-1 my-2"></div>
+                                </div>
+                            </article>
+                            <!--Article end-->
+                        </div>
+                    </section>
+                </div>
+                <div class="col-lg-2 d-none d-lg-block">
+                    <nav id="nav-sidebar-context" class="navbar flex-column sticky-top" role="navigation">
+
+                        <!--#include virtual="/docs/includes/nav/nav-sidebar-context-documentazione-installazione.html" -->
+
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container-fluid py-4">
+            <!--#include virtual="/docs/includes/footer/footer-default.html" -->
+        </div>
+    </footer>
+
+
+    <!--#include virtual="/docs/includes/utilities/footer-tag.html" -->
+    <!--#include virtual="/docs/includes/code/code-base.html" -->
+    <!--#include virtual="/docs/includes/utilities/loader.html" -->
+
+</body>
+
+</html>
